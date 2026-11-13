@@ -196,7 +196,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: frontend-builder · Spec: 007 · Depende de: T-403
 - Faz: ilha client-side que troca para a mesma rota no outro idioma e grava o cookie.
 - Pronto quando:
-  - [ ] Em `/pt/c/icons`, trocar leva a `/en/c/icons`.
+  - [ ] Em `/pt/c/icons`, trocar leva a `/en/c/icons`. (Testado na home; o caso exato fica para a T-504, quando a rota existir.)
 
 ### T-405 · Tema claro/escuro
 - Agente: frontend-builder · Spec: 004 · Depende de: T-403 · **Ver decisão D-03**
