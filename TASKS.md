@@ -365,7 +365,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: data-ci · Spec: 002 · Depende de: T-204
 - Faz: só para YAML alterados: https obrigatório, resposta 2xx/3xx (com retry e timeout).
 - Pronto quando:
-  - [ ] URL partida faz o CI falhar com mensagem clara.
+  - [x] URL partida faz o CI falhar com mensagem clara.
 
 ### T-804 · assign-ids
 - Agente: data-ci · Spec: 002 · Depende de: T-204
