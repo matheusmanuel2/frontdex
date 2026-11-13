@@ -383,8 +383,8 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: data-ci · Spec: 006 · Depende de: T-104
 - Faz: `scripts/check-anti-ai.ts` (`pnpm check:anti-ai`) com todas as regras de código e texto da spec 006. Saída `ficheiro:linha › regra`.
 - Pronto quando:
-  - [ ] Cada regra tem um fixture que falha.
-  - [ ] Gradiente em `components/hero/` passa; fora dele falha.
+  - [x] Cada regra tem um fixture que falha.
+  - [x] Gradiente em `components/hero/` passa; fora dele falha.
 
 ### T-807 · Labels, template de PR e proteção de `main`
 - Agente: data-ci · Spec: 002 · Depende de: T-104
