@@ -49,3 +49,4 @@ export const listCollections = (options?: { includeDrafts?: boolean }) =>
   queries.listCollections(getContent(), options);
 export const getCollection = (slug: string) => queries.getCollection(getContent(), slug);
 export const getCollectionResources = (slug: string) => queries.getCollectionResources(getContent(), slug);
+export { resourceToYaml } from './yaml';
