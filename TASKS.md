@@ -61,8 +61,8 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: data-ci · Spec: 000 · Depende de: T-101
 - Faz: Vitest (unitários), Playwright + `@axe-core/playwright` (e2e e acessibilidade). Scripts `pnpm test`, `pnpm test:e2e`.
 - Pronto quando:
-  - [ ] Um teste de exemplo passa em cada ferramenta.
-  - [ ] Playwright corre contra `pnpm build && pnpm start`.
+  - [x] Um teste de exemplo passa em cada ferramenta.
+  - [x] Playwright corre contra `pnpm build && pnpm start`.
 
 ### T-104 · CI mínimo
 - Agente: data-ci · Spec: 002 · Depende de: T-102, T-103
