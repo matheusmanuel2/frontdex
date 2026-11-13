@@ -1,13 +1,20 @@
 import { execFileSync } from 'node:child_process';
-import { cpSync, existsSync, mkdirSync, rmSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, rmSync } from 'node:fs';
 import path from 'node:path';
 
 const pagefindOutput = path.resolve('.next/static/pagefind');
 const vercelStaticOutput = path.resolve('.vercel/output/static/_next/static/pagefind');
 const production = process.argv.includes('--prod');
+const buildEnvironment: NodeJS.ProcessEnv = { ...process.env, FRONTDEX_DEFER_PAGEFIND: '1' };
+
+if (production && !buildEnvironment.UMAMI_WEBSITE_ID) {
+  const websiteId = /^UMAMI_WEBSITE_ID=(.+)$/m.exec(readFileSync('.env.example', 'utf8'))?.[1]?.trim();
+  if (!websiteId) throw new Error('Defina UMAMI_WEBSITE_ID no ambiente ou em .env.example para a build de produção.');
+  buildEnvironment.UMAMI_WEBSITE_ID = websiteId;
+}
 
 execFileSync('vercel', ['build', '--yes', ...(production ? ['--prod'] : ['--environment', 'preview'])], {
-  env: { ...process.env, FRONTDEX_DEFER_PAGEFIND: '1' },
+  env: buildEnvironment,
   stdio: 'inherit',
 });
 
