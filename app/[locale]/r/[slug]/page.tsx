@@ -83,7 +83,23 @@ export default async function ResourcePage({ params }: Props) {
         />
 
         <div className="mt-8 flex flex-wrap items-start gap-12">
-          <div className="min-w-0 flex-[999_1_560px]">
+          <div className="min-w-0 flex-[999_1_560px]" data-pagefind-body>
+            {/* Metadados e filtros da busca (spec 008): não aparecem na página. */}
+            <div hidden>
+              <span data-pagefind-meta="kind">resource</span>
+              <span data-pagefind-meta="slug">{resource.slug}</span>
+              {resource.id !== undefined ? <span data-pagefind-meta="id">{resource.id}</span> : null}
+              <span data-pagefind-meta="url">{resource.url}</span>
+              <span data-pagefind-meta="category">{category?.name[locale]}</span>
+              <span data-pagefind-meta="description">{resource.description[locale]}</span>
+              <span data-pagefind-meta="area">{area?.name[locale]}</span>
+              <span data-pagefind-filter="area">{area?.name[locale]}</span>
+              <span data-pagefind-filter="category">{category?.name[locale]}</span>
+              {resource.pricing === 'TODO' ? null : (
+                <span data-pagefind-filter="pricing">{pricing(resource.pricing)}</span>
+              )}
+              {resource.open_source === true ? <span data-pagefind-filter="oss">{t('ossBadge')}</span> : null}
+            </div>
             {resource.id !== undefined || resource.open_source === true ? (
               <div className="mb-5 flex items-center gap-2">
                 {resource.id !== undefined ? (
@@ -97,7 +113,7 @@ export default async function ResourcePage({ params }: Props) {
             <h1 className="title-display text-primary">{resource.name}</h1>
             <p className="mt-5 max-w-2xl text-h3 font-normal text-primary">{resource.description[locale]}</p>
 
-            <div className="mt-7 flex flex-wrap gap-3">
+            <div className="mt-7 flex flex-wrap gap-3" data-pagefind-ignore>
               <a
                 href={resource.url}
                 rel="noopener"
@@ -132,7 +148,7 @@ export default async function ResourcePage({ params }: Props) {
             ) : null}
 
             {alternatives.length > 0 ? (
-              <section aria-labelledby="alternatives" className="mt-14">
+              <section aria-labelledby="alternatives" className="mt-14" data-pagefind-ignore>
                 <h2 id="alternatives" className="title-h3 text-primary">
                   {t('alternatives')}
                 </h2>
