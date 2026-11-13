@@ -266,7 +266,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003 · Depende de: T-503
 - Faz: `/[locale]/new`, agrupado por semana de `added`, link para o RSS. Referência: `New.dc.html`.
 - Pronto quando:
-  - [ ] Ordem do mais recente para o mais antigo; semanas sem recursos não aparecem.
+  - [x] Ordem do mais recente para o mais antigo; semanas sem recursos não aparecem.
 
 ### T-508 · Surpresa
 - Agente: frontend-builder · Spec: 003 · Depende de: T-505 · **Ver decisão D-01**
