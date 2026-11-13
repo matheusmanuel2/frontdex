@@ -92,8 +92,8 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: data-ci · Spec: 001 · Depende de: T-201
 - Faz: `lib/content/index.ts` com `getResource`, `listResources({area, category, tag, status})`, `getCategory`, `listCategories(area)`, `getArea`, `listCollections`, `getCollection`, `getAlternatives`, `listNew({since})`. Só devolve `active` por omissão. Cache em memória durante o build.
 - Pronto quando:
-  - [ ] Funções puras, tipadas, cobertas por testes.
-  - [ ] `lib/content` é o único sítio do código que lê ficheiros de `data/`.
+  - [x] Funções puras, tipadas, cobertas por testes.
+  - [x] `lib/content` é o único sítio do código que lê ficheiros de `data/`.
 
 ### T-204 · `pnpm validate`
 - Agente: data-ci · Spec: 001 · Depende de: T-203
