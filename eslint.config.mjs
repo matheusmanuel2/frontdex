@@ -5,6 +5,11 @@ import prettier from 'eslint-config-prettier/flat';
 // Bibliotecas de ícones genéricas estão proibidas (CLAUDE.md, spec 004).
 // Os ícones são só os nossos, sobre components/icons/IconBase.
 const forbiddenIconLibraries = ['lucide-react', '@heroicons/react', 'react-icons', '@tabler/icons-react'];
+// Movimento só pelos recipes do transitions.dev (styles/motion.css), nunca por bibliotecas JS.
+const forbiddenMotion = ['motion', 'motion/react', 'framer-motion'].map((name) => ({
+  name,
+  message: 'Movimento só com os recipes de styles/motion.css (transitions.dev).',
+}));
 
 const config = [
   {
@@ -26,10 +31,13 @@ const config = [
       'no-restricted-imports': [
         'error',
         {
-          paths: forbiddenIconLibraries.map((name) => ({
-            name,
-            message: 'Bibliotecas de ícones genéricas são proibidas. Usa os ícones de components/icons (IconBase).',
-          })),
+          paths: [
+            ...forbiddenIconLibraries.map((name) => ({
+              name,
+              message: 'Bibliotecas de ícones genéricas são proibidas. Usa os ícones de components/icons (IconBase).',
+            })),
+            ...forbiddenMotion,
+          ],
           patterns: forbiddenIconLibraries.map((name) => ({
             group: [`${name}/*`],
             message: 'Bibliotecas de ícones genéricas são proibidas. Usa os ícones de components/icons (IconBase).',
@@ -62,6 +70,7 @@ const config = [
               name,
               message: 'Bibliotecas de ícones genéricas são proibidas.',
             })),
+            ...forbiddenMotion,
             ...['fs', 'node:fs', 'fs/promises', 'node:fs/promises', 'yaml'].map((name) => ({
               name,
               message: 'Só lib/content lê ficheiros de data/. Importa as consultas de @/lib/content.',

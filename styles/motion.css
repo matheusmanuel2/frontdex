@@ -95,80 +95,75 @@
 }
 
 /* ── 05 · Menu dropdown ─────────────────────────────────────── */
+/*
+ * Adaptado ao Radix: o Radix só adia o desmontar à espera de `animation`
+ * (não de `transition`), por isso o recipe vira dois @keyframes com os
+ * mesmos valores (escala de entrada/saída, durações e easing do recipe).
+ * A origem vem do Radix (lado onde o menu abre).
+ */
 .t-dropdown {
-  transform-origin: top left;
-  transform: scale(var(--dropdown-pre-scale));
-  opacity: 0;
-  pointer-events: none;
-  transition:
-    transform var(--dropdown-open-dur) var(--dropdown-ease),
-    opacity var(--dropdown-open-dur) var(--dropdown-ease);
+  transform-origin: var(--radix-dropdown-menu-content-transform-origin, var(--radix-popper-transform-origin, top left));
   will-change: transform, opacity;
 }
-.t-dropdown[data-origin='top-right'] {
-  transform-origin: top right;
+.t-dropdown[data-state='open'] {
+  animation: t-dropdown-in var(--dropdown-open-dur) var(--dropdown-ease);
 }
-.t-dropdown[data-origin='top-center'] {
-  transform-origin: top center;
+.t-dropdown[data-state='closed'] {
+  animation: t-dropdown-out var(--dropdown-close-dur) var(--dropdown-ease) forwards;
 }
-.t-dropdown[data-origin='bottom-left'] {
-  transform-origin: bottom left;
+@keyframes t-dropdown-in {
+  from {
+    opacity: 0;
+    transform: scale(var(--dropdown-pre-scale));
+  }
 }
-.t-dropdown[data-origin='bottom-center'] {
-  transform-origin: bottom center;
-}
-.t-dropdown[data-origin='bottom-right'] {
-  transform-origin: bottom right;
-}
-.t-dropdown.is-open {
-  transform: scale(1);
-  opacity: 1;
-  pointer-events: auto;
-}
-.t-dropdown.is-closing {
-  transform: scale(var(--dropdown-closing-scale));
-  opacity: 0;
-  pointer-events: none;
-  transition:
-    transform var(--dropdown-close-dur) var(--dropdown-ease),
-    opacity var(--dropdown-close-dur) var(--dropdown-ease);
+@keyframes t-dropdown-out {
+  to {
+    opacity: 0;
+    transform: scale(var(--dropdown-closing-scale));
+  }
 }
 
 /* ── 06 · Modal ─────────────────────────────────────────────── */
+/* Adaptado ao Radix da mesma forma que o dropdown. */
 .t-modal {
   transform-origin: center;
-  transform: scale(var(--modal-scale));
-  opacity: 0;
-  pointer-events: none;
-  transition:
-    transform var(--modal-open-dur) var(--modal-ease),
-    opacity var(--modal-open-dur) var(--modal-ease);
   will-change: transform, opacity;
 }
-.t-modal.is-open {
-  transform: scale(1);
-  opacity: 1;
-  pointer-events: auto;
+.t-modal[data-state='open'] {
+  animation: t-modal-in var(--modal-open-dur) var(--modal-ease);
 }
-.t-modal.is-closing {
-  transform: scale(var(--modal-scale-close));
-  opacity: 0;
-  pointer-events: none;
-  transition:
-    transform var(--modal-close-dur) var(--modal-ease),
-    opacity var(--modal-close-dur) var(--modal-ease);
+.t-modal[data-state='closed'] {
+  animation: t-modal-out var(--modal-close-dur) var(--modal-ease) forwards;
+}
+@keyframes t-modal-in {
+  from {
+    opacity: 0;
+    transform: scale(var(--modal-scale));
+  }
+}
+@keyframes t-modal-out {
+  to {
+    opacity: 0;
+    transform: scale(var(--modal-scale-close));
+  }
 }
 /* Fundo do modal: só opacidade, no mesmo relógio (sem blur, spec 006). */
-.t-modal-overlay {
-  opacity: 0;
-  transition: opacity var(--modal-open-dur) var(--modal-ease);
+.t-modal-overlay[data-state='open'] {
+  animation: t-fade-in var(--modal-open-dur) var(--modal-ease);
 }
-.t-modal-overlay.is-open {
-  opacity: 1;
+.t-modal-overlay[data-state='closed'] {
+  animation: t-fade-out var(--modal-close-dur) var(--modal-ease) forwards;
 }
-.t-modal-overlay.is-closing {
-  opacity: 0;
-  transition-duration: var(--modal-close-dur);
+@keyframes t-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes t-fade-out {
+  to {
+    opacity: 0;
+  }
 }
 
 /* ── 09 · Icon swap ─────────────────────────────────────────── */
@@ -209,23 +204,25 @@
 }
 
 /* ── 17 · Tooltip ───────────────────────────────────────────── */
+/*
+ * O atraso de abertura (--tt-delay) é do Radix (delayDuration = MOTION_MS.micro);
+ * aqui fica só a entrada (fade + escala) e a saída rápida do recipe.
+ */
 .t-tt {
-  scale: var(--tt-scale);
-  opacity: 0;
-  transition:
-    opacity var(--tt-out-dur) var(--tt-out-ease),
-    scale var(--tt-out-dur) var(--tt-out-ease);
+  transform-origin: var(--radix-tooltip-content-transform-origin, center bottom);
 }
 .t-tt[data-state='delayed-open'],
 .t-tt[data-state='instant-open'] {
-  opacity: 1;
-  scale: 1;
-  transition:
-    opacity var(--tt-in-dur) var(--tt-in-ease) var(--tt-delay),
-    scale var(--tt-in-dur) var(--tt-in-ease) var(--tt-delay);
+  animation: t-tt-in var(--tt-in-dur) var(--tt-in-ease);
 }
-.t-tt[data-state='instant-open'] {
-  transition-delay: 0s;
+.t-tt[data-state='closed'] {
+  animation: t-fade-out var(--tt-out-dur) var(--tt-out-ease) forwards;
+}
+@keyframes t-tt-in {
+  from {
+    opacity: 0;
+    scale: var(--tt-scale);
+  }
 }
 
 /* ── 24 · Learn more hover (seta das linhas e links "ver tudo") ─ */
@@ -315,6 +312,7 @@
   .t-learn-arm,
   .t-icon-anim {
     transition: none !important;
+    animation: none !important;
   }
   .t-icon-host:hover .t-icon-anim,
   .t-icon-host:focus-visible .t-icon-anim,
