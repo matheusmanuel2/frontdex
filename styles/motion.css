@@ -256,6 +256,8 @@
 
 /* ── Ícones animados (hover/foco do elemento pai .t-icon-host) ─ */
 .t-icon-anim {
+  transform-box: fill-box;
+  transform-origin: center;
   transition: transform var(--icon-hover-out) var(--icon-hover-ease);
 }
 .t-icon-host:hover .t-icon-anim,
