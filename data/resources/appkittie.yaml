@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "AppKittie"
+url: https://appkittie.com
+area: discover
+category: app-research
+tags: [ios, android, market-data]
+pricing: TODO
+open_source: false
+description:
+  pt: "Dados de mercado de apps iOS e Android: receita, downloads, anúncios, palavras-chave de ASO e onboardings."
+  en: "Market data for iOS and Android apps: revenue, downloads, ads, ASO keywords and onboardings."
+added: 2026-11-12
+last_checked: 2026-11-12
+status: draft
+notes: "Curadoria: é inteligência de mercado, não design. Decidir se entra."

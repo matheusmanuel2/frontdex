@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Appllama"
+url: https://appllama.io
+area: discover
+category: ui-inspiration
+tags: [ios, screens, onboarding, paywalls]
+pricing: TODO
+open_source: false
+description:
+  pt: "Mais de 26 mil telas de apps iOS que mais faturam, com onboardings, paywalls e filtro por receita."
+  en: "26,000+ screens from top-earning iOS apps, with onboardings, paywalls and a filter by revenue."
+added: 2026-11-12
+last_checked: 2026-11-12
+status: draft
+notes: "Números de terceiros (26,4 mil telas, 650+ apps). Confirmar no site e preço."

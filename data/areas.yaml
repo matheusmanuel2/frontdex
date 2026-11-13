@@ -1,0 +1,20 @@
+- slug: discover
+  name: { pt: Descobrir, en: Discover }
+  description:
+    pt: Inspiração, vitrines e as pessoas que valem a pena seguir.
+    en: Inspiration, showcases and the people worth following.
+- slug: learn
+  name: { pt: Aprender, en: Learn }
+  description:
+    pt: Cursos, livros e guias, da primeira div ao design engineering.
+    en: Courses, books and guides, from your first div to design engineering.
+- slug: build
+  name: { pt: Construir, en: Build }
+  description:
+    pt: Bibliotecas, ícones, animação e as ferramentas com que você entrega.
+    en: Libraries, icons, animation and the tools you ship with.
+- slug: grow
+  name: { pt: Crescer, en: Grow }
+  description:
+    pt: Comunidades, open source e o próximo passo na carreira.
+    en: Communities, open source and the next step in your career.

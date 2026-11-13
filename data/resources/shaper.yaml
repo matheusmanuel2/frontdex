@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: "Shaper"
+url: https://github.com/taleshape-com/shaper
+author: "Taleshape"
+area: build
+category: charts
+tags: [sql, analytics, self-hosted]
+pricing: free
+open_source: true
+license: MPL-2.0
+description:
+  pt: "Dashboards de analytics escritos em SQL sobre DuckDB, para hospedar você mesmo ou embutir no seu produto."
+  en: "Self-hosted analytics dashboards written in SQL on top of DuckDB, also usable as embedded analytics."
+added: 2026-11-12
+last_checked: 2026-11-12
+status: active
+notes: "Curadoria: confirmar se entra no índice front-end (é mais BI/dados). Repo como URL até haver site oficial."

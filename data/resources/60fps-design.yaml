@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "60fps.design"
+url: https://60fps.design
+area: discover
+category: motion-inspiration
+tags: [motion, mobile, web]
+pricing: TODO
+open_source: false
+description:
+  pt: "Galeria de animações e interações de apps mobile e web, para usar como referência de movimento."
+  en: "Gallery of animations and interactions from mobile and web apps, to use as a motion reference."
+added: 2026-11-12
+last_checked: 2026-11-12
+status: draft
+notes: "Site não abriu na verificação. Confirmar conteúdo e preço."
