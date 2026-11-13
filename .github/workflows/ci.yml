@@ -45,6 +45,9 @@ jobs:
       - name: JSON Schema atualizado
         run: pnpm schema:check
 
+      - name: Contraste AA dos tokens
+        run: pnpm contrast:check
+
       - name: Testes unitários
         run: pnpm test
 

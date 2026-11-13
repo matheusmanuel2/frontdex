@@ -117,8 +117,8 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: design-system · Spec: 004 · Depende de: T-101
 - Faz: completa `styles/tokens.css` com todos os tokens da spec 004 + variante `[data-theme="light"]`. Cores do light: deriva do brand book e propõe; **não** inventa sem mostrar.
 - Pronto quando:
-  - [ ] Todos os tokens da spec existem nos dois temas.
-  - [ ] Tabela de contraste AA (texto × fundo) em `docs/design/contrast.md`, todas as combinações usadas a passar.
+  - [x] Todos os tokens da spec existem nos dois temas.
+  - [x] Tabela de contraste AA (texto × fundo) em `docs/design/contrast.md`, todas as combinações usadas a passar.
 
 ### T-302 · Tailwind v4 sobre os tokens
 - Agente: design-system · Spec: 004 · Depende de: T-301

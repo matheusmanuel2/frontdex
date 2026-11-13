@@ -22,7 +22,9 @@
     "test:e2e": "playwright test",
     "validate": "tsx scripts/validate.ts",
     "schema": "tsx scripts/schema.ts",
-    "schema:check": "tsx scripts/schema.ts --check"
+    "schema:check": "tsx scripts/schema.ts --check",
+    "contrast": "tsx scripts/contrast.ts",
+    "contrast:check": "tsx scripts/contrast.ts --check"
   },
   "dependencies": {
     "next": "^16.4.6",
