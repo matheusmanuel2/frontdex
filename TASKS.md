@@ -130,8 +130,8 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: design-system · Spec: 004, `decisions/0005` · Depende de: T-302
 - Faz: Geist e Geist Mono pelo pacote `geist` (next/font), `display: swap`, só os pesos usados (400, 500, 600). Títulos 400, −0,02em, entrelinha 1,05.
 - Pronto quando:
-  - [ ] Nenhum pedido a Google Fonts em produção.
-  - [ ] Classes utilitárias `font-mono`, `title-display`, `title-h1`, `title-h2`.
+  - [x] Nenhum pedido a Google Fonts em produção.
+  - [x] Classes utilitárias `font-mono`, `title-display`, `title-h1`, `title-h2`.
 
 ### T-304 · Movimento
 - Agente: design-system · Spec: 004 · Depende de: T-302

@@ -55,4 +55,11 @@ describe('Tailwind sobre os tokens', () => {
     const css = await compile(['p-4']);
     expect(css).toMatch(/\.p-4\s*\{\s*padding:\s*calc\(4px \* 4\)/);
   });
+
+  it('expõe as classes tipográficas', async () => {
+    const classes = ['font-mono', 'title-display', 'title-h1', 'title-h2', 'label-mono'];
+    const css = await compile(classes);
+    expect(classes.filter((className) => !has(css, className))).toEqual([]);
+    expect(css).toMatch(/\.title-h1\s*\{[^}]*font-weight:\s*var\(--font-weight-title\)/);
+  });
 });

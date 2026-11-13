@@ -114,3 +114,47 @@
     color: var(--color-button-brand-text);
   }
 }
+
+/*
+ * Tipografia (spec 004, T-303). Títulos em Geist 400, -0,02em, entrelinha 1,05.
+ * `font-mono` vem do @theme acima.
+ */
+@utility title-display {
+  font-family: var(--font-sans);
+  font-size: var(--text-display);
+  font-weight: var(--font-weight-title);
+  letter-spacing: var(--tracking-title);
+  line-height: var(--leading-title);
+}
+
+@utility title-h1 {
+  font-family: var(--font-sans);
+  font-size: var(--text-h1);
+  font-weight: var(--font-weight-title);
+  letter-spacing: var(--tracking-title);
+  line-height: var(--leading-title);
+}
+
+@utility title-h2 {
+  font-family: var(--font-sans);
+  font-size: var(--text-h2);
+  font-weight: var(--font-weight-title);
+  letter-spacing: var(--tracking-title);
+  line-height: var(--leading-title);
+}
+
+@utility title-h3 {
+  font-family: var(--font-sans);
+  font-size: var(--text-h3);
+  font-weight: var(--font-weight-ui);
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+@utility label-mono {
+  font-family: var(--font-mono);
+  font-size: var(--text-mono);
+  font-weight: var(--font-weight-ui);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
