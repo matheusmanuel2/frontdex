@@ -5,6 +5,7 @@
  */
 @import 'tailwindcss';
 @import './tokens.css';
+@import './motion.css';
 
 /*
  * `inline` faz os utilitários usarem var(--token) diretamente, para trocarem com o tema.
@@ -76,6 +77,10 @@
   --text-body: var(--text-body);
   --text-small: var(--text-small);
   --text-mono: var(--text-mono);
+
+  /* Transição padrão do utilitário `transition` = hover dos recipes */
+  --default-transition-duration: var(--hover-dur);
+  --default-transition-timing-function: var(--hover-ease);
 
   /* Espaço: base de 4px, como na spec (p-1 = 4px, p-4 = 16px) */
   --spacing: 4px;

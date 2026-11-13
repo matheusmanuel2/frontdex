@@ -137,7 +137,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: design-system · Spec: 004 · Depende de: T-302
 - Faz: instala a skill do transitions.dev, gera os tokens de duração/easing e documenta os recipes usados em `docs/design/motion.md`. Respeita `prefers-reduced-motion`.
 - Pronto quando:
-  - [ ] Zero durações ou `@keyframes` escritos à mão fora dos recipes.
+  - [x] Zero durações ou `@keyframes` escritos à mão fora dos recipes.
 
 ### T-305 · Componentes Watermelon re-tematizados
 - Agente: design-system · Spec: 004 · Depende de: T-302, T-303
@@ -444,7 +444,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-02 | Licença dos dados: CC BY 4.0 (proposta em `decisions/0008`)? | T-509, T-906 | aberta |
 | D-03 | O seletor de tema é uma 4.ª ilha client-side (a spec 003 fala em 3)? Proposta: script inline mínimo, sem React | T-405 | aberta |
 | D-04 | Plano Vercel: Hobby é só para uso não comercial | T-906 | aberta |
-| D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | aberta |
+| D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | aberta — T-304 feita com o set gratuito, que cobre o MVP |
 | D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | aberta |
 | D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | aberta |
 | D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | aberta |
