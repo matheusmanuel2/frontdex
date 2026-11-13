@@ -99,8 +99,8 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: data-ci · Spec: 001 · Depende de: T-203
 - Faz: `scripts/validate.ts`. Valida todos os YAML, URLs duplicadas, categorias e tags existentes, `alternatives` válidas, descrições 40–160, `TODO` em `active`. Erros legíveis: `ficheiro › campo › motivo`.
 - Pronto quando:
-  - [ ] Cada regra tem um fixture que falha.
-  - [ ] Entra no `ci.yml`.
+  - [x] Cada regra tem um fixture que falha.
+  - [x] Entra no `ci.yml`.
 
 ### T-205 · JSON Schema para o editor
 - Agente: data-ci · Spec: 001 · Depende de: T-201
