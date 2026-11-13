@@ -124,7 +124,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: design-system · Spec: 004 · Depende de: T-301
 - Faz: Tailwind v4 com `@theme` a apontar para os tokens. Desliga a paleta de cores padrão do Tailwind.
 - Pronto quando:
-  - [ ] `bg-indigo-500` não gera CSS; `bg-carbon`, `text-secondary`, `rounded-pill` funcionam.
+  - [x] `bg-indigo-500` não gera CSS; `bg-carbon`, `text-secondary`, `rounded-pill` funcionam.
 
 ### T-303 · Fontes
 - Agente: design-system · Spec: 004, `decisions/0005` · Depende de: T-302
