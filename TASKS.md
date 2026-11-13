@@ -175,7 +175,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: frontend-builder · Spec: 007 · Depende de: T-101
 - Faz: `app/[locale]/`, `lib/i18n/`, `messages/pt.json` e `messages/en.json`. `generateStaticParams` para `pt` e `en`. `<html lang>` correto.
 - Pronto quando:
-  - [ ] `/pt` e `/en` geram HTML estático.
+  - [x] `/pt` e `/en` geram HTML estático.
 
 ### T-402 · Middleware de idioma em `/`
 - Agente: frontend-builder · Spec: 007 · Depende de: T-401
@@ -448,3 +448,4 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | aberta |
 | D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | aberta |
 | D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | aberta |
+| D-09 | 404 em inglês: com tudo estático, o Next só gera **uma** página 404 (a da raiz), por isso `/en/qualquer-coisa` mostra a 404 em pt-BR (status 404 certo). Opções: (a) aceitar a 404 estática em pt-BR com um link para a versão em inglês; (b) 404 bilingue (pt e en na mesma página, cada bloco com `lang`); (c) o proxy passa a correr também em `/en/*` desconhecidas e reescreve para uma 404 em inglês (mais runtime, contra a constitution §3). Proposta: (b) | T-406 | aberta |
