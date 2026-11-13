@@ -406,7 +406,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: data-ci · Spec: 000 · Depende de: M5
 - Faz: Lighthouse CI no workflow para home, categoria e recurso (pt e en).
 - Pronto quando:
-  - [ ] ≥ 95 nas quatro categorias, LCP < 1,5 s, JS da home < 90 KB gzip, e o CI falha abaixo disso.
+  - [x] ≥ 95 nas quatro categorias, LCP < 1,5 s, JS da home < 90 KB gzip, e o CI falha abaixo disso.
 
 ### T-903 · Polimento de movimento
 - Agente: design-system · Spec: 004 · Depende de: M5, M6

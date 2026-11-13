@@ -27,6 +27,8 @@
     "contrast:check": "tsx scripts/contrast.ts --check",
     "check:i18n": "tsx scripts/check-i18n.ts",
     "check:anti-ai": "tsx scripts/check-anti-ai.ts",
+    "check:home-js": "tsx scripts/check-home-js-budget.ts",
+    "lighthouse:ci": "lhci autorun",
     "search:index": "pagefind --site .next/server/app --output-path .next/static/pagefind"
   },
   "dependencies": {
@@ -47,6 +49,7 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
+    "@lhci/cli": "^0.16.1",
     "@playwright/test": "^1.65.0",
     "@tailwindcss/postcss": "^4.3.5",
     "@testing-library/dom": "^10.4.2",

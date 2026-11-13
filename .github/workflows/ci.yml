@@ -104,8 +104,23 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Orçamento de JavaScript próprio da home
+        run: pnpm check:home-js
+
       - name: Browsers do Playwright
         run: pnpm exec playwright install --with-deps chromium
+
+      - name: Lighthouse CI
+        run: pnpm lighthouse:ci
+
+      - name: Guardar relatórios Lighthouse
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-${{ github.run_id }}
+          path: .lighthouseci/
+          if-no-files-found: warn
+          retention-days: 7
 
       - name: Testes e2e e acessibilidade
         run: pnpm test:e2e
