@@ -260,7 +260,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003 · Depende de: T-503
 - Faz: `/[locale]/collections` e `/[locale]/collections/[slug]`. Nota do curador, lista ordenada numerada, "Copiar link". Referências: `Collections.dc.html`, `Collection.dc.html`.
 - Pronto quando:
-  - [ ] Coleções em `draft` não são publicadas.
+  - [x] Coleções em `draft` não são publicadas.
 
 ### T-507 · Novos
 - Agente: frontend-builder · Spec: 003 · Depende de: T-503
@@ -450,3 +450,4 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | decidida (2026-11-13): manter a regra estrita |
 | D-09 | 404 em inglês: com tudo estático, o Next só gera **uma** página 404 (a da raiz), por isso `/en/qualquer-coisa` mostra a 404 em pt-BR (status 404 certo). Opções: (a) aceitar a 404 estática em pt-BR com um link para a versão em inglês; (b) 404 bilingue (pt e en na mesma página, cada bloco com `lang`); (c) o proxy passa a correr também em `/en/*` desconhecidas e reescreve para uma 404 em inglês (mais runtime, contra a constitution §3); (d) página estática `/[locale]/not-found-page` + `rewrites().fallback` (o Next 16 gera um HTML vazio sem JS, e não está testado na Vercel). Proposta: (b) | T-406 | decidida (2026-11-13): 404 bilingue (opção b) |
 | D-10 | Meta "JS da home < 90 KB gzip" (constitution §3): só o runtime do Next 16 + React 19 já dá **~135 KB gzip** (sem polyfills) numa página quase vazia. Opções: (a) medir só o JS próprio da página (sem o runtime do framework); (b) subir a meta (ex.: 150 KB); (c) trocar de framework (contra o ADR 0001). Proposta: (a), com Lighthouse ≥ 95 como meta real | T-602, T-902 | decidida (2026-11-13): medir só o JS próprio das páginas; metas reais Lighthouse ≥ 95 e LCP < 1,5 s |
+| D-11 | "Copiar link" na página de coleção (T-506) é uma 4.ª ilha client-side; a spec 003 fala em 3. Feito como ilha mínima (botão + icon swap), e sem JS o botão não aparece (o link continua na barra do browser). Aceitar? | T-506 | aberta (implementado como proposto) |
