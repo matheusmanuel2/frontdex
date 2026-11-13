@@ -389,6 +389,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 ### T-807 · Labels, template de PR e proteção de `main`
 - Agente: data-ci · Spec: 002 · Depende de: T-104
 - Faz: cria as labels (`new-resource`, `needs-translation`, `needs-changes`, `broken-link`) com `gh`. Atualiza o `PULL_REQUEST_TEMPLATE.md` com a checklist de layout da spec 006. Escreve em `docs/branch-protection.md` os passos para o Matheus ativar a proteção (o agente não muda definições do repositório).
+- Estado: labels bloqueadas; o GitHub responde HTTP 403 ao token atual.
 - Pronto quando:
   - [ ] Labels existem; o template tem a checklist.
 
@@ -416,6 +417,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 
 ### T-904 · QA do tema claro
 - Agente: design-system · Spec: 004 · Depende de: T-405, M5
+- Estado: adiada para depois da v1, que será lançada apenas em dark (D-03 e D-07).
 - Pronto quando:
   - [ ] Screenshots de todas as páginas nos dois temas em `docs/qa/screens/`; contraste AA confirmado.
 
@@ -445,9 +447,9 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-01 | `/random` redireciona logo (spec 003) ou mostra o card do mockup antes de abrir? | T-508 | decidida (2026-11-13): mostrar o card do mockup Random, sem redirecionar |
 | D-02 | Licença dos dados: CC BY 4.0 (proposta em `decisions/0008`)? | T-509, T-906 | decidida (2026-11-13): CC BY 4.0 (ADR 0008 aceite) |
 | D-03 | O seletor de tema é uma 4.ª ilha client-side (a spec 003 fala em 3)? Proposta: script inline mínimo, sem React | T-405 | adiada (2026-11-13): a v1 sai só em dark; tema claro depois da primeira versão online |
-| D-04 | Plano Vercel: Hobby é só para uso não comercial | T-906 | aberta |
+| D-04 | Plano Vercel: Hobby é só para uso não comercial | T-906 | aberta: Termos §4 limita Hobby a uso pessoal/não comercial; Pro aparece por US$ 20/mês. Matheus precisa confirmar o enquadramento. [Termos](https://vercel.com/legal/terms) · [Preços](https://vercel.com/pricing) |
 | D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | aberta — T-304 feita com o set gratuito, que cobre o MVP |
-| D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | aberta |
+| D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | aberta: o registry declara MIT, mas o JSON do hero-13 não especifica a licença da imagem externa. Falta confirmação da Watermelon. [LICENSE](https://github.com/WatermelonCorp/watermellon-registry/blob/main/LICENSE) · [hero-13](https://registry.watermelon.sh/r/hero-13.json) |
 | D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | adiada (2026-11-13): junto com o tema claro, depois da v1 |
 | D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | decidida (2026-11-13): manter a regra estrita |
 | D-09 | 404 em inglês: com tudo estático, o Next só gera **uma** página 404 (a da raiz), por isso `/en/qualquer-coisa` mostra a 404 em pt-BR (status 404 certo). Opções: (a) aceitar a 404 estática em pt-BR com um link para a versão em inglês; (b) 404 bilingue (pt e en na mesma página, cada bloco com `lang`); (c) o proxy passa a correr também em `/en/*` desconhecidas e reescreve para uma 404 em inglês (mais runtime, contra a constitution §3); (d) página estática `/[locale]/not-found-page` + `rewrites().fallback` (o Next 16 gera um HTML vazio sem JS, e não está testado na Vercel). Proposta: (b) | T-406 | decidida (2026-11-13): 404 bilingue (opção b) |
