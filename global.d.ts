@@ -1,3 +1,5 @@
+/// <reference types="mdx" />
+
 import type { routing } from './lib/i18n/routing';
 import type messages from './messages/pt.json';
 

@@ -1,0 +1,54 @@
+{/* Draft based on the Add.dc.html mockup. Matheus reviews it before merging. */}
+
+> “Does it save front-end people time, and can you explain why in one line?”
+
+If the answer is yes, send it. If it takes three paragraphs to convince, it probably doesn't belong here.
+
+## Two ways in
+
+### Through the form, no Git
+
+Open an issue on GitHub with the name, link, category and the line. A bot turns it into a pull request and you follow along there. [Open the form on GitHub](https://github.com/matheusmanuel2/frontdex/issues/new?template=add-resource.yml).
+
+### Through YAML, with Git
+
+Fork the repo, create a file in `data/resources/` and open the PR. CI validates the schema and the links. Leave `id` empty: it's assigned on merge. Read [CONTRIBUTING.md](https://github.com/matheusmanuel2/frontdex/blob/main/CONTRIBUTING.md) first.
+
+```yaml
+# data/resources/kugiri.yaml
+name: kugiri
+url: https://edoardolunardi.github.io/kugiri
+area: build
+category: animation
+pricing: free
+description:
+  en: 'Splits text into lines, words and characters…'
+```
+
+## What gets in
+
+- Front-end tools, libraries, courses, inspiration and communities.
+- Things you have actually used or tested.
+- Paid resources, as long as the price is clear.
+- Small, unknown projects, if they are good.
+
+## What doesn't
+
+- Lists of lists and aggregators with no curation.
+- Affiliate links or resources that pay to appear.
+- Abandoned projects, with no updates or with the site down.
+- Marketing descriptions, full of adjectives and with no concrete detail.
+
+## The line, in practice
+
+**Good:** “Native macOS terminal built on Ghostty, with vertical tabs and alerts when a coding agent needs you.” It says what it is, what it builds on and what it does differently.
+
+**Bad:** “The best terminal for modern developers.” It says nothing you couldn't say about any terminal.
+
+## After you send it
+
+1. CI checks the schema, the link, duplicates and both languages.
+2. A curator reviews it and may ask for changes in the PR itself.
+3. Merging publishes the resource and assigns its number in the index.
+
+Index content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and the code under MIT. By sending a resource, you agree to that license.

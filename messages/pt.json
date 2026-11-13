@@ -207,5 +207,14 @@
     "footer": "sorteado de {count} recursos · tecla R para outro",
     "noscript": "Sem JavaScript, mostramos sempre o mesmo. Recarregue com JavaScript para sortear.",
     "empty": "Ainda não há recursos para sortear."
+  },
+  "add": {
+    "title": "Contribua.",
+    "titleMuted": "Um arquivo, um recurso.",
+    "intro": "Todo recurso do índice entrou por um pull request revisado à mão. Você pode mandar o seu pelo formulário, sem tocar em Git, ou escrevendo o YAML direto.",
+    "eyebrow": "Contribuir",
+    "question": "A pergunta da curadoria",
+    "form": "Abrir formulário no GitHub",
+    "contributing": "Ver CONTRIBUTING.md"
   }
 }

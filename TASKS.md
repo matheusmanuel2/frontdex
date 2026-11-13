@@ -278,7 +278,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003, 002 · Depende de: T-403
 - Faz: `/[locale]/add` em MDX por idioma. Pergunta de curadoria, dois caminhos (Issue Form e YAML), o que entra / não entra, exemplos Bom/Mau, passos depois de enviar. Referência: `Add.dc.html`. **O texto do mockup é rascunho: o Matheus revê antes do merge.**
 - Pronto quando:
-  - [ ] Links certos para o Issue Form e para o `CONTRIBUTING.md`.
+  - [x] Links certos para o Issue Form e para o `CONTRIBUTING.md`.
 
 ### T-510 · Sobre
 - Agente: frontend-builder · Spec: 003 · Depende de: T-403
@@ -441,7 +441,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | ID | Pergunta | Bloqueia | Estado |
 | --- | --- | --- | --- |
 | D-01 | `/random` redireciona logo (spec 003) ou mostra o card do mockup antes de abrir? | T-508 | decidida (2026-11-13): mostrar o card do mockup Random, sem redirecionar |
-| D-02 | Licença dos dados: CC BY 4.0 (proposta em `decisions/0008`)? | T-509, T-906 | aberta |
+| D-02 | Licença dos dados: CC BY 4.0 (proposta em `decisions/0008`)? | T-509, T-906 | decidida (2026-11-13): CC BY 4.0 (ADR 0008 aceite) |
 | D-03 | O seletor de tema é uma 4.ª ilha client-side (a spec 003 fala em 3)? Proposta: script inline mínimo, sem React | T-405 | adiada (2026-11-13): a v1 sai só em dark; tema claro depois da primeira versão online |
 | D-04 | Plano Vercel: Hobby é só para uso não comercial | T-906 | aberta |
 | D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | aberta — T-304 feita com o set gratuito, que cobre o MVP |

@@ -207,5 +207,14 @@
     "footer": "picked from {count} resources · press R for another",
     "noscript": "Without JavaScript we always show the same one. Reload with JavaScript to pick at random.",
     "empty": "No resources to pick from yet."
+  },
+  "add": {
+    "title": "Contribute.",
+    "titleMuted": "One file, one resource.",
+    "intro": "Every resource in the index came in through a hand-reviewed pull request. Send yours through the form, without touching Git, or by writing the YAML yourself.",
+    "eyebrow": "Contribute",
+    "question": "The curation question",
+    "form": "Open the form on GitHub",
+    "contributing": "See CONTRIBUTING.md"
   }
 }
