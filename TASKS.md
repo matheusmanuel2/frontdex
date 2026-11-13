@@ -68,7 +68,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: data-ci · Spec: 002 · Depende de: T-102, T-103
 - Faz: `.github/workflows/ci.yml` com install (cache do pnpm), lint, typecheck, test, build. Os passos de conteúdo e anti-AI entram em M2 e M8.
 - Pronto quando:
-  - [ ] O CI corre em cada PR e em `main` e fica verde.
+  - [x] O CI corre em cada PR e em `main` e fica verde.
 
 ---
 
