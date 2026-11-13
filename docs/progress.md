@@ -1,6 +1,6 @@
 # Progresso
 
-Branch atual: m3-design-system
+Branch atual: m4-esqueleto
 
 | Data | Task | Commit | Notas |
 | --- | --- | --- | --- |
@@ -22,3 +22,10 @@ Branch atual: m3-design-system
 | 2026-11-13 | T-305 | 4eb249b | Reescritos sobre `radix-ui`; sem `motion`/`lucide-react`; recipes com @keyframes para o Radix |
 | 2026-11-13 | T-307 | c10d2a0 | Tokens novos: list, row-hover, brand-tint, link-hover, text-card |
 | 2026-11-13 | T-308 | 7e3d235 | `app/%5Fdesign/page.dev.tsx` + `pageExtensions` só em dev; e2e contra `next dev` |
+| 2026-11-13 | T-401 | a5eae84 | next-intl 4; só o namespace `locale` vai para o browser; `/_design` passou para `/[locale]/_design` |
+| 2026-11-13 | T-402 | 4c183dd | `proxy.ts` (Next 16) com matcher só em `/`; 307 + `Vary` |
+| 2026-11-13 | T-403 | 3632880 | Cabeçalho por página (prop `current`) para `aria-current` sem JS; menu mobile em `<details>` |
+| 2026-11-13 | T-404 | 584236a | `<a>` simples; o teste exato em `/pt/c/icons` fica para a T-504 |
+| 2026-11-13 | T-406 | 9b4935a | pt-BR feito; inglês bloqueado pela D-09 (o Next só gera uma 404 estática) |
+| 2026-11-13 | T-407 | e42d3ff | Fixture com chave em falta; e2e entra no CI |
+| 2026-11-13 | T-405 | — | Saltada: depende da decisão D-03 (seletor de tema como 4.ª ilha) |
