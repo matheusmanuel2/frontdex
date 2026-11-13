@@ -4,8 +4,9 @@ import path from 'node:path';
 
 const pagefindOutput = path.resolve('.next/static/pagefind');
 const vercelStaticOutput = path.resolve('.vercel/output/static/_next/static/pagefind');
+const production = process.argv.includes('--prod');
 
-execFileSync('vercel', ['build', '--yes', '--environment', 'preview'], {
+execFileSync('vercel', ['build', '--yes', ...(production ? ['--prod'] : ['--environment', 'preview'])], {
   env: { ...process.env, FRONTDEX_DEFER_PAGEFIND: '1' },
   stdio: 'inherit',
 });
