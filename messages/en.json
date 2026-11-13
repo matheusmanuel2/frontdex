@@ -46,8 +46,14 @@
     "random": "surprise",
     "collections": "collections"
   },
-  "home": {
+  "hero": {
+    "badge": "Curated by the community",
     "title": "Less searching.",
-    "titleMuted": "More building."
+    "titleMuted": "More building.",
+    "description": "FrontDex brings together front-end tools, libraries, courses and communities, each with one line on why it's worth your time.",
+    "search": "Search the index",
+    "howItWorks": "How it works",
+    "count": "{count, plural, one {# resource} other {# resources}} curated by the community",
+    "github": "GitHub"
   }
 }

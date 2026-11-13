@@ -1,12 +1,13 @@
 import { getLocale, getTranslations } from 'next-intl/server';
 
-import { MenuIcon, SearchIcon } from '@/components/icons';
+import { SearchIcon } from '@/components/icons';
 import { Link } from '@/components/site/LocaleLink';
 import { HTML_LANG, routing } from '@/lib/i18n/routing';
 import { cn } from '@/lib/utils';
 
 import { LocaleSwitch } from './LocaleSwitch';
 import { Logo } from './Logo';
+import { MobileNav } from './MobileNav';
 import { NAV_SECTIONS, sectionHref, type NavSection } from './nav';
 
 type SiteHeaderProps = {
@@ -72,37 +73,13 @@ export async function SiteHeader({ current }: SiteHeaderProps) {
             {t('addResource')}
           </Link>
 
-          <details className="group relative lg:hidden">
-            <summary
-              aria-label={a11y('openMenu')}
-              className="t-hover t-icon-host flex size-10 cursor-pointer list-none items-center justify-center rounded-pill border border-border-button text-secondary hover:text-primary [&::-webkit-details-marker]:hidden"
-            >
-              <MenuIcon size={18} />
-            </summary>
-            <nav
-              aria-label={a11y('mainNav')}
-              className="absolute top-12 right-0 z-40 w-64 rounded-panel border border-border-strong bg-carbon p-2"
-            >
-              <ul className="flex flex-col">
-                {links.map(({ section, label }) => (
-                  <li key={section}>
-                    <Link
-                      href={sectionHref(section)}
-                      aria-current={current === section ? 'page' : undefined}
-                      className={cn(navLink, 'block rounded-sm px-3 py-2 hover:bg-graphite')}
-                    >
-                      {label}
-                    </Link>
-                  </li>
-                ))}
-                <li className="mt-1 border-t border-border pt-1 md:hidden">
-                  <Link href="/add" className={cn(navLink, 'block rounded-sm px-3 py-2 text-link hover:bg-graphite')}>
-                    {t('addResource')}
-                  </Link>
-                </li>
-              </ul>
-            </nav>
-          </details>
+          <MobileNav
+            label={a11y('mainNav')}
+            openLabel={a11y('openMenu')}
+            addLabel={t('addResource')}
+            links={links}
+            current={current}
+          />
         </div>
       </div>
     </header>

@@ -18,13 +18,15 @@ test.describe('cabeçalho e rodapé', () => {
 
   test('tem as 4 áreas + Coleções, busca e "Adicionar recurso"', async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
-    await page.goto('/pt');
-    const nav = page.getByRole('navigation', { name: 'Principal' });
+    // A home usa o cabeçalho do hero; as outras páginas usam o SiteHeader (aqui, a 404).
+    await page.goto('/pt/qualquer-coisa');
+    const banner = page.getByRole('banner');
+    const nav = banner.getByRole('navigation', { name: 'Principal' });
     for (const label of ['Descobrir', 'Aprender', 'Construir', 'Crescer', 'Coleções']) {
       await expect(nav.getByRole('link', { name: label })).toBeVisible();
     }
-    await expect(page.getByRole('link', { name: /Buscar/ })).toHaveAttribute('href', '/pt/search');
-    await expect(page.getByRole('link', { name: 'Adicionar recurso' })).toHaveAttribute('href', '/pt/add');
+    await expect(banner.getByRole('link', { name: /Buscar/ })).toHaveAttribute('href', '/pt/search');
+    await expect(banner.getByRole('link', { name: 'Adicionar recurso' })).toHaveAttribute('href', '/pt/add');
     await expect(page.getByText('Feito em Angola. Aberto ao mundo.')).toBeVisible();
   });
 
