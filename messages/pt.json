@@ -53,7 +53,55 @@
     "description": "A FrontDex reúne ferramentas, bibliotecas, cursos e comunidades de front-end, cada um com uma linha sobre por que vale o seu tempo.",
     "search": "Buscar no índice",
     "howItWorks": "Como funciona",
-    "count": "{count, plural, one {# recurso curado} other {# recursos curados}} pela comunidade",
+    "count": "{count, plural, =0 {# recursos curados} one {# recurso curado} other {# recursos curados}} pela comunidade",
     "github": "GitHub"
+  },
+  "home": {
+    "areas": {
+      "eyebrow": "01 — Direções",
+      "title": "Escolha uma direção.",
+      "titleMuted": "Quatro portas para o índice.",
+      "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}"
+    },
+    "fresh": {
+      "eyebrow": "02 — Novos",
+      "title": "Recém-indexados.",
+      "titleMuted": "Os mais recentes do índice.",
+      "all": "Ver todos os novos",
+      "list": "Recursos recém-indexados"
+    },
+    "gems": {
+      "eyebrow": "03 — Joias escondidas",
+      "title": "Útil antes de popular.",
+      "titleMuted": "Coisas que talvez você não conheça.",
+      "why": "Por que está aqui"
+    },
+    "collections": {
+      "eyebrow": "04 — Coleções",
+      "title": "Curadas, em ordem.",
+      "titleMuted": "Listas curtas com ponto de vista.",
+      "all": "Todas as coleções",
+      "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}"
+    },
+    "contribute": {
+      "eyebrow": "05 — Contribua",
+      "title": "Feito em público.",
+      "titleMuted": "Indexado pela comunidade.",
+      "body": "Cada recurso é um arquivo YAML no GitHub. Abra um pull request, ou preencha um formulário e um bot abre o PR por você.",
+      "step1": "Adicione um arquivo ou preencha o formulário.",
+      "step2": "O CI confere o schema, o link e os dois idiomas.",
+      "step3": "Um curador revisa. Merge é publicação.",
+      "add": "Adicionar recurso",
+      "guidelines": "Ler as diretrizes",
+      "example": "Exemplo real do índice"
+    }
+  },
+  "pricing": {
+    "free": "Grátis",
+    "freemium": "Freemium",
+    "paid": "Pago"
+  },
+  "resource": {
+    "oss": "OSS"
   }
 }

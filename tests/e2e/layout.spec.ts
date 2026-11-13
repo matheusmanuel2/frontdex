@@ -41,9 +41,10 @@ test.describe('cabeçalho e rodapé', () => {
 
   test('no mobile, as áreas ficam num menu compacto', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 800 });
-    await page.goto('/pt');
-    await expect(page.getByRole('link', { name: 'Construir' })).toBeHidden();
-    await page.getByLabel('Abrir menu').click();
-    await expect(page.getByRole('link', { name: 'Construir' })).toBeVisible();
+    await page.goto('/pt/qualquer-coisa');
+    const banner = page.getByRole('banner');
+    await expect(banner.getByRole('link', { name: 'Construir', exact: true })).toBeHidden();
+    await banner.getByLabel('Abrir menu').click();
+    await expect(banner.getByRole('link', { name: 'Construir', exact: true })).toBeVisible();
   });
 });

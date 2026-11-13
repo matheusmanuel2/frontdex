@@ -234,7 +234,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003 · Depende de: T-501
 - Faz: 4 áreas, Recém-indexados, Joias escondidas, Coleções, Contribua. Referência: `Main.dc.html` (secções aprovadas, ignora o hero v1).
 - Pronto quando:
-  - [ ] Todas as listas vêm do loader; nada escrito à mão no JSX.
+  - [x] Todas as listas vêm do loader; nada escrito à mão no JSX.
 
 ### T-503 · Página de Área
 - Agente: frontend-builder · Spec: 003 · Depende de: T-403
