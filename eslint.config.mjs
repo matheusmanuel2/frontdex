@@ -49,6 +49,32 @@ const config = [
       '@typescript-eslint/consistent-type-imports': 'error',
     },
   },
+  {
+    // lib/content é o único sítio que lê ficheiros de data/ (spec 001, T-203).
+    files: ['app/**', 'components/**', 'lib/**'],
+    ignores: ['lib/content/**'],
+    rules: {
+      'no-restricted-imports': [
+        'error',
+        {
+          paths: [
+            ...forbiddenIconLibraries.map((name) => ({
+              name,
+              message: 'Bibliotecas de ícones genéricas são proibidas.',
+            })),
+            ...['fs', 'node:fs', 'fs/promises', 'node:fs/promises', 'yaml'].map((name) => ({
+              name,
+              message: 'Só lib/content lê ficheiros de data/. Importa as consultas de @/lib/content.',
+            })),
+          ],
+          patterns: forbiddenIconLibraries.map((name) => ({
+            group: [`${name}/*`],
+            message: 'Bibliotecas de ícones genéricas são proibidas.',
+          })),
+        },
+      ],
+    },
+  },
   prettier,
 ];
 

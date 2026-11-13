@@ -55,7 +55,7 @@ const descriptionText = z
 
 const whyText = z.string().min(1).max(WHY_MAX, `tem de ter no máximo ${WHY_MAX} caracteres`);
 
-export const areaSlugSchema = z.enum(AREAS);
+export const areaSlugSchema = z.enum(AREAS, { error: `tem de ser ${AREAS.join(', ')}` });
 
 export const resourceSchema = z
   .object({
@@ -71,16 +71,19 @@ export const resourceSchema = z
       .min(TAGS_MIN, `precisa de pelo menos ${TAGS_MIN} tag`)
       .max(TAGS_MAX, `aceita no máximo ${TAGS_MAX} tags`)
       .refine((tags) => new Set(tags).size === tags.length, 'tags repetidas'),
-    pricing: z.union([z.enum(PRICING), todo]),
-    open_source: z.union([z.boolean(), todo]),
+    pricing: z.union([z.enum(PRICING), todo], { error: `tem de ser ${PRICING.join(', ')} (ou ${TODO} em draft)` }),
+    open_source: z.union([z.boolean(), todo], { error: `tem de ser true ou false (ou ${TODO} em draft)` }),
     license: z.string().min(1).optional(),
-    level: z.array(z.enum(LEVELS)).min(1).optional(),
+    level: z
+      .array(z.enum(LEVELS, { error: `tem de ser ${LEVELS.join(', ')}` }))
+      .min(1)
+      .optional(),
     description: z.object({ pt: descriptionText, en: descriptionText }).strict(),
     why: z.object({ pt: whyText, en: whyText }).partial().strict().optional(),
     alternatives: z.array(slugSchema).optional(),
     added: isoDateSchema,
     last_checked: isoDateSchema,
-    status: z.enum(RESOURCE_STATUS),
+    status: z.enum(RESOURCE_STATUS, { error: `tem de ser ${RESOURCE_STATUS.join(', ')}` }),
     notes: z.string().optional(),
   })
   .strict()
@@ -115,7 +118,7 @@ export const collectionSchema = z
     title: localizedText,
     text: localizedText,
     resources: z.array(slugSchema).refine((list) => new Set(list).size === list.length, 'recursos repetidos'),
-    status: z.enum(COLLECTION_STATUS),
+    status: z.enum(COLLECTION_STATUS, { error: `tem de ser ${COLLECTION_STATUS.join(', ')}` }),
   })
   .strict()
   .superRefine((collection, ctx) => {
