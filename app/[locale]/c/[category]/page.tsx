@@ -10,6 +10,7 @@ import { Link } from '@/components/site/LocaleLink';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getArea, getCategory, listCategories, listResources } from '@/lib/content';
 import { routing, type AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 import { cn } from '@/lib/utils';
 
 import type { Metadata } from 'next';
@@ -28,10 +29,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!category) return {};
   const t = await getTranslations({ locale, namespace: 'category' });
   const count = listResources({ category: slug }).length;
-  return {
-    title: category.name[locale],
-    description: category.description?.[locale] ?? `${category.name[locale]}: ${t('titleMuted', { count })}`,
-  };
+  return localizedMetadata(
+    locale,
+    `/c/${slug}`,
+    category.name[locale],
+    category.description?.[locale] ?? `${category.name[locale]}: ${t('titleMuted', { count })}`,
+  );
 }
 
 const ghost =

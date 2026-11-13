@@ -7,6 +7,7 @@ import { Link } from '@/components/site/LocaleLink';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getCategory, getCollection, getCollectionResources, listCollections } from '@/lib/content';
 import { routing, type AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
 
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const collection = getCollection(slug);
   if (!collection) return {};
-  return { title: collection.title[locale], description: collection.text[locale] };
+  return localizedMetadata(locale, `/collections/${slug}`, collection.title[locale], collection.text[locale]);
 }
 
 const ghost =

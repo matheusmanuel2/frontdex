@@ -7,6 +7,7 @@ import { SearchResults, type SearchPageLabels } from '@/components/search/Search
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getCategory, listAreas, listResources } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
 
@@ -15,7 +16,7 @@ type Props = { params: Promise<{ locale: AppLocale }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'search' });
-  return { title: t('label'), description: t('titleMuted'), robots: { index: false } };
+  return localizedMetadata(locale, '/search', t('label'), t('titleMuted'), { robots: { index: false } });
 }
 
 /**

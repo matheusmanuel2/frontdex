@@ -9,6 +9,7 @@ import AboutEn from '@/content/pages/about.en.mdx';
 import AboutPt from '@/content/pages/about.pt.mdx';
 import { listAreas, listCategories, listResources } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
 
@@ -17,7 +18,7 @@ type Props = { params: Promise<{ locale: AppLocale }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'about' });
-  return { title: t('eyebrow'), description: t('titleMuted') };
+  return localizedMetadata(locale, '/about', t('eyebrow'), t('titleMuted'));
 }
 
 const CONTENT = { pt: AboutPt, en: AboutEn };

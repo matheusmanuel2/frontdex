@@ -8,6 +8,7 @@ import { GITHUB_URL } from '@/components/site/nav';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getAlternatives, getArea, getCategory, getResource, listResources } from '@/lib/content';
 import { routing, type AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
 
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const resource = getResource(slug);
   if (!resource) return {};
-  return { title: resource.name, description: resource.description[locale] };
+  return localizedMetadata(locale, `/r/${slug}`, resource.name, resource.description[locale]);
 }
 
 function host(url: string) {

@@ -6,6 +6,7 @@ import { SiteHeader } from '@/components/site/SiteHeader';
 import AddEn from '@/content/pages/add.en.mdx';
 import AddPt from '@/content/pages/add.pt.mdx';
 import type { AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
 
@@ -14,7 +15,7 @@ type Props = { params: Promise<{ locale: AppLocale }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'add' });
-  return { title: t('eyebrow'), description: t('intro') };
+  return localizedMetadata(locale, '/add', t('eyebrow'), t('intro'));
 }
 
 const CONTENT = { pt: AddPt, en: AddEn };

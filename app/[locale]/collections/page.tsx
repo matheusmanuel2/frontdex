@@ -5,6 +5,7 @@ import { Link } from '@/components/site/LocaleLink';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getArea, getCollectionResources, listCollections } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
 
@@ -13,7 +14,7 @@ type Props = { params: Promise<{ locale: AppLocale }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'collections' });
-  return { title: t('title').replace(/\.$/, ''), description: t('intro') };
+  return localizedMetadata(locale, '/collections', t('title').replace(/\.$/, ''), t('intro'));
 }
 
 const ghost =

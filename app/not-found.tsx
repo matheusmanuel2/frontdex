@@ -14,7 +14,11 @@ import type { Metadata } from 'next';
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations({ locale: routing.defaultLocale, namespace: 'notFound' });
   const meta = await getTranslations({ locale: routing.defaultLocale, namespace: 'meta' });
-  return { title: `${t('metaTitle')} · ${meta('siteName')}`, robots: { index: false } };
+  return {
+    title: `${t('metaTitle')} · ${meta('siteName')}`,
+    description: t('body'),
+    robots: { index: false },
+  };
 }
 
 /**
