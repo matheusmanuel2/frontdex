@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+
 import { assertHomeJavaScriptBudget, getOwnScriptPaths } from './check-home-js-budget';
 
 describe('getOwnScriptPaths', () => {
