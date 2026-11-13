@@ -214,7 +214,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: data-ci · Spec: 007 · Depende de: T-401
 - Faz: `scripts/check-i18n.ts`; falha se uma chave existir num `messages/*.json` e não no outro. Entra no CI.
 - Pronto quando:
-  - [ ] Fixture com chave em falta faz o CI falhar.
+  - [x] Fixture com chave em falta faz o CI falhar.
 
 ---
 
