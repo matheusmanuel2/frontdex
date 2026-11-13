@@ -19,7 +19,7 @@ export default async function HomePage({ params }: Props) {
   setRequestLocale(locale);
 
   return (
-    <main id="conteudo">
+    <main>
       <Hero resourceCount={listResources().length} />
       <AreasSection />
       <FreshSection />

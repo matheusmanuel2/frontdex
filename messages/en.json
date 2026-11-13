@@ -246,6 +246,9 @@
     "p4": "Context before links",
     "p4d": "Every resource has a concrete description and, when possible, why it is here.",
     "p5": "Open by default",
-    "p5d": "Code, data and decisions on GitHub."
+    "p5d": "Code, data and decisions on GitHub.",
+    "curationValue": "Matheus Manuel, Luanda",
+    "codeValue": "MIT",
+    "contentValue": "CC BY 4.0"
   }
 }

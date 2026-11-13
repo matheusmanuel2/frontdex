@@ -57,8 +57,13 @@ export function RandomCard({ items, locale, labels }: { items: RandomItem[]; loc
     return () => window.removeEventListener('keydown', onKey);
   }, [pick]);
 
-  // Sorteia uma vez depois de hidratar (o HTML estático mostra sempre o primeiro).
-  const current = items[hydrated ? (index ?? stableRandom(items.length)) : 0];
+  // Sorteia ao montar (cada visita, também por navegação client-side). O HTML estático mostra o primeiro.
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- o sorteio só pode acontecer no browser
+    setIndex(Math.floor(Math.random() * items.length));
+  }, [items.length]);
+
+  const current = items[hydrated ? (index ?? 0) : 0];
   if (!current) return null;
 
   return (
@@ -122,11 +127,4 @@ export function RandomCard({ items, locale, labels }: { items: RandomItem[]; loc
       <p className="mt-5 text-center font-mono text-mono text-muted">{labels.footer}</p>
     </>
   );
-}
-
-let seed: number | undefined;
-/** Um sorteio estável por carregamento de página (evita trocar a cada render). */
-function stableRandom(length: number) {
-  seed ??= Math.floor(Math.random() * Math.max(length, 1));
-  return seed % Math.max(length, 1);
 }

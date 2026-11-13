@@ -60,9 +60,15 @@ test.describe('/pt/_design', () => {
       await page.keyboard.press('Enter');
       await expect(page.getByRole('menu')).toBeVisible({ timeout: 1000 });
     }).toPass({ timeout: 15_000 });
-    await page.keyboard.press('ArrowDown');
-    const item = page.locator('[role="menuitemradio"]:focus, [role="menuitem"]:focus');
-    await expect(item).toHaveCount(1);
-    expect(await item.evaluate((element) => getComputedStyle(element).outlineStyle)).toBe('solid');
+    // Navega por teclado até um item ter o foco e confirma o anel de 2px.
+    await expect(async () => {
+      await page.keyboard.press('ArrowDown');
+      const outline = await page.evaluate(() => {
+        const element = document.activeElement;
+        if (!element?.matches('[role="menuitemradio"], [role="menuitem"]')) return null;
+        return getComputedStyle(element).outlineStyle;
+      });
+      expect(outline).toBe('solid');
+    }).toPass({ timeout: 10_000 });
   });
 });

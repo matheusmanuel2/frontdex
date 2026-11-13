@@ -7,7 +7,7 @@ test.describe('cabeçalho e rodapé', () => {
     const focused = page.locator(':focus');
     await expect(focused).toHaveText('Pular para o conteúdo');
     await expect(focused).toHaveAttribute('href', '#conteudo');
-    await expect(page.locator('main#conteudo')).toHaveCount(1);
+    await expect(page.locator('#conteudo')).toHaveCount(1);
   });
 
   test('em inglês o link diz "Skip to content"', async ({ page }) => {

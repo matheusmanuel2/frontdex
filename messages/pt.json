@@ -246,6 +246,9 @@
     "p4": "Contexto antes de links",
     "p4d": "Cada recurso tem uma descrição concreta e, quando possível, o porquê de estar aqui.",
     "p5": "Aberto por padrão",
-    "p5d": "Código, dados e decisões no GitHub."
+    "p5d": "Código, dados e decisões no GitHub.",
+    "curationValue": "Matheus Manuel, Luanda",
+    "codeValue": "MIT",
+    "contentValue": "CC BY 4.0"
   }
 }

@@ -115,9 +115,9 @@ export default async function AboutPage({ params }: Props) {
           </div>
           <dl className="grid gap-3 text-small">
             {[
-              [t('curation'), 'Matheus Manuel, Luanda'],
-              [t('code'), 'MIT'],
-              [t('content'), 'CC BY 4.0'],
+              [t('curation'), t('curationValue')],
+              [t('code'), t('codeValue')],
+              [t('content'), t('contentValue')],
               [t('analytics'), t('analyticsValue')],
             ].map(([label, value]) => (
               <div key={label} className="flex justify-between gap-4 border-b border-border pb-3 last:border-b-0">
