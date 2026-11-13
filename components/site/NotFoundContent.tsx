@@ -39,6 +39,7 @@ export async function NotFoundContent({ locale, primary = true }: NotFoundConten
         <Link
           locale={locale}
           href="/search"
+          data-search-trigger
           className="t-hover t-icon-host inline-flex h-10 items-center gap-3 rounded-pill bg-button-primary px-4 text-small font-semibold text-button-primary-text hover:opacity-90"
         >
           {t('search')}
