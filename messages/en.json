@@ -117,5 +117,33 @@
     "suggest": "Suggest a resource",
     "count": "{count, plural, =0 {# resources} one {# resource} other {# resources}}",
     "recentList": "Recent resources in this area"
+  },
+  "category": {
+    "titleMuted": "{count, plural, =0 {No resources yet.} one {# resource worth your time.} other {# resources worth your time.}}",
+    "sidebar": "{area} categories",
+    "filters": "Filters",
+    "pricing": "Pricing",
+    "all": "All",
+    "oss": "Open source only",
+    "level": "Level",
+    "levelAny": "Any",
+    "sort": "Sort",
+    "sortRecent": "Most recent",
+    "sortName": "Name",
+    "showing": "Showing {shown} of {total}",
+    "list": "Resources in this category",
+    "emptyTitle": "No resources match these filters.",
+    "emptyBody": "Try removing a filter, or suggest a resource that would fit here.",
+    "clear": "Clear filters",
+    "suggest": "Suggest a resource",
+    "missingTitle": "Missing a resource in {category}?",
+    "missingBody": "If it would be missed when gone, it belongs here.",
+    "noneTitle": "No resources in this category yet.",
+    "noneBody": "Know something that would be missed here? Suggest it on GitHub."
+  },
+  "level": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "expert": "Expert"
   }
 }

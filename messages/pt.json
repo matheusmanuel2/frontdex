@@ -117,5 +117,33 @@
     "suggest": "Sugerir recurso",
     "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}",
     "recentList": "Recursos recentes da área"
+  },
+  "category": {
+    "titleMuted": "{count, plural, =0 {Nenhum recurso ainda.} one {# recurso que vale o seu tempo.} other {# recursos que valem o seu tempo.}}",
+    "sidebar": "Categorias de {area}",
+    "filters": "Filtros",
+    "pricing": "Preço",
+    "all": "Todos",
+    "oss": "Só open source",
+    "level": "Nível",
+    "levelAny": "Qualquer",
+    "sort": "Ordenar",
+    "sortRecent": "Mais recentes",
+    "sortName": "Nome",
+    "showing": "Mostrando {shown} de {total}",
+    "list": "Recursos da categoria",
+    "emptyTitle": "Nenhum recurso com estes filtros.",
+    "emptyBody": "Tente tirar um filtro, ou sugira um recurso que caberia aqui.",
+    "clear": "Limpar filtros",
+    "suggest": "Sugerir recurso",
+    "missingTitle": "Falta um recurso em {category}?",
+    "missingBody": "Se faria falta quando sumisse, ele pertence aqui.",
+    "noneTitle": "Ainda não há recursos nesta categoria.",
+    "noneBody": "Conhece algo que faria falta aqui? Sugira pelo GitHub."
+  },
+  "level": {
+    "beginner": "Iniciante",
+    "intermediate": "Intermediário",
+    "expert": "Avançado"
   }
 }
