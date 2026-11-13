@@ -46,8 +46,14 @@
     "random": "surpresa",
     "collections": "coleções"
   },
-  "home": {
+  "hero": {
+    "badge": "Curado pela comunidade",
     "title": "Menos busca.",
-    "titleMuted": "Mais construção."
+    "titleMuted": "Mais construção.",
+    "description": "A FrontDex reúne ferramentas, bibliotecas, cursos e comunidades de front-end, cada um com uma linha sobre por que vale o seu tempo.",
+    "search": "Buscar no índice",
+    "howItWorks": "Como funciona",
+    "count": "{count, plural, one {# recurso curado} other {# recursos curados}} pela comunidade",
+    "github": "GitHub"
   }
 }

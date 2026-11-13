@@ -226,9 +226,9 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003, `decisions/0009` · Depende de: T-403
 - Faz: `npx shadcn@latest add https://registry.watermelon.sh/r/hero-13.json` para `components/hero/`, adapta ao conteúdo da spec 003 e ao fundo `public/hero/hero-bg.webp`. Botão branco = abre o CommandMenu (até M6, leva a `/search`). Referência pixel a pixel: `HeroV2.dc.html` + valores medidos em `docs/design/README.md`.
 - Pronto quando:
-  - [ ] Aviso MIT no topo do ficheiro.
-  - [ ] Contagem "[N] recursos" vem do loader.
-  - [ ] Imagem do hero com `priority` e tamanhos responsivos; LCP < 1,5 s.
+  - [x] Aviso MIT no topo do ficheiro.
+  - [x] Contagem "[N] recursos" vem do loader.
+  - [x] Imagem do hero com `priority` e tamanhos responsivos; LCP < 1,5 s.
 
 ### T-502 · Home: secções
 - Agente: frontend-builder · Spec: 003 · Depende de: T-501
