@@ -17,6 +17,24 @@ Cada recurso é um ficheiro YAML em `data/resources/`. Duas formas:
 
 Leia o [CONTRIBUTING.md](CONTRIBUTING.md) antes.
 
+## Desenvolvimento local
+
+```sh
+pnpm install --frozen-lockfile
+pnpm dev
+```
+
+## Preview na Vercel
+
+O índice Pagefind precisa dos HTMLs gerados no Build Output da Vercel. Para criar e publicar um preview:
+
+```sh
+pnpm vercel:build
+vercel deploy --prebuilt --yes
+```
+
+O projeto precisa estar ligado à Vercel CLI. Builds feitos diretamente pelo comando remoto ainda não geram o índice.
+
 ## Para quem vai construir
 
 - Comece por [`CLAUDE.md`](CLAUDE.md), [`specs/000-constitution.md`](specs/000-constitution.md) e [`docs/architecture.md`](docs/architecture.md).
