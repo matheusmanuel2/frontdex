@@ -56,6 +56,16 @@ test.describe('⌘K', () => {
     expect(elapsed).toBeLessThan(100);
   });
 
+  test('resultados de categoria mostram título e metadados legíveis', async ({ page }) => {
+    await page.goto('/pt', { waitUntil: 'networkidle' });
+    await page.keyboard.press('ControlOrMeta+k');
+    await page.getByRole('combobox', { name: 'Buscar' }).fill('ani');
+    const category = page.locator('[role="option"][href="/pt/c/animation"]');
+    await expect(category).toContainText('Animação');
+    await expect(category).toContainText('Construir · 2');
+    await expect(category).not.toContainText('categoryanimation');
+  });
+
   test('teclado: setas, Enter abre o recurso; foco preso; Esc fecha e devolve o foco', async ({ page }) => {
     await page.goto('/pt/c/animation', { waitUntil: 'networkidle' });
     const trigger = page.getByRole('banner').getByRole('link', { name: /Buscar/ });

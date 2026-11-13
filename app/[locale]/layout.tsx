@@ -47,6 +47,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     empty: t.raw('empty') as string,
     hint: t('hint'),
     seeAll: t('seeAll'),
+    categoryMeta: t.raw('categoryMeta') as string,
     s1: t('s1'),
     s2: t('s2'),
     s3: t('s3'),

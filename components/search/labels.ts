@@ -11,6 +11,7 @@ export type SearchLabels = {
   empty: string;
   hint: string;
   seeAll: string;
+  categoryMeta: string;
   s1: string;
   s2: string;
   s3: string;
