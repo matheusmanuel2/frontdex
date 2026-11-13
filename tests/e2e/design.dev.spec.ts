@@ -51,15 +51,18 @@ test.describe('/pt/_design', () => {
   });
 
   test('itens do menu têm anel de foco ao navegar por teclado', async ({ page }) => {
-    await page.goto('/pt/_design');
+    await page.goto('/pt/_design', { waitUntil: 'networkidle' });
     const trigger = page.getByRole('button', { name: 'Ordenar' }).first();
-    await trigger.focus();
-    await page.keyboard.press('Enter');
-    await expect(page.getByRole('menu')).toBeVisible();
+    // Em `next dev` a hidratação pode atrasar: repete até o menu abrir por teclado.
+    await expect(async () => {
+      await page.keyboard.press('Escape');
+      await trigger.focus();
+      await page.keyboard.press('Enter');
+      await expect(page.getByRole('menu')).toBeVisible({ timeout: 1000 });
+    }).toPass({ timeout: 15_000 });
     await page.keyboard.press('ArrowDown');
     const item = page.locator('[role="menuitemradio"]:focus, [role="menuitem"]:focus');
     await expect(item).toHaveCount(1);
-    const outline = await item.evaluate((element) => getComputedStyle(element).outlineStyle);
-    expect(outline).toBe('solid');
+    expect(await item.evaluate((element) => getComputedStyle(element).outlineStyle)).toBe('solid');
   });
 });
