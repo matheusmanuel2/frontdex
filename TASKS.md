@@ -308,7 +308,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 008 · Depende de: T-601
 - Faz: `/[locale]/search?q=` funciona como página normal e serve de fallback do ⌘K. Chips por área, termo realçado. Referência: `Search.dc.html`.
 - Pronto quando:
-  - [ ] Com JS desligado, o formulário do cabeçalho leva a esta página e mostra resultados.
+  - [x] Com JS desligado, o formulário do cabeçalho leva a esta página e mostra resultados.
 
 ---
 
