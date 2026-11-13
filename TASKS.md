@@ -323,7 +323,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 ### T-702 · Sitemap e robots
 - Agente: frontend-builder · Spec: 003 · Depende de: T-701
 - Pronto quando:
-  - [ ] `sitemap.xml` com todas as rotas pt + en; `robots.txt` aponta para ele.
+  - [x] `sitemap.xml` com todas as rotas pt + en; `robots.txt` aponta para ele.
 
 ### T-703 · Feed RSS
 - Agente: frontend-builder · Spec: 003 · Depende de: T-507
