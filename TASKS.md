@@ -300,9 +300,9 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: design-system (componente) + frontend-builder (integração) · Spec: 008 · Depende de: T-601
 - Faz: Dialog da Watermelon re-tematizado. Abre com ⌘K, Ctrl+K, `/` e pelo botão do hero e do cabeçalho. Índice só carrega na primeira abertura. Grupos Recursos, Categorias, Atalhos. Enter abre o recurso; ⌘Enter abre o site. Referência: `CommandK.dc.html` (sem blur, spec 006).
 - Pronto quando:
-  - [ ] Resultados em < 100 ms depois do índice carregado (Playwright).
-  - [ ] Foco preso no diálogo, Esc fecha e devolve o foco.
-  - [ ] O JS da home continua < 90 KB gzip.
+  - [x] Resultados em < 100 ms depois do índice carregado (Playwright).
+  - [x] Foco preso no diálogo, Esc fecha e devolve o foco.
+  - [x] O JS da home continua < 90 KB gzip.
 
 ### T-603 · `/search` sem JS
 - Agente: frontend-builder · Spec: 008 · Depende de: T-601
