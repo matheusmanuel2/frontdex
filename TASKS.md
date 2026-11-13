@@ -196,7 +196,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: frontend-builder · Spec: 007 · Depende de: T-403
 - Faz: ilha client-side que troca para a mesma rota no outro idioma e grava o cookie.
 - Pronto quando:
-  - [ ] Em `/pt/c/icons`, trocar leva a `/en/c/icons`. (Testado na home; o caso exato fica para a T-504, quando a rota existir.)
+  - [x] Em `/pt/c/icons`, trocar leva a `/en/c/icons`. (Testado na T-504, quando a rota passou a existir.)
 
 ### T-405 · Tema claro/escuro (adiada para depois da v1, D-03)
 - Agente: frontend-builder · Spec: 004 · Depende de: T-403 · **Ver decisão D-03**
@@ -246,8 +246,8 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003 · Depende de: T-503
 - Faz: `/[locale]/c/[category]`, lista densa de ResourceRow. FilterBar como ilha client-side com estado na URL (`pricing`, `oss`, `level`, `sort`). Estado vazio com "Limpar filtros" e "Sugerir recurso". Referências: `Category.dc.html`, `Empty.dc.html`.
 - Pronto quando:
-  - [ ] Filtros funcionam com voltar/avançar do browser e são partilháveis.
-  - [ ] Sem JS, a lista completa aparece.
+  - [x] Filtros funcionam com voltar/avançar do browser e são partilháveis.
+  - [x] Sem JS, a lista completa aparece.
 
 ### T-505 · Página de Recurso
 - Agente: frontend-builder · Spec: 003 · Depende de: T-504
