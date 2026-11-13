@@ -240,7 +240,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003 · Depende de: T-403
 - Faz: `/[locale]/(discover|learn|build|grow)`. Categorias da área com contagem e exemplos, "Em destaque", pílulas das outras áreas. Referência: `Area.dc.html`.
 - Pronto quando:
-  - [ ] As 4 áreas geram nos 2 idiomas; categorias vazias não aparecem.
+  - [x] As 4 áreas geram nos 2 idiomas; categorias vazias não aparecem.
 
 ### T-504 · Página de Categoria + filtros
 - Agente: frontend-builder · Spec: 003 · Depende de: T-503

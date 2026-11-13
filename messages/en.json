@@ -103,5 +103,19 @@
   },
   "resource": {
     "oss": "OSS"
+  },
+  "area": {
+    "breadcrumb": "Breadcrumb",
+    "index": "Index",
+    "stats": "{resources, plural, =0 {# resources} one {# resource} other {# resources}} · {categories, plural, =0 {# categories} one {# category} other {# categories}}",
+    "categories": "Categories",
+    "recent": "Recent in {area}",
+    "seeNew": "See new",
+    "others": "Other areas of the index",
+    "emptyTitle": "No resources in this area yet.",
+    "emptyBody": "Know something that would be missed here? Suggest it on GitHub.",
+    "suggest": "Suggest a resource",
+    "count": "{count, plural, =0 {# resources} one {# resource} other {# resources}}",
+    "recentList": "Recent resources in this area"
   }
 }
