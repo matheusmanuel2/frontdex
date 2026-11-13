@@ -400,7 +400,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 000 · Depende de: M5, M6
 - Faz: axe em todas as rotas, nos dois temas e idiomas. Navegação só por teclado em cada página.
 - Pronto quando:
-  - [ ] Zero violações axe; relatório em `docs/qa/a11y.md`.
+  - [x] Zero violações axe; relatório em `docs/qa/a11y.md`.
 
 ### T-902 · Lighthouse CI
 - Agente: data-ci · Spec: 000 · Depende de: M5
