@@ -39,6 +39,9 @@ jobs:
       - name: Typecheck
         run: pnpm typecheck
 
+      - name: Validar conteúdo
+        run: pnpm validate
+
       - name: Testes unitários
         run: pnpm test
 
