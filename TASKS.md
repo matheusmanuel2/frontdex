@@ -78,7 +78,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: data-ci · Spec: 001 · Depende de: T-101
 - Faz: `lib/content/schema.ts` com Resource, Area, Category, Tag, Collection, exatamente como a tabela da spec 001 (incluindo a regra de `TODO` só em `draft`).
 - Pronto quando:
-  - [ ] Testes Vitest cobrem cada regra da spec 001 (casos válidos e inválidos).
+  - [x] Testes Vitest cobrem cada regra da spec 001 (casos válidos e inválidos).
 
 ### T-202 · Ajustar os YAML do seed ao schema
 - Agente: data-ci · Spec: 001 · Depende de: T-201
