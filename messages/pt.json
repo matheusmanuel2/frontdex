@@ -187,5 +187,14 @@
     "all": "Ver todas",
     "list": "Recursos da coleção, em ordem",
     "why": "Por que está aqui:"
+  },
+  "new": {
+    "title": "Novos.",
+    "titleMuted": "Por ordem de entrada no índice.",
+    "intro": "Os recursos agrupados pela semana em que entraram. Siga pelo RSS para receber os próximos.",
+    "rss": "Feed RSS",
+    "week": "Semana de {date}",
+    "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}",
+    "empty": "Ainda não há recursos publicados."
   }
 }

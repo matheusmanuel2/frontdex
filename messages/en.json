@@ -187,5 +187,14 @@
     "all": "See all",
     "list": "Resources in this collection, in order",
     "why": "Why it's here:"
+  },
+  "new": {
+    "title": "New.",
+    "titleMuted": "In the order they joined the index.",
+    "intro": "Resources grouped by the week they were added. Follow the RSS feed to get the next ones.",
+    "rss": "RSS feed",
+    "week": "Week of {date}",
+    "count": "{count, plural, =0 {# resources} one {# resource} other {# resources}}",
+    "empty": "No resources published yet."
   }
 }
