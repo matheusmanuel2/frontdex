@@ -196,5 +196,16 @@
     "week": "Semana de {date}",
     "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}",
     "empty": "Ainda não há recursos publicados."
+  },
+  "random": {
+    "eyebrow": "Surpresa",
+    "title": "Um recurso ao acaso.",
+    "titleMuted": "Às vezes é assim que se acha o melhor.",
+    "open": "Abrir recurso",
+    "another": "Outro ao acaso",
+    "visit": "Visitar site",
+    "footer": "sorteado de {count} recursos · tecla R para outro",
+    "noscript": "Sem JavaScript, mostramos sempre o mesmo. Recarregue com JavaScript para sortear.",
+    "empty": "Ainda não há recursos para sortear."
   }
 }

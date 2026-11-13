@@ -196,5 +196,16 @@
     "week": "Week of {date}",
     "count": "{count, plural, =0 {# resources} one {# resource} other {# resources}}",
     "empty": "No resources published yet."
+  },
+  "random": {
+    "eyebrow": "Surprise me",
+    "title": "A random resource.",
+    "titleMuted": "Sometimes that's how you find the best one.",
+    "open": "Open resource",
+    "another": "Another one",
+    "visit": "Visit site",
+    "footer": "picked from {count} resources · press R for another",
+    "noscript": "Without JavaScript we always show the same one. Reload with JavaScript to pick at random.",
+    "empty": "No resources to pick from yet."
   }
 }
