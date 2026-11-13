@@ -318,7 +318,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 007 · Depende de: T-505
 - Faz: `generateMetadata` em todas as rotas, `alternates` com pt, en e `x-default` → `/pt`, canonical.
 - Pronto quando:
-  - [ ] Cada página tem title e description únicos nos dois idiomas.
+  - [x] Cada página tem title e description únicos nos dois idiomas.
 
 ### T-702 · Sitemap e robots
 - Agente: frontend-builder · Spec: 003 · Depende de: T-701
@@ -453,4 +453,4 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-11 | "Copiar link" na página de coleção (T-506) e o sorteio da Surpresa (T-508, escolha no browser por D-01) são ilhas client-side além das 3 da spec 003. Feito como ilha mínima (botão + icon swap), e sem JS o botão não aparece (o link continua na barra do browser). Aceitar? | T-506 | aberta (implementado como proposto) |
 | D-12 | Spec 003 pede o hero-13 "instalado pelo CLI". O `shadcn add` falhou (ERR_PNPM_IGNORED_BUILDS) e, de qualquer forma, o bloco traz `lucide-react` e `motion` (proibidos). O código foi tirado do JSON do registry, re-tematizado e mantém o aviso MIT. Aceitar e ajustar o critério da spec 003 para "baseado no hero-13 do registry, com aviso MIT"? | T-501 | aberta (implementado assim) |
 | D-13 | A spec 008 e o mockup Search pedem que `/search?q=` filtre sem JS; a implementação SSG mostra o índice completo porque não processa queries arbitrárias sem runtime. Aceitar esse fallback, rever a spec para exigir JS, ou permitir runtime? | T-603 | aberta |
-| D-14 | Qual é a origem pública canônica do site (`https://…`) para canonical/hreflang, sitemap, RSS e URLs Open Graph? O domínio ainda não foi definido/validado. | T-701–T-704 | aberta |
+| D-14 | Qual é a origem pública canônica do site (`https://…`) para canonical/hreflang, sitemap, RSS e URLs Open Graph? | T-701–T-704 | decidida (2026-11-13): usar `https://frontdex.dev` provisoriamente, confirmado pelo Matheus |

@@ -21,6 +21,7 @@ Leia o [CONTRIBUTING.md](CONTRIBUTING.md) antes.
 
 - Comece por [`CLAUDE.md`](CLAUDE.md), [`specs/000-constitution.md`](specs/000-constitution.md) e [`docs/architecture.md`](docs/architecture.md).
 - Próximos passos: [`docs/next-steps.md`](docs/next-steps.md).
+- A origem canônica é configurada em `SITE_URL`; por enquanto, o valor padrão é `https://frontdex.dev`.
 
 ---
 

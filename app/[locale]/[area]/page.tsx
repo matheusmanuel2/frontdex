@@ -24,6 +24,7 @@ import {
   type AreaSlug,
 } from '@/lib/content';
 import { routing, type AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
 
@@ -43,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, area: slug } = await params;
   const area = isArea(slug) ? getArea(slug) : undefined;
   if (!area) return {};
-  return { title: area.name[locale], description: area.description[locale] };
+  return localizedMetadata(locale, `/${slug}`, area.name[locale], area.description[locale]);
 }
 
 const pill =

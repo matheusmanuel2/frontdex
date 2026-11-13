@@ -5,6 +5,7 @@ import { RandomCard, type RandomItem } from '@/components/random/RandomCard';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getArea, getCategory, listResources } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
 
@@ -13,7 +14,7 @@ type Props = { params: Promise<{ locale: AppLocale }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'random' });
-  return { title: t('eyebrow'), description: t('title') };
+  return localizedMetadata(locale, '/random', t('eyebrow'), t('title'));
 }
 
 /** Surpresa (spec 003 + decisão D-01): card com um recurso ao acaso, escolhido no browser. */
