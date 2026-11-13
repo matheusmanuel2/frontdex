@@ -352,6 +352,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: data-ci · Spec: 002 · Depende de: T-204
 - Faz: `scripts/issue-to-yaml.ts` + `.github/workflows/issue-to-pr.yml`. Converte o issue em YAML (`status: draft` se faltar algo), abre o PR, liga o issue. Sem descrição PT → label `needs-translation`.
 - Pronto quando:
+  - [x] O conversor gera YAML sem inventar campos; valores em falta ficam como `TODO` em `draft`, e a falta de descrição PT é identificada para aplicar `needs-translation`.
   - [ ] Teste com um issue real cria o PR em < 2 minutos.
 
 ### T-802 · Comentário de erros no PR

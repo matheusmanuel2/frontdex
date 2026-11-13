@@ -1,0 +1,77 @@
+name: Issue to resource PR
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  actions: write
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: issue-to-pr-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  create-resource-pr:
+    if: contains(github.event.issue.labels.*.name, 'new-resource')
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: Instalar dependências
+        run: pnpm install --frozen-lockfile
+
+      - name: Criar YAML do recurso
+        id: resource
+        run: pnpm exec tsx scripts/issue-to-yaml.ts
+
+      - name: Criar branch e pull request
+        id: pull-request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          RESOURCE_SLUG: ${{ steps.resource.outputs.slug }}
+          NEEDS_TRANSLATION: ${{ steps.resource.outputs.needs_translation }}
+        run: |
+          branch="issue-${ISSUE_NUMBER}-resource"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch --create "$branch"
+          git add -- "data/resources/${RESOURCE_SLUG}.yaml"
+          git commit -m "Add resource from issue #${ISSUE_NUMBER}"
+          git push origin "HEAD:refs/heads/${branch}"
+          pr_url="$(gh pr create \
+            --draft \
+            --base main \
+            --head "$branch" \
+            --title "Add resource: ${RESOURCE_SLUG}" \
+            --body "Closes #${ISSUE_NUMBER}")"
+          echo "url=${pr_url}" >> "$GITHUB_OUTPUT"
+
+          if [ "$NEEDS_TRANSLATION" = "true" ]; then
+            gh pr edit "$pr_url" --add-label needs-translation
+          fi
+
+      - name: Executar CI no pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ steps.pull-request.outputs.url }}
+          RESOURCE_BRANCH: issue-${{ github.event.issue.number }}-resource
+        run: |
+          pr_number="$(gh pr view "$PR_URL" --json number --jq .number)"
+          gh workflow run ci.yml \
+            --ref "$RESOURCE_BRANCH" \
+            --field pull_request_number="$pr_number"
