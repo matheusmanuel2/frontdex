@@ -52,7 +52,7 @@ Branch atual: m8-contribuicao
 | 2026-11-13 | T-801 | 51e92ed | Issue Form e conversor para YAML com `draft`/`TODO`; 3 testes passaram. O teste real de PR não foi executado porque não devo abrir PRs. |
 | 2026-11-13 | T-802 | ed92afe | CI publica/atualiza um comentário de validação e aplica `needs-changes`; três testes de API simulada passaram. |
 | 2026-11-13 | T-803 | 845bd30 | CI verifica URLs dos YAML alterados, exige HTTPS na URL principal, aplica retry/timeout e bloqueia destinos IP não públicos; 6 testes passaram. |
-| 2026-11-13 | T-804 | — | Atribuidor de IDs varre recursos sem ID após pushes em `main`, com sequência determinística e workflow serializado; 4 testes e CLI em fixture temporário passaram. |
+| 2026-11-13 | T-804 | c2e86bc | Atribuidor de IDs varre recursos sem ID após pushes em `main`, com sequência determinística e workflow serializado; 4 testes e CLI em fixture temporário passaram. |
 
 ## Passagem de sessão (2026-11-13)
 
