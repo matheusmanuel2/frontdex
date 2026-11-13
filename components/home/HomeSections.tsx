@@ -13,6 +13,7 @@ import {
   listNew,
   listResources,
   resourceToYaml,
+  AREA_NUMBER,
   type Resource,
 } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
@@ -22,8 +23,6 @@ import { SectionHeader } from './SectionHeader';
 const ghostLink =
   't-hover inline-flex h-10 items-center rounded-pill border border-border-button px-4 text-small text-primary hover:border-border-strong hover:bg-graphite';
 const section = 'mx-auto w-full max-w-(--container-max) px-(--gutter) pt-16 pb-8 sm:pt-20';
-
-const AREA_NUMBER: Record<string, string> = { discover: '01', learn: '02', build: '03', grow: '04' };
 
 /** Áreas com contagem real e as categorias que têm recursos (T-502). */
 export async function AreasSection() {

@@ -55,6 +55,7 @@ test.describe('/pt/_design', () => {
     const trigger = page.getByRole('button', { name: 'Ordenar' }).first();
     await trigger.focus();
     await page.keyboard.press('Enter');
+    await expect(page.getByRole('menu')).toBeVisible();
     await page.keyboard.press('ArrowDown');
     const item = page.locator('[role="menuitemradio"]:focus, [role="menuitem"]:focus');
     await expect(item).toHaveCount(1);

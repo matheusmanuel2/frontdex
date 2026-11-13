@@ -33,13 +33,17 @@ export function ResourceRow({ href, name, description, id, badges, meta, aside, 
         href={href}
         className={cn(
           't-hover t-icon-host group grid items-center gap-x-5 gap-y-2 px-5 py-4 text-primary hover:bg-row-hover sm:px-6',
-          'grid-cols-[minmax(0,1fr)_16px] sm:grid-cols-[64px_minmax(0,1fr)_auto_16px]',
+          'grid-cols-[minmax(0,1fr)_16px]',
+          // Sem ID (antes do assign-ids), a coluna do ID não existe.
+          id === undefined ? 'sm:grid-cols-[minmax(0,1fr)_auto_16px]' : 'sm:grid-cols-[64px_minmax(0,1fr)_auto_16px]',
           '-outline-offset-2',
         )}
       >
-        <span className="hidden sm:block">
-          <IndexId id={id} />
-        </span>
+        {id === undefined ? null : (
+          <span className="hidden sm:block">
+            <IndexId id={id} />
+          </span>
+        )}
         <span className="min-w-0">
           <span className="flex flex-wrap items-center gap-3">
             <span className="text-body font-medium">{name}</span>

@@ -50,3 +50,4 @@ export const listCollections = (options?: { includeDrafts?: boolean }) =>
 export const getCollection = (slug: string) => queries.getCollection(getContent(), slug);
 export const getCollectionResources = (slug: string) => queries.getCollectionResources(getContent(), slug);
 export { resourceToYaml } from './yaml';
+export { AREA_NUMBER } from './labels';
