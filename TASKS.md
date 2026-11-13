@@ -144,8 +144,8 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Faz: pelo MCP da Watermelon, instala Button, Input, Dialog, DropdownMenu, Tooltip, Segmented/Tabs em `components/ui/`. Re-tematiza (cor, fonte, raio via tokens). Mantém o aviso MIT no topo de cada ficheiro.
 - Variantes de Button: `primary` (pílula branca), `secondary` (pílula escura com borda 10%), `brand` (Index Blue), `ghost`.
 - Pronto quando:
-  - [ ] Nenhum componente com cores ou raios padrão do shadcn.
-  - [ ] Foco visível (#5B97FF, 2px) em todos os interativos.
+  - [x] Nenhum componente com cores ou raios padrão do shadcn.
+  - [x] Foco visível (#5B97FF, 2px) em todos os interativos.
 
 ### T-306 · IconBase e set de ícones animados
 - Agente: design-system · Spec: 004 · Depende de: T-304
