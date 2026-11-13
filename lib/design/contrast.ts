@@ -8,7 +8,8 @@ import { readFileSync } from 'node:fs';
 import path from 'node:path';
 
 export type Theme = 'dark' | 'light';
-export type Pair = { text: string; background: string; min: number; use: string };
+/** `over`: fundo opaco por baixo de um `background` translúcido (para compor a cor). */
+export type Pair = { text: string; background: string; min: number; use: string; over?: string };
 
 /** Combinações usadas. `min` 4.5 = texto normal (AA); 3 = texto grande, ícones e foco (AA 1.4.11). */
 export const PAIRS: Pair[] = [
@@ -32,6 +33,14 @@ export const PAIRS: Pair[] = [
   { text: 'button-primary-bg', background: 'ink', min: 3, use: 'Contorno do botão primário na página' },
   { text: 'signal-orange', background: 'ink-hero', min: 3, use: 'Ponto de status no hero (não-texto)' },
   { text: 'paper', background: 'ink-hero', min: 4.5, use: 'Texto do hero (o hero é sempre escuro)' },
+  { text: 'text-primary', background: 'list', min: 4.5, use: 'Nome do recurso nas listas' },
+  { text: 'text-secondary', background: 'list', min: 4.5, use: 'Descrição nas listas' },
+  { text: 'text-muted', background: 'list', min: 4.5, use: 'ID e tags nas listas' },
+  { text: 'text-secondary', background: 'row-hover', min: 4.5, use: 'Descrição numa linha em hover' },
+  { text: 'text-muted', background: 'row-hover', min: 4.5, use: 'ID numa linha em hover' },
+  { text: 'link-hover', background: 'ink', min: 4.5, use: 'Link em hover' },
+  { text: 'brand-tint-text', background: 'brand-tint', over: 'list', min: 4.5, use: 'Chip de marca (OSS) nas listas' },
+  { text: 'brand-tint-text', background: 'brand-tint', over: 'carbon', min: 4.5, use: 'Chip de marca (OSS) em cards' },
 ];
 
 const TOKENS_PATH = path.join(process.cwd(), 'styles/tokens.css');
@@ -63,6 +72,29 @@ export function resolveColor(vars: Record<string, string>, token: string, depth 
   return [0, 2, 4].map((i) => parseInt(hex.slice(i, i + 2), 16)) as [number, number, number];
 }
 
+/** Lê `rgb(r g b / a)` ou hex; devolve cor e alfa. */
+export function resolveRgba(
+  vars: Record<string, string>,
+  token: string,
+): { rgb: [number, number, number]; alpha: number } {
+  const raw = vars[`color-${token}`] ?? '';
+  const match = raw.match(/^rgb\(\s*(\d+)\s+(\d+)\s+(\d+)\s*\/\s*([\d.]+)\s*\)$/);
+  if (match) {
+    const [, r, g, b, a] = match;
+    return { rgb: [Number(r), Number(g), Number(b)], alpha: Number(a) };
+  }
+  return { rgb: resolveColor(vars, token), alpha: 1 };
+}
+
+/** Compõe uma cor translúcida sobre um fundo opaco. */
+export function composite(top: { rgb: [number, number, number]; alpha: number }, base: [number, number, number]) {
+  return top.rgb.map((channel, i) => Math.round(channel * top.alpha + (base[i] ?? 0) * (1 - top.alpha))) as [
+    number,
+    number,
+    number,
+  ];
+}
+
 function luminance([r, g, b]: [number, number, number]): number {
   const [R, G, B] = [r, g, b].map((channel) => {
     const c = channel / 255;
@@ -82,7 +114,10 @@ export function contrastTable(themes = readThemes()): Row[] {
   return (['dark', 'light'] as const).flatMap((theme) =>
     PAIRS.map((pair) => {
       const vars = themes[theme];
-      const ratio = contrast(resolveColor(vars, pair.text), resolveColor(vars, pair.background));
+      const background = pair.over
+        ? composite(resolveRgba(vars, pair.background), resolveColor(vars, pair.over))
+        : resolveColor(vars, pair.background);
+      const ratio = contrast(resolveColor(vars, pair.text), background);
       return { ...pair, theme, ratio, pass: ratio >= pair.min };
     }),
   );

@@ -28,6 +28,14 @@ Critério: WCAG 2.2 AA. Texto normal precisa de 4,5:1. Texto grande (≥ 24px, o
 | `--color-button-primary-bg` | `--color-ink` | 19.03:1 | 3:1 | passa | Contorno do botão primário na página |
 | `--color-signal-orange` | `--color-ink-hero` | 7.33:1 | 3:1 | passa | Ponto de status no hero (não-texto) |
 | `--color-paper` | `--color-ink-hero` | 18.27:1 | 4.5:1 | passa | Texto do hero (o hero é sempre escuro) |
+| `--color-text-primary` | `--color-list` | 18.06:1 | 4.5:1 | passa | Nome do recurso nas listas |
+| `--color-text-secondary` | `--color-list` | 8.21:1 | 4.5:1 | passa | Descrição nas listas |
+| `--color-text-muted` | `--color-list` | 6.20:1 | 4.5:1 | passa | ID e tags nas listas |
+| `--color-text-secondary` | `--color-row-hover` | 7.60:1 | 4.5:1 | passa | Descrição numa linha em hover |
+| `--color-text-muted` | `--color-row-hover` | 5.74:1 | 4.5:1 | passa | ID numa linha em hover |
+| `--color-link-hover` | `--color-ink` | 9.70:1 | 4.5:1 | passa | Link em hover |
+| `--color-brand-tint-text` | `--color-brand-tint` sobre `--color-list` | 8.46:1 | 4.5:1 | passa | Chip de marca (OSS) nas listas |
+| `--color-brand-tint-text` | `--color-brand-tint` sobre `--color-carbon` | 8.17:1 | 4.5:1 | passa | Chip de marca (OSS) em cards |
 
 ## Tema light (proposta, decisão D-07)
 
@@ -53,6 +61,14 @@ Critério: WCAG 2.2 AA. Texto normal precisa de 4,5:1. Texto grande (≥ 24px, o
 | `--color-button-primary-bg` | `--color-ink` | 18.53:1 | 3:1 | passa | Contorno do botão primário na página |
 | `--color-signal-orange` | `--color-ink-hero` | 7.33:1 | 3:1 | passa | Ponto de status no hero (não-texto) |
 | `--color-paper` | `--color-ink-hero` | 18.27:1 | 4.5:1 | passa | Texto do hero (o hero é sempre escuro) |
+| `--color-text-primary` | `--color-list` | 19.69:1 | 4.5:1 | passa | Nome do recurso nas listas |
+| `--color-text-secondary` | `--color-list` | 7.56:1 | 4.5:1 | passa | Descrição nas listas |
+| `--color-text-muted` | `--color-list` | 5.78:1 | 4.5:1 | passa | ID e tags nas listas |
+| `--color-text-secondary` | `--color-row-hover` | 6.92:1 | 4.5:1 | passa | Descrição numa linha em hover |
+| `--color-text-muted` | `--color-row-hover` | 5.29:1 | 4.5:1 | passa | ID numa linha em hover |
+| `--color-link-hover` | `--color-ink` | 6.35:1 | 4.5:1 | passa | Link em hover |
+| `--color-brand-tint-text` | `--color-brand-tint` sobre `--color-list` | 5.86:1 | 4.5:1 | passa | Chip de marca (OSS) nas listas |
+| `--color-brand-tint-text` | `--color-brand-tint` sobre `--color-carbon` | 5.86:1 | 4.5:1 | passa | Chip de marca (OSS) em cards |
 
 ### O que mudou face ao rascunho do kit
 
