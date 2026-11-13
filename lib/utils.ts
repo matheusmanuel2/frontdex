@@ -23,6 +23,11 @@ const twMerge = extendTailwindMerge<'typography'>({
         'muted',
         'title-muted',
         'link',
+        'link-hover',
+        'list',
+        'row-hover',
+        'brand-tint',
+        'brand-tint-text',
         'focus',
         'border',
         'border-strong',
@@ -36,13 +41,13 @@ const twMerge = extendTailwindMerge<'typography'>({
         'current',
       ],
       radius: ['pill', 'card', 'panel', 'sm', 'none'],
-      text: ['display', 'h1', 'h2', 'h3', 'body', 'small', 'mono'],
+      text: ['display', 'h1', 'h2', 'h3', 'card', 'body', 'small', 'mono'],
       font: ['sans', 'mono'],
     },
   },
   extend: {
     classGroups: {
-      typography: ['title-display', 'title-h1', 'title-h2', 'title-h3', 'label-mono'],
+      typography: ['title-display', 'title-h1', 'title-h2', 'title-h3', 'title-card', 'label-mono'],
     },
   },
 });

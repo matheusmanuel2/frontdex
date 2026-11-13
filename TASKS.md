@@ -158,7 +158,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: design-system · Spec: 004 · Depende de: T-305, T-306
 - Faz: IndexId (`#0002` em mono), TagChip, ResourceRow (lista densa, seta no hover), CategoryCard, CollectionCard, SectionTitle (dois tons), Eyebrow, Breadcrumb, EmptyState. Referência visual: mockups de Categoria, Área e Coleções.
 - Pronto quando:
-  - [ ] Cada componente tem estados (hover, foco, disabled quando aplicável) e funciona nos dois temas.
+  - [x] Cada componente tem estados (hover, foco, disabled quando aplicável) e funciona nos dois temas.
 
 ### T-308 · Página `/_design`
 - Agente: design-system · Spec: 004 · Depende de: T-307

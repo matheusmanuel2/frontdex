@@ -14,7 +14,7 @@ function table(rows: Row[]): string {
   const lines = ['| Texto | Fundo | Razão | Mínimo | Resultado | Uso |', '| --- | --- | --- | --- | --- | --- |'];
   for (const row of rows) {
     lines.push(
-      `| \`--color-${row.text}\` | \`--color-${row.background}\` | ${row.ratio.toFixed(2)}:1 | ${row.min}:1 | ${row.pass ? 'passa' : '**falha**'} | ${row.use} |`,
+      `| \`--color-${row.text}\` | \`--color-${row.background}\`${row.over ? ` sobre \`--color-${row.over}\`` : ''} | ${row.ratio.toFixed(2)}:1 | ${row.min}:1 | ${row.pass ? 'passa' : '**falha**'} | ${row.use} |`,
     );
   }
   return lines.join('\n');

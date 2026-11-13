@@ -41,6 +41,11 @@
   --color-muted: var(--color-text-muted);
   --color-title-muted: var(--color-title-muted);
   --color-link: var(--color-link);
+  --color-link-hover: var(--color-link-hover);
+  --color-list: var(--color-list);
+  --color-row-hover: var(--color-row-hover);
+  --color-brand-tint: var(--color-brand-tint);
+  --color-brand-tint-text: var(--color-brand-tint-text);
   --color-focus: var(--color-focus);
 
   /* Cor: bordas */
@@ -74,6 +79,7 @@
   --text-h1: var(--text-h1);
   --text-h2: var(--text-h2);
   --text-h3: var(--text-h3);
+  --text-card: var(--text-card);
   --text-body: var(--text-body);
   --text-small: var(--text-small);
   --text-mono: var(--text-mono);
@@ -146,6 +152,14 @@
   font-weight: var(--font-weight-title);
   letter-spacing: var(--tracking-title);
   line-height: var(--leading-title);
+}
+
+@utility title-card {
+  font-family: var(--font-sans);
+  font-size: var(--text-card);
+  font-weight: var(--font-weight-title);
+  letter-spacing: var(--tracking-title);
+  line-height: 1.1;
 }
 
 @utility title-h3 {
