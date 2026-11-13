@@ -1,6 +1,6 @@
 # Progresso
 
-Branch atual: m4-esqueleto
+Branch atual: m5-paginas
 
 | Data | Task | Commit | Notas |
 | --- | --- | --- | --- |
@@ -30,3 +30,14 @@ Branch atual: m4-esqueleto
 | 2026-11-13 | T-407 | e42d3ff | Fixture com chave em falta; e2e entra no CI |
 | 2026-11-13 | T-405 | — | Saltada: depende da decisão D-03 (seletor de tema como 4.ª ilha) |
 | 2026-11-13 | M4 | — | Notas do reviewer: skip link na 404, query mantida em `/`, `next/link` no servidor (sem provider do next-intl no browser), D-10 (orçamento de JS) |
+| 2026-11-13 | T-406 | 27b06f1 | 404 bilingue (D-09) |
+| 2026-11-13 | T-501 | 0365c65 | hero-13 tirado do registry (o CLI falhou com ERR_PNPM_IGNORED_BUILDS); sem motion/lucide; avatares fora até haver dados |
+| 2026-11-13 | T-502 | c8d9b06 | Joias = recursos com `why`; Coleções escondida sem `active`; YAML de exemplo real |
+| 2026-11-13 | T-503 | b4b7c27 | "Recentes em …" em vez de "Em destaque" (sem dados de destaque) |
+| 2026-11-13 | T-504 | 4651eb2 | FilterBar com estado na URL; fallback sem JS = lista completa |
+| 2026-11-13 | T-505 | 7cbb341 | Sem screenshot/curador/páginas de tag (sem dados) |
+| 2026-11-13 | T-506 | 3f9f8f2 | Copiar link como ilha mínima (D-11) |
+| 2026-11-13 | T-507 | 8ecbe62 | Semanas a começar na segunda (UTC) |
+| 2026-11-13 | T-508 | 606fec0 | Card + sorteio no browser (D-01) |
+| 2026-11-13 | T-509 | e60871f | MDX; texto rascunho; licença CC BY 4.0 (D-02); `pnpm-workspace.yaml` com allowBuilds |
+| 2026-11-13 | T-510 | 5ce3256 | Sem número de contribuidores (não existe nos dados) |
