@@ -43,17 +43,17 @@ Branch atual: m6-busca
 | 2026-11-13 | T-510 | 5ce3256 | Sem número de contribuidores (não existe nos dados) |
 | 2026-11-13 | T-601 | ff41af4 | Índice em `.next/static/pagefind` (servido em /_next/static/pagefind/); 50 páginas, pt-br e en. Revisão: título e descrição explícitos nas categorias |
 | 2026-11-13 | T-602 | 0736ad7 | Lançador leve + diálogo carregado on demand; clique capturado em `[data-search-trigger]`. Revisão: reutiliza o Dialog Watermelon e mostra metadados de categoria legíveis |
-| 2026-11-13 | T-603 | 2e636c0 | Sem JS não filtra (site estático): mostra o índice completo |
+| 2026-11-13 | T-603 | 2e636c0 | Revisão: busca sem JS não aplica `q`; pendente da decisão D-13 |
 
 ## Passagem de sessão (2026-11-13)
 
-Estado: M1–M5 feitos, revistos e publicados; M6 feito (89 e2e verdes), ainda **sem revisão**. Próximo: rever o M6 e seguir para o M7.
+Estado: M1–M5 feitos, revistos e publicados; revisão do M6 feita, correções de metadados em T-601/T-602 e verificação completa com 90 e2e verdes. T-603 fica pendente de D-13.
 
 - Branches empilhadas no GitHub: `m1-fundacao` → `m2-conteudo` → `m3-design-system` → `m4-esqueleto` → `m5-paginas` → `m6-busca`.
 - **PRs ainda não abertos**: o token do `gh` não tem *Pull requests: write*. O Matheus decidiu abrir no fim.
 - Commits e PRs **sem** assinatura do Claude (`Co-Authored-By` / "Generated with").
 - v1 só em **dark**; tema claro (T-405, D-03, D-07) depois do lançamento.
-- Decisões ainda abertas: D-04 (plano Vercel), D-06 (licença do fundo do hero), D-11 (ilhas extra: Copiar link e Surpresa), D-12 (hero-13 tirado do JSON do registry). Ver tabela no fim do `TASKS.md`.
+- Decisões ainda abertas: D-04 (plano Vercel), D-06 (licença do fundo do hero), D-11 (ilhas extra: Copiar link e Surpresa), D-12 (hero-13 tirado do JSON do registry), D-13 (busca sem JS). Ver tabela no fim do `TASKS.md`.
 - Textos para o Matheus rever antes do merge: `content/pages/add.*.mdx`, `content/pages/about.*.mdx`, `messages/*.json › add.intro`, `about.p3d`, `about.analyticsValue`, `about.curationValue`.
 - Verificação completa: `pnpm lint && pnpm typecheck && pnpm test && pnpm build && pnpm validate && pnpm check:i18n && pnpm contrast:check && pnpm test:e2e` (portas 3100/3101 livres; o Playwright reutiliza servidores antigos se estiverem a correr).
 - Notas técnicas: TypeScript fixado em 6.x (typescript-eslint); `pnpm-workspace.yaml` com `allowBuilds`; skill do transitions.dev fora do Git (`npx skills add Jakubantalik/transitions.dev --agent claude-code -y`); `/[locale]/_design` só em `next dev`.

@@ -308,7 +308,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 008 · Depende de: T-601
 - Faz: `/[locale]/search?q=` funciona como página normal e serve de fallback do ⌘K. Chips por área, termo realçado. Referência: `Search.dc.html`.
 - Pronto quando:
-  - [x] Com JS desligado, o formulário do cabeçalho leva a esta página e mostra resultados.
+  - [ ] Com JS desligado, o formulário do cabeçalho leva a esta página e mostra resultados.
 
 ---
 
@@ -452,3 +452,4 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-10 | Meta "JS da home < 90 KB gzip" (constitution §3): só o runtime do Next 16 + React 19 já dá **~135 KB gzip** (sem polyfills) numa página quase vazia. Opções: (a) medir só o JS próprio da página (sem o runtime do framework); (b) subir a meta (ex.: 150 KB); (c) trocar de framework (contra o ADR 0001). Proposta: (a), com Lighthouse ≥ 95 como meta real | T-602, T-902 | decidida (2026-11-13): medir só o JS próprio das páginas; metas reais Lighthouse ≥ 95 e LCP < 1,5 s |
 | D-11 | "Copiar link" na página de coleção (T-506) e o sorteio da Surpresa (T-508, escolha no browser por D-01) são ilhas client-side além das 3 da spec 003. Feito como ilha mínima (botão + icon swap), e sem JS o botão não aparece (o link continua na barra do browser). Aceitar? | T-506 | aberta (implementado como proposto) |
 | D-12 | Spec 003 pede o hero-13 "instalado pelo CLI". O `shadcn add` falhou (ERR_PNPM_IGNORED_BUILDS) e, de qualquer forma, o bloco traz `lucide-react` e `motion` (proibidos). O código foi tirado do JSON do registry, re-tematizado e mantém o aviso MIT. Aceitar e ajustar o critério da spec 003 para "baseado no hero-13 do registry, com aviso MIT"? | T-501 | aberta (implementado assim) |
+| D-13 | A spec 008 e o mockup Search pedem que `/search?q=` filtre sem JS; a implementação SSG mostra o índice completo porque não processa queries arbitrárias sem runtime. Aceitar esse fallback, rever a spec para exigir JS, ou permitir runtime? | T-603 | aberta |
