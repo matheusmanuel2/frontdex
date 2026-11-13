@@ -284,7 +284,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003 · Depende de: T-403
 - Faz: `/[locale]/about` em MDX por idioma. História, princípios, números reais do loader, "Apoie". Referência: `About.dc.html`. **Texto do mockup é rascunho: o Matheus revê.**
 - Pronto quando:
-  - [ ] Números (recursos, categorias, contribuidores) vêm dos dados, não estão escritos à mão.
+  - [x] Números (recursos, categorias, contribuidores) vêm dos dados, não estão escritos à mão.
 
 ---
 
