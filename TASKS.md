@@ -84,9 +84,9 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: data-ci · Spec: 001 · Depende de: T-201
 - Faz: corrige só **forma** (nomes de campos, datas, ordem) nos YAML de `data/`. Nunca inventa valores: o que faltar fica `TODO` e o recurso fica `draft`.
 - Pronto quando:
-  - [ ] Os 8 recursos `active` passam o schema.
-  - [ ] Os `draft` passam como `draft`.
-  - [ ] O diff não muda nenhuma descrição, URL, preço ou licença.
+  - [x] Os 8 recursos `active` passam o schema.
+  - [x] Os `draft` passam como `draft`.
+  - [x] O diff não muda nenhuma descrição, URL, preço ou licença.
 
 ### T-203 · Loader de conteúdo
 - Agente: data-ci · Spec: 001 · Depende de: T-201
