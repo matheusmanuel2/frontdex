@@ -59,8 +59,16 @@ const config = [
   },
   {
     // lib/content é o único sítio que lê ficheiros de data/ (spec 001, T-203).
+    // O gerador de OG lê apenas as fontes e tokens locais usados na imagem.
     files: ['**/*.{ts,tsx,mts,mjs,js}'],
-    ignores: ['lib/content/**', 'scripts/**', '**/*.test.ts', 'tests/**', '*.config.{ts,mts,mjs}'],
+    ignores: [
+      'lib/content/**',
+      'lib/seo/open-graph.tsx',
+      'scripts/**',
+      '**/*.test.ts',
+      'tests/**',
+      '*.config.{ts,mts,mjs}',
+    ],
     rules: {
       'no-restricted-imports': [
         'error',
