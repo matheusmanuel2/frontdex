@@ -118,7 +118,7 @@ export async function Hero({ resourceCount }: HeroProps) {
       </header>
 
       <div className="flex flex-1 flex-col justify-end px-(--gutter) pb-16 lg:justify-start lg:pt-4 lg:pb-0">
-        <div className="max-w-2xl">
+        <div id="conteudo" tabIndex={-1} className="max-w-2xl outline-none">
           <span className="inline-flex h-7 items-center rounded-pill border border-paper/12 bg-paper/8 px-4 text-mono font-medium text-paper/85">
             {t('badge')}
           </span>

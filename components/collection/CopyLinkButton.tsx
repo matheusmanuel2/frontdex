@@ -28,8 +28,13 @@ export function CopyLinkButton({ label, copiedLabel }: CopyLinkButtonProps) {
     <button
       type="button"
       onClick={async () => {
-        await navigator.clipboard.writeText(window.location.href);
-        setCopied(true);
+        try {
+          await navigator.clipboard.writeText(window.location.href);
+          setCopied(true);
+        } catch {
+          // Sem permissão para o clipboard: o link continua na barra do browser.
+          return;
+        }
         window.setTimeout(() => setCopied(false), MOTION_MS.fast * 8);
       }}
       className="t-hover inline-flex h-10 items-center gap-2 rounded-pill border border-border-strong px-4 text-small text-primary hover:bg-graphite"
