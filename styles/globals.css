@@ -15,6 +15,9 @@
   --color-*: initial;
   --radius-*: initial;
   --font-*: initial;
+  --font-weight-*: initial;
+  --tracking-*: initial;
+  --leading-*: initial;
   --text-*: initial;
   --shadow-*: initial;
   --inset-shadow-*: initial;
@@ -32,6 +35,7 @@
   --color-paper: var(--color-paper);
   --color-index-blue: var(--color-index-blue);
   --color-index-blue-light: var(--color-index-blue-light);
+  --color-index-blue-hover: var(--color-index-blue-hover);
   --color-signal-orange: var(--color-signal-orange);
   --color-overlay: var(--color-overlay);
 
@@ -69,6 +73,11 @@
   --radius-panel: var(--radius-panel);
   --radius-sm: var(--radius-sm);
   --radius-none: 0;
+
+  /* Pesos usados (só existem ficheiros de fonte para 400/500/600) */
+  --font-weight-normal: var(--font-weight-body);
+  --font-weight-medium: var(--font-weight-ui);
+  --font-weight-semibold: var(--font-weight-button);
 
   /* Fontes */
   --font-sans: var(--font-sans);

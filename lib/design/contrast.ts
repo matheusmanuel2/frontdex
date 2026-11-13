@@ -30,6 +30,7 @@ export const PAIRS: Pair[] = [
   { text: 'button-primary-text', background: 'button-primary-bg', min: 4.5, use: 'Botão primário' },
   { text: 'button-secondary-text', background: 'button-secondary-bg', min: 4.5, use: 'Botão secundário' },
   { text: 'button-brand-text', background: 'index-blue', min: 4.5, use: 'Botão de marca (Index Blue)' },
+  { text: 'button-brand-text', background: 'index-blue-hover', min: 4.5, use: 'Botão de marca em hover' },
   { text: 'button-primary-bg', background: 'ink', min: 3, use: 'Contorno do botão primário na página' },
   { text: 'signal-orange', background: 'ink-hero', min: 3, use: 'Ponto de status no hero (não-texto)' },
   { text: 'paper', background: 'ink-hero', min: 4.5, use: 'Texto do hero (o hero é sempre escuro)' },

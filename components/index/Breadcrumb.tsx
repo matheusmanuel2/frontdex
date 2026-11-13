@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Fragment } from 'react';
 
 import { cn } from '@/lib/utils';
 
@@ -20,24 +19,18 @@ export function Breadcrumb({ items, label, className }: BreadcrumbProps) {
         {items.map((item, index) => {
           const last = index === items.length - 1;
           return (
-            <Fragment key={`${item.label}-${index}`}>
-              <li>
-                {item.href && !last ? (
-                  <Link href={item.href} className="t-hover rounded-sm hover:text-primary">
-                    {item.label}
-                  </Link>
-                ) : (
-                  <span aria-current={last ? 'page' : undefined} className={cn(last && 'text-primary')}>
-                    {item.label}
-                  </span>
-                )}
-              </li>
-              {last ? null : (
-                <li aria-hidden="true" className="text-muted">
-                  /
-                </li>
+            <li key={`${item.label}-${index}`} className="flex items-center gap-2">
+              {item.href && !last ? (
+                <Link href={item.href} className="t-hover rounded-sm hover:text-primary">
+                  {item.label}
+                </Link>
+              ) : (
+                <span aria-current={last ? 'page' : undefined} className={cn(last && 'text-primary')}>
+                  {item.label}
+                </span>
               )}
-            </Fragment>
+              {last ? null : <span aria-hidden="true">/</span>}
+            </li>
           );
         })}
       </ol>

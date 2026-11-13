@@ -16,6 +16,7 @@ const twMerge = extendTailwindMerge<'typography'>({
         'paper',
         'index-blue',
         'index-blue-light',
+        'index-blue-hover',
         'signal-orange',
         'overlay',
         'primary',

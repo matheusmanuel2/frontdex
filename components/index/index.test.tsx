@@ -70,7 +70,7 @@ describe('ResourceRow', () => {
 
 describe('cards', () => {
   it('CategoryCard tem nome, contagem e exemplos', () => {
-    const card = html(<CategoryCard href="/pt/c/icons" name="Ícones" count={12} examples="A · B" />);
+    const card = html(<CategoryCard href="/pt/c/icons" name="Ícones" count="12" examples="A · B" />);
     expect(card).toMatch(/href="\/pt\/c\/icons"/);
     expect(card).toContain('>12<');
     expect(card).toContain('A · B');
@@ -105,6 +105,7 @@ describe('títulos e navegação', () => {
 
   it('Eyebrow e EmptyState', () => {
     expect(html(<Eyebrow>03 / CONSTRUIR</Eyebrow>)).toContain('label-mono');
-    expect(html(<EmptyState title="Nada aqui" />)).toMatch(/role="status"/);
+    expect(html(<EmptyState title="Nada aqui" />)).toContain('Nada aqui');
+    expect(html(<EmptyState title="Nada aqui" />)).not.toContain('role=');
   });
 });

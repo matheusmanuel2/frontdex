@@ -36,7 +36,7 @@ import { cn } from '@/lib/utils';
 import type * as React from 'react';
 
 const itemClass = [
-  't-hover relative flex cursor-default items-center gap-2 rounded-sm px-3 py-2 text-small text-secondary outline-none select-none',
+  't-hover relative flex cursor-default items-center gap-2 rounded-sm px-3 py-2 text-small text-secondary select-none focus-visible:-outline-offset-2',
   'data-[highlighted]:bg-graphite data-[highlighted]:text-primary',
   'data-[disabled]:pointer-events-none data-[disabled]:opacity-50',
 ].join(' ');
@@ -89,7 +89,7 @@ function DropdownMenuCheckboxItem({
       className={cn(itemClass, 'pl-8', className)}
       {...props}
     >
-      <span className="absolute left-2.5 inline-flex size-4 items-center justify-center">
+      <span className="absolute left-2 inline-flex size-4 items-center justify-center">
         <DropdownMenuPrimitive.ItemIndicator>
           <CheckIcon size={16} motion="none" />
         </DropdownMenuPrimitive.ItemIndicator>
@@ -114,7 +114,7 @@ function DropdownMenuRadioItem({
       className={cn(itemClass, 'pl-8 data-[state=checked]:text-primary', className)}
       {...props}
     >
-      <span className="absolute left-2.5 inline-flex size-4 items-center justify-center">
+      <span className="absolute left-2 inline-flex size-4 items-center justify-center">
         <DropdownMenuPrimitive.ItemIndicator>
           <CheckIcon size={16} motion="none" />
         </DropdownMenuPrimitive.ItemIndicator>
@@ -183,7 +183,10 @@ function DropdownMenuSubContent({
     <DropdownMenuPrimitive.Portal>
       <DropdownMenuPrimitive.SubContent
         data-slot="dropdown-menu-sub-content"
-        className={cn('t-dropdown z-50 min-w-40 rounded-panel border border-border-strong bg-carbon p-1', className)}
+        className={cn(
+          't-dropdown z-50 min-w-40 rounded-panel border border-border-strong bg-carbon p-1 text-primary',
+          className,
+        )}
         {...props}
       />
     </DropdownMenuPrimitive.Portal>

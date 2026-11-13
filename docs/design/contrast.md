@@ -25,6 +25,7 @@ Critério: WCAG 2.2 AA. Texto normal precisa de 4,5:1. Texto grande (≥ 24px, o
 | `--color-button-primary-text` | `--color-button-primary-bg` | 18.76:1 | 4.5:1 | passa | Botão primário |
 | `--color-button-secondary-text` | `--color-button-secondary-bg` | 15.32:1 | 4.5:1 | passa | Botão secundário |
 | `--color-button-brand-text` | `--color-index-blue` | 4.93:1 | 4.5:1 | passa | Botão de marca (Index Blue) |
+| `--color-button-brand-text` | `--color-index-blue-hover` | 6.75:1 | 4.5:1 | passa | Botão de marca em hover |
 | `--color-button-primary-bg` | `--color-ink` | 19.03:1 | 3:1 | passa | Contorno do botão primário na página |
 | `--color-signal-orange` | `--color-ink-hero` | 7.33:1 | 3:1 | passa | Ponto de status no hero (não-texto) |
 | `--color-paper` | `--color-ink-hero` | 18.27:1 | 4.5:1 | passa | Texto do hero (o hero é sempre escuro) |
@@ -58,6 +59,7 @@ Critério: WCAG 2.2 AA. Texto normal precisa de 4,5:1. Texto grande (≥ 24px, o
 | `--color-button-primary-text` | `--color-button-primary-bg` | 18.53:1 | 4.5:1 | passa | Botão primário |
 | `--color-button-secondary-text` | `--color-button-secondary-bg` | 19.69:1 | 4.5:1 | passa | Botão secundário |
 | `--color-button-brand-text` | `--color-index-blue` | 4.93:1 | 4.5:1 | passa | Botão de marca (Index Blue) |
+| `--color-button-brand-text` | `--color-index-blue-hover` | 6.75:1 | 4.5:1 | passa | Botão de marca em hover |
 | `--color-button-primary-bg` | `--color-ink` | 18.53:1 | 3:1 | passa | Contorno do botão primário na página |
 | `--color-signal-orange` | `--color-ink-hero` | 7.33:1 | 3:1 | passa | Ponto de status no hero (não-texto) |
 | `--color-paper` | `--color-ink-hero` | 18.27:1 | 4.5:1 | passa | Texto do hero (o hero é sempre escuro) |

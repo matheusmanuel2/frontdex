@@ -8,7 +8,7 @@ type CategoryCardProps = {
   href: string;
   name: string;
   /** Contagem já formatada (vem do loader). */
-  count: number;
+  count: string;
   description?: string;
   /** Exemplos de recursos, já unidos (por exemplo "Kugiri · Calligraph"). */
   examples?: string;
@@ -21,7 +21,7 @@ export function CategoryCard({ href, name, count, description, examples, classNa
     <Link
       href={href}
       className={cn(
-        't-hover flex flex-col gap-3.5 rounded-card border border-border bg-carbon p-6 text-primary',
+        't-hover flex flex-col gap-4 rounded-card border border-border bg-carbon p-6 text-primary',
         'hover:border-border-strong hover:bg-graphite',
         className,
       )}
@@ -32,7 +32,7 @@ export function CategoryCard({ href, name, count, description, examples, classNa
       </span>
       {description ? <span className="text-small text-secondary">{description}</span> : null}
       {examples ? (
-        <span className="mt-auto border-t border-border pt-3.5 font-mono text-mono text-muted">{examples}</span>
+        <span className="mt-auto border-t border-border pt-4 font-mono text-mono text-muted">{examples}</span>
       ) : null}
     </Link>
   );
