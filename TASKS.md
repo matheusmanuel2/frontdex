@@ -164,8 +164,8 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: design-system · Spec: 004 · Depende de: T-307
 - Faz: rota só em dev com todos os componentes, ícones e tokens nos dois temas.
 - Pronto quando:
-  - [ ] Não é gerada no build de produção.
-  - [ ] axe sem violações nesta página.
+  - [x] Não é gerada no build de produção.
+  - [x] axe sem violações nesta página.
 
 ---
 
