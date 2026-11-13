@@ -54,8 +54,8 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: data-ci · Spec: 000 · Depende de: T-101
 - Faz: ESLint (config do Next + regras de import), Prettier, `pnpm lint`, `pnpm format`. Regra `no-restricted-imports` para `lucide-react`, `@heroicons/react`, `react-icons`, `@tabler/icons-react`.
 - Pronto quando:
-  - [ ] `pnpm lint` passa limpo.
-  - [ ] Importar `lucide-react` faz o lint falhar.
+  - [x] `pnpm lint` passa limpo.
+  - [x] Importar `lucide-react` faz o lint falhar.
 
 ### T-103 · Testes base
 - Agente: data-ci · Spec: 000 · Depende de: T-101
