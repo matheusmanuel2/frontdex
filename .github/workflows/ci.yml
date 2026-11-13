@@ -4,6 +4,12 @@ on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      pull_request_number:
+        description: PR gerado pelo Issue Form
+        required: false
+        type: string
 
 permissions:
   contents: read

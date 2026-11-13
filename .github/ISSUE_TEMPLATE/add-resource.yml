@@ -1,0 +1,115 @@
+name: Adicionar recurso
+description: Sugira uma ferramenta, biblioteca, curso ou outro recurso front-end.
+title: '[Recurso] '
+labels: [new-resource]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Envie dados conferidos numa fonte oficial. Não inclua informações que você não conseguiu confirmar.
+  - type: input
+    id: name
+    attributes:
+      label: Nome oficial
+      description: Como o recurso se identifica no site oficial.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL principal
+      description: A página oficial do recurso, começando com https://.
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Repositório (opcional)
+      description: Link do repositório público, se houver.
+      placeholder: https://github.com/owner/project
+  - type: input
+    id: author
+    attributes:
+      label: Autor ou organização (opcional)
+      description: Informe apenas se a fonte oficial identificar essa autoria.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      options:
+        - discover
+        - learn
+        - build
+        - grow
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Categoria (slug)
+      description: Use um slug de data/categories.yaml.
+      placeholder: ui-components
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Tags (slugs separados por vírgula)
+      description: Use tags de data/tags.yaml.
+      placeholder: react, typescript
+    validations:
+      required: true
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Preço
+      options:
+        - free
+        - freemium
+        - paid
+        - Ainda não confirmado
+  - type: dropdown
+    id: open_source
+    attributes:
+      label: Código open source?
+      options:
+        - Sim
+        - Não
+        - Ainda não confirmado
+  - type: input
+    id: license
+    attributes:
+      label: Licença (opcional)
+      description: Informe o identificador SPDX somente se estiver confirmado.
+      placeholder: MIT
+  - type: dropdown
+    id: level
+    attributes:
+      label: Nível (opcional)
+      multiple: true
+      options:
+        - beginner
+        - intermediate
+        - expert
+  - type: textarea
+    id: description_pt
+    attributes:
+      label: Descrição em português (40–160 caracteres)
+      description: Se não puder preencher, deixe vazio. O PR ficará como draft para tradução.
+      placeholder: Descreva o que o recurso faz e o que o distingue.
+  - type: textarea
+    id: description_en
+    attributes:
+      label: Descrição em inglês (40–160 caracteres)
+      description: Use uma tradução escrita por você; o bot não traduz descrições.
+  - type: textarea
+    id: why_pt
+    attributes:
+      label: Por que vale a pena? (português, opcional)
+      description: Uma razão concreta para incluir o recurso.
+  - type: textarea
+    id: why_en
+    attributes:
+      label: Why it belongs (English, optional)
+      description: One concrete reason to include the resource.
