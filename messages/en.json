@@ -9,8 +9,7 @@
     "homeLink": "FrontDex home",
     "mainNav": "Main",
     "footerNav": "Footer",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "openMenu": "Open menu"
   },
   "nav": {
     "discover": "Discover",
@@ -23,10 +22,8 @@
     "addResource": "Add a resource"
   },
   "locale": {
-    "label": "Language: English. Switch to Português",
-    "short": "EN / PT",
-    "pt": "Português",
-    "en": "English"
+    "label": "EN / PT: switch language to Português",
+    "short": "EN / PT"
   },
   "footer": {
     "tagline": "Built in Angola. Open to the world.",

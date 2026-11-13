@@ -8,8 +8,8 @@ for (const [locale, lang] of [
   test(`/${locale} é HTML estático com lang="${lang}" e sem violações axe`, async ({ page }) => {
     const response = await page.goto(`/${locale}`);
     expect(response?.status()).toBe(200);
-    // Gerado no build (SSG): o Next serve-o da cache estática.
-    expect(response?.headers()['x-nextjs-cache'] ?? 'HIT').toMatch(/HIT|STALE/);
+    // Gerado no build (SSG): o Next marca as páginas pré-renderizadas.
+    expect(response?.headers()['x-nextjs-prerender']).toMatch(/^1(\s*[,\n]\s*1)*$/);
     await expect(page.locator('html')).toHaveAttribute('lang', lang);
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
 

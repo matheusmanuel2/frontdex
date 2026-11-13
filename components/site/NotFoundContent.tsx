@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 
 import { SectionTitle } from '@/components/index';
-import { Link } from '@/lib/i18n/navigation';
+import { Link } from '@/components/site/LocaleLink';
 
 const secondary =
   't-hover inline-flex h-10 items-center rounded-pill border border-border-strong px-4 text-small font-semibold text-primary hover:bg-graphite';

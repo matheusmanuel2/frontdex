@@ -36,3 +36,8 @@ test('nenhuma outra rota redireciona por idioma ou IP', async ({ request }) => {
     expect(response.status(), path).toBe(200);
   }
 });
+
+test('o redirect de / mantém a query string', async ({ request }) => {
+  const response = await request.get('/?utm_source=x', { headers: { 'accept-language': 'en' }, maxRedirects: 0 });
+  expect(new URL(response.headers()['location'] ?? '', 'http://x').search).toBe('?utm_source=x');
+});

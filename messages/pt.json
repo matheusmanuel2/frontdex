@@ -9,8 +9,7 @@
     "homeLink": "Início da FrontDex",
     "mainNav": "Principal",
     "footerNav": "Rodapé",
-    "openMenu": "Abrir menu",
-    "closeMenu": "Fechar menu"
+    "openMenu": "Abrir menu"
   },
   "nav": {
     "discover": "Descobrir",
@@ -23,10 +22,8 @@
     "addResource": "Adicionar recurso"
   },
   "locale": {
-    "label": "Idioma: Português. Mudar para English",
-    "short": "PT / EN",
-    "pt": "Português",
-    "en": "English"
+    "label": "PT / EN: mudar o idioma para English",
+    "short": "PT / EN"
   },
   "footer": {
     "tagline": "Feito em Angola. Aberto ao mundo.",

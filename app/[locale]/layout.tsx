@@ -1,8 +1,8 @@
 import '@/styles/globals.css';
 
 import { notFound } from 'next/navigation';
-import { hasLocale, NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
+import { hasLocale } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { SiteFooter } from '@/components/site/SiteFooter';
 import { SkipLink } from '@/components/site/SkipLink';
@@ -33,17 +33,15 @@ export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
-  // Só as mensagens das ilhas client-side vão para o browser (JS da home < 90 KB).
-  const { locale: localeMessages } = await getMessages();
 
   return (
     <html lang={HTML_LANG[locale]} data-theme="dark" className={fontVariables}>
       <body className="flex min-h-dvh flex-col">
         <SkipLink />
-        <NextIntlClientProvider messages={{ locale: localeMessages }}>
+        <>
           {children}
           <SiteFooter />
-        </NextIntlClientProvider>
+        </>
       </body>
     </html>
   );

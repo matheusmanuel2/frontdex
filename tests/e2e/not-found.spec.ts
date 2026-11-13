@@ -20,3 +20,9 @@ test.fixme('/en/anything mostra a 404 em inglês', async ({ page }) => {
   await page.goto('/en/anything');
   await expect(page.getByRole('heading', { level: 1 })).toContainText("This page isn't in the index.");
 });
+
+test('na 404, o primeiro elemento focável é "Pular para o conteúdo"', async ({ page }) => {
+  await page.goto('/pt/qualquer-coisa');
+  await page.keyboard.press('Tab');
+  await expect(page.locator(':focus')).toHaveText('Pular para o conteúdo');
+});

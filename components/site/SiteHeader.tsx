@@ -1,7 +1,8 @@
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 
 import { MenuIcon, SearchIcon } from '@/components/icons';
-import { Link } from '@/lib/i18n/navigation';
+import { Link } from '@/components/site/LocaleLink';
+import { HTML_LANG, routing } from '@/lib/i18n/routing';
 import { cn } from '@/lib/utils';
 
 import { LocaleSwitch } from './LocaleSwitch';
@@ -23,6 +24,9 @@ const navLink =
 export async function SiteHeader({ current }: SiteHeaderProps) {
   const t = await getTranslations('nav');
   const a11y = await getTranslations('a11y');
+  const localeT = await getTranslations('locale');
+  const locale = await getLocale();
+  const other = routing.locales.find((candidate) => candidate !== locale) ?? routing.defaultLocale;
 
   const links = NAV_SECTIONS.map((section) => ({ section, label: t(section) }));
 
@@ -60,7 +64,7 @@ export async function SiteHeader({ current }: SiteHeaderProps) {
               {t('searchShortcut')}
             </kbd>
           </Link>
-          <LocaleSwitch />
+          <LocaleSwitch to={other} hrefLang={HTML_LANG[other]} label={localeT('label')} short={localeT('short')} />
           <Link
             href="/add"
             className="t-hover hidden h-10 items-center rounded-pill bg-index-blue px-4 text-small font-medium text-button-brand-text hover:bg-index-blue-light md:inline-flex"
