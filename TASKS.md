@@ -359,7 +359,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: data-ci · Spec: 002 · Depende de: T-204
 - Faz: quando o `validate` falha num PR, o bot comenta a lista `ficheiro › campo › motivo` e põe `needs-changes`.
 - Pronto quando:
-  - [ ] Um comentário por PR, atualizado em vez de duplicado.
+  - [x] Um comentário por PR, atualizado em vez de duplicado; testes cobrem criação, atualização e rótulo.
 
 ### T-803 · Verificação de URL no PR
 - Agente: data-ci · Spec: 002 · Depende de: T-204

@@ -49,11 +49,12 @@ Branch atual: m7-seo
 | 2026-11-13 | T-703 | c937c9e | Feeds RSS 2.0 estáticos pt/en; ambos válidos no W3C Feed Validator (aviso esperado na entrada direta) |
 | 2026-11-13 | T-704 | 8a65b8a | Imagens OG estáticas de home, categoria e recurso em 1200×630, renderizadas com tokens e Geist |
 | 2026-11-13 | T-705 | a9c3f6a | Umami só em produção na Vercel; eventos `search_open`, `resource_outbound`, `random` e `add_click`; 104 e2e passaram |
-| 2026-11-13 | T-801 | — | Issue Form e conversor para YAML com `draft`/`TODO`; 3 testes passaram. O teste real de PR não foi executado porque não devo abrir PRs. |
+| 2026-11-13 | T-801 | 51e92ed | Issue Form e conversor para YAML com `draft`/`TODO`; 3 testes passaram. O teste real de PR não foi executado porque não devo abrir PRs. |
+| 2026-11-13 | T-802 | — | CI publica/atualiza um comentário de validação e aplica `needs-changes`; três testes de API simulada passaram. |
 
 ## Passagem de sessão (2026-11-13)
 
-Estado: M1–M6 feitos, revistos e publicados; M7 concluído e publicado em `m7-seo`; M8 em andamento em `m8-contribuicao`. T-701–T-705 concluídas com `https://frontdex.dev` provisório (D-14). T-801 está implementada, mas a criação real do PR não foi testada para respeitar a instrução de não abrir PRs. T-603 continua pendente da D-13. `UMAMI_WEBSITE_ID` precisa ser configurada no ambiente Production da Vercel quando a conta estiver ligada (T-006).
+Estado: M1–M6 feitos, revistos e publicados; M7 concluído e publicado em `m7-seo`; M8 em andamento em `m8-contribuicao`. T-701–T-705 concluídas com `https://frontdex.dev` provisório (D-14). T-801 está implementada, mas a criação real do PR não foi testada para respeitar a instrução de não abrir PRs; T-802 está implementada e testada com a API simulada. T-603 continua pendente da D-13. `UMAMI_WEBSITE_ID` precisa ser configurada no ambiente Production da Vercel quando a conta estiver ligada (T-006).
 
 - Branches empilhadas no GitHub: `m1-fundacao` → `m2-conteudo` → `m3-design-system` → `m4-esqueleto` → `m5-paginas` → `m6-busca` → `m7-seo`.
 - **PRs ainda não abertos**: o token do `gh` não tem *Pull requests: write*. O Matheus decidiu abrir no fim.
