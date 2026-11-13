@@ -188,9 +188,9 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: frontend-builder · Spec: 003 · Depende de: T-307, T-401
 - Faz: cabeçalho (logo, nav das 4 áreas + Coleções com estado ativo, botão Buscar ⌘K, LocaleSwitch, "Adicionar recurso") e rodapé ("Feito em Angola. Aberto ao mundo.", links Novos, Surpresa, Contribuir, Sobre, GitHub, tema). Referência: cabeçalho do mockup `Area.dc.html`.
 - Pronto quando:
-  - [ ] Link "Saltar para o conteúdo" como primeiro elemento focável.
-  - [ ] Nav com `aria-current="page"`.
-  - [ ] Funciona de 360px a 1440px sem scroll horizontal (menu compacto no mobile).
+  - [x] Link "Saltar para o conteúdo" como primeiro elemento focável.
+  - [x] Nav com `aria-current="page"`.
+  - [x] Funciona de 360px a 1440px sem scroll horizontal (menu compacto no mobile).
 
 ### T-404 · LocaleSwitch
 - Agente: frontend-builder · Spec: 007 · Depende de: T-403
