@@ -29,3 +29,4 @@ Branch atual: m4-esqueleto
 | 2026-11-13 | T-406 | 9b4935a | pt-BR feito; inglês bloqueado pela D-09 (o Next só gera uma 404 estática) |
 | 2026-11-13 | T-407 | e42d3ff | Fixture com chave em falta; e2e entra no CI |
 | 2026-11-13 | T-405 | — | Saltada: depende da decisão D-03 (seletor de tema como 4.ª ilha) |
+| 2026-11-13 | M4 | — | Notas do reviewer: skip link na 404, query mantida em `/`, `next/link` no servidor (sem provider do next-intl no browser), D-10 (orçamento de JS) |

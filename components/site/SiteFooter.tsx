@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 
-import { Link } from '@/lib/i18n/navigation';
+import { Link } from '@/components/site/LocaleLink';
 
 import { GITHUB_URL } from './nav';
 

@@ -1,11 +1,11 @@
 import '@/styles/globals.css';
 
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { NotFoundContent } from '@/components/site/NotFoundContent';
 import { SiteFooter } from '@/components/site/SiteFooter';
 import { SiteHeader } from '@/components/site/SiteHeader';
+import { SkipLink } from '@/components/site/SkipLink';
 import { fontVariables } from '@/lib/fonts';
 import { HTML_LANG, routing } from '@/lib/i18n/routing';
 
@@ -17,20 +17,21 @@ export async function generateMetadata(): Promise<Metadata> {
   return { title: `${t('metaTitle')} · ${meta('siteName')}`, robots: { index: false } };
 }
 
-/** 404 fora de /pt e /en (por exemplo /xx/algo): mostra a versão em pt-BR, o idioma padrão. */
+/**
+ * 404 de qualquer rota desconhecida. Com tudo estático, o Next só gera esta (em pt-BR),
+ * também para /en/… (decisão D-09 em aberto).
+ */
 export default async function RootNotFound() {
   const locale = routing.defaultLocale;
   setRequestLocale(locale);
-  const { locale: localeMessages } = await getMessages({ locale });
 
   return (
     <html lang={HTML_LANG[locale]} data-theme="dark" className={fontVariables}>
       <body className="flex min-h-dvh flex-col">
-        <NextIntlClientProvider locale={locale} messages={{ locale: localeMessages }}>
-          <SiteHeader />
-          <NotFoundContent />
-          <SiteFooter />
-        </NextIntlClientProvider>
+        <SkipLink />
+        <SiteHeader />
+        <NotFoundContent />
+        <SiteFooter />
       </body>
     </html>
   );
