@@ -46,9 +46,9 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Faz: Next.js (App Router) com TypeScript strict, pnpm, `src/` **não** usado (pastas na raiz como em `docs/architecture.md`). Remove o boilerplate. Mantém os ficheiros do kit intactos.
 - Ficheiros: `package.json`, `tsconfig.json`, `next.config.ts`, `app/`, `.nvmrc` (Node LTS), `.npmrc`.
 - Pronto quando:
-  - [ ] `pnpm install && pnpm build` passa; existe `pnpm typecheck` (`tsc --noEmit`).
-  - [ ] `tsconfig` com `strict`, `noUncheckedIndexedAccess`, aliases `@/lib`, `@/components`.
-  - [ ] Nenhum ficheiro do kit (specs, data, docs, .claude) foi alterado ou apagado.
+  - [x] `pnpm install && pnpm build` passa; existe `pnpm typecheck` (`tsc --noEmit`).
+  - [x] `tsconfig` com `strict`, `noUncheckedIndexedAccess`, aliases `@/lib`, `@/components`.
+  - [x] Nenhum ficheiro do kit (specs, data, docs, .claude) foi alterado ou apagado.
 
 ### T-102 · Lint e formatação
 - Agente: data-ci · Spec: 000 · Depende de: T-101
