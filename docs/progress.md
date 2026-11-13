@@ -45,12 +45,13 @@ Branch atual: m7-seo
 | 2026-11-13 | T-602 | 0736ad7 | Lançador leve + diálogo carregado on demand; clique capturado em `[data-search-trigger]`. Revisão: reutiliza o Dialog Watermelon e mostra metadados de categoria legíveis |
 | 2026-11-13 | T-603 | 2e636c0 | Revisão: busca sem JS não aplica `q`; pendente da decisão D-13 |
 | 2026-11-13 | T-701 | eaa62c3 | Metadados localizados nas rotas pt/en, canonical e hreflang; origem provisória `https://frontdex.dev` |
-| 2026-11-13 | T-702 | — | Sitemap estático pt/en e robots.txt apontando para ele |
-| 2026-11-13 | T-703 | — | Feeds RSS 2.0 estáticos pt/en; ambos válidos no W3C Feed Validator (aviso esperado na entrada direta) |
+| 2026-11-13 | T-702 | 6eda44d | Sitemap estático pt/en e robots.txt apontando para ele |
+| 2026-11-13 | T-703 | c937c9e | Feeds RSS 2.0 estáticos pt/en; ambos válidos no W3C Feed Validator (aviso esperado na entrada direta) |
+| 2026-11-13 | T-704 | — | Imagens OG estáticas de home, categoria e recurso em 1200×630, renderizadas com tokens e Geist |
 
 ## Passagem de sessão (2026-11-13)
 
-Estado: M1–M6 feitos, revistos e publicados; M7 em andamento na branch `m7-seo`. T-701–T-703 concluídas com `https://frontdex.dev` provisório (D-14); T-704–T-705 por fazer. T-603 continua pendente da D-13.
+Estado: M1–M6 feitos, revistos e publicados; M7 em andamento na branch `m7-seo`. T-701–T-704 concluídas com `https://frontdex.dev` provisório (D-14); falta T-705. T-603 continua pendente da D-13.
 
 - Branches empilhadas no GitHub: `m1-fundacao` → `m2-conteudo` → `m3-design-system` → `m4-esqueleto` → `m5-paginas` → `m6-busca`.
 - **PRs ainda não abertos**: o token do `gh` não tem *Pull requests: write*. O Matheus decidiu abrir no fim.

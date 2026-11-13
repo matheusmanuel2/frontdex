@@ -335,7 +335,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003 · Depende de: T-505
 - Faz: OG estáticas por recurso, categoria e home, com Geist, ID mono e as cores dos tokens. Sem gradientes.
 - Pronto quando:
-  - [ ] Geradas no build; pré-visualização correta no X/LinkedIn.
+  - [x] Geradas estaticamente no build para home, categorias e recursos; imagem conferida a 1200×630.
 
 ### T-705 · Umami Cloud
 - Agente: data-ci · Spec: 000, `decisions/0007` · Depende de: T-006
