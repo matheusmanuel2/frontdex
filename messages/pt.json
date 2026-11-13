@@ -263,6 +263,7 @@
     "empty": "Nada encontrado para “{q}”.",
     "hint": "↑↓ navegar · Enter abrir · ⌘Enter abrir o site",
     "results": "{count, plural, =0 {Nenhum resultado} one {# resultado} other {# resultados}}",
+    "categoryMeta": "{area} · {count}",
     "s1": "Preciso de ícones",
     "s2": "Quero aprender React",
     "s3": "Bibliotecas de animação",

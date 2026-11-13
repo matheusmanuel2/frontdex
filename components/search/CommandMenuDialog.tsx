@@ -1,10 +1,10 @@
 'use client';
 
-import { Dialog as DialogPrimitive } from 'radix-ui';
 import { useEffect, useId, useMemo, useRef, useState, type RefObject } from 'react';
 
 import { ArrowRightIcon, SearchIcon } from '@/components/icons';
 import { IndexId } from '@/components/index';
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from '@/components/ui/dialog';
 import { loadPagefind, search, type SearchHit } from '@/lib/search/pagefind';
 import { cn } from '@/lib/utils';
 
@@ -114,112 +114,115 @@ export function CommandMenuDialog({ open, onOpenChange, locale, labels, returnFo
   const activeItem = items[active];
 
   return (
-    <DialogPrimitive.Root open={open} onOpenChange={onOpenChange}>
-      <DialogPrimitive.Portal>
-        <DialogPrimitive.Overlay className="t-modal-overlay fixed inset-0 z-50 bg-overlay" />
-        <DialogPrimitive.Content
-          onOpenAutoFocus={(event) => {
-            event.preventDefault();
-            inputRef.current?.focus();
-          }}
-          onCloseAutoFocus={(event) => {
-            event.preventDefault();
-            returnFocus.current?.focus();
-          }}
-          className="t-modal fixed inset-x-4 top-[12vh] z-50 mx-auto flex max-h-[76vh] max-w-2xl flex-col overflow-hidden rounded-card border border-border-strong bg-carbon text-primary"
-        >
-          <DialogPrimitive.Title className="sr-only">{labels.label}</DialogPrimitive.Title>
-          <DialogPrimitive.Description className="sr-only">{labels.hint}</DialogPrimitive.Description>
-          <div className="flex items-center gap-3 border-b border-border px-5">
-            <SearchIcon size={18} className="text-muted" motion="none" />
-            <input
-              ref={inputRef}
-              role="combobox"
-              aria-expanded="true"
-              aria-controls={listId}
-              aria-activedescendant={activeItem ? `${listId}-${activeItem.key}` : undefined}
-              aria-autocomplete="list"
-              aria-label={labels.label}
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              onKeyDown={onKeyDown}
-              placeholder={labels.placeholder}
-              className="h-14 min-w-0 flex-1 bg-transparent text-body text-primary outline-none placeholder:text-muted"
-            />
-            <kbd className="rounded-pill bg-graphite px-2 py-1 font-mono text-mono text-muted">Esc</kbd>
-          </div>
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent
+        onOpenAutoFocus={(event) => {
+          event.preventDefault();
+          inputRef.current?.focus();
+        }}
+        onCloseAutoFocus={(event) => {
+          event.preventDefault();
+          returnFocus.current?.focus();
+        }}
+        className="top-[12vh] flex max-h-[76vh] max-w-2xl -translate-y-0 flex-col gap-0 overflow-hidden p-0"
+      >
+        <DialogTitle className="sr-only">{labels.label}</DialogTitle>
+        <DialogDescription className="sr-only">{labels.hint}</DialogDescription>
+        <div className="flex items-center gap-3 border-b border-border px-5">
+          <SearchIcon size={18} className="text-muted" motion="none" />
+          <input
+            ref={inputRef}
+            role="combobox"
+            aria-expanded="true"
+            aria-controls={listId}
+            aria-activedescendant={activeItem ? `${listId}-${activeItem.key}` : undefined}
+            aria-autocomplete="list"
+            aria-label={labels.label}
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            onKeyDown={onKeyDown}
+            placeholder={labels.placeholder}
+            className="h-14 min-w-0 flex-1 bg-transparent text-body text-primary outline-none placeholder:text-muted"
+          />
+          <kbd className="rounded-pill bg-graphite px-2 py-1 font-mono text-mono text-muted">Esc</kbd>
+        </div>
 
-          <div id={listId} role="listbox" aria-label={labels.label} className="min-h-0 flex-1 overflow-y-auto p-2">
-            {query.trim() && !ready ? <p className="px-3 py-4 text-small text-muted">{labels.loading}</p> : null}
-            {query.trim() && ready && items.length === 0 ? (
-              <p className="px-3 py-4 text-small text-secondary">{labels.empty.replace('{q}', query.trim())}</p>
-            ) : null}
-            {groups.map(({ group, entries }) => (
-              <div key={group} role="group" aria-label={labels[group]} className="mb-2">
-                <p aria-hidden="true" className="label-mono px-3 pt-2 pb-1 text-muted">
-                  {labels[group]}
-                </p>
-                {entries.map((item) => {
-                  const index = items.indexOf(item);
-                  const selected = index === active;
-                  return (
-                    <a
-                      key={item.key}
-                      id={`${listId}-${item.key}`}
-                      role="option"
-                      aria-selected={selected}
-                      href={item.href}
-                      tabIndex={-1}
-                      onMouseMove={() => setActive(index)}
-                      onClick={(event) => {
-                        event.preventDefault();
-                        go(item, event.metaKey || event.ctrlKey);
-                      }}
-                      className={cn(
-                        't-hover t-icon-host flex items-center gap-4 rounded-panel px-3 py-3',
-                        selected ? 'bg-graphite text-primary' : 'text-secondary',
-                      )}
-                    >
-                      {item.hit ? (
-                        <>
-                          <span className="w-12 shrink-0">
-                            <IndexId id={item.hit.id} />
+        <div id={listId} role="listbox" aria-label={labels.label} className="min-h-0 flex-1 overflow-y-auto p-2">
+          {query.trim() && !ready ? <p className="px-3 py-4 text-small text-muted">{labels.loading}</p> : null}
+          {query.trim() && ready && items.length === 0 ? (
+            <p className="px-3 py-4 text-small text-secondary">{labels.empty.replace('{q}', query.trim())}</p>
+          ) : null}
+          {groups.map(({ group, entries }) => (
+            <div key={group} role="group" aria-label={labels[group]} className="mb-2">
+              <p aria-hidden="true" className="label-mono px-3 pt-2 pb-1 text-muted">
+                {labels[group]}
+              </p>
+              {entries.map((item) => {
+                const index = items.indexOf(item);
+                const selected = index === active;
+                return (
+                  <a
+                    key={item.key}
+                    id={`${listId}-${item.key}`}
+                    role="option"
+                    aria-selected={selected}
+                    href={item.href}
+                    tabIndex={-1}
+                    onMouseMove={() => setActive(index)}
+                    onClick={(event) => {
+                      event.preventDefault();
+                      go(item, event.metaKey || event.ctrlKey);
+                    }}
+                    className={cn(
+                      't-hover t-icon-host flex items-center gap-4 rounded-panel px-3 py-3',
+                      selected ? 'bg-graphite text-primary' : 'text-secondary',
+                    )}
+                  >
+                    {item.hit ? (
+                      <>
+                        <span className="w-12 shrink-0">
+                          <IndexId id={item.hit.id} />
+                        </span>
+                        <span className="min-w-0 flex-1">
+                          <span className="block truncate text-body font-medium text-primary">{item.hit.title}</span>
+                          <span className="block truncate text-small text-secondary">
+                            {item.hit.description ?? item.hit.excerpt.replace(/<[^>]+>/g, '')}
                           </span>
-                          <span className="min-w-0 flex-1">
-                            <span className="block truncate text-body font-medium text-primary">{item.hit.title}</span>
-                            <span className="block truncate text-small text-secondary">
-                              {item.hit.description ?? item.hit.excerpt.replace(/<[^>]+>/g, '')}
-                            </span>
+                        </span>
+                        {item.hit.category ? (
+                          <span className="hidden shrink-0 font-mono text-mono text-muted sm:block">
+                            {item.hit.category}
                           </span>
-                          {item.hit.category ? (
-                            <span className="hidden shrink-0 font-mono text-mono text-muted sm:block">
-                              {item.hit.category}
-                            </span>
-                          ) : null}
-                        </>
-                      ) : (
-                        <>
-                          <span className="flex-1 text-body">{item.label}</span>
-                          <ArrowRightIcon size={16} className="text-muted" />
-                        </>
-                      )}
-                    </a>
-                  );
-                })}
-              </div>
-            ))}
-          </div>
+                        ) : item.hit.kind === 'category' && item.hit.area ? (
+                          <span className="hidden shrink-0 font-mono text-mono text-muted sm:block">
+                            {labels.categoryMeta
+                              .replace('{area}', item.hit.area)
+                              .replace('{count}', String(item.hit.count ?? 0))}
+                          </span>
+                        ) : null}
+                      </>
+                    ) : (
+                      <>
+                        <span className="flex-1 text-body">{item.label}</span>
+                        <ArrowRightIcon size={16} className="text-muted" />
+                      </>
+                    )}
+                  </a>
+                );
+              })}
+            </div>
+          ))}
+        </div>
 
-          <div className="flex items-center justify-between gap-4 border-t border-border px-5 py-3">
-            <p className="font-mono text-mono text-muted">{labels.hint}</p>
-            {query.trim() ? (
-              <a href={`/${locale}/search?q=${encodeURIComponent(query.trim())}`} className="link-inline text-small">
-                {labels.seeAll}
-              </a>
-            ) : null}
-          </div>
-        </DialogPrimitive.Content>
-      </DialogPrimitive.Portal>
-    </DialogPrimitive.Root>
+        <div className="flex items-center justify-between gap-4 border-t border-border px-5 py-3">
+          <p className="font-mono text-mono text-muted">{labels.hint}</p>
+          {query.trim() ? (
+            <a href={`/${locale}/search?q=${encodeURIComponent(query.trim())}`} className="link-inline text-small">
+              {labels.seeAll}
+            </a>
+          ) : null}
+        </div>
+      </DialogContent>
+    </Dialog>
   );
 }
