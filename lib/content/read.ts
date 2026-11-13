@@ -41,7 +41,7 @@ function readYaml(absolute: string, rootForMessages: string): RawFile {
 function readDir(dir: string, rootForMessages: string): RawFile[] {
   if (!existsSync(dir)) return [];
   return readdirSync(dir)
-    .filter((name) => name.endsWith('.yaml'))
+    .filter((name) => name.endsWith('.yaml') || name.endsWith('.yml'))
     .sort()
     .map((name) => readYaml(path.join(dir, name), rootForMessages));
 }

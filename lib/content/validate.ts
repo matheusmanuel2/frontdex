@@ -7,6 +7,7 @@ import {
   categoriesFileSchema,
   collectionSchema,
   resourceSchema,
+  slugSchema,
   tagsFileSchema,
   type Area,
   type Category,
@@ -102,6 +103,7 @@ export function validateContent(raw: RawContent): ValidationResult {
 
   const resources: Resource[] = [];
   const resourceFiles = new Map<string, string>();
+  checkFileNames([...raw.resources, ...raw.collections], errors);
   for (const file of raw.resources) {
     const data = parseWith(resourceSchema, file, errors);
     if (!data) continue;
@@ -111,7 +113,8 @@ export function validateContent(raw: RawContent): ValidationResult {
 
   const urlOwner = new Map<string, string>();
   const idOwner = new Map<number, string>();
-  const slugs = new Set(resources.map((resource) => resource.slug));
+  // Inclui os ficheiros que falharam o schema, para não somar um segundo erro enganador ("não existe").
+  const slugs = new Set(raw.resources.map((file) => file.slug));
 
   for (const resource of resources) {
     const file = resourceFiles.get(resource.slug) ?? resource.slug;
@@ -184,6 +187,21 @@ export function validateContent(raw: RawContent): ValidationResult {
   }
 
   return { content: { areas, categories, tags, resources, collections }, errors, warnings };
+}
+
+/** O nome do ficheiro é o slug e a URL (spec 001): só minúsculas, números e hífens, extensão `.yaml`. */
+function checkFileNames(files: RawFile[], errors: ContentError[]): void {
+  for (const file of files) {
+    if (!file.file.endsWith('.yaml')) {
+      errors.push({ file: file.file, field: '', message: 'extensão inválida: usa .yaml' });
+    } else if (!slugSchema.safeParse(file.slug).success) {
+      errors.push({
+        file: file.file,
+        field: '',
+        message: `nome de ficheiro inválido: "${file.slug}" tem de ser um slug (minúsculas, números e hífens)`,
+      });
+    }
+  }
 }
 
 /** Compara URLs sem diferenças triviais (maiúsculas no host, barra final, `www.`). */

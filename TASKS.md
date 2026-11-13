@@ -447,3 +447,4 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | aberta |
 | D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | aberta |
 | D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | aberta |
+| D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | aberta |

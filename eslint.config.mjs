@@ -51,8 +51,8 @@ const config = [
   },
   {
     // lib/content é o único sítio que lê ficheiros de data/ (spec 001, T-203).
-    files: ['app/**', 'components/**', 'lib/**'],
-    ignores: ['lib/content/**'],
+    files: ['**/*.{ts,tsx,mts,mjs,js}'],
+    ignores: ['lib/content/**', 'scripts/**', '**/*.test.ts', 'tests/**', '*.config.{ts,mts,mjs}'],
     rules: {
       'no-restricted-imports': [
         'error',

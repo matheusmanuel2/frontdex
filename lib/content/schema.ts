@@ -36,7 +36,10 @@ export const isoDateSchema = z.preprocess(
   z
     .string()
     .regex(/^\d{4}-\d{2}-\d{2}$/, 'data inválida: usa o formato YYYY-MM-DD')
-    .refine((value) => !Number.isNaN(Date.parse(`${value}T00:00:00Z`)), 'data inexistente'),
+    .refine((value) => {
+      const date = new Date(`${value}T00:00:00Z`);
+      return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value;
+    }, 'data inexistente'),
 );
 
 const httpsUrlSchema = z.url({ protocol: /^https$/, error: 'URL inválida: tem de começar por https://' });

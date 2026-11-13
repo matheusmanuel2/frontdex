@@ -44,7 +44,10 @@ export function buildJsonSchema(dataDir: string = path.join(process.cwd(), 'data
     unrepresentable: 'any',
     target: 'draft-07',
   }) as JsonSchema;
-  const { content } = validateContent(readRawContent(dataDir));
+  const { content, errors } = validateContent(readRawContent(dataDir));
+  if (errors.length > 0) {
+    throw new Error(`data/ tem ${errors.length} erro(s); corre pnpm validate antes de gerar o schema.`);
+  }
   const properties = schema.properties ?? {};
 
   for (const [field, help] of Object.entries(FIELD_HELP)) {
