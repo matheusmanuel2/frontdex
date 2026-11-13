@@ -6,7 +6,7 @@ import { HTML_LANG, type AppLocale } from '@/lib/i18n/routing';
 
 const secondary =
   't-hover inline-flex h-10 items-center rounded-pill border border-border-strong px-4 text-small font-semibold text-primary hover:bg-graphite';
-const inline = 't-hover text-link hover:text-link-hover';
+const inline = 'link-inline';
 
 type NotFoundContentProps = {
   locale: AppLocale;
