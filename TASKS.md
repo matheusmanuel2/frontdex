@@ -253,8 +253,8 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003 · Depende de: T-504
 - Faz: `/[locale]/r/[slug]`. ID, nome, link, descrição, "por que está aqui", detalhes (preço, open source, licença, nível), tags, alternativas, "Sugerir edição" (link para o YAML no GitHub). Referência: `Resource.dc.html`.
 - Pronto quando:
-  - [ ] Links externos com `rel="noopener"`.
-  - [ ] Recurso sem `why` não mostra a secção vazia.
+  - [x] Links externos com `rel="noopener"`.
+  - [x] Recurso sem `why` não mostra a secção vazia.
 
 ### T-506 · Coleções e Coleção
 - Agente: frontend-builder · Spec: 003 · Depende de: T-503

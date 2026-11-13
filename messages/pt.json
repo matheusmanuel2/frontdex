@@ -102,7 +102,29 @@
     "paid": "Pago"
   },
   "resource": {
-    "oss": "OSS"
+    "oss": "OSS",
+    "visit": "Visitar {host}",
+    "repo": "Repositório",
+    "why": "Por que está aqui",
+    "alternatives": "Alternativas",
+    "alternativesMuted": "Mesmo trabalho, outras escolhas.",
+    "alternativesList": "Alternativas a {name}",
+    "details": "Detalhes",
+    "tags": "Tags",
+    "category": "Categoria",
+    "area": "Área",
+    "pricing": "Preço",
+    "openSource": "Open source",
+    "license": "Licença",
+    "level": "Nível",
+    "author": "Autor",
+    "added": "Adicionado em",
+    "checked": "Verificado em",
+    "yes": "Sim",
+    "no": "Não",
+    "edit": "Algo errado ou desatualizado?",
+    "editLink": "Sugira uma edição no GitHub",
+    "ossBadge": "Open source"
   },
   "area": {
     "breadcrumb": "Trilho",
