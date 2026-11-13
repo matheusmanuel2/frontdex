@@ -181,8 +181,8 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: frontend-builder · Spec: 007 · Depende de: T-401
 - Faz: só em `/`. Ordem: cookie `NEXT_LOCALE` → `Accept-Language` → `x-vercel-ip-country` (AO, BR, PT, MZ, CV, GW, ST, TL → pt) → `/pt`.
 - Pronto quando:
-  - [ ] 4 testes Playwright, um por caso.
-  - [ ] Nenhuma outra rota redireciona por idioma ou IP.
+  - [x] 4 testes Playwright, um por caso.
+  - [x] Nenhuma outra rota redireciona por idioma ou IP.
 
 ### T-403 · Layout, cabeçalho e rodapé
 - Agente: frontend-builder · Spec: 003 · Depende de: T-307, T-401
