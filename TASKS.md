@@ -294,7 +294,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 008 · Depende de: T-505
 - Faz: Pagefind no fim do build, índice por idioma, `data-pagefind-body` só em recurso e categoria, filtros área/categoria/preço/open source.
 - Pronto quando:
-  - [ ] Busca em pt não devolve páginas en e vice-versa.
+  - [x] Busca em pt não devolve páginas en e vice-versa.
 
 ### T-602 · CommandMenu (⌘K)
 - Agente: design-system (componente) + frontend-builder (integração) · Spec: 008 · Depende de: T-601

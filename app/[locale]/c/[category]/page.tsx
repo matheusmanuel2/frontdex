@@ -129,7 +129,7 @@ export default async function CategoryPage({ params }: Props) {
           </nav>
         </aside>
 
-        <section aria-labelledby="category-title" className="min-w-0 flex-1 basis-xl">
+        <section aria-labelledby="category-title" className="min-w-0 flex-1 basis-xl" data-pagefind-body>
           <Breadcrumb
             label={areaT('breadcrumb')}
             items={[
@@ -138,6 +138,13 @@ export default async function CategoryPage({ params }: Props) {
               { label: category.name[locale] },
             ]}
           />
+          <div hidden>
+            <span data-pagefind-meta="kind">category</span>
+            <span data-pagefind-meta="slug">{category.slug}</span>
+            <span data-pagefind-meta="count">{resources.length}</span>
+            <span data-pagefind-meta="area">{area?.name[locale]}</span>
+            <span data-pagefind-filter="area">{area?.name[locale]}</span>
+          </div>
           <SectionTitle
             id="category-title"
             as="h1"
@@ -150,7 +157,7 @@ export default async function CategoryPage({ params }: Props) {
             <p className="mt-5 max-w-2xl text-body text-secondary">{category.description[locale]}</p>
           ) : null}
 
-          <div className="mt-8">
+          <div className="mt-8" data-pagefind-ignore>
             {items.length === 0 ? (
               <EmptyState title={t('noneTitle')} description={t('noneBody')} actions={suggest} />
             ) : (
@@ -160,7 +167,10 @@ export default async function CategoryPage({ params }: Props) {
             )}
           </div>
 
-          <div className="mt-8 flex flex-wrap items-center justify-between gap-4 rounded-card border border-border bg-carbon px-7 py-6">
+          <div
+            data-pagefind-ignore
+            className="mt-8 flex flex-wrap items-center justify-between gap-4 rounded-card border border-border bg-carbon px-7 py-6"
+          >
             <div>
               <p className="text-body font-medium text-primary">
                 {t('missingTitle', { category: category.name[locale] })}
