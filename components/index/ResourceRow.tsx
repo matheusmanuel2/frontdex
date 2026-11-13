@@ -20,13 +20,26 @@ type ResourceRowProps = {
   aside?: ReactNode;
   /** Uma linha só, com a descrição cortada (lista "Em destaque"). */
   compact?: boolean;
+  /** Posição numa lista ordenada (coleções): substitui o ID na primeira coluna. */
+  position?: number;
 };
 
 /**
  * Linha da lista densa (mockups Categoria e Área): ID mono, nome, descrição,
  * metadados e seta que avança no hover. Vai dentro de ResourceList.
  */
-export function ResourceRow({ href, name, description, id, badges, meta, aside, compact = false }: ResourceRowProps) {
+export function ResourceRow({
+  href,
+  name,
+  description,
+  id,
+  badges,
+  meta,
+  aside,
+  compact = false,
+  position,
+}: ResourceRowProps) {
+  const lead = position ?? id;
   return (
     <li className="border-b border-border last:border-b-0">
       <Link
@@ -35,11 +48,15 @@ export function ResourceRow({ href, name, description, id, badges, meta, aside, 
           't-hover t-icon-host group grid items-center gap-x-5 gap-y-2 px-5 py-4 text-primary hover:bg-row-hover sm:px-6',
           'grid-cols-[minmax(0,1fr)_16px]',
           // Sem ID (antes do assign-ids), a coluna do ID não existe.
-          id === undefined ? 'sm:grid-cols-[minmax(0,1fr)_auto_16px]' : 'sm:grid-cols-[64px_minmax(0,1fr)_auto_16px]',
+          lead === undefined ? 'sm:grid-cols-[minmax(0,1fr)_auto_16px]' : 'sm:grid-cols-[64px_minmax(0,1fr)_auto_16px]',
           '-outline-offset-2',
         )}
       >
-        {id === undefined ? null : (
+        {position !== undefined ? (
+          <span className="hidden font-mono text-h3 text-link tabular-nums sm:block">
+            {String(position).padStart(2, '0')}
+          </span>
+        ) : id === undefined ? null : (
           <span className="hidden sm:block">
             <IndexId id={id} />
           </span>
@@ -63,13 +80,14 @@ export function ResourceRow({ href, name, description, id, badges, meta, aside, 
   );
 }
 
-type ResourceListProps = { children: ReactNode; label?: string; className?: string };
+type ResourceListProps = { children: ReactNode; label?: string; className?: string; ordered?: boolean };
 
 /** Painel da lista densa (raio 16px, spec 004). */
-export function ResourceList({ children, label, className }: ResourceListProps) {
+export function ResourceList({ children, label, className, ordered = false }: ResourceListProps) {
+  const List = ordered ? 'ol' : 'ul';
   return (
-    <ul aria-label={label} className={cn('overflow-hidden rounded-panel border border-border bg-list', className)}>
+    <List aria-label={label} className={cn('overflow-hidden rounded-panel border border-border bg-list', className)}>
       {children}
-    </ul>
+    </List>
   );
 }

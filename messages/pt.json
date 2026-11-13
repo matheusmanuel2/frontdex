@@ -167,5 +167,25 @@
     "beginner": "Iniciante",
     "intermediate": "Intermediário",
     "expert": "Avançado"
+  },
+  "collections": {
+    "title": "Coleções.",
+    "titleMuted": "Listas curtas com ponto de vista.",
+    "intro": "Cada coleção junta poucos recursos em torno de uma tarefa, com uma nota de quem montou.",
+    "count": "{count, plural, =0 {# coleções} one {# coleção} other {# coleções}}",
+    "resources": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}",
+    "emptyTitle": "Ainda não há coleções publicadas.",
+    "emptyBody": "Coleções pedem de 3 a 12 recursos e uma nota de curadoria. Proponha a sua pelo GitHub.",
+    "propose": "Propor coleção",
+    "proposeTitle": "Tem uma lista que vale ser coleção?",
+    "proposeBody": "Proponha pelo GitHub. Coleções pedem 3 a 12 recursos e uma nota de curadoria.",
+    "eyebrow": "Coleção · {count, plural, =0 {# recursos} one {# recurso} other {# recursos}}",
+    "note": "Nota do curador",
+    "copy": "Copiar link",
+    "copied": "Link copiado",
+    "others": "Outras coleções",
+    "all": "Ver todas",
+    "list": "Recursos da coleção, em ordem",
+    "why": "Por que está aqui:"
   }
 }
