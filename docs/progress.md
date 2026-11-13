@@ -41,7 +41,7 @@ Branch atual: m6-busca
 | 2026-11-13 | T-508 | 606fec0 | Card + sorteio no browser (D-01) |
 | 2026-11-13 | T-509 | e60871f | MDX; texto rascunho; licença CC BY 4.0 (D-02); `pnpm-workspace.yaml` com allowBuilds |
 | 2026-11-13 | T-510 | 5ce3256 | Sem número de contribuidores (não existe nos dados) |
-| 2026-11-13 | T-601 | ff41af4 | Índice em `.next/static/pagefind` (servido em /_next/static/pagefind/); 50 páginas, pt-br e en |
+| 2026-11-13 | T-601 | ff41af4 | Índice em `.next/static/pagefind` (servido em /_next/static/pagefind/); 50 páginas, pt-br e en. Revisão: título e descrição explícitos nas categorias |
 | 2026-11-13 | T-602 | 0736ad7 | Lançador leve + diálogo carregado on demand; clique capturado em `[data-search-trigger]` |
 | 2026-11-13 | T-603 | 2e636c0 | Sem JS não filtra (site estático): mostra o índice completo |
 

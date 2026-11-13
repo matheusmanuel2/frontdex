@@ -141,6 +141,10 @@ export default async function CategoryPage({ params }: Props) {
           <div hidden>
             <span data-pagefind-meta="kind">category</span>
             <span data-pagefind-meta="slug">{category.slug}</span>
+            <span data-pagefind-meta="title">{category.name[locale]}</span>
+            <span data-pagefind-meta="description">
+              {category.description?.[locale] ?? t('titleMuted', { count: resources.length })}
+            </span>
             <span data-pagefind-meta="count">{resources.length}</span>
             <span data-pagefind-meta="area">{area?.name[locale]}</span>
             <span data-pagefind-filter="area">{area?.name[locale]}</span>
