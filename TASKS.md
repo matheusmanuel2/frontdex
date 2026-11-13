@@ -371,7 +371,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: data-ci · Spec: 002 · Depende de: T-204
 - Faz: `scripts/assign-ids.ts` + workflow em `main`. Próximo ID livre, commit automático, `concurrency` para evitar conflitos.
 - Pronto quando:
-  - [ ] Dois merges seguidos geram IDs diferentes e sequenciais.
+  - [x] Dois merges seguidos geram IDs diferentes e sequenciais.
 
 ### T-805 · Link check semanal
 - Agente: data-ci · Spec: 002 · Depende de: T-204

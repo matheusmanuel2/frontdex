@@ -52,10 +52,11 @@ Branch atual: m8-contribuicao
 | 2026-11-13 | T-801 | 51e92ed | Issue Form e conversor para YAML com `draft`/`TODO`; 3 testes passaram. O teste real de PR não foi executado porque não devo abrir PRs. |
 | 2026-11-13 | T-802 | ed92afe | CI publica/atualiza um comentário de validação e aplica `needs-changes`; três testes de API simulada passaram. |
 | 2026-11-13 | T-803 | 845bd30 | CI verifica URLs dos YAML alterados, exige HTTPS na URL principal, aplica retry/timeout e bloqueia destinos IP não públicos; 6 testes passaram. |
+| 2026-11-13 | T-804 | — | Atribuidor de IDs varre recursos sem ID após pushes em `main`, com sequência determinística e workflow serializado; 4 testes e CLI em fixture temporário passaram. |
 
 ## Passagem de sessão (2026-11-13)
 
-Estado: M1–M6 feitos, revistos e publicados; M7 concluído e publicado em `m7-seo`; M8 em andamento em `m8-contribuicao`. T-701–T-705 concluídas com `https://frontdex.dev` provisório (D-14). T-801 está implementada, mas a criação real do PR não foi testada para respeitar a instrução de não abrir PRs; T-802 está implementada e testada com a API simulada; T-803 verifica URLs nos YAML alterados e foi validada localmente. T-603 continua pendente da D-13. `UMAMI_WEBSITE_ID` precisa ser configurada no ambiente Production da Vercel quando a conta estiver ligada (T-006).
+Estado: M1–M6 feitos, revistos e publicados; M7 concluído e publicado em `m7-seo`; M8 em andamento em `m8-contribuicao`. T-701–T-705 concluídas com `https://frontdex.dev` provisório (D-14). T-801 está implementada, mas a criação real do PR não foi testada para respeitar a instrução de não abrir PRs; T-802 está implementada e testada com a API simulada; T-803 verifica URLs nos YAML alterados; T-804 atribui IDs sequenciais após pushes a `main`. T-603 continua pendente da D-13. `UMAMI_WEBSITE_ID` precisa ser configurada no ambiente Production da Vercel quando a conta estiver ligada (T-006).
 
 - Branches empilhadas publicadas: `m1-fundacao` → `m2-conteudo` → `m3-design-system` → `m4-esqueleto` → `m5-paginas` → `m6-busca` → `m7-seo`. Branch atual local: `m8-contribuicao` (ainda não publicada).
 - **PRs ainda não abertos**: o token do `gh` não tem *Pull requests: write*. O Matheus decidiu abrir no fim.
