@@ -1,3 +1,5 @@
+// Lighthouse CI loads this configuration as CommonJS.
+/* eslint-disable @typescript-eslint/no-require-imports */
 const { chromium } = require('@playwright/test');
 
 module.exports = {
