@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>FrontDex — Inspiração para mobile</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0B0D;color:#F7F8FA;font-family:'Geist',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#5B97FF;text-decoration:none}a:hover{color:#8DB7FF}
+.mono{font-family:'Geist Mono',ui-monospace,monospace}
+.navlink{color:#A3AAB6;transition:color 160ms cubic-bezier(.2,0,0,1)}.navlink:hover{color:#F7F8FA}
+.row{transition:background-color 160ms cubic-bezier(.2,0,0,1)}.row:hover{background:#15181E}
+.row:hover .arrow{transform:translate(2px,-2px);color:#5B97FF}
+.arrow{transition:transform 200ms cubic-bezier(.2,0,0,1),color 160ms}
+.card{transition:border-color 200ms cubic-bezier(.2,0,0,1),transform 200ms cubic-bezier(.2,0,0,1)}.card:hover{border-color:rgba(255,255,255,0.18);transform:translateY(-2px)}
+.ghost{transition:background-color 160ms,border-color 160ms}.ghost:hover{background:#1B1F27;border-color:rgba(255,255,255,0.18)}
+:focus-visible{outline:2px solid #5B97FF;outline-offset:2px}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #0A0B0D">
+<header style="border-bottom: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 28px">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px" aria-label="Início da FrontDex">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 3h11M5 6.5h13" stroke="#F7F8FA" stroke-width="1.8" stroke-linecap="square"/><path d="M3 10h11l3 3v8H3z" fill="#1463FF"/><path d="M6 14h4M6 17.5h4" stroke="#0A0B0D" stroke-width="1.8" stroke-linecap="square"/></svg>
+<span style="font-size: 18px; font-weight: 600; letter-spacing: -0.02em; color: #F7F8FA">Front<span style="color: #5B97FF">Dex</span></span>
+</a>
+<nav aria-label="Principal" style="display: flex; flex-wrap: wrap; gap: 26px; font-size: 15px; flex: 1 1 auto; justify-content: center">
+<a class="navlink" href="#">Descobrir</a>
+<a class="navlink" href="#">Aprender</a>
+<a class="navlink" href="Area.dc.html">Construir</a>
+<a class="navlink" href="#">Crescer</a>
+<a class="navlink" href="Collections.dc.html" aria-current="page" style="color: #F7F8FA">Coleções</a>
+</nav>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px">
+<a class="ghost" href="CommandK.dc.html" style="display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 8px 0 16px; background: #111318; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #A3AAB6; font-size: 14px">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"/></svg>
+Buscar
+<span class="mono" style="font-size: 11px; padding: 3px 8px; background: #1B1F27; border-radius: 999px; color: #8B93A1">⌘K</span>
+</a>
+<button class="ghost mono" type="button" aria-label="Idioma: Português. Mudar para English" style="height: 40px; padding: 0 14px; background: transparent; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #A3AAB6; font-size: 12px; cursor: pointer">PT / EN</button>
+<a href="Add.dc.html" style="display: flex; align-items: center; height: 40px; padding: 0 18px; background: #1463FF; border-radius: 999px; color: #FFFFFF; font-size: 14px; font-weight: 500">Adicionar recurso</a>
+</div>
+</div>
+</header>
+<main style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 96px">
+<p class="mono" style="margin: 0 0 18px; font-size: 12px; letter-spacing: 0.04em; color: #8B93A1"><a href="Main.dc.html" style="color: #8B93A1">ÍNDICE</a> / <a href="Collections.dc.html" style="color: #8B93A1">COLEÇÕES</a> / <span style="color: #F7F8FA">INSPIRAÇÃO PARA MOBILE</span></p>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 48px; align-items: start">
+<div>
+<span class="mono" style="display: inline-block; margin-bottom: 20px; padding: 5px 12px; background: #1B1F27; border-radius: 999px; font-size: 11px; letter-spacing: 0.06em; color: #A3AAB6">COLEÇÃO · 6 RECURSOS</span>
+<h1 style="margin: 0; font-size: 64px; line-height: 1.05; font-weight: 400; letter-spacing: -0.02em">Inspiração para mobile.<br><span style="color: #6B7280">Antes de abrir o Figma.</span></h1>
+<p style="margin: 20px 0 0; max-width: 620px; font-size: 17px; line-height: 1.6; color: #A3AAB6">Telas, fluxos e movimento de apps que já estão no mercado. Use para ver como os outros resolveram o mesmo problema, não para copiar.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px"><a href="#" style="display: inline-flex; align-items: center; gap: 10px; height: 40px; padding: 0 18px; background: #F7F8FA; border-radius: 999px; color: #0A0B0D; font-size: 14px; font-weight: 500">Abrir todos</a><button class="ghost" type="button" style="display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 18px; background: transparent; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 14px; font-family: inherit; cursor: pointer"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10 14a4 4 0 005.66 0l3-3a4 4 0 00-5.66-5.66l-1 1M14 10a4 4 0 00-5.66 0l-3 3a4 4 0 005.66 5.66l1-1" stroke="currentColor" stroke-width="1.6"/></svg>Copiar link</button></div>
+</div>
+<aside style="padding: 24px; background: #111318; border: 1px solid rgba(255,255,255,0.07); border-radius: 24px">
+<p class="mono" style="margin: 0 0 12px; font-size: 11px; letter-spacing: 0.06em; color: #8B93A1">NOTA DO CURADOR</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #F7F8FA">“Comece pelo Mobbin para ver o padrão, vá ao ScreensDesign quando o assunto for onboarding ou paywall, e feche no 60fps.design para o movimento.”</p>
+<div style="display: flex; align-items: center; gap: 10px; margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.06)">
+<span style="width: 28px; height: 28px; border-radius: 999px; background: #1B1F27; display: grid; place-items: center; font-size: 12px; color: #A3AAB6">F</span>
+<span style="font-size: 13px; color: #A3AAB6">Curadoria FrontDex · atualizada em nov 2026</span>
+</div>
+</aside>
+</div>
+<section style="margin-top: 56px">
+<div style="border: 1px solid rgba(255,255,255,0.07); border-radius: 16px; overflow: hidden; background: #0D0F12">
+<sc-for list="{{items}}" as="r" hint-placeholder-count="6">
+<a class="row" href="Resource.dc.html" style="display: grid; grid-template-columns: 56px minmax(0, 1fr) 140px 24px; align-items: start; gap: 20px; padding: 22px 24px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #F7F8FA">
+<span class="mono" style="font-size: 22px; line-height: 1; color: #5B97FF">{{r.n}}</span>
+<span style="min-width: 0"><span style="display: block; font-size: 17px; font-weight: 500">{{r.name}}</span><span style="display: block; margin-top: 4px; font-size: 14px; line-height: 1.5; color: #A3AAB6">{{r.desc}}</span><span style="display: block; margin-top: 10px; font-size: 13px; line-height: 1.5; color: #8B93A1">Por que está aqui: {{r.why}}</span></span>
+<span class="mono" style="justify-self: start; padding: 4px 10px; background: #1B1F27; border-radius: 999px; font-size: 11px; color: #A3AAB6">{{r.cat}}</span>
+<svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" style="color: #8B93A1"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"/></svg>
+</a>
+</sc-for>
+</div>
+</section>
+<section style="margin-top: 48px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center"><span style="font-size: 14px; color: #8B93A1; margin-right: 8px">Outras coleções</span><a class="ghost" href="#" style="display: inline-flex; align-items: center; height: 40px; padding: 0 18px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 14px">Movimento e acabamento</a><a class="ghost" href="#" style="display: inline-flex; align-items: center; height: 40px; padding: 0 18px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 14px">Terminal e agentes</a><a class="ghost" href="Collections.dc.html" style="display: inline-flex; align-items: center; height: 40px; padding: 0 18px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 14px">Ver todas</a></section>
+</main>
+<footer style="border-top: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<span style="font-size: 13px; color: #A3AAB6">Feito em Angola. Aberto ao mundo.</span>
+<nav aria-label="Rodapé" style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 13px"><a class="navlink" href="New.dc.html">Novos</a><a class="navlink" href="Random.dc.html">Surpresa</a><a class="navlink" href="Add.dc.html">Contribuir</a><a class="navlink" href="About.dc.html">Sobre</a><a class="navlink" href="#">GitHub</a></nav>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1800}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      "items": [
+        {
+          "id": "0011",
+          "name": "Mobbin",
+          "desc": "Biblioteca de telas e fluxos de apps reais para iOS, Android e web, com busca por padrão de interface.",
+          "cat": "inspiração",
+          "n": "01",
+          "why": "[nota do curador]"
+        },
+        {
+          "id": "0013",
+          "name": "ScreensDesign",
+          "desc": "Telas e fluxos gravados de apps iOS, com onboardings, paywalls, screenshots da App Store e estimativas de receita.",
+          "cat": "inspiração",
+          "n": "02",
+          "why": "[nota do curador]"
+        },
+        {
+          "id": "0016",
+          "name": "Refero",
+          "desc": "Referências de telas e fluxos de produtos web e iOS reais, organizadas para pesquisa de design.",
+          "cat": "inspiração",
+          "n": "03",
+          "why": "[nota do curador]"
+        },
+        {
+          "id": "0012",
+          "name": "Appllama",
+          "desc": "Mais de 26 mil telas de apps iOS que mais faturam, com onboardings, paywalls e filtro por receita.",
+          "cat": "inspiração",
+          "n": "04",
+          "why": "[nota do curador]"
+        },
+        {
+          "id": "0014",
+          "name": "60fps.design",
+          "desc": "Galeria de animações e interações de apps mobile e web, para usar como referência de movimento.",
+          "cat": "movimento",
+          "n": "05",
+          "why": "[nota do curador]"
+        },
+        {
+          "id": "0015",
+          "name": "AppKittie",
+          "desc": "Dados de mercado de apps iOS e Android: receita, downloads, anúncios, palavras-chave de ASO e onboardings.",
+          "cat": "pesquisa de apps",
+          "n": "06",
+          "why": "[nota do curador]"
+        }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

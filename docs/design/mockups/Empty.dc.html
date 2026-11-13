@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>FrontDex — Ícones sem resultados</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0B0D;color:#F7F8FA;font-family:'Geist',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#5B97FF;text-decoration:none}a:hover{color:#8DB7FF}
+.mono{font-family:'Geist Mono',ui-monospace,monospace}
+.navlink{color:#A3AAB6;transition:color 160ms cubic-bezier(.2,0,0,1)}.navlink:hover{color:#F7F8FA}
+.row{transition:background-color 160ms cubic-bezier(.2,0,0,1)}.row:hover{background:#15181E}
+.row:hover .arrow{transform:translate(2px,-2px);color:#5B97FF}
+.arrow{transition:transform 200ms cubic-bezier(.2,0,0,1),color 160ms}
+.card{transition:border-color 200ms cubic-bezier(.2,0,0,1),transform 200ms cubic-bezier(.2,0,0,1)}.card:hover{border-color:rgba(255,255,255,0.18);transform:translateY(-2px)}
+.ghost{transition:background-color 160ms,border-color 160ms}.ghost:hover{background:#1B1F27;border-color:rgba(255,255,255,0.18)}
+:focus-visible{outline:2px solid #5B97FF;outline-offset:2px}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #0A0B0D">
+<header style="border-bottom: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 28px">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px" aria-label="Início da FrontDex">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 3h11M5 6.5h13" stroke="#F7F8FA" stroke-width="1.8" stroke-linecap="square"/><path d="M3 10h11l3 3v8H3z" fill="#1463FF"/><path d="M6 14h4M6 17.5h4" stroke="#0A0B0D" stroke-width="1.8" stroke-linecap="square"/></svg>
+<span style="font-size: 18px; font-weight: 600; letter-spacing: -0.02em; color: #F7F8FA">Front<span style="color: #5B97FF">Dex</span></span>
+</a>
+<nav aria-label="Principal" style="display: flex; flex-wrap: wrap; gap: 26px; font-size: 15px; flex: 1 1 auto; justify-content: center">
+<a class="navlink" href="#">Descobrir</a>
+<a class="navlink" href="#">Aprender</a>
+<a class="navlink" href="Area.dc.html" aria-current="page" style="color: #F7F8FA">Construir</a>
+<a class="navlink" href="#">Crescer</a>
+<a class="navlink" href="Collections.dc.html">Coleções</a>
+</nav>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px">
+<a class="ghost" href="CommandK.dc.html" style="display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 8px 0 16px; background: #111318; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #A3AAB6; font-size: 14px">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"/></svg>
+Buscar
+<span class="mono" style="font-size: 11px; padding: 3px 8px; background: #1B1F27; border-radius: 999px; color: #8B93A1">⌘K</span>
+</a>
+<button class="ghost mono" type="button" aria-label="Idioma: Português. Mudar para English" style="height: 40px; padding: 0 14px; background: transparent; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #A3AAB6; font-size: 12px; cursor: pointer">PT / EN</button>
+<a href="Add.dc.html" style="display: flex; align-items: center; height: 40px; padding: 0 18px; background: #1463FF; border-radius: 999px; color: #FFFFFF; font-size: 14px; font-weight: 500">Adicionar recurso</a>
+</div>
+</div>
+</header>
+<main style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 96px">
+<p class="mono" style="margin: 0 0 18px; font-size: 12px; letter-spacing: 0.04em; color: #8B93A1"><a href="Main.dc.html" style="color: #8B93A1">ÍNDICE</a> / <a href="Area.dc.html" style="color: #8B93A1">CONSTRUIR</a> / <span style="color: #F7F8FA">ÍCONES</span></p>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px"><div>
+<h1 style="margin: 0; font-size: 64px; line-height: 1.05; font-weight: 400; letter-spacing: -0.02em">Ícones.<br><span style="color: #6B7280">Para a interface falar sem texto.</span></h1>
+</div><span class="mono" style="font-size: 12px; color: #8B93A1">0 de [N] recursos</span></div>
+<div style="margin-top: 32px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center"><span style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px 8px 16px; background: #F7F8FA; border-radius: 999px; color: #0A0B0D; font-size: 13px; font-weight: 500">Pago <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="#0A0B0D" stroke-width="2.2" stroke-linecap="square"/></svg></span><span style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px 8px 16px; background: #F7F8FA; border-radius: 999px; color: #0A0B0D; font-size: 13px; font-weight: 500">Figma <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="#0A0B0D" stroke-width="2.2" stroke-linecap="square"/></svg></span><span class="ghost" style="padding: 8px 16px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 13px">React</span><span class="ghost" style="padding: 8px 16px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 13px">SVG</span><span class="ghost" style="padding: 8px 16px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 13px">Animado</span><span style="flex: 1"></span><a href="Category.dc.html" class="mono" style="font-size: 12px">limpar filtros</a></div>
+<section style="margin-top: 32px; padding: 72px 32px; border: 1px dashed rgba(255,255,255,0.14); border-radius: 24px; text-align: center">
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true" style="margin: 0 auto; display: block"><rect x="6" y="14" width="30" height="26" rx="6" stroke="#3A3F48" stroke-width="2"/><path d="M14 8h22a6 6 0 016 6v18" stroke="#3A3F48" stroke-width="2"/><path d="M14 27h14" stroke="#5B97FF" stroke-width="2" stroke-linecap="square"/></svg>
+<h2 style="margin: 24px 0 0; font-size: 28px; font-weight: 400; letter-spacing: -0.02em">Nenhum recurso com esses filtros.<br><span style="color: #6B7280">Ainda.</span></h2>
+<p style="margin: 14px auto 0; max-width: 460px; font-size: 15px; line-height: 1.6; color: #A3AAB6">Tente tirar o filtro <span style="color: #F7F8FA">Figma</span>: sem ele há [N] ícones pagos. Ou, se conhece um bom conjunto que falta, sugira.</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 28px"><a href="Category.dc.html" style="display: inline-flex; align-items: center; gap: 10px; height: 40px; padding: 0 18px; background: #F7F8FA; border-radius: 999px; color: #0A0B0D; font-size: 14px; font-weight: 500">Limpar filtros</a><a class="ghost" href="Add.dc.html" style="display: inline-flex; align-items: center; height: 40px; padding: 0 18px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 14px">Sugerir recurso</a></div>
+</section>
+<section style="margin-top: 56px"><h2 style="margin: 0 0 20px; font-size: 28px; font-weight: 400; letter-spacing: -0.02em">Perto do que procura</h2><div style="border: 1px solid rgba(255,255,255,0.07); border-radius: 16px; overflow: hidden; background: #0D0F12">
+<sc-for list="{{near}}" as="r" hint-placeholder-count="3">
+<a class="row" href="Resource.dc.html" style="display: grid; grid-template-columns: 72px minmax(0, 1fr) 150px 24px; align-items: center; gap: 20px; padding: 18px 24px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #F7F8FA">
+<span class="mono" style="font-size: 12px; color: #8B93A1">#{{r.id}}</span>
+<span style="min-width: 0"><span style="display: block; font-size: 16px; font-weight: 500">{{r.name}}</span><span style="display: block; margin-top: 3px; font-size: 14px; color: #A3AAB6; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{r.desc}}</span></span>
+<span class="mono" style="justify-self: start; padding: 4px 10px; background: #1B1F27; border-radius: 999px; font-size: 11px; color: #A3AAB6">{{r.cat}}</span>
+<svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" style="color: #8B93A1"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"/></svg>
+</a>
+</sc-for>
+</div></section>
+</main>
+<footer style="border-top: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<span style="font-size: 13px; color: #A3AAB6">Feito em Angola. Aberto ao mundo.</span>
+<nav aria-label="Rodapé" style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 13px"><a class="navlink" href="New.dc.html">Novos</a><a class="navlink" href="Random.dc.html">Surpresa</a><a class="navlink" href="Add.dc.html">Contribuir</a><a class="navlink" href="About.dc.html">Sobre</a><a class="navlink" href="#">GitHub</a></nav>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1100}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      "near": [
+        {
+          "id": "0021",
+          "name": "Lucide",
+          "desc": "[linha do recurso]",
+          "cat": "ícones · gratuito"
+        },
+        {
+          "id": "0022",
+          "name": "Phosphor",
+          "desc": "[linha do recurso]",
+          "cat": "ícones · gratuito"
+        },
+        {
+          "id": "0002",
+          "name": "kugiri",
+          "desc": "Divide texto em linhas, palavras e letras exatamente onde o navegador quebrou, pronto para animar.",
+          "cat": "animação"
+        }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

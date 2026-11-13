@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Refero"
+url: https://refero.design
+area: discover
+category: ui-inspiration
+tags: [web, ios, screens, flows]
+pricing: freemium
+open_source: false
+description:
+  pt: "Referências de telas e fluxos de produtos web e iOS reais, organizadas para pesquisa de design."
+  en: "References of real web and iOS product screens and flows, organized for design research."
+added: 2026-11-12
+last_checked: 2026-11-12
+status: active
+notes: "Site não abriu na verificação automática; descrição baseada no produto conhecido. Confirmar preço atual."

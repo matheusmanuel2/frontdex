@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>FrontDex — Início</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0B0D;color:#F7F8FA;font-family:'Geist',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#5B97FF;text-decoration:none}a:hover{color:#8DB7FF}
+.mono{font-family:'Geist Mono',ui-monospace,monospace}
+.navlink{color:#A3AAB6;transition:color 160ms cubic-bezier(.2,0,0,1)}.navlink:hover{color:#F7F8FA}
+.row{transition:background-color 160ms cubic-bezier(.2,0,0,1)}.row:hover{background:#15181E}
+.row:hover .arrow{transform:translate(2px,-2px);color:#5B97FF}
+.arrow{transition:transform 200ms cubic-bezier(.2,0,0,1),color 160ms}
+.card{transition:border-color 200ms cubic-bezier(.2,0,0,1),transform 200ms cubic-bezier(.2,0,0,1)}.card:hover{border-color:rgba(255,255,255,0.18);transform:translateY(-2px)}
+.chip{transition:border-color 160ms,color 160ms,background-color 160ms}.chip:hover{border-color:rgba(91,151,255,0.5);color:#F7F8FA;background:rgba(20,99,255,0.08)}
+.ghost{transition:background-color 160ms,border-color 160ms}.ghost:hover{background:#1B1F27;border-color:rgba(255,255,255,0.18)}
+.cta{transition:transform 200ms cubic-bezier(.2,0,0,1)}.cta:hover{transform:translateY(-1px)}.cta:hover .knob{transform:rotate(45deg)}
+.knob{transition:transform 240ms cubic-bezier(.2,0,0,1)}
+.hero-bands{background:linear-gradient(90deg,#0A0B0D 0%,#0A0B0D 46%,rgba(10,11,13,0.6) 58%,rgba(10,11,13,0) 72%),linear-gradient(0deg,#0A0B0D 0%,rgba(10,11,13,0) 38%),linear-gradient(180deg,#0A0B0D 0%,rgba(10,11,13,0) 22%),repeating-linear-gradient(90deg,rgba(10,11,13,0.42) 0 2px,rgba(10,11,13,0) 2px 7px),linear-gradient(90deg,#08132F 42%,#0B2A80 55%,#1463FF 66%,#5B97FF 73%,#C9DCFF 76.5%,#5B97FF 80%,#1463FF 86%,#0B2A80 93%,#0A0B0D 100%)}
+:focus-visible{outline:2px solid #5B97FF;outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #0A0B0D">
+
+<section class="hero-bands" style="position: relative">
+<header>
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 28px">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px" aria-label="Início da FrontDex">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 3h11M5 6.5h13" stroke="#F7F8FA" stroke-width="1.8" stroke-linecap="square"/><path d="M3 10h11l3 3v8H3z" fill="#1463FF"/><path d="M6 14h4M6 17.5h4" stroke="#0A0B0D" stroke-width="1.8" stroke-linecap="square"/></svg>
+<span style="font-size: 18px; font-weight: 600; letter-spacing: -0.02em; color: #F7F8FA">Front<span style="color: #5B97FF">Dex</span></span>
+</a>
+<nav aria-label="Principal" style="display: flex; flex-wrap: wrap; gap: 26px; font-size: 15px; flex: 1 1 auto; justify-content: center">
+<a class="navlink" href="#">Descobrir</a>
+<a class="navlink" href="#">Aprender</a>
+<a class="navlink" href="Category.dc.html">Construir</a>
+<a class="navlink" href="#">Crescer</a>
+<a class="navlink" href="#">Coleções</a>
+</nav>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px">
+<button class="ghost" type="button" style="display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 8px 0 16px; background: rgba(17,19,24,0.8); border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #A3AAB6; font: inherit; font-size: 14px; cursor: pointer">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"/></svg>
+Buscar
+<span class="mono" style="font-size: 11px; padding: 3px 8px; background: #1B1F27; border-radius: 999px; color: #8B93A1">⌘K</span>
+</button>
+<button class="ghost mono" type="button" aria-label="Idioma: Português. Mudar para English" style="height: 40px; padding: 0 14px; background: transparent; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #A3AAB6; font-size: 12px; cursor: pointer">PT / EN</button>
+<a href="#" style="display: flex; align-items: center; height: 40px; padding: 0 18px; background: #1463FF; border-radius: 999px; color: #FFFFFF; font-size: 14px; font-weight: 500">Adicionar recurso</a>
+</div>
+</div>
+</header>
+
+<div style="max-width: 1200px; margin: 0 auto; padding: 120px 24px 40px">
+<div style="max-width: 640px">
+<span class="mono" style="display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; font-size: 12px; color: #A3AAB6"><span style="width: 6px; height: 6px; border-radius: 999px; background: #5B97FF"></span>#0000 · Índice open-source de front-end</span>
+<h1 style="margin: 28px 0 0; font-size: 80px; line-height: 1.04; font-weight: 400; letter-spacing: -0.02em">A internet front-end, <span style="color: #6B7280">indexada.</span></h1>
+<p style="margin: 28px 0 36px; max-width: 520px; font-size: 18px; line-height: 1.55; color: #A3AAB6">Ferramentas, bibliotecas, cursos e comunidades, cada um com uma linha sobre por que vale o seu tempo. Menos busca. Mais construção.</p>
+<form role="search" style="display: flex; align-items: center; gap: 10px; max-width: 580px; padding: 6px 6px 6px 22px; background: #111318; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="#8B93A1" stroke-width="1.6"/><path d="M15.5 15.5L21 21" stroke="#8B93A1" stroke-width="1.6" stroke-linecap="square"/></svg>
+<label for="q" class="sr">Buscar no índice</label>
+<input id="q" type="search" placeholder="Busque ferramentas, bibliotecas, cursos…" style="flex: 1; min-width: 0; height: 46px; background: transparent; border: 0; outline: none; color: #F7F8FA; font: inherit; font-size: 16px">
+<span class="mono" style="font-size: 11px; padding: 4px 9px; background: #1B1F27; border-radius: 999px; color: #8B93A1">⌘K</span>
+<button type="submit" style="height: 46px; padding: 0 22px; background: #1463FF; border: 0; border-radius: 999px; color: #FFFFFF; font: inherit; font-size: 15px; font-weight: 500; cursor: pointer">Buscar</button>
+</form>
+<div style="margin-top: 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px">
+<a class="chip" href="Category.dc.html" style="padding: 8px 14px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #A3AAB6; font-size: 13px">Preciso de ícones</a>
+<a class="chip" href="#" style="padding: 8px 14px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #A3AAB6; font-size: 13px">Quero aprender React</a>
+<a class="chip" href="#" style="padding: 8px 14px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #A3AAB6; font-size: 13px">Bibliotecas de animação</a>
+<a class="chip" href="#" style="padding: 8px 14px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #A3AAB6; font-size: 13px">Cursos gratuitos</a>
+</div>
+</div>
+<div style="margin-top: 120px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<span class="mono" style="font-size: 12px; letter-spacing: 0.04em; color: #8B93A1">[N] recursos · [N] categorias · última indexação [DATA]</span>
+<span style="display: flex; gap: 28px; font-size: 14px"><a class="navlink" href="#">GitHub</a><a class="navlink" href="#">LinkedIn</a><a class="navlink" href="#">X</a></span>
+</div>
+</div>
+</section>
+
+<main>
+<section style="max-width: 1200px; margin: 0 auto; padding: 96px 24px 48px">
+<div style="margin-bottom: 36px">
+<p class="mono" style="margin: 0 0 14px; font-size: 12px; letter-spacing: 0.06em; color: #5B97FF">01 — DIREÇÕES</p>
+<h2 style="margin: 0; font-size: 44px; line-height: 1.05; font-weight: 400; letter-spacing: -0.02em">Escolha uma direção.<br><span style="color: #6B7280">Quatro portas para o índice.</span></h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px">
+<sc-for list="{{areas}}" as="a" hint-placeholder-count="4">
+<a class="card" href="{{a.href}}" style="display: flex; flex-direction: column; gap: 18px; padding: 28px; background: #111318; border: 1px solid rgba(255,255,255,0.07); border-radius: 24px; color: #F7F8FA">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<span class="mono" style="padding: 5px 10px; background: #1B1F27; border-radius: 999px; font-size: 11px; letter-spacing: 0.06em; color: #A3AAB6">{{a.num}} / {{a.label}}</span>
+<span class="mono" style="font-size: 12px; color: #8B93A1">[N]</span>
+</div>
+<div>
+<h3 style="margin: 0 0 8px; font-size: 24px; font-weight: 500; letter-spacing: -0.01em">{{a.name}}</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #A3AAB6">{{a.desc}}</p>
+</div>
+<p class="mono" style="margin: auto 0 0; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.06); font-size: 12px; line-height: 1.9; color: #A3AAB6; white-space: pre-line">{{a.cats}}</p>
+</a>
+</sc-for>
+</div>
+</section>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 72px 24px 48px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px; margin-bottom: 28px">
+<div>
+<p class="mono" style="margin: 0 0 14px; font-size: 12px; letter-spacing: 0.06em; color: #5B97FF">02 — NOVOS</p>
+<h2 style="margin: 0; font-size: 44px; line-height: 1.05; font-weight: 400; letter-spacing: -0.02em">Recém-indexados.<br><span style="color: #6B7280">Entraram esta semana.</span></h2>
+</div>
+<a class="ghost" href="#" style="display: flex; align-items: center; height: 40px; padding: 0 18px; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #F7F8FA; font-size: 14px">Ver todos os novos</a>
+</div>
+<div style="border: 1px solid rgba(255,255,255,0.07); border-radius: 16px; overflow: hidden; background: #0D0F12">
+<sc-for list="{{fresh}}" as="r" hint-placeholder-count="6">
+<a class="row" href="Resource.dc.html" style="display: grid; grid-template-columns: 72px minmax(0, 1fr) 130px 100px 24px; align-items: center; gap: 20px; padding: 18px 24px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #F7F8FA">
+<span class="mono" style="font-size: 12px; color: #8B93A1">#{{r.id}}</span>
+<span style="min-width: 0">
+<span style="display: block; font-size: 16px; font-weight: 500">{{r.name}}</span>
+<span style="display: block; margin-top: 3px; font-size: 14px; color: #A3AAB6; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{r.desc}}</span>
+</span>
+<span class="mono" style="justify-self: start; padding: 4px 10px; background: #1B1F27; border-radius: 999px; font-size: 11px; color: #A3AAB6">{{r.cat}}</span>
+<span class="mono" style="font-size: 12px; color: #A3AAB6">{{r.price}}</span>
+<svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" style="color: #8B93A1"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"/></svg>
+</a>
+</sc-for>
+</div>
+</section>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 72px 24px 48px">
+<div style="margin-bottom: 36px">
+<p class="mono" style="margin: 0 0 14px; font-size: 12px; letter-spacing: 0.06em; color: #5B97FF">03 — JOIAS ESCONDIDAS</p>
+<h2 style="margin: 0; font-size: 44px; line-height: 1.05; font-weight: 400; letter-spacing: -0.02em">Útil antes de popular.<br><span style="color: #6B7280">Coisas que talvez você não conheça.</span></h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px">
+<sc-for list="{{gems}}" as="g" hint-placeholder-count="3">
+<a class="card" href="Resource.dc.html" style="display: flex; flex-direction: column; gap: 20px; padding: 12px 12px 24px; background: #111318; border: 1px solid rgba(255,255,255,0.07); border-radius: 24px; color: #F7F8FA">
+<div style="height: 180px; border-radius: 16px; background: #1B1F27; display: flex; align-items: center; justify-content: center">
+<span class="mono" style="font-size: 11px; color: #8B93A1">[SCREENSHOT · {{g.name}}]</span>
+</div>
+<div style="padding: 0 12px">
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+<h3 style="margin: 0; font-size: 19px; font-weight: 500; letter-spacing: -0.01em">{{g.name}}</h3>
+<span class="mono" style="font-size: 12px; color: #8B93A1">#{{g.id}}</span>
+</div>
+<p style="margin: 8px 0 0; font-size: 14px; line-height: 1.55; color: #A3AAB6">{{g.desc}}</p>
+</div>
+<div style="margin: auto 12px 0; padding: 16px 18px; border-radius: 16px; background: #0D0F12">
+<p class="mono" style="margin: 0 0 6px; font-size: 11px; letter-spacing: 0.06em; color: #5B97FF">POR QUE ESTÁ AQUI</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.5; color: #D5D9E0">{{g.why}}</p>
+</div>
+</a>
+</sc-for>
+</div>
+</section>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 72px 24px 48px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px; margin-bottom: 28px">
+<div>
+<p class="mono" style="margin: 0 0 14px; font-size: 12px; letter-spacing: 0.06em; color: #5B97FF">04 — COLEÇÕES</p>
+<h2 style="margin: 0; font-size: 44px; line-height: 1.05; font-weight: 400; letter-spacing: -0.02em">Curadas, em ordem.<br><span style="color: #6B7280">Listas curtas com ponto de vista.</span></h2>
+</div>
+<a class="ghost" href="#" style="display: flex; align-items: center; height: 40px; padding: 0 18px; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #F7F8FA; font-size: 14px">Todas as coleções</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px">
+<sc-for list="{{collections}}" as="c" hint-placeholder-count="3">
+<a class="card" href="#" style="display: flex; flex-direction: column; gap: 10px; padding: 28px; border: 1px solid rgba(255,255,255,0.08); border-radius: 24px; color: #F7F8FA">
+<span class="mono" style="font-size: 11px; letter-spacing: 0.06em; color: #8B93A1">{{c.tag}}</span>
+<h3 style="margin: 0; font-size: 22px; font-weight: 500; letter-spacing: -0.01em">{{c.name}}</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #A3AAB6">{{c.desc}}</p>
+<span class="mono" style="margin-top: 14px; font-size: 12px; color: #8B93A1">[N] recursos →</span>
+</a>
+</sc-for>
+</div>
+</section>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 48px; align-items: center; padding: 48px; background: #111318; border: 1px solid rgba(255,255,255,0.07); border-radius: 24px">
+<div>
+<p class="mono" style="margin: 0 0 14px; font-size: 12px; letter-spacing: 0.06em; color: #5B97FF">05 — CONTRIBUA</p>
+<h2 style="margin: 0; font-size: 44px; line-height: 1.05; font-weight: 400; letter-spacing: -0.02em">Feito em público.<br><span style="color: #6B7280">Indexado pela comunidade.</span></h2>
+<p style="margin: 20px 0 28px; font-size: 16px; line-height: 1.6; color: #A3AAB6; max-width: 460px">Cada recurso é um arquivo YAML no GitHub. Abra um pull request, ou preencha um formulário e um bot abre o PR por você.</p>
+<ol style="margin: 0 0 32px; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px">
+<li style="display: flex; gap: 16px; font-size: 15px; color: #D5D9E0"><span class="mono" style="color: #8B93A1; font-size: 13px; padding-top: 2px">01</span>Adicione um arquivo ou preencha o formulário.</li>
+<li style="display: flex; gap: 16px; font-size: 15px; color: #D5D9E0"><span class="mono" style="color: #8B93A1; font-size: 13px; padding-top: 2px">02</span>O CI confere o schema, o link e os dois idiomas.</li>
+<li style="display: flex; gap: 16px; font-size: 15px; color: #D5D9E0"><span class="mono" style="color: #8B93A1; font-size: 13px; padding-top: 2px">03</span>Um curador revisa. Merge é publicação.</li>
+</ol>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<a class="cta" href="#" style="display: flex; align-items: center; gap: 14px; height: 48px; padding: 0 6px 0 22px; background: #F7F8FA; border-radius: 999px; color: #0A0B0D; font-size: 15px; font-weight: 500">Adicionar recurso
+<span class="knob" style="display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 999px; background: #1463FF; color: #FFFFFF"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></span></a>
+<a class="ghost" href="#" style="display: flex; align-items: center; height: 48px; padding: 0 22px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 15px">Ler as diretrizes</a>
+</div>
+</div>
+<div style="border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; background: #0A0B0D; overflow: hidden">
+<div class="mono" style="display: flex; justify-content: space-between; padding: 12px 18px; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 12px; color: #8B93A1"><span>data/resources/lucide.yaml</span><span>+14</span></div>
+<pre class="mono" style="margin: 0; padding: 20px; font-size: 13px; line-height: 1.75; color: #A3AAB6; overflow-x: auto; white-space: pre"><span style="color: #8B93A1">id: 422  # atribuído no merge</span>
+name: <span style="color: #F7F8FA">Lucide</span>
+url: <span style="color: #5B97FF">https://lucide.dev</span>
+category: <span style="color: #F7F8FA">icons</span>
+pricing: <span style="color: #F7F8FA">free</span>
+open_source: <span style="color: #F7F8FA">true</span>
+description:
+  pt: <span style="color: #D5D9E0">Conjunto de ícones open-source e</span>
+      <span style="color: #D5D9E0">consistente, com pacotes React e Vue.</span>
+  en: <span style="color: #D5D9E0">Consistent open-source icon set with</span>
+      <span style="color: #D5D9E0">official React and Vue packages.</span></pre>
+</div>
+</div>
+</section>
+</main>
+
+<footer style="border-top: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 32px">
+<div>
+<span style="font-size: 18px; font-weight: 600; letter-spacing: -0.02em; color: #F7F8FA">Front<span style="color: #5B97FF">Dex</span></span>
+<p style="margin: 12px 0 0; font-size: 14px; line-height: 1.55; color: #A3AAB6; max-width: 240px">A internet front-end, indexada.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; font-size: 14px">
+<span class="mono" style="font-size: 11px; letter-spacing: 0.06em; color: #8B93A1; margin-bottom: 4px">ÍNDICE</span>
+<a class="navlink" href="#">Descobrir</a><a class="navlink" href="#">Aprender</a><a class="navlink" href="Category.dc.html">Construir</a><a class="navlink" href="#">Crescer</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; font-size: 14px">
+<span class="mono" style="font-size: 11px; letter-spacing: 0.06em; color: #8B93A1; margin-bottom: 4px">PROJETO</span>
+<a class="navlink" href="#">Sobre</a><a class="navlink" href="#">Adicionar recurso</a><a class="navlink" href="#">GitHub</a><a class="navlink" href="#">Novos da semana</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; font-size: 14px">
+<span class="mono" style="font-size: 11px; letter-spacing: 0.06em; color: #8B93A1; margin-bottom: 4px">PREFERÊNCIAS</span>
+<a class="navlink" href="#">Português</a><a class="navlink" href="#">English</a><a class="navlink" href="#">Tema claro</a>
+</div>
+</div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px 24px 32px; border-top: 1px solid rgba(255,255,255,0.05); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px">
+<span style="font-size: 13px; color: #A3AAB6">Feito em Angola. Aberto ao mundo.</span>
+<span class="mono" style="font-size: 12px; color: #8B93A1">FRONTDEX / V0.1</span>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4100}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      areas: [
+        { num: '01', label: 'DESCOBRIR', name: 'Descobrir', href: '#', desc: 'Inspiração, vitrines e as pessoas que valem a pena seguir.', cats: '→ Inspiração\n→ Vitrines\n→ Newsletters' },
+        { num: '02', label: 'APRENDER', name: 'Aprender', href: '#', desc: 'Cursos, livros e documentação, da primeira div ao design engineering.', cats: '→ Cursos\n→ Livros\n→ Roadmaps' },
+        { num: '03', label: 'CONSTRUIR', name: 'Construir', href: 'Category.dc.html', desc: 'Bibliotecas, ícones, animação e as ferramentas com que você entrega.', cats: '→ Ícones\n→ Componentes de UI\n→ Animação' },
+        { num: '04', label: 'CRESCER', name: 'Crescer', href: '#', desc: 'Comunidades, open source e o próximo passo na carreira.', cats: '→ Comunidades\n→ Open source\n→ Carreira' }
+      ],
+      fresh: [
+        { id: '0422', name: 'Lucide', desc: 'Conjunto de ícones open-source e consistente, com pacotes oficiais para React e Vue.', cat: 'ícones', price: 'Grátis · OSS' },
+        { id: '0421', name: 'React Bits', desc: 'Componentes React animados que você copia para o projeto em vez de instalar.', cat: 'componentes', price: 'Grátis · OSS' },
+        { id: '0420', name: 'Motion', desc: 'Biblioteca de animação para React e JS puro, com springs e animações de layout.', cat: 'animação', price: 'Freemium' },
+        { id: '0419', name: 'Radix Primitives', desc: 'Peças React sem estilo e acessíveis para diálogos, menus e popovers.', cat: 'componentes', price: 'Grátis · OSS' },
+        { id: '0418', name: 'Pagefind', desc: 'Busca estática que indexa o HTML gerado e roda no navegador.', cat: 'busca', price: 'Grátis · OSS' },
+        { id: '0417', name: 'CSS for JavaScript Developers', desc: 'Curso interativo sobre o modelo mental por trás do layout em CSS.', cat: 'cursos', price: 'Pago' }
+      ],
+      gems: [
+        { id: '0388', name: 'Transitions.dev', desc: 'Transições de UI caprichadas, com receitas para copiar e uma skill para agentes.', why: 'O jeito mais rápido de parar de entregar interfaces que pulam de um estado para outro.' },
+        { id: '0312', name: 'Every Layout', desc: 'Primitivas de layout feitas com poucas regras de CSS.', why: 'Ensina a parar de recorrer a uma media query toda vez.' },
+        { id: '0297', name: 'Realtime Colors', desc: 'Teste uma paleta num layout real antes de decidir.', why: 'Você julga as cores no contexto, não numa fileira de amostras.' }
+      ],
+      collections: [
+        { tag: 'COLEÇÃO · 01', name: 'Angola Tech', desc: 'Ferramentas, comunidades e pessoas construindo a web a partir de Angola.' },
+        { tag: 'COLEÇÃO · 02', name: 'Comece aqui', desc: 'Os primeiros recursos que daríamos a quem está aprendendo front-end.' },
+        { tag: 'COLEÇÃO · 03', name: 'Movimento e acabamento', desc: 'Bibliotecas e referências para interfaces que parecem vivas.' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>FrontDex — Sobre</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0B0D;color:#F7F8FA;font-family:'Geist',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#5B97FF;text-decoration:none}a:hover{color:#8DB7FF}
+.mono{font-family:'Geist Mono',ui-monospace,monospace}
+.navlink{color:#A3AAB6;transition:color 160ms cubic-bezier(.2,0,0,1)}.navlink:hover{color:#F7F8FA}
+.row{transition:background-color 160ms cubic-bezier(.2,0,0,1)}.row:hover{background:#15181E}
+.row:hover .arrow{transform:translate(2px,-2px);color:#5B97FF}
+.arrow{transition:transform 200ms cubic-bezier(.2,0,0,1),color 160ms}
+.card{transition:border-color 200ms cubic-bezier(.2,0,0,1),transform 200ms cubic-bezier(.2,0,0,1)}.card:hover{border-color:rgba(255,255,255,0.18);transform:translateY(-2px)}
+.ghost{transition:background-color 160ms,border-color 160ms}.ghost:hover{background:#1B1F27;border-color:rgba(255,255,255,0.18)}
+:focus-visible{outline:2px solid #5B97FF;outline-offset:2px}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #0A0B0D">
+<header style="border-bottom: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 28px">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px" aria-label="Início da FrontDex">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 3h11M5 6.5h13" stroke="#F7F8FA" stroke-width="1.8" stroke-linecap="square"/><path d="M3 10h11l3 3v8H3z" fill="#1463FF"/><path d="M6 14h4M6 17.5h4" stroke="#0A0B0D" stroke-width="1.8" stroke-linecap="square"/></svg>
+<span style="font-size: 18px; font-weight: 600; letter-spacing: -0.02em; color: #F7F8FA">Front<span style="color: #5B97FF">Dex</span></span>
+</a>
+<nav aria-label="Principal" style="display: flex; flex-wrap: wrap; gap: 26px; font-size: 15px; flex: 1 1 auto; justify-content: center">
+<a class="navlink" href="#">Descobrir</a>
+<a class="navlink" href="#">Aprender</a>
+<a class="navlink" href="Area.dc.html">Construir</a>
+<a class="navlink" href="#">Crescer</a>
+<a class="navlink" href="Collections.dc.html">Coleções</a>
+</nav>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px">
+<a class="ghost" href="CommandK.dc.html" style="display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 8px 0 16px; background: #111318; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #A3AAB6; font-size: 14px">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"/></svg>
+Buscar
+<span class="mono" style="font-size: 11px; padding: 3px 8px; background: #1B1F27; border-radius: 999px; color: #8B93A1">⌘K</span>
+</a>
+<button class="ghost mono" type="button" aria-label="Idioma: Português. Mudar para English" style="height: 40px; padding: 0 14px; background: transparent; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #A3AAB6; font-size: 12px; cursor: pointer">PT / EN</button>
+<a href="Add.dc.html" style="display: flex; align-items: center; height: 40px; padding: 0 18px; background: #1463FF; border-radius: 999px; color: #FFFFFF; font-size: 14px; font-weight: 500">Adicionar recurso</a>
+</div>
+</div>
+</header>
+<main style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 96px">
+<p class="mono" style="margin: 0 0 18px; font-size: 12px; letter-spacing: 0.04em; color: #8B93A1"><a href="Main.dc.html" style="color: #8B93A1">ÍNDICE</a> / <span style="color: #F7F8FA">SOBRE</span></p>
+<span class="mono" style="display: inline-block; margin-bottom: 20px; padding: 5px 12px; background: #1B1F27; border-radius: 999px; font-size: 11px; letter-spacing: 0.06em; color: #A3AAB6">SOBRE</span>
+<h1 style="margin: 0; font-size: 64px; line-height: 1.05; font-weight: 400; letter-spacing: -0.02em">Sobre.<br><span style="color: #6B7280">Feito em Angola. Aberto ao mundo.</span></h1>
+<section style="margin-top: 56px; display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 48px">
+<p class="mono" style="margin: 0; font-size: 12px; letter-spacing: 0.06em; color: #8B93A1">POR QUE EXISTE</p>
+<div style="max-width: 720px; display: flex; flex-direction: column; gap: 18px; font-size: 19px; line-height: 1.6; color: #A3AAB6">
+<p style="margin: 0"><span style="color: #F7F8FA">Achar um bom recurso de front-end custa mais tempo do que devia.</span> As listas no GitHub crescem até ninguém as conseguir ler, e os diretórios bonitos vivem de quem paga para aparecer.</p>
+<p style="margin: 0">A FrontDex é um índice pequeno de propósito. Cada recurso tem um número, uma categoria e uma linha que explica por que vale o seu tempo. Quem escreve a linha é uma pessoa, não um modelo.</p>
+<p style="margin: 0">Começou em Luanda, em português, porque é aqui que estamos. O índice é aberto, o código também, e qualquer pessoa pode propor um recurso.</p>
+</div>
+</section>
+<section style="margin-top: 72px"><h2 style="margin: 0 0 20px; font-size: 28px; font-weight: 400; letter-spacing: -0.02em">Princípios</h2>
+<div style="border: 1px solid rgba(255,255,255,0.07); border-radius: 16px; overflow: hidden; background: #0D0F12">
+<sc-for list="{{principles}}" as="p" hint-placeholder-count="5">
+<div style="display: grid; grid-template-columns: 72px 300px minmax(0, 1fr); gap: 20px; padding: 22px 24px; border-bottom: 1px solid rgba(255,255,255,0.06)">
+<span class="mono" style="font-size: 12px; color: #5B97FF">{{p.n}}</span>
+<span style="font-size: 17px; color: #F7F8FA">{{p.t}}</span>
+<span style="font-size: 15px; line-height: 1.55; color: #A3AAB6">{{p.d}}</span>
+</div>
+</sc-for>
+</div></section>
+<section style="margin-top: 72px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px">
+<div style="padding: 24px; background: #111318; border: 1px solid rgba(255,255,255,0.07); border-radius: 24px"><span class="mono" style="font-size: 12px; color: #8B93A1">RECURSOS</span><p style="margin: 10px 0 0; font-size: 44px; font-weight: 400; letter-spacing: -0.02em">[N]</p></div>
+<div style="padding: 24px; background: #111318; border: 1px solid rgba(255,255,255,0.07); border-radius: 24px"><span class="mono" style="font-size: 12px; color: #8B93A1">CATEGORIAS</span><p style="margin: 10px 0 0; font-size: 44px; font-weight: 400; letter-spacing: -0.02em">17</p></div>
+<div style="padding: 24px; background: #111318; border: 1px solid rgba(255,255,255,0.07); border-radius: 24px"><span class="mono" style="font-size: 12px; color: #8B93A1">CONTRIBUIDORES</span><p style="margin: 10px 0 0; font-size: 44px; font-weight: 400; letter-spacing: -0.02em">[N]</p></div>
+</section>
+<section style="margin-top: 72px; padding: 32px; background: #111318; border: 1px solid rgba(255,255,255,0.07); border-radius: 24px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 32px; align-items: center">
+<div><h2 style="margin: 0; font-size: 28px; font-weight: 400; letter-spacing: -0.02em">Apoie.<br><span style="color: #6B7280">Sem comprar destaque.</span></h2>
+<p style="margin: 14px 0 0; max-width: 560px; font-size: 15px; line-height: 1.6; color: #A3AAB6">Uma estrela no GitHub ajuda outras pessoas a encontrar o projeto. Um recurso bem escrito ajuda ainda mais. Se um dia houver patrocínio, ele paga a infraestrutura, nunca a posição na lista.</p></div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px"><a href="#" style="display: inline-flex; align-items: center; gap: 10px; height: 40px; padding: 0 18px; background: #F7F8FA; border-radius: 999px; color: #0A0B0D; font-size: 14px; font-weight: 500"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.5l2.6 5.5 6 .8-4.4 4.1 1.1 5.9L12 17l-5.3 2.8 1.1-5.9L3.4 9.8l6-.8z" stroke="#0A0B0D" stroke-width="1.6" stroke-linejoin="round"/></svg>Estrela no GitHub</a><a class="ghost" href="Add.dc.html" style="display: inline-flex; align-items: center; height: 40px; padding: 0 18px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 14px">Contribuir</a></div>
+</section>
+<section style="margin-top: 48px; display: flex; flex-wrap: wrap; gap: 32px; font-size: 14px; color: #8B93A1">
+<span>Curadoria: <span style="color: #F7F8FA">Matheus Manuel</span>, Luanda</span>
+<span>Código: <span class="mono" style="color: #F7F8FA">MIT</span></span>
+<span>Conteúdo: <span class="mono" style="color: #F7F8FA">CC BY 4.0</span></span>
+<span>Analytics: <span style="color: #F7F8FA">Umami, sem cookies</span></span>
+</section>
+</main>
+<footer style="border-top: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<span style="font-size: 13px; color: #A3AAB6">Feito em Angola. Aberto ao mundo.</span>
+<nav aria-label="Rodapé" style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 13px"><a class="navlink" href="New.dc.html">Novos</a><a class="navlink" href="Random.dc.html">Surpresa</a><a class="navlink" href="Add.dc.html">Contribuir</a><a class="navlink" href="About.dc.html">Sobre</a><a class="navlink" href="#">GitHub</a></nav>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2300}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      "principles": [
+        {
+          "n": "01",
+          "t": "Uma linha por recurso",
+          "d": "Se não cabe em uma linha, ainda não sabemos por que o recurso importa."
+        },
+        {
+          "n": "02",
+          "t": "Pessoas escrevem, não modelos",
+          "d": "Nenhuma descrição do índice é gerada por IA. Agentes ajudam a construir o site, não a curar."
+        },
+        {
+          "n": "03",
+          "t": "Destaque não se compra",
+          "d": "A ordem das listas vem da curadoria. Patrocínio, se existir, aparece sinalizado e à parte."
+        },
+        {
+          "n": "04",
+          "t": "Menos é a feature",
+          "d": "Preferimos 300 recursos bons a 3 000 recursos medianos. Tirar é tão importante quanto pôr."
+        },
+        {
+          "n": "05",
+          "t": "Aberto de ponta a ponta",
+          "d": "Dados em YAML, código no GitHub, decisões registradas. Dá para auditar e dá para fazer fork."
+        }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

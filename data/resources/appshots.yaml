@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Appshots"
+url: https://appshots.design
+area: discover
+category: ui-inspiration
+tags: [mobile, screens]
+pricing: TODO
+open_source: false
+description:
+  pt: "TODO"
+  en: "TODO"
+added: 2026-11-12
+last_checked: 2026-11-12
+status: draft
+notes: "Site não abriu na verificação. Descrição do Matheus: \"Find fresh mobile UI inspiration\"."

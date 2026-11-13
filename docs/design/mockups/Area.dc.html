@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>FrontDex — Construir</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0A0B0D;color:#F7F8FA;font-family:'Geist',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#5B97FF;text-decoration:none}a:hover{color:#8DB7FF}
+.mono{font-family:'Geist Mono',ui-monospace,monospace}
+.navlink{color:#A3AAB6;transition:color 160ms cubic-bezier(.2,0,0,1)}.navlink:hover{color:#F7F8FA}
+.row{transition:background-color 160ms cubic-bezier(.2,0,0,1)}.row:hover{background:#15181E}
+.row:hover .arrow{transform:translate(2px,-2px);color:#5B97FF}
+.arrow{transition:transform 200ms cubic-bezier(.2,0,0,1),color 160ms}
+.card{transition:border-color 200ms cubic-bezier(.2,0,0,1),transform 200ms cubic-bezier(.2,0,0,1)}.card:hover{border-color:rgba(255,255,255,0.18);transform:translateY(-2px)}
+.ghost{transition:background-color 160ms,border-color 160ms}.ghost:hover{background:#1B1F27;border-color:rgba(255,255,255,0.18)}
+:focus-visible{outline:2px solid #5B97FF;outline-offset:2px}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #0A0B0D">
+
+<header style="border-bottom: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 28px">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px" aria-label="Início da FrontDex">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 3h11M5 6.5h13" stroke="#F7F8FA" stroke-width="1.8" stroke-linecap="square"/><path d="M3 10h11l3 3v8H3z" fill="#1463FF"/><path d="M6 14h4M6 17.5h4" stroke="#0A0B0D" stroke-width="1.8" stroke-linecap="square"/></svg>
+<span style="font-size: 18px; font-weight: 600; letter-spacing: -0.02em; color: #F7F8FA">Front<span style="color: #5B97FF">Dex</span></span>
+</a>
+<nav aria-label="Principal" style="display: flex; flex-wrap: wrap; gap: 26px; font-size: 15px; flex: 1 1 auto; justify-content: center">
+<a class="navlink" href="#">Descobrir</a>
+<a class="navlink" href="#">Aprender</a>
+<a class="navlink" href="Area.dc.html" aria-current="page" style="color: #F7F8FA">Construir</a>
+<a class="navlink" href="#">Crescer</a>
+<a class="navlink" href="Collections.dc.html">Coleções</a>
+</nav>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px">
+<a class="ghost" href="CommandK.dc.html" style="display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 8px 0 16px; background: #111318; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #A3AAB6; font-size: 14px">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"/></svg>
+Buscar
+<span class="mono" style="font-size: 11px; padding: 3px 8px; background: #1B1F27; border-radius: 999px; color: #8B93A1">⌘K</span>
+</a>
+<button class="ghost mono" type="button" aria-label="Idioma: Português. Mudar para English" style="height: 40px; padding: 0 14px; background: transparent; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #A3AAB6; font-size: 12px; cursor: pointer">PT / EN</button>
+<a href="Add.dc.html" style="display: flex; align-items: center; height: 40px; padding: 0 18px; background: #1463FF; border-radius: 999px; color: #FFFFFF; font-size: 14px; font-weight: 500">Adicionar recurso</a>
+</div>
+</div>
+</header>
+
+<main style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 96px">
+<p class="mono" style="margin: 0 0 18px; font-size: 12px; letter-spacing: 0.04em; color: #8B93A1"><a href="Main.dc.html" style="color: #8B93A1">ÍNDICE</a> / <span style="color: #F7F8FA">CONSTRUIR</span></p>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
+<div>
+<span class="mono" style="display: inline-block; margin-bottom: 20px; padding: 5px 12px; background: #1B1F27; border-radius: 999px; font-size: 11px; letter-spacing: 0.06em; color: #A3AAB6">03 / CONSTRUIR</span>
+<h1 style="margin: 0; font-size: 64px; line-height: 1.05; font-weight: 400; letter-spacing: -0.02em">Construir.<br><span style="color: #6B7280">As ferramentas com que você entrega.</span></h1>
+<p style="margin: 20px 0 0; max-width: 580px; font-size: 17px; line-height: 1.6; color: #A3AAB6">Bibliotecas, componentes, ícones, animação e ferramentas de dev. Tudo o que vai parar no seu package.json ou no seu dock.</p>
+</div>
+<span class="mono" style="font-size: 12px; color: #8B93A1">[N] recursos · 8 categorias</span>
+</div>
+
+<section style="margin-top: 56px">
+<h2 style="margin: 0 0 20px; font-size: 28px; font-weight: 400; letter-spacing: -0.02em">Categorias</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
+<sc-for list="{{cats}}" as="c" hint-placeholder-count="8">
+<a class="card" href="{{c.href}}" style="display: flex; flex-direction: column; gap: 14px; padding: 24px; background: #111318; border: 1px solid rgba(255,255,255,0.07); border-radius: 24px; color: #F7F8FA">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<span style="font-size: 19px; font-weight: 500; letter-spacing: -0.01em">{{c.name}}</span>
+<span class="mono" style="padding: 3px 10px; background: #1B1F27; border-radius: 999px; font-size: 11px; color: #A3AAB6">[N]</span>
+</div>
+<p style="margin: 0; font-size: 14px; line-height: 1.5; color: #A3AAB6">{{c.desc}}</p>
+<p class="mono" style="margin: auto 0 0; padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.06); font-size: 12px; color: #8B93A1">{{c.examples}}</p>
+</a>
+</sc-for>
+</div>
+</section>
+
+<section style="margin-top: 72px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px; margin-bottom: 20px">
+<h2 style="margin: 0; font-size: 28px; font-weight: 400; letter-spacing: -0.02em">Em destaque em Construir</h2>
+<a class="ghost" href="New.dc.html" style="display: flex; align-items: center; height: 40px; padding: 0 18px; border: 1px solid rgba(255,255,255,0.10); border-radius: 999px; color: #F7F8FA; font-size: 14px">Ver novos</a>
+</div>
+<div style="border: 1px solid rgba(255,255,255,0.07); border-radius: 16px; overflow: hidden; background: #0D0F12">
+<sc-for list="{{featured}}" as="r" hint-placeholder-count="5">
+<a class="row" href="Resource.dc.html" style="display: grid; grid-template-columns: 72px minmax(0, 1fr) 150px 24px; align-items: center; gap: 20px; padding: 18px 24px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #F7F8FA">
+<span class="mono" style="font-size: 12px; color: #8B93A1">#{{r.id}}</span>
+<span style="min-width: 0"><span style="display: block; font-size: 16px; font-weight: 500">{{r.name}}</span><span style="display: block; margin-top: 3px; font-size: 14px; color: #A3AAB6; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{r.desc}}</span></span>
+<span class="mono" style="justify-self: start; padding: 4px 10px; background: #1B1F27; border-radius: 999px; font-size: 11px; color: #A3AAB6">{{r.cat}}</span>
+<svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" style="color: #8B93A1"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"/></svg>
+</a>
+</sc-for>
+</div>
+</section>
+
+<section style="margin-top: 72px; padding: 28px; background: #111318; border: 1px solid rgba(255,255,255,0.07); border-radius: 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px">
+<p style="margin: 0; font-size: 18px; letter-spacing: -0.01em">Outras áreas do índice</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<a class="ghost" href="#" style="padding: 10px 18px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 14px">01 · Descobrir</a>
+<a class="ghost" href="#" style="padding: 10px 18px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 14px">02 · Aprender</a>
+<a class="ghost" href="#" style="padding: 10px 18px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; color: #F7F8FA; font-size: 14px">04 · Crescer</a>
+</div>
+</section>
+</main>
+
+<footer style="border-top: 1px solid rgba(255,255,255,0.07)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<span style="font-size: 13px; color: #A3AAB6">Feito em Angola. Aberto ao mundo.</span>
+<nav aria-label="Rodapé" style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 13px"><a class="navlink" href="New.dc.html">Novos</a><a class="navlink" href="Random.dc.html">Surpresa</a><a class="navlink" href="Add.dc.html">Contribuir</a><a class="navlink" href="About.dc.html">Sobre</a><a class="navlink" href="#">GitHub</a></nav>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2100}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      cats: [
+        { name: 'Ícones', href: 'Category.dc.html', desc: 'Conjuntos de ícones para a web, abertos e pagos.', examples: 'Lucide · Phosphor · Tabler' },
+        { name: 'Componentes de UI', href: '#', desc: 'Peças prontas de interface, de primitivas acessíveis a registries.', examples: 'Radix · TermUI · React Bits' },
+        { name: 'Animação', href: '#', desc: 'Bibliotecas de movimento, texto animado e transições.', examples: 'Motion · Calligraph · kugiri' },
+        { name: 'Fontes', href: '#', desc: 'Famílias tipográficas para interfaces, gratuitas e comerciais.', examples: 'Geist · Inter · IBM Plex' },
+        { name: 'Cores', href: '#', desc: 'Geradores de paleta e ferramentas de contraste.', examples: 'Realtime Colors' },
+        { name: 'Gráficos e dashboards', href: '#', desc: 'Visualização de dados e dashboards para produtos.', examples: 'Shaper' },
+        { name: 'Ferramentas de dev', href: '#', desc: 'Terminais, editores e utilitários do dia a dia.', examples: 'cmux' },
+        { name: 'Ferramentas de IA', href: '#', desc: 'Agentes de código, MCPs e memória para agentes.', examples: 'agent-memory' }
+      ],
+      featured: [
+        { id: '0002', name: 'kugiri', desc: 'Divide texto em linhas, palavras e letras exatamente onde o navegador quebrou, pronto para animar.', cat: 'animação' },
+        { id: '0001', name: 'Calligraph', desc: 'Componente React para transições fluidas de texto e números, com efeito slot, feito sobre o Motion.', cat: 'animação' },
+        { id: '0004', name: 'TermUI', desc: 'Registry com mais de 100 componentes de interface para terminal em React e Ink, instalados por CLI.', cat: 'componentes' },
+        { id: '0005', name: 'cmux', desc: 'Terminal nativo para macOS, baseado no Ghostty, com abas verticais e avisos quando um agente precisa de você.', cat: 'ferramentas de dev' },
+        { id: '0007', name: 'Shaper', desc: 'Dashboards de analytics escritos em SQL sobre DuckDB, para hospedar você mesmo ou embutir no seu produto.', cat: 'gráficos' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

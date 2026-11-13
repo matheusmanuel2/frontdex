@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "TODO"
+url: https://glass.samasante.com
+area: build
+category: ui-components
+tags: [glassmorphism]
+pricing: TODO
+open_source: TODO
+description:
+  pt: "TODO"
+  en: "TODO"
+added: 2026-11-12
+last_checked: 2026-11-12
+status: draft
+notes: "Site não abriu na verificação. Preencher nome, categoria e descrição. Atenção: glassmorphism vai contra a spec 006 no nosso próprio site, mas pode entrar como recurso."

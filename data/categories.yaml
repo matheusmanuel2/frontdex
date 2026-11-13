@@ -1,0 +1,18 @@
+# Categorias do MVP. Cada uma pertence a uma área.
+- { slug: ui-inspiration, area: discover, name: { pt: Inspiração de UI, en: UI inspiration } }
+- { slug: motion-inspiration, area: discover, name: { pt: Inspiração de movimento, en: Motion inspiration } }
+- { slug: app-research, area: discover, name: { pt: Pesquisa de apps, en: App research } }
+- { slug: courses, area: learn, name: { pt: Cursos, en: Courses } }
+- { slug: guides, area: learn, name: { pt: Guias e tutoriais, en: Guides and tutorials } }
+- { slug: books, area: learn, name: { pt: Livros, en: Books } }
+- { slug: icons, area: build, name: { pt: Ícones, en: Icons } }
+- { slug: ui-components, area: build, name: { pt: Componentes de UI, en: UI components } }
+- { slug: animation, area: build, name: { pt: Animação, en: Animation } }
+- { slug: fonts, area: build, name: { pt: Fontes, en: Fonts } }
+- { slug: colors, area: build, name: { pt: Cores, en: Colors } }
+- { slug: charts, area: build, name: { pt: Gráficos e dashboards, en: Charts and dashboards } }
+- { slug: dev-tools, area: build, name: { pt: Ferramentas de dev, en: Dev tools } }
+- { slug: ai-tools, area: build, name: { pt: Ferramentas de IA, en: AI tools } }
+- { slug: communities, area: grow, name: { pt: Comunidades, en: Communities } }
+- { slug: open-source, area: grow, name: { pt: Open source, en: Open source } }
+- { slug: careers, area: grow, name: { pt: Carreira, en: Careers } }
