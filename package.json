@@ -29,7 +29,7 @@
     "check:anti-ai": "tsx scripts/check-anti-ai.ts",
     "check:home-js": "tsx scripts/check-home-js-budget.ts",
     "lighthouse:ci": "lhci autorun",
-    "search:index": "pagefind --site .next/server/app --output-path .next/static/pagefind"
+    "search:index": "pagefind --site .next/server/app --glob \"**/*.html\" --output-path .next/static/pagefind"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",
