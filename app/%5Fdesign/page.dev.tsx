@@ -161,7 +161,7 @@ function Showcase({ theme }: { theme: 'dark' | 'light' }) {
           <CategoryCard
             href="/_design"
             name="Categoria"
-            count={8}
+            count="8"
             description="Descrição de exemplo."
             examples="Exemplo · Exemplo"
           />

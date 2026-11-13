@@ -73,7 +73,7 @@ function DialogContent({ className, children, closeLabel, ...props }: DialogCont
       <DialogPrimitive.Content
         data-slot="dialog-content"
         className={cn(
-          't-modal fixed top-1/2 left-1/2 z-50 grid w-[calc(100%-32px)] max-w-lg -translate-x-1/2 -translate-y-1/2 gap-4',
+          't-modal fixed inset-x-4 top-1/2 z-50 mx-auto grid max-w-lg -translate-y-1/2 gap-4',
           'rounded-card border border-border-strong bg-carbon p-6 text-primary',
           className,
         )}

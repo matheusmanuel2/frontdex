@@ -14,7 +14,6 @@ type EmptyStateProps = {
 export function EmptyState({ title, description, actions, className }: EmptyStateProps) {
   return (
     <div
-      role="status"
       className={cn(
         'flex flex-col items-start gap-4 rounded-panel border border-border bg-list px-6 py-10 sm:px-8',
         className,

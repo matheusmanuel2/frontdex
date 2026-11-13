@@ -52,7 +52,7 @@ const buttonVariants = cva(
         primary: 'bg-button-primary text-button-primary-text hover:opacity-90',
         secondary:
           'border border-border-button bg-button-secondary text-button-secondary-text hover:border-border-strong hover:bg-graphite',
-        brand: 'bg-index-blue text-button-brand-text hover:bg-index-blue-light',
+        brand: 'bg-index-blue text-button-brand-text hover:bg-index-blue-hover',
         ghost: 'text-secondary hover:bg-graphite hover:text-primary',
       },
       size: {
@@ -64,7 +64,7 @@ const buttonVariants = cva(
       },
     },
     compoundVariants: [
-      { variant: 'secondary', size: 'md', className: 'has-[[data-slot=button-icon]]:pl-1.5' },
+      { variant: 'secondary', size: 'md', className: 'has-[[data-slot=button-icon]]:pl-2' },
       { variant: 'secondary', size: 'lg', className: 'has-[[data-slot=button-icon]]:pl-2' },
     ],
     defaultVariants: { variant: 'primary', size: 'md' },

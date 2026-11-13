@@ -20,7 +20,7 @@ type TagChipProps = {
 /** Pílula mono para tags, preço, contagens e o selo OSS. */
 export function TagChip({ children, href, tone: chipTone = 'neutral', className }: TagChipProps) {
   const classes = cn(
-    'inline-flex h-6 items-center rounded-pill px-2.5 font-mono text-mono whitespace-nowrap',
+    'inline-flex h-6 items-center rounded-pill px-3 font-mono text-mono whitespace-nowrap',
     tone[chipTone],
     className,
   );

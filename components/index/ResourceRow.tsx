@@ -39,7 +39,7 @@ export function ResourceRow({ href, name, description, id, badges, meta, aside, 
       >
         <IndexId id={id} className="hidden sm:block" />
         <span className="min-w-0">
-          <span className="flex flex-wrap items-center gap-2.5">
+          <span className="flex flex-wrap items-center gap-3">
             <span className="text-body font-medium">{name}</span>
             {badges}
           </span>

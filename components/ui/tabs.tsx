@@ -75,11 +75,13 @@ function TabsList({ className, children, ...props }: TabsListProps) {
     move(false);
     const observer = new MutationObserver(() => move(true));
     observer.observe(list, { subtree: true, attributes: true, attributeFilter: ['data-state'] });
-    const onResize = () => move(false);
-    window.addEventListener('resize', onResize);
+    // Reposiciona sem transição quando a lista muda de tamanho (resize, troca de fonte com display: swap).
+    const resize = new ResizeObserver(() => move(false));
+    resize.observe(list);
+    void document.fonts?.ready.then(() => move(false));
     return () => {
       observer.disconnect();
-      window.removeEventListener('resize', onResize);
+      resize.disconnect();
     };
   }, []);
 
@@ -108,7 +110,7 @@ function TabsTrigger({ className, ...props }: TabsTriggerProps) {
     <TabsPrimitive.Trigger
       data-slot="tabs-trigger"
       className={cn(
-        't-tab relative z-10 inline-flex h-8 items-center justify-center gap-1.5 rounded-pill px-3 text-small font-medium text-secondary',
+        't-tab relative z-10 inline-flex h-8 items-center justify-center gap-2 rounded-pill px-3 text-small font-medium text-secondary',
         'hover:text-primary data-[state=active]:text-primary',
         'disabled:pointer-events-none disabled:opacity-50',
         className,
@@ -119,7 +121,7 @@ function TabsTrigger({ className, ...props }: TabsTriggerProps) {
 }
 
 function TabsContent({ className, ...props }: TabsContentProps) {
-  return <TabsPrimitive.Content data-slot="tabs-content" className={cn('outline-none', className)} {...props} />;
+  return <TabsPrimitive.Content data-slot="tabs-content" className={cn('rounded-sm', className)} {...props} />;
 }
 
 export {

@@ -49,4 +49,16 @@ test.describe('/_design', () => {
     await expect(dialog).toBeHidden();
     await expect(trigger).toBeFocused();
   });
+
+  test('itens do menu têm anel de foco ao navegar por teclado', async ({ page }) => {
+    await page.goto('/_design');
+    const trigger = page.getByRole('button', { name: 'Ordenar' }).first();
+    await trigger.focus();
+    await page.keyboard.press('Enter');
+    await page.keyboard.press('ArrowDown');
+    const item = page.locator('[role="menuitemradio"]:focus, [role="menuitem"]:focus');
+    await expect(item).toHaveCount(1);
+    const outline = await item.evaluate((element) => getComputedStyle(element).outlineStyle);
+    expect(outline).toBe('solid');
+  });
 });

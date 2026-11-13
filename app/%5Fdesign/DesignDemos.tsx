@@ -59,15 +59,15 @@ export function ButtonsDemo() {
 export function InputsDemo() {
   return (
     <div className="grid max-w-md gap-3">
-      <label className="grid gap-1.5 text-small text-secondary">
+      <label className="grid gap-2 text-small text-secondary">
         Nome
         <Input placeholder="Nome oficial do recurso" />
       </label>
-      <label className="grid gap-1.5 text-small text-secondary">
+      <label className="grid gap-2 text-small text-secondary">
         Busca (pílula)
         <Input shape="pill" type="search" placeholder="Buscar no índice" />
       </label>
-      <label className="grid gap-1.5 text-small text-secondary">
+      <label className="grid gap-2 text-small text-secondary">
         Inválido
         <Input aria-invalid defaultValue="http://sem-https.dev" />
       </label>
@@ -173,7 +173,7 @@ export function IconsDemo() {
         ))}
       </ul>
       <div className="flex flex-wrap gap-3">
-        <Button variant="secondary" onClick={() => setDark((value) => !value)} aria-label="Trocar ícone de tema">
+        <Button variant="secondary" onClick={() => setDark((value) => !value)}>
           <span className="t-icon-swap" data-state={dark ? 'a' : 'b'}>
             <span className="t-icon" data-icon="a">
               <MoonIcon size={18} motion="none" />
