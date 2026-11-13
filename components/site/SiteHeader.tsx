@@ -69,6 +69,7 @@ export async function SiteHeader({ current }: SiteHeaderProps) {
           <LocaleSwitch to={other} hrefLang={HTML_LANG[other]} label={localeT('label')} short={localeT('short')} />
           <Link
             href="/add"
+            data-umami-event="add_click"
             className="t-hover hidden h-10 items-center rounded-pill bg-index-blue px-4 text-small font-medium text-button-brand-text hover:bg-index-blue-light md:inline-flex"
           >
             {t('addResource')}

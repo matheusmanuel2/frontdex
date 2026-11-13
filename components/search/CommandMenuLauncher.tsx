@@ -3,6 +3,8 @@
 import dynamic from 'next/dynamic';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
+import { trackUmamiEvent } from '@/lib/analytics/umami';
+
 import type { SearchLabels } from './labels';
 
 // O diálogo (e o índice do Pagefind) só carregam na primeira abertura (spec 008).
@@ -31,6 +33,7 @@ export function CommandMenuLauncher({ locale, labels }: Props) {
     returnFocus.current = document.activeElement as HTMLElement | null;
     setMounted(true);
     setOpen(true);
+    trackUmamiEvent('search_open');
   }, []);
 
   useEffect(() => {

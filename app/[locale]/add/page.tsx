@@ -43,6 +43,7 @@ export default async function AddPage({ params }: Props) {
           <a
             href={`${GITHUB_URL}/issues/new?template=add-resource.yml`}
             rel="noopener"
+            data-umami-event="add_click"
             className="t-hover inline-flex h-10 items-center rounded-pill bg-button-primary px-5 text-small font-semibold text-button-primary-text hover:opacity-90"
           >
             {t('form')}

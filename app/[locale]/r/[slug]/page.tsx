@@ -118,6 +118,9 @@ export default async function ResourcePage({ params }: Props) {
               <a
                 href={resource.url}
                 rel="noopener"
+                data-umami-event="resource_outbound"
+                data-umami-event-slug={resource.slug}
+                data-umami-event-target="website"
                 className="t-hover t-icon-host inline-flex h-12 items-center gap-4 rounded-pill bg-button-primary pr-2 pl-6 text-body font-medium text-button-primary-text hover:opacity-90"
               >
                 {t('visit', { host: host(resource.url) })}
@@ -132,6 +135,9 @@ export default async function ResourcePage({ params }: Props) {
                 <a
                   href={resource.repo}
                   rel="noopener"
+                  data-umami-event="resource_outbound"
+                  data-umami-event-slug={resource.slug}
+                  data-umami-event-target="repo"
                   className="t-hover inline-flex h-12 items-center rounded-pill border border-border-strong px-6 text-body text-primary hover:bg-graphite"
                 >
                   {t('repo')}

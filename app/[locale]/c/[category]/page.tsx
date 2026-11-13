@@ -90,7 +90,7 @@ export default async function CategoryPage({ params }: Props) {
   // O toolbar usa o rótulo "Só open source"; as linhas, o selo "OSS".
   const filterLabels: FilterLabels = { ...labels, oss: t('oss') };
   const suggest = (
-    <Link href="/add" className={ghost}>
+    <Link href="/add" data-umami-event="add_click" className={ghost}>
       {t('suggest')}
     </Link>
   );

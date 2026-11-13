@@ -57,7 +57,7 @@ export async function NotFoundContent({ locale, primary = true }: NotFoundConten
           {t('new')}
         </Link>{' '}
         ·{' '}
-        <Link locale={locale} href="/random" className={inline}>
+        <Link locale={locale} href="/random" data-umami-event="random" className={inline}>
           {t('random')}
         </Link>{' '}
         ·{' '}

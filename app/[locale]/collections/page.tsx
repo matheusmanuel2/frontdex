@@ -52,7 +52,7 @@ export default async function CollectionsPage({ params }: Props) {
             title={t('emptyTitle')}
             description={t('emptyBody')}
             actions={
-              <Link href="/add" className={ghost}>
+              <Link href="/add" data-umami-event="add_click" className={ghost}>
                 {t('propose')}
               </Link>
             }
@@ -88,7 +88,7 @@ export default async function CollectionsPage({ params }: Props) {
               <p className="text-body text-primary">{t('proposeTitle')}</p>
               <p className="mt-1 text-small text-secondary">{t('proposeBody')}</p>
             </div>
-            <Link href="/add" className={ghost}>
+            <Link href="/add" data-umami-event="add_click" className={ghost}>
               {t('propose')}
             </Link>
           </section>

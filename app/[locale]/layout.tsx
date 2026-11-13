@@ -1,6 +1,7 @@
 import '@/styles/globals.css';
 
 import { notFound } from 'next/navigation';
+import Script from 'next/script';
 import { hasLocale } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
@@ -8,6 +9,7 @@ import { CommandMenuLauncher } from '@/components/search/CommandMenuLauncher';
 import type { SearchLabels } from '@/components/search/labels';
 import { SiteFooter } from '@/components/site/SiteFooter';
 import { SkipLink } from '@/components/site/SkipLink';
+import { getUmamiWebsiteId } from '@/lib/analytics/umami';
 import { fontVariables } from '@/lib/fonts';
 import { HTML_LANG, routing } from '@/lib/i18n/routing';
 
@@ -35,6 +37,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
+  const umamiWebsiteId = getUmamiWebsiteId(process.env);
   const t = await getTranslations({ locale, namespace: 'search' });
   const searchLabels: SearchLabels = {
     label: t('label'),
@@ -62,6 +65,13 @@ export default async function LocaleLayout({ children, params }: Props) {
           {children}
           <SiteFooter />
           <CommandMenuLauncher locale={locale} labels={searchLabels} />
+          {umamiWebsiteId ? (
+            <Script
+              src="https://cloud.umami.is/script.js"
+              data-website-id={umamiWebsiteId}
+              strategy="afterInteractive"
+            />
+          ) : null}
         </>
       </body>
     </html>
