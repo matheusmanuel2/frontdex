@@ -15,12 +15,12 @@ test('/en/anything responde 404', async ({ page }) => {
   expect(response?.status()).toBe(404);
 });
 
-// Bloqueado pela decisão D-09: com tudo estático, o Next só gera a 404 da raiz (pt-BR).
-test.fixme('/en/anything mostra a 404 em inglês', async ({ page }) => {
+test('/en/anything mostra também a 404 em inglês, com lang="en"', async ({ page }) => {
   await page.goto('/en/anything');
-  await expect(page.getByRole('heading', { level: 1 })).toContainText("This page isn't in the index.");
+  const english = page.locator('section[lang="en"]');
+  await expect(english.getByRole('heading', { level: 2 })).toContainText("This page isn't in the index.");
+  await expect(english.getByRole('link', { name: 'Back to home' })).toHaveAttribute('href', '/en');
 });
-
 test('na 404, o primeiro elemento focável é "Pular para o conteúdo"', async ({ page }) => {
   await page.goto('/pt/qualquer-coisa');
   await page.keyboard.press('Tab');
