@@ -35,6 +35,13 @@ vercel deploy --prebuilt --yes
 
 O projeto precisa estar ligado à Vercel CLI. Builds feitos diretamente pelo comando remoto ainda não geram o índice.
 
+Para publicar a build aprovada em produção:
+
+```sh
+pnpm vercel:build:prod
+vercel deploy --prebuilt --prod --yes
+```
+
 ## Para quem vai construir
 
 - Comece por [`CLAUDE.md`](CLAUDE.md), [`specs/000-constitution.md`](specs/000-constitution.md) e [`docs/architecture.md`](docs/architecture.md).
