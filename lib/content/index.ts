@@ -26,6 +26,8 @@ export function loadContent(dataDir: string = DEFAULT_DATA_DIR): Content {
 }
 
 export function getContent(): Content {
+  // Em `next dev` relê sempre, para as edições aos YAML aparecerem sem reiniciar.
+  if (process.env.NODE_ENV === 'development') return loadContent();
   cache ??= loadContent();
   return cache;
 }

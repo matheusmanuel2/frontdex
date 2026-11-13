@@ -1,0 +1,6 @@
+- slug: build
+  name: { pt: Construir, en: Build }
+  description: { pt: Ferramentas., en: Tools. }
+- slug: discover
+  name: { pt: Descobrir, en: Discover }
+  description: { pt: Inspiração., en: Inspiration. }

@@ -127,6 +127,8 @@ describe('resourceSchema', () => {
   it('datas no formato YYYY-MM-DD', () => {
     expect(issues({ ...valid, added: '12/11/2026' })).not.toEqual([]);
     expect(issues({ ...valid, last_checked: '2026-13-40' })).not.toEqual([]);
+    expect(issues({ ...valid, added: '2026-02-31' })).not.toEqual([]);
+    expect(issues({ ...valid, added: '2028-02-29' })).toEqual([]);
   });
 
   it('status só aceita active, draft e archived', () => {

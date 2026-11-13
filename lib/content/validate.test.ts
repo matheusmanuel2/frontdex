@@ -28,6 +28,9 @@ describe('validateContent', () => {
     ['todo-in-active', 'pricing', /só é permitido em recursos com status: draft/],
     ['duplicate-id', 'id', /id 1 repetido/],
     ['collection-broken-resource', 'resources.1', /"nao-existe" não existe/],
+    ['bad-filename', '', /nome de ficheiro inválido: "Meu_Recurso"/],
+    ['bad-extension', '', /extensão inválida/],
+    ['invalid-date', 'added', /data inexistente/],
   ])('%s falha em %s', (fixture, field, message) => {
     const { errors } = run(fixture);
     expect(errors).toHaveLength(1);
@@ -47,5 +50,12 @@ describe('normalizeUrl', () => {
   it('ignora www, maiúsculas no host e barra final', () => {
     expect(normalizeUrl('https://WWW.Exemplo.dev/')).toBe(normalizeUrl('https://exemplo.dev'));
     expect(normalizeUrl('https://exemplo.dev/a')).not.toBe(normalizeUrl('https://exemplo.dev/b'));
+  });
+});
+
+describe('referências a recursos inválidos', () => {
+  it('não somam um segundo erro "não existe"', () => {
+    const { errors } = run('schema-invalid');
+    expect(errors.every((error) => !/não existe em data\/resources/.test(error.message))).toBe(true);
   });
 });
