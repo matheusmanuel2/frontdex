@@ -146,6 +146,7 @@ export async function Hero({ resourceCount }: HeroProps) {
             </Link>
             <Link
               href="/add"
+              data-umami-event="add_click"
               className="t-hover t-icon-host inline-flex h-10 items-center gap-2 rounded-pill border border-border-button bg-button-secondary pr-2 pl-5 text-small font-semibold text-paper hover:bg-graphite"
             >
               {t('howItWorks')}

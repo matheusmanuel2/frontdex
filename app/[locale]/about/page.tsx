@@ -108,6 +108,7 @@ export default async function AboutPage({ params }: Props) {
               </a>
               <Link
                 href="/add"
+                data-umami-event="add_click"
                 className="t-hover inline-flex h-10 items-center rounded-pill border border-border-strong px-5 text-small text-primary hover:bg-graphite"
               >
                 {t('contribute')}

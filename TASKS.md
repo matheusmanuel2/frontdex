@@ -329,7 +329,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003 · Depende de: T-507
 - Faz: `/pt/feed.xml` e `/en/feed.xml` com os recursos mais recentes.
 - Pronto quando:
-  - [x] Ambos os feeds RSS 2.0 estãoticos foram validados no W3C Feed Validator; a entrada direta avisa que a auto-referência não coincide com a URL do validador.
+  - [x] Ambos os feeds RSS 2.0 estáticos foram validados no W3C Feed Validator; a entrada direta avisa que a auto-referência não coincide com a URL do validador.
 
 ### T-704 · Imagens Open Graph
 - Agente: frontend-builder · Spec: 003 · Depende de: T-505
@@ -341,7 +341,8 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: data-ci · Spec: 000, `decisions/0007` · Depende de: T-006
 - Faz: script do Umami com o website ID em variável de ambiente, só em produção. Eventos: `search_open`, `resource_outbound`, `random`, `add_click`.
 - Pronto quando:
-  - [ ] Sem cookies; nada carrega em dev nem em previews.
+  - [x] Sem cookies; nada carrega em dev nem em previews, e o ID em falta falha explicitamente em produção.
+  - [x] Os quatro eventos estão instrumentados e cobertos por testes.
 
 ---
 

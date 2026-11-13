@@ -99,7 +99,7 @@ export default async function AreaPage({ params }: Props) {
             title={t('emptyTitle')}
             description={t('emptyBody')}
             actions={
-              <Link href="/add" className={pill}>
+              <Link href="/add" data-umami-event="add_click" className={pill}>
                 {t('suggest')}
               </Link>
             }

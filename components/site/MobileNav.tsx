@@ -41,7 +41,11 @@ export function MobileNav({ label, openLabel, addLabel, links, current }: Mobile
             </li>
           ))}
           <li className="mt-1 border-t border-border pt-1 md:hidden">
-            <Link href="/add" className={cn(navLink, 'block rounded-sm px-3 py-2 text-link hover:bg-graphite')}>
+            <Link
+              href="/add"
+              data-umami-event="add_click"
+              className={cn(navLink, 'block rounded-sm px-3 py-2 text-link hover:bg-graphite')}
+            >
               {addLabel}
             </Link>
           </li>
