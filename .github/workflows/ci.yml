@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -26,6 +27,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Preparar log de validação
+        if: always()
+        run: |
+          : > "$RUNNER_TEMP/validate.log"
+
       - uses: pnpm/action-setup@v4
 
       - uses: actions/setup-node@v4
@@ -36,6 +42,32 @@ jobs:
       - name: Instalar dependências
         run: pnpm install --frozen-lockfile
 
+      - name: Validar conteúdo
+        id: validate-content
+        continue-on-error: true
+        run: pnpm validate 2>&1 | tee "$RUNNER_TEMP/validate.log"
+
+      - name: Comentar erros de conteúdo no PR
+        if: >-
+          steps.validate-content.outcome == 'failure' &&
+          github.event_name == 'workflow_dispatch' &&
+          inputs.pull_request_number != ''
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pull_request_number }}
+          VALIDATION_LOG: ${{ runner.temp }}/validate.log
+        run: pnpm exec tsx scripts/report-validation-errors.ts
+
+      - name: Guardar log de validação para o workflow de feedback
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-${{ github.run_id }}
+          path: ${{ runner.temp }}/validate.log
+          if-no-files-found: warn
+          retention-days: 1
+
       - name: Lint
         run: pnpm lint
 
@@ -44,9 +76,6 @@ jobs:
 
       - name: Typecheck
         run: pnpm typecheck
-
-      - name: Validar conteúdo
-        run: pnpm validate
 
       - name: JSON Schema atualizado
         run: pnpm schema:check
@@ -68,3 +97,7 @@ jobs:
 
       - name: Testes e2e e acessibilidade
         run: pnpm test:e2e
+
+      - name: Falhar quando a validação de conteúdo falha
+        if: steps.validate-content.outcome == 'failure'
+        run: exit 1
