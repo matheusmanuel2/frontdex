@@ -46,12 +46,18 @@ const todo = z.literal(TODO);
 
 const localizedText = z.object({ pt: z.string().min(1), en: z.string().min(1) }).strict();
 
-const descriptionText = z
-  .string()
-  .refine(
-    (value) => value === TODO || (value.length >= DESCRIPTION_MIN && value.length <= DESCRIPTION_MAX),
-    `tem de ter entre ${DESCRIPTION_MIN} e ${DESCRIPTION_MAX} caracteres`,
-  );
+const descriptionText = z.union(
+  [
+    todo,
+    z
+      .string()
+      .min(DESCRIPTION_MIN, `tem de ter entre ${DESCRIPTION_MIN} e ${DESCRIPTION_MAX} caracteres`)
+      .max(DESCRIPTION_MAX, `tem de ter entre ${DESCRIPTION_MIN} e ${DESCRIPTION_MAX} caracteres`),
+  ],
+  {
+    error: `tem de ter entre ${DESCRIPTION_MIN} e ${DESCRIPTION_MAX} caracteres`,
+  },
+);
 
 const whyText = z.string().min(1).max(WHY_MAX, `tem de ter no máximo ${WHY_MAX} caracteres`);
 

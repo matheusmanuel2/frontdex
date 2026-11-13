@@ -106,8 +106,8 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: data-ci · Spec: 001 · Depende de: T-201
 - Faz: gera `data/schema.json` a partir do Zod (`pnpm schema`) e adiciona `# yaml-language-server: $schema=../schema.json` no topo de cada YAML de recurso.
 - Pronto quando:
-  - [ ] O VS Code dá autocomplete e erros num YAML novo.
-  - [ ] O CI falha se o `schema.json` estiver desatualizado.
+  - [x] O VS Code dá autocomplete e erros num YAML novo.
+  - [x] O CI falha se o `schema.json` estiver desatualizado.
 
 ---
 
