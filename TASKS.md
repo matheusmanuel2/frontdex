@@ -151,8 +151,8 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: design-system · Spec: 004 · Depende de: T-304
 - Faz: `components/icons/IconBase.tsx` (grelha 24, traço 1,5, `currentColor`) e o set mínimo, animado no hover/foco ao estilo Resend: search, arrow-up-right, chevron-down, close, link, copy, shuffle, rss, github, star, play, check, x, sun, moon, globe, filter.
 - Pronto quando:
-  - [ ] Cada ícone anima com um recipe e fica estático com `prefers-reduced-motion`.
-  - [ ] Ícones decorativos com `aria-hidden`; ícones sozinhos em botões com `aria-label` no botão.
+  - [x] Cada ícone anima com um recipe e fica estático com `prefers-reduced-motion`.
+  - [x] Ícones decorativos com `aria-hidden`; ícones sozinhos em botões com `aria-label` no botão.
 
 ### T-307 · Componentes próprios
 - Agente: design-system · Spec: 004 · Depende de: T-305, T-306
