@@ -412,7 +412,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: design-system · Spec: 004 · Depende de: M5, M6
 - Faz: `review`, `refine` e `polish` da skill do transitions.dev em todos os componentes com movimento.
 - Pronto quando:
-  - [ ] Relatório em `docs/qa/motion.md`; zero problemas pendentes.
+  - [x] Relatório em `docs/qa/motion.md`; zero problemas pendentes.
 
 ### T-904 · QA do tema claro
 - Agente: design-system · Spec: 004 · Depende de: T-405, M5

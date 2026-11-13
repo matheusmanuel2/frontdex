@@ -19,8 +19,8 @@ Plano: o set gratuito cobre tudo o que o MVP usa. O plano Pro só seria preciso 
 | `--duration-stagger` | 40ms | Atraso entre itens de uma lista que entra |
 | `--duration-micro` | 80ms | Atraso de abertura do tooltip |
 | `--duration-quick` | 150ms | Hover (cor, fundo, borda), fecho de modal e dropdown |
-| `--duration-fast` | 250ms | Abertura de modal e dropdown, troca de ícone, tabs, ícones no hover |
-| `--duration-medium` | 350ms | Seta "ver mais" (learn more) |
+| `--duration-fast` | 250ms | Abertura de modal e dropdown, troca de ícone, tabs, saída dos ícones no hover e retorno da seta "ver mais" |
+| `--duration-medium` | 350ms | Retorno da seta "ver mais" (learn more) |
 | `--duration-slow` | 400ms | Abertura de painel |
 | `--duration-very-slow` | 500ms | Momentos de ênfase (não usado ainda) |
 | `--ease-smooth-out` | cubic-bezier(0.22, 1, 0.36, 1) | Superfícies (modal, dropdown, tabs), ícones |
@@ -42,7 +42,7 @@ Também existem as escalas de distância (`--distance-*`), escala (`--scale-*`) 
 | `.t-learn`, `.t-learn-chevron` | 24 · Learn more hover | Links "ver tudo" |
 | `.t-icon-host` + `.t-icon-anim[data-motion]` | Tokens de hover de ícone | Ícones animados no hover/foco (modelo Resend) |
 
-Ícones: o elemento interativo leva `.t-icon-host`. O ícone escolhe o movimento com `data-motion` (`nudge-right`, `nudge-diagonal`, `nudge-down`, `nudge-up`, `tilt`, `turn`, `spin`, `pop`, `shrink`). Entra em `--duration-fast` e sai em `--duration-quick`, como manda a assimetria hover-in/hover-out da skill `transitions-polish`.
+Ícones: o elemento interativo leva `.t-icon-host`. O ícone escolhe o movimento com `data-motion` (`nudge-right`, `nudge-diagonal`, `nudge-down`, `nudge-up`, `tilt`, `turn`, `spin`, `pop`, `shrink`). Entra em `--duration-quick` e sai em `--duration-fast`, para uma entrada direta e um retorno mais suave, conforme a skill `transitions-polish`. A seta "ver mais" segue a mesma assimetria: entra em 250 ms e retorna em 350 ms.
 
 ## Movimento reduzido
 
