@@ -329,7 +329,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003 · Depende de: T-507
 - Faz: `/pt/feed.xml` e `/en/feed.xml` com os recursos mais recentes.
 - Pronto quando:
-  - [ ] Valida no W3C Feed Validator.
+  - [x] Ambos os feeds RSS 2.0 estãoticos foram validados no W3C Feed Validator; a entrada direta avisa que a auto-referência não coincide com a URL do validador.
 
 ### T-704 · Imagens Open Graph
 - Agente: frontend-builder · Spec: 003 · Depende de: T-505
