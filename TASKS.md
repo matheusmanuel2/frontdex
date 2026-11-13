@@ -198,7 +198,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Pronto quando:
   - [ ] Em `/pt/c/icons`, trocar leva a `/en/c/icons`. (Testado na home; o caso exato fica para a T-504, quando a rota existir.)
 
-### T-405 · Tema claro/escuro
+### T-405 · Tema claro/escuro (adiada para depois da v1, D-03)
 - Agente: frontend-builder · Spec: 004 · Depende de: T-403 · **Ver decisão D-03**
 - Faz: alternar `data-theme` com script inline mínimo (sem flash), guardado em `localStorage`, dark por padrão.
 - Pronto quando:
@@ -208,7 +208,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: frontend-builder · Spec: 003 · Depende de: T-403
 - Faz: `not-found.tsx` por idioma. Referência: `NotFound.dc.html`.
 - Pronto quando:
-  - [ ] `/pt/qualquer-coisa` mostra a 404 em pt-BR e `/en/anything` em inglês, com status 404.
+  - [x] `/pt/qualquer-coisa` mostra a 404 em pt-BR e `/en/anything` em inglês, com status 404.
 
 ### T-407 · Check de chaves i18n
 - Agente: data-ci · Spec: 007 · Depende de: T-401
@@ -440,13 +440,13 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 
 | ID | Pergunta | Bloqueia | Estado |
 | --- | --- | --- | --- |
-| D-01 | `/random` redireciona logo (spec 003) ou mostra o card do mockup antes de abrir? | T-508 | aberta |
+| D-01 | `/random` redireciona logo (spec 003) ou mostra o card do mockup antes de abrir? | T-508 | decidida (2026-11-13): mostrar o card do mockup Random, sem redirecionar |
 | D-02 | Licença dos dados: CC BY 4.0 (proposta em `decisions/0008`)? | T-509, T-906 | aberta |
-| D-03 | O seletor de tema é uma 4.ª ilha client-side (a spec 003 fala em 3)? Proposta: script inline mínimo, sem React | T-405 | aberta |
+| D-03 | O seletor de tema é uma 4.ª ilha client-side (a spec 003 fala em 3)? Proposta: script inline mínimo, sem React | T-405 | adiada (2026-11-13): a v1 sai só em dark; tema claro depois da primeira versão online |
 | D-04 | Plano Vercel: Hobby é só para uso não comercial | T-906 | aberta |
 | D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | aberta — T-304 feita com o set gratuito, que cobre o MVP |
 | D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | aberta |
-| D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | aberta |
-| D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | aberta |
-| D-09 | 404 em inglês: com tudo estático, o Next só gera **uma** página 404 (a da raiz), por isso `/en/qualquer-coisa` mostra a 404 em pt-BR (status 404 certo). Opções: (a) aceitar a 404 estática em pt-BR com um link para a versão em inglês; (b) 404 bilingue (pt e en na mesma página, cada bloco com `lang`); (c) o proxy passa a correr também em `/en/*` desconhecidas e reescreve para uma 404 em inglês (mais runtime, contra a constitution §3); (d) página estática `/[locale]/not-found-page` + `rewrites().fallback` (o Next 16 gera um HTML vazio sem JS, e não está testado na Vercel). Proposta: (b) | T-406 | aberta |
-| D-10 | Meta "JS da home < 90 KB gzip" (constitution §3): só o runtime do Next 16 + React 19 já dá **~135 KB gzip** (sem polyfills) numa página quase vazia. Opções: (a) medir só o JS próprio da página (sem o runtime do framework); (b) subir a meta (ex.: 150 KB); (c) trocar de framework (contra o ADR 0001). Proposta: (a), com Lighthouse ≥ 95 como meta real | T-602, T-902 | aberta |
+| D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | adiada (2026-11-13): junto com o tema claro, depois da v1 |
+| D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | decidida (2026-11-13): manter a regra estrita |
+| D-09 | 404 em inglês: com tudo estático, o Next só gera **uma** página 404 (a da raiz), por isso `/en/qualquer-coisa` mostra a 404 em pt-BR (status 404 certo). Opções: (a) aceitar a 404 estática em pt-BR com um link para a versão em inglês; (b) 404 bilingue (pt e en na mesma página, cada bloco com `lang`); (c) o proxy passa a correr também em `/en/*` desconhecidas e reescreve para uma 404 em inglês (mais runtime, contra a constitution §3); (d) página estática `/[locale]/not-found-page` + `rewrites().fallback` (o Next 16 gera um HTML vazio sem JS, e não está testado na Vercel). Proposta: (b) | T-406 | decidida (2026-11-13): 404 bilingue (opção b) |
+| D-10 | Meta "JS da home < 90 KB gzip" (constitution §3): só o runtime do Next 16 + React 19 já dá **~135 KB gzip** (sem polyfills) numa página quase vazia. Opções: (a) medir só o JS próprio da página (sem o runtime do framework); (b) subir a meta (ex.: 150 KB); (c) trocar de framework (contra o ADR 0001). Proposta: (a), com Lighthouse ≥ 95 como meta real | T-602, T-902 | decidida (2026-11-13): medir só o JS próprio das páginas; metas reais Lighthouse ≥ 95 e LCP < 1,5 s |
