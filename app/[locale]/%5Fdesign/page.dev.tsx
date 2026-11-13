@@ -191,7 +191,7 @@ function Showcase({ theme }: { theme: 'dark' | 'light' }) {
 
 export default function DesignPage() {
   return (
-    <main className="grid xl:grid-cols-2">
+    <main id="conteudo" className="grid xl:grid-cols-2">
       <h1 className="sr-only">Design system da FrontDex</h1>
       <Showcase theme="dark" />
       <Showcase theme="light" />
