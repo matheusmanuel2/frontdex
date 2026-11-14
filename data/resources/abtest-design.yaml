@@ -3,7 +3,7 @@ name: "abtest.design"
 url: https://abtest.design
 area: discover
 category: ui-inspiration
-tags: [ab-testing]
+tags: [ ab-testing ]
 pricing: TODO
 open_source: false
 description:
@@ -13,3 +13,4 @@ added: 2026-11-12
 last_checked: 2026-11-12
 status: draft
 notes: "Site não abriu na verificação. Confirmar o que é e a categoria."
+id: 2

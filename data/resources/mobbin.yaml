@@ -3,13 +3,17 @@ name: "Mobbin"
 url: https://mobbin.com
 area: discover
 category: ui-inspiration
-tags: [screens, flows, ios, android, web]
+tags: [ screens, flows, ios, android, web ]
 pricing: freemium
 open_source: false
 description:
-  pt: "Biblioteca de telas e fluxos de apps reais para iOS, Android e web, com busca por padrão de interface."
-  en: "Library of real app screens and flows for iOS, Android and web, searchable by UI pattern."
+  pt: "Biblioteca de telas e fluxos de apps reais para iOS, Android e web, com
+    busca por padrão de interface."
+  en: "Library of real app screens and flows for iOS, Android and web, searchable
+    by UI pattern."
 added: 2026-11-12
 last_checked: 2026-11-12
 status: active
-notes: "Site não abriu na verificação automática; descrição baseada no produto conhecido. Confirmar preço atual."
+notes: "Site não abriu na verificação automática; descrição baseada no produto
+  conhecido. Confirmar preço atual."
+id: 11

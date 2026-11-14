@@ -4,14 +4,18 @@ url: https://arindam200.github.io/termui
 author: "Arindam200"
 area: build
 category: ui-components
-tags: [react, terminal, cli, registry]
+tags: [ react, terminal, cli, registry ]
 pricing: free
 open_source: true
 license: MIT
 description:
-  pt: "Registry com mais de 100 componentes de interface para terminal em React e Ink, instalados por CLI."
-  en: "Registry of 100+ terminal UI components for React and Ink, added to your project through a CLI."
+  pt: "Registry com mais de 100 componentes de interface para terminal em React e
+    Ink, instalados por CLI."
+  en: "Registry of 100+ terminal UI components for React and Ink, added to your
+    project through a CLI."
 added: 2026-11-12
 last_checked: 2026-11-12
 status: active
-notes: "113 componentes na data da verificação; instala com npx termui add <componente>."
+notes: "113 componentes na data da verificação; instala com npx termui add
+  <componente>."
+id: 16

@@ -3,7 +3,7 @@ name: "Appshots"
 url: https://appshots.design
 area: discover
 category: ui-inspiration
-tags: [mobile, screens]
+tags: [ mobile, screens ]
 pricing: TODO
 open_source: false
 description:
@@ -12,4 +12,6 @@ description:
 added: 2026-11-12
 last_checked: 2026-11-12
 status: draft
-notes: "Site não abriu na verificação. Descrição do Matheus: \"Find fresh mobile UI inspiration\"."
+notes: "Site não abriu na verificação. Descrição do Matheus: \"Find fresh mobile
+  UI inspiration\"."
+id: 6

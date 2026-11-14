@@ -4,17 +4,22 @@ url: https://edoardolunardi.github.io/kugiri
 author: "Edoardo Lunardi"
 area: build
 category: animation
-tags: [javascript, text, gsap, motion]
+tags: [ javascript, text, gsap, motion ]
 pricing: free
 open_source: true
 license: MIT
 description:
-  pt: "Divide texto em linhas, palavras e letras exatamente onde o navegador quebrou, pronto para animar."
-  en: "Splits text into lines, words and characters exactly where the browser broke it, ready to animate."
+  pt: "Divide texto em linhas, palavras e letras exatamente onde o navegador
+    quebrou, pronto para animar."
+  en: "Splits text into lines, words and characters exactly where the browser
+    broke it, ready to animate."
 why:
-  pt: "Sem dependências e respeita a quebra real de linha, o ponto onde os splitters comuns falham."
-  en: "No dependencies, and it respects the real line breaks, which is where common text splitters fail."
+  pt: "Sem dependências e respeita a quebra real de linha, o ponto onde os
+    splitters comuns falham."
+  en: "No dependencies, and it respects the real line breaks, which is where
+    common text splitters fail."
 added: 2026-11-12
 last_checked: 2026-11-12
 status: active
 notes: "~7,6 kB min+gzip, módulo ES único."
+id: 10

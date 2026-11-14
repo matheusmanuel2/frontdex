@@ -3,13 +3,16 @@ name: "ScreensDesign"
 url: https://screensdesign.com
 area: discover
 category: ui-inspiration
-tags: [ios, screens, flows, onboarding, paywalls, mcp]
+tags: [ ios, screens, flows, onboarding, paywalls, mcp ]
 pricing: freemium
 open_source: false
 description:
-  pt: "Telas e fluxos gravados de apps iOS, com onboardings, paywalls, screenshots da App Store e estimativas de receita."
-  en: "Screens and recorded flows from iOS apps, with onboardings, paywalls, App Store screenshots and revenue estimates."
+  pt: "Telas e fluxos gravados de apps iOS, com onboardings, paywalls, screenshots
+    da App Store e estimativas de receita."
+  en: "Screens and recorded flows from iOS apps, with onboardings, paywalls, App
+    Store screenshots and revenue estimates."
 added: 2026-11-12
 last_checked: 2026-11-12
 status: active
 notes: "Artigos grátis; biblioteca completa e MCP em planos pagos."
+id: 14

@@ -4,13 +4,16 @@ url: https://morphrig.dev
 author: "Sanyam"
 area: learn
 category: guides
-tags: [icons, motion, tutorial, interactive]
+tags: [ icons, motion, tutorial, interactive ]
 pricing: free
 open_source: TODO
 description:
-  pt: "Guia interativo em dez partes sobre como funciona o morph de ícones, do menu hambúrguer ao X."
-  en: "Ten-part interactive guide to how icon morphing works, from the hamburger menu to a cross."
+  pt: "Guia interativo em dez partes sobre como funciona o morph de ícones, do
+    menu hambúrguer ao X."
+  en: "Ten-part interactive guide to how icon morphing works, from the hamburger
+    menu to a cross."
 added: 2026-11-12
 last_checked: 2026-11-12
 status: draft
 notes: "Site não indica preço nem se o código é aberto. Confirmar antes de ativar."
+id: 12

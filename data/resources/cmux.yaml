@@ -3,14 +3,18 @@ name: "cmux"
 url: https://cmux.com
 area: build
 category: dev-tools
-tags: [terminal, macos, ai-agents]
+tags: [ terminal, macos, ai-agents ]
 pricing: freemium
 open_source: true
 license: GPL
 description:
-  pt: "Terminal nativo para macOS, baseado no Ghostty, com abas verticais e avisos quando um agente precisa de você."
-  en: "Native macOS terminal built on Ghostty, with vertical tabs and alerts when a coding agent needs you."
+  pt: "Terminal nativo para macOS, baseado no Ghostty, com abas verticais e avisos
+    quando um agente precisa de você."
+  en: "Native macOS terminal built on Ghostty, with vertical tabs and alerts when
+    a coding agent needs you."
 added: 2026-11-12
 last_checked: 2026-11-12
 status: active
-notes: "Grátis e open source (GPL); cmux Pro é opcional e pago. Confirmar versão exata da GPL."
+notes: "Grátis e open source (GPL); cmux Pro é opcional e pago. Confirmar versão
+  exata da GPL."
+id: 8

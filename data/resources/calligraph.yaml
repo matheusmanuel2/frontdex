@@ -4,13 +4,17 @@ url: https://calligraph.raphaelsalaja.com
 author: "Raphael Salaja"
 area: build
 category: animation
-tags: [react, motion, text]
+tags: [ react, motion, text ]
 pricing: free
 open_source: true
 description:
-  pt: "Componente React para transições fluidas de texto e números, com efeito slot, feito sobre o Motion."
-  en: "React component for fluid text and number transitions, including slot-style effects, built on Motion."
+  pt: "Componente React para transições fluidas de texto e números, com efeito
+    slot, feito sobre o Motion."
+  en: "React component for fluid text and number transitions, including slot-style
+    effects, built on Motion."
 added: 2026-11-12
 last_checked: 2026-11-12
 status: active
-notes: "Licença não indicada no site; repositório público no GitHub. Confirmar licença."
+notes: "Licença não indicada no site; repositório público no GitHub. Confirmar
+  licença."
+id: 7

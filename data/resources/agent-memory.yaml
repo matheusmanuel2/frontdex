@@ -3,13 +3,16 @@ name: "agent-memory"
 url: https://www.agent-memory.dev
 area: build
 category: ai-tools
-tags: [ai-agents, mcp]
+tags: [ ai-agents, mcp ]
 pricing: TODO
 open_source: TODO
 description:
-  pt: "Memória local para agentes de código: guarda contexto entre sessões sem conta, sem chave de API e sem nuvem."
-  en: "Local memory for coding agents that keeps context across sessions, with no account, API key or cloud."
+  pt: "Memória local para agentes de código: guarda contexto entre sessões sem
+    conta, sem chave de API e sem nuvem."
+  en: "Local memory for coding agents that keeps context across sessions, with no
+    account, API key or cloud."
 added: 2026-11-12
 last_checked: 2026-11-12
 status: draft
 notes: "Plugins nativos e MCP/REST para vários agentes. Confirmar preço e licença."
+id: 3
