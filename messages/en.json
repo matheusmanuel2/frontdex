@@ -250,5 +250,32 @@
     "curationValue": "Matheus Manuel, Luanda",
     "codeValue": "MIT",
     "contentValue": "CC BY 4.0"
+  },
+  "search": {
+    "open": "Search the index",
+    "placeholder": "Search resources and categories",
+    "label": "Search",
+    "close": "Close",
+    "resources": "Resources",
+    "categories": "Categories",
+    "shortcuts": "Shortcuts",
+    "loading": "Loading the index…",
+    "empty": "Nothing found for “{q}”.",
+    "hint": "↑↓ navigate · Enter open · ⌘Enter open the site",
+    "results": "{count, plural, =0 {No results} one {# result} other {# results}}",
+    "categoryMeta": "{area} · {count}",
+    "s1": "I need icons",
+    "s2": "I want to learn React",
+    "s3": "Animation libraries",
+    "s4": "Free courses",
+    "seeAll": "See all results",
+    "title": "Search.",
+    "titleMuted": "The whole index.",
+    "submit": "Search",
+    "noscript": "Without JavaScript, search can't filter: the full index is below.",
+    "all": "All areas",
+    "resultsFor": "Results for “{q}”",
+    "indexList": "Full index",
+    "category": "Category"
   }
 }

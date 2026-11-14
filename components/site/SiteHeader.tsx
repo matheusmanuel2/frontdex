@@ -57,6 +57,7 @@ export async function SiteHeader({ current }: SiteHeaderProps) {
         <div className="ml-auto flex items-center gap-2 lg:ml-0">
           <Link
             href="/search"
+            data-search-trigger
             className="t-hover t-icon-host inline-flex h-10 items-center gap-2 rounded-pill border border-border-button bg-carbon pr-2 pl-3 text-small text-secondary hover:border-border-strong hover:bg-graphite hover:text-primary sm:pl-4"
           >
             <SearchIcon size={16} />
