@@ -389,9 +389,9 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 ### T-807 · Labels, template de PR e proteção de `main`
 - Agente: data-ci · Spec: 002 · Depende de: T-104
 - Faz: cria as labels (`new-resource`, `needs-translation`, `needs-changes`, `broken-link`) com `gh`. Atualiza o `PULL_REQUEST_TEMPLATE.md` com a checklist de layout da spec 006. Escreve em `docs/branch-protection.md` os passos para o Matheus ativar a proteção (o agente não muda definições do repositório).
-- Estado: labels bloqueadas; o GitHub responde HTTP 403 ao token atual.
+- Estado: labels criadas em 2026-11-14 depois de o Matheus renovar o login do `gh`.
 - Pronto quando:
-  - [ ] Labels existem; o template tem a checklist.
+  - [x] Labels existem; o template tem a checklist.
 
 ---
 
@@ -454,7 +454,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | decidida (2026-11-13): manter a regra estrita |
 | D-09 | 404 em inglês: com tudo estático, o Next só gera **uma** página 404 (a da raiz), por isso `/en/qualquer-coisa` mostra a 404 em pt-BR (status 404 certo). Opções: (a) aceitar a 404 estática em pt-BR com um link para a versão em inglês; (b) 404 bilingue (pt e en na mesma página, cada bloco com `lang`); (c) o proxy passa a correr também em `/en/*` desconhecidas e reescreve para uma 404 em inglês (mais runtime, contra a constitution §3); (d) página estática `/[locale]/not-found-page` + `rewrites().fallback` (o Next 16 gera um HTML vazio sem JS, e não está testado na Vercel). Proposta: (b) | T-406 | decidida (2026-11-13): 404 bilingue (opção b) |
 | D-10 | Meta "JS da home < 90 KB gzip" (constitution §3): só o runtime do Next 16 + React 19 já dá **~135 KB gzip** (sem polyfills) numa página quase vazia. Opções: (a) medir só o JS próprio da página (sem o runtime do framework); (b) subir a meta (ex.: 150 KB); (c) trocar de framework (contra o ADR 0001). Proposta: (a), com Lighthouse ≥ 95 como meta real | T-602, T-902 | decidida (2026-11-13): medir só o JS próprio das páginas; metas reais Lighthouse ≥ 95 e LCP < 1,5 s |
-| D-11 | "Copiar link" na página de coleção (T-506) e o sorteio da Surpresa (T-508, escolha no browser por D-01) são ilhas client-side além das 3 da spec 003. Feito como ilha mínima (botão + icon swap), e sem JS o botão não aparece (o link continua na barra do browser). Aceitar? | T-506 | aberta (implementado como proposto) |
+| D-11 | "Copiar link" na página de coleção (T-506) e o sorteio da Surpresa (T-508, escolha no browser por D-01) são ilhas client-side além das 3 da spec 003. Feito como ilha mínima (botão + icon swap), e sem JS o botão não aparece (o link continua na barra do browser). Aceitar? | T-506 | decidida (2026-11-14): aprovado como implementado |
 | D-12 | Spec 003 pede o hero-13 "instalado pelo CLI". O `shadcn add` falhou (ERR_PNPM_IGNORED_BUILDS) e, de qualquer forma, o bloco traz `lucide-react` e `motion` (proibidos). O código foi tirado do JSON do registry, re-tematizado e mantém o aviso MIT. Aceitar e ajustar o critério da spec 003 para "baseado no hero-13 do registry, com aviso MIT"? | T-501 | decidida (2026-11-14): aceite; spec 003 ajustada para "baseado no hero-13 do registry, com aviso MIT". Todos os assets (fundo, fontes, ícones) já são servidos pelo próprio site |
 | D-13 | A spec 008 e o mockup Search pedem que `/search?q=` filtre sem JS; a implementação SSG mostra o índice completo porque não processa queries arbitrárias sem runtime. Aceitar esse fallback, rever a spec para exigir JS, ou permitir runtime? | T-603 | decidida (2026-11-14): com JS, `/search?q=` filtra com Pagefind; sem JS, mostra o índice completo e indica ⌘F/Ctrl+F. Spec 008 ajustada |
 | D-14 | Qual é a origem pública canônica do site (`https://…`) para canonical/hreflang, sitemap, RSS e URLs Open Graph? | T-701–T-704 | decidida (2026-11-13): usar `https://frontdex.dev` provisoriamente, confirmado pelo Matheus |

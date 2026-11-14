@@ -60,6 +60,7 @@ Branch atual: m8-contribuicao
 | 2026-11-13 | T-902 | 33dadec | Lighthouse CI em seis rotas pt/en, três execuções por rota; scores mínimos 96%, LCP máximo 723 ms e JS próprio da home 15,7 KB gzip por idioma. |
 | 2026-11-14 | T-902 | 37b9900 | Correção de lint: registra `eslint-plugin-import`, ignora `.vercel/**` e mantém CommonJS restrito à configuração do Lighthouse CI. |
 | 2026-11-14 | T-903 | 71d11b4 | Revisão do movimento concluída; tempos de hover e escala do icon swap refinados. Relatório em `docs/qa/motion.md`. |
+| 2026-11-14 | T-807 | — | Labels `new-resource`, `needs-translation`, `needs-changes` e `broken-link` criadas com `gh` |
 
 ## Passagem de sessão (2026-11-14)
 
