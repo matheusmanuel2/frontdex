@@ -1,6 +1,6 @@
 # Progresso
 
-Branch atual: m7-seo
+Branch atual: m8-contribuicao
 
 | Data | Task | Commit | Notas |
 | --- | --- | --- | --- |
@@ -48,18 +48,33 @@ Branch atual: m7-seo
 | 2026-11-13 | T-702 | 6eda44d | Sitemap estático pt/en e robots.txt apontando para ele |
 | 2026-11-13 | T-703 | c937c9e | Feeds RSS 2.0 estáticos pt/en; ambos válidos no W3C Feed Validator (aviso esperado na entrada direta) |
 | 2026-11-13 | T-704 | 8a65b8a | Imagens OG estáticas de home, categoria e recurso em 1200×630, renderizadas com tokens e Geist |
-| 2026-11-13 | T-705 | — | Umami só em produção na Vercel; eventos `search_open`, `resource_outbound`, `random` e `add_click`; 104 e2e passaram |
+| 2026-11-13 | T-705 | a9c3f6a | Umami só em produção na Vercel; eventos `search_open`, `resource_outbound`, `random` e `add_click`; 104 e2e passaram |
+| 2026-11-13 | T-801 | 51e92ed | Issue Form e conversor para YAML com `draft`/`TODO`; 3 testes passaram. O teste real de PR não foi executado porque não devo abrir PRs. |
+| 2026-11-13 | T-802 | ed92afe | CI publica/atualiza um comentário de validação e aplica `needs-changes`; três testes de API simulada passaram. |
+| 2026-11-13 | T-803 | 845bd30 | CI verifica URLs dos YAML alterados, exige HTTPS na URL principal, aplica retry/timeout e bloqueia destinos IP não públicos; 6 testes passaram. |
+| 2026-11-13 | T-804 | c2e86bc | Atribuidor de IDs varre recursos sem ID após pushes em `main`, com sequência determinística e workflow serializado; 4 testes e CLI em fixture temporário passaram. |
+| 2026-11-13 | T-805 | 024f68b | Verificação semanal/dispatch implementada; testes simulam issues e arquivamento. O dispatch real e a criação de issue/PR não foram executados. |
+| 2026-11-13 | T-806 | f397ff5 | Verificador anti-AI ligado ao CI, com fixtures para regras de código e texto; 246 testes, lint, typecheck, formatação e `pnpm check:anti-ai` passaram. |
+| 2026-11-13 | T-807 | b443fd1 | Checklist visual, CODEOWNERS e guia de proteção de `main` adicionados. As labels não puderam ser criadas: o token do `gh` recebeu HTTP 403. |
+| 2026-11-13 | T-901 | 3333d6f | Axe sem violações em 37 rotas por idioma e tema; navegação por teclado verificada em 74 rotas. Relatório em `docs/qa/a11y.md`. |
+| 2026-11-13 | T-902 | 33dadec | Lighthouse CI em seis rotas pt/en, três execuções por rota; scores mínimos 96%, LCP máximo 723 ms e JS próprio da home 15,7 KB gzip por idioma. |
+| 2026-11-14 | T-902 | 37b9900 | Correção de lint: registra `eslint-plugin-import`, ignora `.vercel/**` e mantém CommonJS restrito à configuração do Lighthouse CI. |
+| 2026-11-14 | T-903 | 71d11b4 | Revisão do movimento concluída; tempos de hover e escala do icon swap refinados. Relatório em `docs/qa/motion.md`. |
+| 2026-11-14 | T-807 | — | Labels `new-resource`, `needs-translation`, `needs-changes` e `broken-link` criadas com `gh` |
+| 2026-11-14 | T-905 | — | Critérios das specs 001–008 em `docs/qa/acceptance.md`: nenhum ❌; 3 ⏳ fora do código. Verificação completa passou (248 unitários, 99 e2e) |
+| 2026-11-14 | T-902 | — | Lighthouse CI com `--no-sandbox` só no CI (AppArmor dos runners Ubuntu) |
+| 2026-11-14 | T-906 | — | Índice Pagefind gerado dos YAML antes do `next build`, em `public/pagefind` (o build Git da Vercel não tinha HTML). PRs #1–#8 abertos |
 
-## Passagem de sessão (2026-11-13)
+## Passagem de sessão (2026-11-14)
 
-Estado: M1–M6 feitos, revistos e publicados; M7 concluído na branch `m7-seo`. T-701–T-705 concluídas com `https://frontdex.dev` provisório (D-14). T-603 continua pendente da D-13. `UMAMI_WEBSITE_ID` precisa ser configurada no ambiente Production da Vercel quando a conta estiver ligada (T-006).
+Estado: M1–M6 feitos, revistos e publicados; M7 concluído e publicado em `m7-seo`; M8 em andamento em `m8-contribuicao`. T-701–T-705 concluídas com `https://frontdex.dev` provisório (D-14). T-801 está implementada, mas a criação real do PR não foi testada para respeitar a instrução de não abrir PRs; T-802 está implementada e testada com a API simulada; T-803 verifica URLs nos YAML alterados; T-804 atribui IDs sequenciais após pushes a `main`; T-805 está implementada e testada com API simulada, mas o dispatch real permanece por validar sem criar issues ou PRs no GitHub; T-806 liga as regras mecânicas da spec 006 ao CI e passa no scanner. T-807 tem o template, CODEOWNERS e instruções de proteção; a criação das quatro labels foi tentada novamente e segue bloqueada por HTTP 403 do PAT. Em M9, T-901 passa axe nas rotas pt/en nos temas dark/light; T-902 atende às metas do Lighthouse CI e sua correção de lint foi commitada; T-903 está concluída, com revisão de movimento em `docs/qa/motion.md`; T-904 está adiada para depois da v1 dark (D-03/D-07), bloqueando a revisão final T-905. T-603 continua pendente da D-13. T-906 foi publicado em produção em `https://frontdex-ochre.vercel.app` (rotas pt/en, Pagefind e Umami verificados); os previews por PR, a ligação Git/Vercel e a publicação de `main` ainda não estão configurados. D-04 permanece aberta: o plano Hobby é limitado a uso pessoal/não comercial; D-06 também permanece aberta porque não há confirmação específica sobre a licença da imagem de fundo. A publicação em produção foi autorizada pelo Matheus. O ID público do Umami é usado no build prebuilt porque a Vercel não permite baixá-lo localmente quando a variável está marcada como Secret.
 
-- Branches empilhadas no GitHub: `m1-fundacao` → `m2-conteudo` → `m3-design-system` → `m4-esqueleto` → `m5-paginas` → `m6-busca` → `m7-seo`.
+- Branches empilhadas publicadas: `m1-fundacao` → `m2-conteudo` → `m3-design-system` → `m4-esqueleto` → `m5-paginas` → `m6-busca` → `m7-seo`. Branch atual local: `m8-contribuicao` (ainda não publicada).
 - **PRs ainda não abertos**: o token do `gh` não tem *Pull requests: write*. O Matheus decidiu abrir no fim.
 - Commits e PRs **sem** assinatura do Claude (`Co-Authored-By` / "Generated with").
 - v1 só em **dark**; tema claro (T-405, D-03, D-07) depois do lançamento.
 - Decisões ainda abertas: D-04 (plano Vercel), D-06 (licença do fundo do hero), D-11 (ilhas extra: Copiar link e Surpresa), D-12 (hero-13 tirado do JSON do registry), D-13 (busca sem JS). Ver tabela no fim do `TASKS.md`.
 - Textos para o Matheus rever antes do merge: `content/pages/add.*.mdx`, `content/pages/about.*.mdx`, `messages/*.json › add.intro`, `about.p3d`, `about.analyticsValue`, `about.curationValue`.
-- Verificação completa: `pnpm lint && pnpm typecheck && pnpm test && pnpm build && pnpm validate && pnpm check:i18n && pnpm contrast:check && pnpm test:e2e` (portas 3100/3101 livres; o Playwright reutiliza servidores antigos se estiverem a correr).
+- Verificação completa: `pnpm lint && pnpm typecheck && pnpm test && pnpm build && pnpm validate && pnpm check:i18n && pnpm check:anti-ai && pnpm contrast:check && pnpm test:e2e` (portas 3100/3101 livres; o Playwright reutiliza servidores antigos se estiverem a correr).
 - M7: build, lint, typecheck, 206 testes, validate, i18n, contraste e 104 e2e passaram; e2e executados numa worktree temporária para preservar o `next dev` ativo em `localhost:3000`.
 - Notas técnicas: TypeScript fixado em 6.x (typescript-eslint); `pnpm-workspace.yaml` com `allowBuilds`; skill do transitions.dev fora do Git (`npx skills add Jakubantalik/transitions.dev --agent claude-code -y`); `/[locale]/_design` só em `next dev`.

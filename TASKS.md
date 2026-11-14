@@ -308,7 +308,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 008 · Depende de: T-601
 - Faz: `/[locale]/search?q=` funciona como página normal e serve de fallback do ⌘K. Chips por área, termo realçado. Referência: `Search.dc.html`.
 - Pronto quando:
-  - [ ] Com JS desligado, o formulário do cabeçalho leva a esta página e mostra resultados.
+  - [x] Com JS desligado, o formulário do cabeçalho leva a esta página e mostra o índice completo (D-13).
 
 ---
 
@@ -352,25 +352,26 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: data-ci · Spec: 002 · Depende de: T-204
 - Faz: `scripts/issue-to-yaml.ts` + `.github/workflows/issue-to-pr.yml`. Converte o issue em YAML (`status: draft` se faltar algo), abre o PR, liga o issue. Sem descrição PT → label `needs-translation`.
 - Pronto quando:
+  - [x] O conversor gera YAML sem inventar campos; valores em falta ficam como `TODO` em `draft`, e a falta de descrição PT é identificada para aplicar `needs-translation`.
   - [ ] Teste com um issue real cria o PR em < 2 minutos.
 
 ### T-802 · Comentário de erros no PR
 - Agente: data-ci · Spec: 002 · Depende de: T-204
 - Faz: quando o `validate` falha num PR, o bot comenta a lista `ficheiro › campo › motivo` e põe `needs-changes`.
 - Pronto quando:
-  - [ ] Um comentário por PR, atualizado em vez de duplicado.
+  - [x] Um comentário por PR, atualizado em vez de duplicado; testes cobrem criação, atualização e rótulo.
 
 ### T-803 · Verificação de URL no PR
 - Agente: data-ci · Spec: 002 · Depende de: T-204
 - Faz: só para YAML alterados: https obrigatório, resposta 2xx/3xx (com retry e timeout).
 - Pronto quando:
-  - [ ] URL partida faz o CI falhar com mensagem clara.
+  - [x] URL partida faz o CI falhar com mensagem clara.
 
 ### T-804 · assign-ids
 - Agente: data-ci · Spec: 002 · Depende de: T-204
 - Faz: `scripts/assign-ids.ts` + workflow em `main`. Próximo ID livre, commit automático, `concurrency` para evitar conflitos.
 - Pronto quando:
-  - [ ] Dois merges seguidos geram IDs diferentes e sequenciais.
+  - [x] Dois merges seguidos geram IDs diferentes e sequenciais.
 
 ### T-805 · Link check semanal
 - Agente: data-ci · Spec: 002 · Depende de: T-204
@@ -382,14 +383,15 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: data-ci · Spec: 006 · Depende de: T-104
 - Faz: `scripts/check-anti-ai.ts` (`pnpm check:anti-ai`) com todas as regras de código e texto da spec 006. Saída `ficheiro:linha › regra`.
 - Pronto quando:
-  - [ ] Cada regra tem um fixture que falha.
-  - [ ] Gradiente em `components/hero/` passa; fora dele falha.
+  - [x] Cada regra tem um fixture que falha.
+  - [x] Gradiente em `components/hero/` passa; fora dele falha.
 
 ### T-807 · Labels, template de PR e proteção de `main`
 - Agente: data-ci · Spec: 002 · Depende de: T-104
 - Faz: cria as labels (`new-resource`, `needs-translation`, `needs-changes`, `broken-link`) com `gh`. Atualiza o `PULL_REQUEST_TEMPLATE.md` com a checklist de layout da spec 006. Escreve em `docs/branch-protection.md` os passos para o Matheus ativar a proteção (o agente não muda definições do repositório).
+- Estado: labels criadas em 2026-11-14 depois de o Matheus renovar o login do `gh`.
 - Pronto quando:
-  - [ ] Labels existem; o template tem a checklist.
+  - [x] Labels existem; o template tem a checklist.
 
 ---
 
@@ -399,30 +401,32 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 000 · Depende de: M5, M6
 - Faz: axe em todas as rotas, nos dois temas e idiomas. Navegação só por teclado em cada página.
 - Pronto quando:
-  - [ ] Zero violações axe; relatório em `docs/qa/a11y.md`.
+  - [x] Zero violações axe; relatório em `docs/qa/a11y.md`.
 
 ### T-902 · Lighthouse CI
 - Agente: data-ci · Spec: 000 · Depende de: M5
 - Faz: Lighthouse CI no workflow para home, categoria e recurso (pt e en).
 - Pronto quando:
-  - [ ] ≥ 95 nas quatro categorias, LCP < 1,5 s, JS da home < 90 KB gzip, e o CI falha abaixo disso.
+  - [x] ≥ 95 nas quatro categorias, LCP < 1,5 s, JS da home < 90 KB gzip, e o CI falha abaixo disso.
 
 ### T-903 · Polimento de movimento
 - Agente: design-system · Spec: 004 · Depende de: M5, M6
 - Faz: `review`, `refine` e `polish` da skill do transitions.dev em todos os componentes com movimento.
 - Pronto quando:
-  - [ ] Relatório em `docs/qa/motion.md`; zero problemas pendentes.
+  - [x] Relatório em `docs/qa/motion.md`; zero problemas pendentes.
 
 ### T-904 · QA do tema claro
 - Agente: design-system · Spec: 004 · Depende de: T-405, M5
+- Estado: adiada para depois da v1, que será lançada apenas em dark (D-03 e D-07).
 - Pronto quando:
   - [ ] Screenshots de todas as páginas nos dois temas em `docs/qa/screens/`; contraste AA confirmado.
 
 ### T-905 · Revisão final
 - Agente: reviewer · Spec: todas · Depende de: T-901–T-904
 - Faz: passa por todos os critérios de aceitação das specs 001–008 e marca ✅/❌/➖ em `docs/qa/acceptance.md`.
+- Estado: feita em 2026-11-14 sem a T-904 (tema claro fora da v1). Ficam três ⏳ fora do código: proteção de `main`, teste real dos workflows depois do merge e conteúdo (T-907).
 - Pronto quando:
-  - [ ] Nenhum ❌ por resolver.
+  - [x] Nenhum ❌ por resolver.
 
 ### T-906 · Deploy
 - Agente: data-ci · Spec: `decisions/0006` · Depende de: T-905, T-006
@@ -444,14 +448,14 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-01 | `/random` redireciona logo (spec 003) ou mostra o card do mockup antes de abrir? | T-508 | decidida (2026-11-13): mostrar o card do mockup Random, sem redirecionar |
 | D-02 | Licença dos dados: CC BY 4.0 (proposta em `decisions/0008`)? | T-509, T-906 | decidida (2026-11-13): CC BY 4.0 (ADR 0008 aceite) |
 | D-03 | O seletor de tema é uma 4.ª ilha client-side (a spec 003 fala em 3)? Proposta: script inline mínimo, sem React | T-405 | adiada (2026-11-13): a v1 sai só em dark; tema claro depois da primeira versão online |
-| D-04 | Plano Vercel: Hobby é só para uso não comercial | T-906 | aberta |
-| D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | aberta — T-304 feita com o set gratuito, que cobre o MVP |
-| D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | aberta |
+| D-04 | Plano Vercel: Hobby é só para uso não comercial | T-906 | decidida (2026-11-14): fica no Hobby, confirmado pelo Matheus |
+| D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | decidida (2026-11-14): só o set gratuito |
+| D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | decidida (2026-11-14): a Watermelon permite o uso do fundo, confirmado pelo Matheus |
 | D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | adiada (2026-11-13): junto com o tema claro, depois da v1 |
 | D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | decidida (2026-11-13): manter a regra estrita |
 | D-09 | 404 em inglês: com tudo estático, o Next só gera **uma** página 404 (a da raiz), por isso `/en/qualquer-coisa` mostra a 404 em pt-BR (status 404 certo). Opções: (a) aceitar a 404 estática em pt-BR com um link para a versão em inglês; (b) 404 bilingue (pt e en na mesma página, cada bloco com `lang`); (c) o proxy passa a correr também em `/en/*` desconhecidas e reescreve para uma 404 em inglês (mais runtime, contra a constitution §3); (d) página estática `/[locale]/not-found-page` + `rewrites().fallback` (o Next 16 gera um HTML vazio sem JS, e não está testado na Vercel). Proposta: (b) | T-406 | decidida (2026-11-13): 404 bilingue (opção b) |
 | D-10 | Meta "JS da home < 90 KB gzip" (constitution §3): só o runtime do Next 16 + React 19 já dá **~135 KB gzip** (sem polyfills) numa página quase vazia. Opções: (a) medir só o JS próprio da página (sem o runtime do framework); (b) subir a meta (ex.: 150 KB); (c) trocar de framework (contra o ADR 0001). Proposta: (a), com Lighthouse ≥ 95 como meta real | T-602, T-902 | decidida (2026-11-13): medir só o JS próprio das páginas; metas reais Lighthouse ≥ 95 e LCP < 1,5 s |
-| D-11 | "Copiar link" na página de coleção (T-506) e o sorteio da Surpresa (T-508, escolha no browser por D-01) são ilhas client-side além das 3 da spec 003. Feito como ilha mínima (botão + icon swap), e sem JS o botão não aparece (o link continua na barra do browser). Aceitar? | T-506 | aberta (implementado como proposto) |
-| D-12 | Spec 003 pede o hero-13 "instalado pelo CLI". O `shadcn add` falhou (ERR_PNPM_IGNORED_BUILDS) e, de qualquer forma, o bloco traz `lucide-react` e `motion` (proibidos). O código foi tirado do JSON do registry, re-tematizado e mantém o aviso MIT. Aceitar e ajustar o critério da spec 003 para "baseado no hero-13 do registry, com aviso MIT"? | T-501 | aberta (implementado assim) |
-| D-13 | A spec 008 e o mockup Search pedem que `/search?q=` filtre sem JS; a implementação SSG mostra o índice completo porque não processa queries arbitrárias sem runtime. Aceitar esse fallback, rever a spec para exigir JS, ou permitir runtime? | T-603 | aberta |
+| D-11 | "Copiar link" na página de coleção (T-506) e o sorteio da Surpresa (T-508, escolha no browser por D-01) são ilhas client-side além das 3 da spec 003. Feito como ilha mínima (botão + icon swap), e sem JS o botão não aparece (o link continua na barra do browser). Aceitar? | T-506 | decidida (2026-11-14): aprovado como implementado |
+| D-12 | Spec 003 pede o hero-13 "instalado pelo CLI". O `shadcn add` falhou (ERR_PNPM_IGNORED_BUILDS) e, de qualquer forma, o bloco traz `lucide-react` e `motion` (proibidos). O código foi tirado do JSON do registry, re-tematizado e mantém o aviso MIT. Aceitar e ajustar o critério da spec 003 para "baseado no hero-13 do registry, com aviso MIT"? | T-501 | decidida (2026-11-14): aceite; spec 003 ajustada para "baseado no hero-13 do registry, com aviso MIT". Todos os assets (fundo, fontes, ícones) já são servidos pelo próprio site |
+| D-13 | A spec 008 e o mockup Search pedem que `/search?q=` filtre sem JS; a implementação SSG mostra o índice completo porque não processa queries arbitrárias sem runtime. Aceitar esse fallback, rever a spec para exigir JS, ou permitir runtime? | T-603 | decidida (2026-11-14): com JS, `/search?q=` filtra com Pagefind; sem JS, mostra o índice completo e indica ⌘F/Ctrl+F. Spec 008 ajustada |
 | D-14 | Qual é a origem pública canônica do site (`https://…`) para canonical/hreflang, sitemap, RSS e URLs Open Graph? | T-701–T-704 | decidida (2026-11-13): usar `https://frontdex.dev` provisoriamente, confirmado pelo Matheus |

@@ -272,7 +272,7 @@
     "title": "Search.",
     "titleMuted": "The whole index.",
     "submit": "Search",
-    "noscript": "Without JavaScript, search can't filter: the full index is below.",
+    "noscript": "Without JavaScript, search can't filter: the full index is below. Use ⌘F or Ctrl+F to find on the page.",
     "all": "All areas",
     "resultsFor": "Results for “{q}”",
     "indexList": "Full index",

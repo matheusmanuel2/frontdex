@@ -10,3 +10,4 @@ data
 *.md
 public
 styles/tokens.css
+public/pagefind
