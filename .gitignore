@@ -46,3 +46,4 @@ next-env.d.ts
 # skills de agentes instaladas (restaurar com: npx skills experimental_install)
 # a licença do transitions.dev não permite publicar a coleção
 /.claude/skills/
+public/pagefind/
