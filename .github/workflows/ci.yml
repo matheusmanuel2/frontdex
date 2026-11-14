@@ -39,6 +39,12 @@ jobs:
       - name: Typecheck
         run: pnpm typecheck
 
+      - name: Validar conteúdo
+        run: pnpm validate
+
+      - name: JSON Schema atualizado
+        run: pnpm schema:check
+
       - name: Testes unitários
         run: pnpm test
 

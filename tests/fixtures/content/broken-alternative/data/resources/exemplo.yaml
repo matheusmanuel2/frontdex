@@ -1,0 +1,14 @@
+name: "Exemplo"
+url: https://exemplo.dev
+area: build
+category: animation
+tags: [react, motion]
+pricing: free
+open_source: true
+description: 
+  pt: "Componente de exemplo para os testes, com mais de quarenta caracteres."
+  en: "Example component for the tests, with more than forty characters in it."
+added: 2026-11-12
+last_checked: 2026-11-12
+status: active
+alternatives: [nao-existe]

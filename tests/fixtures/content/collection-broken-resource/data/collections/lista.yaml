@@ -1,0 +1,4 @@
+title: { pt: Lista, en: List }
+text: { pt: Nota do curador., en: Curator note. }
+resources: [exemplo, nao-existe]
+status: active

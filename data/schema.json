@@ -1,0 +1,257 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "exclusiveMinimum": 0,
+      "maximum": 9007199254740991,
+      "description": "Atribuído pelo bot assign-ids depois do merge. Não preenchas."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nome oficial do recurso."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL https, única em todo o repositório.",
+      "pattern": "^https://"
+    },
+    "repo": {
+      "type": "string",
+      "format": "uri",
+      "description": "Repositório público, se existir."
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Pessoa ou organização."
+    },
+    "area": {
+      "type": "string",
+      "enum": [
+        "discover",
+        "learn",
+        "build",
+        "grow"
+      ],
+      "description": "discover · learn · build · grow"
+    },
+    "category": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Slug de data/categories.yaml, da mesma área.",
+      "enum": [
+        "ui-inspiration",
+        "motion-inspiration",
+        "app-research",
+        "courses",
+        "guides",
+        "books",
+        "icons",
+        "ui-components",
+        "animation",
+        "fonts",
+        "colors",
+        "charts",
+        "dev-tools",
+        "ai-tools",
+        "communities",
+        "open-source",
+        "careers"
+      ]
+    },
+    "tags": {
+      "minItems": 1,
+      "maxItems": 6,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "enum": [
+          "react",
+          "javascript",
+          "typescript",
+          "css",
+          "motion",
+          "gsap",
+          "text",
+          "icons",
+          "terminal",
+          "cli",
+          "macos",
+          "ios",
+          "android",
+          "web",
+          "mobile",
+          "screens",
+          "flows",
+          "onboarding",
+          "paywalls",
+          "ab-testing",
+          "sql",
+          "analytics",
+          "self-hosted",
+          "ai-agents",
+          "mcp",
+          "tutorial",
+          "interactive",
+          "registry",
+          "glassmorphism",
+          "market-data"
+        ]
+      },
+      "description": "1 a 6 slugs de data/tags.yaml."
+    },
+    "pricing": {
+      "anyOf": [
+        {
+          "type": "string",
+          "enum": [
+            "free",
+            "freemium",
+            "paid"
+          ]
+        },
+        {
+          "type": "string",
+          "const": "TODO"
+        }
+      ],
+      "description": "free · freemium · paid (TODO só em draft)."
+    },
+    "open_source": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "string",
+          "const": "TODO"
+        }
+      ],
+      "description": "Código público com licença open source (TODO só em draft)."
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Identificador SPDX: MIT, GPL-3.0, MPL-2.0…"
+    },
+    "level": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "beginner",
+          "intermediate",
+          "expert"
+        ]
+      },
+      "description": "beginner · intermediate · expert"
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "pt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": "TODO"
+            },
+            {
+              "type": "string",
+              "minLength": 40,
+              "maxLength": 160
+            }
+          ]
+        },
+        "en": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": "TODO"
+            },
+            {
+              "type": "string",
+              "minLength": 40,
+              "maxLength": 160
+            }
+          ]
+        }
+      },
+      "required": [
+        "pt",
+        "en"
+      ],
+      "additionalProperties": false,
+      "description": "O que o recurso faz e o que o distingue, 40–160 caracteres em pt e en."
+    },
+    "why": {
+      "type": "object",
+      "properties": {
+        "pt": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        }
+      },
+      "additionalProperties": false,
+      "description": "A frase de curadoria, até 160 caracteres."
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "description": "Slugs de outros recursos."
+    },
+    "added": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Data em que entrou no índice (YYYY-MM-DD)."
+    },
+    "last_checked": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Atualizada pelo link checker (YYYY-MM-DD)."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "draft",
+        "archived"
+      ],
+      "description": "active · draft · archived. O site só publica active."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Notas internas de curadoria, nunca exibidas."
+    }
+  },
+  "required": [
+    "name",
+    "url",
+    "area",
+    "category",
+    "tags",
+    "pricing",
+    "open_source",
+    "description",
+    "added",
+    "last_checked",
+    "status"
+  ],
+  "additionalProperties": false,
+  "title": "FrontDex — recurso",
+  "description": "Um recurso do índice (data/resources/<slug>.yaml). Gerado por pnpm schema a partir de lib/content/schema.ts; não editar à mão."
+}
