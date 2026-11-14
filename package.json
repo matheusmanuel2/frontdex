@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && tsx scripts/search-index-build.ts",
+    "build": "pnpm search:index && next build",
     "vercel:build": "tsx scripts/vercel-prebuilt.ts",
     "vercel:build:prod": "tsx scripts/vercel-prebuilt.ts --prod",
     "start": "next start",
@@ -31,7 +31,7 @@
     "check:anti-ai": "tsx scripts/check-anti-ai.ts",
     "check:home-js": "tsx scripts/check-home-js-budget.ts",
     "lighthouse:ci": "lhci autorun",
-    "search:index": "tsx scripts/search-index.ts"
+    "search:index": "tsx scripts/search-index.mts"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",

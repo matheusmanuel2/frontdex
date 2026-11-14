@@ -17,6 +17,7 @@ const config = [
     ignores: [
       '.next/**',
       '.vercel/**',
+      'public/pagefind/**',
       'out/**',
       'node_modules/**',
       'coverage/**',
