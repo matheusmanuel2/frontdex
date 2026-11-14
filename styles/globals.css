@@ -186,3 +186,18 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
+
+/* Link dentro de texto: cor de link + sublinhado (WCAG 1.4.1, não depende só da cor). */
+@utility link-inline {
+  color: var(--color-link);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition-property: color;
+  transition-duration: var(--hover-dur);
+  transition-timing-function: var(--hover-ease);
+
+  &:hover {
+    color: var(--color-link-hover);
+  }
+}

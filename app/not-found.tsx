@@ -18,8 +18,8 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 /**
- * 404 de qualquer rota desconhecida. Com tudo estático, o Next só gera esta (em pt-BR),
- * também para /en/… (decisão D-09 em aberto).
+ * 404 de qualquer rota desconhecida. Com tudo estático, o Next só gera uma página 404,
+ * por isso ela é bilingue: bloco em pt-BR e bloco em inglês, cada um com o seu `lang` (D-09).
  */
 export default async function RootNotFound() {
   const locale = routing.defaultLocale;
@@ -30,7 +30,10 @@ export default async function RootNotFound() {
       <body className="flex min-h-dvh flex-col">
         <SkipLink />
         <SiteHeader />
-        <NotFoundContent />
+        <main id="conteudo" className="divide-y divide-border">
+          <NotFoundContent locale="pt" />
+          <NotFoundContent locale="en" primary={false} />
+        </main>
         <SiteFooter />
       </body>
     </html>

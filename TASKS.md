@@ -196,9 +196,9 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: frontend-builder · Spec: 007 · Depende de: T-403
 - Faz: ilha client-side que troca para a mesma rota no outro idioma e grava o cookie.
 - Pronto quando:
-  - [ ] Em `/pt/c/icons`, trocar leva a `/en/c/icons`. (Testado na home; o caso exato fica para a T-504, quando a rota existir.)
+  - [x] Em `/pt/c/icons`, trocar leva a `/en/c/icons`. (Testado na T-504, quando a rota passou a existir.)
 
-### T-405 · Tema claro/escuro
+### T-405 · Tema claro/escuro (adiada para depois da v1, D-03)
 - Agente: frontend-builder · Spec: 004 · Depende de: T-403 · **Ver decisão D-03**
 - Faz: alternar `data-theme` com script inline mínimo (sem flash), guardado em `localStorage`, dark por padrão.
 - Pronto quando:
@@ -208,7 +208,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: frontend-builder · Spec: 003 · Depende de: T-403
 - Faz: `not-found.tsx` por idioma. Referência: `NotFound.dc.html`.
 - Pronto quando:
-  - [ ] `/pt/qualquer-coisa` mostra a 404 em pt-BR e `/en/anything` em inglês, com status 404.
+  - [x] `/pt/qualquer-coisa` mostra a 404 em pt-BR e `/en/anything` em inglês, com status 404.
 
 ### T-407 · Check de chaves i18n
 - Agente: data-ci · Spec: 007 · Depende de: T-401
@@ -226,65 +226,65 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 003, `decisions/0009` · Depende de: T-403
 - Faz: `npx shadcn@latest add https://registry.watermelon.sh/r/hero-13.json` para `components/hero/`, adapta ao conteúdo da spec 003 e ao fundo `public/hero/hero-bg.webp`. Botão branco = abre o CommandMenu (até M6, leva a `/search`). Referência pixel a pixel: `HeroV2.dc.html` + valores medidos em `docs/design/README.md`.
 - Pronto quando:
-  - [ ] Aviso MIT no topo do ficheiro.
-  - [ ] Contagem "[N] recursos" vem do loader.
-  - [ ] Imagem do hero com `priority` e tamanhos responsivos; LCP < 1,5 s.
+  - [x] Aviso MIT no topo do ficheiro.
+  - [x] Contagem "[N] recursos" vem do loader.
+  - [x] Imagem do hero com `priority` e tamanhos responsivos; LCP < 1,5 s.
 
 ### T-502 · Home: secções
 - Agente: frontend-builder · Spec: 003 · Depende de: T-501
 - Faz: 4 áreas, Recém-indexados, Joias escondidas, Coleções, Contribua. Referência: `Main.dc.html` (secções aprovadas, ignora o hero v1).
 - Pronto quando:
-  - [ ] Todas as listas vêm do loader; nada escrito à mão no JSX.
+  - [x] Todas as listas vêm do loader; nada escrito à mão no JSX.
 
 ### T-503 · Página de Área
 - Agente: frontend-builder · Spec: 003 · Depende de: T-403
 - Faz: `/[locale]/(discover|learn|build|grow)`. Categorias da área com contagem e exemplos, "Em destaque", pílulas das outras áreas. Referência: `Area.dc.html`.
 - Pronto quando:
-  - [ ] As 4 áreas geram nos 2 idiomas; categorias vazias não aparecem.
+  - [x] As 4 áreas geram nos 2 idiomas; categorias vazias não aparecem.
 
 ### T-504 · Página de Categoria + filtros
 - Agente: frontend-builder · Spec: 003 · Depende de: T-503
 - Faz: `/[locale]/c/[category]`, lista densa de ResourceRow. FilterBar como ilha client-side com estado na URL (`pricing`, `oss`, `level`, `sort`). Estado vazio com "Limpar filtros" e "Sugerir recurso". Referências: `Category.dc.html`, `Empty.dc.html`.
 - Pronto quando:
-  - [ ] Filtros funcionam com voltar/avançar do browser e são partilháveis.
-  - [ ] Sem JS, a lista completa aparece.
+  - [x] Filtros funcionam com voltar/avançar do browser e são partilháveis.
+  - [x] Sem JS, a lista completa aparece.
 
 ### T-505 · Página de Recurso
 - Agente: frontend-builder · Spec: 003 · Depende de: T-504
 - Faz: `/[locale]/r/[slug]`. ID, nome, link, descrição, "por que está aqui", detalhes (preço, open source, licença, nível), tags, alternativas, "Sugerir edição" (link para o YAML no GitHub). Referência: `Resource.dc.html`.
 - Pronto quando:
-  - [ ] Links externos com `rel="noopener"`.
-  - [ ] Recurso sem `why` não mostra a secção vazia.
+  - [x] Links externos com `rel="noopener"`.
+  - [x] Recurso sem `why` não mostra a secção vazia.
 
 ### T-506 · Coleções e Coleção
 - Agente: frontend-builder · Spec: 003 · Depende de: T-503
 - Faz: `/[locale]/collections` e `/[locale]/collections/[slug]`. Nota do curador, lista ordenada numerada, "Copiar link". Referências: `Collections.dc.html`, `Collection.dc.html`.
 - Pronto quando:
-  - [ ] Coleções em `draft` não são publicadas.
+  - [x] Coleções em `draft` não são publicadas.
 
 ### T-507 · Novos
 - Agente: frontend-builder · Spec: 003 · Depende de: T-503
 - Faz: `/[locale]/new`, agrupado por semana de `added`, link para o RSS. Referência: `New.dc.html`.
 - Pronto quando:
-  - [ ] Ordem do mais recente para o mais antigo; semanas sem recursos não aparecem.
+  - [x] Ordem do mais recente para o mais antigo; semanas sem recursos não aparecem.
 
 ### T-508 · Surpresa
 - Agente: frontend-builder · Spec: 003 · Depende de: T-505 · **Ver decisão D-01**
 - Faz: `/[locale]/random`. Comportamento conforme D-01 (redirecionar ou mostrar o card do `Random.dc.html`).
 - Pronto quando:
-  - [ ] Funciona sem servidor (lista de slugs no build, escolha no browser).
+  - [x] Funciona sem servidor (lista de slugs no build, escolha no browser).
 
 ### T-509 · Contribuir
 - Agente: frontend-builder · Spec: 003, 002 · Depende de: T-403
 - Faz: `/[locale]/add` em MDX por idioma. Pergunta de curadoria, dois caminhos (Issue Form e YAML), o que entra / não entra, exemplos Bom/Mau, passos depois de enviar. Referência: `Add.dc.html`. **O texto do mockup é rascunho: o Matheus revê antes do merge.**
 - Pronto quando:
-  - [ ] Links certos para o Issue Form e para o `CONTRIBUTING.md`.
+  - [x] Links certos para o Issue Form e para o `CONTRIBUTING.md`.
 
 ### T-510 · Sobre
 - Agente: frontend-builder · Spec: 003 · Depende de: T-403
 - Faz: `/[locale]/about` em MDX por idioma. História, princípios, números reais do loader, "Apoie". Referência: `About.dc.html`. **Texto do mockup é rascunho: o Matheus revê.**
 - Pronto quando:
-  - [ ] Números (recursos, categorias, contribuidores) vêm dos dados, não estão escritos à mão.
+  - [x] Números (recursos, categorias, contribuidores) vêm dos dados, não estão escritos à mão.
 
 ---
 
@@ -440,13 +440,15 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 
 | ID | Pergunta | Bloqueia | Estado |
 | --- | --- | --- | --- |
-| D-01 | `/random` redireciona logo (spec 003) ou mostra o card do mockup antes de abrir? | T-508 | aberta |
-| D-02 | Licença dos dados: CC BY 4.0 (proposta em `decisions/0008`)? | T-509, T-906 | aberta |
-| D-03 | O seletor de tema é uma 4.ª ilha client-side (a spec 003 fala em 3)? Proposta: script inline mínimo, sem React | T-405 | aberta |
+| D-01 | `/random` redireciona logo (spec 003) ou mostra o card do mockup antes de abrir? | T-508 | decidida (2026-11-13): mostrar o card do mockup Random, sem redirecionar |
+| D-02 | Licença dos dados: CC BY 4.0 (proposta em `decisions/0008`)? | T-509, T-906 | decidida (2026-11-13): CC BY 4.0 (ADR 0008 aceite) |
+| D-03 | O seletor de tema é uma 4.ª ilha client-side (a spec 003 fala em 3)? Proposta: script inline mínimo, sem React | T-405 | adiada (2026-11-13): a v1 sai só em dark; tema claro depois da primeira versão online |
 | D-04 | Plano Vercel: Hobby é só para uso não comercial | T-906 | aberta |
 | D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | aberta — T-304 feita com o set gratuito, que cobre o MVP |
 | D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | aberta |
-| D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | aberta |
-| D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | aberta |
-| D-09 | 404 em inglês: com tudo estático, o Next só gera **uma** página 404 (a da raiz), por isso `/en/qualquer-coisa` mostra a 404 em pt-BR (status 404 certo). Opções: (a) aceitar a 404 estática em pt-BR com um link para a versão em inglês; (b) 404 bilingue (pt e en na mesma página, cada bloco com `lang`); (c) o proxy passa a correr também em `/en/*` desconhecidas e reescreve para uma 404 em inglês (mais runtime, contra a constitution §3); (d) página estática `/[locale]/not-found-page` + `rewrites().fallback` (o Next 16 gera um HTML vazio sem JS, e não está testado na Vercel). Proposta: (b) | T-406 | aberta |
-| D-10 | Meta "JS da home < 90 KB gzip" (constitution §3): só o runtime do Next 16 + React 19 já dá **~135 KB gzip** (sem polyfills) numa página quase vazia. Opções: (a) medir só o JS próprio da página (sem o runtime do framework); (b) subir a meta (ex.: 150 KB); (c) trocar de framework (contra o ADR 0001). Proposta: (a), com Lighthouse ≥ 95 como meta real | T-602, T-902 | aberta |
+| D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | adiada (2026-11-13): junto com o tema claro, depois da v1 |
+| D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | decidida (2026-11-13): manter a regra estrita |
+| D-09 | 404 em inglês: com tudo estático, o Next só gera **uma** página 404 (a da raiz), por isso `/en/qualquer-coisa` mostra a 404 em pt-BR (status 404 certo). Opções: (a) aceitar a 404 estática em pt-BR com um link para a versão em inglês; (b) 404 bilingue (pt e en na mesma página, cada bloco com `lang`); (c) o proxy passa a correr também em `/en/*` desconhecidas e reescreve para uma 404 em inglês (mais runtime, contra a constitution §3); (d) página estática `/[locale]/not-found-page` + `rewrites().fallback` (o Next 16 gera um HTML vazio sem JS, e não está testado na Vercel). Proposta: (b) | T-406 | decidida (2026-11-13): 404 bilingue (opção b) |
+| D-10 | Meta "JS da home < 90 KB gzip" (constitution §3): só o runtime do Next 16 + React 19 já dá **~135 KB gzip** (sem polyfills) numa página quase vazia. Opções: (a) medir só o JS próprio da página (sem o runtime do framework); (b) subir a meta (ex.: 150 KB); (c) trocar de framework (contra o ADR 0001). Proposta: (a), com Lighthouse ≥ 95 como meta real | T-602, T-902 | decidida (2026-11-13): medir só o JS próprio das páginas; metas reais Lighthouse ≥ 95 e LCP < 1,5 s |
+| D-11 | "Copiar link" na página de coleção (T-506) e o sorteio da Surpresa (T-508, escolha no browser por D-01) são ilhas client-side além das 3 da spec 003. Feito como ilha mínima (botão + icon swap), e sem JS o botão não aparece (o link continua na barra do browser). Aceitar? | T-506 | aberta (implementado como proposto) |
+| D-12 | Spec 003 pede o hero-13 "instalado pelo CLI". O `shadcn add` falhou (ERR_PNPM_IGNORED_BUILDS) e, de qualquer forma, o bloco traz `lucide-react` e `motion` (proibidos). O código foi tirado do JSON do registry, re-tematizado e mantém o aviso MIT. Aceitar e ajustar o critério da spec 003 para "baseado no hero-13 do registry, com aviso MIT"? | T-501 | aberta (implementado assim) |
