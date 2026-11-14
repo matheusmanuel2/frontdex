@@ -5,6 +5,7 @@ import { Link } from '@/components/site/LocaleLink';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getArea, getCollectionResources, listCollections } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
 
@@ -13,7 +14,7 @@ type Props = { params: Promise<{ locale: AppLocale }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'collections' });
-  return { title: t('title').replace(/\.$/, ''), description: t('intro') };
+  return localizedMetadata(locale, '/collections', t('title').replace(/\.$/, ''), t('intro'));
 }
 
 const ghost =
@@ -51,7 +52,7 @@ export default async function CollectionsPage({ params }: Props) {
             title={t('emptyTitle')}
             description={t('emptyBody')}
             actions={
-              <Link href="/add" className={ghost}>
+              <Link href="/add" data-umami-event="add_click" className={ghost}>
                 {t('propose')}
               </Link>
             }
@@ -87,7 +88,7 @@ export default async function CollectionsPage({ params }: Props) {
               <p className="text-body text-primary">{t('proposeTitle')}</p>
               <p className="mt-1 text-small text-secondary">{t('proposeBody')}</p>
             </div>
-            <Link href="/add" className={ghost}>
+            <Link href="/add" data-umami-event="add_click" className={ghost}>
               {t('propose')}
             </Link>
           </section>

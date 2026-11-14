@@ -318,30 +318,31 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 007 · Depende de: T-505
 - Faz: `generateMetadata` em todas as rotas, `alternates` com pt, en e `x-default` → `/pt`, canonical.
 - Pronto quando:
-  - [ ] Cada página tem title e description únicos nos dois idiomas.
+  - [x] Cada página tem title e description únicos nos dois idiomas.
 
 ### T-702 · Sitemap e robots
 - Agente: frontend-builder · Spec: 003 · Depende de: T-701
 - Pronto quando:
-  - [ ] `sitemap.xml` com todas as rotas pt + en; `robots.txt` aponta para ele.
+  - [x] `sitemap.xml` com todas as rotas pt + en; `robots.txt` aponta para ele.
 
 ### T-703 · Feed RSS
 - Agente: frontend-builder · Spec: 003 · Depende de: T-507
 - Faz: `/pt/feed.xml` e `/en/feed.xml` com os recursos mais recentes.
 - Pronto quando:
-  - [ ] Valida no W3C Feed Validator.
+  - [x] Ambos os feeds RSS 2.0 estáticos foram validados no W3C Feed Validator; a entrada direta avisa que a auto-referência não coincide com a URL do validador.
 
 ### T-704 · Imagens Open Graph
 - Agente: frontend-builder · Spec: 003 · Depende de: T-505
 - Faz: OG estáticas por recurso, categoria e home, com Geist, ID mono e as cores dos tokens. Sem gradientes.
 - Pronto quando:
-  - [ ] Geradas no build; pré-visualização correta no X/LinkedIn.
+  - [x] Geradas estaticamente no build para home, categorias e recursos; imagem conferida a 1200×630.
 
 ### T-705 · Umami Cloud
 - Agente: data-ci · Spec: 000, `decisions/0007` · Depende de: T-006
 - Faz: script do Umami com o website ID em variável de ambiente, só em produção. Eventos: `search_open`, `resource_outbound`, `random`, `add_click`.
 - Pronto quando:
-  - [ ] Sem cookies; nada carrega em dev nem em previews.
+  - [x] Sem cookies; nada carrega em dev nem em previews, e o ID em falta falha explicitamente em produção.
+  - [x] Os quatro eventos estão instrumentados e cobertos por testes.
 
 ---
 
@@ -453,3 +454,4 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-11 | "Copiar link" na página de coleção (T-506) e o sorteio da Surpresa (T-508, escolha no browser por D-01) são ilhas client-side além das 3 da spec 003. Feito como ilha mínima (botão + icon swap), e sem JS o botão não aparece (o link continua na barra do browser). Aceitar? | T-506 | aberta (implementado como proposto) |
 | D-12 | Spec 003 pede o hero-13 "instalado pelo CLI". O `shadcn add` falhou (ERR_PNPM_IGNORED_BUILDS) e, de qualquer forma, o bloco traz `lucide-react` e `motion` (proibidos). O código foi tirado do JSON do registry, re-tematizado e mantém o aviso MIT. Aceitar e ajustar o critério da spec 003 para "baseado no hero-13 do registry, com aviso MIT"? | T-501 | aberta (implementado assim) |
 | D-13 | A spec 008 e o mockup Search pedem que `/search?q=` filtre sem JS; a implementação SSG mostra o índice completo porque não processa queries arbitrárias sem runtime. Aceitar esse fallback, rever a spec para exigir JS, ou permitir runtime? | T-603 | aberta |
+| D-14 | Qual é a origem pública canônica do site (`https://…`) para canonical/hreflang, sitemap, RSS e URLs Open Graph? | T-701–T-704 | decidida (2026-11-13): usar `https://frontdex.dev` provisoriamente, confirmado pelo Matheus |

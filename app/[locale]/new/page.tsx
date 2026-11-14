@@ -5,6 +5,7 @@ import { Breadcrumb, EmptyState, ResourceList, ResourceRow, SectionTitle, TagChi
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getCategory, groupByWeek, listNew } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
 
@@ -13,11 +14,9 @@ type Props = { params: Promise<{ locale: AppLocale }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'new' });
-  return {
-    title: t('title').replace(/\.$/, ''),
-    description: t('intro'),
+  return localizedMetadata(locale, '/new', t('title').replace(/\.$/, ''), t('intro'), {
     alternates: { types: { 'application/rss+xml': `/${locale}/feed.xml` } },
-  };
+  });
 }
 
 /** Novos (spec 003, mockup New): por semana de entrada, do mais recente para o mais antigo. */
