@@ -62,6 +62,8 @@ Branch atual: m8-contribuicao
 | 2026-11-14 | T-903 | 71d11b4 | Revisão do movimento concluída; tempos de hover e escala do icon swap refinados. Relatório em `docs/qa/motion.md`. |
 | 2026-11-14 | T-807 | — | Labels `new-resource`, `needs-translation`, `needs-changes` e `broken-link` criadas com `gh` |
 | 2026-11-14 | T-905 | — | Critérios das specs 001–008 em `docs/qa/acceptance.md`: nenhum ❌; 3 ⏳ fora do código. Verificação completa passou (248 unitários, 99 e2e) |
+| 2026-11-14 | T-902 | — | Lighthouse CI com `--no-sandbox` só no CI (AppArmor dos runners Ubuntu) |
+| 2026-11-14 | T-906 | — | Índice Pagefind gerado dos YAML antes do `next build`, em `public/pagefind` (o build Git da Vercel não tinha HTML). PRs #1–#8 abertos |
 
 ## Passagem de sessão (2026-11-14)
 
