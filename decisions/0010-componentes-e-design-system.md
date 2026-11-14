@@ -16,7 +16,7 @@ Data: 2026-11-13 · Estado: proposta (para o Matheus aceitar) · Complementa: 00
 
 ## 3. `/[locale]/_design` só em desenvolvimento
 
-**Decisão:** a página vive em `app/%5Fdesign/page.dev.tsx` (passa para `app/[locale]/%5Fdesign/` no M4, com o next-intl) (na App Router, pastas com `_` são privadas; `%5F` é o `_` codificado). O `next.config.ts` só aceita a extensão `dev.tsx` quando `NODE_ENV=development`, por isso a rota não existe no build de produção. Os testes desta página correm contra `next dev` (projeto `dev` do Playwright).
+**Decisão:** a página vive em `app/[locale]/%5Fdesign/page.dev.tsx`, em `/pt/_design` e `/en/_design` (na App Router, pastas com `_` são privadas; `%5F` é o `_` codificado). O `next.config.ts` só aceita a extensão `dev.tsx` quando `NODE_ENV=development`, por isso a rota não existe no build de produção. Os testes desta página correm contra `next dev` (projeto `dev` do Playwright).
 
 ## 4. Recipes do transitions.dev com o Radix
 

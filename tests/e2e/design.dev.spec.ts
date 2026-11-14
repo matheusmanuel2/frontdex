@@ -1,9 +1,9 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 
-test.describe('/_design', () => {
+test.describe('/pt/_design', () => {
   test('mostra os dois temas sem violações axe', async ({ page }) => {
-    await page.goto('/_design');
+    await page.goto('/pt/_design');
     await expect(page.locator('[data-theme="dark"]').first()).toBeVisible();
     await expect(page.locator('[data-theme="light"]').first()).toBeVisible();
 
@@ -12,7 +12,7 @@ test.describe('/_design', () => {
   });
 
   test('o foco é visível (2px, cor de foco) nos interativos', async ({ page }) => {
-    await page.goto('/_design');
+    await page.goto('/pt/_design');
     const button = page.getByRole('button', { name: 'Primário' }).first();
     await button.focus();
     await page.keyboard.press('Tab');
@@ -25,7 +25,7 @@ test.describe('/_design', () => {
   });
 
   test('os ícones animam no hover e ficam estáticos com movimento reduzido', async ({ page }) => {
-    await page.goto('/_design');
+    await page.goto('/pt/_design');
     const host = page.getByRole('button', { name: 'arrow-up-right' }).first();
     const glyph = host.locator('.t-icon-anim');
 
@@ -40,7 +40,7 @@ test.describe('/_design', () => {
   });
 
   test('diálogo prende o foco, fecha com Esc e devolve o foco', async ({ page }) => {
-    await page.goto('/_design');
+    await page.goto('/pt/_design');
     const trigger = page.getByRole('button', { name: 'Abrir diálogo' }).first();
     await trigger.click();
     const dialog = page.getByRole('dialog');
@@ -51,7 +51,7 @@ test.describe('/_design', () => {
   });
 
   test('itens do menu têm anel de foco ao navegar por teclado', async ({ page }) => {
-    await page.goto('/_design');
+    await page.goto('/pt/_design');
     const trigger = page.getByRole('button', { name: 'Ordenar' }).first();
     await trigger.focus();
     await page.keyboard.press('Enter');

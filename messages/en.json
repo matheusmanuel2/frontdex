@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "siteName": "FrontDex",
+    "title": "FrontDex — the front-end internet, indexed",
+    "description": "An open-source, curated index of front-end resources. Every resource has one line on why it's worth your time."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "homeLink": "FrontDex home",
+    "mainNav": "Main",
+    "footerNav": "Footer",
+    "openMenu": "Open menu"
+  },
+  "nav": {
+    "discover": "Discover",
+    "learn": "Learn",
+    "build": "Build",
+    "grow": "Grow",
+    "collections": "Collections",
+    "search": "Search",
+    "searchShortcut": "⌘K",
+    "addResource": "Add a resource"
+  },
+  "locale": {
+    "label": "EN / PT: switch language to Português",
+    "short": "EN / PT"
+  },
+  "footer": {
+    "tagline": "Built in Angola. Open to the world.",
+    "new": "New",
+    "random": "Surprise me",
+    "add": "Contribute",
+    "about": "About",
+    "github": "GitHub"
+  },
+  "notFound": {
+    "metaTitle": "Page not found",
+    "code": "#404",
+    "title": "This page isn't in the index.",
+    "titleMuted": "The link may have changed.",
+    "body": "If one of our links brought you here, let us know on GitHub and we'll fix it.",
+    "search": "Search the index",
+    "home": "Back to home",
+    "try": "or try:",
+    "new": "new",
+    "random": "surprise",
+    "collections": "collections"
+  },
+  "home": {
+    "title": "Less searching.",
+    "titleMuted": "More building."
+  }
+}

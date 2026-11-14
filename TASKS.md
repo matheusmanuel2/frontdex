@@ -175,28 +175,28 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: frontend-builder · Spec: 007 · Depende de: T-101
 - Faz: `app/[locale]/`, `lib/i18n/`, `messages/pt.json` e `messages/en.json`. `generateStaticParams` para `pt` e `en`. `<html lang>` correto.
 - Pronto quando:
-  - [ ] `/pt` e `/en` geram HTML estático.
+  - [x] `/pt` e `/en` geram HTML estático.
 
 ### T-402 · Middleware de idioma em `/`
 - Agente: frontend-builder · Spec: 007 · Depende de: T-401
 - Faz: só em `/`. Ordem: cookie `NEXT_LOCALE` → `Accept-Language` → `x-vercel-ip-country` (AO, BR, PT, MZ, CV, GW, ST, TL → pt) → `/pt`.
 - Pronto quando:
-  - [ ] 4 testes Playwright, um por caso.
-  - [ ] Nenhuma outra rota redireciona por idioma ou IP.
+  - [x] 4 testes Playwright, um por caso.
+  - [x] Nenhuma outra rota redireciona por idioma ou IP.
 
 ### T-403 · Layout, cabeçalho e rodapé
 - Agente: frontend-builder · Spec: 003 · Depende de: T-307, T-401
 - Faz: cabeçalho (logo, nav das 4 áreas + Coleções com estado ativo, botão Buscar ⌘K, LocaleSwitch, "Adicionar recurso") e rodapé ("Feito em Angola. Aberto ao mundo.", links Novos, Surpresa, Contribuir, Sobre, GitHub, tema). Referência: cabeçalho do mockup `Area.dc.html`.
 - Pronto quando:
-  - [ ] Link "Saltar para o conteúdo" como primeiro elemento focável.
-  - [ ] Nav com `aria-current="page"`.
-  - [ ] Funciona de 360px a 1440px sem scroll horizontal (menu compacto no mobile).
+  - [x] Link "Saltar para o conteúdo" como primeiro elemento focável.
+  - [x] Nav com `aria-current="page"`.
+  - [x] Funciona de 360px a 1440px sem scroll horizontal (menu compacto no mobile).
 
 ### T-404 · LocaleSwitch
 - Agente: frontend-builder · Spec: 007 · Depende de: T-403
 - Faz: ilha client-side que troca para a mesma rota no outro idioma e grava o cookie.
 - Pronto quando:
-  - [ ] Em `/pt/c/icons`, trocar leva a `/en/c/icons`.
+  - [ ] Em `/pt/c/icons`, trocar leva a `/en/c/icons`. (Testado na home; o caso exato fica para a T-504, quando a rota existir.)
 
 ### T-405 · Tema claro/escuro
 - Agente: frontend-builder · Spec: 004 · Depende de: T-403 · **Ver decisão D-03**
@@ -214,7 +214,7 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: data-ci · Spec: 007 · Depende de: T-401
 - Faz: `scripts/check-i18n.ts`; falha se uma chave existir num `messages/*.json` e não no outro. Entra no CI.
 - Pronto quando:
-  - [ ] Fixture com chave em falta faz o CI falhar.
+  - [x] Fixture com chave em falta faz o CI falhar.
 
 ---
 
@@ -448,3 +448,5 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | aberta |
 | D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | aberta |
 | D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | aberta |
+| D-09 | 404 em inglês: com tudo estático, o Next só gera **uma** página 404 (a da raiz), por isso `/en/qualquer-coisa` mostra a 404 em pt-BR (status 404 certo). Opções: (a) aceitar a 404 estática em pt-BR com um link para a versão em inglês; (b) 404 bilingue (pt e en na mesma página, cada bloco com `lang`); (c) o proxy passa a correr também em `/en/*` desconhecidas e reescreve para uma 404 em inglês (mais runtime, contra a constitution §3); (d) página estática `/[locale]/not-found-page` + `rewrites().fallback` (o Next 16 gera um HTML vazio sem JS, e não está testado na Vercel). Proposta: (b) | T-406 | aberta |
+| D-10 | Meta "JS da home < 90 KB gzip" (constitution §3): só o runtime do Next 16 + React 19 já dá **~135 KB gzip** (sem polyfills) numa página quase vazia. Opções: (a) medir só o JS próprio da página (sem o runtime do framework); (b) subir a meta (ex.: 150 KB); (c) trocar de framework (contra o ADR 0001). Proposta: (a), com Lighthouse ≥ 95 como meta real | T-602, T-902 | aberta |
