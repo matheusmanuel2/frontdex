@@ -135,6 +135,7 @@ export async function Hero({ resourceCount }: HeroProps) {
           <div className="mt-10 flex flex-wrap items-center gap-4 lg:gap-6">
             <Link
               href="/search"
+              data-search-trigger
               className="t-hover t-icon-host inline-flex h-10 items-center gap-3 rounded-pill bg-button-primary pr-2 pl-5 text-small font-semibold text-button-primary-text hover:opacity-90"
             >
               <SearchIcon size={16} />
