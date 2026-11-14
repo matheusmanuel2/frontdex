@@ -20,6 +20,8 @@ module.exports = {
       chromePath: chromium.executablePath(),
       settings: {
         preset: 'desktop',
+        // Os runners Ubuntu do GitHub bloqueiam o sandbox do Chrome (AppArmor).
+        chromeFlags: process.env.CI ? '--no-sandbox' : '',
         onlyCategories: ['performance', 'accessibility', 'best-practices', 'seo'],
       },
     },
