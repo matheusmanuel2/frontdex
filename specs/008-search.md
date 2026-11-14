@@ -8,7 +8,7 @@ Status: aprovada · Depende de: 003 · Agente: Front-end Builder
 - Indexa só páginas de recurso e de categoria (`data-pagefind-body`). Campos filtráveis: área, categoria, preço, open source.
 - **⌘K / Ctrl+K / `/`** abrem o CommandMenu em qualquer página. O botão branco do hero também.
 - Resultados mostram ID mono, nome, descrição curta e categoria. Enter abre o recurso; ⌘Enter abre o site do recurso.
-- Sem JavaScript, `/[locale]/search?q=` funciona como página normal.
+- `/[locale]/search?q=` funciona como página normal: com JavaScript, filtra com o Pagefind; sem JavaScript, mostra o índice completo e indica ⌘F/Ctrl+F (D-13, site 100% estático).
 - Atalhos rápidos no menu vazio: "Preciso de ícones", "Quero aprender React", "Bibliotecas de animação", "Cursos gratuitos".
 
 ## Critérios de aceitação

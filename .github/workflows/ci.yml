@@ -4,9 +4,16 @@ on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      pull_request_number:
+        description: PR gerado pelo Issue Form
+        required: false
+        type: string
 
 permissions:
   contents: read
+  issues: write
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -19,6 +26,13 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preparar log de validação
+        if: always()
+        run: |
+          : > "$RUNNER_TEMP/validate.log"
 
       - uses: pnpm/action-setup@v4
 
@@ -30,6 +44,39 @@ jobs:
       - name: Instalar dependências
         run: pnpm install --frozen-lockfile
 
+      - name: Validar conteúdo
+        id: validate-content
+        continue-on-error: true
+        run: pnpm validate 2>&1 | tee "$RUNNER_TEMP/validate.log"
+
+      - name: Comentar erros de conteúdo no PR
+        if: >-
+          steps.validate-content.outcome == 'failure' &&
+          github.event_name == 'workflow_dispatch' &&
+          inputs.pull_request_number != ''
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pull_request_number }}
+          VALIDATION_LOG: ${{ runner.temp }}/validate.log
+        run: pnpm exec tsx scripts/report-validation-errors.ts
+
+      - name: Guardar log de validação para o workflow de feedback
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-${{ github.run_id }}
+          path: ${{ runner.temp }}/validate.log
+          if-no-files-found: warn
+          retention-days: 1
+
+      - name: Verificar URLs dos recursos alterados
+        if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.sha || 'origin/main' }}
+          HEAD_REF: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: pnpm exec tsx scripts/check-resource-urls.ts "$BASE_REF" "$HEAD_REF"
+
       - name: Lint
         run: pnpm lint
 
@@ -38,9 +85,6 @@ jobs:
 
       - name: Typecheck
         run: pnpm typecheck
-
-      - name: Validar conteúdo
-        run: pnpm validate
 
       - name: JSON Schema atualizado
         run: pnpm schema:check
@@ -51,14 +95,36 @@ jobs:
       - name: Chaves i18n
         run: pnpm check:i18n
 
+      - name: Regras anti-AI mecânicas
+        run: pnpm check:anti-ai
+
       - name: Testes unitários
         run: pnpm test
 
       - name: Build
         run: pnpm build
 
+      - name: Orçamento de JavaScript próprio da home
+        run: pnpm check:home-js
+
       - name: Browsers do Playwright
         run: pnpm exec playwright install --with-deps chromium
 
+      - name: Lighthouse CI
+        run: pnpm lighthouse:ci
+
+      - name: Guardar relatórios Lighthouse
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-${{ github.run_id }}
+          path: .lighthouseci/
+          if-no-files-found: warn
+          retention-days: 7
+
       - name: Testes e2e e acessibilidade
         run: pnpm test:e2e
+
+      - name: Falhar quando a validação de conteúdo falha
+        if: steps.validate-content.outcome == 'failure'
+        run: exit 1

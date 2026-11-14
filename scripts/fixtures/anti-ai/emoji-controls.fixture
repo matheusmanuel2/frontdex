@@ -1,0 +1,9 @@
+export function Controls() {
+  return (
+    <>
+      <h1>Title 🚀</h1>
+      <button>Search 🔎</button>
+      <nav>Home 🏠</nav>
+    </>
+  );
+}

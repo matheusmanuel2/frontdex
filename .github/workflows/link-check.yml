@@ -1,0 +1,116 @@
+name: Weekly link check
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: weekly-link-check-main
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: Instalar dependências
+        run: pnpm install --frozen-lockfile
+
+      - name: Preparar branch do link checker
+        id: branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          git fetch origin main
+          existing_branch="$(gh pr list --base main --state open --limit 100 --json headRefName,body --jq '[.[] | select((.body // "") | contains("<!-- frontdex-weekly-link-check -->"))] | .[0].headRefName // empty')"
+          if [ -n "$existing_branch" ]; then
+            branch="$existing_branch"
+            git fetch origin "refs/heads/${branch}:refs/remotes/origin/${branch}"
+            git switch --create "$branch" "origin/$branch"
+            git merge --no-edit origin/main
+          else
+            branch="bot/link-check-${RUN_ID}"
+            if git ls-remote --exit-code --heads origin "refs/heads/${branch}" >/dev/null; then
+              git fetch origin "refs/heads/${branch}:refs/remotes/origin/${branch}"
+              git switch --create "$branch" "origin/$branch"
+              git merge --no-edit origin/main
+            else
+              git switch --create "$branch" origin/main
+            fi
+          fi
+          echo "name=${branch}" >> "$GITHUB_OUTPUT"
+
+      - name: Verificar URLs e sincronizar issues
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: pnpm exec tsx scripts/check-links.ts
+
+      - name: Criar commit de atualização
+        id: commit
+        env:
+          LINK_CHECK_BRANCH: ${{ steps.branch.outputs.name }}
+        run: |
+          if git diff --quiet -- data/resources; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nenhum YAML precisa de atualização."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/resources
+          git commit -m "chore: weekly resource link check"
+          git push --set-upstream origin "$LINK_CHECK_BRANCH"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Criar ou atualizar PR de metadados
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LINK_CHECK_BRANCH: ${{ steps.branch.outputs.name }}
+        run: |
+          pr_body="$(printf '%s\n' \
+            '<!-- frontdex-weekly-link-check -->' \
+            'Atualiza `last_checked` e propõe arquivar recursos com links indisponíveis há pelo menos 14 dias. A mudança requer revisão.')"
+          pr_number="$(gh pr list --base main --head "$LINK_CHECK_BRANCH" --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$pr_number" ]; then
+            gh pr edit "$pr_number" \
+              --title "chore: atualização semanal de links" \
+              --body "$pr_body"
+          else
+            gh pr create \
+              --base main \
+              --head "$LINK_CHECK_BRANCH" \
+              --title "chore: atualização semanal de links" \
+              --body "$pr_body"
+          fi
+
+          pr_number="$(gh pr list --base main --head "$LINK_CHECK_BRANCH" --state open --json number --jq '.[0].number // empty')"
+          if [ -z "$pr_number" ]; then
+            echo "Não foi possível encontrar o PR de atualização." >&2
+            exit 1
+          fi
+          gh workflow run ci.yml \
+            --ref "$LINK_CHECK_BRANCH" \
+            --field pull_request_number="$pr_number"

@@ -44,8 +44,8 @@
   --hover-dur: var(--duration-quick);
   --hover-ease: var(--ease-out);
   /* Ícones animados no hover/foco (modelo Resend) */
-  --icon-hover-in: var(--duration-fast);
-  --icon-hover-out: var(--duration-quick);
+  --icon-hover-in: var(--duration-quick);
+  --icon-hover-out: var(--duration-fast);
   --icon-hover-ease: var(--ease-smooth-out);
   --icon-shift: 2px;
   /* 05 · Menu dropdown */
@@ -63,7 +63,7 @@
   /* 09 · Icon swap */
   --icon-swap-dur: var(--duration-fast);
   --icon-swap-blur: var(--blur-small);
-  --icon-swap-start-scale: 0.25;
+  --icon-swap-start-scale: var(--scale-small);
   --icon-swap-ease: var(--ease-in-out);
   /* 16 · Tabs sliding */
   --tabs-dur: var(--duration-fast);
@@ -82,7 +82,7 @@
   /* 24 · Learn more hover */
   --learn-shift: 2px;
   --learn-spread: 8deg;
-  --learn-in: var(--duration-medium);
+  --learn-in: var(--duration-fast);
   --learn-out: var(--duration-medium);
   --learn-ease: var(--ease-smooth-out);
 }

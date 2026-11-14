@@ -1,6 +1,6 @@
 /**
- * Cliente do Pagefind (spec 008). O índice é gerado no fim do build em
- * .next/static/pagefind e só é carregado quando a busca abre pela primeira vez.
+ * Cliente do Pagefind (spec 008). O índice é gerado a partir dos YAML antes do build,
+ * em public/pagefind, e só é carregado quando a busca abre pela primeira vez.
  * O Pagefind escolhe o índice pelo <html lang>: em /pt só há resultados pt e vice-versa.
  */
 export type SearchHit = {
@@ -29,11 +29,11 @@ type Pagefind = {
   search: (term: string) => Promise<{ results: PagefindResult[] }>;
 };
 
-export const PAGEFIND_URL = '/_next/static/pagefind/pagefind.js';
+export const PAGEFIND_URL = '/pagefind/pagefind.js';
 
 let instance: Promise<Pagefind> | undefined;
 
-/** Carrega o Pagefind uma vez (o ficheiro vem do build, fora do bundle do Next). */
+/** Carrega o Pagefind uma vez (o ficheiro vem de public/, fora do bundle do Next). */
 export function loadPagefind(): Promise<Pagefind> {
   instance ??= (async () => {
     const pagefind = (await import(/* webpackIgnore: true */ /* turbopackIgnore: true */ PAGEFIND_URL)) as Pagefind;

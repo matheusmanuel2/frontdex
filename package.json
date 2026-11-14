@@ -10,7 +10,9 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && pnpm search:index",
+    "build": "pnpm search:index && next build",
+    "vercel:build": "tsx scripts/vercel-prebuilt.ts",
+    "vercel:build:prod": "tsx scripts/vercel-prebuilt.ts --prod",
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
@@ -26,7 +28,10 @@
     "contrast": "tsx scripts/contrast.ts",
     "contrast:check": "tsx scripts/contrast.ts --check",
     "check:i18n": "tsx scripts/check-i18n.ts",
-    "search:index": "pagefind --site .next/server/app --output-path .next/static/pagefind"
+    "check:anti-ai": "tsx scripts/check-anti-ai.ts",
+    "check:home-js": "tsx scripts/check-home-js-budget.ts",
+    "lighthouse:ci": "lhci autorun",
+    "search:index": "tsx scripts/search-index.mts"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",
@@ -46,6 +51,7 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
+    "@lhci/cli": "^0.16.1",
     "@playwright/test": "^1.65.0",
     "@tailwindcss/postcss": "^4.3.5",
     "@testing-library/dom": "^10.4.2",
@@ -59,6 +65,7 @@
     "eslint": "^9.39.5",
     "eslint-config-next": "16.4.6",
     "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
     "jsdom": "^31.0.0",
     "pagefind": "^1.6.0",
     "postcss": "^8.5.32",
