@@ -78,36 +78,36 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: data-ci · Spec: 001 · Depende de: T-101
 - Faz: `lib/content/schema.ts` com Resource, Area, Category, Tag, Collection, exatamente como a tabela da spec 001 (incluindo a regra de `TODO` só em `draft`).
 - Pronto quando:
-  - [ ] Testes Vitest cobrem cada regra da spec 001 (casos válidos e inválidos).
+  - [x] Testes Vitest cobrem cada regra da spec 001 (casos válidos e inválidos).
 
 ### T-202 · Ajustar os YAML do seed ao schema
 - Agente: data-ci · Spec: 001 · Depende de: T-201
 - Faz: corrige só **forma** (nomes de campos, datas, ordem) nos YAML de `data/`. Nunca inventa valores: o que faltar fica `TODO` e o recurso fica `draft`.
 - Pronto quando:
-  - [ ] Os 8 recursos `active` passam o schema.
-  - [ ] Os `draft` passam como `draft`.
-  - [ ] O diff não muda nenhuma descrição, URL, preço ou licença.
+  - [x] Os 8 recursos `active` passam o schema.
+  - [x] Os `draft` passam como `draft`.
+  - [x] O diff não muda nenhuma descrição, URL, preço ou licença.
 
 ### T-203 · Loader de conteúdo
 - Agente: data-ci · Spec: 001 · Depende de: T-201
 - Faz: `lib/content/index.ts` com `getResource`, `listResources({area, category, tag, status})`, `getCategory`, `listCategories(area)`, `getArea`, `listCollections`, `getCollection`, `getAlternatives`, `listNew({since})`. Só devolve `active` por omissão. Cache em memória durante o build.
 - Pronto quando:
-  - [ ] Funções puras, tipadas, cobertas por testes.
-  - [ ] `lib/content` é o único sítio do código que lê ficheiros de `data/`.
+  - [x] Funções puras, tipadas, cobertas por testes.
+  - [x] `lib/content` é o único sítio do código que lê ficheiros de `data/`.
 
 ### T-204 · `pnpm validate`
 - Agente: data-ci · Spec: 001 · Depende de: T-203
 - Faz: `scripts/validate.ts`. Valida todos os YAML, URLs duplicadas, categorias e tags existentes, `alternatives` válidas, descrições 40–160, `TODO` em `active`. Erros legíveis: `ficheiro › campo › motivo`.
 - Pronto quando:
-  - [ ] Cada regra tem um fixture que falha.
-  - [ ] Entra no `ci.yml`.
+  - [x] Cada regra tem um fixture que falha.
+  - [x] Entra no `ci.yml`.
 
 ### T-205 · JSON Schema para o editor
 - Agente: data-ci · Spec: 001 · Depende de: T-201
 - Faz: gera `data/schema.json` a partir do Zod (`pnpm schema`) e adiciona `# yaml-language-server: $schema=../schema.json` no topo de cada YAML de recurso.
 - Pronto quando:
-  - [ ] O VS Code dá autocomplete e erros num YAML novo.
-  - [ ] O CI falha se o `schema.json` estiver desatualizado.
+  - [x] O VS Code dá autocomplete e erros num YAML novo.
+  - [x] O CI falha se o `schema.json` estiver desatualizado.
 
 ---
 
@@ -447,3 +447,4 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | aberta |
 | D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | aberta |
 | D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | aberta |
+| D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | aberta |
