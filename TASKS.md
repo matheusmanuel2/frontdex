@@ -294,15 +294,15 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 - Agente: frontend-builder · Spec: 008 · Depende de: T-505
 - Faz: Pagefind no fim do build, índice por idioma, `data-pagefind-body` só em recurso e categoria, filtros área/categoria/preço/open source.
 - Pronto quando:
-  - [ ] Busca em pt não devolve páginas en e vice-versa.
+  - [x] Busca em pt não devolve páginas en e vice-versa.
 
 ### T-602 · CommandMenu (⌘K)
 - Agente: design-system (componente) + frontend-builder (integração) · Spec: 008 · Depende de: T-601
 - Faz: Dialog da Watermelon re-tematizado. Abre com ⌘K, Ctrl+K, `/` e pelo botão do hero e do cabeçalho. Índice só carrega na primeira abertura. Grupos Recursos, Categorias, Atalhos. Enter abre o recurso; ⌘Enter abre o site. Referência: `CommandK.dc.html` (sem blur, spec 006).
 - Pronto quando:
-  - [ ] Resultados em < 100 ms depois do índice carregado (Playwright).
-  - [ ] Foco preso no diálogo, Esc fecha e devolve o foco.
-  - [ ] O JS da home continua < 90 KB gzip.
+  - [x] Resultados em < 100 ms depois do índice carregado (Playwright).
+  - [x] Foco preso no diálogo, Esc fecha e devolve o foco.
+  - [x] O JS da home continua < 90 KB gzip.
 
 ### T-603 · `/search` sem JS
 - Agente: frontend-builder · Spec: 008 · Depende de: T-601
@@ -452,3 +452,4 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-10 | Meta "JS da home < 90 KB gzip" (constitution §3): só o runtime do Next 16 + React 19 já dá **~135 KB gzip** (sem polyfills) numa página quase vazia. Opções: (a) medir só o JS próprio da página (sem o runtime do framework); (b) subir a meta (ex.: 150 KB); (c) trocar de framework (contra o ADR 0001). Proposta: (a), com Lighthouse ≥ 95 como meta real | T-602, T-902 | decidida (2026-11-13): medir só o JS próprio das páginas; metas reais Lighthouse ≥ 95 e LCP < 1,5 s |
 | D-11 | "Copiar link" na página de coleção (T-506) e o sorteio da Surpresa (T-508, escolha no browser por D-01) são ilhas client-side além das 3 da spec 003. Feito como ilha mínima (botão + icon swap), e sem JS o botão não aparece (o link continua na barra do browser). Aceitar? | T-506 | aberta (implementado como proposto) |
 | D-12 | Spec 003 pede o hero-13 "instalado pelo CLI". O `shadcn add` falhou (ERR_PNPM_IGNORED_BUILDS) e, de qualquer forma, o bloco traz `lucide-react` e `motion` (proibidos). O código foi tirado do JSON do registry, re-tematizado e mantém o aviso MIT. Aceitar e ajustar o critério da spec 003 para "baseado no hero-13 do registry, com aviso MIT"? | T-501 | aberta (implementado assim) |
+| D-13 | A spec 008 e o mockup Search pedem que `/search?q=` filtre sem JS; a implementação SSG mostra o índice completo porque não processa queries arbitrárias sem runtime. Aceitar esse fallback, rever a spec para exigir JS, ou permitir runtime? | T-603 | aberta |
