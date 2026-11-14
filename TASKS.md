@@ -424,8 +424,9 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 ### T-905 · Revisão final
 - Agente: reviewer · Spec: todas · Depende de: T-901–T-904
 - Faz: passa por todos os critérios de aceitação das specs 001–008 e marca ✅/❌/➖ em `docs/qa/acceptance.md`.
+- Estado: feita em 2026-11-14 sem a T-904 (tema claro fora da v1). Ficam três ⏳ fora do código: proteção de `main`, teste real dos workflows depois do merge e conteúdo (T-907).
 - Pronto quando:
-  - [ ] Nenhum ❌ por resolver.
+  - [x] Nenhum ❌ por resolver.
 
 ### T-906 · Deploy
 - Agente: data-ci · Spec: `decisions/0006` · Depende de: T-905, T-006

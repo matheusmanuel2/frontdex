@@ -61,6 +61,7 @@ Branch atual: m8-contribuicao
 | 2026-11-14 | T-902 | 37b9900 | Correção de lint: registra `eslint-plugin-import`, ignora `.vercel/**` e mantém CommonJS restrito à configuração do Lighthouse CI. |
 | 2026-11-14 | T-903 | 71d11b4 | Revisão do movimento concluída; tempos de hover e escala do icon swap refinados. Relatório em `docs/qa/motion.md`. |
 | 2026-11-14 | T-807 | — | Labels `new-resource`, `needs-translation`, `needs-changes` e `broken-link` criadas com `gh` |
+| 2026-11-14 | T-905 | — | Critérios das specs 001–008 em `docs/qa/acceptance.md`: nenhum ❌; 3 ⏳ fora do código. Verificação completa passou (248 unitários, 99 e2e) |
 
 ## Passagem de sessão (2026-11-14)
 
