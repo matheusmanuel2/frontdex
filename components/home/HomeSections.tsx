@@ -227,6 +227,7 @@ export async function ContributeSection() {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/add"
+              data-umami-event="add_click"
               className="t-hover t-icon-host inline-flex h-12 items-center gap-4 rounded-pill bg-button-primary pr-2 pl-6 text-body font-medium text-button-primary-text hover:opacity-90"
             >
               {t('add')}

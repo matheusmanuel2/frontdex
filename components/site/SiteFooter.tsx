@@ -23,12 +23,12 @@ export async function SiteFooter() {
               </Link>
             </li>
             <li>
-              <Link href="/random" className={footerLink}>
+              <Link href="/random" data-umami-event="random" className={footerLink}>
                 {t('random')}
               </Link>
             </li>
             <li>
-              <Link href="/add" className={footerLink}>
+              <Link href="/add" data-umami-event="add_click" className={footerLink}>
                 {t('add')}
               </Link>
             </li>

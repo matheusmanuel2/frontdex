@@ -8,6 +8,7 @@ import { GITHUB_URL } from '@/components/site/nav';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getAlternatives, getArea, getCategory, getResource, listResources } from '@/lib/content';
 import { routing, type AppLocale } from '@/lib/i18n/routing';
+import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
 
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const resource = getResource(slug);
   if (!resource) return {};
-  return { title: resource.name, description: resource.description[locale] };
+  return localizedMetadata(locale, `/r/${slug}`, resource.name, resource.description[locale]);
 }
 
 function host(url: string) {
@@ -117,6 +118,9 @@ export default async function ResourcePage({ params }: Props) {
               <a
                 href={resource.url}
                 rel="noopener"
+                data-umami-event="resource_outbound"
+                data-umami-event-slug={resource.slug}
+                data-umami-event-target="website"
                 className="t-hover t-icon-host inline-flex h-12 items-center gap-4 rounded-pill bg-button-primary pr-2 pl-6 text-body font-medium text-button-primary-text hover:opacity-90"
               >
                 {t('visit', { host: host(resource.url) })}
@@ -131,6 +135,9 @@ export default async function ResourcePage({ params }: Props) {
                 <a
                   href={resource.repo}
                   rel="noopener"
+                  data-umami-event="resource_outbound"
+                  data-umami-event-slug={resource.slug}
+                  data-umami-event-target="repo"
                   className="t-hover inline-flex h-12 items-center rounded-pill border border-border-strong px-6 text-body text-primary hover:bg-graphite"
                 >
                   {t('repo')}
