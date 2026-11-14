@@ -1,4 +1,3 @@
-/docs/tasks.md
 
 # dependencies
 /node_modules
@@ -47,3 +46,14 @@ next-env.d.ts
 # a licença do transitions.dev não permite publicar a coleção
 /.claude/skills/
 public/pagefind/
+
+# Documentos de contexto só locais (Matheus). Públicos: os usados no README, no CI e na licença dos dados.
+/TASKS.md
+/decisions/*
+!/decisions/0008-licencas.md
+/docs/*
+!/docs/architecture.md
+!/docs/next-steps.md
+!/docs/design/
+/docs/design/*
+!/docs/design/contrast.md
