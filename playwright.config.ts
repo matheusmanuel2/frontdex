@@ -28,7 +28,8 @@ export default defineConfig({
   ],
   webServer: [
     {
-      command: `pnpm build && pnpm start --port ${PORT}`,
+      // No CI o build já correu num passo anterior.
+      command: process.env.CI ? `pnpm start --port ${PORT}` : `pnpm build && pnpm start --port ${PORT}`,
       url: `http://localhost:${PORT}`,
       reuseExistingServer: !process.env.CI,
       timeout: 180_000,

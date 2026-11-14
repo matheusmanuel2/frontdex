@@ -5,7 +5,7 @@ test('as fontes vêm do próprio site, sem Google Fonts', async ({ page }) => {
   page.on('request', (request) => {
     if (/fonts\.(googleapis|gstatic)\.com/.test(request.url())) external.push(request.url());
   });
-  await page.goto('/');
+  await page.goto('/pt');
   await page.evaluate(() => document.fonts.ready);
   expect(external).toEqual([]);
 
