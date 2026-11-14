@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState, useSyncExternalStore } from 'react';
 
 import { ArrowUpRightIcon, ShuffleIcon } from '@/components/icons';
 import { IndexId, TagChip } from '@/components/index';
+import { trackUmamiEvent } from '@/lib/analytics/umami';
 
 export type RandomItem = {
   slug: string;
@@ -44,6 +45,7 @@ export function RandomCard({ items, locale, labels }: { items: RandomItem[]; loc
       if (next === current) next = (next + 1) % items.length;
       return next;
     });
+    trackUmamiEvent('random');
   }, [items.length]);
 
   useEffect(() => {
@@ -117,6 +119,9 @@ export function RandomCard({ items, locale, labels }: { items: RandomItem[]; loc
           <a
             href={current.url}
             rel="noopener"
+            data-umami-event="resource_outbound"
+            data-umami-event-slug={current.slug}
+            data-umami-event-target="website"
             className="t-hover t-icon-host inline-flex h-10 items-center gap-2 rounded-pill border border-border-strong px-5 text-small text-primary hover:bg-graphite"
           >
             {labels.visit}
