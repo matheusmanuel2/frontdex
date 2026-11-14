@@ -54,5 +54,5 @@ data/*.yaml  →  lib/content  →  app/ + components/
 - [ ] Os filtros da categoria funcionam com botão voltar e são partilháveis pela URL.
 - [ ] Cada recurso `active` tem página, aparece na categoria, no sitemap e no feed se for novo.
 - [ ] Páginas 404 traduzidas.
-- [ ] O hero usa o bloco hero-13 instalado pelo CLI, com o aviso MIT no topo do ficheiro.
+- [ ] O hero é baseado no bloco hero-13 do registry (código tirado do JSON, re-tematizado, sem `lucide-react` nem `motion`), com o aviso MIT no topo do ficheiro (D-12).
 - [ ] Metas da constitution passam no Lighthouse CI para home, categoria e recurso.

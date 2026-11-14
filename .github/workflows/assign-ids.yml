@@ -1,0 +1,53 @@
+name: Assign resource IDs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/resources/**
+      - .github/workflows/assign-ids.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: assign-resource-ids-main
+  cancel-in-progress: false
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: Instalar dependências
+        run: pnpm install --frozen-lockfile
+
+      - name: Atribuir IDs em falta
+        run: pnpm exec tsx scripts/assign-ids.ts
+
+      - name: Criar commit de atribuição
+        run: |
+          if git diff --quiet -- data/resources; then
+            echo "Nenhum ID novo para atribuir."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/resources
+          git commit -m "chore: assign resource IDs"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

@@ -272,7 +272,7 @@
     "title": "Busca.",
     "titleMuted": "No índice inteiro.",
     "submit": "Buscar",
-    "noscript": "Sem JavaScript, a busca não filtra: abaixo está o índice completo.",
+    "noscript": "Sem JavaScript, a busca não filtra: abaixo está o índice completo. Use ⌘F ou Ctrl+F para encontrar na página.",
     "all": "Todas as áreas",
     "resultsFor": "Resultados para “{q}”",
     "indexList": "Índice completo",

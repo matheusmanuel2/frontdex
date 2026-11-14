@@ -1,6 +1,7 @@
 import nextVitals from 'eslint-config-next/core-web-vitals';
 import nextTs from 'eslint-config-next/typescript';
 import prettier from 'eslint-config-prettier/flat';
+import importPlugin from 'eslint-plugin-import';
 
 // Bibliotecas de ícones genéricas estão proibidas (CLAUDE.md, spec 004).
 // Os ícones são só os nossos, sobre components/icons/IconBase.
@@ -15,6 +16,8 @@ const config = [
   {
     ignores: [
       '.next/**',
+      '.vercel/**',
+      'public/pagefind/**',
       'out/**',
       'node_modules/**',
       'coverage/**',
@@ -27,6 +30,7 @@ const config = [
   ...nextVitals,
   ...nextTs,
   {
+    plugins: { import: importPlugin },
     rules: {
       'no-restricted-imports': [
         'error',
