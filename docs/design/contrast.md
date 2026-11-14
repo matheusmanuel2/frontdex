@@ -29,6 +29,9 @@ Critério: WCAG 2.2 AA. Texto normal precisa de 4,5:1. Texto grande (≥ 24px, o
 | `--color-button-primary-bg` | `--color-ink` | 19.03:1 | 3:1 | passa | Contorno do botão primário na página |
 | `--color-signal-orange` | `--color-ink-hero` | 7.33:1 | 3:1 | passa | Ponto de status no hero (não-texto) |
 | `--color-paper` | `--color-ink-hero` | 18.27:1 | 4.5:1 | passa | Texto do hero (o hero é sempre escuro) |
+| `--color-hero-kbd-text` | `--color-hero-kbd-bg` | 8.94:1 | 4.5:1 | passa | Etiqueta ⌘K no botão do hero |
+| `--color-hero-kbd-text` | `--color-paper` | 9.96:1 | 3:1 | passa | Seta no botão do hero (não-texto) |
+| `--color-ink-hero` | `--color-paper` | 18.27:1 | 4.5:1 | passa | Texto do botão branco do hero |
 | `--color-text-primary` | `--color-list` | 18.06:1 | 4.5:1 | passa | Nome do recurso nas listas |
 | `--color-text-secondary` | `--color-list` | 8.21:1 | 4.5:1 | passa | Descrição nas listas |
 | `--color-text-muted` | `--color-list` | 6.20:1 | 4.5:1 | passa | ID e tags nas listas |
@@ -63,6 +66,9 @@ Critério: WCAG 2.2 AA. Texto normal precisa de 4,5:1. Texto grande (≥ 24px, o
 | `--color-button-primary-bg` | `--color-ink` | 18.53:1 | 3:1 | passa | Contorno do botão primário na página |
 | `--color-signal-orange` | `--color-ink-hero` | 7.33:1 | 3:1 | passa | Ponto de status no hero (não-texto) |
 | `--color-paper` | `--color-ink-hero` | 18.27:1 | 4.5:1 | passa | Texto do hero (o hero é sempre escuro) |
+| `--color-hero-kbd-text` | `--color-hero-kbd-bg` | 8.94:1 | 4.5:1 | passa | Etiqueta ⌘K no botão do hero |
+| `--color-hero-kbd-text` | `--color-paper` | 9.96:1 | 3:1 | passa | Seta no botão do hero (não-texto) |
+| `--color-ink-hero` | `--color-paper` | 18.27:1 | 4.5:1 | passa | Texto do botão branco do hero |
 | `--color-text-primary` | `--color-list` | 19.69:1 | 4.5:1 | passa | Nome do recurso nas listas |
 | `--color-text-secondary` | `--color-list` | 7.56:1 | 4.5:1 | passa | Descrição nas listas |
 | `--color-text-muted` | `--color-list` | 5.78:1 | 4.5:1 | passa | ID e tags nas listas |

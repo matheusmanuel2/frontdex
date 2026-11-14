@@ -85,6 +85,13 @@
   --learn-in: var(--duration-fast);
   --learn-out: var(--duration-medium);
   --learn-ease: var(--ease-smooth-out);
+  /* Entrada do hero da home (hero-37, mockup HeroV3Video): mesma ordem e atrasos */
+  --hero-bg-dur: 1800ms;
+  --hero-line-dur: 1100ms;
+  --hero-up-dur: 800ms;
+  --hero-nav-dur: 700ms;
+  --hero-video-fade: var(--duration-slow);
+  --hero-ease: var(--ease-smooth-out);
 }
 
 /* ── Hover simples (cor, fundo, borda) ─────────────────────── */
@@ -298,6 +305,89 @@
   transform: scale(var(--scale-large));
 }
 
+/* ── Hero da home: entrada (hero-37) e troca poster → vídeo ─── */
+.t-hero-bg {
+  animation: t-hero-bg-in var(--hero-bg-dur) var(--hero-ease) both;
+}
+.t-hero-nav {
+  animation: t-hero-nav-in var(--hero-nav-dur) var(--hero-ease) 50ms both;
+}
+.t-hero-line {
+  animation: t-hero-line-in var(--hero-line-dur) var(--hero-ease) var(--hero-delay, 0ms) both;
+}
+.t-hero-up {
+  animation: t-hero-up-in var(--hero-up-dur) var(--hero-ease) var(--hero-delay, 0ms) both;
+}
+.t-hero-cta {
+  animation: t-hero-cta-in var(--hero-nav-dur) var(--hero-ease) var(--hero-delay, 0ms) both;
+}
+/* Atrasos do hero-37, por ordem de entrada */
+[data-hero-step='1'] {
+  --hero-delay: 350ms;
+}
+[data-hero-step='2'] {
+  --hero-delay: 510ms;
+}
+[data-hero-step='3'] {
+  --hero-delay: 950ms;
+}
+[data-hero-step='4'] {
+  --hero-delay: 1180ms;
+}
+[data-hero-step='5'] {
+  --hero-delay: 1400ms;
+}
+[data-hero-step='6'] {
+  --hero-delay: 1520ms;
+}
+.t-hero-video {
+  opacity: 0;
+  transition: opacity var(--hero-video-fade) var(--ease-out);
+}
+.t-hero-video[data-playing] {
+  opacity: 1;
+}
+/* Safari/iOS: nunca mostrar o botão de play nativo por cima do fundo */
+.t-hero-video::-webkit-media-controls,
+.t-hero-video::-webkit-media-controls-start-playback-button,
+.t-hero-video::-webkit-media-controls-overlay-play-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+@keyframes t-hero-bg-in {
+  from {
+    opacity: 0;
+    transform: scale(1.06);
+  }
+}
+@keyframes t-hero-nav-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+    filter: blur(8px);
+  }
+}
+@keyframes t-hero-line-in {
+  from {
+    opacity: 0;
+    transform: translateY(52px);
+    filter: blur(18px);
+  }
+}
+@keyframes t-hero-up-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(6px);
+  }
+}
+@keyframes t-hero-cta-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.93);
+  }
+}
+
 /* ── Movimento reduzido: tudo estático ──────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   .t-hover,
@@ -310,7 +400,13 @@
   .t-tt,
   .t-learn-chevron,
   .t-learn-arm,
-  .t-icon-anim {
+  .t-icon-anim,
+  .t-hero-bg,
+  .t-hero-nav,
+  .t-hero-line,
+  .t-hero-up,
+  .t-hero-cta,
+  .t-hero-video {
     transition: none !important;
     animation: none !important;
   }

@@ -52,39 +52,44 @@
     "titleMuted": "Mais construção.",
     "description": "A FrontDex reúne ferramentas, bibliotecas, cursos e comunidades de front-end, cada um com uma linha sobre por que vale o seu tempo.",
     "search": "Buscar no índice",
-    "howItWorks": "Como funciona",
-    "count": "{count, plural, =0 {# recursos curados} one {# recurso curado} other {# recursos curados}} pela comunidade",
-    "github": "GitHub"
+    "github": "GitHub",
+    "lede": "Um índice aberto e curado de recursos front-end. Cada recurso tem uma linha que diz por que vale o seu tempo.",
+    "add": "ou adicione um recurso",
+    "resources": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}",
+    "curated": "curados à mão",
+    "categories": "{count, plural, =0 {# categorias} one {# categoria} other {# categorias}}",
+    "inAreas": "{count, plural, =0 {em # áreas} one {em # área} other {em # áreas}}",
+    "stats": "O índice em números"
   },
   "home": {
     "areas": {
-      "eyebrow": "01 — Direções",
+      "eyebrow": "Direções",
       "title": "Escolha uma direção.",
       "titleMuted": "Quatro portas para o índice.",
       "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}"
     },
     "fresh": {
-      "eyebrow": "02 — Novos",
+      "eyebrow": "Novos",
       "title": "Recém-indexados.",
       "titleMuted": "Os mais recentes do índice.",
       "all": "Ver todos os novos",
       "list": "Recursos recém-indexados"
     },
     "gems": {
-      "eyebrow": "03 — Joias escondidas",
+      "eyebrow": "Joias escondidas",
       "title": "Útil antes de popular.",
       "titleMuted": "Coisas que talvez você não conheça.",
       "why": "Por que está aqui"
     },
     "collections": {
-      "eyebrow": "04 — Coleções",
+      "eyebrow": "Coleções",
       "title": "Curadas, em ordem.",
       "titleMuted": "Listas curtas com ponto de vista.",
       "all": "Todas as coleções",
       "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}"
     },
     "contribute": {
-      "eyebrow": "05 — Contribua",
+      "eyebrow": "Contribua",
       "title": "Feito em público.",
       "titleMuted": "Indexado pela comunidade.",
       "body": "Cada recurso é um arquivo YAML no GitHub. Abra um pull request, ou preencha um formulário e um bot abre o PR por você.",

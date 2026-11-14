@@ -8,7 +8,7 @@ import {
   FreshSection,
   GemsSection,
 } from '@/components/home/HomeSections';
-import { listResources } from '@/lib/content';
+import { listAreas, listCategories, listResources } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
 import { localizedMetadata } from '@/lib/seo/metadata';
 
@@ -29,7 +29,11 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <main>
-      <Hero resourceCount={listResources().length} />
+      <Hero
+        resourceCount={listResources().length}
+        categoryCount={listCategories().length}
+        areaCount={listAreas().length}
+      />
       <AreasSection />
       <FreshSection />
       <GemsSection />

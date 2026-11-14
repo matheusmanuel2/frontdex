@@ -24,19 +24,15 @@ O MVP tem 11 tipos de página, gerados no build para `/pt` e `/en`. Os slugs sã
 
 Gerados no build: `sitemap.xml` (pt + en), `robots.txt`, `feed.xml` por idioma, imagens Open Graph por recurso e categoria.
 
-## Hero da home (decidido)
+## Hero da home (decidido — ver `decisions/0009`)
 
-Base: o bloco **hero-13 da Watermelon UI**, instalado pelo registry e adaptado:
+Layout do **hero-37 da Watermelon UI** (MIT), adaptado à FrontDex em `components/hero/`.
 
-```bash
-npx shadcn@latest add https://registry.watermelon.sh/r/hero-13.json
-```
-
-- Fundo: `public/hero/hero-bg.webp` (o fundo original do hero-13, sem textos; master em PNG em `docs/design/`).
-- Conteúdo pt-BR: badge "Curado pela comunidade"; título "Menos busca." / "Mais construção."; parágrafo de apresentação; botão branco = **gatilho da busca** ("Buscar no índice" + ⌘K, abre o CommandMenu); botão escuro "Como funciona" com ícone play (leva a `/add`).
-- Navegação do hero: Descobrir ⌄, Aprender ⌄, Construir, Crescer, Coleções; à direita, ponto laranja + GitHub.
-- Rodapé do hero: avatares dos últimos contribuidores + "Mais de [N] recursos curados pela comunidade" (número real, vindo dos dados).
-- Mockup de referência: `docs/design/mockups/HeroV2.dc.html`.
+- Fundo: imagem `public/hero/hero-poster.webp` (= primeiro frame do vídeo, é o LCP) + loop de vídeo de 9 s (AV1 + H.264, versão 960 para telemóvel). Sem vídeo com movimento reduzido ou Save-Data; pausa fora do ecrã. O vídeo é a única ilha client-side além das três abaixo.
+- Conteúdo pt-BR: título "Menos busca." / "Mais construção."; parágrafo; botão branco "Buscar no índice" + ⌘K (abre o CommandMenu); link "ou adicione um recurso"; em baixo, "[N] recursos · curados à mão", "[N] categorias · em [N] áreas" e "Feito em Angola. Aberto ao mundo.". Números vêm dos dados.
+- Navegação: Descobrir, Aprender, Construir, Crescer, Coleções; à direita, idioma + ponto laranja + GitHub.
+- Bloco de texto centrado na vertical.
+- Mockup: `docs/design/mockups/HeroV3Video.dc.html`. O hero-13 (`HeroV2.dc.html`) fica arquivado.
 
 ## Estrutura de código
 
@@ -54,5 +50,5 @@ data/*.yaml  →  lib/content  →  app/ + components/
 - [ ] Os filtros da categoria funcionam com botão voltar e são partilháveis pela URL.
 - [ ] Cada recurso `active` tem página, aparece na categoria, no sitemap e no feed se for novo.
 - [ ] Páginas 404 traduzidas.
-- [ ] O hero é baseado no bloco hero-13 do registry (código tirado do JSON, re-tematizado, sem `lucide-react` nem `motion`), com o aviso MIT no topo do ficheiro (D-12).
+- [ ] O hero usa `components/hero/` (layout do hero-37, sem `lucide-react` nem `motion`, aviso MIT no topo do ficheiro, D-12) e o LCP é a imagem poster.
 - [ ] Metas da constitution passam no Lighthouse CI para home, categoria e recurso.

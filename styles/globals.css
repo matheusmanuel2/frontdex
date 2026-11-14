@@ -38,6 +38,8 @@
   --color-index-blue-hover: var(--color-index-blue-hover);
   --color-signal-orange: var(--color-signal-orange);
   --color-overlay: var(--color-overlay);
+  --color-hero-kbd: var(--color-hero-kbd-bg);
+  --color-hero-kbd-text: var(--color-hero-kbd-text);
 
   /* Cor: texto (text-primary, text-secondary, text-muted, text-title-muted, text-link) */
   --color-primary: var(--color-text-primary);
@@ -85,6 +87,7 @@
 
   /* Tamanhos de texto */
   --text-display: var(--text-display);
+  --text-hero: var(--text-hero);
   --text-h1: var(--text-h1);
   --text-h2: var(--text-h2);
   --text-h3: var(--text-h3);

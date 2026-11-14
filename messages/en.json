@@ -52,39 +52,44 @@
     "titleMuted": "More building.",
     "description": "FrontDex brings together front-end tools, libraries, courses and communities, each with one line on why it's worth your time.",
     "search": "Search the index",
-    "howItWorks": "How it works",
-    "count": "{count, plural, =0 {# resources} one {# resource} other {# resources}} curated by the community",
-    "github": "GitHub"
+    "github": "GitHub",
+    "lede": "An open, curated index of front-end resources. Every resource has one line on why it's worth your time.",
+    "add": "or add a resource",
+    "resources": "{count, plural, =0 {# resources} one {# resource} other {# resources}}",
+    "curated": "curated by hand",
+    "categories": "{count, plural, =0 {# categories} one {# category} other {# categories}}",
+    "inAreas": "{count, plural, =0 {in # areas} one {in # area} other {in # areas}}",
+    "stats": "The index in numbers"
   },
   "home": {
     "areas": {
-      "eyebrow": "01 — Directions",
+      "eyebrow": "Directions",
       "title": "Pick a direction.",
       "titleMuted": "Four doors into the index.",
       "count": "{count, plural, =0 {# resources} one {# resource} other {# resources}}"
     },
     "fresh": {
-      "eyebrow": "02 — New",
+      "eyebrow": "New",
       "title": "Freshly indexed.",
       "titleMuted": "The latest additions to the index.",
       "all": "See all new resources",
       "list": "Freshly indexed resources"
     },
     "gems": {
-      "eyebrow": "03 — Hidden gems",
+      "eyebrow": "Hidden gems",
       "title": "Useful before popular.",
       "titleMuted": "Things you might not know yet.",
       "why": "Why it's here"
     },
     "collections": {
-      "eyebrow": "04 — Collections",
+      "eyebrow": "Collections",
       "title": "Curated, in order.",
       "titleMuted": "Short lists with a point of view.",
       "all": "All collections",
       "count": "{count, plural, =0 {# resources} one {# resource} other {# resources}}"
     },
     "contribute": {
-      "eyebrow": "05 — Contribute",
+      "eyebrow": "Contribute",
       "title": "Built in public.",
       "titleMuted": "Indexed by the community.",
       "body": "Every resource is a YAML file on GitHub. Open a pull request, or fill in a form and a bot opens the PR for you.",

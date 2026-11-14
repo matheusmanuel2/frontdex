@@ -59,7 +59,7 @@ frontdex/
 ├─ lib/i18n/
 ├─ messages/              # pt.json, en.json
 ├─ styles/tokens.css
-├─ public/hero/hero-bg.webp
+├─ public/hero/ (poster + loop de vídeo do hero)
 ├─ data/                  # resources/, collections/, areas, categories, tags
 ├─ scripts/               # validate, assign-ids, check-links, issue-to-yaml, check-anti-ai
 ├─ specs/ · decisions/ · docs/
