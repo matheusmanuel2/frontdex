@@ -96,6 +96,8 @@
   /* Layout */
   --container-max: 1328px;
   --gutter: clamp(16px, 4vw, 56px);
+  --hero-height: 657px; /* hero-13 medido (docs/design/README.md) */
+  --hero-min-height: max(100svh, 640px);
 }
 
 [data-theme="light"] {

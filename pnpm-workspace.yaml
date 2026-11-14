@@ -1,0 +1,5 @@
+# Scripts de instalação autorizados (pnpm 12 bloqueia os que não estão listados).
+allowBuilds:
+  esbuild: true
+  '@parcel/watcher': false
+  '@swc/core': false

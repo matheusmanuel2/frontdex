@@ -1,7 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-// Reativar na T-504: hoje /pt/c/icons ainda é a 404 estática, que não sabe a rota pedida.
-test.fixme('em /pt/c/icons, trocar de idioma leva a /en/c/icons e grava o cookie', async ({ page, context }) => {
+test('em /pt/c/icons, trocar de idioma leva a /en/c/icons e grava o cookie', async ({ page, context }) => {
   await page.goto('/pt/c/icons');
   const link = page.getByRole('link', { name: 'PT / EN: mudar o idioma para English' });
   await expect(link).toHaveAttribute('href', '/en/c/icons');

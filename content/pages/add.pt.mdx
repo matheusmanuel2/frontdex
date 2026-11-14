@@ -1,0 +1,54 @@
+{/* Rascunho a partir do mockup Add.dc.html. O Matheus revê antes do merge. */}
+
+> “Isso economiza tempo de quem faz front-end, e dá para explicar o porquê em uma linha?”
+
+Se a resposta for sim, mande. Se precisar de três parágrafos para convencer, provavelmente não é para cá.
+
+## Dois caminhos
+
+### Pelo formulário, sem Git
+
+Preencha uma issue no GitHub com nome, link, categoria e a linha. Um bot transforma em pull request e você acompanha por lá. [Abrir o formulário no GitHub](https://github.com/matheusmanuel2/frontdex/issues/new?template=add-resource.yml).
+
+### Pelo YAML, com Git
+
+Faça fork, crie um arquivo em `data/resources/` e abra o PR. O CI valida o schema e os links. Não preencha o `id`: ele é atribuído no merge. Leia o [CONTRIBUTING.md](https://github.com/matheusmanuel2/frontdex/blob/main/CONTRIBUTING.md) antes.
+
+```yaml
+# data/resources/kugiri.yaml
+name: kugiri
+url: https://edoardolunardi.github.io/kugiri
+area: build
+category: animation
+pricing: free
+description:
+  pt: 'Divide texto em linhas, palavras e letras…'
+```
+
+## O que entra
+
+- Ferramentas, bibliotecas, cursos, inspiração e comunidades de front-end.
+- Coisas que você usou ou testou de verdade.
+- Recursos pagos, desde que o preço esteja claro.
+- Projetos pequenos e desconhecidos, se forem bons.
+
+## O que não entra
+
+- Listas de listas e agregadores sem curadoria.
+- Links de afiliado ou recursos pagos para aparecer.
+- Projetos abandonados, sem atualização ou com o site fora do ar.
+- Descrições de marketing, cheias de adjetivos e sem um detalhe concreto.
+
+## A linha, na prática
+
+**Bom:** “Terminal nativo para macOS, baseado no Ghostty, com abas verticais e avisos quando um agente precisa de você.” Diz o que é, em que se apoia e o que faz de diferente.
+
+**Mau:** “O melhor terminal para desenvolvedores modernos.” Não diz nada que não se diga de qualquer terminal.
+
+## Depois de enviar
+
+1. O CI confere o schema, o link, os duplicados e os dois idiomas.
+2. Um curador revisa e pode pedir ajustes no próprio PR.
+3. O merge publica o recurso e atribui o número dele no índice.
+
+O conteúdo do índice está sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) e o código sob MIT. Ao enviar um recurso, você concorda com essa licença.
