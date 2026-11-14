@@ -1,0 +1,7 @@
+{
+  "yaml.schemas": {
+    "./data/schema.json": ["data/resources/*.yaml"]
+  },
+  "yaml.validate": true,
+  "yaml.completion": true
+}
