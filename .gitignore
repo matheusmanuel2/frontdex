@@ -41,3 +41,7 @@ next-env.d.ts
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# skills de agentes instaladas (restaurar com: npx skills experimental_install)
+# a licença do transitions.dev não permite publicar a coleção
+/.claude/skills/

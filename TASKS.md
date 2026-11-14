@@ -117,55 +117,55 @@ M2 e M3 podem correr em paralelo. M8 pode começar logo depois de M2.
 - Agente: design-system · Spec: 004 · Depende de: T-101
 - Faz: completa `styles/tokens.css` com todos os tokens da spec 004 + variante `[data-theme="light"]`. Cores do light: deriva do brand book e propõe; **não** inventa sem mostrar.
 - Pronto quando:
-  - [ ] Todos os tokens da spec existem nos dois temas.
-  - [ ] Tabela de contraste AA (texto × fundo) em `docs/design/contrast.md`, todas as combinações usadas a passar.
+  - [x] Todos os tokens da spec existem nos dois temas.
+  - [x] Tabela de contraste AA (texto × fundo) em `docs/design/contrast.md`, todas as combinações usadas a passar.
 
 ### T-302 · Tailwind v4 sobre os tokens
 - Agente: design-system · Spec: 004 · Depende de: T-301
 - Faz: Tailwind v4 com `@theme` a apontar para os tokens. Desliga a paleta de cores padrão do Tailwind.
 - Pronto quando:
-  - [ ] `bg-indigo-500` não gera CSS; `bg-carbon`, `text-secondary`, `rounded-pill` funcionam.
+  - [x] `bg-indigo-500` não gera CSS; `bg-carbon`, `text-secondary`, `rounded-pill` funcionam.
 
 ### T-303 · Fontes
 - Agente: design-system · Spec: 004, `decisions/0005` · Depende de: T-302
 - Faz: Geist e Geist Mono pelo pacote `geist` (next/font), `display: swap`, só os pesos usados (400, 500, 600). Títulos 400, −0,02em, entrelinha 1,05.
 - Pronto quando:
-  - [ ] Nenhum pedido a Google Fonts em produção.
-  - [ ] Classes utilitárias `font-mono`, `title-display`, `title-h1`, `title-h2`.
+  - [x] Nenhum pedido a Google Fonts em produção.
+  - [x] Classes utilitárias `font-mono`, `title-display`, `title-h1`, `title-h2`.
 
 ### T-304 · Movimento
 - Agente: design-system · Spec: 004 · Depende de: T-302
 - Faz: instala a skill do transitions.dev, gera os tokens de duração/easing e documenta os recipes usados em `docs/design/motion.md`. Respeita `prefers-reduced-motion`.
 - Pronto quando:
-  - [ ] Zero durações ou `@keyframes` escritos à mão fora dos recipes.
+  - [x] Zero durações ou `@keyframes` escritos à mão fora dos recipes.
 
 ### T-305 · Componentes Watermelon re-tematizados
 - Agente: design-system · Spec: 004 · Depende de: T-302, T-303
 - Faz: pelo MCP da Watermelon, instala Button, Input, Dialog, DropdownMenu, Tooltip, Segmented/Tabs em `components/ui/`. Re-tematiza (cor, fonte, raio via tokens). Mantém o aviso MIT no topo de cada ficheiro.
 - Variantes de Button: `primary` (pílula branca), `secondary` (pílula escura com borda 10%), `brand` (Index Blue), `ghost`.
 - Pronto quando:
-  - [ ] Nenhum componente com cores ou raios padrão do shadcn.
-  - [ ] Foco visível (#5B97FF, 2px) em todos os interativos.
+  - [x] Nenhum componente com cores ou raios padrão do shadcn.
+  - [x] Foco visível (#5B97FF, 2px) em todos os interativos.
 
 ### T-306 · IconBase e set de ícones animados
 - Agente: design-system · Spec: 004 · Depende de: T-304
 - Faz: `components/icons/IconBase.tsx` (grelha 24, traço 1,5, `currentColor`) e o set mínimo, animado no hover/foco ao estilo Resend: search, arrow-up-right, chevron-down, close, link, copy, shuffle, rss, github, star, play, check, x, sun, moon, globe, filter.
 - Pronto quando:
-  - [ ] Cada ícone anima com um recipe e fica estático com `prefers-reduced-motion`.
-  - [ ] Ícones decorativos com `aria-hidden`; ícones sozinhos em botões com `aria-label` no botão.
+  - [x] Cada ícone anima com um recipe e fica estático com `prefers-reduced-motion`.
+  - [x] Ícones decorativos com `aria-hidden`; ícones sozinhos em botões com `aria-label` no botão.
 
 ### T-307 · Componentes próprios
 - Agente: design-system · Spec: 004 · Depende de: T-305, T-306
 - Faz: IndexId (`#0002` em mono), TagChip, ResourceRow (lista densa, seta no hover), CategoryCard, CollectionCard, SectionTitle (dois tons), Eyebrow, Breadcrumb, EmptyState. Referência visual: mockups de Categoria, Área e Coleções.
 - Pronto quando:
-  - [ ] Cada componente tem estados (hover, foco, disabled quando aplicável) e funciona nos dois temas.
+  - [x] Cada componente tem estados (hover, foco, disabled quando aplicável) e funciona nos dois temas.
 
 ### T-308 · Página `/_design`
 - Agente: design-system · Spec: 004 · Depende de: T-307
 - Faz: rota só em dev com todos os componentes, ícones e tokens nos dois temas.
 - Pronto quando:
-  - [ ] Não é gerada no build de produção.
-  - [ ] axe sem violações nesta página.
+  - [x] Não é gerada no build de produção.
+  - [x] axe sem violações nesta página.
 
 ---
 
@@ -444,7 +444,7 @@ Todas as páginas: Server Components, `generateStaticParams` para pt/en, textos 
 | D-02 | Licença dos dados: CC BY 4.0 (proposta em `decisions/0008`)? | T-509, T-906 | aberta |
 | D-03 | O seletor de tema é uma 4.ª ilha client-side (a spec 003 fala em 3)? Proposta: script inline mínimo, sem React | T-405 | aberta |
 | D-04 | Plano Vercel: Hobby é só para uso não comercial | T-906 | aberta |
-| D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | aberta |
+| D-05 | transitions.dev: plano Pro ou só o set gratuito? | T-304 | aberta — T-304 feita com o set gratuito, que cobre o MVP |
 | D-06 | O fundo do hero está coberto pela MIT da Watermelon? | T-501 (lançamento) | aberta |
 | D-07 | Cores do tema claro: aprovar a proposta da T-301 | T-904 | aberta |
 | D-08 | O schema recusa `TODO` em **qualquer** campo (não só nos marcados com \*) e também em `archived` (a spec 001 só fala de `active`). Manter esta regra mais estrita? | T-201 (já implementado assim) | aberta |
