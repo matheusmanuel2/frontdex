@@ -7,7 +7,7 @@ test.describe('cabeçalho e rodapé', () => {
     const focused = page.locator(':focus');
     await expect(focused).toHaveText('Pular para o conteúdo');
     await expect(focused).toHaveAttribute('href', '#conteudo');
-    await expect(page.locator('main#conteudo')).toHaveCount(1);
+    await expect(page.locator('#conteudo')).toHaveCount(1);
   });
 
   test('em inglês o link diz "Skip to content"', async ({ page }) => {
@@ -18,13 +18,15 @@ test.describe('cabeçalho e rodapé', () => {
 
   test('tem as 4 áreas + Coleções, busca e "Adicionar recurso"', async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
-    await page.goto('/pt');
-    const nav = page.getByRole('navigation', { name: 'Principal' });
+    // A home usa o cabeçalho do hero; as outras páginas usam o SiteHeader (aqui, a 404).
+    await page.goto('/pt/qualquer-coisa');
+    const banner = page.getByRole('banner');
+    const nav = banner.getByRole('navigation', { name: 'Principal' });
     for (const label of ['Descobrir', 'Aprender', 'Construir', 'Crescer', 'Coleções']) {
       await expect(nav.getByRole('link', { name: label })).toBeVisible();
     }
-    await expect(page.getByRole('link', { name: /Buscar/ })).toHaveAttribute('href', '/pt/search');
-    await expect(page.getByRole('link', { name: 'Adicionar recurso' })).toHaveAttribute('href', '/pt/add');
+    await expect(banner.getByRole('link', { name: /Buscar/ })).toHaveAttribute('href', '/pt/search');
+    await expect(banner.getByRole('link', { name: 'Adicionar recurso' })).toHaveAttribute('href', '/pt/add');
     await expect(page.getByText('Feito em Angola. Aberto ao mundo.')).toBeVisible();
   });
 
@@ -39,9 +41,10 @@ test.describe('cabeçalho e rodapé', () => {
 
   test('no mobile, as áreas ficam num menu compacto', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 800 });
-    await page.goto('/pt');
-    await expect(page.getByRole('link', { name: 'Construir' })).toBeHidden();
-    await page.getByLabel('Abrir menu').click();
-    await expect(page.getByRole('link', { name: 'Construir' })).toBeVisible();
+    await page.goto('/pt/qualquer-coisa');
+    const banner = page.getByRole('banner');
+    await expect(banner.getByRole('link', { name: 'Construir', exact: true })).toBeHidden();
+    await banner.getByLabel('Abrir menu').click();
+    await expect(banner.getByRole('link', { name: 'Construir', exact: true })).toBeVisible();
   });
 });

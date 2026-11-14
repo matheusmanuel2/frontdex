@@ -1,25 +1,31 @@
-import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
-import { use } from 'react';
 
-import { SectionTitle } from '@/components/index';
-import { SiteHeader } from '@/components/site/SiteHeader';
+import { Hero } from '@/components/hero/Hero';
+import {
+  AreasSection,
+  CollectionsSection,
+  ContributeSection,
+  FreshSection,
+  GemsSection,
+} from '@/components/home/HomeSections';
+import { listResources } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
 
 type Props = { params: Promise<{ locale: AppLocale }> };
 
-/** Home provisória: o hero e as secções entram no M5 (T-501, T-502). */
-export default function HomePage({ params }: Props) {
-  const { locale } = use(params);
+/** Home (spec 003, mockup Main): hero, 4 áreas, Recém-indexados, Joias escondidas, Coleções, Contribua. */
+export default async function HomePage({ params }: Props) {
+  const { locale } = await params;
   setRequestLocale(locale);
-  const t = useTranslations('home');
 
   return (
-    <>
-      <SiteHeader />
-      <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) py-24">
-        <SectionTitle as="h1" size="display" title={t('title')} muted={t('titleMuted')} />
-      </main>
-    </>
+    <main>
+      <Hero resourceCount={listResources().length} />
+      <AreasSection />
+      <FreshSection />
+      <GemsSection />
+      <CollectionsSection />
+      <ContributeSection />
+    </main>
   );
 }

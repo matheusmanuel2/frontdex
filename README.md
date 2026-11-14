@@ -26,4 +26,4 @@ Leia o [CONTRIBUTING.md](CONTRIBUTING.md) antes.
 
 **FrontDex** is an open-source, curated index of front-end resources, each with one line on why it's worth your time. Portuguese (pt-BR) and English. Built in Angola, open to the world.
 
-Código: MIT · Dados: CC BY 4.0 (proposto)
+Código: MIT · Dados: CC BY 4.0
