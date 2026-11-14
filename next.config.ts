@@ -1,7 +1,11 @@
+import createNextIntlPlugin from 'next-intl/plugin';
+
 import type { NextConfig } from 'next';
 
+const withNextIntl = createNextIntlPlugin('./lib/i18n/request.ts');
+
 /**
- * Páginas `*.dev.tsx` (por exemplo /_design, T-308) só existem em `next dev`.
+ * Páginas `*.dev.tsx` (por exemplo /[locale]/_design, T-308) só existem em `next dev`.
  * No build de produção não são rotas e não são geradas.
  */
 const isDev = process.env.NODE_ENV === 'development';
@@ -12,4 +16,4 @@ const nextConfig: NextConfig = {
   pageExtensions: isDev ? ['dev.tsx', 'tsx', 'ts'] : ['tsx', 'ts'],
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

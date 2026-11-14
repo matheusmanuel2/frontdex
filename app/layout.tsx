@@ -1,19 +1,9 @@
-import '@/styles/globals.css';
-
-import { fontVariables } from '@/lib/fonts';
-
-import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
-export const metadata: Metadata = {
-  title: 'FrontDex',
-  description: 'Índice open-source e curado de recursos front-end.',
-};
-
+/**
+ * O <html> vive em app/[locale]/layout.tsx (precisa do idioma para o `lang`).
+ * Este layout só existe porque o Next exige um na raiz.
+ */
 export default function RootLayout({ children }: { children: ReactNode }) {
-  return (
-    <html lang="pt-BR" data-theme="dark" className={fontVariables}>
-      <body>{children}</body>
-    </html>
-  );
+  return children;
 }
