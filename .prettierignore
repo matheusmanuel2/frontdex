@@ -1,0 +1,12 @@
+.next
+out
+node_modules
+coverage
+pnpm-lock.yaml
+docs
+specs
+decisions
+data
+*.md
+public
+styles/tokens.css
