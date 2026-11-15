@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 
-import { getResource, listResources } from '@/lib/content';
+import { getCategory, getResourcePage, listResourcePages } from '@/lib/content';
 import { routing, type AppLocale } from '@/lib/i18n/routing';
 import { createOpenGraphImage, OPEN_GRAPH_SIZE } from '@/lib/seo/open-graph';
 
@@ -11,19 +11,20 @@ export const contentType = 'image/png';
 type Props = { params: Promise<{ locale: AppLocale; slug: string }> };
 
 export function generateStaticParams() {
-  return routing.locales.flatMap((locale) => listResources().map((resource) => ({ locale, slug: resource.slug })));
+  return routing.locales.flatMap((locale) => listResourcePages().map((resource) => ({ locale, slug: resource.slug })));
 }
 
 export default async function Image({ params }: Props) {
   const { locale, slug } = await params;
-  const resource = getResource(slug);
+  const resource = getResourcePage(slug);
   if (!resource) notFound();
 
   return createOpenGraphImage({
     locale,
-    eyebrow: resource.slug,
+    eyebrow: getCategory(resource.category)?.name[locale] ?? resource.slug,
     title: resource.name,
-    description: resource.description[locale],
+    // O "why" é o nosso texto original; sem ele, a descrição.
+    description: resource.why?.[locale] ?? resource.description[locale],
     id: resource.id,
   });
 }

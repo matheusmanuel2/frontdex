@@ -38,7 +38,7 @@ O patrocínio nunca compra destaque, selo ou posição.
 - Tema dark por padrão, light disponível.
 - A personalidade vem do sistema de índice (IDs numerados, listas densas, labels mono) e do movimento cuidado, não de efeitos.
 - Proibido ter "cara de AI" (spec 006).
-- Um único gradiente/imagem de destaque: o fundo do hero da home.
+- Um único gradiente/imagem de destaque: o fundo do hero da home. Exceção documentada em ADR 0011: a tinta WebGL azul dos cards de área da home, limitada a esses cards.
 
 ## 5. Princípios de conteúdo
 

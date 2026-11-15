@@ -1,7 +1,8 @@
 /**
- * Baseado em Watermelon UI — https://ui.watermelon.sh (blocks/hero-13).
+ * Baseado em Watermelon UI — https://ui.watermelon.sh (blocks/hero-37).
  * Re-tematizado para a FrontDex: tokens de cor, raio e fonte, ícones próprios
- * (components/icons) e movimento dos recipes do transitions.dev (styles/motion.css).
+ * (components/icons), fundo em vídeo próprio e movimento dos recipes do
+ * transitions.dev (styles/motion.css).
  *
  * MIT License
  *
@@ -29,29 +30,37 @@
 import Image from 'next/image';
 import { getLocale, getTranslations } from 'next-intl/server';
 
-import { GithubIcon, PlayIcon, SearchIcon } from '@/components/icons';
+import { ArrowRightIcon, GithubIcon } from '@/components/icons';
 import { Link } from '@/components/site/LocaleLink';
 import { LocaleSwitch } from '@/components/site/LocaleSwitch';
 import { Logo } from '@/components/site/Logo';
 import { MobileNav } from '@/components/site/MobileNav';
 import { GITHUB_URL, NAV_SECTIONS, sectionHref } from '@/components/site/nav';
 import { HTML_LANG, routing } from '@/lib/i18n/routing';
-import heroBg from '@/public/hero/hero-bg.webp';
+import heroPoster from '@/public/hero/hero-poster.webp';
+
+import { HeroVideo } from './HeroVideo';
+
+/** Abaixo disto, os números ainda não impressionam: o bloco fica escondido. */
+export const HERO_STATS_MIN = 25;
 
 type HeroProps = {
-  /** Número de recursos publicados (vem do loader). */
+  /** Números reais do índice (vêm do loader). */
   resourceCount: number;
+  categoryCount: number;
+  areaCount: number;
 };
 
 /**
- * Hero da home (spec 003, decisions/0009): bloco hero-13 da Watermelon adaptado.
- * - Fundo próprio (public/hero/hero-bg.webp) com `priority` (LCP).
- * - Sem `motion` nem `lucide-react`: ícones próprios; o único gradiente do site vive aqui (spec 006).
+ * Hero da home (spec 003, decisions/0009): layout do hero-37 da Watermelon,
+ * mockup docs/design/mockups/HeroV3Video.dc.html.
+ * - Poster (public/hero/hero-poster.webp) com `priority` = LCP; o loop de vídeo
+ *   entra por cima depois do carregamento (HeroVideo, a única parte client-side).
+ * - Sem `motion` nem `lucide-react`; a entrada usa os recipes t-hero-* de styles/motion.css.
  * - O hero é escuro nos dois temas (--color-ink-hero / --color-paper).
- * - Botão branco = busca (até ao M6 leva a /search; depois abre o ⌘K).
- * - Avatares de contribuidores ficam de fora até haver dados reais (não se inventam).
+ * - Botão branco = busca (sem JS leva a /search; com JS abre o ⌘K).
  */
-export async function Hero({ resourceCount }: HeroProps) {
+export async function Hero({ resourceCount, categoryCount, areaCount }: HeroProps) {
   const t = await getTranslations('hero');
   const nav = await getTranslations('nav');
   const a11y = await getTranslations('a11y');
@@ -63,38 +72,48 @@ export async function Hero({ resourceCount }: HeroProps) {
   return (
     <section
       aria-labelledby="hero-title"
-      className="relative isolate flex min-h-(--hero-min-height) flex-col overflow-hidden bg-ink-hero text-paper lg:h-(--hero-height) lg:min-h-0"
+      className="relative isolate flex min-h-(--hero-min-height) flex-col overflow-hidden bg-ink-hero text-paper"
     >
-      <Image
-        src={heroBg}
-        alt=""
-        priority
-        fetchPriority="high"
-        sizes="100vw"
-        placeholder="empty"
-        className="absolute inset-0 -z-20 h-full w-full object-cover object-center"
-      />
-      {/* Leitura do texto sobre o fundo: o único sítio onde gradientes são permitidos (spec 006). */}
+      <div aria-hidden="true" className="t-hero-bg absolute inset-0 -z-10">
+        <Image
+          src={heroPoster}
+          alt=""
+          priority
+          fetchPriority="high"
+          sizes="100vw"
+          placeholder="empty"
+          className="pointer-events-none absolute inset-0 h-full w-full object-cover object-center select-none"
+        />
+        <HeroVideo />
+      </div>
+      {/* Transição para a página: o fundo do hero funde-se no --color-ink (único gradiente do site, spec 006). */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 -z-10 bg-linear-to-t from-ink-hero/80 via-transparent to-ink-hero/40"
-      />
-      <div
-        aria-hidden="true"
-        className="absolute inset-0 -z-10 bg-linear-to-r from-ink-hero/60 via-transparent to-transparent"
+        className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-2/5"
+        style={{
+          // Curva suave (ease-out) para não se ver onde o fade começa.
+          background: `linear-gradient(to bottom,
+            transparent 0%,
+            color-mix(in srgb, var(--color-ink) 8%, transparent) 20%,
+            color-mix(in srgb, var(--color-ink) 25%, transparent) 40%,
+            color-mix(in srgb, var(--color-ink) 50%, transparent) 60%,
+            color-mix(in srgb, var(--color-ink) 78%, transparent) 78%,
+            color-mix(in srgb, var(--color-ink) 94%, transparent) 90%,
+            var(--color-ink) 100%)`,
+        }}
       />
 
-      <header className="flex items-center gap-6 px-(--gutter) py-6">
+      <header className="t-hero-nav mx-auto flex w-full max-w-(--container-max) items-center justify-between gap-6 px-(--gutter) py-5">
         <Link href="/" aria-label={a11y('homeLink')} className="shrink-0 rounded-sm">
           <Logo />
         </Link>
-        <nav aria-label={a11y('mainNav')} className="hidden flex-1 justify-center lg:flex">
-          <ul className="flex items-center gap-8">
+        <nav aria-label={a11y('mainNav')} className="hidden lg:block">
+          <ul className="flex items-center gap-10">
             {links.map(({ section, label }) => (
               <li key={section}>
                 <Link
                   href={sectionHref(section)}
-                  className="t-hover rounded-pill px-1 py-1 text-small font-medium text-paper/85 hover:text-paper"
+                  className="t-hover inline-flex min-h-10 items-center rounded-pill px-1 text-small text-paper/75 hover:text-paper"
                 >
                   {label}
                 </Link>
@@ -102,69 +121,118 @@ export async function Hero({ resourceCount }: HeroProps) {
             ))}
           </ul>
         </nav>
-        <div className="ml-auto flex items-center gap-3 lg:ml-0">
+        <div className="flex items-center gap-3">
+          <LocaleSwitch to={other} hrefLang={HTML_LANG[other]} label={localeT('label')} short={localeT('short')} />
           <a
             href={GITHUB_URL}
             rel="noopener"
-            className="t-hover t-icon-host hidden items-center gap-3 rounded-pill px-2 py-1 text-small font-medium text-paper/85 hover:text-paper sm:inline-flex"
+            className="t-hover t-icon-host hidden min-h-10 items-center gap-3 rounded-pill px-2 text-small text-paper/85 hover:text-paper sm:inline-flex"
           >
-            <span aria-hidden="true" className="size-2 rounded-pill bg-signal-orange" />
+            <span aria-hidden="true" className="size-2 bg-signal-orange" />
             <GithubIcon size={16} />
             {t('github')}
           </a>
-          <LocaleSwitch to={other} hrefLang={HTML_LANG[other]} label={localeT('label')} short={localeT('short')} />
           <MobileNav label={a11y('mainNav')} openLabel={a11y('openMenu')} links={links} addLabel={nav('addResource')} />
         </div>
       </header>
 
-      <div className="flex flex-1 flex-col justify-end px-(--gutter) pb-16 lg:justify-start lg:pt-4 lg:pb-0">
-        <div id="conteudo" tabIndex={-1} className="max-w-2xl outline-none">
-          <span className="inline-flex h-7 items-center rounded-pill border border-paper/12 bg-paper/8 px-4 text-mono font-medium text-paper/85">
-            {t('badge')}
-          </span>
-          <h1 id="hero-title" className="title-display mt-8 text-paper">
-            {t('title')}
-            <br />
-            {t('titleMuted')}
+      <div className="mx-auto flex w-full max-w-(--container-max) flex-1 flex-col px-(--gutter) pb-10">
+        <div
+          id="conteudo"
+          tabIndex={-1}
+          className="flex max-w-3xl flex-1 flex-col items-start justify-center pt-6 pb-6 outline-none"
+        >
+          <h1
+            id="hero-title"
+            className="text-hero font-normal leading-(--leading-title) tracking-(--tracking-title) text-paper"
+          >
+            <span className="t-hero-line block" data-hero-step="1">
+              {t('title')}
+            </span>
+            <span className="t-hero-line block" data-hero-step="2">
+              {t('titleMuted')}
+            </span>
           </h1>
-          <div
-            aria-hidden="true"
-            className="mt-10 h-px max-w-xs bg-linear-to-r from-paper/40 via-paper/15 to-transparent"
-          />
-          <p className="mt-6 max-w-md text-small text-paper/60">{t('description')}</p>
-          <div className="mt-10 flex flex-wrap items-center gap-4 lg:gap-6">
+          <p className="t-hero-up mt-5 max-w-105 text-small text-paper/70" data-hero-step="3">
+            {t('lede')}
+          </p>
+          <div className="t-hero-cta mt-8 flex flex-wrap items-center gap-5" data-hero-step="4">
             <Link
               href="/search"
               data-search-trigger
-              className="t-hover t-icon-host inline-flex h-10 items-center gap-3 rounded-pill bg-button-primary pr-2 pl-5 text-small font-semibold text-button-primary-text hover:opacity-90"
+              className="t-hover t-icon-host inline-flex min-h-11 items-center gap-3 rounded-pill bg-paper pr-2 pl-5 text-small font-medium text-ink-hero hover:opacity-90"
             >
-              <SearchIcon size={16} />
               {t('search')}
-              <kbd className="rounded-pill bg-graphite px-2 py-1 font-mono text-mono text-paper/70">
+              <ArrowRightIcon size={16} className="text-hero-kbd-text" />
+              <kbd className="rounded-pill bg-hero-kbd px-2 py-1 font-mono text-mono text-hero-kbd-text">
                 {nav('searchShortcut')}
               </kbd>
             </Link>
             <Link
               href="/add"
               data-umami-event="add_click"
-              className="t-hover t-icon-host inline-flex h-10 items-center gap-2 rounded-pill border border-border-button bg-button-secondary pr-2 pl-5 text-small font-semibold text-paper hover:bg-graphite"
+              className="t-hover t-icon-host inline-flex min-h-11 items-center gap-2 rounded-pill text-small text-paper/75 hover:text-paper"
             >
-              {t('howItWorks')}
-              <span
-                aria-hidden="true"
-                className="inline-flex size-6 items-center justify-center rounded-pill bg-paper/16"
-              >
-                <PlayIcon size={12} />
-              </span>
+              {t('add')}
+              <ArrowRightIcon size={14} />
             </Link>
           </div>
         </div>
-      </div>
 
-      <div className="flex items-end justify-between px-(--gutter) pt-8 pb-8">
-        <span aria-hidden="true" className="hidden h-10 w-12 border-b border-l border-paper/16 md:block" />
-        <p className="ml-auto text-small font-medium text-paper/60">{t('count', { count: resourceCount })}</p>
+        {resourceCount >= HERO_STATS_MIN ? (
+          <dl aria-label={t('stats')} className="flex gap-12">
+            <div className="t-hero-up flex flex-col-reverse gap-1" data-hero-step="5">
+              <dt className="ml-6 text-small text-paper/60">{t('curated')}</dt>
+              <dd className="flex items-center gap-2 text-body font-semibold tabular-nums">
+                <DotsMark />
+                {t('resources', { count: resourceCount })}
+              </dd>
+            </div>
+            <div className="t-hero-up flex flex-col-reverse gap-1" data-hero-step="6">
+              <dt className="ml-6 text-small text-paper/60">{t('inAreas', { count: areaCount })}</dt>
+              <dd className="flex items-center gap-2 text-body font-semibold tabular-nums">
+                <PlusMark />
+                {t('categories', { count: categoryCount })}
+              </dd>
+            </div>
+          </dl>
+        ) : null}
       </div>
     </section>
+  );
+}
+
+/* Marcas dos números (decorativas, do mockup). */
+function DotsMark() {
+  return (
+    <svg
+      width="14"
+      height="14"
+      viewBox="0 0 14 14"
+      aria-hidden="true"
+      focusable="false"
+      className="fill-current opacity-60"
+    >
+      <circle cx="3" cy="3" r="1.5" />
+      <circle cx="11" cy="3" r="1.5" />
+      <circle cx="3" cy="11" r="1.5" />
+      <circle cx="11" cy="11" r="1.5" />
+    </svg>
+  );
+}
+
+function PlusMark() {
+  return (
+    <svg
+      width="14"
+      height="14"
+      viewBox="0 0 14 14"
+      aria-hidden="true"
+      focusable="false"
+      className="fill-current opacity-60"
+    >
+      <rect x="2" y="5.5" width="10" height="3" rx="1" />
+      <rect x="5.5" y="2" width="3" height="10" rx="1" />
+    </svg>
   );
 }

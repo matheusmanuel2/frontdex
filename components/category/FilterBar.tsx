@@ -11,15 +11,9 @@ import { applyFilters, parseFilters, serializeFilters, type FilterItem, type Fil
 import type { ReactNode } from 'react';
 
 export type FilterLabels = RowLabels & {
-  /** Selo das linhas ("OSS"); `oss` é o rótulo do checkbox. */
-  ossBadge: string;
   filters: string;
   pricingLabel: string;
   all: string;
-  oss: string;
-  level: string;
-  levelAny: string;
-  levels: Record<'beginner' | 'intermediate' | 'expert', string>;
   sort: string;
   sortRecent: string;
   sortName: string;
@@ -89,30 +83,6 @@ export function FilterBar({ items, locale, labels, suggest }: FilterBarProps) {
             );
           })}
         </div>
-        <label className="t-hover flex h-10 cursor-pointer items-center gap-2 rounded-pill border border-border px-3 text-small text-secondary hover:text-primary">
-          <input
-            type="checkbox"
-            checked={filters.oss}
-            onChange={(event) => update({ oss: event.target.checked })}
-            className="size-4 accent-index-blue"
-          />
-          {labels.oss}
-        </label>
-        <label className="flex items-center gap-2 text-small text-secondary">
-          {labels.level}
-          <select
-            value={filters.level ?? ''}
-            onChange={(event) => update({ level: (event.target.value || undefined) as Filters['level'] })}
-            className={control}
-          >
-            <option value="">{labels.levelAny}</option>
-            {(['beginner', 'intermediate', 'expert'] as const).map((level) => (
-              <option key={level} value={level}>
-                {labels.levels[level]}
-              </option>
-            ))}
-          </select>
-        </label>
         <label className="flex items-center gap-2 text-small text-secondary sm:mr-2 sm:ml-auto">
           {labels.sort}
           <select
@@ -131,7 +101,7 @@ export function FilterBar({ items, locale, labels, suggest }: FilterBarProps) {
       </p>
 
       {shown.length > 0 ? (
-        <CategoryRows items={shown} locale={locale} labels={{ ...labels, oss: labels.ossBadge }} />
+        <CategoryRows items={shown} locale={locale} labels={labels} />
       ) : (
         <EmptyState
           title={labels.emptyTitle}

@@ -85,6 +85,13 @@
   --learn-in: var(--duration-fast);
   --learn-out: var(--duration-medium);
   --learn-ease: var(--ease-smooth-out);
+  /* Entrada do hero da home (hero-37, mockup HeroV3Video): mesma ordem e atrasos */
+  --hero-bg-dur: 1800ms;
+  --hero-line-dur: 1100ms;
+  --hero-up-dur: 800ms;
+  --hero-nav-dur: 700ms;
+  --hero-video-fade: var(--duration-slow);
+  --hero-ease: var(--ease-smooth-out);
 }
 
 /* ── Hover simples (cor, fundo, borda) ─────────────────────── */
@@ -298,6 +305,216 @@
   transform: scale(var(--scale-large));
 }
 
+/*
+ * Tinta decorativa dos cards da secção de áreas (D-15, section-2.html).
+ * Com WebGL, o shader desenha a tinta, a máscara a partir do canto e o véu de
+ * leitura (canvas com [data-ready]); o tempo da revelação é configuração interna
+ * do shader (ADR 0011). Sem WebGL fica a superfície sólida recortada abaixo.
+ */
+@property --area-ink-reveal {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 42%;
+}
+.t-area-card {
+  --area-ink-1: var(--color-index-blue);
+  --area-ink-2: var(--color-index-blue-light);
+  --area-ink-3: var(--color-paper);
+  overflow: hidden;
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background-color: var(--color-carbon);
+  color: var(--color-text-primary);
+}
+.t-area-card[data-area='discover'] {
+  --area-ink-1: var(--color-area-discover-1);
+  --area-ink-2: var(--color-area-discover-2);
+  --area-ink-3: var(--color-area-discover-3);
+}
+.t-area-card[data-area='learn'] {
+  --area-ink-1: var(--color-area-learn-1);
+  --area-ink-2: var(--color-area-learn-2);
+  --area-ink-3: var(--color-area-learn-3);
+}
+.t-area-card[data-area='build'] {
+  --area-ink-1: var(--color-area-build-1);
+  --area-ink-2: var(--color-area-build-2);
+  --area-ink-3: var(--color-area-build-3);
+}
+.t-area-card[data-area='grow'] {
+  --area-ink-1: var(--color-area-grow-1);
+  --area-ink-2: var(--color-area-grow-2);
+  --area-ink-3: var(--color-area-grow-3);
+}
+.t-area-card:hover,
+.t-area-card:focus-within {
+  border-color: var(--color-border-strong);
+}
+.t-area-card a:focus-visible {
+  outline: none;
+}
+.t-area-card:has(a:focus-visible) {
+  outline: var(--focus-ring-width) solid var(--color-focus);
+  outline-offset: var(--focus-ring-offset);
+}
+.t-area-ink {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.03);
+  filter: blur(var(--blur-small));
+}
+/* Fallback sem WebGL: superfície sólida recortada a partir do canto */
+.t-area-ink:not([data-ready]) {
+  background-color: var(--area-ink-1);
+  opacity: 0.5;
+  clip-path: circle(var(--area-ink-reveal) at 100% 100%);
+  transition:
+    --area-ink-reveal var(--duration-very-slow) var(--ease-smooth-out),
+    opacity var(--duration-very-slow) var(--ease-smooth-out);
+}
+.t-area-card[data-empty] .t-area-ink:not([data-ready]) {
+  opacity: 0.35;
+}
+.t-area-card:hover .t-area-ink:not([data-ready]),
+.t-area-card:focus-within .t-area-ink:not([data-ready]) {
+  --area-ink-reveal: 190%;
+  opacity: 1;
+}
+.t-area-card:has(.t-area-ink:not([data-ready]))::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  pointer-events: none;
+  background-color: var(--color-ink);
+  opacity: 0;
+  transition: opacity var(--duration-very-slow) var(--ease-smooth-out);
+}
+.t-area-card:has(.t-area-ink:not([data-ready])):hover::after,
+.t-area-card:has(.t-area-ink:not([data-ready])):focus-within::after {
+  opacity: 0.6;
+}
+.t-area-card-copy,
+.t-area-card-count,
+.t-area-card-cats,
+.t-area-card-empty {
+  transition:
+    color var(--duration-slow) var(--ease-smooth-out),
+    border-color var(--duration-slow) var(--ease-smooth-out);
+}
+.t-area-card:hover .t-area-card-copy,
+.t-area-card:focus-within .t-area-card-copy,
+.t-area-card:hover .t-area-card-count,
+.t-area-card:focus-within .t-area-card-count,
+.t-area-card:hover .t-area-card-cats,
+.t-area-card:focus-within .t-area-card-cats,
+.t-area-card:hover .t-area-card-empty,
+.t-area-card:focus-within .t-area-card-empty {
+  color: var(--color-text-primary);
+}
+.t-area-card:hover .t-area-card-count,
+.t-area-card:focus-within .t-area-card-count {
+  border-color: var(--color-border-strong);
+}
+.t-area-card-btn {
+  transform: rotate(0);
+  transition: transform var(--duration-slow) var(--ease-smooth-out);
+}
+.t-area-card:hover .t-area-card-btn,
+.t-area-card:focus-within .t-area-card-btn {
+  transform: rotate(-45deg);
+}
+
+/* ── Hero da home: entrada (hero-37) e troca poster → vídeo ─── */
+.t-hero-bg {
+  animation: t-hero-bg-in var(--hero-bg-dur) var(--hero-ease) both;
+}
+.t-hero-nav {
+  animation: t-hero-nav-in var(--hero-nav-dur) var(--hero-ease) 50ms both;
+}
+.t-hero-line {
+  animation: t-hero-line-in var(--hero-line-dur) var(--hero-ease) var(--hero-delay, 0ms) both;
+}
+.t-hero-up {
+  animation: t-hero-up-in var(--hero-up-dur) var(--hero-ease) var(--hero-delay, 0ms) both;
+}
+.t-hero-cta {
+  animation: t-hero-cta-in var(--hero-nav-dur) var(--hero-ease) var(--hero-delay, 0ms) both;
+}
+/* Atrasos do hero-37, por ordem de entrada */
+[data-hero-step='1'] {
+  --hero-delay: 350ms;
+}
+[data-hero-step='2'] {
+  --hero-delay: 510ms;
+}
+[data-hero-step='3'] {
+  --hero-delay: 950ms;
+}
+[data-hero-step='4'] {
+  --hero-delay: 1180ms;
+}
+[data-hero-step='5'] {
+  --hero-delay: 1400ms;
+}
+[data-hero-step='6'] {
+  --hero-delay: 1520ms;
+}
+.t-hero-video {
+  opacity: 0;
+  transition: opacity var(--hero-video-fade) var(--ease-out);
+}
+.t-hero-video[data-playing] {
+  opacity: 1;
+}
+/* Safari/iOS: nunca mostrar o botão de play nativo por cima do fundo */
+.t-hero-video::-webkit-media-controls,
+.t-hero-video::-webkit-media-controls-start-playback-button,
+.t-hero-video::-webkit-media-controls-overlay-play-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+@keyframes t-hero-bg-in {
+  from {
+    opacity: 0;
+    transform: scale(1.06);
+  }
+}
+@keyframes t-hero-nav-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+    filter: blur(8px);
+  }
+}
+@keyframes t-hero-line-in {
+  from {
+    opacity: 0;
+    transform: translateY(52px);
+    filter: blur(18px);
+  }
+}
+@keyframes t-hero-up-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(6px);
+  }
+}
+@keyframes t-hero-cta-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.93);
+  }
+}
+
 /* ── Movimento reduzido: tudo estático ──────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   .t-hover,
@@ -310,7 +527,13 @@
   .t-tt,
   .t-learn-chevron,
   .t-learn-arm,
-  .t-icon-anim {
+  .t-icon-anim,
+  .t-hero-bg,
+  .t-hero-nav,
+  .t-hero-line,
+  .t-hero-up,
+  .t-hero-cta,
+  .t-hero-video {
     transition: none !important;
     animation: none !important;
   }
@@ -318,6 +541,19 @@
   .t-icon-host:focus-visible .t-icon-anim,
   .t-learn:hover .t-learn-chevron,
   .t-learn:hover .t-learn-arm {
+    transform: none !important;
+  }
+  .t-area-card,
+  .t-area-ink,
+  .t-area-card-copy,
+  .t-area-card-count,
+  .t-area-card-cats,
+  .t-area-card-empty,
+  .t-area-card-btn {
+    transition: none !important;
+  }
+  .t-area-card:hover .t-area-card-btn,
+  .t-area-card:focus-within .t-area-card-btn {
     transform: none !important;
   }
 }

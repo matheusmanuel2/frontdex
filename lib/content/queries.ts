@@ -34,6 +34,21 @@ export function getResource(content: Content, slug: string): Resource | undefine
   return content.resources.find((resource) => resource.slug === slug && resource.status === 'active');
 }
 
+/**
+ * Recurso com página própria: `active` ou `archived` (spec 009). Arquivados mantêm a página
+ * com aviso e `noindex`, para não quebrar links externos; `draft` nunca tem página.
+ */
+export function getResourcePage(content: Content, slug: string): Resource | undefined {
+  return content.resources.find(
+    (resource) => resource.slug === slug && (resource.status === 'active' || resource.status === 'archived'),
+  );
+}
+
+/** Recursos com página própria (`active` e `archived`). */
+export function listResourcePages(content: Content): Resource[] {
+  return content.resources.filter((resource) => resource.status === 'active' || resource.status === 'archived');
+}
+
 /** Alternativas publicadas de um recurso, pela ordem do YAML. */
 export function getAlternatives(content: Content, slug: string): Resource[] {
   const resource = getResource(content, slug);

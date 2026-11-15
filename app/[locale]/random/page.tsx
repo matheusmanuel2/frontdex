@@ -14,7 +14,8 @@ type Props = { params: Promise<{ locale: AppLocale }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'random' });
-  return localizedMetadata(locale, '/random', t('eyebrow'), t('title'));
+  // Conteúdo escolhido ao acaso no browser: sem valor próprio para o índice (spec 009).
+  return localizedMetadata(locale, '/random', t('eyebrow'), t('title'), { robots: { index: false, follow: true } });
 }
 
 /** Surpresa (spec 003 + decisão D-01): card com um recurso ao acaso, escolhido no browser. */

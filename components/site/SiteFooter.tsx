@@ -1,6 +1,8 @@
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 
 import { Link } from '@/components/site/LocaleLink';
+import { listAreas } from '@/lib/content';
+import type { AppLocale } from '@/lib/i18n/routing';
 
 import { GITHUB_URL } from './nav';
 
@@ -10,12 +12,24 @@ const footerLink = 't-hover rounded-sm text-small text-secondary hover:text-prim
 export async function SiteFooter() {
   const t = await getTranslations('footer');
   const a11y = await getTranslations('a11y');
+  const seo = await getTranslations('seo');
+  const locale = (await getLocale()) as AppLocale;
 
   return (
     <footer className="mt-auto border-t border-border">
-      <div className="mx-auto flex max-w-(--container-max) flex-wrap items-center justify-between gap-4 px-(--gutter) py-6">
-        <p className="text-small text-secondary">{t('tagline')}</p>
-        <nav aria-label={a11y('footerNav')}>
+      <div className="mx-auto flex max-w-(--container-max) flex-col gap-8 px-(--gutter) pt-12 pb-8 md:flex-row md:items-end md:justify-between">
+        {/* Voz da marca, não nota de rodapé. */}
+        <p className="title-h3 max-w-md text-primary">{t('tagline')}</p>
+        <nav aria-label={a11y('footerNav')} className="flex flex-col gap-3 md:items-end">
+          <ul aria-label={seo('areas')} className="flex flex-wrap gap-x-5 gap-y-2">
+            {listAreas().map((area) => (
+              <li key={area.slug}>
+                <Link href={`/${area.slug}`} className={footerLink}>
+                  {area.name[locale]}
+                </Link>
+              </li>
+            ))}
+          </ul>
           <ul className="flex flex-wrap gap-x-5 gap-y-2">
             <li>
               <Link href="/new" className={footerLink}>
@@ -36,6 +50,11 @@ export async function SiteFooter() {
               <Link href="/about" className={footerLink}>
                 {t('about')}
               </Link>
+            </li>
+            <li>
+              <a href="/api/resources.json" className={footerLink} type="application/json">
+                {seo('data')}
+              </a>
             </li>
             <li>
               <a href={GITHUB_URL} className={footerLink} rel="noopener">

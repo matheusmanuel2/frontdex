@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FrontDex — Explorar por área (protótipo)</title>
+<style>
+  :root{
+    --bg:#0B0C0F; --card:#131418; --line:rgba(255,255,255,.07);
+    --text:#F2F3F5; --muted:#8B8F98; --dim:#5E626B;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1200px;margin:0 auto;padding:96px 32px}
+  h2{margin:0;font-size:48px;font-weight:500;letter-spacing:-.03em}
+  .sub{margin:10px 0 40px;font-size:16px;color:var(--muted)}
+  .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+
+  .card{position:relative;isolation:isolate;overflow:hidden;min-height:320px;padding:28px;
+    border-radius:24px;background:var(--card);border:1px solid var(--line);
+    display:flex;flex-direction:column;justify-content:space-between;
+    color:inherit;text-decoration:none;outline:none}
+  .card:focus-visible{box-shadow:0 0 0 2px var(--bg),0 0 0 4px #5B7CFF}
+
+  /* camada de tinta (WebGL) */
+  @property --r{syntax:"<percentage>";inherits:false;initial-value:30%}
+  .fluid{position:absolute;inset:0;width:100%;height:100%;z-index:-1;
+    filter:blur(2.5px);transform:scale(1.03);
+    --r:30%;opacity:.5;
+    -webkit-mask-image:radial-gradient(circle at 100% 100%,#000 calc(var(--r) - 24%),transparent var(--r));
+            mask-image:radial-gradient(circle at 100% 100%,#000 calc(var(--r) - 24%),transparent var(--r));
+    transition:--r .9s cubic-bezier(.2,.7,.2,1),opacity .7s cubic-bezier(.2,.7,.2,1)}
+  .card.empty .fluid{opacity:.35}
+  .card:hover .fluid,.card:focus-visible .fluid{--r:190%;opacity:1}
+
+  /* véu escuro para leitura (só aparece com a tinta) */
+  .card::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+    background:
+      radial-gradient(120% 70% at 0% 0%,rgba(6,7,12,.55),transparent 70%),
+      linear-gradient(180deg,rgba(6,7,12,.7) 0%,rgba(6,7,12,.45) 28%,rgba(6,7,12,.08) 55%,rgba(6,7,12,.12) 72%,rgba(6,7,12,.6) 100%);
+    opacity:0;transition:opacity .7s}
+  .card:hover::after,.card:focus-visible::after{opacity:1}
+
+  .top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+  .name{margin:0;font-size:24px;font-weight:500;letter-spacing:-.02em}
+  .lead{margin:8px 0 0;font-size:15px;line-height:1.5;color:var(--muted);max-width:42ch;transition:color .4s}
+  .count{flex:none;font-size:12px;padding:5px 10px;border-radius:999px;
+    border:1px solid var(--line);color:var(--muted);transition:all .4s}
+
+  .bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
+  .cats{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.7;color:var(--dim);transition:color .4s}
+  .btn{flex:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;
+    background:#fff;color:#0B0C0F;transition:transform .4s cubic-bezier(.2,.7,.2,1)}
+  .btn svg{width:18px;height:18px}
+  .empty-note{font-size:13px;color:var(--dim);transition:color .4s}
+
+  .card:hover .lead,.card:focus-visible .lead{color:#fff;text-shadow:0 1px 12px rgba(0,0,0,.35)}
+  .card:hover .cats,.card:focus-visible .cats,
+  .card:hover .empty-note,.card:focus-visible .empty-note{color:rgba(255,255,255,.85)}
+  .card:hover .count,.card:focus-visible .count{color:#fff;border-color:rgba(255,255,255,.35)}
+  .card:hover .btn,.card:focus-visible .btn{transform:rotate(-45deg)}
+
+  /* cor por área, dentro da família azul da marca */
+
+  @media (max-width:720px){.grid{grid-template-columns:1fr}}
+  @media (max-width:560px){.grid{grid-template-columns:1fr}.card{min-height:260px}h2{font-size:36px}}
+  @media (prefers-reduced-motion:reduce){.btn{transition:none}}
+</style>
+</head>
+<body>
+<section class="wrap">
+  <h2>Explorar por área</h2>
+  <p class="sub">Organizado pelo momento do seu trabalho, da ideia à entrega.</p>
+
+  <div class="grid">
+    <a class="card a1" data-ink="#2E4BFF,#9B6BFF,#E9ECFF" href="#descobrir">
+      <canvas class="fluid" aria-hidden="true"></canvas>
+      <div>
+        <div class="top"><p class="name">Descobrir</p><span class="count">3 recursos</span></div>
+        <p class="lead">Referências de interfaces reais e pessoas para seguir, para quando procuras uma ideia.</p>
+      </div>
+      <div class="bottom">
+        <ul class="cats"><li>Inspiração de UI</li></ul>
+        <span class="btn" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
+    </a>
+
+    <a class="card a2 empty" data-ink="#0E8FE0,#38D3FF,#E6F8FF" href="#aprender">
+      <canvas class="fluid" aria-hidden="true"></canvas>
+      <div>
+        <div class="top"><p class="name">Aprender</p><span class="count">Em breve</span></div>
+        <p class="lead">Cursos, livros e guias para entender o porquê, do HTML ao design engineering.</p>
+      </div>
+      <div class="bottom">
+        <span class="empty-note">Em construção.<br>Sugira o primeiro recurso.</span>
+        <span class="btn" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+      </div>
+    </a>
+
+    <a class="card a3" data-ink="#1F5BFF,#4FB2FF,#EAF2FF" href="#construir">
+      <canvas class="fluid" aria-hidden="true"></canvas>
+      <div>
+        <div class="top"><p class="name">Construir</p><span class="count">5 recursos</span></div>
+        <p class="lead">Bibliotecas, ícones e ferramentas testadas para quando a ideia já existe e falta a peça.</p>
+      </div>
+      <div class="bottom">
+        <ul class="cats"><li>Componentes de UI</li><li>Animação</li><li>Gráficos e dashboards</li><li>Ferramentas de dev</li></ul>
+        <span class="btn" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
+    </a>
+
+    <a class="card a4 empty" data-ink="#5B3BFF,#28C9B5,#ECFFFB" href="#crescer">
+      <canvas class="fluid" aria-hidden="true"></canvas>
+      <div>
+        <div class="top"><p class="name">Crescer</p><span class="count">Em breve</span></div>
+        <p class="lead">Comunidades, open source e carreira, para o que acontece fora do editor.</p>
+      </div>
+      <div class="bottom">
+        <span class="empty-note">Em construção.<br>Sugira o primeiro recurso.</span>
+        <span class="btn" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<script>
+(()=>{
+const VERT=`attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}`;
+const FRAG=`precision highp float;
+uniform vec2 R;uniform float T;uniform vec2 M;uniform float V;
+uniform vec3 C1;uniform vec3 C2;uniform vec3 C3;
+float h(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+float n(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);
+ return mix(mix(h(i),h(i+vec2(1,0)),f.x),mix(h(i+vec2(0,1)),h(i+vec2(1,1)),f.x),f.y);}
+float fbm(vec2 p){float v=0.,a=.5;mat2 m=mat2(1.6,1.2,-1.2,1.6);
+ for(int i=0;i<4;i++){v+=a*n(p);p=m*p;a*=.5;}return v;}
+void main(){
+ vec2 uv=gl_FragCoord.xy/R;vec2 asp=vec2(R.x/R.y,1.);
+ vec2 p=uv*asp*1.15;vec2 m=M*asp*1.15;
+ vec2 d=p-m;float fall=exp(-dot(d,d)*3.);
+ float t=T*.045;
+ p-=d*fall*(.25+V*1.2);
+ p+=vec2(-d.y,d.x)*fall*V*1.5;
+ vec2 q=vec2(fbm(p+vec2(0.,t)),fbm(p+vec2(5.2,1.3)-t));
+ vec2 r=vec2(fbm(p+2.9*q+vec2(1.7,9.2)+.1*T*.1),fbm(p+2.9*q+vec2(8.3,2.8)-.08*T*.1));
+ float f=fbm(p+2.9*r);
+ vec3 col=mix(C1,C2,clamp(f*f*2.2,0.,1.));
+ col=mix(col,C1*.85,clamp(length(q)-.55,0.,1.));
+ float vein=smoothstep(.62,.9,r.x+f*.35);
+ col=mix(col,C3,vein*.7);
+ col=mix(col,C3,fall*.28*smoothstep(.35,.85,f));
+ col*=.92+.08*f;
+ gl_FragColor=vec4(col,1.);
+}`;
+const hex=c=>{const v=parseInt(c.slice(1),16);return[(v>>16&255)/255,(v>>8&255)/255,(v&255)/255];};
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+document.querySelectorAll('.card[data-ink]').forEach(card=>{
+ const cv=card.querySelector('canvas.fluid');
+ const gl=cv.getContext('webgl',{premultipliedAlpha:false,antialias:false});
+ if(!gl){cv.style.background='linear-gradient(135deg,'+card.dataset.ink.split(',').slice(0,2).join(',')+')';return;}
+ const sh=(t,src)=>{const s=gl.createShader(t);gl.shaderSource(s,src);gl.compileShader(s);return s;};
+ const pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,VERT));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,FRAG));
+ gl.linkProgram(pr);gl.useProgram(pr);
+ gl.bindBuffer(gl.ARRAY_BUFFER,gl.createBuffer());
+ gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);
+ const loc=gl.getAttribLocation(pr,'p');gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
+ const U=k=>gl.getUniformLocation(pr,k);
+ const [c1,c2,c3]=card.dataset.ink.split(',').map(hex);
+ gl.uniform3fv(U('C1'),c1);gl.uniform3fv(U('C2'),c2);gl.uniform3fv(U('C3'),c3);
+
+ const SCALE=.45;
+ const size=()=>{const r=card.getBoundingClientRect();cv.width=Math.max(1,r.width*SCALE);cv.height=Math.max(1,r.height*SCALE);gl.viewport(0,0,cv.width,cv.height);};
+ size();new ResizeObserver(size).observe(card);
+
+ const REST=[.88,.12];let target=[...REST],cur=[...REST],vel=0,running=false,active=false,visible=false,tick=0,t0=performance.now();
+ const set=e=>{const r=card.getBoundingClientRect();target=[(e.clientX-r.left)/r.width,1-(e.clientY-r.top)/r.height];};
+ const frame=now=>{
+  if(!active&&(tick++%2)){if(active||visible)requestAnimationFrame(frame);else running=false;return;}
+  const dx=target[0]-cur[0],dy=target[1]-cur[1];
+  cur[0]+=dx*.045;cur[1]+=dy*.045;
+  vel=vel*.95+Math.min(Math.hypot(dx,dy),.5)*.08;
+  gl.uniform2f(U('R'),cv.width,cv.height);
+  gl.uniform1f(U('T'),reduce?0:(now-t0)/1000);
+  gl.uniform2f(U('M'),cur[0],cur[1]);
+  gl.uniform1f(U('V'),reduce?0:vel);
+  gl.drawArrays(gl.TRIANGLE_STRIP,0,4);
+  if(active||visible)requestAnimationFrame(frame);else running=false;
+ };
+ const start=()=>{if(!running){running=true;requestAnimationFrame(frame);}};
+ card.addEventListener('pointerenter',e=>{set(e);active=true;start();});
+ card.addEventListener('pointermove',set);
+ card.addEventListener('pointerleave',()=>{active=false;target=[...REST];});
+ card.addEventListener('focus',()=>{active=true;start();});
+ card.addEventListener('blur',()=>{active=false;target=[...REST];});
+ new IntersectionObserver(([e])=>{visible=e.isIntersecting;if(visible)start();}).observe(card);
+});
+})();
+</script>
+</body>
+</html>

@@ -1,11 +1,13 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { Breadcrumb, Eyebrow, SectionTitle } from '@/components/index';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { GITHUB_URL } from '@/components/site/nav';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import AddEn from '@/content/pages/add.en.mdx';
 import AddPt from '@/content/pages/add.pt.mdx';
 import type { AppLocale } from '@/lib/i18n/routing';
+import { breadcrumbNode, graph, webPageNode } from '@/lib/seo/jsonld';
 import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
@@ -26,11 +28,20 @@ export default async function AddPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations('add');
   const areaT = await getTranslations('area');
+  const path = `/${locale}/add`;
+  const structured = graph(
+    webPageNode({ locale, path, name: t('eyebrow'), description: t('intro') }),
+    breadcrumbNode(path, [
+      { name: areaT('index'), path: `/${locale}` },
+      { name: t('eyebrow'), path },
+    ]),
+  );
   const Content = CONTENT[locale];
 
   return (
     <>
       <SiteHeader />
+      <JsonLd data={structured} />
       <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14">
         <Breadcrumb
           label={areaT('breadcrumb')}

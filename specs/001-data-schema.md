@@ -27,6 +27,7 @@ O nome do ficheiro é o slug e a URL (`calligraph.yaml` → `/pt/r/calligraph`).
 | `description.pt` / `description.en` | string | sim* | 40–160 caracteres cada |
 | `why.pt` / `why.en` | string | não | A frase de curadoria, ≤ 160 caracteres |
 | `alternatives` | slug[] | não | Slugs de outros recursos existentes |
+| `featured` | boolean | não | Destaque da curadoria ("Pouco conhecidos, muito úteis" na home). Só o curador marca. |
 | `added` | data | sim | ISO `YYYY-MM-DD` |
 | `last_checked` | data | sim | Atualizada pelo link checker |
 | `status` | enum | sim | `active` · `draft` · `archived` |

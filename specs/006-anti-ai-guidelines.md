@@ -14,6 +14,8 @@ A FrontDex não pode parecer gerada por IA. Estas regras são verificáveis. As 
 - Imports de `lucide-react`, `@heroicons/react`, `react-icons`, `@tabler/icons-react`.
 - Emojis em títulos, botões e navegação.
 
+Exceção D-15: a secção "Explorar por área" pode usar tinta WebGL decorativa azul nos cards. A exceção não permite gradientes CSS, blobs genéricos, cores fora dos tokens ou efeitos semelhantes em outras secções.
+
 ## Texto — o CI falha (pt e en, sem diferenciar maiúsculas)
 
 unlock, seamless, elevate, empower, supercharge, dive into, unleash, game-changer, cutting-edge, "whether you're a beginner or an expert", desbloquear, potencializar, eleve, mergulhe, revolucionário, de ponta, "seja você iniciante ou especialista".
@@ -27,6 +29,8 @@ Também: tríades vazias ("rápido, simples e poderoso") e mais de um travessão
 - Cards grandes onde uma lista densa serve.
 - Ilustrações 3D genéricas, orbs, blobs, partículas.
 - Componentes Watermelon/shadcn usados sem re-tematizar (cor, fonte e raio da FrontDex).
+
+Exceção D-15: a tinta WebGL reativa ao ponteiro dos cards de área é permitida apenas nessa secção, como camada decorativa atrás do conteúdo.
 
 ## O que dá identidade
 

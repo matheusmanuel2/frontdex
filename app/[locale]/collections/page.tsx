@@ -1,10 +1,12 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { Breadcrumb, CollectionCard, EmptyState, Eyebrow, SectionTitle } from '@/components/index';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { Link } from '@/components/site/LocaleLink';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getArea, getCollectionResources, listCollections } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
+import { breadcrumbNode, collectionPageNode, graph } from '@/lib/seo/jsonld';
 import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
@@ -28,10 +30,25 @@ export default async function CollectionsPage({ params }: Props) {
   const areaT = await getTranslations('area');
   const nav = await getTranslations('nav');
   const collections = listCollections();
+  const path = `/${locale}/collections`;
+  const structured = graph(
+    collectionPageNode(
+      { locale, path, name: nav('collections'), description: t('intro') },
+      collections.map((collection) => ({
+        name: collection.title[locale],
+        path: `/${locale}/collections/${collection.slug}`,
+      })),
+    ),
+    breadcrumbNode(path, [
+      { name: areaT('index'), path: `/${locale}` },
+      { name: nav('collections'), path },
+    ]),
+  );
 
   return (
     <>
       <SiteHeader current="collections" />
+      <JsonLd data={structured} />
       <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14">
         <Breadcrumb
           label={areaT('breadcrumb')}

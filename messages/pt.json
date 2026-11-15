@@ -52,39 +52,40 @@
     "titleMuted": "Mais construção.",
     "description": "A FrontDex reúne ferramentas, bibliotecas, cursos e comunidades de front-end, cada um com uma linha sobre por que vale o seu tempo.",
     "search": "Buscar no índice",
-    "howItWorks": "Como funciona",
-    "count": "{count, plural, =0 {# recursos curados} one {# recurso curado} other {# recursos curados}} pela comunidade",
-    "github": "GitHub"
+    "github": "GitHub",
+    "lede": "Um índice aberto e curado de recursos front-end. Cada recurso tem uma linha que diz por que vale o seu tempo.",
+    "add": "ou adicione um recurso",
+    "resources": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}",
+    "curated": "curados à mão",
+    "categories": "{count, plural, =0 {# categorias} one {# categoria} other {# categorias}}",
+    "inAreas": "{count, plural, =0 {em # áreas} one {em # área} other {em # áreas}}",
+    "stats": "O índice em números"
   },
   "home": {
     "areas": {
-      "eyebrow": "01 — Direções",
-      "title": "Escolha uma direção.",
-      "titleMuted": "Quatro portas para o índice.",
-      "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}"
+      "title": "Explorar por área",
+      "subtitle": "Organizado pelo momento do seu trabalho, da ideia à entrega.",
+      "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}",
+      "comingSoon": "Em breve",
+      "empty": "Em construção",
+      "suggest": "Sugerir o primeiro",
+      "suggestLabel": "Sugerir o primeiro recurso de {area}"
     },
     "fresh": {
-      "eyebrow": "02 — Novos",
-      "title": "Recém-indexados.",
-      "titleMuted": "Os mais recentes do índice.",
+      "title": "Adicionados recentemente",
       "all": "Ver todos os novos",
-      "list": "Recursos recém-indexados"
+      "list": "Recursos adicionados recentemente"
     },
     "gems": {
-      "eyebrow": "03 — Joias escondidas",
-      "title": "Útil antes de popular.",
-      "titleMuted": "Coisas que talvez você não conheça.",
+      "title": "Pouco conhecidos, muito úteis",
       "why": "Por que está aqui"
     },
     "collections": {
-      "eyebrow": "04 — Coleções",
-      "title": "Curadas, em ordem.",
-      "titleMuted": "Listas curtas com ponto de vista.",
+      "title": "Coleções",
       "all": "Todas as coleções",
       "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}"
     },
     "contribute": {
-      "eyebrow": "05 — Contribua",
       "title": "Feito em público.",
       "titleMuted": "Indexado pela comunidade.",
       "body": "Cada recurso é um arquivo YAML no GitHub. Abra um pull request, ou preencha um formulário e um bot abre o PR por você.",
@@ -92,7 +93,7 @@
       "step2": "O CI confere o schema, o link e os dois idiomas.",
       "step3": "Um curador revisa. Merge é publicação.",
       "add": "Adicionar recurso",
-      "guidelines": "Ler as diretrizes",
+      "guidelines": "Ler diretrizes",
       "example": "Exemplo real do índice"
     }
   },
@@ -124,7 +125,8 @@
     "no": "Não",
     "edit": "Algo errado ou desatualizado?",
     "editLink": "Sugira uma edição no GitHub",
-    "ossBadge": "Open source"
+    "ossBadge": "Open source",
+    "archivedBadge": "Arquivado"
   },
   "area": {
     "breadcrumb": "Trilho",
@@ -146,9 +148,6 @@
     "filters": "Filtros",
     "pricing": "Preço",
     "all": "Todos",
-    "oss": "Só open source",
-    "level": "Nível",
-    "levelAny": "Qualquer",
     "sort": "Ordenar",
     "sortRecent": "Mais recentes",
     "sortName": "Nome",
@@ -277,5 +276,16 @@
     "resultsFor": "Resultados para “{q}”",
     "indexList": "Índice completo",
     "category": "Categoria"
+  },
+  "seo": {
+    "areaTitle": "{area}: recursos front-end curados",
+    "categoryTitle": "{category}: recursos front-end selecionados",
+    "categoryDescription": "{count, plural, =0 {Recursos de {category} para front-end, escolhidos por pessoas.} one {# recurso de {category} para front-end, escolhido por pessoas, com o motivo de estar no índice.} other {# recursos de {category} para front-end, escolhidos por pessoas, cada um com o motivo de estar no índice.}}",
+    "resourceTitle": "{name}: {category}",
+    "archived": "Este recurso foi arquivado e já não faz parte das recomendações do índice. A página fica como registo.",
+    "related": "Mais em {category}",
+    "relatedList": "Outros recursos de {category}",
+    "data": "Dados abertos",
+    "areas": "Áreas"
   }
 }

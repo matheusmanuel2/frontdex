@@ -5,6 +5,7 @@ import { useEffect, useId, useMemo, useRef, useState, type RefObject } from 'rea
 import { ArrowRightIcon, SearchIcon } from '@/components/icons';
 import { IndexId } from '@/components/index';
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from '@/components/ui/dialog';
+import { outboundUrl } from '@/lib/outbound';
 import { loadPagefind, search, type SearchHit } from '@/lib/search/pagefind';
 import { cn } from '@/lib/utils';
 
@@ -91,7 +92,7 @@ export function CommandMenuDialog({ open, onOpenChange, locale, labels, returnFo
 
   const go = (item: Item | undefined, external: boolean) => {
     if (!item) return;
-    if (external && item.externalUrl) window.open(item.externalUrl, '_blank', 'noopener');
+    if (external && item.externalUrl) window.open(outboundUrl(item.externalUrl), '_blank', 'noopener');
     else window.location.assign(item.href);
   };
 

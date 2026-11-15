@@ -90,6 +90,8 @@ export const resourceSchema = z
     description: z.object({ pt: descriptionText, en: descriptionText }).strict(),
     why: z.object({ pt: whyText, en: whyText }).partial().strict().optional(),
     alternatives: z.array(slugSchema).optional(),
+    /** Marcado pela curadoria para "Pouco conhecidos, muito úteis" na home. */
+    featured: z.boolean().optional(),
     added: isoDateSchema,
     last_checked: isoDateSchema,
     status: z.enum(RESOURCE_STATUS, { error: `tem de ser ${RESOURCE_STATUS.join(', ')}` }),
