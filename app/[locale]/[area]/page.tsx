@@ -5,7 +5,6 @@ import {
   Breadcrumb,
   CategoryCard,
   EmptyState,
-  Eyebrow,
   ResourceList,
   ResourceRow,
   SectionTitle,
@@ -59,7 +58,6 @@ export default async function AreaPage({ params }: Props) {
   if (!area) notFound();
 
   const t = await getTranslations('area');
-  const nav = await getTranslations('nav');
   const resources = listResources({ area: slug });
   const categories = listCategories(slug)
     .map((category) => ({ category, items: listResources({ category: category.slug }) }))
@@ -77,16 +75,8 @@ export default async function AreaPage({ params }: Props) {
         />
         <div className="mt-5 flex flex-wrap items-end justify-between gap-6">
           <div>
-            <Eyebrow className="mb-5">
-              {AREA_NUMBER[slug]} / {nav(slug)}
-            </Eyebrow>
-            <SectionTitle
-              as="h1"
-              size="h1"
-              title={`${area.name[locale]}.`}
-              muted={area.description[locale]}
-              className="max-w-4xl"
-            />
+            <SectionTitle as="h1" size="h1" title={`${area.name[locale]}.`} className="max-w-4xl" />
+            <p className="mt-5 max-w-2xl text-body text-secondary">{area.description[locale]}</p>
           </div>
           <p className="font-mono text-mono text-muted">
             {t('stats', { resources: resources.length, categories: categories.length })}

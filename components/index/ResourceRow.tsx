@@ -22,6 +22,12 @@ type ResourceRowProps = {
   compact?: boolean;
   /** Posição numa lista ordenada (coleções): substitui o ID na primeira coluna. */
   position?: number;
+  /** Linha curta e secundária por baixo da descrição (o "por que está aqui"). */
+  note?: string;
+  /** Seta à direita (padrão). A home usa a linha sem seta. */
+  arrow?: boolean;
+  /** ID com mais presença, como número de arquivo (home). */
+  prominentId?: boolean;
 };
 
 /**
@@ -38,6 +44,9 @@ export function ResourceRow({
   aside,
   compact = false,
   position,
+  note,
+  arrow = true,
+  prominentId = false,
 }: ResourceRowProps) {
   const lead = position ?? id;
   return (
@@ -46,9 +55,15 @@ export function ResourceRow({
         href={href}
         className={cn(
           't-hover t-icon-host group grid items-center gap-x-5 gap-y-2 px-5 py-4 text-primary hover:bg-row-hover sm:px-6',
-          'grid-cols-[minmax(0,1fr)_16px]',
+          arrow ? 'grid-cols-[minmax(0,1fr)_16px]' : 'grid-cols-1',
           // Sem ID (antes do assign-ids), a coluna do ID não existe.
-          lead === undefined ? 'sm:grid-cols-[minmax(0,1fr)_auto_16px]' : 'sm:grid-cols-[64px_minmax(0,1fr)_auto_16px]',
+          lead === undefined
+            ? arrow
+              ? 'sm:grid-cols-[minmax(0,1fr)_auto_16px]'
+              : 'sm:grid-cols-[minmax(0,1fr)_auto]'
+            : arrow
+              ? 'sm:grid-cols-[64px_minmax(0,1fr)_auto_16px]'
+              : 'sm:grid-cols-[80px_minmax(0,1fr)_auto]',
           '-outline-offset-2',
         )}
       >
@@ -58,7 +73,7 @@ export function ResourceRow({
           </span>
         ) : id === undefined ? null : (
           <span className="hidden sm:block">
-            <IndexId id={id} />
+            <IndexId id={id} className={prominentId ? 'text-small text-secondary' : undefined} />
           </span>
         )}
         <span className="min-w-0">
@@ -67,6 +82,7 @@ export function ResourceRow({
             {badges}
           </span>
           <span className={cn('mt-1 block text-small text-secondary', compact && 'truncate')}>{description}</span>
+          {note ? <span className="mt-1 block text-small text-muted">{note}</span> : null}
           {meta ? <span className="mt-2 block font-mono text-mono text-muted">{meta}</span> : null}
         </span>
         {aside ? (
@@ -74,19 +90,32 @@ export function ResourceRow({
         ) : (
           <span className="hidden sm:block" />
         )}
-        <ArrowUpRightIcon size={16} className="t-hover text-muted group-hover:text-link" />
+        {arrow ? <ArrowUpRightIcon size={16} className="t-hover text-muted group-hover:text-link" /> : null}
       </Link>
     </li>
   );
 }
 
-type ResourceListProps = { children: ReactNode; label?: string; className?: string; ordered?: boolean };
+type ResourceListProps = {
+  children: ReactNode;
+  label?: string;
+  className?: string;
+  ordered?: boolean;
+  /** Sem painel: só linhas finas em cima e em baixo (home). */
+  plain?: boolean;
+};
 
-/** Painel da lista densa (raio 16px, spec 004). */
-export function ResourceList({ children, label, className, ordered = false }: ResourceListProps) {
+/** Painel da lista densa (raio 16px, spec 004), ou lista só com linhas (`plain`). */
+export function ResourceList({ children, label, className, ordered = false, plain = false }: ResourceListProps) {
   const List = ordered ? 'ol' : 'ul';
   return (
-    <List aria-label={label} className={cn('overflow-hidden rounded-panel border border-border bg-list', className)}>
+    <List
+      aria-label={label}
+      className={cn(
+        plain ? 'border-y border-border' : 'overflow-hidden rounded-panel border border-border bg-list',
+        className,
+      )}
+    >
       {children}
     </List>
   );

@@ -63,33 +63,29 @@
   },
   "home": {
     "areas": {
-      "eyebrow": "Direções",
-      "title": "Escolha uma direção.",
-      "titleMuted": "Quatro portas para o índice.",
-      "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}"
+      "title": "Explorar por área",
+      "subtitle": "Organizado pelo momento do seu trabalho, da ideia à entrega.",
+      "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}",
+      "comingSoon": "Em breve",
+      "empty": "Em construção",
+      "suggest": "Sugerir o primeiro",
+      "suggestLabel": "Sugerir o primeiro recurso de {area}"
     },
     "fresh": {
-      "eyebrow": "Novos",
-      "title": "Recém-indexados.",
-      "titleMuted": "Os mais recentes do índice.",
+      "title": "Adicionados recentemente",
       "all": "Ver todos os novos",
-      "list": "Recursos recém-indexados"
+      "list": "Recursos adicionados recentemente"
     },
     "gems": {
-      "eyebrow": "Joias escondidas",
-      "title": "Útil antes de popular.",
-      "titleMuted": "Coisas que talvez você não conheça.",
+      "title": "Pouco conhecidos, muito úteis",
       "why": "Por que está aqui"
     },
     "collections": {
-      "eyebrow": "Coleções",
-      "title": "Curadas, em ordem.",
-      "titleMuted": "Listas curtas com ponto de vista.",
+      "title": "Coleções",
       "all": "Todas as coleções",
       "count": "{count, plural, =0 {# recursos} one {# recurso} other {# recursos}}"
     },
     "contribute": {
-      "eyebrow": "Contribua",
       "title": "Feito em público.",
       "titleMuted": "Indexado pela comunidade.",
       "body": "Cada recurso é um arquivo YAML no GitHub. Abra um pull request, ou preencha um formulário e um bot abre o PR por você.",
@@ -97,7 +93,7 @@
       "step2": "O CI confere o schema, o link e os dois idiomas.",
       "step3": "Um curador revisa. Merge é publicação.",
       "add": "Adicionar recurso",
-      "guidelines": "Ler as diretrizes",
+      "guidelines": "Ler diretrizes",
       "example": "Exemplo real do índice"
     }
   },
@@ -151,9 +147,6 @@
     "filters": "Filtros",
     "pricing": "Preço",
     "all": "Todos",
-    "oss": "Só open source",
-    "level": "Nível",
-    "levelAny": "Qualquer",
     "sort": "Ordenar",
     "sortRecent": "Mais recentes",
     "sortName": "Nome",

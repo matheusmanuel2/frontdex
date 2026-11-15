@@ -8,6 +8,7 @@ import { GITHUB_URL } from '@/components/site/nav';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getAlternatives, getArea, getCategory, getResource, listResources } from '@/lib/content';
 import { routing, type AppLocale } from '@/lib/i18n/routing';
+import { outboundUrl } from '@/lib/outbound';
 import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
@@ -116,7 +117,7 @@ export default async function ResourcePage({ params }: Props) {
 
             <div className="mt-7 flex flex-wrap gap-3" data-pagefind-ignore>
               <a
-                href={resource.url}
+                href={outboundUrl(resource.url)}
                 rel="noopener"
                 data-umami-event="resource_outbound"
                 data-umami-event-slug={resource.slug}
@@ -133,7 +134,7 @@ export default async function ResourcePage({ params }: Props) {
               </a>
               {resource.repo && resource.repo !== resource.url ? (
                 <a
-                  href={resource.repo}
+                  href={outboundUrl(resource.repo)}
                   rel="noopener"
                   data-umami-event="resource_outbound"
                   data-umami-event-slug={resource.slug}

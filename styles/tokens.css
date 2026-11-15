@@ -22,6 +22,20 @@
   --color-index-blue-hover: #0f4fd6; /* hover do botão de marca (texto branco a 6,75:1) */
   --color-signal-orange: #fb7a2e;
 
+  /* Cor — tinta WebGL dos cards de área (D-15, section-2.html): base, realce, veio */
+  --color-area-discover-1: #2e4bff;
+  --color-area-discover-2: #9b6bff;
+  --color-area-discover-3: #e9ecff;
+  --color-area-learn-1: #0e8fe0;
+  --color-area-learn-2: #38d3ff;
+  --color-area-learn-3: #e6f8ff;
+  --color-area-build-1: #1f5bff;
+  --color-area-build-2: #4fb2ff;
+  --color-area-build-3: #eaf2ff;
+  --color-area-grow-1: #5b3bff;
+  --color-area-grow-2: #28c9b5;
+  --color-area-grow-3: #ecfffb;
+
   /* Cor — papéis de texto */
   --color-text-primary: #f7f8fa;
   --color-text-secondary: #a3aab6;
@@ -64,6 +78,12 @@
   --leading-title: 1.05;
   --leading-body: 1.55;
   --text-display: clamp(3rem, 6vw, 5rem);
+  /* Home · Explorar por área */
+  --text-area: 1.5rem; /* 24px, nome da área (abaixo do título da secção) */
+  --text-area-sm: 1.25rem; /* 20px, nome da área < 720px */
+  --text-meta: 0.8125rem; /* 13px, categorias e estado */
+  --tracking-area: -0.025em;
+  --leading-area: 1.1;
   --text-hero: clamp(2.75rem, 5vw, 4.5rem); /* título do hero: 44px no telemóvel, 72px a 1440 */
   --text-h1: clamp(2.5rem, 5vw, 3.5rem);
   --text-h2: clamp(2rem, 4vw, 2.75rem);

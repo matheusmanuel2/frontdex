@@ -41,6 +41,9 @@ import heroPoster from '@/public/hero/hero-poster.webp';
 
 import { HeroVideo } from './HeroVideo';
 
+/** Abaixo disto, os números ainda não impressionam: o bloco fica escondido. */
+export const HERO_STATS_MIN = 25;
+
 type HeroProps = {
   /** Números reais do índice (vêm do loader). */
   resourceCount: number;
@@ -176,7 +179,7 @@ export async function Hero({ resourceCount, categoryCount, areaCount }: HeroProp
           </div>
         </div>
 
-        <div className="flex items-end">
+        {resourceCount >= HERO_STATS_MIN ? (
           <dl aria-label={t('stats')} className="flex gap-12">
             <div className="t-hero-up flex flex-col-reverse gap-1" data-hero-step="5">
               <dt className="ml-6 text-small text-paper/60">{t('curated')}</dt>
@@ -193,7 +196,7 @@ export async function Hero({ resourceCount, categoryCount, areaCount }: HeroProp
               </dd>
             </div>
           </dl>
-        </div>
+        ) : null}
       </div>
     </section>
   );

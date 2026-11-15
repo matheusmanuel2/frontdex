@@ -13,8 +13,9 @@ export async function SiteFooter() {
 
   return (
     <footer className="mt-auto border-t border-border">
-      <div className="mx-auto flex max-w-(--container-max) flex-wrap items-center justify-between gap-4 px-(--gutter) py-6">
-        <p className="text-small text-secondary">{t('tagline')}</p>
+      <div className="mx-auto flex max-w-(--container-max) flex-col gap-8 px-(--gutter) pt-12 pb-8 md:flex-row md:items-end md:justify-between">
+        {/* Voz da marca, não nota de rodapé. */}
+        <p className="title-h3 max-w-md text-primary">{t('tagline')}</p>
         <nav aria-label={a11y('footerNav')}>
           <ul className="flex flex-wrap gap-x-5 gap-y-2">
             <li>

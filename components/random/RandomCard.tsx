@@ -5,6 +5,7 @@ import { useCallback, useEffect, useState, useSyncExternalStore } from 'react';
 import { ArrowUpRightIcon, ShuffleIcon } from '@/components/icons';
 import { IndexId, TagChip } from '@/components/index';
 import { trackUmamiEvent } from '@/lib/analytics/umami';
+import { outboundUrl } from '@/lib/outbound';
 
 export type RandomItem = {
   slug: string;
@@ -117,7 +118,7 @@ export function RandomCard({ items, locale, labels }: { items: RandomItem[]; loc
             </button>
           ) : null}
           <a
-            href={current.url}
+            href={outboundUrl(current.url)}
             rel="noopener"
             data-umami-event="resource_outbound"
             data-umami-event-slug={current.slug}

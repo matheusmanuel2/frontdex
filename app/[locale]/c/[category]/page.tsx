@@ -50,7 +50,6 @@ export default async function CategoryPage({ params }: Props) {
   const t = await getTranslations('category');
   const areaT = await getTranslations('area');
   const pricing = await getTranslations('pricing');
-  const level = await getTranslations('level');
   const resource = await getTranslations('resource');
   const area = getArea(category.area);
   const resources = listResources({ category: slug });
@@ -64,21 +63,16 @@ export default async function CategoryPage({ params }: Props) {
     tags: item.tags,
     pricing: item.pricing,
     openSource: item.open_source === true,
-    levels: item.level ?? [],
     added: item.added,
   }));
 
   const labels: FilterLabels = {
     list: t('list'),
     oss: resource('oss'),
-    ossBadge: resource('oss'),
     pricing: { free: pricing('free'), freemium: pricing('freemium'), paid: pricing('paid') },
     filters: t('filters'),
     pricingLabel: t('pricing'),
     all: t('all'),
-    level: t('level'),
-    levelAny: t('levelAny'),
-    levels: { beginner: level('beginner'), intermediate: level('intermediate'), expert: level('expert') },
     sort: t('sort'),
     sortRecent: t('sortRecent'),
     sortName: t('sortName'),
@@ -87,8 +81,6 @@ export default async function CategoryPage({ params }: Props) {
     emptyBody: t('emptyBody'),
     clear: t('clear'),
   };
-  // O toolbar usa o rótulo "Só open source"; as linhas, o selo "OSS".
-  const filterLabels: FilterLabels = { ...labels, oss: t('oss') };
   const suggest = (
     <Link href="/add" data-umami-event="add_click" className={ghost}>
       {t('suggest')}
@@ -152,24 +144,17 @@ export default async function CategoryPage({ params }: Props) {
             <span data-pagefind-meta="area">{area?.name[locale]}</span>
             <span data-pagefind-filter="area">{area?.name[locale]}</span>
           </div>
-          <SectionTitle
-            id="category-title"
-            as="h1"
-            size="h1"
-            title={`${category.name[locale]}.`}
-            muted={t('titleMuted', { count: resources.length })}
-            className="mt-5"
-          />
-          {category.description ? (
-            <p className="mt-5 max-w-2xl text-body text-secondary">{category.description[locale]}</p>
-          ) : null}
+          <SectionTitle id="category-title" as="h1" size="h1" title={`${category.name[locale]}.`} className="mt-5" />
+          <p className="mt-5 max-w-2xl text-body text-secondary">
+            {category.description?.[locale] ?? t('titleMuted', { count: resources.length })}
+          </p>
 
           <div className="mt-8" data-pagefind-ignore>
             {items.length === 0 ? (
               <EmptyState title={t('noneTitle')} description={t('noneBody')} actions={suggest} />
             ) : (
               <Suspense fallback={<CategoryRows items={items} locale={locale} labels={labels} />}>
-                <FilterBar items={items} locale={locale} labels={filterLabels} suggest={suggest} />
+                <FilterBar items={items} locale={locale} labels={labels} suggest={suggest} />
               </Suspense>
             )}
           </div>

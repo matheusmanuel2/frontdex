@@ -88,6 +88,9 @@
   /* Tamanhos de texto */
   --text-display: var(--text-display);
   --text-hero: var(--text-hero);
+  --text-area: var(--text-area);
+  --text-area-sm: var(--text-area-sm);
+  --text-meta: var(--text-meta);
   --text-h1: var(--text-h1);
   --text-h2: var(--text-h2);
   --text-h3: var(--text-h3);

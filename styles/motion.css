@@ -305,6 +305,133 @@
   transform: scale(var(--scale-large));
 }
 
+/*
+ * Tinta decorativa dos cards da secção de áreas (D-15, section-2.html).
+ * Com WebGL, o shader desenha a tinta, a máscara a partir do canto e o véu de
+ * leitura (canvas com [data-ready]); o tempo da revelação é configuração interna
+ * do shader (ADR 0011). Sem WebGL fica a superfície sólida recortada abaixo.
+ */
+@property --area-ink-reveal {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 42%;
+}
+.t-area-card {
+  --area-ink-1: var(--color-index-blue);
+  --area-ink-2: var(--color-index-blue-light);
+  --area-ink-3: var(--color-paper);
+  overflow: hidden;
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background-color: var(--color-carbon);
+  color: var(--color-text-primary);
+}
+.t-area-card[data-area='discover'] {
+  --area-ink-1: var(--color-area-discover-1);
+  --area-ink-2: var(--color-area-discover-2);
+  --area-ink-3: var(--color-area-discover-3);
+}
+.t-area-card[data-area='learn'] {
+  --area-ink-1: var(--color-area-learn-1);
+  --area-ink-2: var(--color-area-learn-2);
+  --area-ink-3: var(--color-area-learn-3);
+}
+.t-area-card[data-area='build'] {
+  --area-ink-1: var(--color-area-build-1);
+  --area-ink-2: var(--color-area-build-2);
+  --area-ink-3: var(--color-area-build-3);
+}
+.t-area-card[data-area='grow'] {
+  --area-ink-1: var(--color-area-grow-1);
+  --area-ink-2: var(--color-area-grow-2);
+  --area-ink-3: var(--color-area-grow-3);
+}
+.t-area-card:hover,
+.t-area-card:focus-within {
+  border-color: var(--color-border-strong);
+}
+.t-area-card a:focus-visible {
+  outline: none;
+}
+.t-area-card:has(a:focus-visible) {
+  outline: var(--focus-ring-width) solid var(--color-focus);
+  outline-offset: var(--focus-ring-offset);
+}
+.t-area-ink {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.03);
+  filter: blur(var(--blur-small));
+}
+/* Fallback sem WebGL: superfície sólida recortada a partir do canto */
+.t-area-ink:not([data-ready]) {
+  background-color: var(--area-ink-1);
+  opacity: 0.5;
+  clip-path: circle(var(--area-ink-reveal) at 100% 100%);
+  transition:
+    --area-ink-reveal var(--duration-very-slow) var(--ease-smooth-out),
+    opacity var(--duration-very-slow) var(--ease-smooth-out);
+}
+.t-area-card[data-empty] .t-area-ink:not([data-ready]) {
+  opacity: 0.35;
+}
+.t-area-card:hover .t-area-ink:not([data-ready]),
+.t-area-card:focus-within .t-area-ink:not([data-ready]) {
+  --area-ink-reveal: 190%;
+  opacity: 1;
+}
+.t-area-card:has(.t-area-ink:not([data-ready]))::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  pointer-events: none;
+  background-color: var(--color-ink);
+  opacity: 0;
+  transition: opacity var(--duration-very-slow) var(--ease-smooth-out);
+}
+.t-area-card:has(.t-area-ink:not([data-ready])):hover::after,
+.t-area-card:has(.t-area-ink:not([data-ready])):focus-within::after {
+  opacity: 0.6;
+}
+.t-area-card-copy,
+.t-area-card-count,
+.t-area-card-cats,
+.t-area-card-empty {
+  transition:
+    color var(--duration-slow) var(--ease-smooth-out),
+    border-color var(--duration-slow) var(--ease-smooth-out);
+}
+.t-area-card:hover .t-area-card-copy,
+.t-area-card:focus-within .t-area-card-copy,
+.t-area-card:hover .t-area-card-count,
+.t-area-card:focus-within .t-area-card-count,
+.t-area-card:hover .t-area-card-cats,
+.t-area-card:focus-within .t-area-card-cats,
+.t-area-card:hover .t-area-card-empty,
+.t-area-card:focus-within .t-area-card-empty {
+  color: var(--color-text-primary);
+}
+.t-area-card:hover .t-area-card-count,
+.t-area-card:focus-within .t-area-card-count {
+  border-color: var(--color-border-strong);
+}
+.t-area-card-btn {
+  transform: rotate(0);
+  transition: transform var(--duration-slow) var(--ease-smooth-out);
+}
+.t-area-card:hover .t-area-card-btn,
+.t-area-card:focus-within .t-area-card-btn {
+  transform: rotate(-45deg);
+}
+
 /* ── Hero da home: entrada (hero-37) e troca poster → vídeo ─── */
 .t-hero-bg {
   animation: t-hero-bg-in var(--hero-bg-dur) var(--hero-ease) both;
@@ -414,6 +541,19 @@
   .t-icon-host:focus-visible .t-icon-anim,
   .t-learn:hover .t-learn-chevron,
   .t-learn:hover .t-learn-arm {
+    transform: none !important;
+  }
+  .t-area-card,
+  .t-area-ink,
+  .t-area-card-copy,
+  .t-area-card-count,
+  .t-area-card-cats,
+  .t-area-card-empty,
+  .t-area-card-btn {
+    transition: none !important;
+  }
+  .t-area-card:hover .t-area-card-btn,
+  .t-area-card:focus-within .t-area-card-btn {
     transform: none !important;
   }
 }

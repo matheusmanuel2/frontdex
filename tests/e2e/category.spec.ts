@@ -7,6 +7,8 @@ test('lista densa com todos os recursos da categoria e sem violações axe', asy
   await page.goto('/pt/c/ui-inspiration');
   await expect(rows(page)).toHaveCount(3);
   await expect(page.getByText('Mostrando 3 de 3')).toBeVisible();
+  await expect(page.getByRole('checkbox', { name: 'Só open source' })).toHaveCount(0);
+  await expect(page.getByRole('combobox', { name: 'Nível' })).toHaveCount(0);
   const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa']).analyze();
   expect(results.violations).toEqual([]);
 });

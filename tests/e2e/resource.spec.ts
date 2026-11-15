@@ -7,7 +7,10 @@ test('recurso com "por que está aqui", detalhes e links externos com noopener',
   await expect(page.getByRole('heading', { name: 'Por que está aqui' })).toBeVisible();
   await expect(page.getByText('MIT')).toBeVisible();
   const visit = page.getByRole('link', { name: /Visitar edoardolunardi\.github\.io/ });
-  await expect(visit).toHaveAttribute('href', 'https://edoardolunardi.github.io/kugiri');
+  await expect(visit).toHaveAttribute(
+    'href',
+    'https://edoardolunardi.github.io/kugiri?ref=frontdex&utm_source=frontdex&utm_medium=referral',
+  );
   for (const link of await page.locator('a[href^="http"]').all()) {
     await expect(link).toHaveAttribute('rel', /noopener/);
   }

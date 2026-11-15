@@ -1,14 +1,12 @@
 import { expect, test } from '@playwright/test';
 
 test.describe('hero da home', () => {
-  test('mostra o título, os números reais e as duas ações', async ({ page }) => {
+  test('mostra o título e as duas ações; esconde os números com menos de 25 recursos', async ({ page }) => {
     await page.goto('/pt');
     const hero = page.locator('section[aria-labelledby="hero-title"]');
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(/Menos busca\.\s*Mais construção\./);
-    // 8 recursos active, 17 categorias e 4 áreas no seed (lib/content).
-    await expect(hero.getByText('8 recursos', { exact: true })).toBeVisible();
-    await expect(hero.getByText('17 categorias', { exact: true })).toBeVisible();
-    await expect(hero.getByText('em 4 áreas', { exact: true })).toBeVisible();
+    // 8 recursos active no seed (lib/content): abaixo de HERO_STATS_MIN.
+    await expect(hero.getByRole('definition')).toHaveCount(0);
     await expect(hero.getByRole('link', { name: /Buscar no índice/ })).toHaveAttribute('href', '/pt/search');
     await expect(hero.getByRole('link', { name: /ou adicione um recurso/ })).toHaveAttribute('href', '/pt/add');
   });
@@ -42,7 +40,6 @@ test.describe('hero da home', () => {
     await page.goto('/en');
     const hero = page.locator('section[aria-labelledby="hero-title"]');
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(/Less searching\.\s*More building\./);
-    await expect(hero.getByText('8 resources', { exact: true })).toBeVisible();
     await expect(hero.getByRole('link', { name: /or add a resource/ })).toHaveAttribute('href', '/en/add');
   });
 });
