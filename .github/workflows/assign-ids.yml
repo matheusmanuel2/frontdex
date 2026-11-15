@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: assign-resource-ids-main
@@ -20,9 +20,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      # A main está protegida por um ruleset (só por PR). A deploy key com escrita é a
+      # única exceção: o checkout por SSH faz o push dos IDs com ela.
       - uses: actions/checkout@v4
         with:
           ref: main
+          ssh-key: ${{ secrets.ASSIGN_IDS_DEPLOY_KEY }}
 
       - uses: pnpm/action-setup@v4
 
