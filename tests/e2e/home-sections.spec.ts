@@ -4,7 +4,7 @@ test.describe('secções da home (dados do loader)', () => {
   test('explorar por área: quatro cards com contagem e categorias', async ({ page }) => {
     await page.goto('/pt');
     const areas = page.getByRole('region', { name: 'Explorar por área' });
-    await expect(areas.getByRole('listitem')).toHaveCount(4);
+    await expect(areas.locator('ul').first().locator(':scope > li')).toHaveCount(4);
     await expect(areas.getByRole('link', { name: 'Construir', exact: true })).toHaveAttribute('href', '/pt/build');
     await expect(areas.getByText('5 recursos')).toBeVisible();
     await expect(areas.locator('canvas[aria-hidden="true"]')).toHaveCount(4);
