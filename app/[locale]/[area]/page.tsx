@@ -10,6 +10,7 @@ import {
   SectionTitle,
   TagChip,
 } from '@/components/index';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { Link } from '@/components/site/LocaleLink';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import {
@@ -23,6 +24,7 @@ import {
   type AreaSlug,
 } from '@/lib/content';
 import { routing, type AppLocale } from '@/lib/i18n/routing';
+import { breadcrumbNode, collectionPageNode, graph } from '@/lib/seo/jsonld';
 import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
@@ -43,7 +45,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, area: slug } = await params;
   const area = isArea(slug) ? getArea(slug) : undefined;
   if (!area) return {};
-  return localizedMetadata(locale, `/${slug}`, area.name[locale], area.description[locale]);
+  const t = await getTranslations({ locale, namespace: 'seo' });
+  return localizedMetadata(locale, `/${slug}`, t('areaTitle', { area: area.name[locale] }), area.description[locale]);
 }
 
 const pill =
@@ -64,10 +67,22 @@ export default async function AreaPage({ params }: Props) {
     .filter(({ items }) => items.length > 0);
   const recent = resources.slice(0, 5);
   const others = listAreas().filter((other) => other.slug !== slug);
+  const path = `/${locale}/${slug}`;
+  const structured = graph(
+    collectionPageNode(
+      { locale, path, name: area.name[locale], description: area.description[locale] },
+      resources.map((resource) => ({ name: resource.name, path: `/${locale}/r/${resource.slug}` })),
+    ),
+    breadcrumbNode(path, [
+      { name: t('index'), path: `/${locale}` },
+      { name: area.name[locale], path },
+    ]),
+  );
 
   return (
     <>
       <SiteHeader current={slug} />
+      <JsonLd data={structured} />
       <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14">
         <Breadcrumb
           label={t('breadcrumb')}

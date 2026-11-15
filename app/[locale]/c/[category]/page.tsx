@@ -6,10 +6,12 @@ import { CategoryRows } from '@/components/category/CategoryRows';
 import { FilterBar, type FilterLabels } from '@/components/category/FilterBar';
 import type { FilterItem } from '@/components/category/filters';
 import { Breadcrumb, EmptyState, SectionTitle } from '@/components/index';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { Link } from '@/components/site/LocaleLink';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getArea, getCategory, listCategories, listResources } from '@/lib/content';
 import { routing, type AppLocale } from '@/lib/i18n/routing';
+import { breadcrumbNode, collectionPageNode, graph } from '@/lib/seo/jsonld';
 import { localizedMetadata } from '@/lib/seo/metadata';
 import { cn } from '@/lib/utils';
 
@@ -27,13 +29,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, category: slug } = await params;
   const category = getCategory(slug);
   if (!category) return {};
-  const t = await getTranslations({ locale, namespace: 'category' });
+  const t = await getTranslations({ locale, namespace: 'seo' });
+  const name = category.name[locale];
   const count = listResources({ category: slug }).length;
   return localizedMetadata(
     locale,
     `/c/${slug}`,
-    category.name[locale],
-    category.description?.[locale] ?? `${category.name[locale]}: ${t('titleMuted', { count })}`,
+    t('categoryTitle', { category: name }),
+    category.description?.[locale] ?? t('categoryDescription', { category: name, count }),
   );
 }
 
@@ -54,6 +57,19 @@ export default async function CategoryPage({ params }: Props) {
   const area = getArea(category.area);
   const resources = listResources({ category: slug });
   const siblings = listCategories(category.area);
+  const path = `/${locale}/c/${slug}`;
+  const intro = category.description?.[locale] ?? t('titleMuted', { count: resources.length });
+  const structured = graph(
+    collectionPageNode(
+      { locale, path, name: category.name[locale], description: intro },
+      resources.map((item) => ({ name: item.name, path: `/${locale}/r/${item.slug}` })),
+    ),
+    breadcrumbNode(path, [
+      { name: areaT('index'), path: `/${locale}` },
+      { name: area?.name[locale] ?? '', path: `/${locale}/${category.area}` },
+      { name: category.name[locale], path },
+    ]),
+  );
 
   const items: FilterItem[] = resources.map((item) => ({
     slug: item.slug,
@@ -90,6 +106,7 @@ export default async function CategoryPage({ params }: Props) {
   return (
     <>
       <SiteHeader current={category.area} />
+      <JsonLd data={structured} />
       <main
         id="conteudo"
         className="mx-auto flex w-full max-w-(--container-max) flex-wrap items-start gap-12 px-(--gutter) pt-12 pb-24"
@@ -145,9 +162,7 @@ export default async function CategoryPage({ params }: Props) {
             <span data-pagefind-filter="area">{area?.name[locale]}</span>
           </div>
           <SectionTitle id="category-title" as="h1" size="h1" title={`${category.name[locale]}.`} className="mt-5" />
-          <p className="mt-5 max-w-2xl text-body text-secondary">
-            {category.description?.[locale] ?? t('titleMuted', { count: resources.length })}
-          </p>
+          <p className="mt-5 max-w-2xl text-body text-secondary">{intro}</p>
 
           <div className="mt-8" data-pagefind-ignore>
             {items.length === 0 ? (

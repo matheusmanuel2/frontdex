@@ -2,9 +2,11 @@ import { getFormatter, getTranslations, setRequestLocale } from 'next-intl/serve
 
 import { RssIcon } from '@/components/icons';
 import { Breadcrumb, EmptyState, ResourceList, ResourceRow, SectionTitle, TagChip } from '@/components/index';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getCategory, groupByWeek, listNew } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
+import { breadcrumbNode, collectionPageNode, graph } from '@/lib/seo/jsonld';
 import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
@@ -27,10 +29,23 @@ export default async function NewPage({ params }: Props) {
   const areaT = await getTranslations('area');
   const format = await getFormatter();
   const weeks = groupByWeek(listNew());
+  const path = `/${locale}/new`;
+  const name = t('title').replace(/\.$/, '');
+  const structured = graph(
+    collectionPageNode(
+      { locale, path, name, description: t('intro') },
+      listNew().map((resource) => ({ name: resource.name, path: `/${locale}/r/${resource.slug}` })),
+    ),
+    breadcrumbNode(path, [
+      { name: areaT('index'), path: `/${locale}` },
+      { name, path },
+    ]),
+  );
 
   return (
     <>
       <SiteHeader />
+      <JsonLd data={structured} />
       <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14">
         <Breadcrumb
           label={areaT('breadcrumb')}

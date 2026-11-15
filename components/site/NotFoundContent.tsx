@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 
 import { SectionTitle } from '@/components/index';
 import { Link } from '@/components/site/LocaleLink';
+import { listAreas } from '@/lib/content';
 import { HTML_LANG, type AppLocale } from '@/lib/i18n/routing';
 
 const secondary =
@@ -18,6 +19,7 @@ type NotFoundContentProps = {
 export async function NotFoundContent({ locale, primary = true }: NotFoundContentProps) {
   const t = await getTranslations({ locale, namespace: 'notFound' });
   const nav = await getTranslations({ locale, namespace: 'nav' });
+  const seo = await getTranslations({ locale, namespace: 'seo' });
 
   return (
     <section
@@ -51,7 +53,18 @@ export async function NotFoundContent({ locale, primary = true }: NotFoundConten
           {t('home')}
         </Link>
       </div>
-      <p className="mt-10 font-mono text-mono text-muted">
+      <nav aria-label={seo('areas')} className="mt-10">
+        <ul className="flex flex-wrap justify-center gap-2">
+          {listAreas().map((area) => (
+            <li key={area.slug}>
+              <Link locale={locale} href={`/${area.slug}`} className={secondary}>
+                {area.name[locale]}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      <p className="mt-8 font-mono text-mono text-muted">
         {t('try')}{' '}
         <Link locale={locale} href="/new" className={inline}>
           {t('new')}

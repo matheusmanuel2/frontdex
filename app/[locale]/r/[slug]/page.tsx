@@ -3,12 +3,14 @@ import { getFormatter, getTranslations, setRequestLocale } from 'next-intl/serve
 
 import { ArrowUpRightIcon } from '@/components/icons';
 import { Breadcrumb, IndexId, ResourceList, ResourceRow, TagChip } from '@/components/index';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { Link } from '@/components/site/LocaleLink';
 import { GITHUB_URL } from '@/components/site/nav';
 import { SiteHeader } from '@/components/site/SiteHeader';
-import { getAlternatives, getArea, getCategory, getResource, listResources } from '@/lib/content';
+import { getArea, getCategory, getResource, getResourcePage, listResourcePages, listResources } from '@/lib/content';
 import { routing, type AppLocale } from '@/lib/i18n/routing';
 import { outboundUrl } from '@/lib/outbound';
+import { breadcrumbNode, graph, resourcePageNode } from '@/lib/seo/jsonld';
 import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
@@ -16,26 +18,36 @@ import type { Metadata } from 'next';
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return routing.locales.flatMap((locale) => listResources().map((resource) => ({ locale, slug: resource.slug })));
+  return routing.locales.flatMap((locale) => listResourcePages().map((resource) => ({ locale, slug: resource.slug })));
 }
 
 type Props = { params: Promise<{ locale: AppLocale; slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
-  const resource = getResource(slug);
+  const resource = getResourcePage(slug);
   if (!resource) return {};
-  return localizedMetadata(locale, `/r/${slug}`, resource.name, resource.description[locale]);
+  const t = await getTranslations({ locale, namespace: 'seo' });
+  const category = getCategory(resource.category)?.name[locale];
+  const title = category ? t('resourceTitle', { name: resource.name, category }) : resource.name;
+  return localizedMetadata(locale, `/r/${slug}`, title, resource.description[locale], {
+    ogType: 'article',
+    // Arquivados ficam como registo, fora do índice (spec 009).
+    ...(resource.status === 'archived' ? { robots: { index: false, follow: true } } : {}),
+  });
 }
 
 function host(url: string) {
   return new URL(url).hostname.replace(/^www\./, '');
 }
 
-/** Página de recurso (spec 003, mockup Resource.dc.html). Só mostra o que existe nos dados. */
+/** Quantos recursos da mesma categoria aparecem em "Mais em …". */
+const RELATED_COUNT = 4;
+
+/** Página de recurso (spec 003 + 009, mockup Resource.dc.html). Só mostra o que existe nos dados. */
 export default async function ResourcePage({ params }: Props) {
   const { locale, slug } = await params;
-  const resource = getResource(slug);
+  const resource = getResourcePage(slug);
   if (!resource) notFound();
   setRequestLocale(locale);
 
@@ -46,10 +58,31 @@ export default async function ResourcePage({ params }: Props) {
   const format = await getFormatter();
   const category = getCategory(resource.category);
   const area = getArea(resource.area);
-  const alternatives = getAlternatives(slug);
+  const seo = await getTranslations('seo');
+  const archived = resource.status === 'archived';
+  const alternatives = (resource.alternatives ?? [])
+    .map((alternative) => getResource(alternative))
+    .filter((alternative) => alternative !== undefined);
+  const shown = new Set([slug, ...alternatives.map((alternative) => alternative.slug)]);
+  const related = listResources({ category: resource.category })
+    .filter((item) => !shown.has(item.slug))
+    .slice(0, RELATED_COUNT);
   const why = resource.why?.[locale];
-  const date = (value: string) =>
-    format.dateTime(new Date(`${value}T00:00:00Z`), { dateStyle: 'medium', timeZone: 'UTC' });
+  const date = (value: string) => (
+    <time dateTime={value}>
+      {format.dateTime(new Date(`${value}T00:00:00Z`), { dateStyle: 'medium', timeZone: 'UTC' })}
+    </time>
+  );
+  const path = `/${locale}/r/${slug}`;
+  const structured = graph(
+    resourcePageNode(resource, { locale, path, name: resource.name, description: resource.description[locale] }),
+    breadcrumbNode(path, [
+      { name: areaT('index'), path: `/${locale}` },
+      { name: area?.name[locale] ?? '', path: `/${locale}/${resource.area}` },
+      { name: category?.name[locale] ?? '', path: `/${locale}/c/${resource.category}` },
+      { name: resource.name, path },
+    ]),
+  );
 
   const details: { key: string; value: React.ReactNode }[] = [
     {
@@ -73,6 +106,7 @@ export default async function ResourcePage({ params }: Props) {
   return (
     <>
       <SiteHeader current={resource.area} />
+      <JsonLd data={structured} />
       <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24">
         <Breadcrumb
           label={areaT('breadcrumb')}
@@ -85,7 +119,7 @@ export default async function ResourcePage({ params }: Props) {
         />
 
         <div className="mt-8 flex flex-wrap items-start gap-12">
-          <div className="min-w-0 flex-[999_1_560px]" data-pagefind-body>
+          <article className="min-w-0 flex-[999_1_560px]" data-pagefind-body={archived ? undefined : ''}>
             {/* Metadados e filtros da busca (spec 008): não aparecem na página. */}
             <div hidden>
               <span data-pagefind-meta="kind">resource</span>
@@ -102,8 +136,17 @@ export default async function ResourcePage({ params }: Props) {
               )}
               {resource.open_source === true ? <span data-pagefind-filter="oss">{t('ossBadge')}</span> : null}
             </div>
-            {resource.id !== undefined || resource.open_source === true ? (
+            {archived ? (
+              <p
+                role="note"
+                className="mb-6 rounded-card border border-border-strong bg-carbon px-6 py-4 text-body text-secondary"
+              >
+                {seo('archived')}
+              </p>
+            ) : null}
+            {resource.id !== undefined || resource.open_source === true || archived ? (
               <div className="mb-5 flex items-center gap-2">
+                {archived ? <TagChip>{t('archivedBadge')}</TagChip> : null}
                 {resource.id !== undefined ? (
                   <span className="inline-flex h-7 items-center rounded-pill border border-border-strong bg-carbon px-3">
                     <IndexId id={resource.id} className="text-small" />
@@ -174,7 +217,29 @@ export default async function ResourcePage({ params }: Props) {
                 </ResourceList>
               </section>
             ) : null}
-          </div>
+
+            {related.length > 0 && category ? (
+              <section aria-labelledby="related" className="mt-14" data-pagefind-ignore>
+                <h2 id="related" className="title-h3 mb-5 text-primary">
+                  <Link href={`/c/${category.slug}`} className="t-hover hover:text-link">
+                    {seo('related', { category: category.name[locale] })}
+                  </Link>
+                </h2>
+                <ResourceList label={seo('relatedList', { category: category.name[locale] })}>
+                  {related.map((item) => (
+                    <ResourceRow
+                      key={item.slug}
+                      href={`/${locale}/r/${item.slug}`}
+                      id={item.id}
+                      name={item.name}
+                      description={item.description[locale]}
+                      compact
+                    />
+                  ))}
+                </ResourceList>
+              </section>
+            ) : null}
+          </article>
 
           <aside aria-labelledby="details" className="flex w-full flex-col gap-4 lg:max-w-sm lg:flex-[1_1_280px]">
             <div className="overflow-hidden rounded-card border border-border bg-carbon">

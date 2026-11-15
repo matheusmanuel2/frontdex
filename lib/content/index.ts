@@ -40,6 +40,8 @@ export function resetContentCache(): void {
 export const getResource = (slug: string) => queries.getResource(getContent(), slug);
 export const listResources = (filter?: queries.ResourceFilter) => queries.listResources(getContent(), filter);
 export const getAlternatives = (slug: string) => queries.getAlternatives(getContent(), slug);
+export const getResourcePage = (slug: string) => queries.getResourcePage(getContent(), slug);
+export const listResourcePages = () => queries.listResourcePages(getContent());
 export const listNew = (options?: { since?: string }) => queries.listNew(getContent(), options);
 export const getArea = (slug: string) => queries.getArea(getContent(), slug);
 export const listAreas = () => queries.listAreas(getContent());

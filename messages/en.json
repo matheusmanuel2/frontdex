@@ -125,7 +125,8 @@
     "no": "No",
     "edit": "Something wrong or out of date?",
     "editLink": "Suggest an edit on GitHub",
-    "ossBadge": "Open source"
+    "ossBadge": "Open source",
+    "archivedBadge": "Archived"
   },
   "area": {
     "breadcrumb": "Breadcrumb",
@@ -275,5 +276,16 @@
     "resultsFor": "Results for “{q}”",
     "indexList": "Full index",
     "category": "Category"
+  },
+  "seo": {
+    "areaTitle": "{area}: curated front-end resources",
+    "categoryTitle": "{category}: hand-picked front-end resources",
+    "categoryDescription": "{count, plural, =0 {Front-end {category} resources, picked by people.} one {# front-end {category} resource, picked by people, with the reason it is in the index.} other {# front-end {category} resources, picked by people, each with the reason it is in the index.}}",
+    "resourceTitle": "{name}: {category}",
+    "archived": "This resource has been archived and is no longer recommended by the index. The page stays as a record.",
+    "related": "More in {category}",
+    "relatedList": "Other {category} resources",
+    "data": "Open data",
+    "areas": "Areas"
   }
 }

@@ -125,7 +125,8 @@
     "no": "Não",
     "edit": "Algo errado ou desatualizado?",
     "editLink": "Sugira uma edição no GitHub",
-    "ossBadge": "Open source"
+    "ossBadge": "Open source",
+    "archivedBadge": "Arquivado"
   },
   "area": {
     "breadcrumb": "Trilho",
@@ -275,5 +276,16 @@
     "resultsFor": "Resultados para “{q}”",
     "indexList": "Índice completo",
     "category": "Categoria"
+  },
+  "seo": {
+    "areaTitle": "{area}: recursos front-end curados",
+    "categoryTitle": "{category}: recursos front-end selecionados",
+    "categoryDescription": "{count, plural, =0 {Recursos de {category} para front-end, escolhidos por pessoas.} one {# recurso de {category} para front-end, escolhido por pessoas, com o motivo de estar no índice.} other {# recursos de {category} para front-end, escolhidos por pessoas, cada um com o motivo de estar no índice.}}",
+    "resourceTitle": "{name}: {category}",
+    "archived": "Este recurso foi arquivado e já não faz parte das recomendações do índice. A página fica como registo.",
+    "related": "Mais em {category}",
+    "relatedList": "Outros recursos de {category}",
+    "data": "Dados abertos",
+    "areas": "Áreas"
   }
 }

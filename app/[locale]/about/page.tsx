@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { StarIcon } from '@/components/icons';
 import { Breadcrumb, Eyebrow, SectionTitle } from '@/components/index';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { Link } from '@/components/site/LocaleLink';
 import { GITHUB_URL } from '@/components/site/nav';
 import { SiteHeader } from '@/components/site/SiteHeader';
@@ -9,6 +10,7 @@ import AboutEn from '@/content/pages/about.en.mdx';
 import AboutPt from '@/content/pages/about.pt.mdx';
 import { listAreas, listCategories, listResources } from '@/lib/content';
 import type { AppLocale } from '@/lib/i18n/routing';
+import { breadcrumbNode, graph, organizationNode, webPageNode } from '@/lib/seo/jsonld';
 import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
@@ -31,6 +33,18 @@ export default async function AboutPage({ params }: Props) {
   const t = await getTranslations('about');
   const areaT = await getTranslations('area');
   const Content = CONTENT[locale];
+  const path = `/${locale}/about`;
+  const structured = graph(
+    {
+      ...webPageNode({ locale, path, name: t('eyebrow'), description: t('titleMuted') }, 'AboutPage'),
+      about: { '@id': organizationNode()['@id'] },
+    },
+    organizationNode(),
+    breadcrumbNode(path, [
+      { name: areaT('index'), path: `/${locale}` },
+      { name: t('eyebrow'), path },
+    ]),
+  );
 
   const stats = [
     { label: t('resources'), value: listResources().length },
@@ -41,6 +55,7 @@ export default async function AboutPage({ params }: Props) {
   return (
     <>
       <SiteHeader />
+      <JsonLd data={structured} />
       <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14">
         <Breadcrumb
           label={areaT('breadcrumb')}

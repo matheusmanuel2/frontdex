@@ -3,10 +3,12 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { CopyLinkButton } from '@/components/collection/CopyLinkButton';
 import { Breadcrumb, Eyebrow, ResourceList, ResourceRow, TagChip } from '@/components/index';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { Link } from '@/components/site/LocaleLink';
 import { SiteHeader } from '@/components/site/SiteHeader';
 import { getCategory, getCollection, getCollectionResources, listCollections } from '@/lib/content';
 import { routing, type AppLocale } from '@/lib/i18n/routing';
+import { breadcrumbNode, collectionPageNode, graph } from '@/lib/seo/jsonld';
 import { localizedMetadata } from '@/lib/seo/metadata';
 
 import type { Metadata } from 'next';
@@ -43,10 +45,23 @@ export default async function CollectionPage({ params }: Props) {
   const nav = await getTranslations('nav');
   const items = getCollectionResources(slug);
   const others = listCollections().filter((other) => other.slug !== slug);
+  const path = `/${locale}/collections/${slug}`;
+  const structured = graph(
+    collectionPageNode(
+      { locale, path, name: collection.title[locale], description: collection.text[locale] },
+      items.map((item) => ({ name: item.name, path: `/${locale}/r/${item.slug}` })),
+    ),
+    breadcrumbNode(path, [
+      { name: areaT('index'), path: `/${locale}` },
+      { name: nav('collections'), path: `/${locale}/collections` },
+      { name: collection.title[locale], path },
+    ]),
+  );
 
   return (
     <>
       <SiteHeader current="collections" />
+      <JsonLd data={structured} />
       <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14">
         <Breadcrumb
           label={areaT('breadcrumb')}
