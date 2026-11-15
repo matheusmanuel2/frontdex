@@ -42,12 +42,20 @@ pnpm vercel:build:prod
 vercel deploy --prebuilt --prod --yes
 ```
 
+## Dados abertos
+
+O índice completo é público e gerado a cada build a partir dos YAML, sob CC BY 4.0:
+
+- [`/api/resources.json`](https://frontdex.dev/api/resources.json): JSON com todos os recursos publicados.
+- [`/llms.txt`](https://frontdex.dev/llms.txt) e [`/llms-full.txt`](https://frontdex.dev/llms-full.txt): resumo e índice completo em Markdown, para agentes e assistentes de IA.
+
 ## Para quem vai construir
 
 - Comece por [`CLAUDE.md`](CLAUDE.md), [`specs/000-constitution.md`](specs/000-constitution.md) e [`docs/architecture.md`](docs/architecture.md).
 - Próximos passos: [`docs/next-steps.md`](docs/next-steps.md).
 - A origem canônica é configurada em `SITE_URL`; por enquanto, o valor padrão é `https://frontdex.dev`.
 - O Umami só carrega em produção na Vercel; configure `UMAMI_WEBSITE_ID` como variável do ambiente Production.
+- SEO e indexação ([spec 009](specs/009-seo-geo.md)): `GOOGLE_SITE_VERIFICATION`, `BING_SITE_VERIFICATION` e `INDEXNOW_KEY` na Vercel (Production); `INDEXNOW_KEY` também como secret do GitHub. `pnpm check:seo` corre depois do build.
 
 ---
 

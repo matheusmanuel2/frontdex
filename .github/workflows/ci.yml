@@ -107,6 +107,9 @@ jobs:
       - name: Orçamento de JavaScript próprio da home
         run: pnpm check:home-js
 
+      - name: SEO (JSON-LD, canonical, hreflang, sitemap, llms.txt)
+        run: pnpm check:seo
+
       - name: Browsers do Playwright
         run: pnpm exec playwright install --with-deps chromium
 

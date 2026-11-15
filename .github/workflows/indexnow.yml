@@ -1,0 +1,35 @@
+name: IndexNow
+
+# Depois de um deploy de produção com sucesso (evento da integração Vercel ↔ GitHub),
+# avisa o IndexNow das páginas mudadas no commit (spec 009 §7).
+on:
+  deployment_status:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    if: github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.deployment.sha }}
+          fetch-depth: 2
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Enviar URLs mudadas
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          SITE_URL: https://frontdex.dev
+        run: pnpm exec tsx scripts/indexnow.ts "${{ github.event.deployment.sha }}~1" "${{ github.event.deployment.sha }}"
