@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Empty States
+url: https://emptystat.es/
+area: discover
+category: ui-inspiration
+tags:
+  - screens
+pricing: free
+open_source: false
+description:
+  pt: "Galeria dedicada a estados vazios: telas que mostram o que a interface faz
+    quando não há dados."
+  en: Gallery devoted to empty states, the screens showing what an interface does
+    when there is no data.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://emptystat.es/"
+id: 203

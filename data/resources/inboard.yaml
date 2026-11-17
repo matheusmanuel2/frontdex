@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Inboard
+url: https://inboardapp.com/
+area: discover
+category: moodboards
+tags:
+  - macos
+pricing: paid
+open_source: false
+description:
+  pt: App para organizar screenshots, imagens e fotos de inspiração sem depender
+    de pastas no Finder.
+  en: App to organize inspiration screenshots, images and photos without juggling
+    Finder folders.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://inboardapp.com/"
+id: 211

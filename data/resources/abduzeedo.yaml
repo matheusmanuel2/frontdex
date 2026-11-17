@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Abduzeedo
+url: https://abduzeedo.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Publicação com inspiração de design, fotografia e UI/UX que vem saindo desde
+    2006.
+  en: Publication sharing design, photography and UI/UX inspiration, running since
+    2006.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://abduzeedo.com/"
+id: 187

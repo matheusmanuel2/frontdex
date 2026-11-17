@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+name: Web Design Inspiration
+url: https://www.1001freefonts.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Galeria de sites atualizada todos os dias para designers web, agências e
+    empreendedores.
+  en: Website gallery updated every day for web designers, agencies and
+    entrepreneurs.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.1001freefonts.com/"
+id: 239

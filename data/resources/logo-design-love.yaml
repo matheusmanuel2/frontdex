@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+name: Logo Design Love
+url: https://www.logodesignlove.com/
+area: discover
+category: brand-inspiration
+tags:
+  - logos
+  - branding
+pricing: free
+open_source: false
+description:
+  pt: Arquivo pesquisável de logos, símbolos e marcas e dos designers por trás
+    deles, ligado ao livro de mesmo nome.
+  en: Searchable archive of logos, symbols and marks and the designers behind
+    them, tied to the book of the same name.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://www.logodesignlove.com/"
+id: 217

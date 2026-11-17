@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: SaaS Pages
+url: https://saaspages.xyz
+area: discover
+category: ui-inspiration
+tags:
+  - web
+  - screens
+pricing: free
+open_source: false
+description:
+  pt: Capturas e dicas por seção para montar landing pages de SaaS.
+  en: Screenshots and tips, section by section, for building SaaS landing pages.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools.
+  Lida: https://saaspages.xyz"
+id: 229

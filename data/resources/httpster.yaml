@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Httpster
+url: https://httpster.net/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Galeria de sites criativos e premiados para buscar ideias de design web.
+  en: A gallery of creative, award-winning websites to mine for web design ideas.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools, gztchan/awesome-design, swyxio/spark-joy,
+  pedido do Matheus. Lida: https://httpster.net/"
+id: 210

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Admire The Web
+url: https://www.admiretheweb.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Seleção diária de sites minimalistas, limpos e responsivos, publicada como
+    referência de web design.
+  en: Daily pick of minimal, clean and responsive websites, published as a web
+    design reference.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://www.admiretheweb.com/"
+id: 188

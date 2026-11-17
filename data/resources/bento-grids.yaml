@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Bento Grids
+url: https://www.serbyte.net/what-the-google-font
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Coleção curada de layouts no estilo bento para inspiração.
+  en: Curated collection of bento-style layouts for inspiration.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.serbyte.net/what-the-google-font"
+id: 190

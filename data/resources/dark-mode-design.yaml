@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Dark Mode Design
+url: https://www.darkmodedesign.com
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Galeria selecionada à mão de sites com modo escuro.
+  en: Hand-picked showcase of dark mode websites.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: pedido do
+  Matheus. Lida: https://www.darkmodedesign.com"
+id: 197
