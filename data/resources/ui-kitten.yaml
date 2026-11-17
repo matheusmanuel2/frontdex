@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: UI Kitten
+url: https://akveo.github.io/react-native-ui-kitten/
+area: build
+category: ui-components
+tags:
+  - react
+  - mobile
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes de UI para React Native baseados no Eva Design System.
+  en: React Native UI components based on the Eva Design System.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://akveo.github.io/react-native-ui-kitten/"

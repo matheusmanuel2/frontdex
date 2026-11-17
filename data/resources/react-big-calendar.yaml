@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Big Calendar
+url: https://github.com/intljusticemission/react-big-calendar
+repo: https://github.com/bigcalendar/react-big-calendar
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente de calendário para React no estilo Google Calendar e Outlook.
+  en: Calendar component for React in the style of Google Calendar and Outlook.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/intljusticemission/react-big-calendar"

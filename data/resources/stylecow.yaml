@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Stylecow
+url: https://github.com/stylecow/stylecow
+repo: https://github.com/stylecow/stylecow
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Processador que converte CSS atual em código compatível com todos os navegadores.
+  en: Processor that turns modern CSS into code that works in every browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/stylecow/stylecow"

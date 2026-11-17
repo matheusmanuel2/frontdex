@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Shape
+url: https://shape.so/pricing
+area: build
+category: icons
+tags:
+  - icons
+  - illustration
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Ajuste estilo, cores e borda de ícones e ilustrações, estáticos ou animados, e exporte em React, SVG ou Lottie.
+  en: Tweak style, colors and borders of static or animated icons and illustrations, then export React, SVG or Lottie.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://shape.so/pricing"

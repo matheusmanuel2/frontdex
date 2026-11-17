@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Screeener
+url: https://zehfernandes.github.io/screeener/
+repo: https://github.com/zehfernandes/screeener
+area: build
+category: design-tools
+tags:
+  - macos
+pricing: TODO
+open_source: true
+license: CC0-1.0
+description:
+  pt: Insere um lote de imagens no Keynote de uma vez.
+  en: Inserts a batch of images into Keynote in one go.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://zehfernandes.github.io/screeener/"

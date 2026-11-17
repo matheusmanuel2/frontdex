@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-layer-stack
+url: https://fckt.github.io/react-layer-stack
+repo: https://github.com/lexfrl/react-layer-stack
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Sistema de camadas para React, útil em popovers, modais, tooltips e arrastar e soltar.
+  en: Layering system for React, useful for popovers, modals, tooltips and drag and drop.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://fckt.github.io/react-layer-stack"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-markdown-editor
+url: https://github.com/jrm2k6/react-markdown-editor
+repo: https://github.com/jrm2k6/react-markdown-editor
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Editor de Markdown feito com React e Reflux.
+  en: Markdown editor built with React and Reflux.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/jrm2k6/react-markdown-editor"

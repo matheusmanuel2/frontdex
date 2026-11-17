@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-intense
+url: https://bryce.io/react-intense
+repo: https://github.com/brycedorn/react-intense
+area: build
+category: ui-components
+tags:
+  - react
+  - photos
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente React para ver imagens grandes de perto, em tela cheia.
+  en: React component for viewing large images up close, fullscreen.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://bryce.io/react-intense"

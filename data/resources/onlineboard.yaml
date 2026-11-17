@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Onlineboard
+url: https://www.devwares.com/product/contrast
+repo: https://github.com/Devwares-Team/cdbreact
+area: build
+category: design-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Quadro branco em tempo real no navegador, sem login, com várias cores e exportação para PNG.
+  en: Real-time whiteboard in the browser, no login, with multiple colors and PNG export.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.devwares.com/product/contrast"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Glassmorphism CSS Generator
+url: https://glassmorphism.com/
+area: build
+category: dev-tools
+tags:
+  - css
+  - glassmorphism
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gerador de CSS para o efeito de vidro fosco, conhecido como glassmorphism.
+  en: CSS generator for the frosted glass look known as glassmorphism.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://glassmorphism.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Effector
+url: https://effector.dev
+repo: https://github.com/effector/effector
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Gerenciamento de estado reativo e orientado a eventos para a lógica de negócio.
+  en: Reactive, event-driven state management for business logic.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://effector.dev"

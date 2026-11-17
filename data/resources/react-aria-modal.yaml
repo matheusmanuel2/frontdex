@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-aria-modal
+url: https://github.com/davidtheclark/react-aria-modal
+repo: https://github.com/davidtheclark/react-aria-modal
+area: build
+category: accessibility
+tags:
+  - react
+  - accessibility
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Modal React acessível construído segundo as WAI-ARIA Authoring Practices.
+  en: Accessible React modal built according to the WAI-ARIA Authoring Practices.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/davidtheclark/react-aria-modal"

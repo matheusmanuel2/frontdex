@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Witeboard
+url: https://witeboard.com/
+area: build
+category: design-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Quadro branco online em tempo real para equipes, sem cadastro nem instalação.
+  en: Real-time online whiteboard for teams, with no sign-up and no install.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://witeboard.com/"

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Framer Motion
+url: https://motion.dev
+repo: https://github.com/motiondivision/motion
+area: build
+category: animation
+tags:
+  - react
+  - motion
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de animação para React e JavaScript.
+  en: Animation library for React and JavaScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://motion.dev"

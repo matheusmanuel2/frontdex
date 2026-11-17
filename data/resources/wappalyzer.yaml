@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Wappalyzer
+url: https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Identifica as tecnologias usadas por um site enquanto você navega nele.
+  en: Identifies the technologies a website uses while you browse it.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: TanStack Router
+url: https://tanstack.com/router
+repo: https://github.com/TanStack/router
+area: build
+category: dev-tools
+tags:
+  - react
+  - typescript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Roteador com tipagem completa, client-first e capaz de rodar no servidor, para React e mais.
+  en: Fully type-safe, client-first router that can also run on the server, for React and more.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://tanstack.com/router"

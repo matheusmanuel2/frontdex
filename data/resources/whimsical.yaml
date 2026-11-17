@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Whimsical
+url: https://www.npmjs.com/package/teenyicons
+repo: https://github.com/smhmd/teenyicons
+area: build
+category: design-tools
+tags:
+  - flows
+pricing: TODO
+open_source: TODO
+license: MIT
+description:
+  pt: Quadros brancos e documentos para quem constrói produto, com espaço para planejar junto com agentes de IA.
+  en: Whiteboards and docs for product builders, with room to plan alongside AI agents.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.npmjs.com/package/teenyicons"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Camtasia
+url: https://www.techsmith.com/video-editor.html
+area: build
+category: design-tools
+tags:
+  - video
+pricing: TODO
+open_source: TODO
+description:
+  pt: Grava a tela e edita o vídeo no mesmo app, para tutoriais e demos de software.
+  en: Records your screen and edits the video in one app, for tutorials and software demos.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.techsmith.com/video-editor.html"

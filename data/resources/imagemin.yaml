@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: imagemin
+url: https://github.com/imagemin/imagemin
+repo: https://github.com/imagemin/imagemin
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - cli
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Minifica imagens em Node, como JPG e PNG, com plugins por formato.
+  en: Minifies images such as JPG and PNG in Node, with plugins per format.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/imagemin/imagemin"

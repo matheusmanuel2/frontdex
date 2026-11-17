@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Userbrain
+url: https://userbrain.net/
+area: build
+category: design-tools
+tags:
+  - analytics
+pricing: TODO
+open_source: TODO
+description:
+  pt: "Testes de usabilidade com usuários reais e insights por IA: começa em minutos, resultados em horas."
+  en: "Usability tests with real users and AI insights: start in minutes, get results in hours."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://userbrain.net/"

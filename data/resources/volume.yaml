@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Volume
+url: https://www.volumecolor.io/
+area: build
+category: colors
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Cria paletas num espaço OKLCH em 3D, ajustando matiz, croma e luminosidade de forma perceptualmente uniforme.
+  en: Builds palettes in a 3D OKLCH space, adjusting hue, chroma and lightness in a perceptually uniform way.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.volumecolor.io/"

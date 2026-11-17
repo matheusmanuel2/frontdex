@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Shorthand Framework
+url: https://shorthandcss.bansal.io
+repo: https://github.com/shorthandcss/shorthand
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Framework CSS baseado em utilitários, construído com SCSS.
+  en: Utility-based CSS framework built with SCSS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://shorthandcss.bansal.io"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: React Tooltip
+url: https://react-tooltip.com/
+repo: https://github.com/ReactTooltip/react-tooltip
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente de tooltip para React, com tipos em TypeScript.
+  en: Tooltip component for React, with TypeScript types.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-tooltip.com/"

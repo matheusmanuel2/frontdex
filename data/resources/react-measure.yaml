@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-measure
+url: https://souporserious.github.io/react-measure/
+repo: https://github.com/souporserious/react-measure
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Calcula as medidas de um componente React.
+  en: Computes the measurements of a React component.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://souporserious.github.io/react-measure/"

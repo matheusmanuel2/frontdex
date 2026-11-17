@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Svelte Material UI
+url: https://sveltematerialui.com/
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes Material UI para Svelte, prontos para usar no seu app.
+  en: Material UI components for Svelte, ready to drop into your app.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://sveltematerialui.com/"

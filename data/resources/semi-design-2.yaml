@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Semi Design
+url: https://semi.design
+repo: https://github.com/DouyinFE/semi-design
+area: build
+category: ui-components
+tags:
+  - react
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system e biblioteca React com mais de 3000 design tokens para montar o seu sistema.
+  en: Design system and React library with 3000+ design tokens for building your own system.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://semi.design"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Ariakit
+url: https://ariakit.com
+repo: https://github.com/ariakit/ariakit
+area: build
+category: accessibility
+tags:
+  - react
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Toolkit de componentes acessíveis para apps web, com estilos e exemplos.
+  en: Toolkit of accessible components for web apps, with styles and examples.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://ariakit.com"

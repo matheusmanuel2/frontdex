@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-advanced-cropper
+url: https://advanced-cropper.github.io/react-advanced-cropper/
+repo: https://github.com/advanced-cropper/react-advanced-cropper
+area: build
+category: ui-components
+tags:
+  - react
+  - photos
+pricing: TODO
+open_source: TODO
+description:
+  pt: Recortador de imagens para React, configurável para encaixar no design do seu site.
+  en: Image cropper for React, configurable to fit your site's design.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://advanced-cropper.github.io/react-advanced-cropper/"

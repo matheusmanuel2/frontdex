@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: SWC
+url: https://swc.rs/
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - typescript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Plataforma extensível escrita em Rust para compilar e minificar JavaScript, base de ferramentas de dev rápidas.
+  en: Extensible Rust-based platform for compiling and minifying JavaScript, the base for fast dev tooling.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://swc.rs/"

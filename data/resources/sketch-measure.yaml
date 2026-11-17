@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Sketch Measure
+url: https://github.com/utom/sketch-measure
+repo: https://github.com/utom/sketch-measure
+area: build
+category: design-tools
+tags:
+  - design-engineering
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Plugin do Sketch que gera especificações de medidas para entregar ao time de dev.
+  en: Sketch plugin that generates measurement specs to hand off to developers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://github.com/utom/sketch-measure"

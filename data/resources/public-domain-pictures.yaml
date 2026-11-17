@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Public Domain Pictures
+url: https://www.publicdomainpictures.net/en/
+area: build
+category: assets
+tags:
+  - photos
+  - illustration
+pricing: free
+open_source: TODO
+description:
+  pt: Mais de 795 mil imagens, fotos e ilustrações em domínio público, de fundos a natureza e pessoas.
+  en: 795,000+ public domain images, photos and illustrations, from backgrounds to nature and people.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.publicdomainpictures.net/en/"

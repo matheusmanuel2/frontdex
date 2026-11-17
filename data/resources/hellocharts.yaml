@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: HelloCharts
+url: https://github.com/lecho/hellocharts-android
+repo: https://github.com/lecho/hellocharts-android
+area: build
+category: charts
+tags:
+  - android
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Gráficos para Android compatíveis com API 8+, com zoom, rolagem e animações.
+  en: Android charts compatible with API 8+, with scaling, scrolling and animations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/lecho/hellocharts-android"

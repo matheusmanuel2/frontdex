@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Rive
+url: https://github.com/behnamrhp/React-VVM
+repo: https://github.com/behnamrhp/React-VVM
+area: build
+category: animation
+tags:
+  - motion
+  - interactive
+pricing: TODO
+open_source: TODO
+license: MIT
+description:
+  pt: Motor 2D e 3D para jogos, apps e UI interativa, por trás do Duolingo e do Spotify Wrapped.
+  en: 2D and 3D engine for games, apps and interactive UI, behind Duolingo and Spotify Wrapped.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/behnamrhp/React-VVM"

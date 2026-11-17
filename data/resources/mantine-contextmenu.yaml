@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: mantine-contextmenu
+url: https://icflorescu.github.io/mantine-contextmenu/
+repo: https://github.com/icflorescu/mantine-contextmenu
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Menu de contexto para interfaces Mantine, leve e com suporte a tema escuro.
+  en: Lightweight, dark-theme-aware context menu for Mantine UIs.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://icflorescu.github.io/mantine-contextmenu/"

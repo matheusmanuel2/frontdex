@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Atomize
+url: https://shergin.github.io/malevich/
+repo: https://github.com/shergin/malevich
+area: build
+category: ui-components
+tags:
+  - react
+  - design-systems
+pricing: TODO
+open_source: TODO
+license: Apache-2.0
+description:
+  pt: Framework de UI para React pensado para devs e designers montarem interfaces consistentes a partir do mesmo sistema.
+  en: React UI framework meant for developers and designers to build consistent interfaces from one shared system.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://shergin.github.io/malevich/"

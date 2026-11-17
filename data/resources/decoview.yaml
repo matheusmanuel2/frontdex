@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: DecoView
+url: https://github.com/bmarrdev/android-DecoView-charting
+repo: https://github.com/bmarrdev/android-DecoView-charting
+area: build
+category: charts
+tags:
+  - android
+  - motion
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Biblioteca de gráficos animados em arco para Android.
+  en: Charting library of animated arcs for Android.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/bmarrdev/android-DecoView-charting"

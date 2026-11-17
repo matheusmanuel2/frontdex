@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: CodyHouse
+url: https://codyhouse.co/
+area: build
+category: ui-components
+tags:
+  - css
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes e ferramentas prontos para produção, voltados a web designers.
+  en: Production-ready components and tools aimed at web designers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://codyhouse.co/"

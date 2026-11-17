@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Baklava
+url: https://baklava.design/
+repo: https://github.com/Trendyol/baklava
+area: build
+category: ui-components
+tags:
+  - design-systems
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Design system da Trendyol para manter a UI e a UX consistentes entre os apps.
+  en: Trendyol's design system for consistent UI and UX across its apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://baklava.design/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Fontfabric
+url: https://www.fontfabric.com/
+area: build
+category: fonts
+tags:
+  - typography
+pricing: TODO
+open_source: TODO
+description:
+  pt: Fundição digital que cria fontes de varejo e tipografia sob medida para marcas.
+  en: Digital type foundry making retail fonts and custom typography for brands.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.fontfabric.com/"

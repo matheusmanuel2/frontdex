@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: New Old Stock
+url: https://nos.twnsnd.co/
+area: build
+category: assets
+tags:
+  - photos
+  - history
+pricing: TODO
+open_source: TODO
+description:
+  pt: Fotos antigas de arquivos públicos, sem restrições de direitos autorais conhecidas.
+  en: Vintage photos from public archives, free of known copyright restrictions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://nos.twnsnd.co/"

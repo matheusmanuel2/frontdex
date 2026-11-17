@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Animista
+url: https://animista.net/
+area: build
+category: animation
+tags:
+  - css
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Playground de animações CSS prontas onde você ajusta cada uma e baixa só as que vai usar.
+  en: Playground of ready-made CSS animations where you tweak each one and download only those you use.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://animista.net/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-router-scroll
+url: https://github.com/taion/react-router-scroll
+repo: https://github.com/taion/react-router-scroll
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Gerenciamento de rolagem para o React Router.
+  en: Manages scroll position for React Router navigation.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/taion/react-router-scroll"

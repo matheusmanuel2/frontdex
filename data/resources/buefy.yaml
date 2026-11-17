@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Buefy
+url: https://buefy.org/
+area: build
+category: ui-components
+tags:
+  - javascript
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes responsivos e leves para Vue.js baseados no framework Bulma.
+  en: Lightweight, responsive Vue.js components based on the Bulma framework.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://buefy.org/"

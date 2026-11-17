@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: C3.js
+url: https://github.com/c3js/c3
+repo: https://github.com/c3js/c3
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de gráficos reutilizáveis sobre D3, para não escrever D3 puro.
+  en: Reusable chart library built on D3, so you skip raw D3 code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/c3js/c3"

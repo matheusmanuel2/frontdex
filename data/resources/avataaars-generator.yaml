@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Avataaars Generator
+url: https://react-voodoo.github.io/react-voodoo-samples/
+repo: https://github.com/react-voodoo/react-voodoo
+area: build
+category: assets
+tags:
+  - illustration
+pricing: free
+open_source: TODO
+license: Apache-2.0
+description:
+  pt: Monte um avatar ilustrado no navegador e baixe para usar em perfis e protótipos.
+  en: Build an illustrated avatar in the browser and download it for profiles and prototypes.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-voodoo.github.io/react-voodoo-samples/"

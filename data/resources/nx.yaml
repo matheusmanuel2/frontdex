@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Nx
+url: https://nx.dev
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - cli
+pricing: TODO
+open_source: TODO
+description:
+  pt: Plataforma de monorepo focada em reduzir tempos de build conforme o repositório cresce.
+  en: Monorepo platform focused on keeping build times down as the repo grows.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://nx.dev"

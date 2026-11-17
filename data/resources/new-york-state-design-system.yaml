@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: New York State Design System
+url: https://designsystem.ny.gov/components/
+area: build
+category: ui-components
+tags:
+  - design-systems
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes web para sites do estado de Nova York acessíveis e responsivos.
+  en: Web components for accessible, mobile-friendly New York State websites.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://designsystem.ny.gov/components/"

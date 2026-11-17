@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-flip-move
+url: https://github.com/joshwcomeau/react-flip-move
+repo: https://github.com/joshwcomeau/react-flip-move
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Anima mudanças no DOM, como reordenar listas, usando a técnica FLIP.
+  en: Animates DOM changes such as list reordering using the FLIP technique.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/joshwcomeau/react-flip-move"

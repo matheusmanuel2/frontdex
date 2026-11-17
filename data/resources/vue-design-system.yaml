@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Vue Design System
+url: https://vueds.com/
+area: build
+category: ui-components
+tags:
+  - design-systems
+pricing: TODO
+open_source: true
+description:
+  pt: Ferramenta open source para montar design systems de UI com Vue.js, com padrões e práticas organizados.
+  en: Open source tool for building UI design systems with Vue.js, with organised patterns and practices.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://vueds.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Virtua
+url: https://inokawa.github.io/virtua/
+repo: https://github.com/inokawa/virtua
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Lista, grade e masonry virtualizados sem configuração, para React, Vue, Solid, Svelte e Angular.
+  en: Zero-config virtual list, grid and masonry for React, Vue, Solid, Svelte and Angular.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://inokawa.github.io/virtua/"

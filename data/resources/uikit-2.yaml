@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: UIkit
+url: https://getuikit.com/docs/introduction
+area: build
+category: ui-components
+tags:
+  - css
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Framework front-end leve e modular para montar interfaces web.
+  en: Lightweight, modular front-end framework for building web interfaces.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://getuikit.com/docs/introduction"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Cool Backgrounds
+url: https://coolbackgrounds.io/
+area: build
+category: assets
+tags:
+  - gradients
+pricing: TODO
+open_source: TODO
+description:
+  pt: Fundos selecionados para usar em blogs, sites ou como wallpaper no desktop e no celular.
+  en: Curated backgrounds for blogs, websites, or desktop and phone wallpapers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://coolbackgrounds.io/"

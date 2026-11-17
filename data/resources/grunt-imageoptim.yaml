@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: grunt-imageoptim
+url: https://github.com/JamieMason/grunt-imageoptim
+repo: https://github.com/JamieMason/grunt-imageoptim
+area: build
+category: dev-tools
+tags:
+  - macos
+  - cli
+pricing: TODO
+open_source: TODO
+description:
+  pt: Leva ImageOptim, ImageAlpha e JPEGmini para dentro do seu build automatizado com Grunt.
+  en: Brings ImageOptim, ImageAlpha and JPEGmini into your automated Grunt build.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/JamieMason/grunt-imageoptim"

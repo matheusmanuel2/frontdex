@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Scizone
+url: https://scizone.dev/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Converte JPG, PNG, HEIC e TIFF para WebP ou AVIF em lotes de mais de 1000 imagens, mantendo EXIF e perfis de cor.
+  en: Converts JPG, PNG, HEIC and TIFF to WebP or AVIF in batches of 1000+ images, keeping EXIF and color profiles.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://scizone.dev/"

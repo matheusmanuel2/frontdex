@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: EpicPxls
+url: https://www.epicpxls.com/
+area: build
+category: assets
+tags:
+  - mockups
+pricing: freemium
+open_source: TODO
+description:
+  pt: Fontes, gráficos, templates e UI kits com curadoria, em versões gratuitas e premium.
+  en: Curated fonts, graphics, templates and UI kits, in free and premium versions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.epicpxls.com/"

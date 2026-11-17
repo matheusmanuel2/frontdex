@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Smart Upscaler
+url: https://react.frameright.io
+repo: https://github.com/Frameright/react-image-display-control
+area: build
+category: ai-tools
+tags:
+  - photos
+  - api
+pricing: TODO
+open_source: TODO
+license: MIT
+description:
+  pt: Amplia imagens e fotos até 8x com IA, em lote ou por meio de uma API.
+  en: Upscales images and photos up to 8x with AI, in batches or through an API.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react.frameright.io"

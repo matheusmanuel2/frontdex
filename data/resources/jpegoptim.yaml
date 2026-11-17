@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: jpegoptim
+url: https://github.com/tjko/jpegoptim
+repo: https://github.com/tjko/jpegoptim
+area: build
+category: dev-tools
+tags:
+  - cli
+pricing: TODO
+open_source: true
+license: GPL-3.0
+description:
+  pt: Utilitário de linha de comando para otimizar e comprimir arquivos JPEG.
+  en: Command-line utility to optimize and compress JPEG files.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/tjko/jpegoptim"

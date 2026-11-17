@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Portal
+url: https://www.cssportal.com/
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Geradores, exemplos e recursos de CSS e HTML para design de sites, como ribbons e cantos dobrados.
+  en: CSS and HTML generators, examples and resources for web design, such as ribbons and folded corners.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.cssportal.com/"

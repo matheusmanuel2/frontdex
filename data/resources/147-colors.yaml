@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: 147 Colors
+url: https://147colors.com/
+area: build
+category: colors
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Ajuda você a aprender os mais de 147 nomes de cor disponíveis no CSS.
+  en: Helps you learn the 147+ named colors available in CSS today.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://147colors.com/"

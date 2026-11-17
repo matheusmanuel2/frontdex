@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Leon Sans
+url: https://leon-kim.com/
+repo: https://github.com/cmiscm/leonsans
+area: build
+category: fonts
+tags:
+  - typography
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Fonte sans-serif geométrica feita com código, desenhada por Jongmin Kim em 2019.
+  en: Geometric sans-serif typeface made with code by Jongmin Kim in 2019.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://leon-kim.com/"

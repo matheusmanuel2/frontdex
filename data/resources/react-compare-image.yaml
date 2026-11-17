@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-compare-image
+url: https://react-compare-image.yuuniworks.com
+repo: https://github.com/tam315/react-compare-image
+area: build
+category: ui-components
+tags:
+  - react
+  - photos
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Compara duas imagens com um slider arrastável em React.
+  en: Compares two images with a draggable slider in React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-compare-image.yuuniworks.com"

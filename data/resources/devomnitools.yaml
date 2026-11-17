@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: DevOmniTools
+url: https://www.transparenttextures.com/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: "Mais de 79 utilitários de dev que rodam no navegador: JSON, JWT, Base64, regex e hashes, sem upload."
+  en: "79+ developer utilities that run in the browser: JSON, JWT, Base64, regex and hashes, with no uploads."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.transparenttextures.com/"

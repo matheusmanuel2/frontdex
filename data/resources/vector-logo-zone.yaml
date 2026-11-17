@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Vector Logo Zone
+url: https://www.vectorlogo.zone/
+area: build
+category: brand-apis
+tags:
+  - logos
+pricing: TODO
+open_source: TODO
+description:
+  pt: Logos em SVG pensados para README e páginas de créditos.
+  en: SVG logos made for READMEs and credits pages.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.vectorlogo.zone/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: TMI
+url: https://github.com/addyosmani/tmi
+repo: https://github.com/addyosmani/tmi
+area: build
+category: dev-tools
+tags:
+  - cli
+  - web
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Mostra quanto as imagens pesam numa página web.
+  en: Shows how much image weight a web page carries.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/addyosmani/tmi"

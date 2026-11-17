@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CleverBrush
+url: https://www.cleverbrush.com/
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Editor vetorial que você embute na sua página como biblioteca JavaScript, com suporte a SVG, PNG, JPEG e PDF.
+  en: Vector editor you embed in your page as a JavaScript library, supporting SVG, PNG, JPEG and PDF.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.cleverbrush.com/"

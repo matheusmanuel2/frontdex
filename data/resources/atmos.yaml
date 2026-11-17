@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Atmos
+url: https://atmos.style/
+area: build
+category: colors
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gerador de paletas para designers de UI, com tons uniformes e escalas de cor.
+  en: Color palette generator for UI designers, with uniform shades and color scales.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://atmos.style/"

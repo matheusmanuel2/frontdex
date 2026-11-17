@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Flowbite Admin Dashboard
+url: https://flowbite-admin-dashboard.vercel.app
+repo: https://github.com/themesberg/flowbite-admin-dashboard
+area: build
+category: ui-components
+tags:
+  - css
+  - web
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Template de painel administrativo gratuito e open source feito com Tailwind CSS e Flowbite.
+  en: Free, open-source admin dashboard template built with Tailwind CSS and Flowbite.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://flowbite-admin-dashboard.vercel.app"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Pitomba-spriter
+url: https://github.com/pitomba/spriter
+repo: https://github.com/pitomba/spriter
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Gerador dinâmico de sprites de imagem escrito em Python.
+  en: Dynamic image sprite generator written in Python.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/pitomba/spriter"

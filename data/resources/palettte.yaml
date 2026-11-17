@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Palettte
+url: https://palettte.app
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Editor de paletas focado em ajustar e remapear cores de uma paleta existente.
+  en: Palette editor focused on tweaking and remapping the colors of an existing palette.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://palettte.app"

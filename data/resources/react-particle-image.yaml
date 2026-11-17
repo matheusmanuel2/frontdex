@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-particle-image
+url: https://malerba118.github.io/react-particle-image-demo/
+repo: https://github.com/malerba118/react-particle-image
+area: build
+category: animation
+tags:
+  - react
+  - interactive
+pricing: TODO
+open_source: TODO
+description:
+  pt: Renderiza imagens como partículas interativas que reagem ao cursor.
+  en: Renders images as interactive particles in React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://malerba118.github.io/react-particle-image-demo/"

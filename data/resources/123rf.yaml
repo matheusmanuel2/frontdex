@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: 123RF
+url: https://www.123rf.com/
+area: build
+category: assets
+tags:
+  - photos
+  - illustration
+pricing: TODO
+open_source: TODO
+description:
+  pt: Milhões de fotos, vetores, cliparts e ilustrações de stock royalty-free.
+  en: Millions of royalty-free stock photos, vectors, clipart and illustrations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.123rf.com/"

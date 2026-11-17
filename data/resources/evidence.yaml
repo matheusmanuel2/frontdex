@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Evidence
+url: https://evidence.dev
+repo: https://github.com/evidence-dev/evidence
+area: build
+category: charts
+tags:
+  - sql
+  - analytics
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: "BI como código: visualizações interativas escritas em SQL e markdown."
+  en: "Business intelligence as code: interactive data visualizations written in SQL and markdown."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://evidence.dev"

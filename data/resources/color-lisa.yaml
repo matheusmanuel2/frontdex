@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Color Lisa
+url: https://www.colorlisa.com/
+area: build
+category: colors
+tags:
+  - gradients
+pricing: TODO
+open_source: TODO
+description:
+  pt: Paletas de cores tiradas de obras famosas dos maiores artistas do mundo.
+  en: Color palettes drawn from famous works by the world's greatest artists.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design, Siddharth11/Colorful. Lida: https://www.colorlisa.com/"

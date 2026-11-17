@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Once UI
+url: https://once-ui.com/
+area: build
+category: ui-components
+tags:
+  - react
+  - ai-agents
+pricing: TODO
+open_source: true
+description:
+  pt: Sistema de design para React e Next.js com componentes, tokens e regras que o seu agente de código segue.
+  en: Design system for React and Next.js with components, tokens and rules your coding agent follows.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://once-ui.com/"

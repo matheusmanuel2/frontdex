@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: SweetAlert2
+url: https://sweetalert2.github.io
+repo: https://github.com/sweetalert2/sweetalert2
+area: build
+category: ui-components
+tags:
+  - javascript
+  - accessibility
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Substitui os popups nativos do JavaScript por modais acessíveis (WAI-ARIA), sem dependências.
+  en: Replaces JavaScript's native popups with accessible (WAI-ARIA) modals, zero dependencies.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://sweetalert2.github.io"

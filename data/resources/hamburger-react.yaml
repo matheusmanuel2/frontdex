@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: hamburger-react
+url: https://hamburger-react.netlify.app
+repo: https://github.com/cyntler/hamburger-react
+area: build
+category: icons
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Ícones de menu hambúrguer animados para React, com 1,5 KB.
+  en: Animated hamburger menu icons for React, weighing 1.5 KB.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://hamburger-react.netlify.app"

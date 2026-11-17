@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: JBChartView
+url: https://github.com/Jawbone/JBChartView
+repo: https://github.com/Jawbone/JBChartView
+area: build
+category: charts
+tags:
+  - ios
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de gráficos de linha e barra para iOS.
+  en: Line and bar graph charting library for iOS apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/Jawbone/JBChartView"

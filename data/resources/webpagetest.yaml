@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: WebPageTest
+url: https://www.catchpoint.com/webpagetest
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Mede velocidade e performance do site em vários navegadores, dispositivos, locais e condições de rede.
+  en: Tests site speed and performance across browsers, devices, locations and network conditions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.catchpoint.com/webpagetest"

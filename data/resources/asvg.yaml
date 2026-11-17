@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: asvg
+url: https://asvg.app/
+area: build
+category: brand-apis
+tags:
+  - logos
+pricing: TODO
+open_source: TODO
+description:
+  pt: Logos, ícones e bandeiras em SVG, PNG e WebP, muitos tirados dos sites oficiais e marcados como variante oficial.
+  en: Logos, icons and flags in SVG, PNG and WebP, many sourced from official sites and marked as official variants.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://asvg.app/"

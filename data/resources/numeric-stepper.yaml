@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: numeric-stepper
+url: https://numeric-stepper.netlify.app
+repo: https://github.com/anatoliygatt/numeric-stepper
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente de stepper numérico para React.
+  en: Numeric stepper component for React for picking numbers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://numeric-stepper.netlify.app"

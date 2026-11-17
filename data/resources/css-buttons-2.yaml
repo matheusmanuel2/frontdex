@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Buttons
+url: https://getcssscan.com/css-buttons-examples
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: TODO
+description:
+  pt: Coleção de 92 botões em CSS gratuitos, copiados com um clique.
+  en: Collection of 92 free CSS buttons you copy with one click.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://getcssscan.com/css-buttons-examples"

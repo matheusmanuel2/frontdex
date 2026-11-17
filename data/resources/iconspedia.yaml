@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Iconspedia
+url: https://www.iconspedia.com/
+area: build
+category: icons
+tags:
+  - icons
+pricing: TODO
+open_source: TODO
+description:
+  pt: 39.051 ícones em 1.314 coleções de designers independentes, com o formato e a licença de cada coleção à vista.
+  en: 39,051 icons in 1,314 collections by independent designers, with each collection's formats and license shown.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.iconspedia.com/"

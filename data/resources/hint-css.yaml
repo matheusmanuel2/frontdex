@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Hint.css
+url: https://kushagra.dev/lab/hint/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Tooltips feitos só com CSS, sem JavaScript.
+  en: Tooltips made with CSS only, no JavaScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://kushagra.dev/lab/hint/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Carbon
+url: https://github.com/xulihang/react-vision-camera
+repo: https://github.com/xulihang/react-vision-camera
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Transforma trechos de código-fonte em imagens para compartilhar em posts e slides.
+  en: Turns source code snippets into images for sharing in posts and slides.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/xulihang/react-vision-camera"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Flow
+url: https://createwithflow.com/
+area: build
+category: animation
+tags:
+  - motion
+  - ios
+  - figma
+pricing: TODO
+open_source: TODO
+description:
+  pt: Importa do Sketch ou Figma e anima numa timeline, exportando para iOS, web e Lottie como mídia ou código.
+  en: Import from Sketch or Figma and animate on a timeline, exporting to iOS, web and Lottie as media or code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://createwithflow.com/"

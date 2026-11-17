@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Handsontable
+url: https://handsontable.com/docs
+repo: https://github.com/handsontable/handsontable
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Data grid em JavaScript com cara de planilha, para React, Angular e Vue.
+  en: JavaScript data grid with a spreadsheet look and feel, for React, Angular and Vue.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://handsontable.com/docs"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Raleway
+url: https://fonts.google.com/specimen/Raleway
+area: build
+category: fonts
+tags:
+  - typography
+pricing: TODO
+open_source: TODO
+description:
+  pt: Sans-serif que começou com um único peso fino e virou uma família de 9 pesos.
+  en: Sans-serif that started as a single thin weight and grew into a 9-weight family.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://fonts.google.com/specimen/Raleway"

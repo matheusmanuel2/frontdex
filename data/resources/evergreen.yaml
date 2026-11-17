@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Evergreen
+url: https://evergreen.segment.com
+repo: https://github.com/segmentio/evergreen
+area: build
+category: ui-components
+tags:
+  - react
+  - design-systems
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Framework de UI em React criado pela Segment.
+  en: React UI framework built and used by the team at Segment.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://evergreen.segment.com"

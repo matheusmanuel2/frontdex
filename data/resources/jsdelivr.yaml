@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: jsDelivr
+url: https://www.jsdelivr.com
+repo: https://github.com/jsdelivr/jsdelivr
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: CDN open source e gratuita para pacotes do npm, repositórios do GitHub e ESM.
+  en: Free open source CDN for npm packages, GitHub repos and ESM.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.jsdelivr.com"

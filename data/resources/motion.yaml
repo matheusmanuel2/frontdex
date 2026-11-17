@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Motion
+url: https://www.framer.com/motion/
+area: build
+category: animation
+tags:
+  - react
+  - javascript
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de animação para React, JavaScript e Vue, antes chamada Framer Motion, com pacote pequeno.
+  en: Animation library for React, JavaScript and Vue, formerly Framer Motion, with a small footprint.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.framer.com/motion/"

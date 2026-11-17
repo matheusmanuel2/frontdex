@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Tagify
+url: https://yaireo.github.io/tagify/
+repo: https://github.com/yairEO/tagify
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Campo de tags em JavaScript puro, com versões para React, Angular e Vue.
+  en: Tags input component in vanilla JS, with React, Angular and Vue versions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://yaireo.github.io/tagify/"

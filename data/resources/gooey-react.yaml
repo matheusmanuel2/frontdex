@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: gooey-react
+url: https://gooey-react.netlify.app
+repo: https://github.com/luukdv/gooey-react
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Efeito gooey para React, que funde formas como metaballs, em 0,5 KB.
+  en: Gooey effect for React that blobs shapes together like metaballs, in 0.5 KB.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://gooey-react.netlify.app"

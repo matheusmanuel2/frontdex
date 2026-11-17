@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ngx-admin
+url: https://akveo.github.io/ngx-admin/
+area: build
+category: ui-components
+tags:
+  - typescript
+pricing: free
+open_source: true
+description:
+  pt: Dashboard administrativo em Angular e Nebular, gratuito e sob licença MIT para uso pessoal e comercial.
+  en: Admin dashboard built on Angular and Nebular, free and MIT licensed for personal and commercial use.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://akveo.github.io/ngx-admin/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Amplify UI
+url: https://ui.docs.amplify.aws/
+area: build
+category: ui-components
+tags:
+  - react
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes React ligados à nuvem da AWS Amplify, com temas e utilitários para montar telas acessíveis.
+  en: React components wired to AWS Amplify cloud features, with theming and utilities for accessible screens.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://ui.docs.amplify.aws/"

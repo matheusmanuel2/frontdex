@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Rumble Charts
+url: https://rumble-charts.github.io
+repo: https://github.com/rumble-charts/rumble-charts
+area: build
+category: charts
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componentes React combináveis para montar gráficos em SVG com D3.
+  en: Composable React components for building SVG charts with D3.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://rumble-charts.github.io"

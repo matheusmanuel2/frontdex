@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Blobmaker
+url: https://www.blobmaker.app/
+area: build
+category: assets
+tags:
+  - illustration
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gera formas orgânicas em SVG ajustando complexidade, contraste e cor.
+  en: Generates organic SVG blobs by tweaking complexity, contrast and color.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://www.blobmaker.app/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: LaunchCheck
+url: https://launch.7eventeen.dev/#preflight
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: freemium
+open_source: TODO
+description:
+  pt: "Kit offline para lançar sites: preflight de HTML, 45 checagens guiadas e relatórios com a marca do estúdio."
+  en: "Offline website launch toolkit: HTML preflight, 45 guided checks and studio-branded reports, $39 once."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://launch.7eventeen.dev/#preflight"

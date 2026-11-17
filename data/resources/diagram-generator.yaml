@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Diagram Generator
+url: https://diagram-generator.com/
+area: build
+category: ai-tools
+tags:
+  - web
+pricing: freemium
+open_source: TODO
+description:
+  pt: "Gera diagramas a partir de uma descrição em texto: mais de 16 tipos, como fluxogramas e diagramas ER."
+  en: Turns a text description into a diagram, with 16+ types such as flowcharts and ER diagrams.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://diagram-generator.com/"

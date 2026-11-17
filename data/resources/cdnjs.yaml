@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: cdnjs
+url: https://cdnjs.com/
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - css
+pricing: free
+open_source: true
+description:
+  pt: CDN gratuita e open source com as bibliotecas JS, CSS e fontes mais usadas, em cache na rede da Cloudflare.
+  en: Free, open source CDN for popular JavaScript, CSS and font libraries, cached on Cloudflare's network.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://cdnjs.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-inspector
+url: https://5d8cb665bc622e0020296079-dippbxxgcq.chromatic.com/
+repo: https://github.com/storybookjs/react-inspector
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Inspetores no estilo do DevTools do navegador dentro do seu app React.
+  en: Browser DevTools-style inspectors rendered inside your React app.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://5d8cb665bc622e0020296079-dippbxxgcq.chromatic.com/"

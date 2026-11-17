@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Stylebot
+url: https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Muda a aparência de qualquer site aplicando seu próprio CSS por cima dele.
+  en: Changes how any website looks by applying your own CSS on top of it.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/"

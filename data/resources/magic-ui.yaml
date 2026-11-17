@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Magic UI
+url: https://magicui.design/
+area: build
+category: ui-components
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes e templates animados voltados para landing pages.
+  en: Animated components and templates aimed at landing pages.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://magicui.design/"

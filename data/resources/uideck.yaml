@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: UIdeck
+url: https://uideck.com/
+area: build
+category: ui-components
+tags:
+  - css
+  - react
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Landing pages em HTML, temas Bootstrap, templates React e Tailwind e UI kits, de graça.
+  en: Free HTML landing pages, Bootstrap themes, React and Tailwind templates, and UI kits.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uideck.com/"

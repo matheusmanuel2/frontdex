@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Firefox Developer Edition
+url: https://www.mozilla.org/en-US/firefox/developer/
+area: build
+category: dev-tools
+tags:
+  - css
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Versão do Firefox para devs, com ferramentas de inspeção de CSS Grid e depuração de frameworks.
+  en: Firefox build for developers, with CSS Grid inspection and framework debugging tools.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.mozilla.org/en-US/firefox/developer/"

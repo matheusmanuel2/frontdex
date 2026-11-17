@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Colors & Fonts
+url: https://www.colorsandfonts.com/
+area: build
+category: colors
+tags:
+  - css
+  - gradients
+  - accessibility
+pricing: free
+open_source: TODO
+description:
+  pt: Paletas, gradientes CSS para copiar, gerador de tons e checagem de contraste num só lugar.
+  en: Palettes, copy-paste CSS gradients, a shade generator and contrast checking in one place.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://www.colorsandfonts.com/"

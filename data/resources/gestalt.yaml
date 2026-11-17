@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Gestalt
+url: https://gestalt.pinterest.systems/
+repo: https://github.com/pinterest/gestalt
+area: build
+category: ui-components
+tags:
+  - react
+  - design-systems
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Componentes React que seguem a linguagem de design do Pinterest.
+  en: React UI components that follow Pinterest's design language.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, brillout/awesome-react-components. Lida: https://gestalt.pinterest.systems/"

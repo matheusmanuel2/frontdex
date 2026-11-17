@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Heroicons
+url: https://heroicons.dev/
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: true
+description:
+  pt: Ícones de interface com licença MIT desenhados por Steve Schoger, grátis e sem atribuição.
+  en: MIT-licensed interface icons drawn by Steve Schoger, free and with no attribution required.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://heroicons.dev/"

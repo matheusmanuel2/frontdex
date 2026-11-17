@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-window
+url: https://react-window.vercel.app/
+repo: https://github.com/bvaughn/react-window
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componentes React que renderizam listas longas e dados tabulares sem travar a tela.
+  en: React components for rendering long lists and tabular data efficiently.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-window.vercel.app/"

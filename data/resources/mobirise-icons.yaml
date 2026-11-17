@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Mobirise Icons
+url: https://mobiriseicons.com/
+area: build
+category: icons
+tags:
+  - icons
+  - css
+pricing: free
+open_source: true
+description:
+  pt: Fonte de ícones e conjunto SVG de linha, open source e grátis para web design.
+  en: Line icon font and SVG set for web design, open source and free.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://mobiriseicons.com/"

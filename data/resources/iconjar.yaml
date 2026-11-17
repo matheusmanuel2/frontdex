@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: IconJar
+url: https://www.geticonjar.com/
+area: build
+category: icons
+tags:
+  - icons
+  - macos
+pricing: paid
+open_source: TODO
+description:
+  pt: Organizador de bibliotecas de ícones para macOS, com teste grátis de 14 dias.
+  en: Icon library organizer for macOS, with a free 14-day trial.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://www.geticonjar.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: vue-echarts
+url: https://vue-echarts.dev
+repo: https://github.com/ecomfe/vue-echarts
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente Vue.js que envolve o Apache ECharts para usar nos templates.
+  en: Vue.js component that wraps Apache ECharts for use in templates.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vue-echarts.dev"

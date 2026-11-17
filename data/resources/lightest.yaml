@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: lightest
+url: https://lightest.app/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Compara o carregamento de várias páginas quadro a quadro, numa linha do tempo compartilhada.
+  en: Compares how pages load frame by frame, side by side on a shared timeline.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://lightest.app/"

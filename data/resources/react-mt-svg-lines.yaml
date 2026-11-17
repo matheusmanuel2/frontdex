@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-mt-svg-lines
+url: https://github.com/moarwick/react-mt-svg-lines
+repo: https://github.com/moarwick/react-mt-svg-lines
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Anima o traço das linhas de um SVG em React, como se fosse desenhado na hora.
+  en: Animates the line stroke of an SVG in React, as if it were drawn live.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/moarwick/react-mt-svg-lines"

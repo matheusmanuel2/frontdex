@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Hover.css
+url: https://ianlunn.github.io/Hover/
+area: build
+category: animation
+tags:
+  - css
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Coleção de efeitos de hover feitos em CSS3.
+  en: Collection of hover effects built with CSS3.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ianlunn.github.io/Hover/"

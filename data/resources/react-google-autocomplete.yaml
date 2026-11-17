@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-google-autocomplete
+url: https://github.com/ErrorPro/react-google-autocomplete
+repo: https://github.com/ErrorPro/react-google-autocomplete
+area: build
+category: ui-components
+tags:
+  - react
+  - api
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componentes React para o autocompletar da API Google Places.
+  en: React components for Google Places API autocomplete.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/ErrorPro/react-google-autocomplete"

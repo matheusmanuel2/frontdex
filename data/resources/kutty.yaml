@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Kutty
+url: https://kutty.netlify.app/
+area: build
+category: ui-components
+tags:
+  - css
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Plugin do Tailwind com componentes acessíveis e reutilizáveis para as peças mais comuns de aplicações web.
+  en: Tailwind plugin with accessible, reusable components for the pieces web applications use most.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://kutty.netlify.app/"

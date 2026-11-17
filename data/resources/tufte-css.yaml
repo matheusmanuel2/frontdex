@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Tufte CSS
+url: https://edwardtufte.github.io/tufte-css/
+repo: https://github.com/edwardtufte/tufte-css
+area: build
+category: ui-components
+tags:
+  - css
+  - typography
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Estilos CSS para deixar uma página com a cara dos handouts de Edward Tufte.
+  en: CSS styles that make a web page look like Edward Tufte's handouts.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://edwardtufte.github.io/tufte-css/"

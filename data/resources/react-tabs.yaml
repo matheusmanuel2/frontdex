@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-tabs
+url: https://reactcommunity.org/react-tabs/
+repo: https://github.com/reactjs/react-tabs
+area: build
+category: ui-components
+tags:
+  - react
+  - accessibility
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente de abas acessível para React, simples de montar e de estilizar.
+  en: Accessible tab component for React, simple to set up and style.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://reactcommunity.org/react-tabs/"

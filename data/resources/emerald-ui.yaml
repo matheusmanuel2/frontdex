@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Emerald UI
+url: https://www.emerald-ui.com/
+area: build
+category: ui-components
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes JSX para instalar, com efeitos de movimento, cards, inputs e seções de preço, além de sites de inspiração.
+  en: Installable JSX components with motion effects, cards, inputs and pricing sections, plus website inspiration.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.emerald-ui.com/"

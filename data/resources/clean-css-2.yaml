@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: clean-css
+url: https://clean-css.github.io/
+repo: https://github.com/clean-css/clean-css
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Otimizador de CSS para Node.js e para o navegador.
+  en: CSS optimizer for Node.js and the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://clean-css.github.io/"

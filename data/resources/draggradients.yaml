@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: draGGradients
+url: https://elrumordelaluz.github.io/draGGradients/
+area: build
+category: colors
+tags:
+  - css
+  - gradients
+pricing: TODO
+open_source: TODO
+description:
+  pt: Cria radial-gradients em CSS arrastando o mouse sobre a tela.
+  en: Builds custom CSS radial-gradients by dragging your mouse.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://elrumordelaluz.github.io/draGGradients/"

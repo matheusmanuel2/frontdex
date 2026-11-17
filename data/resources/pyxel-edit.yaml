@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Pyxel Edit
+url: https://pyxeledit.com/
+area: build
+category: design-tools
+tags:
+  - illustration
+pricing: TODO
+open_source: TODO
+description:
+  pt: Editor de pixel art focado em tilesets, níveis e animações, para Windows e Mac.
+  en: Pixel art editor focused on tilesets, levels and animations, for Windows and Mac.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://pyxeledit.com/"

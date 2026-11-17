@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-movable
+url: https://react-movable.pages.dev
+repo: https://github.com/tajo/react-movable
+area: build
+category: ui-components
+tags:
+  - react
+  - accessibility
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Arrastar e soltar para listas e tabelas em React, acessível e pequeno.
+  en: Drag and drop for React lists and tables, accessible and tiny.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-movable.pages.dev"

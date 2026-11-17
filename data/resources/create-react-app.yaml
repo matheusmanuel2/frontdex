@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Create React App
+url: https://create-react-app.dev/
+repo: https://github.com/react/create-react-app
+area: build
+category: dev-tools
+tags:
+  - react
+  - cli
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Monta um app web com React rodando um único comando.
+  en: Sets up a React web app by running a single command.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://create-react-app.dev/"

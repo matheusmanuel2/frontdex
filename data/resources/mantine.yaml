@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Mantine
+url: https://mantine.dev/
+area: build
+category: ui-components
+tags:
+  - react
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca React com mais de 120 componentes personalizáveis, além de hooks e utilitários.
+  en: React library with more than 120 customizable components, plus hooks and utilities.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems, swyxio/spark-joy. Lida: https://mantine.dev/"

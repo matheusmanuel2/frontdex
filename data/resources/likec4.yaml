@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: LikeC4
+url: https://likec4.dev
+repo: https://github.com/likec4/likec4
+area: build
+category: charts
+tags:
+  - web
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Diagramas de arquitetura de software gerados a partir do código, sempre atualizados.
+  en: Software architecture diagrams generated from code, so they stay up to date.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://likec4.dev"

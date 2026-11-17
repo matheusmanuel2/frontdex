@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Chinese Colors
+url: https://zhongguose.com
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Catálogo de cores tradicionais chinesas, cada uma com nome e valor para copiar.
+  en: Catalog of traditional Chinese colors, each with its name and value to copy.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://zhongguose.com"

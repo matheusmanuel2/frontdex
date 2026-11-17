@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ColorZilla
+url: https://addons.mozilla.org/en-US/firefox/addon/colorzilla/
+area: build
+category: colors
+tags:
+  - gradients
+pricing: TODO
+open_source: TODO
+description:
+  pt: Conta-gotas, seletor de cor e gerador de gradientes direto no navegador.
+  en: Eyedropper, color picker and gradient generator right in the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://addons.mozilla.org/en-US/firefox/addon/colorzilla/"

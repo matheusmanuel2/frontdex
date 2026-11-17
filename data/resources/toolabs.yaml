@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Toolabs
+url: https://www.toolabs.com/
+area: build
+category: design-tools
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Plataforma web guiada por tokens e componentes para desenhar, prototipar, documentar e desenvolver.
+  en: Web platform driven by tokens and components for design, prototyping, documentation and development.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.toolabs.com/"

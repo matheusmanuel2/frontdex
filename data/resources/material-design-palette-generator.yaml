@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Material Design Palette Generator
+url: https://materialpalettes.com/
+area: build
+category: colors
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gera paletas no padrão Material Design a partir de qualquer cor hex.
+  en: Builds Material Design color palettes from any hex color.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://materialpalettes.com/"

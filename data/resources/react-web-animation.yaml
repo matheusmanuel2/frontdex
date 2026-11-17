@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-web-animation
+url: https://github.com/bringking/react-web-animation
+repo: https://github.com/bringking/react-web-animation
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componentes React para usar a Web Animations API de forma declarativa.
+  en: React components for using the Web Animations API declaratively.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/bringking/react-web-animation"

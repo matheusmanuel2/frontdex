@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Tapnesh
+url: https://github.com/JafarAkhondali/Tapnesh
+repo: https://github.com/JafarAkhondali/Tapnesh
+area: build
+category: dev-tools
+tags:
+  - cli
+  - terminal
+pricing: TODO
+open_source: true
+license: GPL-3.0
+description:
+  pt: Script bash de linha de comando que otimiza várias imagens em paralelo.
+  en: Command-line bash script that optimizes many images in parallel.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/JafarAkhondali/Tapnesh"

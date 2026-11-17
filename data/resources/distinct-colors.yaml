@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Distinct Colors
+url: https://github.com/internalfx/distinct-colors
+repo: https://github.com/internalfx/distinct-colors
+area: build
+category: colors
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: ISC
+description:
+  pt: Gera paletas de cores visualmente distintas entre si, boas para gráficos.
+  en: Generates palettes of visually distinct colors, good for charts.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://github.com/internalfx/distinct-colors"

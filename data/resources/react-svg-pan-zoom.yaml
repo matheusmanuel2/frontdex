@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-svg-pan-zoom
+url: https://chrvadala.github.io/react-svg-pan-zoom/
+repo: https://github.com/chrvadala/react-svg-pan-zoom
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente React que adiciona pan e zoom a SVG.
+  en: React component that adds pan and zoom to SVG.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://chrvadala.github.io/react-svg-pan-zoom/"

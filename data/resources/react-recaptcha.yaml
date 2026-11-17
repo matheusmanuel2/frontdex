@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-recaptcha
+url: https://www.google.com/recaptcha/intro/index.html
+repo: https://github.com/appleboy/react-recaptcha
+area: build
+category: ui-components
+tags:
+  - react
+  - javascript
+pricing: TODO
+open_source: true
+license: BSD-3-Clause
+description:
+  pt: Componente React que coloca o widget reCAPTCHA do Google no seu formulário.
+  en: React component that drops Google's reCAPTCHA widget into your form.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.google.com/recaptcha/intro/index.html"

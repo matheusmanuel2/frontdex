@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Tailwindadmin
+url: https://tailwind-admin.com
+repo: https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template
+area: build
+category: ui-components
+tags:
+  - react
+  - web
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Template de painel admin com shadcn/ui para React, Next.js, Angular, Vue e TanStack Start.
+  en: shadcn/ui admin dashboard template for React, Next.js, Angular, Vue and TanStack Start.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://tailwind-admin.com"

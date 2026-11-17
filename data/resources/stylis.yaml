@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Stylis
+url: https://stylis.js.org
+repo: https://github.com/thysultan/stylis
+area: build
+category: dev-tools
+tags:
+  - css
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Pré-processador de CSS leve, que transforma o CSS antes de ir para o navegador.
+  en: Lightweight CSS preprocessor that transforms your CSS before it reaches the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://stylis.js.org"

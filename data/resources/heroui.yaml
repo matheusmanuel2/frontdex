@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: HeroUI
+url: https://www.heroui.com/
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+description:
+  pt: Componentes abertos para React e React Native, com templates pagos à parte.
+  en: Open source components for React and React Native, with premium templates on the side.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems. Lida: https://www.heroui.com/"

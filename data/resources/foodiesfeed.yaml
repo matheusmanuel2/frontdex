@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Foodiesfeed
+url: https://www.foodiesfeed.com/
+area: build
+category: assets
+tags:
+  - photos
+pricing: free
+open_source: TODO
+description:
+  pt: Fotos de comida em HD com licença CC0, para cardápios, apps e blogs sem precisar dar crédito.
+  en: CC0 HD food photos for menus, apps and blogs, with no attribution required.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://www.foodiesfeed.com/"

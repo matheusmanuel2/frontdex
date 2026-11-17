@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Polygonjs
+url: https://polygonjs.com/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Motor 3D baseado em nós que roda no navegador e compila para app nativo, com modelagem procedural.
+  en: Node-based 3D engine that runs in the browser and compiles to a native app, with procedural modeling.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://polygonjs.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: bundlesize
+url: https://github.com/siddharthkp/bundlesize
+repo: https://github.com/siddharthkp/bundlesize
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Mantém o tamanho do bundle sob controle, com limites por arquivo.
+  en: Keeps your bundle size in check against set limits.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/siddharthkp/bundlesize"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: perfjankie
+url: https://www.npmjs.com/package/perfjankie
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Suíte de testes de regressão de performance no navegador, instalada via npm.
+  en: Browser performance regression suite you install from npm.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.npmjs.com/package/perfjankie"

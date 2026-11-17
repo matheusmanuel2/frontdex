@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: IcoMoon
+url: https://icomoon.io/
+area: build
+category: icons
+tags:
+  - icons
+pricing: freemium
+open_source: TODO
+description:
+  pt: Sets de ícones SVG gratuitos e premium, com editor e gerador de icon font multicolor.
+  en: Free and premium SVG icon sets, with an editor and a multicolor icon font generator.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://icomoon.io/"

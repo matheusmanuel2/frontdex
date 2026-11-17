@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: HTML5 UP
+url: https://html5up.net/
+area: build
+category: ui-components
+tags:
+  - css
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Templates de site responsivos em HTML5 e CSS3 desenhados por @ajlkn.
+  en: Responsive HTML5 and CSS3 site templates designed by @ajlkn.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://html5up.net/"

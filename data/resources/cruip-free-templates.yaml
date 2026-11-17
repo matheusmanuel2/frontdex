@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Cruip Free Templates
+url: https://cruip.com/free-templates/
+area: build
+category: ui-components
+tags:
+  - css
+  - web
+pricing: freemium
+open_source: TODO
+description:
+  pt: Templates leves em Tailwind CSS, de graça, que servem de amostra dos templates pagos da Cruip.
+  en: Lightweight free Tailwind CSS templates that work as a sample of Cruip's premium ones.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://cruip.com/free-templates/"

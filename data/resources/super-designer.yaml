@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Super Designer
+url: https://www.lexend.com/
+area: build
+category: design-tools
+tags:
+  - gradients
+pricing: free
+open_source: TODO
+description:
+  pt: Mais de 30 ferramentas para gerar fundos, gradientes, padrões CSS, formas 3D e paletas, exportando PNG, SVG ou CSS.
+  en: 30+ tools for generating backgrounds, gradients, CSS patterns, 3D shapes and palettes, exporting PNG, SVG or CSS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.lexend.com/"

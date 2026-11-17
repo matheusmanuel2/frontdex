@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Brick
+url: https://brick.im/
+area: build
+category: fonts
+tags:
+  - typography
+  - web
+pricing: TODO
+open_source: true
+description:
+  pt: Serviço de webfonts open source que entrega as fontes no formato original para renderizar bem em todo navegador.
+  en: Open-source webfont service that serves fonts in their original form for clean rendering in every browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://brick.im/"

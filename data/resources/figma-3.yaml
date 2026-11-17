@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Figma
+url: https://www.figma.com/graphic-design-tool/
+area: build
+category: design-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Software de design de sites e produtos digitais em que a equipe colabora no mesmo arquivo.
+  en: Design software for websites and digital products where the whole team works in the same file.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.figma.com/graphic-design-tool/"

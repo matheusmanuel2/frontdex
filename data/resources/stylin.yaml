@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Stylin
+url: https://github.com/sultan99/stylin
+repo: https://github.com/sultan99/stylin
+area: build
+category: dev-tools
+tags:
+  - react
+  - css
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Estilização de componentes React com CSS resolvido em tempo de build.
+  en: Build-time CSS library for styling React components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/sultan99/stylin"

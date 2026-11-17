@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Black Illustrations
+url: https://www.blackillustrations.com/
+area: build
+category: assets
+tags:
+  - illustration
+pricing: free
+open_source: TODO
+description:
+  pt: Ilustrações digitais de pessoas negras para projetos online, grátis para uso pessoal e comercial.
+  en: Digital illustrations of Black people for online projects, free for personal and commercial use.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.blackillustrations.com/"

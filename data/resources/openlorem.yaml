@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: OpenLorem
+url: https://addons.mozilla.org/en-US/firefox/addon/openlorem/
+area: build
+category: dev-tools
+tags:
+  - text
+pricing: TODO
+open_source: TODO
+description:
+  pt: Insere texto de preenchimento em campos pelo menu de contexto, usando as APIs Loripsum, Bacon Ipsum e Dino Ipsum.
+  en: Inserts filler text into fields from the context menu, using the Loripsum, Bacon Ipsum and Dino Ipsum APIs.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://addons.mozilla.org/en-US/firefox/addon/openlorem/"

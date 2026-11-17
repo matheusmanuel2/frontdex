@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Google Charts
+url: https://developers.google.com/chart/
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gráficos interativos do Google para navegadores e celulares, servidos pela própria API.
+  en: Google's interactive charts for browsers and mobile devices, served from its API.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, hal9ai/awesome-dataviz. Lida: https://developers.google.com/chart/"

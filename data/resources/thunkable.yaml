@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Thunkable
+url: https://thunkable.com/
+area: build
+category: design-tools
+tags:
+  - ios
+  - android
+pricing: TODO
+open_source: TODO
+description:
+  pt: Apps nativos para iOS e Android sem código, com um construtor de IA que cuida de design, lógica e publicação.
+  en: Native iOS and Android apps without code, with an AI builder handling design, logic and publishing.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://thunkable.com/"

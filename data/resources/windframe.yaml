@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Windframe
+url: https://github.com/tremorlabs/tremor-raw
+repo: https://github.com/tremorlabs/tremor-raw
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Editor visual de Tailwind CSS com mais de 1000 blocos de template editáveis e ajuda de IA.
+  en: Visual Tailwind CSS editor with over 1000 editable template blocks and AI assistance.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/tremorlabs/tremor-raw"

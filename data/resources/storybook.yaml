@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Storybook
+url: https://storybook.js.org/
+area: build
+category: dev-tools
+tags:
+  - react
+  - design-systems
+pricing: free
+open_source: true
+description:
+  pt: Oficina para construir componentes e páginas de UI isolados, com testes e documentação junto.
+  en: Workshop for building UI components and pages in isolation, with testing and documentation alongside.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://storybook.js.org/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Avataaars Generator
+url: https://getavataaars.com/
+area: build
+category: assets
+tags:
+  - illustration
+pricing: free
+open_source: TODO
+description:
+  pt: Monte avatares ilustrados no navegador, trocando as peças até chegar no personagem que você quer.
+  en: Build illustrated avatars in the browser by swapping parts until you get the character you want.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://getavataaars.com/"

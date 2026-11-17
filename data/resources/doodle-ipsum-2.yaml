@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Doodle Ipsum
+url: https://doodleipsum.com/
+area: build
+category: assets
+tags:
+  - illustration
+pricing: TODO
+open_source: TODO
+description:
+  pt: Ilustrações de placeholder para devs usarem no lugar de imagens, feitas com o Blush.
+  en: Illustration placeholders for developers to drop in instead of images, powered by Blush.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://doodleipsum.com/"

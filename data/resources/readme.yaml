@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: readme.so
+url: https://readme.so
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Editor de markdown com seções prontas para montar o README do seu projeto.
+  en: Markdown editor with ready-made sections for building your project README.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://readme.so"

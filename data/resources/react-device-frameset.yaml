@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-device-frameset
+url: https://react-device-frameset.zheeeng.me
+repo: https://github.com/zheeeng/react-device-frameset
+area: build
+category: ui-components
+tags:
+  - react
+  - mockups
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Molduras de dispositivos iOS e Android em React para exibir telas dentro delas.
+  en: iOS and Android device frames in React for showing screens inside them.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-device-frameset.zheeeng.me"

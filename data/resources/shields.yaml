@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Shields.io
+url: https://shields.io
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Badges concisos, consistentes e legíveis para READMEs e páginas de projeto.
+  en: Concise, consistent and legible badges for READMEs and project pages.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://shields.io"

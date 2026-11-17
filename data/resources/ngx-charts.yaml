@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: ngx-charts
+url: https://swimlane.github.io/ngx-charts/
+repo: https://github.com/swimlane/ngx-charts
+area: build
+category: charts
+tags:
+  - web
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Framework declarativo de gráficos para Angular, construído com D3.
+  en: Declarative charting framework for Angular, built with D3.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://swimlane.github.io/ngx-charts/"

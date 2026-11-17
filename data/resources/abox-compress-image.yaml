@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: abox Compress Image
+url: https://abox.tools/compress-image/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Comprime JPEG, PNG, WebP ou AVIF até caber num limite de tamanho, como 100 KB ou 2 MB, sem upload.
+  en: Compresses JPEG, PNG, WebP or AVIF to fit a size limit such as 100 KB or 2 MB, with no upload.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://abox.tools/compress-image/"

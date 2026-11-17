@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: SVG to ICO
+url: https://svg-to-ico.org
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Converte SVG em favicon ICO no navegador, com exportação também em PNG e JPEG, sem conta.
+  en: Turns an SVG into an ICO favicon in the browser, with PNG and JPEG export too, no account.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://svg-to-ico.org"

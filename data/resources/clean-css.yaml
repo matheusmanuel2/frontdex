@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Clean CSS
+url: https://www.cleancss.com/
+area: build
+category: dev-tools
+tags:
+  - css
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Formata e minifica CSS, HTML e JavaScript online para ler ou comprimir seu código.
+  en: Formats and minifies CSS, HTML and JavaScript online, for reading or compressing your code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.cleancss.com/"

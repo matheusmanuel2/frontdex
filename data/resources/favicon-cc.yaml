@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: favicon.cc
+url: https://www.favicon.cc
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Desenhe pixel a pixel ou baixe um favicon.ico, o ícone que aparece na barra de endereço do navegador.
+  en: Draw pixel by pixel or download a favicon.ico, the icon shown in the browser address bar.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.favicon.cc"

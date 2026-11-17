@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: grunt-spritesmith
+url: https://github.com/twolfson/grunt-spritesmith
+repo: https://github.com/twolfson/grunt-spritesmith
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Tarefa do Grunt que junta imagens num spritesheet com variáveis CSS correspondentes.
+  en: Grunt task that packs images into a spritesheet with matching CSS variables.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/twolfson/grunt-spritesmith"

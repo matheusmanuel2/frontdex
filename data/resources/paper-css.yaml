@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Paper CSS
+url: https://www.npmjs.com/package/paper-css
+repo: https://github.com/cognitom/paper-css
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: CSS para preparar páginas HTML para impressão em papel.
+  en: CSS for preparing HTML pages for printing on paper.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.npmjs.com/package/paper-css"

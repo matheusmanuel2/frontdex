@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Ant Design
+url: https://ant.design/
+area: build
+category: ui-components
+tags:
+  - react
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Linguagem de design e biblioteca de componentes React pensada para aplicações corporativas.
+  en: Design language and React component library aimed at enterprise applications.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design, alexpate/awesome-design-systems. Lida: https://ant.design/"

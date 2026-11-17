@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: FarbVélo
+url: https://farbvelo.elastiq.ch/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Explorador de cores aleatórias que gera harmonias de forma generativa a cada ciclo.
+  en: Random color explorer that generates color harmonies on each cycle.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://farbvelo.elastiq.ch/"

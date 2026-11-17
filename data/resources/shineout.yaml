@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Shineout
+url: https://shine.wiki
+repo: https://github.com/sheinsight/shineout
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de componentes React da SHEIN, com foco em desempenho e formulários.
+  en: React component library from SHEIN, focused on performance and forms.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://shine.wiki"

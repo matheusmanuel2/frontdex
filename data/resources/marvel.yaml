@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Marvel
+url: https://marvelapp.com/
+area: build
+category: design-tools
+tags:
+  - api
+pricing: TODO
+open_source: TODO
+description:
+  pt: Wireframe, protótipo, teste com usuários e inspeção num só lugar, com API para integrações.
+  en: Wireframing, prototyping, user testing and inspection in one place, with an API for integrations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://marvelapp.com/"

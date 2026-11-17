@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Haikei
+url: https://app.haikei.app/
+area: build
+category: assets
+tags:
+  - illustration
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: "Geradores no navegador de assets SVG para sites, redes sociais e wallpapers: personalize, randomize e exporte."
+  en: "In-browser generators of SVG assets for websites, social media and wallpapers: customize, randomize and export."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://app.haikei.app/"

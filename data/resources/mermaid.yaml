@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Mermaid
+url: https://mermaid.ai/open-source/
+repo: https://github.com/mermaid-js/mermaid
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Gera fluxogramas e diagramas de sequência a partir de texto, numa sintaxe parecida com Markdown.
+  en: Generates flowcharts and sequence diagrams from text, with a Markdown-like syntax.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, hal9ai/awesome-dataviz. Lida: https://mermaid.ai/open-source/"

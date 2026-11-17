@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: favicondl
+url: https://favicondl.com/tools.html
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Converte imagens em favicon (PNG para ICO), troca entre formatos de ícone e baixa ícones de sites em lote.
+  en: Converts images to favicons (PNG to ICO), switches icon formats and batch-downloads site icons.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://favicondl.com/tools.html"

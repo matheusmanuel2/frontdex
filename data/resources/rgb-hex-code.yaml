@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: RGB Hex Code
+url: https://rgbhexcode.com/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Seletor RGB/Hex no estilo do Photoshop que mostra complementares, tints, shades e tons.
+  en: Photoshop-style RGB/Hex picker that shows complementary colors, tints, shades and tones.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://rgbhexcode.com/"

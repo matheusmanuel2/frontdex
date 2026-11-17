@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: BudgetPixel SFX
+url: https://budgetpixel.com/sfx
+area: build
+category: assets
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Efeitos sonoros em WAV ou MP3 para uso comercial com crédito (CC BY 4.0), sem cadastro, ou gerados com IA.
+  en: Sound effects in WAV or MP3 for commercial use with credit (CC BY 4.0), no sign-up, or generated with AI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://budgetpixel.com/sfx"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Code Beautify
+url: https://codebeautify.org/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Formatadores, validadores, minificadores e conversores online para JSON, XML, CSS, JavaScript e HTML.
+  en: Online formatters, validators, minifiers and converters for JSON, XML, CSS, JavaScript and HTML.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://codebeautify.org/"

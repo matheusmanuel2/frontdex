@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: okso.app
+url: https://redirect-checker.autocompany.workers.dev
+repo: https://github.com/brancogao/redirect-checker
+area: build
+category: design-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: App de desenho no navegador para expressar, entender e organizar ideias.
+  en: Browser drawing app for expressing, grasping and organizing ideas.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://redirect-checker.autocompany.workers.dev"

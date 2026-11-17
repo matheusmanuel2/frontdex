@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Da Button Factory
+url: https://www.clickminded.com/button-generator/
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: TODO
+description:
+  pt: Desenhe um botão e exporte em PNG ou SVG, ou copie HTML e CSS, incluindo código seguro para e-mail no Outlook.
+  en: Design a button and export PNG or SVG, or copy HTML and CSS, including Outlook-safe email code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.clickminded.com/button-generator/"

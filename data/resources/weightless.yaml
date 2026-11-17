@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Weightless
+url: https://github.com/andreasbm/weightless
+repo: https://github.com/andreasbm/weightless
+area: build
+category: ui-components
+tags:
+  - web
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Web components pequenos feitos com lit-element, prontos para qualquer framework.
+  en: Small-footprint web components built on lit-element, usable from any framework.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://github.com/andreasbm/weightless"

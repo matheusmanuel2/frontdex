@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Adobe Color
+url: https://color.adobe.com/explore/?filter=most-popular&time=month
+area: build
+category: colors
+tags:
+  - gradients
+pricing: TODO
+open_source: TODO
+description:
+  pt: Explore paletas e gradientes por estilo e humor, com temas em alta e combinações para marcas.
+  en: Browse palettes and gradients by style and mood, with trending themes and brand color combinations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://color.adobe.com/explore/?filter=most-popular&time=month"

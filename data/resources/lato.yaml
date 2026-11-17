@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Lato
+url: https://www.latofonts.com/
+area: build
+category: fonts
+tags:
+  - typography
+pricing: free
+open_source: TODO
+description:
+  pt: Sans-serif humanista de Łukasz Dziedzic em 9 pesos, com suporte a mais de 100 idiomas.
+  en: Humanist sans-serif by Łukasz Dziedzic in 9 weights, supporting 100+ languages.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://www.latofonts.com/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Electron React Boilerplate
+url: https://electron-react-boilerplate.js.org/
+repo: https://github.com/electron-react-boilerplate/electron-react-boilerplate
+area: build
+category: dev-tools
+tags:
+  - react
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Base para apps desktop multiplataforma com Electron, React e webpack.
+  en: Starter for cross-platform desktop apps with Electron, React and webpack.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://electron-react-boilerplate.js.org/"

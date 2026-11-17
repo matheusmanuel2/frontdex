@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-collapse
+url: https://github.com/nkbt/react-collapse
+repo: https://github.com/nkbt/react-collapse
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Anima o recolhimento de elementos com altura variável e dinâmica em React.
+  en: Animates collapsing elements with variable, dynamic height in React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/nkbt/react-collapse"

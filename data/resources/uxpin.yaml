@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: UXPin
+url: https://www.uxpin.com/
+area: build
+category: design-tools
+tags:
+  - design-systems
+  - mockups
+pricing: freemium
+open_source: TODO
+description:
+  pt: Protótipos com componentes de código, lógica e estados, ligados ao seu sistema de design.
+  en: Prototypes with code components, logic and states, tied to your design system.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://www.uxpin.com/"

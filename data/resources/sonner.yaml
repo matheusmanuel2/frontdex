@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Sonner
+url: https://sonner.emilkowal.ski/
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componente de toast para React com opiniões fortes sobre comportamento e visual.
+  en: Toast component for React, opinionated about behavior and looks.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, brillout/awesome-react-components. Lida: https://sonner.emilkowal.ski/"

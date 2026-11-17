@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: PrimeReact
+url: https://primereact.org
+repo: https://github.com/primefaces/primereact
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de componentes React com gráficos, árvores e muitos outros widgets.
+  en: React component library including charts, trees and many other widgets.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://primereact.org"

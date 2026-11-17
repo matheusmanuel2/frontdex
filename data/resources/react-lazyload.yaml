@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-lazyload
+url: https://github.com/jasonslyvia/react-lazyload
+repo: https://github.com/twobin/react-lazyload
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Carrega componentes, imagens ou qualquer coisa React só quando entram na tela.
+  en: Lazy-loads React components, images or anything else when they come into view.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/jasonslyvia/react-lazyload"

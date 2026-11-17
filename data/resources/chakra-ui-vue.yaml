@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Chakra UI Vue
+url: https://vue.chakra-ui.com/
+area: build
+category: ui-components
+tags:
+  - javascript
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes Vue simples, modulares e acessíveis, na linha do Chakra UI.
+  en: Simple, modular and accessible Vue components in the style of Chakra UI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://vue.chakra-ui.com/"

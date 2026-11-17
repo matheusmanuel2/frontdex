@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Lospec Palette List
+url: https://lospec.com/palette-list
+area: build
+category: colors
+tags:
+  - illustration
+pricing: free
+open_source: TODO
+description:
+  pt: Mais de 2.500 paletas de pixel art para baixar grátis em 6 formatos, prontas para importar no seu editor.
+  en: Over 2,500 pixel art palettes to download free in 6 formats, ready to import into your editor.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://lospec.com/palette-list"

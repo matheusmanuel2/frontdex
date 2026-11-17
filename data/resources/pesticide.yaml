@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Pesticide
+url: https://addons.mozilla.org/en-US/firefox/addon/pesticide-for-firefox/
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: true
+description:
+  pt: Contorna cada elemento da página para achar bugs de layout em CSS. Código aberto, criado por Adam Morse.
+  en: Outlines every element on the page to find CSS layout bugs. Open source, made by Adam Morse.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://addons.mozilla.org/en-US/firefox/addon/pesticide-for-firefox/"

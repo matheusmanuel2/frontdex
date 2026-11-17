@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Slate
+url: https://github.com/ianstormtaylor/slate
+repo: https://github.com/ianstormtaylor/slate
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Framework totalmente customizável para editores de texto rico, ainda em beta.
+  en: Fully customizable framework for building rich text editors, still in beta.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/ianstormtaylor/slate"

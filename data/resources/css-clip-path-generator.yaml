@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Clip-Path Generator
+url: https://csstoolkit.net/css-clip-path-generator/
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: TODO
+description:
+  pt: "Editor de clip-path com prévia ao vivo: polígono, círculo, elipse, inset e curva, copiando o código em CSS ou SVG."
+  en: Clip-path editor with live preview for polygon, circle, ellipse, inset and curve shapes, copying CSS or SVG code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://csstoolkit.net/css-clip-path-generator/"

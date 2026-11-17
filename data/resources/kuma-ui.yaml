@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Kuma UI
+url: https://www.kuma-ui.com/
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de componentes headless com CSS-in-JS sem custo em tempo de execução.
+  en: Headless component library with zero-runtime CSS-in-JS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.kuma-ui.com/"

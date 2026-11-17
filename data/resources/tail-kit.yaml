@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Tail-Kit
+url: https://www.tailwind-kit.com/
+area: build
+category: ui-components
+tags:
+  - css
+  - react
+pricing: free
+open_source: true
+description:
+  pt: Mais de 200 componentes e templates Tailwind open source, já codificados para React, Angular e VueJS.
+  en: Over 200 open-source Tailwind components and templates, already coded for React, Angular and VueJS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.tailwind-kit.com/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: <qr-code>
+url: https://qr.bitjson.com/
+repo: https://github.com/bitjson/qr-code
+area: build
+category: ui-components
+tags:
+  - web
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Elemento HTML <qr-code> em SVG, sem framework nem dependências, que pode ser animado.
+  en: SVG-based <qr-code> HTML element with no framework or dependencies, and it can be animated.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://qr.bitjson.com/"

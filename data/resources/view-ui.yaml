@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: View UI
+url: https://www.iviewui.com/
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de componentes Vue.js para produtos corporativos de back-office, antes chamada iView.
+  en: Vue.js component library for enterprise back-office products, formerly called iView.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.iviewui.com/"

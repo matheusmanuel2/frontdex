@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Sortable
+url: https://sortablejs.github.io/Sortable/
+repo: https://github.com/SortableJS/Sortable
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Listas reordenáveis com arrastar e soltar, no navegador e no toque, sem jQuery nem framework.
+  en: Reorderable drag-and-drop lists for browsers and touch, no jQuery or framework needed.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://sortablejs.github.io/Sortable/"

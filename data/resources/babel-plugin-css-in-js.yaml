@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: babel-plugin-css-in-js
+url: https://github.com/martinandert/babel-plugin-css-in-js
+repo: https://github.com/martinandert/babel-plugin-css-in-js
+area: build
+category: dev-tools
+tags:
+  - css
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Plugin Babel que transforma estilos inline do JavaScript em classes CSS de verdade.
+  en: Babel plugin that turns inline styles in JavaScript into real CSS class names.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/martinandert/babel-plugin-css-in-js"

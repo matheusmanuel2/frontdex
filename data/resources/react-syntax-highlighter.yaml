@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-syntax-highlighter
+url: https://github.com/conorhastings/react-syntax-highlighter
+repo: https://github.com/react-syntax-highlighter/react-syntax-highlighter
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Destaque de sintaxe em React com Prism ou highlight.js, usando estilos inline.
+  en: Syntax highlighting component for React using Prism or highlight.js with inline styles.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/conorhastings/react-syntax-highlighter"

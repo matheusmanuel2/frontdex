@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: web-quality-skills
+url: https://github.com/addyosmani/web-quality-skills#web-quality-audit
+repo: https://github.com/addyosmani/web-quality-skills
+area: build
+category: ai-tools
+tags:
+  - ai-agents
+  - web
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Skills para agentes de IA que otimizam a qualidade de sites com base no Lighthouse e nos Core Web Vitals.
+  en: Agent skills for improving web quality based on Lighthouse and Core Web Vitals.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/addyosmani/web-quality-skills#web-quality-audit"

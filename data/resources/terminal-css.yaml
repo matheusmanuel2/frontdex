@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Terminal CSS
+url: https://terminalcss.xyz/
+area: build
+category: ui-components
+tags:
+  - css
+  - terminal
+pricing: TODO
+open_source: TODO
+description:
+  pt: Framework CSS minimalista com visual de terminal.
+  en: Minimal CSS framework with a terminal look.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://terminalcss.xyz/"

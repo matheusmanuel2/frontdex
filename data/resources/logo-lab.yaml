@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Logo Lab
+url: https://logolab.app/home
+area: build
+category: design-tools
+tags:
+  - logos
+  - branding
+pricing: freemium
+open_source: TODO
+description:
+  pt: Testa o seu logo e mostra o menor tamanho em que ainda funciona e onde some em fundos claros e escuros.
+  en: Tests your logo, showing the smallest size it still works at and where it vanishes on light and dark backgrounds.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://logolab.app/home"

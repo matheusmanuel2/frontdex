@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Glue
+url: https://github.com/jorgebastida/glue
+repo: https://github.com/jorgebastida/glue
+area: build
+category: dev-tools
+tags:
+  - css
+  - cli
+pricing: TODO
+open_source: true
+license: BSD-3-Clause
+description:
+  pt: Ferramenta de linha de comando que gera sprites CSS.
+  en: Command-line tool that generates CSS sprites.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/jorgebastida/glue"

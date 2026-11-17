@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Bestax
+url: https://bestax.io/
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes React para construir sites com o framework CSS Bulma.
+  en: React components for building websites with the Bulma CSS framework.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://bestax.io/"

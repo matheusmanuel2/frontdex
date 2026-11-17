@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Windy Toolbox
+url: https://www.tailwindtoolbox.com/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Templates, componentes, geradores e ferramentas para Tailwind CSS, antigo Tailwind Toolbox.
+  en: Tailwind CSS starter templates, components, generators and tools, formerly Tailwind Toolbox.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.tailwindtoolbox.com/"

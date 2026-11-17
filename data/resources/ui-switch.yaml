@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: ui-switch
+url: https://github.com/yairEO/ui-switch
+repo: https://github.com/yairEO/ui-switch
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Switch para React feito sobre checkbox nativo e customizado com variáveis CSS.
+  en: React switch built on a native checkbox and customized through CSS variables.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/yairEO/ui-switch"

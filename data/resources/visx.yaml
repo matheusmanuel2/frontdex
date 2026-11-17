@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: visx
+url: https://visx.airbnb.tech
+repo: https://github.com/airbnb/visx
+area: build
+category: charts
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componentes de visualização de baixo nível para React, construídos sobre d3, da Airbnb.
+  en: Low-level visualization components for React built on d3, from Airbnb.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://visx.airbnb.tech"

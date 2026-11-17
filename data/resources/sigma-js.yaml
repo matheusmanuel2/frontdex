@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Sigma.js
+url: https://sigmajs.org/
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Desenha grafos grandes no navegador com WebGL, construída sobre a graphology.
+  en: Draws large graphs in the browser with WebGL, built on graphology.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://sigmajs.org/"

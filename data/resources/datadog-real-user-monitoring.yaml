@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Datadog Real User Monitoring
+url: https://www.datadoghq.com/product/real-user-monitoring/
+area: build
+category: dev-tools
+tags:
+  - analytics
+  - web
+  - mobile
+pricing: TODO
+open_source: TODO
+description:
+  pt: Detecta erros, crashes e lentidões que afetam usuários reais em apps web e mobile.
+  en: Detects the errors, crashes and slowdowns hitting real users across web and mobile apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.datadoghq.com/product/real-user-monitoring/"

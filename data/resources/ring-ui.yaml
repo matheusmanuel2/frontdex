@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Ring UI
+url: https://jetbrains.github.io/ring-ui
+repo: https://github.com/JetBrains/ring-ui
+area: build
+category: ui-components
+tags:
+  - react
+  - design-systems
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Coleção de componentes de UI web da JetBrains em React.
+  en: Collection of JetBrains web UI components in React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://jetbrains.github.io/ring-ui"

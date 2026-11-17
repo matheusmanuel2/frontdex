@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-darkreader
+url: https://github.com/Turkyden/react-darkreader
+repo: https://github.com/turkyden/react-darkreader
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Hook React que adiciona modo escuro ao seu site usando o Dark Reader.
+  en: React hook that adds dark mode to your site using Dark Reader.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/Turkyden/react-darkreader"

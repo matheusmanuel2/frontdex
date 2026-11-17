@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: chart.xkcd
+url: https://timqian.com/chart.xkcd/
+repo: https://github.com/timqian/chart.xkcd
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Gráficos com visual desenhado à mão no estilo das tirinhas xkcd.
+  en: Hand-drawn style charts in the look of xkcd comics.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://timqian.com/chart.xkcd/"

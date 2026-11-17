@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Framework7
+url: https://framework7.io/
+area: build
+category: ui-components
+tags:
+  - ios
+  - android
+  - mobile
+pricing: TODO
+open_source: TODO
+description:
+  pt: Framework para construir apps de iOS, Android e desktop com tecnologias web.
+  en: Framework for building iOS, Android and desktop apps with web technologies.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://framework7.io/"

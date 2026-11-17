@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Mosaic
+url: https://idl.uw.edu/mosaic/
+repo: https://github.com/uwdata/mosaic
+area: build
+category: charts
+tags:
+  - sql
+  - interactive
+pricing: TODO
+open_source: TODO
+description:
+  pt: Framework extensível para ligar bancos de dados a visualizações interativas.
+  en: Extensible framework for linking databases and interactive views.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://idl.uw.edu/mosaic/"

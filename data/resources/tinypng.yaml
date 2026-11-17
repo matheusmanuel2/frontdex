@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: TinyPNG
+url: https://tinypng.com/
+area: build
+category: dev-tools
+tags:
+  - photos
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Compressão com perdas de AVIF, JPEG XL, WebP, PNG e JPEG para sites mais leves.
+  en: Lossy compression for AVIF, JPEG XL, WebP, PNG and JPEG to lighten websites.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, davidsonfellipe/awesome-wpo. Lida: https://tinypng.com/"

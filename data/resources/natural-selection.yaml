@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Natural Selection
+url: https://frontaid.ch/web/css/
+repo: https://github.com/frontaid/natural-selection
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Kit inicial de CSS com uma coleção de seletores de boas práticas.
+  en: CSS starter kit with a collection of best-practice selectors.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://frontaid.ch/web/css/"

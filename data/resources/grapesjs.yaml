@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: GrapesJS
+url: https://100dailyui.webflow.io/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: SDK para embutir no seu app um editor visual de e-mails, landing pages e documentos, com exportação de HTML limpo.
+  en: SDK to embed a visual editor for emails, landing pages and documents in your app, with clean HTML export.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://100dailyui.webflow.io/"

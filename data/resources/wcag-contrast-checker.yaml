@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: WCAG Contrast checker
+url: https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/
+area: build
+category: accessibility
+tags:
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Extensão do Firefox que verifica o contraste entre cor de texto e fundo segundo os níveis da WCAG 2.2.
+  en: Firefox extension that checks text and background color contrast against WCAG 2.2 levels.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/"

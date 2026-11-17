@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: VivaGraph
+url: https://github.com/anvaka/VivaGraphJS
+repo: https://github.com/anvaka/VivaGraphJS
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de desenho de grafos em JavaScript.
+  en: Graph drawing and layout library for JavaScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/anvaka/VivaGraphJS"

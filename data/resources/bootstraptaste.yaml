@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: BootstrapTaste
+url: https://bootstraptaste.com/
+area: build
+category: ui-components
+tags:
+  - css
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Coleção de mais de 100 templates em Bootstrap e HTML para sites e apps.
+  en: Collection of 100+ Bootstrap and HTML website templates for sites and apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://bootstraptaste.com/"

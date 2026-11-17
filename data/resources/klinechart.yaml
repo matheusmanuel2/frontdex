@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: KLineChart
+url: https://klinecharts.com/
+repo: https://github.com/klinecharts/KLineChart
+area: build
+category: charts
+tags:
+  - javascript
+  - market-data
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Gráfico de candles (k-line) leve e customizável, sem dependências e com suporte a mobile.
+  en: Lightweight, customizable k-line (candlestick) chart with zero dependencies and mobile support.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://klinecharts.com/"

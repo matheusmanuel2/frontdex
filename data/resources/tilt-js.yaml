@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Tilt.js
+url: https://gijsroge.github.io/tilt.js/
+area: build
+category: animation
+tags:
+  - javascript
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Efeito de tilt com parallax no hover para jQuery, a 60+ fps com requestAnimationFrame.
+  en: Parallax hover tilt effect for jQuery, running at 60+ fps on requestAnimationFrame.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://gijsroge.github.io/tilt.js/"

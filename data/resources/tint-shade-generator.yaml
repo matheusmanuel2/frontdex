@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Tint & Shade Generator
+url: https://maketintsandshades.com/
+area: build
+category: colors
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gera tints e shades que batem com a saída do Chrome DevTools, Sass, Less e PostCSS.
+  en: Makes tints and shades matching the output of Chrome DevTools, Sass, Less and PostCSS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, Siddharth11/Colorful. Lida: https://maketintsandshades.com/"

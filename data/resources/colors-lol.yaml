@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: colors.lol
+url: https://colors.lol/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Paletas com descrições exageradas e divertidas, para achar combinações de cor fora do comum.
+  en: Color palettes with overly descriptive, playful write-ups for finding unusual combinations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://colors.lol/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Duo
+url: https://duo.alexpate.uk/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Coleção pessoal de pares de cores escolhidos por Alex Pate, para quando você precisa de só duas cores que funcionem.
+  en: Alex Pate's personal collection of color pairings, for when you need just two colors that work.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://duo.alexpate.uk/"

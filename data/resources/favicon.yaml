@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: favicon.io
+url: https://favicon.io/
+area: build
+category: dev-tools
+tags:
+  - icons
+pricing: free
+open_source: TODO
+description:
+  pt: Gera favicon.ico a partir de texto, imagem, SVG ou emoji e entrega todos os arquivos num ZIP.
+  en: Makes a favicon.ico from text, an image, SVG or emoji and gives you every file in one ZIP.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, swyxio/spark-joy. Lida: https://favicon.io/"

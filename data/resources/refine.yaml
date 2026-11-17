@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Refine
+url: https://refine.dev
+repo: https://github.com/refinedev/refine
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Framework React para ferramentas internas, painéis de admin, dashboards e apps B2B.
+  en: React framework for internal tools, admin panels, dashboards and B2B apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://refine.dev"

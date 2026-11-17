@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: New Relic Browser Monitoring
+url: https://newrelic.com/platform/browser-monitoring
+area: build
+category: dev-tools
+tags:
+  - analytics
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Monitoramento do navegador dentro da plataforma New Relic, para medir a experiência de quem usa o site.
+  en: Browser monitoring inside the New Relic platform, to measure the experience of the people using your site.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://newrelic.com/platform/browser-monitoring"

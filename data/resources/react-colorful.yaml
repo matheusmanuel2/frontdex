@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-colorful
+url: https://omgovich.github.io/react-colorful
+repo: https://github.com/omgovich/react-colorful
+area: build
+category: colors
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Color picker com cerca de 3,1 KB para apps React e Preact.
+  en: Color picker component at about 3.1 KB for React and Preact apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://omgovich.github.io/react-colorful"

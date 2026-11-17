@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: HtmlCssColor
+url: https://www.htmlcsscolor.com/
+area: build
+category: colors
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de nomes de cor HTML e CSS com códigos HEX, RGB e HSL, prévia, geração de paletas e checagem de contraste.
+  en: Library of HTML and CSS color names with HEX, RGB and HSL codes, previews, palette generation and contrast checks.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.htmlcsscolor.com/"

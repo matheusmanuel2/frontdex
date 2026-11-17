@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Artboard Studio
+url: https://artboard.studio/
+area: build
+category: assets
+tags:
+  - mockups
+  - figma
+pricing: TODO
+open_source: TODO
+description:
+  pt: Mockups de dispositivos, roupas, embalagens e impressos para estudos de caso, editados online ou dentro do Figma.
+  en: Device, apparel, packaging and print mockups for case studies, edited online or inside Figma.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://artboard.studio/"

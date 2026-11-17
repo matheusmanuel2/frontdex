@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-unit
+url: https://github.com/pzavolinsky/react-unit
+repo: https://github.com/pzavolinsky/react-unit
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca leve de testes unitários para componentes React.
+  en: Lightweight unit test library for React components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/pzavolinsky/react-unit"

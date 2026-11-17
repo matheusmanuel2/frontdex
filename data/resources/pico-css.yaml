@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Pico CSS
+url: https://picocss.com/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Kit inicial em CSS que estiliza HTML semântico e deixa cada elemento responsivo por padrão.
+  en: CSS starter kit that styles semantic HTML and makes every element responsive by default.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://picocss.com/"

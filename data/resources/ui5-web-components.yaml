@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: UI5 Web Components
+url: https://ui5.github.io/webcomponents/
+area: build
+category: ui-components
+tags:
+  - web
+  - design-systems
+pricing: TODO
+open_source: true
+description:
+  pt: Componentes web open source que implementam o SAP Fiori para aplicações empresariais.
+  en: Open source web components implementing SAP Fiori for enterprise web applications.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://ui5.github.io/webcomponents/"

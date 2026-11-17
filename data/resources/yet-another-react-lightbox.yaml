@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Yet Another React Lightbox
+url: https://yet-another-react-lightbox.com
+repo: https://github.com/igordanchenko/yet-another-react-lightbox
+area: build
+category: ui-components
+tags:
+  - react
+  - photos
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Lightbox para React que abre imagens em tela cheia com navegação em carrossel.
+  en: React lightbox that opens images full screen with carousel navigation.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://yet-another-react-lightbox.com"

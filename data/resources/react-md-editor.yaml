@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: react-md-editor
+url: https://uiwjs.github.io/react-md-editor
+repo: https://github.com/uiwjs/react-md-editor
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+  - text
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Editor de markdown com pré-visualização ao lado, feito em React e TypeScript.
+  en: Markdown editor with live preview, built with React and TypeScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://uiwjs.github.io/react-md-editor"

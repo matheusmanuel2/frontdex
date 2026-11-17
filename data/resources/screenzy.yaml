@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Screenzy
+url: https://screenzy.io
+area: build
+category: assets
+tags:
+  - mockups
+pricing: free
+open_source: TODO
+description:
+  pt: Coloca screenshots em molduras com fundos e mais de 30 filtros, exportando sem marca d'água.
+  en: Wraps screenshots in frames with backgrounds and 30+ filters, exported without watermarks.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://screenzy.io"

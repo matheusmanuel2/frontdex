@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Graphviz
+url: https://graphviz.org/
+area: build
+category: charts
+tags:
+  - web
+pricing: TODO
+open_source: true
+description:
+  pt: Software open source que transforma descrições de estrutura em diagramas de grafos.
+  en: Open-source software that turns structural descriptions into graph diagrams.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://graphviz.org/"

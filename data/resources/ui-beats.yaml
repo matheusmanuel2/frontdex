@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: UI Beats
+url: https://uibeats.com/
+area: build
+category: ui-components
+tags:
+  - react
+  - motion
+  - registry
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes React animados com TypeScript, Tailwind e Motion, para copiar ou instalar pelo CLI do shadcn.
+  en: Animated React components with TypeScript, Tailwind and Motion, to copy or install via the shadcn CLI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uibeats.com/"

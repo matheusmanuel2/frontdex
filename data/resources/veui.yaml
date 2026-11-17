@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: VEUI
+url: https://veui.dev/en-US
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de componentes Vue.js voltada para aplicações corporativas.
+  en: Vue.js component library aimed at enterprise applications.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://veui.dev/en-US"

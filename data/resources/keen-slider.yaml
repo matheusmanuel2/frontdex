@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Keen-Slider
+url: https://keen-slider.io/
+repo: https://github.com/rcbyr/keen-slider
+area: build
+category: ui-components
+tags:
+  - javascript
+  - mobile
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Slider e carrossel com toque em HTML, pensado para parecer nativo.
+  en: HTML touch slider and carousel built to feel native.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://keen-slider.io/"

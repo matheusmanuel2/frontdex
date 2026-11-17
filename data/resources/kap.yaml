@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Kap
+url: https://getkap.co
+area: build
+category: design-tools
+tags:
+  - macos
+  - video
+pricing: TODO
+open_source: true
+description:
+  pt: Gravador de tela open source construído com tecnologia web.
+  en: Open-source screen recorder built with web technology.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getkap.co"

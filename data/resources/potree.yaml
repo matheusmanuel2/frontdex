@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Potree
+url: https://github.com/potree/potree
+repo: https://github.com/potree/potree
+area: build
+category: charts
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Visualizador de nuvens de pontos em WebGL para grandes conjuntos de dados.
+  en: WebGL point cloud viewer for large datasets.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/potree/potree"

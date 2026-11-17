@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Picular
+url: https://picular.co/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: 'Busca uma cor primária a partir de imagens do Google: digite "banana" e leve o hex.'
+  en: 'Pulls a primary color from Google image search: type "banana" and get the hex.'
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://picular.co/"

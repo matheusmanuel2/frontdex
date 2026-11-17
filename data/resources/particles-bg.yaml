@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: particles-bg
+url: https://stackblitz.com/edit/react-a6pm3w
+repo: https://github.com/lindelof/particles-bg
+area: build
+category: animation
+tags:
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componente React que coloca uma animação de partículas no fundo da página.
+  en: React component that adds a particle animation as the page background.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, brillout/awesome-react-components. Lida: https://stackblitz.com/edit/react-a6pm3w"

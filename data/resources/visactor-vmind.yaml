@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: VisActor VMind
+url: https://visactor.io/vmind
+area: build
+category: ai-tools
+tags:
+  - ai-agents
+pricing: TODO
+open_source: TODO
+description:
+  pt: Skills para seu agente montar gráficos, tabelas, histórias de dados, dashboards interativos e mapas.
+  en: Skills that let your agent build charts, tables, data stories, interactive dashboards and maps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://visactor.io/vmind"

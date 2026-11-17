@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Recharts
+url: https://recharts.github.io
+repo: https://github.com/recharts/recharts
+area: build
+category: charts
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de gráficos para React construída sobre D3.
+  en: Chart library for React built on top of D3.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components, hal9ai/awesome-dataviz. Lida: https://recharts.github.io"

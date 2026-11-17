@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Kite Compositor
+url: https://kiteapp.co/
+area: build
+category: animation
+tags:
+  - motion
+  - macos
+pricing: TODO
+open_source: TODO
+description:
+  pt: App nativo para Mac voltado ao design de animações de interface.
+  en: Native Mac app focused on designing UI animations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://kiteapp.co/"

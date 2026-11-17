@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: WhoCanUse
+url: https://whocanuse.com
+area: build
+category: accessibility
+tags:
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Mostra como um par de cores aparece para pessoas com diferentes deficiências visuais, para avaliar contraste além da nota.
+  en: Shows how a color pair reads for people with different visual impairments, so contrast goes beyond a score.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://whocanuse.com"

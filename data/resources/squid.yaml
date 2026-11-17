@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: SQUID
+url: https://uxmisfit.com/squid/
+area: build
+category: design-tools
+tags:
+  - flows
+pricing: TODO
+open_source: TODO
+description:
+  pt: Template para Sketch com mais de 50 telas e 56 tipos de conexão para desenhar user flows e sitemaps.
+  en: Sketch template with 50+ screens and 56 connection types for drawing user flows and sitemaps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://uxmisfit.com/squid/"

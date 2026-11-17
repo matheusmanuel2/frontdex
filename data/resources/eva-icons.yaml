@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Eva Icons
+url: https://akveo.github.io/eva-icons/#/
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: true
+description:
+  pt: 480 ícones open source do time do Nebular para ações e itens comuns, em SVG, PNG, fonte web e Sketch.
+  en: 480 open source icons from the Nebular team for common actions and items, in SVG, PNG, web font and Sketch.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://akveo.github.io/eva-icons/#/"

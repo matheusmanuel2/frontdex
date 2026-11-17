@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Ionicons
+url: https://ionicons.com
+area: build
+category: icons
+tags:
+  - icons
+  - mobile
+pricing: TODO
+open_source: true
+description:
+  pt: Pacote de ícones de código aberto criado para o framework Ionic.
+  en: Open source icon pack made for the Ionic framework.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, nicolesaidy/awesome-web-design. Lida: https://ionicons.com"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Notifications Component
+url: https://teodosii.github.io/react-notifications-component/
+repo: https://github.com/teodosii/react-notifications-component
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente React customizável para notificar seus usuários com toasts.
+  en: Customizable React component for notifying users with toasts.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://teodosii.github.io/react-notifications-component/"

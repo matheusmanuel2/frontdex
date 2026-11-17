@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Jitter
+url: https://jitter.video/
+area: build
+category: animation
+tags:
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Ferramenta colaborativa de motion design na web para criar animações em minutos.
+  en: Collaborative motion design tool on the web for making animations in minutes.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://jitter.video/"

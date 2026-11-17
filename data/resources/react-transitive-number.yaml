@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-transitive-number
+url: https://github.com/Lapple/react-transitive-number
+repo: https://github.com/Lapple/react-transitive-number
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Aplica transição a strings numéricas, no estilo dos antigos cronômetros do Groupon.
+  en: Applies a transition to numeric strings, like the old Groupon timers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/Lapple/react-transitive-number"

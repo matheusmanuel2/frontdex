@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: UserBit
+url: https://userbitapp.com/
+area: build
+category: design-tools
+tags:
+  - analytics
+pricing: TODO
+open_source: TODO
+description:
+  pt: Repositório de UX e ferramentas de pesquisa com usuários pensados para agências e freelancers.
+  en: UX repository and user research tools built for agencies and freelancers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://userbitapp.com/"

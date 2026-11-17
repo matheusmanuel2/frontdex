@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: InstantClick
+url: https://github.com/dieulot/instantclick
+repo: https://github.com/dieulot/instantclick
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - web
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Pré-carrega páginas para que seguir links no seu site pareça instantâneo.
+  en: Preloads pages so following links on your site feels instant.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/dieulot/instantclick"

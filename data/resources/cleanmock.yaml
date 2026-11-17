@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Cleanmock
+url: https://cleanmock.com/
+area: build
+category: assets
+tags:
+  - mockups
+pricing: free
+open_source: TODO
+description:
+  pt: Mockups com molduras de dispositivos e fundos personalizados, feitos no navegador e de graça.
+  en: Mockups with device frames and custom backgrounds, made in the browser for free.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://cleanmock.com/"

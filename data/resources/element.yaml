@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Element
+url: https://element.eleme.io/#/en-US
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de componentes para desktop baseada no Vue 2.0, feita para devs, designers e gerentes de produto.
+  en: Desktop component library built on Vue 2.0, made for developers, designers and product managers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://element.eleme.io/#/en-US"

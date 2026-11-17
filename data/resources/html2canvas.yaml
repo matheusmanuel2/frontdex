@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: html2canvas
+url: https://html2canvas.hertzen.com/
+repo: https://github.com/niklasvh/html2canvas
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - typescript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Tira capturas de tela de páginas com JavaScript, desenhando o DOM em canvas.
+  en: Takes screenshots of pages with JavaScript by drawing the DOM to canvas.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://html2canvas.hertzen.com/"

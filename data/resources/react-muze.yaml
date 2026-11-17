@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-muze
+url: https://muzejs.org/docs/wa/latest/muze/integrations/react-muze/introduction
+repo: https://github.com/chartshq/react-muze
+area: build
+category: charts
+tags:
+  - react
+  - typescript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: SDK React para a biblioteca de gráficos Muze, que roda sobre WebAssembly e um data model próprio.
+  en: React SDK for the Muze charting library, built on WebAssembly and its own data model.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://muzejs.org/docs/wa/latest/muze/integrations/react-muze/introduction"

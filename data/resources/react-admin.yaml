@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-admin
+url: https://github.com/marmelab/react-admin
+repo: https://github.com/marmelab/react-admin
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Framework de SPAs sobre APIs REST ou GraphQL, com TypeScript, React e Material Design.
+  en: Framework for single-page apps on REST or GraphQL APIs, using TypeScript, React and Material Design.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/marmelab/react-admin"

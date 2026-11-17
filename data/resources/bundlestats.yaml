@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: BundleStats
+url: https://relative-ci.com/documentation/metrics-and-data
+repo: https://github.com/relative-ci/bundle-stats
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Analisa tamanho do bundle, assets, módulos e pacotes e compara builds; funciona com webpack, Vite e Rollup.
+  en: Analyzes bundle size, assets, modules and packages and compares builds; works with webpack, Vite and Rollup.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://relative-ci.com/documentation/metrics-and-data"

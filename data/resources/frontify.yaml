@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Frontify
+url: https://frontify.com/
+area: build
+category: design-tools
+tags:
+  - branding
+pricing: TODO
+open_source: TODO
+description:
+  pt: Plataforma de marca onde diretrizes, assets e conhecimento ficam estruturados para pessoas e para IA.
+  en: Brand platform where guidelines, assets and brand knowledge live, structured for people and readable by AI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://frontify.com/"

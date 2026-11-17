@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-star-rating-input
+url: https://github.com/ikr/react-star-rating-input
+repo: https://github.com/ikr/react-star-rating-input
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componentes React para inserir ou exibir de 0 a N estrelas, com 5 por padrão.
+  en: React components for entering or displaying 0 to N stars, 5 by default.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/ikr/react-star-rating-input"

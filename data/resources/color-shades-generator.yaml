@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Color Shades Generator
+url: https://mdigi.tools/color-shades/
+area: build
+category: colors
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gera uma paleta de tons selecionáveis a partir de qualquer cor CSS válida.
+  en: Generates a selectable palette of shades from any valid CSS color.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://mdigi.tools/color-shades/"

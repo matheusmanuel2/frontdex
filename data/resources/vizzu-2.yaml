@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Vizzu
+url: https://lib.vizzuhq.com/0.3.0/
+area: build
+category: charts
+tags:
+  - javascript
+  - motion
+pricing: TODO
+open_source: true
+description:
+  pt: Biblioteca open source para visualizações de dados animadas e histórias com dados.
+  en: Open-source JavaScript library for animated data visualizations and data stories.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://lib.vizzuhq.com/0.3.0/"

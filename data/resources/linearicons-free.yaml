@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Linearicons Free
+url: https://linearicons.com/free
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: TODO
+description:
+  pt: Ícones de linha vetoriais em SVG, PNG, PSD, EPS e fonte de ícones.
+  en: Vector line icons in SVG, PNG, PSD, EPS and as an icon font.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://linearicons.com/free"

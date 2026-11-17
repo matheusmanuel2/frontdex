@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Creo
+url: https://creolabs.com/
+area: build
+category: design-tools
+tags:
+  - ios
+  - android
+  - macos
+pricing: TODO
+open_source: TODO
+description:
+  pt: Construtor de apps por arrastar e soltar para iOS, macOS e Android que junta design e desenvolvimento.
+  en: Drag-and-drop app builder for iOS, macOS and Android that merges design and development.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://creolabs.com/"

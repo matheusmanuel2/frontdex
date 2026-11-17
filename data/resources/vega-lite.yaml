@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Vega-Lite
+url: https://vega.github.io/vega-lite/
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gramática de alto nível para gráficos estatísticos, ao estilo do ggplot, que gera specs Vega.
+  en: High-level grammar for statistical graphics, ggplot-style, that compiles to Vega specs.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vega.github.io/vega-lite/"

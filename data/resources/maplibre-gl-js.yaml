@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: MapLibre GL JS
+url: https://maplibre.org/maplibre-gl-js/docs/
+repo: https://github.com/maplibre/maplibre-gl-js
+area: build
+category: charts
+tags:
+  - typescript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Mapas interativos de vector tiles no navegador.
+  en: Interactive vector tile maps in the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://maplibre.org/maplibre-gl-js/docs/"

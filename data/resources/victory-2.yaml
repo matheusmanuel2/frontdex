@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Victory
+url: https://formidable.com/open-source/victory/
+area: build
+category: charts
+tags:
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes React para gráficos e visualização de dados que se montam por composição.
+  en: React components for charts and data visualization, assembled by composition.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://formidable.com/open-source/victory/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Responsive Sketchsheets
+url: https://zurb.com/playground/responsive-sketchsheets
+area: build
+category: design-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Folhas para imprimir que a ZURB usa para esboçar ideias responsivas e apresentar a clientes.
+  en: Printable sheets ZURB uses to sketch responsive ideas and present them to clients.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://zurb.com/playground/responsive-sketchsheets"

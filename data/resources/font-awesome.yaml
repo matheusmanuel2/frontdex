@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Font Awesome
+url: https://fontawesome.com/
+area: build
+category: icons
+tags:
+  - icons
+pricing: TODO
+open_source: true
+description:
+  pt: Biblioteca e toolkit de ícones para designers e devs, com versão de código aberto gratuita.
+  en: Icon library and toolkit for designers and developers, with a free open source version.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://fontawesome.com/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: react-map-gl
+url: https://github.com/visgl/react-map-gl
+repo: https://github.com/visgl/react-map-gl
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: API amigável para React que envolve o Mapbox GL JS.
+  en: React-friendly API wrapper around Mapbox GL JS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/visgl/react-map-gl"

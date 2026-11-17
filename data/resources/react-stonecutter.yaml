@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-stonecutter
+url: https://github.com/dantrain/react-stonecutter
+repo: https://github.com/dantrain/react-stonecutter
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente React de layout em grade animado.
+  en: Animated grid layout component for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/dantrain/react-stonecutter"

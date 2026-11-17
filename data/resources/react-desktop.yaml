@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: React Desktop
+url: https://reactdesktop.js.org/
+area: build
+category: ui-components
+tags:
+  - react
+  - macos
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes React que imitam a interface do OS X El Capitan e do Windows 10.
+  en: React components that mimic the OS X El Capitan and Windows 10 interfaces.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://reactdesktop.js.org/"

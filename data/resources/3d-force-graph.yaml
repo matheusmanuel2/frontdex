@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: 3d-force-graph
+url: https://vasturiano.github.io/3d-force-graph/example/large-graph/
+repo: https://github.com/vasturiano/3d-force-graph
+area: build
+category: charts
+tags:
+  - javascript
+  - web
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente de grafo force-directed em 3D usando ThreeJS e WebGL.
+  en: 3D force-directed graph component built on ThreeJS and WebGL.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vasturiano.github.io/3d-force-graph/example/large-graph/"

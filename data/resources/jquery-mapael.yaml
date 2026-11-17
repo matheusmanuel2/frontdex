@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: jQuery Mapael
+url: https://www.vincentbroute.fr/mapael/
+repo: https://github.com/neveldo/jQuery-Mapael
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Plugin jQuery sobre raphael.js para exibir mapas vetoriais dinâmicos.
+  en: jQuery plugin built on raphael.js for displaying dynamic vector maps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.vincentbroute.fr/mapael/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: CSSOM
+url: https://nv.github.io/CSSOM/docs/parse.html
+repo: https://github.com/NV/CSSOM
+area: build
+category: dev-tools
+tags:
+  - css
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Modelo de objeto CSS e parser em JavaScript puro, hoje sem manutenção.
+  en: CSS Object Model and parser in pure JavaScript, now unmaintained.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://nv.github.io/CSSOM/docs/parse.html"

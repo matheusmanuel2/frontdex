@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Neodrag
+url: https://neodrag.dev
+repo: https://github.com/PuruVJ/neodrag
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Uma única API de arrastar elementos com versões para vários frameworks.
+  en: One draggable API with versions for several frameworks.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://neodrag.dev"

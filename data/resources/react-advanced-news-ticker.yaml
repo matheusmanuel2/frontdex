@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-advanced-news-ticker
+url: https://ahmetcan.org/react-advanced-news-ticker
+repo: https://github.com/ahmetcanaydemir/react-advanced-news-ticker
+area: build
+category: ui-components
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: true
+license: GPL-2.0
+description:
+  pt: Ticker vertical de notícias animado para React.
+  en: Animated vertical news ticker component for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://ahmetcan.org/react-advanced-news-ticker"

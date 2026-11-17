@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Sketch
+url: https://www.sketchapp.com/
+area: build
+category: design-tools
+tags:
+  - macos
+pricing: TODO
+open_source: TODO
+description:
+  pt: App de design para criar, prototipar, colaborar e entregar arquivos ao desenvolvimento.
+  en: Design app for creating, prototyping, collaborating and handing off to development.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://www.sketchapp.com/"

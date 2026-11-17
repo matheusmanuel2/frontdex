@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: AI Background Remover
+url: https://ivoryui.com
+repo: https://github.com/IVORY-UI/ivory
+area: build
+category: design-tools
+tags:
+  - photos
+pricing: free
+open_source: TODO
+license: MIT
+description:
+  pt: Remove o fundo de pessoas, produtos e animais no navegador, sem enviar a imagem para servidor e sem limite de uso.
+  en: Removes the background from people, products and animals in the browser, with no server upload and no usage limit.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ivoryui.com"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: BGJar
+url: https://bgjar.com
+area: build
+category: assets
+tags:
+  - illustration
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Gerador de imagens de fundo em SVG para sites, blogs e apps.
+  en: SVG background image generator for websites, blogs and apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://bgjar.com"

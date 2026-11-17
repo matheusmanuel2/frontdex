@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Favicon InBrowser.App
+url: https://favicon.inbrowser.app/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gerador de favicon que roda inteiro no navegador, sem nenhum código no servidor.
+  en: Favicon generator that runs entirely in the browser, with no server-side code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://favicon.inbrowser.app/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Vanilla Framework
+url: https://vanillaframework.io/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Framework CSS extensível escrito em Sass pelo time web do Ubuntu.
+  en: Extensible CSS framework written in Sass by the Ubuntu Web Team.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks, alexpate/awesome-design-systems. Lida: https://vanillaframework.io/"

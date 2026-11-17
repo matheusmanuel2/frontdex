@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: revenge.css
+url: https://github.com/Heydon/REVENGE.CSS
+repo: https://github.com/Heydon/REVENGE.CSS
+area: build
+category: accessibility
+tags:
+  - css
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Bookmarklet CSS que coloca caixas de erro rosa, em Comic Sans, onde o HTML está ruim.
+  en: CSS bookmarklet that puts pink error boxes, in Comic Sans, wherever you write bad HTML.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/Heydon/REVENGE.CSS"

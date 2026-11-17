@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: svg-icon
+url: https://leungwensen.github.io/svg-icon/
+area: build
+category: icons
+tags:
+  - icons
+pricing: TODO
+open_source: TODO
+description:
+  pt: Coleção agregada de ícones SVG de vários sets, reunidos em um só lugar.
+  en: Aggregated collection of SVG icons from many sets, gathered in one place.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://leungwensen.github.io/svg-icon/"

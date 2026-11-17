@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: GrapesJS
+url: https://grapesjs.com/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: SDK de editor visual para embutir no seu app e editar e-mails, landing pages e sites com exportação de HTML.
+  en: Embeddable visual editor SDK for emails, landing pages and websites, with clean HTML export.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://grapesjs.com/"

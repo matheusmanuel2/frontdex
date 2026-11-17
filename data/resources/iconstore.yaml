@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Iconstore
+url: https://iconstore.co/
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: TODO
+description:
+  pt: Ícones vetoriais em SVG feitos por designers, gratuitos inclusive para uso comercial.
+  en: Vector SVG icons made by designers, free to download for commercial use.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://iconstore.co/"

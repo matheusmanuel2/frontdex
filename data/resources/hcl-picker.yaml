@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: HCL Picker
+url: https://tristen.ca/hcl-picker/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Seletor de cores para visualização de dados que evita as cores equidistantes do HSV.
+  en: Color picker for data visualization that avoids equidistant HSV colors.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://tristen.ca/hcl-picker/"

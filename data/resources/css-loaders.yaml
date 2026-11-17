@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Loaders
+url: https://cssloaders.github.io/
+area: build
+category: animation
+tags:
+  - css
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Coleção de loaders e spinners em CSS puro, sem imagens, com o código-fonte de cada um.
+  en: Collection of pure CSS loaders and spinners, no images, with source code for each.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://cssloaders.github.io/"

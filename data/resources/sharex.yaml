@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ShareX
+url: https://getsharex.com/
+area: build
+category: design-tools
+tags:
+  - video
+pricing: free
+open_source: true
+description:
+  pt: Captura ou grava qualquer área da tela no Windows e compartilha com uma só tecla.
+  en: Captures or records any area of the screen on Windows and shares it with a single key.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getsharex.com/"

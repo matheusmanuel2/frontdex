@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Welcome UI
+url: https://www.welcome-ui.com/
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system personalizável do Welcome to the Jungle, com React, TypeScript, Tailwind CSS e Ariakit.
+  en: Customizable design system from Welcome to the Jungle, built with React, TypeScript, Tailwind CSS and Ariakit.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://www.welcome-ui.com/"

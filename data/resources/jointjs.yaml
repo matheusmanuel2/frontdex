@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: JointJS
+url: https://jointjs.com
+repo: https://github.com/clientIO/joint
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MPL-2.0
+description:
+  pt: Biblioteca de diagramação em JavaScript baseada em SVG.
+  en: SVG-based JavaScript diagramming library.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://jointjs.com"

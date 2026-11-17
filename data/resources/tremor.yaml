@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Tremor
+url: https://npm.tremor.so
+repo: https://github.com/tremorlabs/tremor-npm
+area: build
+category: charts
+tags:
+  - react
+  - css
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Componentes React com Tailwind CSS para montar gráficos e dashboards.
+  en: React components with Tailwind CSS for building charts and dashboards.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://npm.tremor.so"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Iconify
+url: https://iconify.design/
+area: build
+category: icons
+tags:
+  - icons
+pricing: TODO
+open_source: TODO
+description:
+  pt: Reúne os conjuntos de ícones mais populares num só framework, em vez de instalar uma biblioteca para cada um.
+  en: Brings the popular icon sets together under one framework instead of installing a library for each.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://iconify.design/"

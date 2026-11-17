@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Gradient Buttons
+url: https://gradientbuttons.colorion.co/
+area: build
+category: colors
+tags:
+  - css
+  - gradients
+pricing: TODO
+open_source: TODO
+description:
+  pt: Centenas de botões com gradiente em CSS, cada um copiado para a área de transferência com um clique.
+  en: Hundreds of CSS gradient buttons, each copied to the clipboard in one click.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://gradientbuttons.colorion.co/"

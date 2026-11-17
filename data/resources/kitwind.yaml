@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Kitwind
+url: https://kitwind.io/products/kometa/components
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Marketplace de UI kits responsivos em Tailwind CSS, pensados para startups e produtos de vários tipos.
+  en: Marketplace of responsive Tailwind CSS UI kits aimed at startups and products of many kinds.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://kitwind.io/products/kometa/components"

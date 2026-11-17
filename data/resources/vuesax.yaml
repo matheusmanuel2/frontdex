@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Vuesax
+url: https://vuesax.com/
+area: build
+category: ui-components
+tags:
+  - web
+  - mcp
+pricing: TODO
+open_source: TODO
+description:
+  pt: Mais de 1100 Web Components, animações e seções numa tag nativa sem dependências, com servidor MCP para a IDE.
+  en: 1,100+ Web Components, animations and sections as one native tag with no dependencies, plus an MCP server for your IDE.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://vuesax.com/"

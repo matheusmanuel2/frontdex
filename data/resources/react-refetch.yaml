@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Refetch
+url: https://blog.heroku.com/react-refetch
+repo: https://github.com/heroku/react-refetch
+area: build
+category: dev-tools
+tags:
+  - react
+  - api
+pricing: TODO
+open_source: TODO
+description:
+  pt: Forma declarativa e componível de buscar dados para componentes React.
+  en: Declarative, composable way to fetch data for React components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://blog.heroku.com/react-refetch"

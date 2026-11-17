@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Gonzales PE
+url: https://github.com/tonyganch/gonzales-pe
+repo: https://github.com/tonyganch/gonzales-pe
+area: build
+category: dev-tools
+tags:
+  - css
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Parser de CSS que também entende pré-processadores.
+  en: CSS parser that also understands preprocessors.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/tonyganch/gonzales-pe"

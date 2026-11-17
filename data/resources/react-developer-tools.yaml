@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: React Developer Tools
+url: https://addons.mozilla.org/en-US/firefox/addon/react-devtools/
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Inspeciona a árvore de componentes React com props e estado, dentro das devtools do navegador.
+  en: Inspects the React component tree, props and state inside the browser devtools.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://addons.mozilla.org/en-US/firefox/addon/react-devtools/"

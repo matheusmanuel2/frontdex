@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: BudgetPixel Images
+url: https://budgetpixel.com/images
+area: build
+category: assets
+tags:
+  - photos
+  - illustration
+pricing: free
+open_source: TODO
+description:
+  pt: Fotos e ilustrações em JPG HD para uso comercial com crédito, sob licença CC BY 4.0.
+  en: HD JPG photos and illustrations for commercial use with credit, under CC BY 4.0.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://budgetpixel.com/images"

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Aesthetic
+url: https://aestheticsuite.dev
+repo: https://github.com/aesthetic-suite/framework
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+  - design-systems
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Framework de estilo multiplataforma com design system rígido e motor de CSS-in-JS atômico.
+  en: Multi-platform styling framework with a strict design system and an atomic CSS-in-JS engine.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://aestheticsuite.dev"

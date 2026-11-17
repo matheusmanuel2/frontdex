@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: ImageOptim-CLI
+url: https://foldleft.io/image-tools
+repo: https://github.com/JamieMason/ImageOptim-CLI
+area: build
+category: dev-tools
+tags:
+  - cli
+  - macos
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Coloca a otimização de imagens no processo de build automatizado.
+  en: Makes image optimisation part of your automated build process.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://foldleft.io/image-tools"

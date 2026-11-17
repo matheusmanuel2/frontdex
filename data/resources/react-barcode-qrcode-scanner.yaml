@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-barcode-qrcode-scanner
+url: https://www.dynamsoft.com/codepool/react-barcode-qr-code-scanner-library.html
+repo: https://github.com/tony-xlh/react-barcode-qrcode-scanner
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componente React que lê códigos de barras e QR codes direto da câmera na página.
+  en: React component that scans barcodes and QR codes from the camera inside the page.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.dynamsoft.com/codepool/react-barcode-qr-code-scanner-library.html"

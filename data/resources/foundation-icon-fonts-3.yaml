@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Foundation Icon Fonts 3
+url: https://zurb.com/playground/foundation-icon-fonts-3
+area: build
+category: icons
+tags:
+  - icons
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Fonte de ícones da ZURB para usar com CSS, pensada para projetos feitos com Foundation.
+  en: ZURB's icon font for use with CSS, made for projects built on Foundation.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://zurb.com/playground/foundation-icon-fonts-3"

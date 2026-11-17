@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: LaTeX.css
+url: https://latex.now.sh/
+area: build
+category: ui-components
+tags:
+  - css
+  - typography
+pricing: TODO
+open_source: TODO
+description:
+  pt: CSS quase sem classes que deixa seu site com cara de documento LaTeX.
+  en: Almost class-less CSS that makes your website look like a LaTeX document.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, swyxio/spark-joy. Lida: https://latex.now.sh/"

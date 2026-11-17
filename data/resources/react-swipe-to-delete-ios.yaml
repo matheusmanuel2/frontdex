@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-swipe-to-delete-ios
+url: https://arnaudambro.github.io/react-swipe-to-delete-ios/
+repo: https://github.com/arnaudambro/react-swipe-to-delete-ios
+area: build
+category: ui-components
+tags:
+  - react
+  - ios
+pricing: TODO
+open_source: TODO
+description:
+  pt: Reproduz o gesto do iOS de deslizar para apagar um item da lista.
+  en: Reproduces the iOS swipe-to-delete gesture on list items.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://arnaudambro.github.io/react-swipe-to-delete-ios/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-tagsinput
+url: https://github.com/olahol/react-tagsinput
+repo: https://github.com/olahol/react-tagsinput
+area: build
+category: ui-components
+tags:
+  - react
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Campo de tags para React com bastante espaço para personalizar aparência e comportamento.
+  en: Tag input field for React with plenty of room to customize its look and behavior.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/olahol/react-tagsinput"

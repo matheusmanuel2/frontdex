@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Polypane
+url: https://polypane.rocks
+area: build
+category: dev-tools
+tags:
+  - web
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Navegador que mostra várias telas, dispositivos e preferências em sincronia enquanto você desenvolve.
+  en: Browser that shows every screen, device and user preference in sync while you build.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://polypane.rocks"

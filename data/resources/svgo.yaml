@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: SVGO
+url: https://svgo.dev/
+repo: https://github.com/svg/svgo
+area: build
+category: dev-tools
+tags:
+  - cli
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Otimizador de SVG para Node.js e linha de comando, reduz o tamanho dos arquivos.
+  en: SVG optimizer for Node.js and the command line that shrinks file size.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://svgo.dev/"

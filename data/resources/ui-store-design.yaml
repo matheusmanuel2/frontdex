@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: UI Store Design
+url: https://www.uistore.design/
+area: build
+category: assets
+tags:
+  - figma
+  - design-systems
+pricing: free
+open_source: TODO
+description:
+  pt: 648 UI kits gratuitos selecionados para Figma, Sketch, Adobe XD, Webflow e Framer.
+  en: 648 handpicked free UI kits for Figma, Sketch, Adobe XD, Webflow and Framer.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.uistore.design/"

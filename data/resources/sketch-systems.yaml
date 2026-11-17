@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Sketch.systems
+url: https://sketch.systems/
+area: build
+category: design-tools
+tags:
+  - flows
+  - interactive
+pricing: TODO
+open_source: TODO
+description:
+  pt: Esboce os estados de um produto, ligue protótipos e esclareça comportamentos complexos antes de construir.
+  en: Sketch out a product's states, attach prototypes and clear up complex behavior before you build.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://sketch.systems/"

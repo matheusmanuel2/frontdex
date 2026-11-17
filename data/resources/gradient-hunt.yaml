@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Gradient Hunt
+url: https://gradienthunt.com/
+area: build
+category: colors
+tags:
+  - gradients
+pricing: TODO
+open_source: TODO
+description:
+  pt: Milhares de gradientes selecionados, com novidades todo dia e opção de salvar os favoritos.
+  en: Thousands of curated gradients, updated daily, with an option to save the ones you like.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://gradienthunt.com/"

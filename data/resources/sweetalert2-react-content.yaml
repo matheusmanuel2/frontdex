@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: sweetalert2-react-content
+url: https://github.com/sweetalert2/sweetalert2-react-content
+repo: https://github.com/sweetalert2/sweetalert2-react-content
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Extensão oficial do SweetAlert2 que aceita elementos React como conteúdo dos alertas.
+  en: Official SweetAlert2 add-on that accepts React elements as alert content.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/sweetalert2/sweetalert2-react-content"

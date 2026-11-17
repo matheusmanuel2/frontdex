@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: HSL Color Picker
+url: https://hslpicker.com/
+area: build
+category: colors
+tags:
+  - css
+pricing: TODO
+open_source: true
+description:
+  pt: Seletor de cores em OKLCH, HWB, HSL, HSV e RGB, com código aberto.
+  en: Open-source color picker for OKLCH, HWB, HSL, HSV and RGB.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://hslpicker.com/"

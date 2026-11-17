@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Just Color Picker
+url: https://annystudio.com/software/colorpicker/
+area: build
+category: colors
+tags:
+  - macos
+pricing: free
+open_source: TODO
+description:
+  pt: Seletor e editor de cores grátis e portátil para Windows e macOS, pensado para web e design gráfico.
+  en: Free portable color picker and editor for Windows and macOS, aimed at web and graphic designers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://annystudio.com/software/colorpicker/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Photopea
+url: https://www.photopea.com
+area: build
+category: design-tools
+tags:
+  - photos
+pricing: free
+open_source: TODO
+description:
+  pt: Editor de fotos no navegador com efeitos, filtros, texto e recorte, sem instalar nada.
+  en: In-browser photo editor with effects, filters, text and cropping, nothing to install.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://www.photopea.com"

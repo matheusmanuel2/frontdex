@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Big Heads
+url: https://beanheads.robertbroersma.com
+repo: https://github.com/RobertBroersma/beanheads
+area: build
+category: assets
+tags:
+  - illustration
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Crie personagens ilustrados para usar nos seus projetos.
+  en: Create illustrated characters to use in your projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://beanheads.robertbroersma.com"

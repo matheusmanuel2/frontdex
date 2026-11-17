@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: rc-scrollbars
+url: https://rc-scrollbars.vercel.app/
+repo: https://github.com/sakhnyuk/rc-scrollbars
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Barras de rolagem customizáveis para React, com eventos de scroll.
+  en: Customizable scrollbars for React, with scroll events.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://rc-scrollbars.vercel.app/"

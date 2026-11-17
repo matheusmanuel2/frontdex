@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Flowrift
+url: https://flowrift.com/c/banner
+area: build
+category: ui-components
+tags:
+  - css
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de blocos, componentes e templates em Tailwind CSS para ver, copiar e ajustar.
+  en: Library of Tailwind CSS blocks, components and templates to view, copy and customize.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://flowrift.com/c/banner"

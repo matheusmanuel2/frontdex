@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: System UIcons
+url: https://systemuicons.com/
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: TODO
+description:
+  pt: Conjunto de ícones para sistemas e produtos, livre para usar como quiser e sem atribuição.
+  en: Icon set designed for systems and products, free to use however you want with no attribution.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://systemuicons.com/"

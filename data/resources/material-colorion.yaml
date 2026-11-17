@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: material.colorion
+url: https://material.colorion.co/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Paletas inspiradas no Material Design para descobrir, salvar e copiar direto para a interface.
+  en: Material-inspired color palettes to discover, save and copy straight into your interface.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://material.colorion.co/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Favic-o-Matic
+url: https://favicomatic.com/
+area: build
+category: dev-tools
+tags:
+  - web
+  - ios
+  - android
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gera todos os tipos de favicon, incluindo ícones de iOS, Android e tile do Metro, tratando bem PNG transparente.
+  en: Generates every favicon type, including iOS, Android and Metro tile icons, with proper transparent PNG handling.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://favicomatic.com/"

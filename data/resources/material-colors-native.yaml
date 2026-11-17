@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Material Colors Native
+url: https://github.com/BafS/Material-Colors-native
+repo: https://github.com/BafS/Material-Colors-native
+area: build
+category: colors
+tags:
+  - macos
+pricing: TODO
+open_source: TODO
+description:
+  pt: App para macOS, feito em React Native, para escolher cores da paleta Material.
+  en: macOS app built with React Native for picking Material palette colors.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://github.com/BafS/Material-Colors-native"

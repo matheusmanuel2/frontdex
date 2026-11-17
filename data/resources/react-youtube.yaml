@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-youtube
+url: https://github.com/troybetz/react-youtube
+repo: https://github.com/tjallingt/react-youtube
+area: build
+category: ui-components
+tags:
+  - react
+  - video
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente React para o player do YouTube.
+  en: React component that embeds the YouTube player.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/troybetz/react-youtube"

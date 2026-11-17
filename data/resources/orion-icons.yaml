@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Orion Icons
+url: https://orioniconlibrary.com/all-icons
+area: build
+category: icons
+tags:
+  - icons
+pricing: freemium
+open_source: TODO
+description:
+  pt: Cerca de 6 mil ícones vetoriais em SVG e PNG para web, iOS e Android, uma parte gratuita e outra pro.
+  en: About 6,000 vector icons in SVG and PNG for web, iOS and Android, some free and some pro.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://orioniconlibrary.com/all-icons"

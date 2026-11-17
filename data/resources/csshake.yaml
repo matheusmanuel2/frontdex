@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: CSShake
+url: https://elrumordelaluz.github.io/csshake/
+area: build
+category: animation
+tags:
+  - css
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Classes CSS que fazem os elementos tremerem, com vários tipos de shake.
+  en: CSS classes that shake your elements, with several kinds of shake.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://elrumordelaluz.github.io/csshake/"

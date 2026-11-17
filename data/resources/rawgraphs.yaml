@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: RAWGraphs
+url: https://rawgraphs.io
+area: build
+category: charts
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: "Ponte entre planilhas e visualização: cole os dados e escolha um gráfico."
+  en: "Bridge between spreadsheets and visualization: paste data and pick a chart."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://rawgraphs.io"

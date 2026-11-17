@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Material UI Colors
+url: https://www.materialui.co
+area: build
+category: colors
+tags:
+  - icons
+pricing: TODO
+open_source: TODO
+description:
+  pt: Paletas Material e Flat UI, ícones e unicodes reunidos para designers e devs.
+  en: Material and Flat UI color palettes, icons and unicodes in one place.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design, Siddharth11/Colorful. Lida: https://www.materialui.co"

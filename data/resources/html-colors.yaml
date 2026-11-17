@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: HTML Colors
+url: https://htmlcolors.com/
+area: build
+category: colors
+tags:
+  - css
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Seletor de cor que mostra o código em HEX, RGB, RGBA, HSL, HSLA, HSV, HWB e CMYK de uma vez.
+  en: Color picker that shows the code in HEX, RGB, RGBA, HSL, HSLA, HSV, HWB and CMYK at once.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://htmlcolors.com/"

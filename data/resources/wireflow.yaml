@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Wireflow
+url: https://wireflow.co
+area: build
+category: design-tools
+tags:
+  - flows
+pricing: free
+open_source: true
+description:
+  pt: Ferramenta online para montar protótipos de user flow.
+  en: Online tool for putting together user flow prototypes.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://wireflow.co"

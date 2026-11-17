@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ColorMagic
+url: https://colormagic.app
+area: build
+category: colors
+tags:
+  - ai-agents
+pricing: free
+open_source: TODO
+description:
+  pt: Gera paletas a partir de um humor, marca, nome, código hex ou imagem.
+  en: Generates palettes from a mood, brand, name, hex code or image.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://colormagic.app"

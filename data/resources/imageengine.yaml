@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: ImageEngine
+url: https://imageengine.io
+area: build
+category: dev-tools
+tags:
+  - photos
+  - self-hosted
+pricing: paid
+open_source: TODO
+description:
+  pt: Otimização de imagens auto-hospedada na sua nuvem, com preço mensal fixo em vez de cobrança por requisição.
+  en: Self-hosted image optimization in your own cloud, at a flat monthly rate instead of per-request fees.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://imageengine.io"

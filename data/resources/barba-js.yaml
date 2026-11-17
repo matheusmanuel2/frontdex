@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: barba.js
+url: https://barba.js.org/
+area: build
+category: animation
+tags:
+  - javascript
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Cria transições fluidas entre as páginas do seu site.
+  en: Creates fluid transitions between your website's pages.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://barba.js.org/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: icono
+url: https://saeedalipoor.github.io/icono/
+area: build
+category: icons
+tags:
+  - icons
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: "Ícones feitos só com CSS, sem recurso externo: qualquer tag vira um ícone."
+  en: "Icons made purely in CSS, with no external resources: any tag can become an icon."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://saeedalipoor.github.io/icono/"

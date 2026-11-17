@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: TerriaJS
+url: https://terria.io
+repo: https://github.com/TerriaJS/terriajs
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Biblioteca para criar plataformas web de dados geoespaciais em 2D e 3D.
+  en: Library for building web-based geospatial 2D and 3D data platforms.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://terria.io"

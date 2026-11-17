@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Browser Logos
+url: https://github.com/alrra/browser-logos#readme
+repo: https://github.com/alrra/browser-logos
+area: build
+category: brand-apis
+tags:
+  - logos
+  - icons
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Logos de navegadores em alta resolução, inclusive em SVG.
+  en: High resolution web browser logos, including SVG.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://github.com/alrra/browser-logos#readme"

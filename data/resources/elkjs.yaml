@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: elkjs
+url: https://github.com/kieler/elkjs
+repo: https://github.com/kieler/elkjs
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Algoritmos de layout do ELK portados para JavaScript, para posicionar nós e arestas de grafos.
+  en: ELK's layout algorithms ported to JavaScript, for positioning graph nodes and edges.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/kieler/elkjs"

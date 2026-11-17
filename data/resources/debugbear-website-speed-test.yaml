@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: DebugBear Website Speed Test
+url: https://www.debugbear.com/test/website-speed
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Testa a velocidade da página numa conexão limitada real, com waterfall, relatório Lighthouse e Core Web Vitals.
+  en: Tests page speed on a real throttled connection, with a waterfall, Lighthouse report and Core Web Vitals.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.debugbear.com/test/website-speed"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Charts.css
+url: https://ChartsCSS.org
+repo: https://github.com/ChartsCSS/charts.css
+area: build
+category: charts
+tags:
+  - css
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: "Framework CSS para visualização de dados: gráficos feitos com HTML e classes CSS."
+  en: "CSS framework for data visualization: charts built from HTML and CSS classes."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://ChartsCSS.org"

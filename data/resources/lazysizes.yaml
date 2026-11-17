@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: lazysizes
+url: https://github.com/aFarkas/lazysizes
+repo: https://github.com/aFarkas/lazysizes
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - web
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Carrega imagens responsivas e iframes sob demanda, detectando mudanças de visibilidade sem configuração.
+  en: Lazy-loads responsive images and iframes, detecting visibility changes with no configuration.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/aFarkas/lazysizes"

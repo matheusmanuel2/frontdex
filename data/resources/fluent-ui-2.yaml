@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Fluent UI
+url: https://developer.microsoft.com/en-us/fluentui#/
+area: build
+category: ui-components
+tags:
+  - design-systems
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Framework front-end oficial da Microsoft para experiências que se integram ao Microsoft 365.
+  en: Microsoft's official front-end framework for experiences that fit into Microsoft 365.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems. Lida: https://developer.microsoft.com/en-us/fluentui#/"

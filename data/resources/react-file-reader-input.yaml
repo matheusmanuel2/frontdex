@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-file-reader-input
+url: https://github.com/ngokevin/react-file-reader-input
+repo: https://github.com/ngokevin/react-file-reader-input
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Input de arquivo para React com controle total do estilo e da leitura do arquivo.
+  en: React file input with full control over styling and file reading.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/ngokevin/react-file-reader-input"

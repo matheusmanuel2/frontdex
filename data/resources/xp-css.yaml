@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: XP.css
+url: https://botoxparty.github.io/XP.css/
+area: build
+category: ui-components
+tags:
+  - css
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Sistema de design em CSS para recriar interfaces antigas no estilo do Windows XP.
+  en: CSS design system for recreating old interfaces in the Windows XP style.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://botoxparty.github.io/XP.css/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: WilliamChart
+url: https://github.com/diogobernardino/WilliamChart
+repo: https://github.com/diogobernardino/williamchart
+area: build
+category: charts
+tags:
+  - android
+  - mobile
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca Android para criar gráficos em apps.
+  en: Android library for building charts in apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/diogobernardino/WilliamChart"

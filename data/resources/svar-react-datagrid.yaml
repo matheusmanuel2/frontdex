@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: SVAR React DataGrid
+url: https://svar.dev/react/datagrid/
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: TODO
+description:
+  pt: Grade de dados gratuita para React com editores na célula, dados em árvore e rolagem virtual.
+  en: Free React data grid with in-cell editors, tree data and virtual scrolling.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://svar.dev/react/datagrid/"

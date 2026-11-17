@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: cmdk
+url: https://cmdk.paco.me/
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Menu de comandos para React, rápido e sem estilo, para você vestir com o seu design.
+  en: Fast, unstyled command menu for React, ready to take your own design.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://cmdk.paco.me/"

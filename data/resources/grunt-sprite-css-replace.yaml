@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: grunt-sprite-css-replace
+url: https://www.npmjs.com/package/grunt-sprite-css-replace
+area: build
+category: dev-tools
+tags:
+  - css
+  - cli
+pricing: TODO
+open_source: TODO
+description:
+  pt: Tarefa Grunt que junta as imagens citadas no CSS num sprite e reescreve as referências e posições.
+  en: Grunt task that builds a sprite from the images in a stylesheet and rewrites the references and positions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.npmjs.com/package/grunt-sprite-css-replace"

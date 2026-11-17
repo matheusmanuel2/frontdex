@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: heatmap.js
+url: https://www.patrick-wied.at/static/heatmapjs/
+repo: https://github.com/pa7/heatmap.js
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Mapas de calor em canvas HTML5, com integração ao Leaflet.
+  en: HTML5 canvas heatmaps, with Leaflet integration.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.patrick-wied.at/static/heatmapjs/"

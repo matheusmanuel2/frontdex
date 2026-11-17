@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Fine Art Free
+url: https://fineartfree.com/
+area: build
+category: assets
+tags:
+  - photos
+pricing: free
+open_source: TODO
+description:
+  pt: 500 mil pinturas em domínio público de acervos como Prado, Orsay e Rijksmuseum, livres para uso comercial.
+  en: 500,000 public domain paintings from collections like the Prado, Orsay and Rijksmuseum, free for commercial use.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://fineartfree.com/"

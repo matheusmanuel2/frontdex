@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Bootstrap Studio
+url: https://bootstrapstudio.io/
+area: build
+category: design-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: App de design para montar sites responsivos sobre o framework Bootstrap.
+  en: Design app for building responsive websites on the Bootstrap framework.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://bootstrapstudio.io/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Color Designer Gradient Generator
+url: https://colordesigner.io/gradient-generator
+area: build
+category: colors
+tags:
+  - gradients
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gera a transição entre duas cores e mostra todos os tons intermediários da mistura.
+  en: Generates the blend between two colors and shows every in-between shade.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://colordesigner.io/gradient-generator"

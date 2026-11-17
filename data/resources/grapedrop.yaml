@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Grapedrop
+url: https://grapedrop.com/
+area: build
+category: design-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Construtor online grátis de sites e landing pages responsivas, que publica na hora ou exporta o código.
+  en: Free online builder for responsive sites and landing pages that publishes instantly or exports the code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://grapedrop.com/"

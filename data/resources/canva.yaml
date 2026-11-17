@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Canva
+url: https://www.canva.com/
+area: build
+category: design-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Editor gráfico online para posts, apresentações, pôsteres, vídeos e logos, com uso gratuito.
+  en: Online graphic editor for social posts, presentations, posters, videos and logos, free to use.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, nicolesaidy/awesome-web-design. Lida: https://www.canva.com/"

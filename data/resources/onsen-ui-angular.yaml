@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Onsen UI Angular
+url: https://onsen.io/angular2/
+area: build
+category: ui-components
+tags:
+  - typescript
+  - mobile
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes para apps móveis híbridos e PWAs com Angular ou AngularJS, com estilo Material ou iOS.
+  en: Components for hybrid mobile apps and PWAs with Angular or AngularJS, with Material or iOS styling.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://onsen.io/angular2/"

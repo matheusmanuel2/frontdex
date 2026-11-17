@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: nomnoml
+url: https://www.nomnoml.com
+repo: https://github.com/skanaar/nomnoml
+area: build
+category: charts
+tags:
+  - javascript
+  - text
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Renderiza diagramas UML a partir de uma sintaxe de texto simples.
+  en: Renders UML diagrams from a simple text syntax.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.nomnoml.com"

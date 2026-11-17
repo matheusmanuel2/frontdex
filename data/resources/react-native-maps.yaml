@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+name: React Native Maps
+url: https://github.com/react-native-maps/react-native-maps
+repo: https://github.com/react-native-maps/react-native-maps
+area: build
+category: ui-components
+tags:
+  - react
+  - mobile
+  - ios
+  - android
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente de mapa para React Native no iOS e Android.
+  en: Map view component for React Native on iOS and Android.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/react-native-maps/react-native-maps"

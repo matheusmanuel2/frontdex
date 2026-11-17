@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: mod_pagespeed
+url: https://modpagespeed.com/docs/getting-started/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Módulo para Apache, nginx, IIS ou Docker que entrega páginas já otimizadas pelo servidor.
+  en: Module for Apache, nginx, IIS or Docker that serves pages already optimized by the server.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://modpagespeed.com/docs/getting-started/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Cytoscape.js
+url: https://js.cytoscape.org/
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de teoria dos grafos para analisar e desenhar redes, compatível com npm e JS puro.
+  en: Graph theory library for analysing and drawing networks, works with npm and plain JS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://js.cytoscape.org/"

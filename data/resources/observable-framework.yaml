@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Observable Framework
+url: https://observablehq.com/framework/
+repo: https://github.com/observablehq/framework
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: ISC
+description:
+  pt: Gerador de sites estáticos para data apps, dashboards e relatórios com JavaScript.
+  en: Static site generator for data apps, dashboards and reports with front-end JavaScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://observablehq.com/framework/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: GrafX2
+url: https://gitlab.com/GrafX2/grafX2
+area: build
+category: design-tools
+tags:
+  - illustration
+pricing: TODO
+open_source: true
+description:
+  pt: Programa de pintura de 256 cores para pixel art.
+  en: 256-color painting program for pixel art.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://gitlab.com/GrafX2/grafX2"

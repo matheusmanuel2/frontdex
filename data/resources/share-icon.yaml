@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Share Icon
+url: https://www.shareicon.net/
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: TODO
+description:
+  pt: Mais de 250 mil ícones para baixar em PNG, SVG, ICO, PSD, AI e ICNS.
+  en: Over 250,000 icons to download as PNG, SVG, ICO, PSD, AI and ICNS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.shareicon.net/"

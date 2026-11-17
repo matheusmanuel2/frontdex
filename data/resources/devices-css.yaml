@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Devices.css
+url: https://marvelapp.github.io/devices.css/
+area: build
+category: assets
+tags:
+  - mockups
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: 13 mockups de dispositivos feitos só com CSS, de iPhone X a Galaxy S5 e Macbook Pro.
+  en: 13 pure CSS device mockups, from iPhone X to Galaxy S5 and Macbook Pro.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://marvelapp.github.io/devices.css/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: gulp-htmlmin
+url: https://github.com/jonschlinkert
+repo: https://github.com/jonschlinkert/gulp-htmlmin
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Plugin do Gulp que minifica arquivos HTML no build.
+  en: Gulp plugin that minifies HTML files during the build.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/jonschlinkert"

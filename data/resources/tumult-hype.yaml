@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Tumult Hype
+url: https://tumult.com/hype/
+area: build
+category: animation
+tags:
+  - motion
+  - macos
+pricing: TODO
+open_source: TODO
+description:
+  pt: App para macOS que cria animações e conteúdo interativo em HTML5 sem código, para desktop e mobile.
+  en: macOS app for building HTML5 animations and interactive content without code, for desktop and mobile.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://tumult.com/hype/"

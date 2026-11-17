@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Spectre.css
+url: https://picturepan2.github.io/spectre/index.html
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Framework CSS leve com tipografia base, grid em flexbox e componentes prontos.
+  en: Lightweight CSS framework with base typography, a flexbox grid and ready components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css, swyxio/spark-joy. Lida: https://picturepan2.github.io/spectre/index.html"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Origami Studio
+url: https://origami.design
+area: build
+category: design-tools
+tags:
+  - figma
+  - mobile
+pricing: TODO
+open_source: TODO
+description:
+  pt: Prototipagem com canvas, layout dinâmico e suporte a arquivos do Figma e do Sketch.
+  en: Prototyping with a canvas, dynamic layout and support for Figma and Sketch files.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://origami.design"

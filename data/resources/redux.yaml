@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Redux
+url: https://redux.js.org
+repo: https://github.com/reduxjs/redux
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca JavaScript para estado global previsível.
+  en: JavaScript library for predictable global state management.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://redux.js.org"

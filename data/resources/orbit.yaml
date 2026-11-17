@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Orbit
+url: https://orbit.kiwi
+repo: https://github.com/kiwicom/orbit
+area: build
+category: ui-components
+tags:
+  - react
+  - design-systems
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componentes React do Orbit, o design system open source da Kiwi.com.
+  en: React components of Orbit, Kiwi.com's open-source design system.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://orbit.kiwi"

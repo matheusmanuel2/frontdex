@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: redux-first-history
+url: https://wvst19.csb.app/
+repo: https://github.com/salvoravida/redux-first-history
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Liga o histórico de navegação ao Redux, com suporte a react-router, @reach/router, wouter e react-location.
+  en: Binds navigation history to Redux, supporting react-router, @reach/router, wouter and react-location.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://wvst19.csb.app/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Layoutit Grid
+url: https://grid.layoutit.com/
+area: build
+category: dev-tools
+tags:
+  - css
+  - interactive
+pricing: TODO
+open_source: TODO
+description:
+  pt: "Gerador visual de CSS Grid: monte o layout e leve o HTML e o CSS prontos."
+  en: "Visual CSS Grid generator: lay it out and take the HTML and CSS with you."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://grid.layoutit.com/"

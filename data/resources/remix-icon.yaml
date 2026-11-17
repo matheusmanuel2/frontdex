@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Remix Icon
+url: https://remixicon.com/
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: true
+description:
+  pt: Símbolos de sistema em estilo neutro, open source e livres para uso pessoal e comercial.
+  en: Neutral-style system symbols, open source and free for personal and commercial use.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://remixicon.com/"

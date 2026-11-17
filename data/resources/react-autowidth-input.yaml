@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-autowidth-input
+url: https://github.com/kierien/react-autowidth-input
+repo: https://github.com/kierianlee/react-autowidth-input
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Campo de texto para React que ajusta a largura ao conteúdo digitado, feito com hooks.
+  en: React text input that resizes its width to fit what you type, built with hooks.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/kierien/react-autowidth-input"

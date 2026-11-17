@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Content Loader
+url: https://skeletonreact.com
+repo: https://github.com/danilowoz/react-content-loader
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Cria skeletons de carregamento em SVG para React.
+  en: Creates SVG-powered skeleton loading placeholders for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://skeletonreact.com"

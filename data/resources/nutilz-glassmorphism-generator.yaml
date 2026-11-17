@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Nutilz Glassmorphism Generator
+url: https://synergies.js.org/
+repo: https://github.com/lukasbach/synergies
+area: build
+category: dev-tools
+tags:
+  - glassmorphism
+  - css
+pricing: free
+open_source: TODO
+license: MIT
+description:
+  pt: Ajuste blur, opacidade, borda e sombra e copie o CSS de vidro fosco para qualquer elemento.
+  en: Adjust blur, opacity, border and shadow, then copy frosted-glass CSS for any element.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://synergies.js.org/"

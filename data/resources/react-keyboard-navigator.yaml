@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-keyboard-navigator
+url: https://react-keyboard-navigator.zheeeng.me/
+repo: https://github.com/zheeeng/react-keyboard-navigator
+area: build
+category: ui-components
+tags:
+  - react
+  - accessibility
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componentes e hook React para mover a seleção entre irmãos com as setas do teclado.
+  en: React components and hook for moving selection between siblings with arrow keys.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-keyboard-navigator.zheeeng.me/"

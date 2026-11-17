@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-lazy-load
+url: https://github.com/loktar00/react-lazy-load
+repo: https://github.com/loktar00/react-lazy-load
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente React que só renderiza os filhos quando entram na tela.
+  en: React component that renders its children only when they enter the viewport.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/loktar00/react-lazy-load"

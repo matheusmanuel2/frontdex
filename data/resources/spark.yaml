@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Spark
+url: https://github.com/holman/spark
+repo: https://github.com/holman/spark
+area: build
+category: charts
+tags:
+  - terminal
+  - cli
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Desenha sparklines como ▁▂▃▅▂▇ direto no terminal.
+  en: Draws sparklines like ▁▂▃▅▂▇ right in your shell.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/holman/spark"

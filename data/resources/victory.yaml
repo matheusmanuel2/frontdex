@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Victory
+url: https://github.com/FormidableLabs/victory
+repo: https://github.com/FormidableLabs/victory
+area: build
+category: charts
+tags:
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes React combináveis para visualizações de dados interativas.
+  en: Composable React components for interactive data visualizations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/FormidableLabs/victory"

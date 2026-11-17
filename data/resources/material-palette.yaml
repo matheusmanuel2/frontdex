@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Material Palette
+url: https://www.materialpalette.com/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Escolha duas cores e baixe a paleta Material Design gerada a partir delas.
+  en: Pick your colors and download the Material Design palette generated from them.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design, Siddharth11/Colorful. Lida: https://www.materialpalette.com/"

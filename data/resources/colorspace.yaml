@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ColorSpace
+url: https://mycolor.space/
+area: build
+category: colors
+tags:
+  - gradients
+pricing: TODO
+open_source: TODO
+description:
+  pt: Digite uma cor e receba várias paletas e esquemas que combinam com ela, além de gradientes.
+  en: Enter one color and get many matching palettes and schemes, plus gradients.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://mycolor.space/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Trianglify.io
+url: https://trianglify.io/
+area: build
+category: assets
+tags:
+  - illustration
+  - textures
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gera padrões low poly de triângulos para usar como papel de parede ou fundo de site.
+  en: Generates low poly triangle patterns to use as wallpapers or website backgrounds.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://trianglify.io/"

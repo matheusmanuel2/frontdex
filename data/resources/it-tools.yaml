@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: IT Tools
+url: https://it-tools.tech/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: true
+description:
+  pt: Coleção open source de utilitários online para devs, de conversores a geradores, reunidos num só lugar.
+  en: Open-source collection of handy online utilities for developers and IT folks, gathered in one place.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://it-tools.tech/"

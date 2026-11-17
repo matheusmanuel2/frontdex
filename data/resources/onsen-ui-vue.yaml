@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Onsen UI Vue
+url: https://onsen.io/vue/
+area: build
+category: ui-components
+tags:
+  - javascript
+  - mobile
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes Vue para PWAs e apps híbridos com Cordova, com estilo Material ou iOS automático.
+  en: Vue components for PWAs and hybrid Cordova apps, with automatic Material or iOS styling.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://onsen.io/vue/"

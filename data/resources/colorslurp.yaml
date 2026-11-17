@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: ColorSlurp
+url: https://colorslurp.com/
+area: build
+category: colors
+tags:
+  - macos
+  - ios
+pricing: TODO
+open_source: TODO
+description:
+  pt: Seletor de cores para Mac e iOS que captura, edita e copia cores da tela.
+  en: Color picker for Mac and iOS that picks, edits and copies colors from your screen.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://colorslurp.com/"

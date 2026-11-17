@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: MockCity
+url: https://mockcity.com/
+area: build
+category: design-tools
+tags:
+  - mockups
+pricing: TODO
+open_source: TODO
+description:
+  pt: Coloca seus designs nos Smart Objects de templates PSD e gera centenas de mockups em lote.
+  en: Places your designs into PSD Smart Objects and batch-generates hundreds of mockups.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://mockcity.com/"

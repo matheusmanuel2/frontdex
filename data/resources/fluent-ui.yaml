@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Fluent UI
+url: https://react.fluentui.dev
+repo: https://github.com/microsoft/fluentui
+area: build
+category: ui-components
+tags:
+  - react
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Utilitários, componentes React e web components para construir aplicações web.
+  en: Utilities, React components and web components for building web applications.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css, brillout/awesome-react-components. Lida: https://react.fluentui.dev"

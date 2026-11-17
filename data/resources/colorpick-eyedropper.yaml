@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Colorpick Eyedropper
+url: https://addons.mozilla.org/en-US/firefox/addon/colorpick-eyedropper/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Conta-gotas para pegar valores de cor de qualquer ponto de uma página.
+  en: Eyedropper for grabbing color values from any point on a web page.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://addons.mozilla.org/en-US/firefox/addon/colorpick-eyedropper/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Typicons
+url: https://typicons.com/
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: TODO
+description:
+  pt: Ícones vetoriais gratuitos embutidos em webfont, para usar em interfaces web ou apps nativos.
+  en: Free vector icons packed into a webfont, for web interfaces or native apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://typicons.com/"

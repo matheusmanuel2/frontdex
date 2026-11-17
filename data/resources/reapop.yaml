@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Reapop
+url: https://louisbarranqueiro.github.io/reapop
+repo: https://github.com/LouisBarranqueiro/reapop
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Sistema de notificações para React simples e personalizável.
+  en: Simple, customizable notification system for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://louisbarranqueiro.github.io/reapop"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: TanStack Table
+url: https://tanstack.com/table
+repo: https://github.com/TanStack/table
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Lógica headless de tabelas e datagrids para TS/JS, com adaptadores para React, Vue, Solid e Svelte.
+  en: Headless table and datagrid logic for TS/JS, with adapters for React, Vue, Solid and Svelte.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://tanstack.com/table"

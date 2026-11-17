@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Color Hex Palettes
+url: https://www.color-hex.com/color-palettes/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Mais de 189 mil paletas criadas pelos usuários do Color Hex, com variações de esquema.
+  en: Over 189,000 palettes created by Color Hex users, with scheme variations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://www.color-hex.com/color-palettes/"

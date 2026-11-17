@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Done Design System
+url: https://hiradary.github.io/reoverlay
+repo: https://github.com/hiradary/reoverlay
+area: build
+category: ui-components
+tags:
+  - css
+  - design-systems
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Design system open source sobre o Bootstrap 4, com o código SASS organizado para acelerar o desenvolvimento de produtos.
+  en: Open-source design system built on Bootstrap 4, with organized SASS code to speed up product development.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://hiradary.github.io/reoverlay"

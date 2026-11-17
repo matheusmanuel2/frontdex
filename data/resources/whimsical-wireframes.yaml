@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Whimsical Wireframes
+url: https://whimsical.co/wireframes/
+area: build
+category: design-tools
+tags:
+  - web
+  - mobile
+pricing: free
+open_source: TODO
+description:
+  pt: Componentes de wireframe de baixa fidelidade para sites e apps nativos, feitos para alinhar a equipe cedo.
+  en: Low-fidelity wireframe components for websites and native apps, made to align the team early.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://whimsical.co/wireframes/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Axentix
+url: https://useaxentix.com/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Mistura componentes personalizáveis com classes utilitárias e deixa as decisões de design com você.
+  en: Mixes customizable components with utility classes and leaves design decisions to you.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://useaxentix.com/"

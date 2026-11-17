@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: memory-stats.js
+url: https://github.com/paulirish/memory-stats.js
+repo: https://github.com/paulirish/memory-stats.js
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Monitor mínimo do tamanho do heap JS via performance.memory.
+  en: Minimal JS heap size monitor via performance.memory.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/paulirish/memory-stats.js"

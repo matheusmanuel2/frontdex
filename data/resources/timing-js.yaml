@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Timing.js
+url: https://github.com/addyosmani/timing.js
+repo: https://github.com/addyosmani/timing.js
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Funções auxiliares para medir com a Navigation Timing API.
+  en: Helpers for measuring with the Navigation Timing API.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/addyosmani/timing.js"

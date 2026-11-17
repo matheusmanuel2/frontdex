@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Tilda
+url: https://tilda.cc/
+area: build
+category: design-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Construtor de sites, lojas e landing pages com centenas de templates prontos, sem código.
+  en: Website, store and landing page builder with hundreds of pre-designed templates, no code required.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://tilda.cc/"

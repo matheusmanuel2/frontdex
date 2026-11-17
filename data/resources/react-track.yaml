@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-track
+url: https://github.com/gilbox/react-track
+repo: https://github.com/gilbox/react-track
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Rastreia a posição de elementos do DOM em React para animar a partir dela.
+  en: Tracks DOM element positions in React so you can animate from them.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/gilbox/react-track"

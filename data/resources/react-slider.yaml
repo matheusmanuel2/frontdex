@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-slider
+url: https://zillow.github.io/react-slider
+repo: https://github.com/zillow/react-slider
+area: build
+category: ui-components
+tags:
+  - react
+  - accessibility
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Slider acessível para React que não impõe CSS, também para faixas de valores.
+  en: Accessible slider for React that imposes no CSS, ranges included.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://zillow.github.io/react-slider"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Fancy Border Radius
+url: https://9elements.github.io/fancy-border-radius/full-control.html
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gerador visual de formas orgânicas feitas só com a propriedade border-radius do CSS.
+  en: Visual generator for organic shapes built only with the CSS border-radius property.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://9elements.github.io/fancy-border-radius/full-control.html"

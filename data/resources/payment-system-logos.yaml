@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Payment System Logos
+url: https://github.com/mpay24/payment-logos/
+repo: https://github.com/mpay24/payment-logos
+area: build
+category: assets
+tags:
+  - logos
+pricing: TODO
+open_source: TODO
+description:
+  pt: Logos de sistemas de pagamento em PNG e SVG.
+  en: Logos of payment systems, available in both PNG and SVG.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://github.com/mpay24/payment-logos/"

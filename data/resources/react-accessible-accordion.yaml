@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-accessible-accordion
+url: https://springload.github.io/react-accessible-accordion
+repo: https://github.com/springload/react-accessible-accordion
+area: build
+category: accessibility
+tags:
+  - react
+  - accessibility
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Acordeão acessível para React, para seções que abrem e fecham.
+  en: Accessible accordion for React, for sections that expand and collapse.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://springload.github.io/react-accessible-accordion"

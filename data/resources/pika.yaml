@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Pika
+url: https://pika.style
+area: build
+category: assets
+tags:
+  - mockups
+pricing: free
+open_source: TODO
+description:
+  pt: Deixa capturas de tela apresentáveis com fundos, molduras de navegador, sombras e texto.
+  en: Dresses up screenshots with backgrounds, browser frames, shadows and text.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, swyxio/spark-joy. Lida: https://pika.style"

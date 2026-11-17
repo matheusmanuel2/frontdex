@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Microsoft Inclusive Design
+url: https://www.microsoft.com/design/inclusive/
+area: build
+category: accessibility
+tags:
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Prática de design inclusivo da Microsoft, com princípios, guias, ferramentas de workshop e vídeos.
+  en: Microsoft's inclusive design practice, with principles, guidebooks, workshop tools and videos.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.microsoft.com/design/inclusive/"

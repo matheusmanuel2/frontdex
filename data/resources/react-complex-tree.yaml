@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: React Complex Tree
+url: https://rct.lukasbach.com
+repo: https://github.com/lukasbach/react-complex-tree
+area: build
+category: ui-components
+tags:
+  - react
+  - accessibility
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente de árvore acessível e sem opinião de estilo, com seleção múltipla e arrastar e soltar.
+  en: Unopinionated, accessible tree component with multi-select and drag and drop.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://rct.lukasbach.com"

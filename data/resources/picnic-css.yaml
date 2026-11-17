@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Picnic CSS
+url: https://picnicss.com/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca CSS leve para estilizar elementos HTML sem montar tudo do zero.
+  en: Lightweight CSS library for styling HTML elements without starting from scratch.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://picnicss.com/"

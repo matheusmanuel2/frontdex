@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: React Styleguidist
+url: https://react-styleguidist.js.org/
+repo: https://github.com/styleguidist/react-styleguidist
+area: build
+category: dev-tools
+tags:
+  - react
+  - design-systems
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Ambiente isolado para desenvolver componentes React, com guia de estilo vivo.
+  en: Isolated React component development environment with a living style guide.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://react-styleguidist.js.org/"

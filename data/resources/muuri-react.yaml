@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: muuri-react
+url: https://paol-imi.github.io/muuri-react/
+repo: https://github.com/paol-imi/muuri-react
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Motor de layout em grade para React com ordenação e arrastar e soltar, baseado no Muuri.
+  en: Grid layout engine for React with sorting and drag and drop, based on Muuri.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://paol-imi.github.io/muuri-react/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Animockup
+url: https://animockup.com
+repo: https://github.com/alyssaxuu/animockup
+area: build
+category: design-tools
+tags:
+  - mockups
+  - motion
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Cria mockups animados direto no navegador.
+  en: Create animated mockups right in the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://animockup.com"

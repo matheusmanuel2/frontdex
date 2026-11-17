@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: MockUPhone
+url: https://mockuphone.com/
+area: build
+category: design-tools
+tags:
+  - mockups
+  - mobile
+pricing: free
+open_source: TODO
+description:
+  pt: Envolve screenshots de apps em molduras de iPhone, iPad, Android e TV.
+  en: Wraps app screenshots in iPhone, iPad, Android and TV device frames.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://mockuphone.com/"

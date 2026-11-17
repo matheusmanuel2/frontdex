@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Charts
+url: https://github.com/ChartsOrg/Charts
+repo: https://github.com/ChartsOrg/Charts
+area: build
+category: charts
+tags:
+  - ios
+  - mobile
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Gráficos para iOS, tvOS e macOS, a versão Apple do MPAndroidChart.
+  en: Charts for iOS, tvOS and macOS, the Apple counterpart to MPAndroidChart.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/ChartsOrg/Charts"

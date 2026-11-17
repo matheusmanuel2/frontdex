@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Liquid Glass Generator
+url: https://codequest.work/generator/liquid-glass-generator/
+area: build
+category: dev-tools
+tags:
+  - glassmorphism
+  - css
+pricing: free
+open_source: TODO
+description:
+  pt: Recria o Liquid Glass da Apple em WebGL, com refração e aberração cromática ajustáveis e código para copiar.
+  en: Recreates Apple's Liquid Glass in WebGL, with tunable refraction and chromatic aberration plus code to copy.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://codequest.work/generator/liquid-glass-generator/"

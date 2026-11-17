@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Ant Design Charts
+url: https://ant-design-charts.antgroup.com/en/
+area: build
+category: charts
+tags:
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes de visualização da AntV para React.
+  en: AntV visualization components for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ant-design-charts.antgroup.com/en/"

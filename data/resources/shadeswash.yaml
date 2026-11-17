@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ShadeSwash
+url: https://shadeswash.netlify.app/
+area: build
+category: colors
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gerador de tons de uma cor feito para devs e designers que precisam achar a variação certa sem tentativa e erro.
+  en: Shade generator for developers and designers who need the right variation of a color without trial and error.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://shadeswash.netlify.app/"

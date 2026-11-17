@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Neumorphism.io
+url: https://use-key-capture.netlify.app/
+repo: https://github.com/pranesh239/use-key-capture
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+license: MIT
+description:
+  pt: Gera cores, gradientes e sombras em CSS para testar o estilo neumorphism.
+  en: Generates CSS colors, gradients and shadows to try out the neumorphism style.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://use-key-capture.netlify.app/"

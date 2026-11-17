@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Terser
+url: https://terser.org
+repo: https://github.com/terser/terser
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Parser, mangler e compressor de JavaScript para ES6+.
+  en: JavaScript parser, mangler and compressor toolkit for ES6+.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://terser.org"

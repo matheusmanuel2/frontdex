@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: draw.io
+url: https://glimapp.github.io/
+repo: https://github.com/glimapp/glim
+area: build
+category: design-tools
+tags:
+  - flows
+pricing: free
+open_source: TODO
+license: MIT
+description:
+  pt: Diagramas no navegador com os dados guardados onde você quiser, sem que o serviço tenha acesso a eles.
+  en: Diagrams in the browser with your data stored wherever you choose, out of the service's reach.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://glimapp.github.io/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Lighthouse CI
+url: https://github.com/GoogleChrome/lighthouse-ci
+repo: https://github.com/GoogleChrome/lighthouse-ci
+area: build
+category: dev-tools
+tags:
+  - cli
+  - web
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Roda o Lighthouse a cada commit, mostra as mudanças e impede regressões de performance.
+  en: Runs Lighthouse on every commit, shows what changed and blocks performance regressions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/GoogleChrome/lighthouse-ci"

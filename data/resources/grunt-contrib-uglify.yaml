@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: grunt-contrib-uglify
+url: https://github.com/gruntjs/grunt-contrib-uglify
+repo: https://github.com/gruntjs/grunt-contrib-uglify
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Plugin do Grunt que minifica arquivos JavaScript com o UglifyJS.
+  en: Grunt plugin that minifies files with UglifyJS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/gruntjs/grunt-contrib-uglify"

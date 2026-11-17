@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-custom-scroll
+url: https://github.com/rommguy/react-custom-scroll
+repo: https://github.com/rommguy/react-custom-scroll
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Barra de rolagem personalizável para React que mantém o comportamento nativo do sistema.
+  en: Customizable scrollbar for React that keeps the OS's native scroll behavior.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/rommguy/react-custom-scroll"

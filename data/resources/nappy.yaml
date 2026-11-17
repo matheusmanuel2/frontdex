@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Nappy
+url: https://www.nappy.co/
+area: build
+category: assets
+tags:
+  - photos
+pricing: free
+open_source: TODO
+description:
+  pt: Fotos de pessoas negras e pardas para uso pessoal e comercial, grátis.
+  en: Photos of Black and Brown people, free for personal and commercial use.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.nappy.co/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: COBE
+url: https://cobe.vercel.app
+repo: https://github.com/shuding/cobe
+area: build
+category: animation
+tags:
+  - javascript
+  - web
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Globo 3D renderizado em WebGL, com cerca de 5 KB.
+  en: 3D globe rendered in WebGL, at about 5 KB in size.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://cobe.vercel.app"

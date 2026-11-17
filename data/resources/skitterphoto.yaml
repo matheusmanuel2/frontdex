@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Skitterphoto
+url: https://skitterphoto.com/
+area: build
+category: assets
+tags:
+  - photos
+pricing: free
+open_source: TODO
+description:
+  pt: Fotos em domínio público para baixar sem pagar e sem fazer login.
+  en: Public domain photos to download with no payment and no login.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://skitterphoto.com/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: PolyGlyph
+url: https://polyglyph.io/
+area: build
+category: ai-tools
+tags:
+  - illustration
+pricing: TODO
+open_source: TODO
+description:
+  pt: Descreva o que quer e receba um vetor SVG editável; créditos grátis no cadastro e sem assinatura.
+  en: Describe what you want and get an editable SVG vector; free credits on signup, no subscription.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://polyglyph.io/"

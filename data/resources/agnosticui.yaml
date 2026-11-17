@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: AgnosticUI
+url: https://www.agnosticui.com/
+area: build
+category: ui-components
+tags:
+  - javascript
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: "Um tema só para vários frameworks: Lit, JavaScript puro, React, Vue e Svelte."
+  en: "One theme across frameworks: Lit, vanilla JS, React, Vue and Svelte."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css. Lida: https://www.agnosticui.com/"

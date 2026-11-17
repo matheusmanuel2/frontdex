@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Mockuuups Studio
+url: https://mockuuups.studio/
+area: build
+category: assets
+tags:
+  - mockups
+pricing: freemium
+open_source: TODO
+description:
+  pt: "Gerador de mockups com mais de 5.200 templates de iPhone, MacBook e impressos: arraste, solte e baixe."
+  en: "Mockup generator with 5,200+ iPhone, MacBook and print templates: drag, drop, download."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://mockuuups.studio/"

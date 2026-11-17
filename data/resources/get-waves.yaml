@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Get Waves
+url: https://tradecanvas.dev
+repo: https://github.com/bonguynvan/tradecanvas
+area: build
+category: design-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+license: MIT
+description:
+  pt: "Gera ondas em SVG para layouts web: escolha a curva, ajuste a complexidade e sorteie variações."
+  en: "Generates SVG waves for web layouts: pick a curve, adjust the complexity and randomize variations."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://tradecanvas.dev"

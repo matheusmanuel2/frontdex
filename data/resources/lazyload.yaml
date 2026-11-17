@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: lazyload
+url: https://vvo.github.io/lazyload/
+repo: https://github.com/vvo/lazyload
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Carregamento sob demanda de imagens, iframes e widgets, num script independente.
+  en: Lazy loading for images, iframes and widgets, in a standalone script.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://vvo.github.io/lazyload/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Bento DS
+url: https://bento-ds.com
+area: build
+category: ui-components
+tags:
+  - figma
+  - react
+  - design-systems
+pricing: TODO
+open_source: true
+description:
+  pt: Bibliotecas em Figma e React espelhadas uma na outra, para passar do mockup ao código sem documentação extra.
+  en: Mirrored Figma and React libraries, so mockups move to code without extra documentation.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://bento-ds.com"

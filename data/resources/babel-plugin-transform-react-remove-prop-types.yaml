@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: babel-plugin-transform-react-remove-prop-types
+url: https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types
+repo: https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Plugin do Babel que remove propTypes do React no build de produção.
+  en: Babel plugin that strips React propTypes from the production build.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types"

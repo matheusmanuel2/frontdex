@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: grunt-webp
+url: https://github.com/somerandomdude/grunt-webp
+repo: https://github.com/somerandomdude/grunt-webp
+area: build
+category: dev-tools
+tags:
+  - cli
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Tarefa Grunt que converte suas imagens para o formato WebP.
+  en: Grunt task that converts your images to WebP.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/somerandomdude/grunt-webp"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Atropos
+url: https://atroposjs.com/
+area: build
+category: animation
+tags:
+  - javascript
+  - motion
+pricing: free
+open_source: true
+description:
+  pt: Efeitos de hover com parallax 3D que funcionam no toque, open source e leves.
+  en: Touch-friendly 3D parallax hover effects, open source and lightweight.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://atroposjs.com/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: ng-lightning
+url: https://ng-lightning.github.io/ng-lightning/#/
+area: build
+category: ui-components
+tags:
+  - typescript
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes e diretivas Angular nativos para o Lightning Design System, da tabela ao datepicker.
+  en: Native Angular components and directives for the Lightning Design System, from datatables to datepickers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ng-lightning.github.io/ng-lightning/#/"

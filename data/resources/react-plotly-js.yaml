@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-plotly.js
+url: https://github.com/plotly/react-plotly.js
+repo: https://github.com/plotly/react-plotly.js
+area: build
+category: charts
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente React oficial da Plotly para usar gráficos do plotly.js.
+  en: Plotly's official React component for plotly.js charts.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/plotly/react-plotly.js"

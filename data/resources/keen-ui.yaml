@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Keen UI
+url: https://josephuspaye.github.io/Keen-UI
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Coleção enxuta de componentes Vue essenciais, com API simples e inspiração no Material Design.
+  en: Lean collection of essential Vue components with a simple API, inspired by Material Design.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://josephuspaye.github.io/Keen-UI"

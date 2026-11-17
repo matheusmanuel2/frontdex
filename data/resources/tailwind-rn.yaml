@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: tailwind-rn
+url: https://github.com/vadimdemedes/tailwind-rn
+repo: https://github.com/vadimdemedes/tailwind-rn
+area: build
+category: ui-components
+tags:
+  - css
+  - mobile
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Use Tailwind CSS em projetos React Native.
+  en: Use Tailwind CSS in React Native projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://github.com/vadimdemedes/tailwind-rn"

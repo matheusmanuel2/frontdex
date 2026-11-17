@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: CSSnippets
+url: https://cssnippets.shefali.dev
+area: build
+category: ui-components
+tags:
+  - css
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Snippets em HTML, React, CSS e Tailwind para botões, sombras, cards, checkboxes e dropdowns.
+  en: HTML, React, CSS and Tailwind snippets for buttons, box-shadows, cards, checkboxes and dropdowns.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://cssnippets.shefali.dev"

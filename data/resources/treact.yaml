@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Treact
+url: https://treact.owaiskhan.me
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+pricing: free
+open_source: TODO
+description:
+  pt: Templates e componentes React com Tailwind para landing pages, modulares e responsivos.
+  en: React templates and components with Tailwind for landing pages, modular and responsive.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://treact.owaiskhan.me"

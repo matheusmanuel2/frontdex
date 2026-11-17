@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Defer.js
+url: https://github.com/wessman/defer.js
+repo: https://github.com/wessman/defer.js
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Script pequeno que adia o carregamento de recursos para o conteúdo principal chegar antes.
+  en: Small script that defers resource loading so the main content arrives first.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/wessman/defer.js"

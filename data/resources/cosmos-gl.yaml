@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: cosmos.gl
+url: https://cosmos.gl
+repo: https://github.com/cosmosgl/graph
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Layout e renderização de grafos de força na GPU com WebGL, para redes com muitos nós.
+  en: GPU force-graph layout and rendering with WebGL, for networks with many nodes.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://cosmos.gl"

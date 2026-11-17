@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Motion UI
+url: https://zurb.com/playground/motion-ui
+area: build
+category: animation
+tags:
+  - css
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca Sass para criar transições e animações CSS personalizáveis.
+  en: Sass library for building customizable CSS transitions and animations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://zurb.com/playground/motion-ui"

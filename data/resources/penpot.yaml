@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Penpot
+url: https://skyzhao1223.github.io/free-for-creators/
+repo: https://github.com/skyzhao1223/free-for-creators
+area: build
+category: design-tools
+tags:
+  - design-systems
+  - web
+pricing: TODO
+open_source: true
+license: CC0-1.0
+description:
+  pt: Plataforma open source de design para times de produto, com colaboração entre design, código e fluxos de IA.
+  en: Open-source design platform for product teams, connecting design, code and AI workflows.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://skyzhao1223.github.io/free-for-creators/"

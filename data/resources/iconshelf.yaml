@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: IconShelf
+url: https://iconshelf.com/
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: TODO
+description:
+  pt: Ícones de coleções como Material Design, Feather e Heroicons reunidos num só lugar para baixar em SVG e PNG.
+  en: Icons from collections like Material Design, Feather and Heroicons gathered in one place to download as SVG and PNG.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://iconshelf.com/"

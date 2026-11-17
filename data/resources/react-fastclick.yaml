@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-fastclick
+url: https://www.npmjs.com/package/react-fastclick
+repo: https://github.com/JakeSidSmith/react-fastclick
+area: build
+category: ui-components
+tags:
+  - react
+  - mobile
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Eventos de toque rápidos para React, sem o atraso do clique no celular.
+  en: Fast touch events for React, removing the mobile click delay.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.npmjs.com/package/react-fastclick"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Kea
+url: https://keajs.org/
+repo: https://github.com/keajs/kea
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Gerenciamento de estado para React que já vem com tudo o que você precisa no dia a dia.
+  en: State management for React with batteries included.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://keajs.org/"

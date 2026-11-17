@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-motion
+url: https://github.com/chenglou/react-motion
+repo: https://github.com/chenglou/react-motion
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Anima componentes React com física de mola em vez de durações e curvas fixas.
+  en: Animates React components with spring physics instead of fixed durations and curves.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/chenglou/react-motion"

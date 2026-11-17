@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Arrow Please
+url: https://www.cssarrowplease.com/
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Gera o CSS de uma caixa com seta saindo de um dos lados, pronta para exportar.
+  en: Generates CSS for a custom box with an arrow sticking out of one side, ready to export.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.cssarrowplease.com/"

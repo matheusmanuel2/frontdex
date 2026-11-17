@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Glassmorphism
+url: https://odatamap.cherishchen2510.workers.dev
+repo: https://github.com/CherishChenCherish/odatamap
+area: build
+category: dev-tools
+tags:
+  - css
+  - glassmorphism
+pricing: TODO
+open_source: TODO
+license: MIT
+description:
+  pt: Gerador de CSS para o efeito de vidro fosco, o chamado glassmorphism.
+  en: CSS generator for the frosted glass look known as glassmorphism.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://odatamap.cherishchen2510.workers.dev"

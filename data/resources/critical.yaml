@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Critical
+url: https://github.com/addyosmani/critical
+repo: https://github.com/addyosmani/critical
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Extrai e coloca inline o CSS do caminho crítico em páginas HTML.
+  en: Extracts and inlines critical-path CSS in HTML pages.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/addyosmani/critical"

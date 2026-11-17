@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Energy Icons
+url: https://energyicons.com/
+area: build
+category: icons
+tags:
+  - icons
+pricing: TODO
+open_source: true
+description:
+  pt: Ícones open source para o setor de energia renovável, em dois masters ópticos que escalam sem redesenho.
+  en: Open source icons for renewable energy, built on two optical masters that scale without being redrawn.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://energyicons.com/"

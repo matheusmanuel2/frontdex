@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: L7 Plot
+url: https://l7plot.antv.antgroup.com
+repo: https://github.com/antvis/L7Plot
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de gráficos geoespaciais sobre mapas, com GeoJSON e Mapbox GL.
+  en: Geospatial chart library on top of maps, with GeoJSON and Mapbox GL.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://l7plot.antv.antgroup.com"

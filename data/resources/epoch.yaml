@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Epoch
+url: https://github.com/epochjs/epoch
+repo: https://github.com/epochjs/epoch
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de visualização de uso geral com foco em dados em tempo real.
+  en: General-purpose visualization library focused on real-time data.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/epochjs/epoch"

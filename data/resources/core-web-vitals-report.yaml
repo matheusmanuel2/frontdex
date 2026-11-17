@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Core Web Vitals Report
+url: https://www.corewebvitals.io/core-web-vitals-report
+area: build
+category: dev-tools
+tags:
+  - analytics
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Mostra o p75 semanal de LCP, INP, CLS, FCP e TTFB de usuários reais do Chrome nas últimas 25 semanas, sem cadastro.
+  en: Weekly p75 of LCP, INP, CLS, FCP and TTFB from real Chrome users over the last 25 weeks, for any URL, no signup.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.corewebvitals.io/core-web-vitals-report"

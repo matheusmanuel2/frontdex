@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Site Palette
+url: https://addons.mozilla.org/en-US/firefox/addon/website-color-palette/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Mostra até 100 cores usadas por um site num popup; um clique na amostra copia o valor.
+  en: Shows up to 100 colors a site uses in a popup; clicking a swatch copies its value.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://addons.mozilla.org/en-US/firefox/addon/website-color-palette/"

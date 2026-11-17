@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Beautifer & Minify
+url: https://addons.mozilla.org/en-US/firefox/addon/beautifer-minify/
+area: build
+category: dev-tools
+tags:
+  - css
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Formata e minifica CSS, HTML e JavaScript sem sair do navegador.
+  en: Beautifies and minifies CSS, HTML and JavaScript without leaving the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://addons.mozilla.org/en-US/firefox/addon/beautifer-minify/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Palette Extractor
+url: https://pixelpixi.github.io/spritewright/palette-extractor/
+area: build
+category: colors
+tags:
+  - illustration
+pricing: free
+open_source: TODO
+description:
+  pt: Tira a paleta exata de um sprite ou foto e exporta em .gpl, .hex do Lospec, CSS, JSON ou PNG, sem enviar o arquivo.
+  en: Pulls the exact palette from a sprite or photo and exports .gpl, Lospec .hex, CSS, JSON or PNG, with nothing uploaded.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://pixelpixi.github.io/spritewright/palette-extractor/"

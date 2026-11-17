@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Material React Table
+url: https://material-react-table.com
+repo: https://github.com/KevinVandy/material-react-table
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Implementação em Material UI V5 do TanStack Table V8, escrita do zero em TypeScript.
+  en: Material UI V5 implementation of TanStack React Table V8, written from scratch in TypeScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://material-react-table.com"

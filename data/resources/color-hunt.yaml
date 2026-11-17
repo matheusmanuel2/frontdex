@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Color Hunt
+url: https://colorhunt.co/
+area: build
+category: colors
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Paletas de cores escolhidas a dedo, com as mais recentes no topo, para projetos de design e arte.
+  en: Hand-picked color palettes, newest first, for design and art projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design, Siddharth11/Colorful. Lida: https://colorhunt.co/"

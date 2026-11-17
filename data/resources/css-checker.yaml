@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Checker
+url: https://xiemala.com/s/gaSXqA
+repo: https://github.com/ruilisi/css-checker
+area: build
+category: dev-tools
+tags:
+  - css
+  - cli
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Encontra classes CSS parecidas ou duplicadas e mostra o diff, pronto para rodar no CI.
+  en: Finds similar or duplicated CSS classes and shows the diff, ready to run in CI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://xiemala.com/s/gaSXqA"

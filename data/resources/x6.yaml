@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: X6
+url: https://x6.antv.antgroup.com
+repo: https://github.com/antvis/X6
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de diagramação em JavaScript que renderiza com SVG e HTML.
+  en: JavaScript diagramming library that renders with SVG and HTML.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://x6.antv.antgroup.com"

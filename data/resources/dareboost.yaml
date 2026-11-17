@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Dareboost
+url: https://www.dareboost.com/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Teste de velocidade e monitoramento de performance que também avalia SEO, qualidade e segurança do site.
+  en: Speed testing and performance monitoring that also checks your site's SEO, quality and security.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.dareboost.com/"

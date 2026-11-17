@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: inline-style-prefixer
+url: https://inline-style-prefixer.js.org
+repo: https://github.com/robinweser/inline-style-prefixer
+area: build
+category: dev-tools
+tags:
+  - css
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Autoprefixer para objetos de estilo em JavaScript, útil com CSS-in-JS.
+  en: Autoprefixer for JavaScript style objects, useful with CSS-in-JS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://inline-style-prefixer.js.org"

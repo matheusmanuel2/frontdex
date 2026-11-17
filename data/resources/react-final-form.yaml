@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Final Form
+url: https://final-form.org/react
+repo: https://github.com/final-form/react-final-form
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Estado de formulário para React baseado em assinaturas, para renderizar só o que mudou.
+  en: Subscription-based form state management for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://final-form.org/react"

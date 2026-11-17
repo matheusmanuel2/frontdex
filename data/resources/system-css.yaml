@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: system.css
+url: https://sakofchit.github.io/system.css/
+area: build
+category: ui-components
+tags:
+  - css
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Sistema de design em CSS para criar interfaces no estilo retrô da Apple.
+  en: CSS design system for building retro Apple-style interfaces.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: troxler/awesome-css-frameworks, swyxio/spark-joy. Lida: https://sakofchit.github.io/system.css/"

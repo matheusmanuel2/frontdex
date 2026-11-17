@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Concise CSS
+url: https://concisecss.com
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Framework front-end leve que evita excesso de classes e de código não usado.
+  en: Lightweight front-end framework that avoids class overload and unused code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://concisecss.com"

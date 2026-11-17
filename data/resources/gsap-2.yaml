@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: GSAP
+url: https://greensock.com/
+area: build
+category: animation
+tags:
+  - gsap
+  - javascript
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca JavaScript de animação apoiada pela Webflow, feita para animar qualquer coisa no navegador.
+  en: JavaScript animation library backed by Webflow, built to animate anything in the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://greensock.com/"

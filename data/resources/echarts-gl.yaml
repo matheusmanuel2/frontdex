@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: ECharts GL
+url: https://github.com/ecomfe/echarts-gl
+repo: https://github.com/ecomfe/echarts-gl
+area: build
+category: charts
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: BSD-3-Clause
+description:
+  pt: Extensão do Apache ECharts que adiciona globos e gráficos em 3D.
+  en: Apache ECharts extension pack that adds globe visualization and 3D plots.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/ecomfe/echarts-gl"

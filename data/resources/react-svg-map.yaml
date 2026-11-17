@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-svg-map
+url: https://victorcazanave.github.io/react-svg-map/
+repo: https://github.com/VictorCazanave/react-svg-map
+area: build
+category: ui-components
+tags:
+  - react
+  - interactive
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componentes React para mostrar mapas SVG interativos, com seleção de regiões.
+  en: React components for displaying interactive SVG maps with selectable regions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://victorcazanave.github.io/react-svg-map/"

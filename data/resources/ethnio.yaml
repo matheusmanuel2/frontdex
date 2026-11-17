@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Ethnio
+url: https://ethn.io/
+area: build
+category: design-tools
+tags:
+  - analytics
+pricing: TODO
+open_source: TODO
+description:
+  pt: Recrutamento de participantes para Research Ops, com IA opcional e escolha do modelo usado.
+  en: Participant recruiting for Research Ops, with optional AI and your choice of model.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://ethn.io/"

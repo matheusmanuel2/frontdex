@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: SVG Wave
+url: https://svgwave.in/
+area: build
+category: assets
+tags:
+  - illustration
+  - gradients
+pricing: free
+open_source: TODO
+description:
+  pt: Gerador de ondas SVG em camadas, com várias opções de ajuste e exportação em SVG ou PNG.
+  en: Layered SVG wave generator with plenty of tweaks and export to SVG or PNG.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://svgwave.in/"

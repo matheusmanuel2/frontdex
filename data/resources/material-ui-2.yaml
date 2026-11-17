@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Material UI
+url: https://mui.com/material-ui/
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+description:
+  pt: Biblioteca open source de componentes React que implementa o Material Design do Google, pronta para produção.
+  en: Open source React component library implementing Google's Material Design, ready for production.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://mui.com/material-ui/"

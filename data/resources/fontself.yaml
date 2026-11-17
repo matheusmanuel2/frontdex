@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Fontself
+url: https://www.fontself.com
+area: build
+category: typography-tools
+tags:
+  - typography
+pricing: TODO
+open_source: TODO
+description:
+  pt: Cria fontes personalizadas em minutos com o Fontself Maker, pensado para criativos de todo tipo.
+  en: Make custom fonts in minutes with Fontself Maker, aimed at all kinds of creatives.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.fontself.com"

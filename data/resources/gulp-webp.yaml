@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: gulp-webp
+url: https://github.com/sindresorhus/gulp-webp
+repo: https://github.com/sindresorhus/gulp-webp
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Plugin do Gulp que converte imagens para WebP.
+  en: Gulp plugin that converts images to WebP.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/sindresorhus/gulp-webp"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: ng-bootstrap
+url: https://ng-bootstrap.github.io/#/home
+area: build
+category: ui-components
+tags:
+  - typescript
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Widgets do Bootstrap para Angular, de autocomplete e datepicker a typeahead e scrollspy.
+  en: Bootstrap widgets for Angular, from autocomplete and datepicker to typeahead and scrollspy.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ng-bootstrap.github.io/#/home"

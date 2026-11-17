@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-blessed
+url: https://github.com/Yomguithereal/react-blessed
+repo: https://github.com/Yomguithereal/react-blessed
+area: build
+category: ui-components
+tags:
+  - react
+  - terminal
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Renderizador React para blessed, para montar interfaces de terminal com componentes.
+  en: React renderer for blessed, for building terminal interfaces with components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/Yomguithereal/react-blessed"

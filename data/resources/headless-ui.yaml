@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Headless UI
+url: https://headlessui.dev/
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes sem estilo e totalmente acessíveis, feitos para receber o visual que você escrever com Tailwind CSS.
+  en: Fully unstyled, accessible components made to take whatever look you write with Tailwind CSS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://headlessui.dev/"

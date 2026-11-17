@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Image Color Picker
+url: https://codequest.work/generator/image-color-picker/
+area: build
+category: colors
+tags:
+  - css
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Extrai as cores principais de uma imagem enviada e gera a paleta com cópia em variáveis CSS, HEX e RGB, tudo no navegador.
+  en: Pulls the main colors from an uploaded image into a palette, with CSS variable, HEX and RGB copy, all in the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://codequest.work/generator/image-color-picker/"

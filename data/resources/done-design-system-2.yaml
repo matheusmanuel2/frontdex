@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Done Design System
+url: https://uilibrary.github.io/done-design-system/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: true
+description:
+  pt: Sistema de design open source sobre Bootstrap 4, com código SASS organizado para o produto.
+  en: Open-source design system built on Bootstrap 4, with organized SASS code for product work.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uilibrary.github.io/done-design-system/"

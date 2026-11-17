@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Windi CSS
+url: https://windicss.org/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Framework CSS utility-first que gera as classes sob demanda.
+  en: Utility-first CSS framework that generates classes on demand.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://windicss.org/"

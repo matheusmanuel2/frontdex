@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-swipeable-list
+url: https://marekrozmus.github.io/react-swipeable-list/
+repo: https://github.com/marekrozmus/react-swipeable-list
+area: build
+category: ui-components
+tags:
+  - react
+  - mobile
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Lista com itens deslizáveis para React, com comportamentos como o do iOS.
+  en: Swipeable list component for React, with behaviours such as iOS's.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://marekrozmus.github.io/react-swipeable-list/"

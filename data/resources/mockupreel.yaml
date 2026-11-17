@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Mockupreel
+url: https://mockupreel.studio
+area: build
+category: design-tools
+tags:
+  - mockups
+  - video
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Anima gravações de tela em molduras de dispositivos com keyframes no navegador e exporta MP4 em 4K, sem upload nem marca d'água.
+  en: Animates screen recordings inside device frames with keyframes in the browser, exporting 4K MP4 with no uploads or watermark.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://mockupreel.studio"

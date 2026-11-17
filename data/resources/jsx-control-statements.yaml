@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: JSX Control Statements
+url: https://www.npmjs.com/package/babel-plugin-jsx-control-statements
+repo: https://github.com/AlexGilleran/jsx-control-statements
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Plugin do Babel que adiciona If e For mais limpos ao JSX.
+  en: Babel plugin that adds neater If and For to JSX.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.npmjs.com/package/babel-plugin-jsx-control-statements"

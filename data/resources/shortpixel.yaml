@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ShortPixel
+url: https://shortpixel.com/online-image-compression
+area: build
+category: dev-tools
+tags:
+  - photos
+pricing: free
+open_source: TODO
+description:
+  pt: Comprime JPG, PNG e GIF animado online, converte para WebP e AVIF e remove fundos.
+  en: Online compressor for JPG, PNG and animated GIF that also converts to WebP/AVIF and removes backgrounds.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://shortpixel.com/online-image-compression"

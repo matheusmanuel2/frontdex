@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Codicons
+url: https://microsoft.github.io/vscode-codicons/dist/codicon.html
+area: build
+category: icons
+tags:
+  - icons
+pricing: TODO
+open_source: TODO
+description:
+  pt: A fonte de ícones usada pelo Visual Studio Code, com todos os ícones listados numa página.
+  en: The icon font used by Visual Studio Code, with every icon listed on one page.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://microsoft.github.io/vscode-codicons/dist/codicon.html"

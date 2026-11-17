@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: macOS Icon Gallery
+url: https://macosicongallery.com/
+area: build
+category: icons
+tags:
+  - macos
+pricing: TODO
+open_source: TODO
+description:
+  pt: Galeria de ícones de apps da Mac App Store, para buscar referência de estilo e acabamento.
+  en: Gallery of Mac App Store app icons, for style and finish references.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://macosicongallery.com/"

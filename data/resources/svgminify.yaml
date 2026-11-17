@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: SVGminify
+url: https://coolours.perpetualsummer.ltd/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Limpa dados supérfluos de arquivos SVG para que fiquem menores nos sites.
+  en: Strips superfluous data from SVG files so they weigh less on websites.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://coolours.perpetualsummer.ltd/"

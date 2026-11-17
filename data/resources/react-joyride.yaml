@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: React Joyride
+url: https://react-joyride.com/
+repo: https://github.com/gilbarbara/react-joyride
+area: build
+category: ui-components
+tags:
+  - react
+  - onboarding
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Cria tours guiados dentro do seu app React.
+  en: Creates guided tours inside your React app.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-joyride.com/"

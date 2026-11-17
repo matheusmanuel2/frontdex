@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Layout Forge
+url: https://vumox.github.io/layout-forge/
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: TODO
+open_source: true
+description:
+  pt: Geradores visuais para Grid, Flex, paletas, fundos, 3D e mockups, rodando no navegador.
+  en: Visual generators for Grid, Flex, palettes, backgrounds, 3D and mockups, running in your browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://vumox.github.io/layout-forge/"

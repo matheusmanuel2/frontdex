@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Adaptive Backgrounds
+url: https://briangonzalez.github.io/jquery.adaptive-backgrounds.js/
+area: build
+category: colors
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Plugin jQuery que extrai a cor dominante de uma imagem para aplicar no fundo ao redor.
+  en: jQuery plugin that extracts an image's dominant color to apply to the surrounding background.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://briangonzalez.github.io/jquery.adaptive-backgrounds.js/"

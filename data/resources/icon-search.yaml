@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Icon Search
+url: https://iconsear.ch/search.html
+area: build
+category: icons
+tags:
+  - icons
+pricing: TODO
+open_source: TODO
+description:
+  pt: Busca instantânea em mais de 182 mil ícones SVG reunidos de 165 fontes diferentes.
+  en: Instant search across more than 182,000 SVG icons gathered from 165 sources.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://iconsear.ch/search.html"

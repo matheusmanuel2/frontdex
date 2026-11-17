@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-with-styles
+url: https://github.com/airbnb/react-with-styles
+repo: https://github.com/airbnb/react-with-styles
+area: build
+category: dev-tools
+tags:
+  - react
+  - css
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: CSS-in-JS com temas para React, sem amarrar a uma implementação.
+  en: Themed CSS-in-JS for React without tying you to one implementation.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/airbnb/react-with-styles"

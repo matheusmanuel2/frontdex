@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: JSS
+url: https://cssinjs.org
+repo: https://github.com/cssinjs/jss
+area: build
+category: dev-tools
+tags:
+  - css
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Escreva CSS usando JavaScript como linguagem hospedeira, no estilo CSS-in-JS.
+  en: Author CSS using JavaScript as the host language, CSS-in-JS style.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://cssinjs.org"

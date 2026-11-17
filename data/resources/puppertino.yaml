@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Puppertino
+url: https://github.com/codedgar/Puppertino
+repo: https://github.com/codedgar/Puppertino
+area: build
+category: ui-components
+tags:
+  - css
+  - macos
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Framework CSS modular baseado nas Human Interface Guidelines da Apple.
+  en: Modular CSS framework based on Apple's Human Interface Guidelines.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://github.com/codedgar/Puppertino"

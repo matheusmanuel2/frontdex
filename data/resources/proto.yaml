@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Proto.io
+url: https://proto.io/
+area: build
+category: design-tools
+tags:
+  - mockups
+  - mobile
+pricing: TODO
+open_source: TODO
+description:
+  pt: Protótipos de web, iOS e Android no navegador, com templates e componentes de arrastar.
+  en: Web, iOS and Android prototypes in the browser, with drag-and-drop templates and components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://proto.io/"

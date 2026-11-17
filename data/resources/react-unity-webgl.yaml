@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Unity WebGL
+url: https://react-unity-webgl.dev
+repo: https://github.com/jeffreylanters/react-unity-webgl
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Incorpora builds Unity WebGL em apps React, com comunicação nos dois sentidos entre Unity e React.
+  en: Embeds Unity WebGL builds in React apps, with two-way communication between Unity and React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-unity-webgl.dev"

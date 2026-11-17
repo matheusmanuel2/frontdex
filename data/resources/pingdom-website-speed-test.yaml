@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Pingdom Website Speed Test
+url: https://tools.pingdom.com/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: Teste gratuito que mede a velocidade de carregamento do site e aponta como deixá-lo mais rápido.
+  en: Free test that measures your site's load speed and points out how to make it faster.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://tools.pingdom.com/"

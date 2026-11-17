@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Cosmos
+url: https://reactcosmos.org
+repo: https://github.com/react-cosmos/react-cosmos
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Sandbox para desenvolver e testar componentes de UI isoladamente.
+  en: Sandbox for developing and testing UI components in isolation.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://reactcosmos.org"

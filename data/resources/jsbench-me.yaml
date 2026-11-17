@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: JSBench.me
+url: https://jsbench.me/
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Playground de benchmarks JavaScript baseado no Benchmark.js, inspirado no antigo JSPerf.
+  en: JavaScript benchmarking playground built on Benchmark.js and inspired by the old JSPerf.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://jsbench.me/"

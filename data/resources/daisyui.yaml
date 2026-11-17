@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: daisyUI
+url: https://daisyui.com/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes semânticos para Tailwind CSS, com temas embutidos e blocos reutilizáveis.
+  en: Semantic components for Tailwind CSS, with built-in themes and reusable blocks.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems. Lida: https://daisyui.com/"

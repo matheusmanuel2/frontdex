@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: GSAP
+url: https://gsap.com/
+area: build
+category: animation
+tags:
+  - gsap
+  - javascript
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de animação em JavaScript mantida com apoio da Webflow, para animar praticamente qualquer coisa.
+  en: JavaScript animation library backed by Webflow, for animating practically anything.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://gsap.com/"

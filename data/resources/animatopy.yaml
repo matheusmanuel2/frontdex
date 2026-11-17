@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Animatopy
+url: https://sarthology.github.io/Animatopy/
+area: build
+category: animation
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Pega só as animações do Animate.css que você precisa, sem levar o arquivo inteiro.
+  en: Grabs only the Animate.css animations you need instead of the whole file.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://sarthology.github.io/Animatopy/"

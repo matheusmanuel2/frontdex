@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: OBS Studio
+url: https://obsproject.com/
+area: build
+category: design-tools
+tags:
+  - video
+pricing: free
+open_source: true
+description:
+  pt: Grava vídeo e faz transmissões ao vivo para Twitch, YouTube e outros, de graça e em código aberto.
+  en: Records video and streams live to Twitch, YouTube and more, free and open source.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://obsproject.com/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Reactotron
+url: https://docs.infinite.red/reactotron/
+repo: https://github.com/infinitered/reactotron
+area: build
+category: dev-tools
+tags:
+  - react
+  - mobile
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: App desktop para inspecionar projetos React e React Native, no macOS, Linux e Windows.
+  en: Desktop app for inspecting React and React Native projects on macOS, Linux and Windows.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://docs.infinite.red/reactotron/"

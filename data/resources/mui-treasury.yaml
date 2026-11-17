@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: MUI Treasury
+url: https://mui-treasury.com
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Coleção de componentes e recursos para projetos feitos com MUI.
+  en: Collection of components and resources for projects built with MUI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://mui-treasury.com"

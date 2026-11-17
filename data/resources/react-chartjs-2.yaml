@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-chartjs-2
+url: https://react-chartjs-2.js.org
+repo: https://github.com/reactchartjs/react-chartjs-2
+area: build
+category: charts
+tags:
+  - react
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componentes React para Chart.js, prontos para usar em JSX.
+  en: React components for Chart.js, ready to use in JSX.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://react-chartjs-2.js.org"

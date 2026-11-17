@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "#WOCinTech Chat"
+url: https://www.flickr.com/photos/wocintechchat
+area: build
+category: assets
+tags:
+  - photos
+pricing: TODO
+open_source: TODO
+description:
+  pt: 514 fotos no Flickr de mulheres não brancas trabalhando com tecnologia.
+  en: 514 Flickr photos of women of color working in tech.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.flickr.com/photos/wocintechchat"

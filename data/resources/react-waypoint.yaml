@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-waypoint
+url: https://github.com/brigade/react-waypoint
+repo: https://github.com/civiccc/react-waypoint
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente React que executa uma função quando você rola até um elemento.
+  en: React component that runs a function when you scroll to an element.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/brigade/react-waypoint"

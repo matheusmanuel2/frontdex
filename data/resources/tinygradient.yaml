@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: tinygradient
+url: https://mistic100.github.io/tinygradient
+repo: https://github.com/mistic100/tinygradient
+area: build
+category: colors
+tags:
+  - gradients
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Manipulação de gradientes pequena e rápida, construída sobre o TinyColor.
+  en: Small, fast gradient manipulation built on TinyColor.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://mistic100.github.io/tinygradient"

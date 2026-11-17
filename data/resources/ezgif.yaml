@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Ezgif
+url: https://shademix.com
+area: build
+category: design-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Cria, converte, recorta, inverte e otimiza GIFs animados, WebP e APNG no navegador.
+  en: Makes, converts, crops, reverses and optimizes animated GIF, WebP and APNG files in the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://shademix.com"

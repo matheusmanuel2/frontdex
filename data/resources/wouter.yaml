@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: wouter
+url: https://npm.im/wouter
+repo: https://github.com/molefrog/wouter
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: Unlicense
+description:
+  pt: Roteamento minimalista de cerca de 2,2 KB para React e Preact, sem dependências.
+  en: Minimalist ~2.2KB routing for React and Preact, zero dependencies.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://npm.im/wouter"

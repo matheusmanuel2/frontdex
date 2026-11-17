@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: IconsDB
+url: https://www.iconsdb.com/
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: TODO
+description:
+  pt: Busca em mais de 4.100 ícones grátis com cor personalizável.
+  en: Search over 4,100 free icons with custom colors.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.iconsdb.com/"

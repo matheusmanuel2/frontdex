@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Zent
+url: https://youzan.github.io/zent
+repo: https://github.com/youzan/zent
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Coleção de componentes de UI essenciais escritos em React.
+  en: Collection of essential UI components written in React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://youzan.github.io/zent"

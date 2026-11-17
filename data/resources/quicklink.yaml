@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Quicklink
+url: https://getquick.link
+repo: https://github.com/GoogleChromeLabs/quicklink
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Faz prefetch dos links visíveis durante o tempo ocioso para acelerar as próximas páginas.
+  en: Prefetches in-viewport links during idle time so later page loads are faster.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://getquick.link"

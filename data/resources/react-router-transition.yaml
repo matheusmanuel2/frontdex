@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-router-transition
+url: https://github.com/maisano/react-router-transition
+repo: https://github.com/maisano/react-router-transition
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Transições entre rotas do react-router, movidas por react-motion.
+  en: Transitions between react-router routes, powered by react-motion.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/maisano/react-router-transition"

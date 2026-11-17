@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-jsonschema-form
+url: https://rjsf-team.github.io/react-jsonschema-form/
+repo: https://github.com/rjsf-team/react-jsonschema-form
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Gera formulários web em React a partir de um JSON Schema.
+  en: Builds React web forms from a JSON Schema.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://rjsf-team.github.io/react-jsonschema-form/"

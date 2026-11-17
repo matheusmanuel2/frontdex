@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: grunt-perfbudget
+url: https://github.com/tkadlec/grunt-perfbudget
+repo: https://github.com/tkadlec/grunt-perfbudget
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Tarefa do Grunt que verifica orçamentos de performance do seu site.
+  en: Grunt task that checks your site against performance budgets.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/tkadlec/grunt-perfbudget"

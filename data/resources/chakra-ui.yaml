@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Chakra UI
+url: https://chakra-ui.com/
+area: build
+category: ui-components
+tags:
+  - react
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes React modulares e acessíveis para montar a interface da sua aplicação.
+  en: Modular, accessible React components for building your application's interface.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems. Lida: https://chakra-ui.com/"

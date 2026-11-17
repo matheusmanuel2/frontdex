@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Sorted CSS Colors
+url: https://enes.in/sorted-colors/
+area: build
+category: colors
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Cores nomeadas do CSS ordenadas por matiz, saturação e luminosidade.
+  en: CSS named colors sorted by hue, saturation and lightness.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://enes.in/sorted-colors/"

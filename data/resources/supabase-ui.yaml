@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Supabase UI
+url: https://ui.supabase.io/
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Blocos e apps iniciais para autenticação, storage e realtime com Supabase.
+  en: Blocks and starter apps for authentication, storage and realtime with Supabase.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ui.supabase.io/"

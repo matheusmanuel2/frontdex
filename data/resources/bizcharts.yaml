@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: BizCharts
+url: https://github.com/alibaba/BizCharts
+repo: https://github.com/alibaba/BizCharts
+area: build
+category: charts
+tags:
+  - react
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca de visualização de dados para React baseada no G2.
+  en: Data visualization library for React built on G2.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/alibaba/BizCharts"

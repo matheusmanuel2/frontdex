@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ScreenshotAPI.net
+url: https://screenshotapi.net
+area: build
+category: dev-tools
+tags:
+  - api
+pricing: TODO
+open_source: TODO
+description:
+  pt: API que captura a viewport ou a página inteira de qualquer site em PNG, JPG, WebP ou PDF, bloqueando anúncios e banners de cookies.
+  en: API that captures the viewport or full page of any site as PNG, JPG, WebP or PDF, blocking ads and cookie banners.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://screenshotapi.net"

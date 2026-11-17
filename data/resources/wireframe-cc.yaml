@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Wireframe.cc
+url: https://wireframe.cc/
+area: build
+category: design-tools
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Wireframes de baixa fidelidade direto no navegador, prontos para compartilhar.
+  en: Low-fidelity wireframes right in the browser, ready to share.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://wireframe.cc/"

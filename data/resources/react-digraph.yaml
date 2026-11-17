@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-digraph
+url: https://github.com/uber/react-digraph
+repo: https://github.com/uber/react-digraph
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca da Uber para criar editores de grafos dirigidos em React.
+  en: Uber library for building directed graph editors in React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/uber/react-digraph"

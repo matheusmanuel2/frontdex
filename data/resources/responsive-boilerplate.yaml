@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Responsive Boilerplate
+url: https://responsivebp.com
+area: build
+category: ui-components
+tags:
+  - css
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Base leve em HTML, Sass, CSS e JavaScript para começar sites responsivos.
+  en: Light HTML, Sass, CSS and JavaScript base for starting responsive sites.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://responsivebp.com"

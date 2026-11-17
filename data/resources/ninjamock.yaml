@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: NinjaMock
+url: https://ninjamock.com/
+area: build
+category: design-tools
+tags:
+  - mockups
+  - flows
+pricing: TODO
+open_source: TODO
+description:
+  pt: Esboce telas, ligue interações e compartilhe um protótipo clicável, sem instalar nada.
+  en: Sketch screens, wire up interactions and share a clickable prototype, no install.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://ninjamock.com/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Hamburgers
+url: https://jonsuh.com/hamburgers/
+area: build
+category: animation
+tags:
+  - css
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Ícones de menu hambúrguer animados em CSS.
+  en: Hamburger menu icons animated with pure CSS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://jonsuh.com/hamburgers/"

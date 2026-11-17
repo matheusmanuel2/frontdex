@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-loader-spinner
+url: https://mhnpd.github.io/react-loader-spinner/
+repo: https://github.com/mhnpd/react-loader-spinner
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Coleção de spinners para indicar operações assíncronas em apps React.
+  en: Collection of spinners for signaling async operations in React apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://mhnpd.github.io/react-loader-spinner/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Enzyme
+url: https://enzymejs.github.io/enzyme/
+repo: https://github.com/enzymejs/enzyme
+area: build
+category: dev-tools
+tags:
+  - react
+  - javascript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Utilitários de teste em JavaScript para componentes React.
+  en: JavaScript testing utilities for React components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://enzymejs.github.io/enzyme/"

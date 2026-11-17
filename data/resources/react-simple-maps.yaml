@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Simple Maps
+url: https://www.react-simple-maps.io
+repo: https://github.com/zcreativelabs/react-simple-maps
+area: build
+category: charts
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Mapas em SVG componíveis para visualização de dados em React.
+  en: Composable SVG map charts for data visualization in React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.react-simple-maps.io"

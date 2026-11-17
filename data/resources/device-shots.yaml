@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Device Shots
+url: https://deviceshots.com/
+area: build
+category: assets
+tags:
+  - mockups
+pricing: free
+open_source: TODO
+description:
+  pt: Solte uma captura e receba um mockup em 76 dispositivos, direto no navegador e sem cadastro.
+  en: Drop in a screenshot and get a mockup across 76 devices, in the browser with no sign-up.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://deviceshots.com/"

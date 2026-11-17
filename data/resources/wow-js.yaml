@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: wow.js
+url: https://wowjs.uk/
+area: build
+category: animation
+tags:
+  - javascript
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: Revela animações ao rolar a página, feito para trabalhar com o Animate.css.
+  en: Reveals animations as you scroll, built to pair with Animate.css.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://wowjs.uk/"

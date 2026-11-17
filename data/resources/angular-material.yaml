@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Angular Material
+url: https://material.angular.io/
+area: build
+category: ui-components
+tags:
+  - typescript
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes Material Design e infraestrutura de UI para apps Angular em mobile e desktop.
+  en: Material Design components and UI infrastructure for Angular apps on mobile and desktop.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://material.angular.io/"

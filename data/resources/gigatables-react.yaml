@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: GigaTables React
+url: https://github.com/GigaTables/reactables
+repo: https://github.com/GigaTables/reactables
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Plugin React para processar dados de tabela em CMS, CRM, ERP e sistemas parecidos.
+  en: React plugin for handling table data in CMS, CRM, ERP and similar systems.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/GigaTables/reactables"

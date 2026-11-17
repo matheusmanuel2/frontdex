@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-chartist
+url: https://fraserxu.github.io/react-chartist/
+repo: https://github.com/fraserxu/react-chartist
+area: build
+category: charts
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Componente React para gráficos do Chartist.js.
+  en: React component for rendering Chartist.js charts.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://fraserxu.github.io/react-chartist/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: MUI-Datatables
+url: https://github.com/gregnb/mui-datatables
+repo: https://github.com/gregnb/mui-datatables
+area: build
+category: ui-components
+tags:
+  - react
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Tabelas de dados para React feitas com Material-UI.
+  en: Data tables for React built with Material-UI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/gregnb/mui-datatables"

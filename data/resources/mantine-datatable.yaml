@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: mantine-datatable
+url: https://icflorescu.github.io/mantine-datatable/
+repo: https://github.com/icflorescu/mantine-datatable
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+pricing: TODO
+open_source: true
+license: MIT
+description:
+  pt: Tabela para Mantine com carregamento assíncrono, ordenação, menus de contexto, aninhamento e seleção em lote.
+  en: Mantine table with async loading, sorting, context menus, nesting and Gmail-style batch selection.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://icflorescu.github.io/mantine-datatable/"
