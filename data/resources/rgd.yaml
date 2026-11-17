@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "RGD"
+url: https://rgd.ca/
+area: grow
+category: communities
+tags: [ career ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Associação de designers gráficos do Canadá, com certificação, eventos e guias de prática profissional."
+  en: "Canada's association of graphic designers, with certification, events and professional practice guides."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail. Membership paga, recursos abertos."

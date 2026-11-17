@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "AIGA"
+url: https://www.aiga.org/
+area: grow
+category: communities
+tags: [ career ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Associação profissional de design dos EUA, com eventos, recursos de carreira e capítulos locais."
+  en: "US professional design association with events, career resources and local chapters."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail. Cloudflare 403 no curl. Membership paga, recursos abertos."
