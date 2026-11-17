@@ -96,7 +96,7 @@ export function SearchResults({ labels, areas, fallback }: Props) {
           {labels.empty.replace('{q}', q)}
         </p>
       ) : (
-        <ul className="overflow-hidden rounded-panel border border-border bg-list">
+        <ul className="t-reveal-list overflow-hidden rounded-panel border border-border bg-list">
           {visible.map((hit) => (
             <li key={hit.url} className="border-b border-border last:border-b-0">
               <a href={hit.url} className="t-hover flex items-start gap-5 px-6 py-4 hover:bg-row-hover">

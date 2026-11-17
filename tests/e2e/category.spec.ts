@@ -1,6 +1,7 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test, type Page } from '@playwright/test';
 
+import { settleAnimations } from './animations';
 import { listCategories, listResources } from '../../lib/content';
 
 const byName = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name, 'en');
@@ -17,6 +18,7 @@ test('lista densa com todos os recursos da categoria e sem violações axe', asy
   await expect(page.getByText(`Mostrando ${total} de ${total}`)).toBeVisible();
   await expect(page.getByRole('checkbox', { name: 'Só open source' })).toHaveCount(0);
   await expect(page.getByRole('combobox', { name: 'Nível' })).toHaveCount(0);
+  await settleAnimations(page);
   const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa']).analyze();
   expect(results.violations).toEqual([]);
 });

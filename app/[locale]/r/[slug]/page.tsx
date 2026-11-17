@@ -55,6 +55,7 @@ export default async function ResourcePage({ params }: Props) {
   const areaT = await getTranslations('area');
   const pricing = await getTranslations('pricing');
   const level = await getTranslations('level');
+  const a11y = await getTranslations('a11y');
   const format = await getFormatter();
   const category = getCategory(resource.category);
   const area = getArea(resource.area);
@@ -107,7 +108,7 @@ export default async function ResourcePage({ params }: Props) {
     <>
       <SiteHeader current={resource.area} />
       <JsonLd data={structured} />
-      <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24">
+      <main id="conteudo" className="t-reveal mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24">
         <Breadcrumb
           label={areaT('breadcrumb')}
           items={[
@@ -118,8 +119,8 @@ export default async function ResourcePage({ params }: Props) {
           ]}
         />
 
-        <div className="mt-8 flex flex-wrap items-start gap-12">
-          <article className="min-w-0 flex-[999_1_560px]" data-pagefind-body={archived ? undefined : ''}>
+        <div className="t-reveal mt-8 flex flex-wrap items-start gap-12">
+          <article className="t-reveal min-w-0 flex-[999_1_560px]" data-pagefind-body={archived ? undefined : ''}>
             {/* Metadados e filtros da busca (spec 008): não aparecem na página. */}
             <div hidden>
               <span data-pagefind-meta="kind">resource</span>
@@ -161,13 +162,17 @@ export default async function ResourcePage({ params }: Props) {
             <div className="mt-7 flex flex-wrap gap-3" data-pagefind-ignore>
               <a
                 href={outboundUrl(resource.url)}
+                target="_blank"
                 rel="noopener"
                 data-umami-event="resource_outbound"
                 data-umami-event-slug={resource.slug}
                 data-umami-event-target="website"
                 className="t-hover t-icon-host inline-flex h-12 items-center gap-4 rounded-pill bg-button-primary pr-2 pl-6 text-body font-medium text-button-primary-text hover:opacity-90"
               >
-                {t('visit', { host: host(resource.url) })}
+                <span>
+                  {t('visit', { host: host(resource.url) })}
+                  <span className="sr-only"> {a11y('newTab')}</span>
+                </span>
                 <span
                   aria-hidden="true"
                   className="inline-flex size-9 items-center justify-center rounded-pill bg-index-blue text-button-brand-text"
@@ -178,6 +183,7 @@ export default async function ResourcePage({ params }: Props) {
               {resource.repo && resource.repo !== resource.url ? (
                 <a
                   href={outboundUrl(resource.repo)}
+                  target="_blank"
                   rel="noopener"
                   data-umami-event="resource_outbound"
                   data-umami-event-slug={resource.slug}
@@ -185,6 +191,7 @@ export default async function ResourcePage({ params }: Props) {
                   className="t-hover inline-flex h-12 items-center rounded-pill border border-border-strong px-6 text-body text-primary hover:bg-graphite"
                 >
                   {t('repo')}
+                  <span className="sr-only"> {a11y('newTab')}</span>
                 </a>
               ) : null}
             </div>
@@ -241,7 +248,10 @@ export default async function ResourcePage({ params }: Props) {
             ) : null}
           </article>
 
-          <aside aria-labelledby="details" className="flex w-full flex-col gap-4 lg:max-w-sm lg:flex-[1_1_280px]">
+          <aside
+            aria-labelledby="details"
+            className="t-reveal flex w-full flex-col gap-4 lg:max-w-sm lg:flex-[1_1_280px]"
+          >
             <div className="overflow-hidden rounded-card border border-border bg-carbon">
               <h2 id="details" className="label-mono border-b border-border px-6 py-4 text-muted">
                 {t('details')}

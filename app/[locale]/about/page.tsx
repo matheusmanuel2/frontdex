@@ -56,7 +56,10 @@ export default async function AboutPage({ params }: Props) {
     <>
       <SiteHeader />
       <JsonLd data={structured} />
-      <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14">
+      <main
+        id="conteudo"
+        className="t-reveal mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14"
+      >
         <Breadcrumb
           label={areaT('breadcrumb')}
           items={[{ label: areaT('index'), href: `/${locale}` }, { label: t('eyebrow') }]}
@@ -75,7 +78,7 @@ export default async function AboutPage({ params }: Props) {
           <h2 id="about-principles" className="title-h3 mb-5 text-primary">
             {t('principles')}
           </h2>
-          <ol className="overflow-hidden rounded-panel border border-border bg-list">
+          <ol className="t-reveal-list overflow-hidden rounded-panel border border-border bg-list">
             {PRINCIPLES.map((key, index) => (
               <li
                 key={key}
@@ -95,7 +98,7 @@ export default async function AboutPage({ params }: Props) {
           <h2 id="about-stats" className="sr-only">
             {t('stats')}
           </h2>
-          <dl className="grid gap-4 sm:grid-cols-3">
+          <dl className="t-reveal-list grid gap-4 sm:grid-cols-3">
             {stats.map((stat) => (
               <div key={stat.label} className="rounded-card border border-border bg-carbon p-6">
                 <dt className="label-mono text-muted">{stat.label}</dt>

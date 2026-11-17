@@ -24,6 +24,7 @@ export default async function RandomPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations('random');
   const pricing = await getTranslations('pricing');
+  const a11y = await getTranslations('a11y');
 
   const items: RandomItem[] = listResources().map((resource) => ({
     slug: resource.slug,
@@ -44,8 +45,8 @@ export default async function RandomPage({ params }: Props) {
   return (
     <>
       <SiteHeader />
-      <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-20 pb-28">
-        <div className="text-center">
+      <main id="conteudo" className="t-reveal mx-auto w-full max-w-(--container-max) px-(--gutter) pt-20 pb-28">
+        <div className="t-reveal text-center">
           <Eyebrow className="mb-5">{t('eyebrow')}</Eyebrow>
           <SectionTitle as="h1" size="h1" title={t('title')} muted={t('titleMuted')} />
         </div>
@@ -60,6 +61,7 @@ export default async function RandomPage({ params }: Props) {
                 open: t('open'),
                 another: t('another'),
                 visit: t('visit'),
+                newTab: a11y('newTab'),
                 footer: t('footer', { count: items.length }),
               }}
             />

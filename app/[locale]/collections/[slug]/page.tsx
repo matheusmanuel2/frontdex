@@ -62,7 +62,10 @@ export default async function CollectionPage({ params }: Props) {
     <>
       <SiteHeader current="collections" />
       <JsonLd data={structured} />
-      <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14">
+      <main
+        id="conteudo"
+        className="t-reveal mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14"
+      >
         <Breadcrumb
           label={areaT('breadcrumb')}
           items={[

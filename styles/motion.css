@@ -85,6 +85,13 @@
   --learn-in: var(--duration-fast);
   --learn-out: var(--duration-medium);
   --learn-ease: var(--ease-smooth-out);
+  /* 18 · Texts reveal, aplicado à entrada de cada página (spec 003) */
+  --stagger-dur: var(--duration-very-slow);
+  --stagger-distance: var(--distance-medium);
+  --stagger-blur: var(--blur-medium);
+  --stagger-ease: var(--ease-smooth-out);
+  --reveal-step: var(--duration-micro); /* entre blocos da página */
+  --reveal-list-step: var(--duration-stagger); /* entre itens de uma lista */
   /* Entrada do hero da home (hero-37, mockup HeroV3Video): mesma ordem e atrasos */
   --hero-bg-dur: 1800ms;
   --hero-line-dur: 1100ms;
@@ -516,7 +523,97 @@
 }
 
 /* ── Movimento reduzido: tudo estático ──────────────────────── */
+/* ── 18 · Texts reveal → entrada das páginas ─────────────────── */
+/*
+ * O recipe usa `transition` com `.is-shown`; aqui a entrada tem de correr sozinha
+ * quando a página monta (primeiro carregamento e cada navegação), sem JavaScript,
+ * por isso vira um @keyframes com os mesmos valores (sobe, blur, fade).
+ *
+ * - `.t-reveal`: os filhos diretos entram um de cada vez, de cima para baixo,
+ *   a cada --reveal-step. Um `.t-reveal` filho de outro não anima; os filhos dele
+ *   continuam a contagem a partir da sua posição.
+ * - `.t-reveal-list`: os itens entram a cada --reveal-list-step, depois do bloco
+ *   onde a lista está (--reveal-at herdado).
+ * A partir do 12.º elemento entram todos juntos, para listas longas não esperarem.
+ * `backwards` (e não `both`): no fim não fica transform/filter aplicado.
+ */
+.t-reveal > :nth-child(1),
+.t-reveal-list > :nth-child(1) {
+  --reveal-i: 0;
+}
+.t-reveal > :nth-child(2),
+.t-reveal-list > :nth-child(2) {
+  --reveal-i: 1;
+}
+.t-reveal > :nth-child(3),
+.t-reveal-list > :nth-child(3) {
+  --reveal-i: 2;
+}
+.t-reveal > :nth-child(4),
+.t-reveal-list > :nth-child(4) {
+  --reveal-i: 3;
+}
+.t-reveal > :nth-child(5),
+.t-reveal-list > :nth-child(5) {
+  --reveal-i: 4;
+}
+.t-reveal > :nth-child(6),
+.t-reveal-list > :nth-child(6) {
+  --reveal-i: 5;
+}
+.t-reveal > :nth-child(7),
+.t-reveal-list > :nth-child(7) {
+  --reveal-i: 6;
+}
+.t-reveal > :nth-child(8),
+.t-reveal-list > :nth-child(8) {
+  --reveal-i: 7;
+}
+.t-reveal > :nth-child(9),
+.t-reveal-list > :nth-child(9) {
+  --reveal-i: 8;
+}
+.t-reveal > :nth-child(10),
+.t-reveal-list > :nth-child(10) {
+  --reveal-i: 9;
+}
+.t-reveal > :nth-child(11),
+.t-reveal-list > :nth-child(11) {
+  --reveal-i: 10;
+}
+.t-reveal > :nth-child(12),
+.t-reveal-list > :nth-child(12) {
+  --reveal-i: 11;
+}
+.t-reveal > :nth-child(n + 13),
+.t-reveal-list > :nth-child(n + 13) {
+  --reveal-i: 12;
+}
+.t-reveal > * {
+  --reveal-at: calc(var(--reveal-base, 0ms) + var(--reveal-i) * var(--reveal-step));
+  animation: t-reveal-in var(--stagger-dur) var(--stagger-ease) var(--reveal-at) backwards;
+}
+.t-reveal > .t-reveal {
+  --reveal-base: calc(var(--reveal-i) * var(--reveal-step));
+  animation: none;
+}
+.t-reveal-list > * {
+  animation: t-reveal-in var(--stagger-dur) var(--stagger-ease)
+    calc(var(--reveal-at, 0ms) + var(--reveal-i) * var(--reveal-list-step)) backwards;
+}
+@keyframes t-reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--stagger-distance));
+    filter: blur(var(--stagger-blur));
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
+  .t-reveal > *,
+  .t-reveal-list > * {
+    animation: none !important;
+  }
   .t-hover,
   .t-dropdown,
   .t-modal,

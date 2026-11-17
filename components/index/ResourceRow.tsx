@@ -112,6 +112,7 @@ export function ResourceList({ children, label, className, ordered = false, plai
     <List
       aria-label={label}
       className={cn(
+        't-reveal-list',
         plain ? 'border-y border-border' : 'overflow-hidden rounded-panel border border-border bg-list',
         className,
       )}

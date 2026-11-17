@@ -83,7 +83,10 @@ export default async function AreaPage({ params }: Props) {
     <>
       <SiteHeader current={slug} />
       <JsonLd data={structured} />
-      <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14">
+      <main
+        id="conteudo"
+        className="t-reveal mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14"
+      >
         <Breadcrumb
           label={t('breadcrumb')}
           items={[{ label: t('index'), href: `/${locale}` }, { label: area.name[locale] }]}
@@ -115,7 +118,7 @@ export default async function AreaPage({ params }: Props) {
               <h2 id="area-categories" className="title-h3 mb-5 text-primary">
                 {t('categories')}
               </h2>
-              <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              <ul className="t-reveal-list grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {categories.map(({ category, items }) => (
                   <li key={category.slug}>
                     <CategoryCard
