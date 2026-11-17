@@ -49,9 +49,26 @@ export function normalizeUrl(raw: string): string | null {
 }
 
 const SKIP_HOSTS = [
-  'twitter.com', 'x.com', 'facebook.com', 'linkedin.com', 'instagram.com', 'youtube.com', 'youtu.be',
-  'img.shields.io', 'badgen.net', 'awesome.re', 'creativecommons.org', 'travis-ci.org', 'opencollective.com',
-  'patreon.com', 'buymeacoffee.com', 'ko-fi.com', 't.me', 'discord.gg', 'amzn.to', 'amazon.com',
+  'twitter.com',
+  'x.com',
+  'facebook.com',
+  'linkedin.com',
+  'instagram.com',
+  'youtube.com',
+  'youtu.be',
+  'img.shields.io',
+  'badgen.net',
+  'awesome.re',
+  'creativecommons.org',
+  'travis-ci.org',
+  'opencollective.com',
+  'patreon.com',
+  'buymeacoffee.com',
+  'ko-fi.com',
+  't.me',
+  'discord.gg',
+  'amzn.to',
+  'amazon.com',
 ];
 
 /** Links que não são recursos: âncoras, badges, outras awesome lists, ficheiros do próprio repo. */
@@ -76,7 +93,10 @@ export function extractLinks(markdown: string): { name: string; url: string; sec
   for (const line of markdown.split('\n')) {
     const h = line.match(/^#{1,4}\s+(.+)/);
     if (h) {
-      section = (h[1] ?? '').replace(/[[\]()*_`#]/g, '').replace(/https?:\/\/\S+/g, '').trim();
+      section = (h[1] ?? '')
+        .replace(/[[\]()*_`#]/g, '')
+        .replace(/https?:\/\/\S+/g, '')
+        .trim();
       continue;
     }
     const m = line.match(/^\s*[-*|]\s*\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/);
@@ -151,10 +171,21 @@ async function githubSignals(repos: string[], token: string) {
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({ query: `{ ${fields} }` }),
     });
-    const json = (await res.json()) as { data?: Record<string, { nameWithOwner: string; stargazerCount: number; pushedAt: string; isArchived: boolean } | null> };
+    const json = (await res.json()) as {
+      data?: Record<
+        string,
+        { nameWithOwner: string; stargazerCount: number; pushedAt: string; isArchived: boolean } | null
+      >;
+    };
     batch.forEach((r, j) => {
       const d = json.data?.[`r${j}`];
-      if (d) result.set(r.toLowerCase(), { repo: d.nameWithOwner, stars: d.stargazerCount, pushed: d.pushedAt?.slice(0, 10) ?? '', archived: d.isArchived });
+      if (d)
+        result.set(r.toLowerCase(), {
+          repo: d.nameWithOwner,
+          stars: d.stargazerCount,
+          pushed: d.pushedAt?.slice(0, 10) ?? '',
+          archived: d.isArchived,
+        });
     });
   }
   return result;
@@ -190,7 +221,15 @@ async function main() {
         if (!existing.sources.some((s) => s.list === ref.list)) existing.sources.push(ref);
         continue;
       }
-      byKey.set(key, { key, name: link.name, url: link.url.replace(/^http:/, 'https:'), sources: [ref], category: suggestCategory(link.section, source), alerts: [], decision: null });
+      byKey.set(key, {
+        key,
+        name: link.name,
+        url: link.url.replace(/^http:/, 'https:'),
+        sources: [ref],
+        category: suggestCategory(link.section, source),
+        alerts: [],
+        decision: null,
+      });
       added++;
     }
     console.log(`${source.repo}: +${added}`);
@@ -207,12 +246,22 @@ async function main() {
     if (existing) {
       if (!existing.sources.some((s) => s.list === ref.list)) existing.sources.push(ref);
     } else {
-      byKey.set(key, { key, name: m.name, url: m.url, sources: [ref], category: m.category, alerts: [], decision: null });
+      byKey.set(key, {
+        key,
+        name: m.name,
+        url: m.url,
+        sources: [ref],
+        category: m.category,
+        alerts: [],
+        decision: null,
+      });
     }
   }
 
   const all = [...byKey.values()];
-  const ghRepos = [...new Set(all.filter((c) => c.key.startsWith('github.com/')).map((c) => c.key.split('/').slice(1, 3).join('/')))];
+  const ghRepos = [
+    ...new Set(all.filter((c) => c.key.startsWith('github.com/')).map((c) => c.key.split('/').slice(1, 3).join('/'))),
+  ];
   const signals = await githubSignals(ghRepos, token);
   const now = Date.now();
   for (const c of all) {
@@ -244,11 +293,12 @@ async function main() {
   }
 
   // Mais forte primeiro: citado em mais listas, depois estrelas; com alertas vai para o fim.
-  all.sort((a, b) =>
-    Number(a.alerts.length > 0) - Number(b.alerts.length > 0) ||
-    Number(a.http !== 'ok') - Number(b.http !== 'ok') ||
-    b.sources.length - a.sources.length ||
-    (b.github?.stars ?? 0) - (a.github?.stars ?? 0),
+  all.sort(
+    (a, b) =>
+      Number(a.alerts.length > 0) - Number(b.alerts.length > 0) ||
+      Number(a.http !== 'ok') - Number(b.http !== 'ok') ||
+      b.sources.length - a.sources.length ||
+      (b.github?.stars ?? 0) - (a.github?.stars ?? 0),
   );
   writeFileSync(OUT, JSON.stringify(all, null, 2) + '\n');
   const ok = all.filter((c) => c.http === 'ok' && c.alerts.length === 0).length;
