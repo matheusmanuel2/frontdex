@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Helios
+url: https://helios.hashicorp.design
+area: learn
+category: reference
+tags:
+  - design-systems
+  - accessibility
+pricing: free
+open_source: true
+license: MPL-2.0
+description:
+  pt: Blocos open source da HashiCorp para desenhar e implementar experiências de produto acessíveis e coerentes.
+  en: HashiCorp's open source building blocks for designing and implementing accessible, coherent product experiences.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://helios.hashicorp.design"

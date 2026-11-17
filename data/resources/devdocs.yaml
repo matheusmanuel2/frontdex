@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: DevDocs
+url: https://devdocs.io/
+area: learn
+category: reference
+tags:
+  - web
+pricing: free
+open_source: true
+license: MPL-2.0
+description:
+  pt: Navegador de documentação rápido, gratuito e offline, com mais de 100 docs pesquisáveis num só app.
+  en: Fast, free, offline documentation browser that searches 100+ docs in one web app.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://devdocs.io/"

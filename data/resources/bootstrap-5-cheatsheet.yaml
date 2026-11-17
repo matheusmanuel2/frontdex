@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Bootstrap 5 CheatSheet
+url: https://bootstrap-cheatsheet.themeselection.com/
+area: learn
+category: reference
+tags:
+  - css
+  - interactive
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Lista interativa das classes, variáveis e mixins do Bootstrap 5.
+  en: Interactive list of Bootstrap 5 classes, variables and mixins.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://bootstrap-cheatsheet.themeselection.com/"

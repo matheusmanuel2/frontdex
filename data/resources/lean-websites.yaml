@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Lean Websites
+url: https://www.sitepoint.com/premium/books/lean-websites/
+area: learn
+category: books
+tags:
+  - web
+pricing: paid
+open_source: false
+description:
+  pt: Livro prático sobre performance de sites focado no front-end, com teoria e exemplos reais.
+  en: Practical book on website performance focused on the front end, with theory and real examples.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.sitepoint.com/premium/books/lean-websites/"

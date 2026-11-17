@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Treehouse Web Design Track
+url: https://teamtreehouse.com/tracks/web-design
+area: learn
+category: courses
+tags:
+  - css
+  - web
+pricing: paid
+open_source: false
+description:
+  pt: Trilha de web design com HTML, CSS, teoria das cores e tipografia, pensada para quem busca emprego na área.
+  en: Web design track covering HTML, CSS, colour theory and typography, aimed at landing a tech job.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: nicolesaidy/awesome-web-design. Lida: https://teamtreehouse.com/tracks/web-design"

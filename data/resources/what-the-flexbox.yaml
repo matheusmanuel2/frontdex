@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: What The Flexbox?!
+url: https://flexbox.io/
+area: learn
+category: videos
+tags:
+  - css
+  - video
+pricing: free
+open_source: false
+description:
+  pt: Curso de 20 vídeos curtos para aprender Flexbox com exemplos de layout.
+  en: Course of 20 short videos for learning Flexbox through layout examples.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://flexbox.io/"

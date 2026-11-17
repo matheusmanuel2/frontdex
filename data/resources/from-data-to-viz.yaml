@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: From Data to Viz
+url: https://www.data-to-viz.com
+area: learn
+category: reference
+tags:
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Indica o gráfico certo para o tipo de dado, com link para o código e erros comuns a evitar.
+  en: Points you to the right chart for your data, with code links and common pitfalls to avoid.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.data-to-viz.com"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Frontend Mentor
+url: https://www.frontendmentor.io/
+area: learn
+category: challenges
+tags:
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Projetos com designs profissionais para praticar front-end, com revisão de código por IA e feedback da comunidade.
+  en: Projects with professional designs to practice front-end, with AI code review and community feedback.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.frontendmentor.io/"

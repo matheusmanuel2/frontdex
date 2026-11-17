@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Braid Design System
+url: https://seek-oss.github.io/braid-design-system/
+area: learn
+category: reference
+tags:
+  - design-systems
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Design system com temas usado pelo SEEK Group nos seus produtos de emprego.
+  en: Themeable design system used by the SEEK Group across its job products.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://seek-oss.github.io/braid-design-system/"

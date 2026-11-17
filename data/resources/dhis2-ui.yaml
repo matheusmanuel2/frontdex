@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: DHIS2 UI
+url: https://developers.dhis2.org/design-system/
+area: learn
+category: reference
+tags:
+  - design-systems
+  - react
+pricing: free
+open_source: true
+license: BSD-3-Clause
+description:
+  pt: Princípios, padrões e biblioteca de componentes reutilizáveis para criar apps sobre a plataforma DHIS2.
+  en: Principles, patterns and a reusable component library for building apps on the DHIS2 platform.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://developers.dhis2.org/design-system/"

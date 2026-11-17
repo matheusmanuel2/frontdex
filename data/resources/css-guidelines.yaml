@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Guidelines
+url: https://cssguidelin.es/
+area: learn
+category: guides
+tags:
+  - css
+pricing: pay-what-you-want
+open_source: false
+description:
+  pt: Conselhos de alto nível para escrever CSS gerenciável e escalável em projetos grandes.
+  en: High-level advice and guidelines for writing manageable, scalable CSS in large projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://cssguidelin.es/"

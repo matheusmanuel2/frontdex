@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: LinkedIn Learning
+url: https://www.linkedin.com/learning/
+area: learn
+category: courses
+tags:
+  - video
+pricing: paid
+open_source: false
+description:
+  pt: Cursos em vídeo de negócios, IA, tecnologia e criatividade, com planos individuais ou para equipes.
+  en: Video courses in business, AI, tech and creative skills, with plans for individuals or teams.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.lynda.com/. Redirecionava de https://www.lynda.com/"

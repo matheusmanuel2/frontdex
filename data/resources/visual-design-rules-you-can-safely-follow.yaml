@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Visual design rules you can safely follow
+url: https://anthonyhobday.com/sideprojects/saferules/
+area: learn
+category: guides
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Lista de regras de design visual que você pode aplicar sempre, sem precisar pensar em exceções.
+  en: List of visual design rules you can apply every time, without worrying about exceptions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://anthonyhobday.com/sideprojects/saferules/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Flexbox Froggy
+url: https://flexboxfroggy.com/
+area: learn
+category: challenges
+tags:
+  - css
+  - interactive
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Jogo para aprender flexbox em CSS resolvendo fases que pedem cada propriedade.
+  en: A game for learning CSS flexbox, one level and property at a time.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://flexboxfroggy.com/"

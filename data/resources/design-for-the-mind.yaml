@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Design for the Mind
+url: https://www.manning.com/books/design-for-the-mind
+area: learn
+category: books
+tags:
+  - web
+pricing: paid
+open_source: false
+description:
+  pt: Livro de Victor S. Yocco sobre a psicologia por trás do design persuasivo aplicada a sites.
+  en: Victor S. Yocco's book on the psychology behind persuasive design, applied to websites.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.manning.com/books/design-for-the-mind"

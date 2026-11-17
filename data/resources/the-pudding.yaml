@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: The Pudding
+url: https://pudding.cool/
+area: learn
+category: articles
+tags:
+  - interactive
+pricing: free
+open_source: false
+description:
+  pt: Ensaios visuais que explicam ideias com dados e gráficos interativos.
+  en: Visual essays that explain ideas through data and interactive graphics.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://pudding.cool/"

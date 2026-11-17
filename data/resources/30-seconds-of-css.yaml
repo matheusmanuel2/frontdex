@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: 30 Seconds of CSS
+url: https://www.30secondsofcode.org/css/p/1
+area: learn
+category: guides
+tags:
+  - css
+  - interactive
+pricing: free
+open_source: true
+license: CC-BY-4.0
+description:
+  pt: Coleção de artigos com exemplos interativos de CSS sobre layout, estilo, animação e interações.
+  en: Collection of articles with interactive CSS examples on layout, styling, animation and interactions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://www.30secondsofcode.org/css/p/1"

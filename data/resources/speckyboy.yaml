@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Speckyboy
+url: https://speckyboy.com/
+area: learn
+category: articles
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Revista com recursos práticos, templates e inspiração para UI, desenvolvimento web e WordPress.
+  en: Magazine with practical resources, templates and inspiration for UI, web development and WordPress.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://speckyboy.com/"

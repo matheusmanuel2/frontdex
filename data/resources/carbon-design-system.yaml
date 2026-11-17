@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Carbon Design System
+url: https://www.carbondesignsystem.com/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Design system de código aberto da IBM, com código, ferramentas de design e diretrizes de interface.
+  en: IBM's open source design system, with working code, design tools and interface guidelines.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks, alexpate/awesome-design-systems. Lida: https://www.carbondesignsystem.com/"
