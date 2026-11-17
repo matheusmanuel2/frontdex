@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Nicelydone
+url: https://nicelydone.club/
+area: discover
+category: app-research
+tags:
+  - screens
+  - flows
+  - figma
+pricing: TODO
+open_source: TODO
+description:
+  pt: Busca em 227 mil screenshots de 500+ apps SaaS, de preços a onboarding, arrastáveis para o Figma.
+  en: Search 227k real UI screenshots from 500+ SaaS apps, from pricing to onboarding, draggable into Figma.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://nicelydone.club/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Calltoidea
+url: https://www.calltoidea.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Inspiração organizada por tipo de elemento, criada por um designer para profissionais da web.
+  en: Inspiration organized by element type, made by a designer for web professionals.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida: https://www.calltoidea.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Foxyapps
+url: https://foxyapps.co/
+area: discover
+category: app-research
+tags:
+  - mobile
+  - ios
+  - android
+pricing: TODO
+open_source: TODO
+description:
+  pt: Inspiração de design tirada de apps iOS e Android do mundo todo.
+  en: Design inspiration from iOS and Android apps from around the world.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://foxyapps.co/"

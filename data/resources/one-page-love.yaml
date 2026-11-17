@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: One Page Love
+url: https://onepagelove.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Galeria de sites de página única, com templates e recursos para esse formato.
+  en: A gallery of single-page websites, with templates and resources for the format.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design, nicolesaidy/awesome-web-design, pedido do Matheus. Lida: https://onepagelove.com/"

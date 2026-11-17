@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Reeoo
+url: https://reeoo.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+  - screens
+pricing: TODO
+open_source: TODO
+description:
+  pt: Referências de sites, apps, capturas de tela, eventos, ícones e ferramentas reunidas para apoiar decisões de design.
+  en: Standout websites, apps, screenshots, events, icons and tools collected to back sharper design decisions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://reeoo.com/"

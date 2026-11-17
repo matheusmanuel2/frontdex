@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Design Awards
+url: https://www.cssdesignawards.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Premiação de sites onde você vê os vencedores ou envia o seu próprio projeto.
+  en: Website awards where you browse winners or submit your own site.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design, pedido do Matheus. Lida: https://www.cssdesignawards.com/"

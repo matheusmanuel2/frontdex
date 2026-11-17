@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Page Flows
+url: https://csshero.org/mesher
+area: discover
+category: app-research
+tags:
+  - flows
+  - screens
+pricing: TODO
+open_source: TODO
+description:
+  pt: Mais de 100 mil fluxos de usuário gravados, telas e padrões de UI de apps como Airbnb, Uber e Netflix.
+  en: 100,000+ recorded user flows, app screens and UI patterns from apps like Airbnb, Uber and Netflix.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://csshero.org/mesher"

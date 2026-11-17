@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Button Hover Specimens
+url: https://jsabutis.github.io/button-interaction-specs/
+area: discover
+category: motion-inspiration
+tags:
+  - css
+  - motion
+pricing: TODO
+open_source: TODO
+description:
+  pt: 131 mecanismos de hover aplicados ao mesmo botão, em CSS puro e reativos ao ponteiro, cada um com código para copiar.
+  en: 131 hover mechanisms on one identical button, pure CSS and pointer-reactive, each with code to copy.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://jsabutis.github.io/button-interaction-specs/"

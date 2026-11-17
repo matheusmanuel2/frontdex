@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: The FWA
+url: https://thefwa.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+  - interactive
+pricing: TODO
+open_source: TODO
+description:
+  pt: Prêmios de design digital desde 2000, decididos por júri humano e com crítica escrita para cada inscrição.
+  en: Digital design awards since 2000, decided by a human jury, with a written critique for every entry.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://thefwa.com/"

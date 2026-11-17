@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Really Good Emails
+url: https://reallygoodemails.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Mais de 19 mil e-mails selecionados para servir de referência no design da sua próxima campanha.
+  en: Over 19,000 curated emails to use as reference when designing your next campaign.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, swyxio/spark-joy. Lida: https://reallygoodemails.com/"

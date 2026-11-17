@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Mobbin
+url: https://mobbin.design/
+area: discover
+category: app-research
+tags:
+  - screens
+  - mobile
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca com mais de 600 mil capturas pesquisáveis de apps mobile e web para pesquisa de UI e UX.
+  en: Library of over 600,000 searchable mobile and web app screenshots for UI and UX research.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://mobbin.design/"

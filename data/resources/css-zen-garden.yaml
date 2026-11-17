@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Zen Garden
+url: https://alvarotrigo.com/shadow-gradients/
+area: discover
+category: ui-inspiration
+tags:
+  - css
+  - history
+pricing: TODO
+open_source: TODO
+description:
+  pt: Demonstração de até onde dá para ir visualmente só trocando o CSS de uma mesma página.
+  en: Demonstration of how far visual design can go by swapping only the CSS of one page.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://alvarotrigo.com/shadow-gradients/"

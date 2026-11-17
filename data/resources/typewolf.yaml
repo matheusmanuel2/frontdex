@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Typewolf
+url: https://www.typewolf.com/
+area: discover
+category: brand-inspiration
+tags:
+  - typography
+pricing: TODO
+open_source: TODO
+description:
+  pt: Fontes em uso em sites reais, recomendações de combinações e material para aprender tipografia.
+  en: Web fonts in the wild, pairing recommendations and resources for learning type.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://www.typewolf.com/"

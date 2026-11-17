@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Land-book
+url: https://land-book.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Galeria de sites escolhidos a dedo e atualizada todo dia, para buscar referência de design web.
+  en: Hand-picked website gallery updated daily, for web design reference.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design, pedido do Matheus. Lida: https://land-book.com/"

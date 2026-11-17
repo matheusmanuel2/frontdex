@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ecomm.design
+url: https://ecomm.design/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Galeria com mais de 3000 lojas online para inspiração, junto com a tecnologia por trás de cada uma.
+  en: Gallery of 3000+ ecommerce websites for inspiration, along with the tech behind each one.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ecomm.design/"

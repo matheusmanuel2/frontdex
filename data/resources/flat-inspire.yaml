@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Flat Inspire
+url: https://flatinspire.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Galeria curada de sites feitos no estilo flat design, para ver como cada um resolve a interface.
+  en: Curated gallery of websites built in a flat design style, to see how each one handles the interface.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://flatinspire.com/"

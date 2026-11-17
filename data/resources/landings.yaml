@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Landings
+url: https://developer.apple.com/fonts/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Exemplos de landing pages filtráveis conforme a sua preferência de estilo.
+  en: Landing page examples you can filter by your style preference.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://developer.apple.com/fonts/"

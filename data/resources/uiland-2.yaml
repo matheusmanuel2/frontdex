@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Uiland
+url: https://uiland.design/
+area: discover
+category: app-research
+tags:
+  - screens
+  - mobile
+pricing: TODO
+open_source: TODO
+description:
+  pt: Biblioteca pesquisável com mais de 489 mil telas de apps e sites, além de páginas web capturadas.
+  en: Searchable library of over 489k app and web screens, plus captured web pages.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uiland.design/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Mozilla Brand Portal
+url: https://www.mozilla.org/en-US/styleguide/
+area: discover
+category: brand-inspiration
+tags:
+  - branding
+pricing: TODO
+open_source: TODO
+description:
+  pt: Portal com as diretrizes de marca da Mozilla, útil para ver como uma organização aberta documenta a identidade.
+  en: Portal holding Mozilla's brand guidelines, useful to see how an open organisation documents its identity.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.mozilla.org/en-US/styleguide/"

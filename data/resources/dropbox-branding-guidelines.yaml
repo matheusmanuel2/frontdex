@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Dropbox Branding Guidelines
+url: https://www.dropbox.com/branding
+area: discover
+category: brand-inspiration
+tags:
+  - branding
+  - logos
+pricing: TODO
+open_source: TODO
+description:
+  pt: Regras da Dropbox para usar corretamente o nome, o logo e os demais materiais da marca.
+  en: Dropbox rules for using its name, logo and other brand materials correctly.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.dropbox.com/branding"

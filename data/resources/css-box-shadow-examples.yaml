@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Box-shadow Examples
+url: https://getcssscan.com/css-box-shadow-examples
+area: discover
+category: ui-inspiration
+tags:
+  - css
+pricing: free
+open_source: TODO
+description:
+  pt: 95 exemplos de box-shadow em CSS, prontos para copiar com um clique.
+  en: 95 CSS box-shadow examples, ready to copy with one click.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css. Lida: https://getcssscan.com/css-box-shadow-examples"

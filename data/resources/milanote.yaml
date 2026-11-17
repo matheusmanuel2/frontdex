@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Milanote
+url: https://milanote.com/
+area: discover
+category: moodboards
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Organiza ideias em quadros visuais com notas, imagens, links e arquivos, para compartilhar com o time.
+  en: Organize ideas into visual boards with notes, images, links and files, then share them with your team.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://milanote.com/"

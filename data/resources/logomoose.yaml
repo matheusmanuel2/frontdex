@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: LogoMoose
+url: https://www.logomoose.com/
+area: discover
+category: brand-inspiration
+tags:
+  - logos
+pricing: TODO
+open_source: TODO
+description:
+  pt: Galeria de inspiração com logos de designers profissionais.
+  en: Inspiration gallery of logos by professional designers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.logomoose.com/"

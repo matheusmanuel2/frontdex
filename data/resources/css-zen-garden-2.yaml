@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Zen Garden
+url: https://csszengarden.com/
+area: discover
+category: ui-inspiration
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Demonstração do que dá para alcançar visualmente com design feito em CSS.
+  en: A demonstration of what can be achieved visually through CSS-based design.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://csszengarden.com/"

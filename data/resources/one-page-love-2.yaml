@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: One Page Love
+url: https://onepagelove.com/gallery
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Galeria de sites de uma página e landing pages com capturas reais e notas de design, atualizada toda semana.
+  en: Curated one-page websites and landing pages with real screenshots and design notes, updated weekly.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://onepagelove.com/gallery"

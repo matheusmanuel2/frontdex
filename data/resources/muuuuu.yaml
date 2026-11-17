@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: MUUUUU.ORG
+url: https://muuuuu.org/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Galeria japonesa de sites filtrável por setor, paleta, tipo de site e expressão, com site do dia e créditos.
+  en: Japanese web gallery filterable by industry, colour scheme, site type and style, with a site of the day and credits.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://muuuuu.org/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ecomm.design
+url: https://grtcalculator.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Mais de 3000 lojas virtuais reunidas para inspirar o design de e-commerce, com a tecnologia de cada uma.
+  en: 3000+ online stores gathered for ecommerce design inspiration, with the tech each one uses.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://grtcalculator.com/"

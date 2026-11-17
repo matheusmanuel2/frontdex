@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Hoverstat.es
+url: https://hoverstat.es/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Vitrine de design, código e conteúdo alternativos na web.
+  en: A showcase of alternative design, code and content on the web.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, swyxio/spark-joy. Lida: https://hoverstat.es/"

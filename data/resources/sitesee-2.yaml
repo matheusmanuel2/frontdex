@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: SiteSee
+url: https://sitesee.co/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Galeria de sites escolhidos a dedo, filtráveis por categoria, paleta de cores e estilo.
+  en: Hand-picked website gallery you can filter by category, color palette and style.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://sitesee.co/"

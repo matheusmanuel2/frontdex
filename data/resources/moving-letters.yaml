@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Moving Letters
+url: https://tobiasahlin.com/moving-letters/
+area: discover
+category: motion-inspiration
+tags:
+  - text
+  - motion
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Exemplos de texto animado com JavaScript e anime.js.
+  en: Examples of text animated with JavaScript and anime.js.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://tobiasahlin.com/moving-letters/"
