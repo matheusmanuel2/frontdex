@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CreativeMornings
+url: https://creativemornings.com/
+area: grow
+category: communities
+tags:
+  - video
+pricing: freemium
+open_source: false
+description:
+  pt: Série de palestras matinais gratuitas para a comunidade criativa, em cidades do mundo todo e online.
+  en: Free monthly breakfast talks for the creative community, held in cities worldwide and watchable online.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://creativemornings.com/"
