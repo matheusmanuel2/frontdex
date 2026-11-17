@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: The Great Discontent
+url: https://thegreatdiscontent.com/
+area: learn
+category: articles
+tags:
+  - career
+pricing: free
+open_source: false
+description:
+  pt: Entrevistas com artistas e criadores em revista impressa e online, eventos e
+    podcast.
+  en: Interviews with artists and makers in print and online, plus events and a
+    podcast.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://thegreatdiscontent.com/"
+id: 165

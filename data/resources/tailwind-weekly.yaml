@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Tailwind Weekly
+url: https://tailwindweekly.com/
+area: learn
+category: articles
+tags:
+  - css
+pricing: free
+open_source: false
+description:
+  pt: Newsletter semanal com notícias, artigos, vídeos e recursos sobre Tailwind
+    CSS e front-end.
+  en: Weekly newsletter with news, articles, videos and resources on Tailwind CSS
+    and front-end.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  aniftyco/awesome-tailwindcss. Lida: https://tailwindweekly.com/"
+id: 161

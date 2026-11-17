@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Webdesigner Depot
+url: https://www.webdesignerdepot.com/
+area: learn
+category: articles
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Artigos, tutoriais e análises sobre tendências, ferramentas e boas práticas
+    de web design.
+  en: Articles, tutorials and analysis on web design trends, tools and best
+    practices.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://www.webdesignerdepot.com/"
+id: 183

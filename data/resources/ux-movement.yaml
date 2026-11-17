@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: UX Movement
+url: https://uxmovement.com/
+area: learn
+category: articles
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Artigos que ensinam a desenhar interfaces fáceis e intuitivas de usar.
+  en: Articles that teach how to design interfaces that are easy and intuitive to
+    use.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://uxmovement.com/"
+id: 176

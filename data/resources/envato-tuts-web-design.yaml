@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+name: Envato Tuts+ Web Design
+url: https://webdesign.tutsplus.com/
+area: learn
+category: courses
+tags:
+  - css
+  - tutorial
+pricing: freemium
+open_source: false
+description:
+  pt: Milhares de tutoriais e cursos gratuitos de web design, código e fluxo de
+    trabalho.
+  en: Thousands of free web design tutorials and courses on design, code and
+    workflow.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  nicolesaidy/awesome-web-design. Lida: https://webdesign.tutsplus.com/"
+id: 131

@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+name: DevDocs
+url: https://devdocs.io/javascript
+area: learn
+category: reference
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MPL-2.0
+description:
+  pt: Documentação de APIs JavaScript com busca instantânea, uso offline e atalhos
+    de teclado.
+  en: JavaScript API docs with instant search, offline support and keyboard
+    shortcuts.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  micromata/awesome-javascript-learning. Lida: https://devdocs.io/javascript"
+id: 128

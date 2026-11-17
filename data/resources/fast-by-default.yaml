@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+name: Fast by Default
+url: https://www.manning.com/books/performance-engineering-in-practice
+area: learn
+category: books
+tags:
+  - web
+pricing: paid
+open_source: false
+description:
+  pt: Livro de engenharia de performance que ensina a reconhecer padrões
+    previsíveis de problemas de velocidade.
+  en: Performance engineering book on spotting the predictable patterns behind
+    speed problems.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida:
+  https://www.manning.com/books/performance-engineering-in-practice"
+id: 133

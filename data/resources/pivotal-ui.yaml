@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+name: Pivotal UI
+url: https://pivotal-cf.github.io/pivotal-ui/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Guia de estilo, design system e biblioteca de componentes da Pivotal
+    Software.
+  en: Pivotal Software's style guide, design system and component library.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  alexpate/awesome-design-systems. Lida:
+  https://pivotal-cf.github.io/pivotal-ui/"
+id: 152

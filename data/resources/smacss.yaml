@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: SMACSS
+url: https://smacss.com/
+area: learn
+category: guides
+tags:
+  - css
+pricing: free
+open_source: false
+description:
+  pt: Abordagem de arquitetura escalável e modular para organizar o CSS de um
+    projeto.
+  en: Scalable and modular architecture approach for organizing a project's CSS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://smacss.com/"
+id: 158

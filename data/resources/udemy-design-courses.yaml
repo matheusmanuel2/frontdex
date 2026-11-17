@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Udemy Design Courses
+url: https://www.udemy.com/courses/design/
+area: learn
+category: courses
+tags:
+  - web
+pricing: paid
+open_source: false
+description:
+  pt: Catálogo de cursos da Udemy para aprender a desenhar sites, logos, cartazes
+    e mais.
+  en: Udemy course catalogue for learning to design websites, logos, posters and
+    more.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://www.udemy.com/courses/design/"
+id: 170

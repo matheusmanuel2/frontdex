@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: ShopTalk
+url: https://shoptalkshow.com/
+area: learn
+category: podcasts
+tags:
+  - podcast
+  - css
+pricing: free
+open_source: false
+description:
+  pt: Podcast sobre web design front-end e UX.
+  en: A podcast about front-end web design and UX.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design, awesome-css-group/awesome-css. Lida:
+  https://shoptalkshow.com/"
+id: 156

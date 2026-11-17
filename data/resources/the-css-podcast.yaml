@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+name: The CSS Podcast
+url: https://thecsspodcast.libsyn.com/
+area: learn
+category: podcasts
+tags:
+  - css
+  - podcast
+pricing: free
+open_source: false
+description:
+  pt: Podcast sobre CSS apresentado por Una Kravets e Bramus Van Damme, para quem
+    quer ir além do básico.
+  en: Podcast about CSS hosted by Una Kravets and Bramus Van Damme, for going past
+    the basics.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  awesome-css-group/awesome-css. Lida: https://thecsspodcast.libsyn.com/"
+id: 164

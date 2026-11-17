@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../schema.json
+name: Firefox DevTools Playground
+url: https://mozilladevelopers.github.io/playground/
+area: learn
+category: guides
+tags:
+  - css
+  - interactive
+pricing: free
+open_source: true
+license: MPL-2.0
+description:
+  pt: Exercícios da Mozilla para aprender CSS Grid e o depurador do Firefox na
+    prática.
+  en: Mozilla exercises for learning CSS Grid and the Firefox debugger hands-on.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  awesome-css-group/awesome-css. Lida:
+  https://mozilladevelopers.github.io/playground/"
+id: 134

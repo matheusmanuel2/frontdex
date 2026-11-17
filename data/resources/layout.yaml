@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Layout
+url: https://layout.fm/
+area: learn
+category: podcasts
+tags:
+  - podcast
+pricing: free
+open_source: false
+description:
+  pt: Podcast semanal que mistura design, tecnologia e programação em conversas
+    abertas.
+  en: Weekly podcast mixing design, technology and programming in open-ended
+    conversations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://layout.fm/"
+id: 145

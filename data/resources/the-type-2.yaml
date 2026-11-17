@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../schema.json
+name: 字谈字畅 (The Type)
+url: https://podcasts.apple.com/us/podcast/%E5%AD%97%E8%B0%88%E5%AD%97%E7%95%85/id1041704528
+area: learn
+category: podcasts
+tags:
+  - podcast
+  - typography
+pricing: free
+open_source: false
+description:
+  pt: Podcast em chinês dedicado a tipografia e fontes, também conhecido como The
+    Type.
+  en: Chinese-language podcast devoted to typography and type, also known as The
+    Type.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida:
+  https://itunes.apple.com/podcast/zi-tan-zi-chang/id1041704528. Redirecionava
+  de https://itunes.apple.com/podcast/zi-tan-zi-chang/id1041704528"
+id: 167

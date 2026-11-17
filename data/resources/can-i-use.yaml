@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../schema.json
+name: Can I use
+url: https://caniuse.com/
+area: learn
+category: reference
+tags:
+  - css
+  - javascript
+  - web
+pricing: free
+open_source: true
+license: CC-BY-4.0
+description:
+  pt: Tabelas de suporte por navegador para tecnologias front-end, no desktop e no
+    celular.
+  en: Browser support tables for front-end web technologies on desktop and mobile.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css.
+  Lida: https://caniuse.com/"
+id: 113

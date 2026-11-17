@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../schema.json
+name: Web Components in Action
+url: https://www.manning.com/books/web-components-in-action
+area: learn
+category: books
+tags:
+  - web
+  - javascript
+pricing: paid
+open_source: false
+description:
+  pt: Livro que ensina a criar web components reutilizáveis do zero com HTML, CSS
+    e JavaScript.
+  en: Book on building reusable web components from scratch with HTML, CSS and
+    JavaScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida:
+  https://www.manning.com/books/web-components-in-action"
+id: 180

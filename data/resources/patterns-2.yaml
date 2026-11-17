@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Patterns.dev
+url: https://www.patterns.dev
+area: learn
+category: guides
+tags:
+  - javascript
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Padrões de design e de performance em JavaScript para estruturar aplicações
+    web.
+  en: JavaScript design and performance patterns for structuring web applications.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://www.patterns.dev"
+id: 150

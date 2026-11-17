@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Web Performance in Action
+url: https://www.manning.com/books/web-performance-in-action
+area: learn
+category: books
+tags:
+  - web
+pricing: paid
+open_source: false
+description:
+  pt: Livro sobre otimização de assets, renderização e fluxo de trabalho para
+    sites mais rápidos.
+  en: Book on optimizing assets, rendering and workflows for faster websites.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida:
+  https://www.manning.com/books/web-performance-in-action"
+id: 182

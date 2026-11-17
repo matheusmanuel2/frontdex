@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../schema.json
+name: webpack code splitting
+url: https://webpack.js.org/guides/code-splitting/
+area: learn
+category: guides
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Guia para dividir código em vários bundles com entry points,
+    SplitChunksPlugin e import dinâmico.
+  en: Guide to splitting code into bundles with entry points, SplitChunksPlugin
+    and dynamic import.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida:
+  https://webpack.js.org/guides/code-splitting/"
+id: 184

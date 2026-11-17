@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: The Changelog
+url: https://changelog.com/
+area: learn
+category: podcasts
+tags:
+  - podcast
+pricing: free
+open_source: false
+description:
+  pt: Programas semanais sobre desenvolvimento de software, open source, cultura
+    dev e as pessoas por trás disso.
+  en: Weekly shows on software development, open source, dev culture and the
+    people behind them.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  awesome-css-group/awesome-css. Lida: https://changelog.com/"
+id: 163

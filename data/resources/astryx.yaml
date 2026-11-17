@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../schema.json
+name: Astryx
+url: https://astryx.atmeta.com/
+area: learn
+category: reference
+tags:
+  - design-systems
+  - ai-agents
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Design system open source da Meta, totalmente personalizável e preparado
+    para uso por agentes.
+  en: Meta's open source design system, fully customizable and ready for use by
+    agents.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  alexpate/awesome-design-systems. Lida: https://astryx.atmeta.com/"
+id: 109
