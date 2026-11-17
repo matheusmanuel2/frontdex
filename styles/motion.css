@@ -85,6 +85,13 @@
   --learn-in: var(--duration-fast);
   --learn-out: var(--duration-medium);
   --learn-ease: var(--ease-smooth-out);
+  /* 08 · Page side-by-side (navegação entre páginas, spec 003) */
+  --page-slide-dur: var(--duration-fast);
+  --page-fade-dur: var(--duration-fast);
+  --page-slide-distance: var(--distance-base);
+  --page-blur: var(--blur-medium);
+  --page-slide-ease: var(--ease-smooth-out);
+  --page-fade-ease: var(--ease-smooth-out);
   /* Entrada do hero da home (hero-37, mockup HeroV3Video): mesma ordem e atrasos */
   --hero-bg-dur: 1800ms;
   --hero-line-dur: 1100ms;
@@ -516,7 +523,77 @@
 }
 
 /* ── Movimento reduzido: tudo estático ──────────────────────── */
+/* ── 08 · Page side-by-side (navegação entre páginas) ───────── */
+/*
+ * Adaptado à View Transitions API (<ViewTransition> em app/[locale]/template.tsx):
+ * o recipe usa `transition` entre duas secções no mesmo DOM; aqui as duas páginas
+ * são snapshots do browser, por isso viram dois @keyframes com os mesmos valores.
+ * A que sai vai para a esquerda, a que entra vem da direita, ambas com fade e blur.
+ */
+::view-transition {
+  /* Cliques durante a transição chegam à página nova. */
+  pointer-events: none;
+}
+::view-transition-group(.t-page) {
+  animation-duration: var(--page-slide-dur);
+  animation-timing-function: var(--page-slide-ease);
+}
+::view-transition-old(.t-page) {
+  animation:
+    t-page-fade-out var(--page-fade-dur) var(--page-fade-ease) both,
+    t-page-slide-out var(--page-slide-dur) var(--page-slide-ease) both;
+}
+::view-transition-new(.t-page) {
+  animation:
+    t-page-fade-in var(--page-fade-dur) var(--page-fade-ease) both,
+    t-page-slide-in var(--page-slide-dur) var(--page-slide-ease) both;
+}
+@keyframes t-page-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes t-page-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes t-page-slide-out {
+  to {
+    transform: translateX(calc(var(--page-slide-distance) * -1));
+    filter: blur(var(--page-blur));
+  }
+}
+@keyframes t-page-slide-in {
+  from {
+    transform: translateX(var(--page-slide-distance));
+    filter: blur(var(--page-blur));
+  }
+}
+/* O header fica parado: é a referência de que só o conteúdo mudou. */
+.t-page-anchor {
+  view-transition-name: site-header;
+}
+::view-transition-group(site-header) {
+  animation: none;
+  z-index: 1;
+}
+::view-transition-old(site-header) {
+  display: none;
+}
+::view-transition-new(site-header) {
+  animation: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+  .t-page-anchor {
+    view-transition-name: none;
+  }
   .t-hover,
   .t-dropdown,
   .t-modal,
