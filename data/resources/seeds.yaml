@@ -1,17 +1,17 @@
 # yaml-language-server: $schema=../schema.json
 name: Seeds
-url: https://sproutsocial.com/seeds
+url: https://seeds.sproutsocial.com/
 area: discover
 category: brand-inspiration
 tags:
   - branding
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Hub criativo da Sprout Social com os recursos usados para expressar a identidade da marca.
   en: Sprout Social's creative hub, holding the resources used to express its brand identity.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://sproutsocial.com/seeds"
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://sproutsocial.com/seeds. Redirecionava de https://sproutsocial.com/seeds"

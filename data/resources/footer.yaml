@@ -5,8 +5,8 @@ area: discover
 category: ui-inspiration
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Galeria de rodapés de sites, filtráveis por tipo e estilo.
   en: Gallery of website footers you can sort by type and style.

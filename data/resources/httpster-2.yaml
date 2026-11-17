@@ -5,8 +5,9 @@ area: discover
 category: ui-inspiration
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: true
+license: MIT
 description:
   pt: Galeria de sites com ideias criativas de design para buscar referência.
   en: Gallery of websites with creative design ideas to use as reference.

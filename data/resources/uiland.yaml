@@ -6,8 +6,8 @@ category: app-research
 tags:
   - screens
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Biblioteca pesquisável com mais de 500 mil referências, entre telas de apps e web e páginas capturadas.
   en: Searchable library of 500,000+ references, from app and web screens to captured pages.

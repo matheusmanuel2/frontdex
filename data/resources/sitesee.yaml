@@ -5,8 +5,8 @@ area: discover
 category: ui-inspiration
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Galeria de sites escolhidos a dedo, para navegar por categoria, paleta de cores e estilo.
   en: Hand-picked website gallery you can browse by category, color palette and style.

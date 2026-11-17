@@ -5,8 +5,8 @@ area: discover
 category: ui-inspiration
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Galeria de sites escolhidos a dedo e atualizada todo dia, para buscar referência de design web.
   en: Hand-picked website gallery updated daily, for web design reference.

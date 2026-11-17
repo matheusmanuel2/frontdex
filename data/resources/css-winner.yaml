@@ -5,8 +5,8 @@ area: discover
 category: ui-inspiration
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Galeria de prêmios de sites com site do dia e do mês, onde você pode inscrever o próprio trabalho.
   en: Website awards gallery with site of the day and of the month, where you can submit your own work.

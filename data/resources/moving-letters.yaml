@@ -7,8 +7,8 @@ tags:
   - text
   - motion
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Exemplos de texto animado com JavaScript e anime.js.
   en: Examples of text animated with JavaScript and anime.js.

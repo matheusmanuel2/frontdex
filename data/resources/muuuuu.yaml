@@ -5,8 +5,8 @@ area: discover
 category: ui-inspiration
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Galeria japonesa de sites filtrável por setor, paleta, tipo de site e expressão, com site do dia e créditos.
   en: Japanese web gallery filterable by industry, colour scheme, site type and style, with a site of the day and credits.

@@ -7,8 +7,8 @@ tags:
   - screens
   - flows
   - figma
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Busca em 227 mil screenshots de 500+ apps SaaS, de preços a onboarding, arrastáveis para o Figma.
   en: Search 227k real UI screenshots from 500+ SaaS apps, from pricing to onboarding, draggable into Figma.

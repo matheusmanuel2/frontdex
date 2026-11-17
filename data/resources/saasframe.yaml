@@ -7,8 +7,8 @@ tags:
   - screens
   - flows
   - figma
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Biblioteca de sites e telas reais de SaaS com fluxos de UX e designs copiáveis para o Figma.
   en: Library of real SaaS websites and product screens, with UX flows and designs you can copy into Figma.

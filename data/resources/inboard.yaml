@@ -5,8 +5,8 @@ area: discover
 category: moodboards
 tags:
   - macos
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: App para organizar screenshots, imagens e fotos de inspiração sem depender de pastas no Finder.
   en: App to organize inspiration screenshots, images and photos without juggling Finder folders.

@@ -5,8 +5,8 @@ area: discover
 category: ui-inspiration
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Premiação de sites onde você vê os vencedores ou envia o seu próprio projeto.
   en: Website awards where you browse winners or submit your own site.
