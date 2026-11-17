@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Lighthouse
+url: https://developer.chrome.com/docs/lighthouse/
+area: learn
+category: reference
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Documentação do Lighthouse, que automatiza auditorias de performance de páginas web.
+  en: Docs for Lighthouse, which automates web page performance audits.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://developer.chrome.com/docs/lighthouse/"

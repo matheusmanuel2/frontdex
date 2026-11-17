@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Resource Timing API
+url: https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Resource_timing
+area: learn
+category: reference
+tags:
+  - javascript
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Referência MDN para obter dados detalhados de rede sobre o carregamento de cada recurso da página.
+  en: MDN reference for detailed network timing data on how each page resource loads.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Resource_timing"

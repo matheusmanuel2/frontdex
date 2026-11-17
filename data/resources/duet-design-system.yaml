@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Duet Design System
+url: https://www.duetds.com
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Ferramentas, padrões e práticas que servem de base aos produtos digitais da LocalTapiola e da Turva.
+  en: Tools, patterns and practices behind LocalTapiola and Turva's digital products.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://www.duetds.com"

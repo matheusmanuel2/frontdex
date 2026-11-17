@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: The Type
+url: https://www.typeisbeautiful.com/
+area: learn
+category: articles
+tags:
+  - typography
+pricing: TODO
+open_source: TODO
+description:
+  pt: Publicação sobre tipografia e design em diferentes culturas e sistemas de escrita.
+  en: Publication on type and design across cultures and writing systems.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.typeisbeautiful.com/"

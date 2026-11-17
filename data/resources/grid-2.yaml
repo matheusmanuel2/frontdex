@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: GRID
+url: https://grid.malven.co/
+area: learn
+category: reference
+tags:
+  - css
+  - interactive
+pricing: TODO
+open_source: TODO
+description:
+  pt: Cola visual das propriedades do CSS Grid, cada uma explicada com um exemplo simples.
+  en: Visual cheatsheet of CSS Grid properties, each one shown with a simple example.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://grid.malven.co/"

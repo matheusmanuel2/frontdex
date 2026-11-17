@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CreativeLive
+url: https://www.creativelive.com/
+area: learn
+category: courses
+tags:
+  - video
+pricing: TODO
+open_source: TODO
+description:
+  pt: Aulas de fotografia, design, vídeo e negócios dadas por criadores que trabalham na área.
+  en: Classes in photography, design, video and business taught by working creators.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.creativelive.com/"

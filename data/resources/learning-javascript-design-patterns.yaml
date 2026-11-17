@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Learning JavaScript Design Patterns
+url: https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+area: learn
+category: books
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Livro com exemplos de padrões de projeto em JavaScript e como aplicá-los no seu código.
+  en: Book with examples of JavaScript design patterns and how to apply them to your code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://addyosmani.com/resources/essentialjsdesignpatterns/book/"

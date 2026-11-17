@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: puppeteer-webperf
+url: https://github.com/addyosmani/puppeteer-webperf
+repo: https://github.com/addyosmani/puppeteer-webperf
+area: learn
+category: guides
+tags:
+  - web
+  - tutorial
+pricing: TODO
+open_source: true
+license: Apache-2.0
+description:
+  pt: Exemplos de como automatizar testes de desempenho web com Puppeteer.
+  en: Examples of automating web performance testing with Puppeteer.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/addyosmani/puppeteer-webperf"

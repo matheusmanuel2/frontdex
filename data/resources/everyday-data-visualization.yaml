@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Everyday Data Visualization
+url: https://www.manning.com/books/everyday-data-visualization
+area: learn
+category: books
+tags:
+  - typography
+pricing: TODO
+open_source: TODO
+description:
+  pt: Livro sobre os princípios de cor, tipografia, tipos de gráfico e narrativa com dados.
+  en: Book on the principles of color, typography, chart types and data storytelling.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.manning.com/books/everyday-data-visualization"

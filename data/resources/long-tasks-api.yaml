@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Long Tasks API
+url: https://developer.mozilla.org/en-US/docs/Web/API/Long_Tasks_API
+area: learn
+category: reference
+tags:
+  - javascript
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Referência MDN da interface que informa tarefas que ocupam a thread de UI por 50 ms ou mais.
+  en: MDN reference for the interface reporting tasks that block the UI thread for 50 ms or more.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://developer.mozilla.org/en-US/docs/Web/API/Long_Tasks_API"

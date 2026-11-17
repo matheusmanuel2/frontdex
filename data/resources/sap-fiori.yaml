@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: SAP Fiori
+url: https://experience.sap.com/fiori-design/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system da SAP organizado por papéis de usuário e processos de negócio.
+  en: SAP's design system organised around user roles and business processes.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://experience.sap.com/fiori-design/"

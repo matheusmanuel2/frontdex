@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Data Viz Project
+url: https://datavizproject.com
+area: learn
+category: reference
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Catálogo de tipos de visualização para achar o formato certo para seus dados.
+  en: Catalog of visualization types for finding the right format for your data.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://datavizproject.com"

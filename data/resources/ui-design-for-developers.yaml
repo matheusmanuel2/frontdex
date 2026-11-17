@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: UI Design for Developers
+url: https://designcode.io/ui-design-for-developers
+area: learn
+category: courses
+tags:
+  - tutorial
+pricing: TODO
+open_source: TODO
+description:
+  pt: Curso da DesignCode que ensina UI a desenvolvedores sem se perder em teoria visual pesada.
+  en: DesignCode course that teaches UI to developers without getting lost in heavy visual theory.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://designcode.io/ui-design-for-developers"

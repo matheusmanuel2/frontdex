@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Patterns.dev
+url: https://react-apple-signin-auth.ahmedtokyo.com/
+repo: https://github.com/a-tokyo/react-apple-signin-auth
+area: learn
+category: guides
+tags:
+  - javascript
+  - web
+pricing: TODO
+open_source: TODO
+license: MIT
+description:
+  pt: Padrões de design e de performance em JavaScript, explicados para quem constrói aplicações web.
+  en: JavaScript design and performance patterns, explained for people building web applications.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-apple-signin-auth.ahmedtokyo.com/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Design Better
+url: https://www.designbetter.co/
+area: learn
+category: podcasts
+tags:
+  - podcast
+pricing: TODO
+open_source: TODO
+description:
+  pt: Podcast, newsletters e livros de Aarron Walter e Eli Woolery, com vagas e uma comunidade que se reúne a cada duas semanas.
+  en: Podcast, newsletters and books by Aarron Walter and Eli Woolery, with jobs and a community that meets every other week.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.designbetter.co/"

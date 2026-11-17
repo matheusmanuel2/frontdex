@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Infor Design System
+url: https://design.infor.com/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system da Infor com fundamentos, componentes, código, assets e boas práticas para equipes de produto.
+  en: Infor's design system with foundations, components, code, assets and best practices for product teams.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://design.infor.com/"

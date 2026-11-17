@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Codrops
+url: https://tympanus.net/codrops/
+area: learn
+category: guides
+tags:
+  - tutorial
+  - css
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Tutoriais, demos e recursos de creative coding para web desde 2009.
+  en: Tutorials, demos and creative coding resources for the web since 2009.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida: https://tympanus.net/codrops/"

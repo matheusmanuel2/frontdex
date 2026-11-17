@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Boagworld Show
+url: https://boagworld.com/show/
+area: learn
+category: podcasts
+tags:
+  - podcast
+pricing: TODO
+open_source: TODO
+description:
+  pt: Conversas descontraídas sobre UX, marketing e estratégia digital, com piadas de pai no meio.
+  en: Relaxed chats about UX, marketing and digital strategy, with dad jokes along the way.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://boagworld.com/show/"

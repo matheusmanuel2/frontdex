@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Makeover Monday
+url: https://www.makeovermonday.co.uk/
+area: learn
+category: challenges
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: "Desafio semanal: refazer um gráfico com o mesmo conjunto de dados e comparar abordagens."
+  en: "Weekly challenge: remake one chart from the same dataset and compare approaches."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.makeovermonday.co.uk/"

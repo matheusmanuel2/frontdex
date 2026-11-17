@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Layout
+url: https://layout.fm/
+area: learn
+category: podcasts
+tags:
+  - podcast
+pricing: TODO
+open_source: TODO
+description:
+  pt: Podcast semanal que mistura design, tecnologia e programação em conversas abertas.
+  en: Weekly podcast mixing design, technology and programming in open-ended conversations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://layout.fm/"

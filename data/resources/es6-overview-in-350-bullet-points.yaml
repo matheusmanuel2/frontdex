@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ES6 Overview in 350 Bullet Points
+url: https://ponyfoo.com/articles/es6
+area: learn
+category: guides
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Resumo do ES6 dividido em 350 tópicos curtos, para revisar os recursos da linguagem rapidamente.
+  en: ES6 summed up in 350 short bullet points, for a quick pass over the language features.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://ponyfoo.com/articles/es6"

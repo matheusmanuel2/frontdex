@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Smashing Magazine
+url: https://www.smashingmagazine.com/
+area: learn
+category: articles
+tags:
+  - css
+  - javascript
+  - accessibility
+pricing: TODO
+open_source: TODO
+description:
+  pt: Revista sobre CSS, JavaScript, acessibilidade e UX para quem desenha e desenvolve front-end.
+  en: Magazine on CSS, JavaScript, accessibility and UX for front-end designers and developers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://www.smashingmagazine.com/"

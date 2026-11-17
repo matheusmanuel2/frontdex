@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Monzo tone of voice
+url: https://monzo.com/tone-of-voice/
+area: learn
+category: guides
+tags:
+  - text
+pricing: TODO
+open_source: TODO
+description:
+  pt: Princípios de escrita do banco Monzo, com conselhos práticos para textos de produto.
+  en: Monzo bank's writing principles, with practical advice for product copy.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://monzo.com/tone-of-voice/"

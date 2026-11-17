@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Aurora Design System
+url: https://design.gccollab.ca/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Guia central de design para os produtos de colaboração digital do governo do Canadá (GCcollab).
+  en: Central design guide for the Canadian government's GCcollab digital collaboration products.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://design.gccollab.ca/"

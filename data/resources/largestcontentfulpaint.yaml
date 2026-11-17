@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: LargestContentfulPaint
+url: https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint
+area: learn
+category: reference
+tags:
+  - javascript
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Referência MDN com a medição do maior elemento de imagem ou texto pintado antes da interação.
+  en: MDN reference for timing the largest image or text paint before user input.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint"

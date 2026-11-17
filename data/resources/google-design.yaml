@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Google Design
+url: https://design.google.com/
+area: learn
+category: articles
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Recursos e histórias de design do Google, incluindo Material Design, Google Fonts e os processos por trás dos produtos.
+  en: Google's design resources and stories, including Material Design, Google Fonts and the process behind its products.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://design.google.com/"

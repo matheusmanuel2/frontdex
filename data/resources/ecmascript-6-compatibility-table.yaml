@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ECMAScript 6 compatibility table
+url: https://compat-table.github.io/compat-table/es6/
+area: learn
+category: reference
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Tabela de compatibilidade dos recursos do ECMAScript 6 entre navegadores e ambientes.
+  en: Compatibility table for ECMAScript 6 features across browsers and runtimes.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://compat-table.github.io/compat-table/es6/"

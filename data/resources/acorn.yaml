@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Acorn
+url: https://acorn.firefox.com/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system dos navegadores Firefox para desktop e celular.
+  en: Design system behind the Firefox desktop and mobile browsers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://acorn.firefox.com/"

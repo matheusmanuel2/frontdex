@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: PIE Design System
+url: https://pie.design/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system global da Just Eat Takeaway.com, usado em todos os produtos do grupo.
+  en: Just Eat Takeaway.com's global design system, used across all of its products.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://pie.design/"

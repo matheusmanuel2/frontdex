@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Designing for Performance
+url: https://designingforperformance.com/
+area: learn
+category: books
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Introdução prática à performance web que ensina a testar escolhas de design contra a velocidade da página.
+  en: Practical intro to web performance that shows how to benchmark design choices against page speed.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://designingforperformance.com/"

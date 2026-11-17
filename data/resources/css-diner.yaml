@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Diner
+url: https://flukeout.github.io/
+area: learn
+category: challenges
+tags:
+  - css
+  - interactive
+pricing: TODO
+open_source: TODO
+description:
+  pt: Jogo em que você pratica seletores CSS escolhendo pratos numa mesa, nível após nível.
+  en: Game where you practice CSS selectors by picking dishes off a table, level by level.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://flukeout.github.io/"

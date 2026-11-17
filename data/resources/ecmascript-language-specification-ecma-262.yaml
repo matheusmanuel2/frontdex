@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ECMAScript Language Specification (ECMA-262)
+url: https://ecma-international.org/publications/standards/Ecma-262.htm
+area: learn
+category: reference
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Especificação oficial da linguagem ECMAScript, que define o JavaScript, agora na 17ª edição.
+  en: Official ECMAScript language specification that defines JavaScript, now in its 17th edition.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://ecma-international.org/publications/standards/Ecma-262.htm"

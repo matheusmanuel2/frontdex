@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: WordPress CSS Coding Standards
+url: https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/
+area: learn
+category: guides
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Padrões de CSS do WordPress, criados como base comum para colaboração e revisão de código.
+  en: WordPress CSS coding standards, set as a shared baseline for collaboration and code review.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/"

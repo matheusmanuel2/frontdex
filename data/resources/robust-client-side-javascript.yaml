@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Robust Client-Side JavaScript
+url: https://molily.de/robust-javascript/
+area: learn
+category: guides
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Guia sobre por que e como escrever JavaScript de cliente que continua funcionando quando algo falha.
+  en: Guide on why and how to write client-side JavaScript that keeps working when something fails.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://molily.de/robust-javascript/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Dropbox (S)CSS Style Guide
+url: https://github.com/dropbox/css-style-guide
+repo: https://github.com/dropbox/css-style-guide
+area: learn
+category: guides
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Guia de estilo da Dropbox para escrever CSS e SCSS.
+  en: Dropbox's style guide for authoring CSS and SCSS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/dropbox/css-style-guide"

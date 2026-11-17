@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Auro Design System
+url: https://auro.alaskaair.com/
+area: learn
+category: reference
+tags:
+  - design-systems
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Componentes web e diretrizes da Alaska Airlines para manter a UI consistente entre equipes e plataformas.
+  en: Alaska Airlines web components and guidelines that keep UI consistent across teams and platforms.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://auro.alaskaair.com/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Exercism JavaScript Track
+url: https://exercism.io/tracks/javascript
+area: learn
+category: challenges
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Trilha com 159 exercícios de JavaScript e mentoria para revisar as suas soluções.
+  en: Track of 159 JavaScript exercises, with mentoring to review your solutions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://exercism.io/tracks/javascript"

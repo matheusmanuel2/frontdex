@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Marvel Styleguide
+url: https://marvelapp.com/styleguide
+area: learn
+category: reference
+tags:
+  - design-systems
+  - branding
+pricing: TODO
+open_source: TODO
+description:
+  pt: Inventário vivo de componentes de UI, diretrizes de marca, assets e trechos de código dos produtos Marvel.
+  en: Live inventory of UI components, brand guidelines, assets and code snippets for Marvel products.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://marvelapp.com/styleguide"

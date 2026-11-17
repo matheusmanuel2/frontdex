@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Flex
+url: https://react-shadow-scroll.netlify.com/
+repo: https://github.com/andrelmlins/react-shadow-scroll
+area: learn
+category: reference
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+license: MIT
+description:
+  pt: Cheatsheet visual do flexbox, com cada propriedade explicada por um exemplo simples.
+  en: Visual flexbox cheatsheet, with each property explained through a simple example.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-shadow-scroll.netlify.com/"

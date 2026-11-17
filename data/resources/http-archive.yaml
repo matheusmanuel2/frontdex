@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: HTTP Archive
+url: https://httparchive.org/
+area: learn
+category: reference
+tags:
+  - analytics
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Rastreia os sites mais visitados e registra recursos, APIs da plataforma e execução de cada página.
+  en: Crawls top sites periodically and records resources, web platform APIs and execution traces for each page.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://httparchive.org/"

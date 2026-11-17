@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Bolt Design System
+url: https://boltdesignsystem.com/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Diretrizes, componentes e estilos visuais que sustentam o ecossistema digital da Pega.
+  en: Guidelines, components and visual styles behind Pega's digital ecosystem.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems. Lida: https://boltdesignsystem.com/"

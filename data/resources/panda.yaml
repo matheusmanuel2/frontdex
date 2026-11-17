@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Panda
+url: https://usepanda.com/
+area: learn
+category: articles
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Página inicial que reúne ferramentas, recursos e inspiração de design e tecnologia em um só feed.
+  en: Homepage that gathers design and tech tools, resources and inspiration into one feed.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://usepanda.com/"

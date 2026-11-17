@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Grid
+url: https://www.sheetxl.com
+repo: https://github.com/sheetxl/sheetxl
+area: learn
+category: reference
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Cheatsheet visual do CSS Grid, com cada propriedade explicada por um exemplo simples.
+  en: Visual CSS Grid cheatsheet, with each property explained through a simple example.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.sheetxl.com"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Material Design: cores"
+url: https://material.io/guidelines/style/color.html
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Diretrizes de cor do Material Design, o sistema do Google apoiado por código open source.
+  en: Color guidelines from Material Design, Google's system backed by open-source code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://material.io/guidelines/style/color.html"

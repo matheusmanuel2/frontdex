@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "RFC 9218: HTTP Prioritization"
+url: https://www.rfc-editor.org/rfc/rfc9218.html
+area: learn
+category: reference
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Esquema para o cliente HTTP dizer ao servidor como priorizar as respostas aos pedidos dele.
+  en: Scheme that lets an HTTP client tell the server how to prioritize responses to its requests.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.rfc-editor.org/rfc/rfc9218.html"

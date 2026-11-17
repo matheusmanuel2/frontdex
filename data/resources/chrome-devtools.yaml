@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Chrome DevTools
+url: https://developers.google.com/web/tools/chrome-devtools/
+area: learn
+category: reference
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Documentação das ferramentas do Chrome para depurar e otimizar aplicações web.
+  en: Docs for Chrome's built-in tools to debug and optimize web apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://developers.google.com/web/tools/chrome-devtools/"

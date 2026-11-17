@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Understand JavaScript's this Keyword in Depth
+url: https://egghead.io/courses/understand-javascript-s-this-keyword-in-depth
+area: learn
+category: courses
+tags:
+  - javascript
+  - video
+pricing: TODO
+open_source: TODO
+description:
+  pt: Curso em vídeo da egghead dedicado só ao this do JavaScript e aos casos em que ele não aponta para onde você espera.
+  en: egghead video course focused solely on JavaScript's this keyword and the cases where it points somewhere unexpected.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://egghead.io/courses/understand-javascript-s-this-keyword-in-depth"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS at BBC Sport
+url: https://medium.com/@shaunbent/css-at-bbc-sport-part-1-bab546184e66
+area: learn
+category: articles
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Relato de como a BBC Sport organiza a arquitetura de CSS num site de grande escala.
+  en: Account of how BBC Sport structures its CSS architecture on a large-scale site.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://medium.com/@shaunbent/css-at-bbc-sport-part-1-bab546184e66"

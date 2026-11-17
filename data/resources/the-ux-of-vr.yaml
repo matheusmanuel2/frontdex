@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: The UX of VR
+url: https://www.uxofvr.com/
+area: learn
+category: guides
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Recursos com curadoria sobre design para realidade virtual, aumentada e computação espacial.
+  en: Curated resources on designing for VR, AR and spatial computing.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.uxofvr.com/"

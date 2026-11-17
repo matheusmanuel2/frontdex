@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Frontend Mentor
+url: https://www.fffuel.co
+area: learn
+category: challenges
+tags:
+  - web
+  - tutorial
+pricing: freemium
+open_source: TODO
+description:
+  pt: Projetos reais de front-end e full-stack a partir de designs profissionais, com revisão de código por IA e feedback da comunidade.
+  en: Real front-end and full-stack projects from professional designs, with AI code review and community feedback.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.fffuel.co"

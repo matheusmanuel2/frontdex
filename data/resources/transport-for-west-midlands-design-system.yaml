@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Transport for West Midlands Design System
+url: https://designsystem.wmnetwork.co.uk/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system para serviços com a aparência da Transport for West Midlands.
+  en: Design system that gives services the look and feel of Transport for West Midlands.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://designsystem.wmnetwork.co.uk/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: web.dev
+url: https://web.dev/
+area: learn
+category: guides
+tags:
+  - web
+pricing: TODO
+open_source: TODO
+description:
+  pt: Guias do Google para construir experiências web que funcionam em qualquer navegador.
+  en: Google guides for building web experiences that work in any browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://web.dev/"

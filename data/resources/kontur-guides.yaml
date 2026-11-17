@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Kontur Guides
+url: https://guides.kontur.ru/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Requisitos de design de interface dos serviços web da Kontur, com exemplos úteis para estudar web design.
+  en: Kontur's UI design requirements for its web services, with examples useful for learning web design.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://guides.kontur.ru/"

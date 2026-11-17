@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Porsche Design System
+url: https://designsystem.porsche.com
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Diretrizes de UX e componentes web baseados em padrões para produtos digitais da Porsche.
+  en: UX guidelines and pattern-based web components for Porsche digital products.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://designsystem.porsche.com"

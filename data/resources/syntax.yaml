@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Syntax
+url: https://syntax.fm/
+area: learn
+category: podcasts
+tags:
+  - javascript
+  - css
+  - podcast
+pricing: TODO
+open_source: TODO
+description:
+  pt: Wes Bos e Scott Tolinski falam de CSS, JavaScript, frameworks e TypeScript em dois episódios por semana.
+  en: Wes Bos and Scott Tolinski talk CSS, JavaScript, frameworks and TypeScript in two episodes a week.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://syntax.fm/"

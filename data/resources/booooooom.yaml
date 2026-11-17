@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Booooooom
+url: https://www.booooooom.com/blog/design/
+area: learn
+category: articles
+tags:
+  - illustration
+pricing: TODO
+open_source: TODO
+description:
+  pt: Arquivo de artigos de design gráfico e interativo de uma comunidade de arte e criação.
+  en: Archive of graphic and interactive design articles from an art and creative community.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.booooooom.com/blog/design/"

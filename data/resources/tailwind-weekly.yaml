@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Tailwind Weekly
+url: https://tailwindweekly.com/
+area: learn
+category: articles
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Newsletter semanal com notícias, artigos, vídeos e recursos sobre Tailwind CSS e front-end.
+  en: Weekly newsletter with news, articles, videos and resources on Tailwind CSS and front-end.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: aniftyco/awesome-tailwindcss. Lida: https://tailwindweekly.com/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Fluent 2
+url: https://fluent.microsoft.com/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system da Microsoft que liga design e desenvolvimento entre apps e plataformas.
+  en: Microsoft's design system connecting design and development across apps and platforms.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://fluent.microsoft.com/"

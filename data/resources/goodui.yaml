@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: GoodUI
+url: https://www.goodui.org/
+area: learn
+category: guides
+tags:
+  - ab-testing
+pricing: TODO
+open_source: TODO
+description:
+  pt: Padrões de UI testados em A/B para repetir o que funcionou em conversão e evitar o que falhou.
+  en: A/B tested UI patterns for repeating what lifted conversion elsewhere and avoiding what failed.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: nicolesaidy/awesome-web-design. Lida: https://www.goodui.org/"

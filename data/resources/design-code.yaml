@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Design+Code
+url: https://designcode.io/
+area: learn
+category: courses
+tags:
+  - tutorial
+pricing: TODO
+open_source: TODO
+description:
+  pt: Mais de 300 horas de treinamento com templates, prompts, código-fonte e vídeos para baixar, focado em interfaces e apps.
+  en: 300+ hours of training with templates, prompts, source code and downloadable videos, focused on interfaces and apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://designcode.io/"

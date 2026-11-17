@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: User Timing
+url: https://www.w3.org/TR/user-timing/
+area: learn
+category: reference
+tags:
+  - web
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Especificação da interface que dá timestamps de alta precisão para medir a performance da sua aplicação.
+  en: Spec for the interface that gives high-precision timestamps to measure your application's performance.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.w3.org/TR/user-timing/"

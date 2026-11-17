@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Functional-Light JavaScript
+url: https://github.com/getify/Functional-Light-JS
+repo: https://github.com/getify/Functional-Light-JS
+area: learn
+category: books
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Livro sobre programação funcional pragmática e equilibrada em JavaScript.
+  en: Book on pragmatic, balanced functional programming in JavaScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://github.com/getify/Functional-Light-JS"

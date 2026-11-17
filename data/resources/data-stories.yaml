@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Data Stories
+url: https://datastori.es/
+area: learn
+category: podcasts
+tags:
+  - podcast
+pricing: TODO
+open_source: TODO
+description:
+  pt: Podcast sobre visualização de dados apresentado por Enrico Bertini e Moritz Stefaner.
+  en: Podcast on data visualization hosted by Enrico Bertini and Moritz Stefaner.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://datastori.es/"

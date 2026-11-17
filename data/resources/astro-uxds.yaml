@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Astro UXDS
+url: https://astrouxds.com/
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system para software espacial e de missão crítica, baseado em pesquisa com operações de satélite.
+  en: Design system for space and mission-critical software, built on UX research in satellite operations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://astrouxds.com/"

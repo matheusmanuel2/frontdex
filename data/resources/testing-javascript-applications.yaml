@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Testing JavaScript Applications
+url: https://www.manning.com/books/testing-javascript-applications
+area: learn
+category: books
+tags:
+  - javascript
+pricing: paid
+open_source: TODO
+description:
+  pt: Livro da Manning sobre testes automatizados em JavaScript, escrito por um contribuidor de biblioteca de testes.
+  en: Manning book on automated testing in JavaScript, written by a core JS testing library contributor.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://www.manning.com/books/testing-javascript-applications"

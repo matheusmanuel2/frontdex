@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Google HTML/CSS Style Guide
+url: https://google.github.io/styleguide/htmlcssguide.html
+area: learn
+category: guides
+tags:
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Guia de estilo de HTML e CSS usado nos projetos open source originados no Google.
+  en: HTML and CSS style guide used across Google-originated open-source projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://google.github.io/styleguide/htmlcssguide.html"

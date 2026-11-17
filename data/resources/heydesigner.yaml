@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: HeyDesigner
+url: https://heydesigner.com/
+area: learn
+category: articles
+tags:
+  - css
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: "Links de design escolhidos a dedo todo dia, com envio semanal: UX, CSS moderno, design systems e IA."
+  en: "Hand-picked design links daily, with a weekly email: UX, modern CSS, design systems and AI tools."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://heydesigner.com/"

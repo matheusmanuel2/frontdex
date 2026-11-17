@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: You Don't Know JS
+url: https://www.amazon.com/dp/B085XXCJ7X
+repo: https://github.com/getify/You-Dont-Know-JS
+area: learn
+category: books
+tags:
+  - javascript
+pricing: TODO
+open_source: TODO
+description:
+  pt: Série de livros sobre a linguagem JavaScript, já em duas edições, aberta no GitHub.
+  en: Book series on the JavaScript language, two editions so far, open on GitHub.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://www.amazon.com/dp/B085XXCJ7X"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Geist
+url: https://vercel.com/geist
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system da Vercel para construir experiências web consistentes.
+  en: Vercel's design system for building consistent web experiences.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://vercel.com/geist"

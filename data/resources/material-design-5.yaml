@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Material Design
+url: https://material.google.com/
+area: learn
+category: reference
+tags:
+  - design-systems
+  - android
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system do Google, apoiado em código open source, para equipes construírem produtos digitais consistentes.
+  en: Google's design system, backed by open-source code, for teams building consistent digital products.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: nicolesaidy/awesome-web-design. Lida: https://material.google.com/"

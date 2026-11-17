@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: DesignerUp
+url: https://designerup.co/
+area: learn
+category: courses
+tags:
+  - tutorial
+pricing: TODO
+open_source: TODO
+description:
+  pt: Cursos de UX/UI e design de produto com recursos e uma comunidade de designers.
+  en: UX/UI and product design courses with resources and a community of designers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://designerup.co/"

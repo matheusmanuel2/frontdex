@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Sketch Learn
+url: https://www.sketchapp.com/learn/
+area: learn
+category: guides
+tags:
+  - tutorial
+pricing: TODO
+open_source: TODO
+description:
+  pt: Recursos oficiais para aprender o Sketch, do primeiro uso a técnicas mais avançadas.
+  en: Official resources for learning Sketch, from first steps to sharper techniques.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: nicolesaidy/awesome-web-design. Lida: https://www.sketchapp.com/learn/"

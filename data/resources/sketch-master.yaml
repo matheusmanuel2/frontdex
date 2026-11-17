@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Sketch Master
+url: https://sketchmaster.com/
+area: learn
+category: courses
+tags:
+  - tutorial
+pricing: TODO
+open_source: TODO
+description:
+  pt: Cursos em vídeo para profissionais que estão aprendendo o Sketch.
+  en: Video courses for professionals learning Sketch.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://sketchmaster.com/"

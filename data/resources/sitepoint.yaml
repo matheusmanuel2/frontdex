@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: SitePoint
+url: https://www.sitepoint.com/blog/
+area: learn
+category: articles
+tags:
+  - javascript
+  - css
+pricing: TODO
+open_source: TODO
+description:
+  pt: Blog para aprender JavaScript, CSS, UX e WordPress e se manter atualizado em desenvolvimento web.
+  en: Blog to learn JavaScript, CSS, UX and WordPress and keep up with web development.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.sitepoint.com/blog/"

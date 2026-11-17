@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Mística
+url: https://brandfactory.telefonica.com/mistica
+area: learn
+category: reference
+tags:
+  - design-systems
+pricing: TODO
+open_source: TODO
+description:
+  pt: Design system digital do grupo Telefónica, com guidelines e recursos.
+  en: Telefónica group's digital design system, with guidelines and resources.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://brandfactory.telefonica.com/mistica"
