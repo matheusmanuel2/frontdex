@@ -1,3 +1,4 @@
+import { pageCount } from '@/components/category/paging';
 import {
   getCollectionResources,
   listAreas,
@@ -26,10 +27,15 @@ export function sitemapEntries(): SitemapEntry[] {
   return [
     { path: '', lastModified: latest(all) },
     ...listAreas().map((area) => ({ path: `/${area.slug}`, lastModified: latest(listResources({ area: area.slug })) })),
-    ...listCategories().map((category) => ({
-      path: `/c/${category.slug}`,
-      lastModified: latest(listResources({ category: category.slug })),
-    })),
+    ...listCategories().flatMap((category) => {
+      const resources = listResources({ category: category.slug });
+      const lastModified = latest(resources);
+      const pages = pageCount(resources.length);
+      return Array.from({ length: pages }, (_, i) => ({
+        path: i === 0 ? `/c/${category.slug}` : `/c/${category.slug}/p/${i + 1}`,
+        lastModified,
+      }));
+    }),
     ...all.map((resource) => ({ path: `/r/${resource.slug}`, lastModified: resource.last_checked })),
     { path: '/collections', lastModified: latest(listCollections().flatMap((c) => getCollectionResources(c.slug))) },
     ...listCollections().map((collection) => ({

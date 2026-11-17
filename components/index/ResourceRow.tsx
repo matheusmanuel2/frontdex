@@ -103,16 +103,25 @@ type ResourceListProps = {
   ordered?: boolean;
   /** Sem painel: só linhas finas em cima e em baixo (home). */
   plain?: boolean;
+  /** Entrada em sequência (recipe 18). Desligada quando a lista muda depois de a página abrir. */
+  reveal?: boolean;
 };
 
 /** Painel da lista densa (raio 16px, spec 004), ou lista só com linhas (`plain`). */
-export function ResourceList({ children, label, className, ordered = false, plain = false }: ResourceListProps) {
+export function ResourceList({
+  children,
+  label,
+  className,
+  ordered = false,
+  plain = false,
+  reveal = true,
+}: ResourceListProps) {
   const List = ordered ? 'ol' : 'ul';
   return (
     <List
       aria-label={label}
       className={cn(
-        't-reveal-list',
+        reveal && 't-reveal-list',
         plain ? 'border-y border-border' : 'overflow-hidden rounded-panel border border-border bg-list',
         className,
       )}

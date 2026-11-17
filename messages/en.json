@@ -162,7 +162,12 @@
     "missingTitle": "Missing a resource in {category}?",
     "missingBody": "If it would be missed when gone, it belongs here.",
     "noneTitle": "No resources in this category yet.",
-    "noneBody": "Know something that would be missed here? Suggest it on GitHub."
+    "noneBody": "Know something that would be missed here? Suggest it on GitHub.",
+    "loading": "Loading the whole category…",
+    "pagination": "Pagination",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page {page}"
   },
   "level": {
     "beginner": "Beginner",
@@ -288,6 +293,7 @@
     "related": "More in {category}",
     "relatedList": "Other {category} resources",
     "data": "Open data",
-    "areas": "Areas"
+    "areas": "Areas",
+    "categoryPageTitle": "{category}: hand-picked front-end resources, page {page}"
   }
 }
