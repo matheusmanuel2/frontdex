@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "A Change of Brand"
+url: https://open.spotify.com/show/5eyO9cVfvEypric8e5LaAe
+area: learn
+category: podcasts
+tags: [ podcast, branding ]
+pricing: free
+open_source: false
+description:
+  pt: "Podcast sobre branding na prática, com histórias reais de rebrand e do que mudou no negócio."
+  en: "Podcast about branding in practice, with real rebrand stories and what changed in the business."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

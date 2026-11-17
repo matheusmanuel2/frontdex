@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Shape Method"
+url: https://shape.method.ac/
+area: learn
+category: challenges
+tags: [ interactive, typography ]
+pricing: free
+open_source: false
+description:
+  pt: "Jogo em que você corrige a forma das letras com curvas Bézier. Treino direto para quem desenha ícones."
+  en: "Game where you fix letterforms with Bézier curves. Direct practice if you draw icons."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

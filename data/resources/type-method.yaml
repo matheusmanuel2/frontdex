@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Type Method"
+url: https://type.method.ac/
+area: learn
+category: challenges
+tags: [ interactive, typography ]
+pricing: free
+open_source: false
+description:
+  pt: "Jogo de kerning: você ajusta o espaço entre letras e compara com a solução de um tipógrafo."
+  en: "Kerning game: you space the letters and compare your result with a typographer's solution."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."
