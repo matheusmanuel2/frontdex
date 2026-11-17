@@ -34,7 +34,7 @@ export function suggestHref(area: string): string {
 }
 
 /**
- * Explorar por área: uma linha por área (nome, descrição, contagem e categorias).
+ * Explorar por área: uma linha por área (nome, descrição, contagem e até 2 categorias).
  * Área sem recursos mostra "Em construção" + "Sugerir o primeiro"; volta ao normal
  * sozinha quando entra o primeiro recurso.
  */
@@ -48,9 +48,14 @@ export async function AreasSection() {
       <ul className="grid gap-4 min-[720px]:grid-cols-2">
         {listAreas().map((area) => {
           const resources = listResources({ area: area.slug });
-          const categories = listCategories(area.slug).filter(
-            (category) => listResources({ category: category.slug }).length > 0,
-          );
+          // No máximo 2 categorias por cartão (as com mais recursos), senão o cartão cresce
+          // com a área. A lista completa está na página da área.
+          const categories = listCategories(area.slug)
+            .map((category) => ({ category, count: listResources({ category: category.slug }).length }))
+            .filter(({ count }) => count > 0)
+            .sort((a, b) => b.count - a.count)
+            .slice(0, 2)
+            .map(({ category }) => category);
           const empty = resources.length === 0;
           const descriptionIds = [
             `${area.slug}-description`,
