@@ -9,9 +9,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Vencedores e finalistas do prêmio da Apple que reconhece inovação e técnica no design de apps e jogos.
-  en: Winners and finalists of Apple's award for innovation and technical craft in app and game design.
+  pt: Vencedores e finalistas do prêmio da Apple que reconhece inovação e técnica
+    no design de apps e jogos.
+  en: Winners and finalists of Apple's award for innovation and technical craft in
+    app and game design.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://developer.apple.com/design/awards/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://developer.apple.com/design/awards/"
+id: 189

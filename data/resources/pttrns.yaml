@@ -9,9 +9,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Padrões de interface de apps para aprender boas práticas de experiência do usuário.
+  pt: Padrões de interface de apps para aprender boas práticas de experiência do
+    usuário.
   en: App interface patterns for learning user experience best practices.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://pttrns.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools, gztchan/awesome-design,
+  nicolesaidy/awesome-web-design. Lida: https://pttrns.com/"
+id: 225

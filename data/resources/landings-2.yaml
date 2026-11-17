@@ -8,9 +8,12 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Exemplos de landing pages para inspiração, filtrados conforme a sua preferência.
+  pt: Exemplos de landing pages para inspiração, filtrados conforme a sua
+    preferência.
   en: Landing page examples for inspiration, filtered by your preference.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://landings.dev"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://landings.dev"
+id: 216

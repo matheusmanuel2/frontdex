@@ -9,9 +9,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Biblioteca pesquisável com mais de 500 mil referências, entre telas de apps e web e páginas capturadas.
-  en: Searchable library of 500,000+ references, from app and web screens to captured pages.
+  pt: Biblioteca pesquisável com mais de 500 mil referências, entre telas de apps
+    e web e páginas capturadas.
+  en: Searchable library of 500,000+ references, from app and web screens to
+    captured pages.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://glyphter.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://glyphter.com"
+id: 237

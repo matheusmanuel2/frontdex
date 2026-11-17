@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Exemplos de landing pages de empresas SaaS reunidos como referência de design.
+  pt: Exemplos de landing pages de empresas SaaS reunidos como referência de
+    design.
   en: Landing page examples from SaaS companies, gathered as design reference.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, pedido do Matheus. Lida: https://saaslandingpage.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools,
+  pedido do Matheus. Lida: https://saaslandingpage.com/"
+id: 228

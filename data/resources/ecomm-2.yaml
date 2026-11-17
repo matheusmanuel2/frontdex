@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Galeria com mais de 3000 lojas online para inspiração, junto com a tecnologia por trás de cada uma.
-  en: Gallery of 3000+ ecommerce websites for inspiration, along with the tech behind each one.
+  pt: Galeria com mais de 3000 lojas online para inspiração, junto com a
+    tecnologia por trás de cada uma.
+  en: Gallery of 3000+ ecommerce websites for inspiration, along with the tech
+    behind each one.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ecomm.design/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://ecomm.design/"
+id: 201

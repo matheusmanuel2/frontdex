@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Galeria de inspiração de web design atualizada todo dia para designers e agências.
+  pt: Galeria de inspiração de web design atualizada todo dia para designers e
+    agências.
   en: Web design inspiration gallery updated daily for designers and agencies.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.webdesign-inspiration.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.webdesign-inspiration.com/"
+id: 238

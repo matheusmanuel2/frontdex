@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Galeria de sites escolhidos a dedo, para navegar por categoria, paleta de cores e estilo.
-  en: Hand-picked website gallery you can browse by category, color palette and style.
+  pt: Galeria de sites escolhidos a dedo, para navegar por categoria, paleta de
+    cores e estilo.
+  en: Hand-picked website gallery you can browse by category, color palette and
+    style.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://practice.typekit.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://practice.typekit.com/"
+id: 234

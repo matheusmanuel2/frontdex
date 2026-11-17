@@ -9,9 +9,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Busca de imagens por tema e por cor para montar moodboards com arte, logos, fotografia e UI.
-  en: Image and colour search engine for building moodboards from art, logos, photography and UI.
+  pt: Busca de imagens por tema e por cor para montar moodboards com arte, logos,
+    fotografia e UI.
+  en: Image and colour search engine for building moodboards from art, logos,
+    photography and UI.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://designspiration.net/. Redirecionava de https://designspiration.net/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://designspiration.net/. Redirecionava de
+  https://designspiration.net/"
+id: 200

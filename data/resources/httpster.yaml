@@ -13,4 +13,7 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design, swyxio/spark-joy, pedido do Matheus. Lida: https://httpster.net/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools, gztchan/awesome-design, swyxio/spark-joy,
+  pedido do Matheus. Lida: https://httpster.net/"
+id: 210

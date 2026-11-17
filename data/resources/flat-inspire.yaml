@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Galeria curada de sites feitos no estilo flat design, para ver como cada um resolve a interface.
-  en: Curated gallery of websites built in a flat design style, to see how each one handles the interface.
+  pt: Galeria curada de sites feitos no estilo flat design, para ver como cada um
+    resolve a interface.
+  en: Curated gallery of websites built in a flat design style, to see how each
+    one handles the interface.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://flatinspire.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://flatinspire.com/"
+id: 204

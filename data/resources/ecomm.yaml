@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Mais de 3000 lojas virtuais reunidas para inspirar o design de e-commerce, com a tecnologia de cada uma.
-  en: 3000+ online stores gathered for ecommerce design inspiration, with the tech each one uses.
+  pt: Mais de 3000 lojas virtuais reunidas para inspirar o design de e-commerce,
+    com a tecnologia de cada uma.
+  en: 3000+ online stores gathered for ecommerce design inspiration, with the tech
+    each one uses.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://grtcalculator.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://grtcalculator.com/"
+id: 202

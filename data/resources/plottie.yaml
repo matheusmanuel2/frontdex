@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Base gratuita com mais de 100 mil gráficos científicos de revistas abertas para inspirar figuras.
-  en: Free database of 100k+ scientific plots from open-access journals to inspire figures.
+  pt: Base gratuita com mais de 100 mil gráficos científicos de revistas abertas
+    para inspirar figuras.
+  en: Free database of 100k+ scientific plots from open-access journals to inspire
+    figures.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://plottie.art"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://plottie.art"
+id: 224

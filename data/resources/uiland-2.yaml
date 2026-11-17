@@ -9,9 +9,12 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Biblioteca pesquisável com mais de 489 mil telas de apps e sites, além de páginas web capturadas.
+  pt: Biblioteca pesquisável com mais de 489 mil telas de apps e sites, além de
+    páginas web capturadas.
   en: Searchable library of over 489k app and web screens, plus captured web pages.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uiland.design/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://uiland.design/"
+id: 236

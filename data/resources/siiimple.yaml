@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Sites minimalistas escolhidos a dedo desde 2008, de portfólios e arquitetura a e-commerce.
-  en: Hand-picked minimalist websites since 2008, from portfolios and architecture to ecommerce.
+  pt: Sites minimalistas escolhidos a dedo desde 2008, de portfólios e arquitetura
+    a e-commerce.
+  en: Hand-picked minimalist websites since 2008, from portfolios and architecture
+    to ecommerce.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://siiimple.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://siiimple.com/"
+id: 232
