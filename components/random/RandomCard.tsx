@@ -21,7 +21,7 @@ export type RandomItem = {
   badge?: string;
 };
 
-type Labels = { open: string; another: string; visit: string; footer: string };
+type Labels = { open: string; another: string; visit: string; newTab: string; footer: string };
 
 function subscribe() {
   return () => {};
@@ -119,6 +119,7 @@ export function RandomCard({ items, locale, labels }: { items: RandomItem[]; loc
           ) : null}
           <a
             href={outboundUrl(current.url)}
+            target="_blank"
             rel="noopener"
             data-umami-event="resource_outbound"
             data-umami-event-slug={current.slug}
@@ -126,6 +127,7 @@ export function RandomCard({ items, locale, labels }: { items: RandomItem[]; loc
             className="t-hover t-icon-host inline-flex h-10 items-center gap-2 rounded-pill border border-border-strong px-5 text-small text-primary hover:bg-graphite"
           >
             {labels.visit}
+            <span className="sr-only"> {labels.newTab}</span>
             <ArrowUpRightIcon size={16} />
           </a>
         </div>

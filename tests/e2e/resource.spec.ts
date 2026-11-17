@@ -1,16 +1,18 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 
-test('recurso com "por que está aqui", detalhes e links externos com noopener', async ({ page }) => {
+test('recurso com "por que está aqui", detalhes e links externos com noopener e nova aba', async ({ page }) => {
   await page.goto('/pt/r/kugiri');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('kugiri');
   await expect(page.getByRole('heading', { name: 'Por que está aqui' })).toBeVisible();
   await expect(page.getByText('MIT')).toBeVisible();
-  const visit = page.getByRole('link', { name: /Visitar edoardolunardi\.github\.io/ });
+  const visit = page.getByRole('link', { name: /Visitar edoardolunardi\.github\.io \(abre em nova aba\)/ });
   await expect(visit).toHaveAttribute(
     'href',
     'https://edoardolunardi.github.io/kugiri?ref=frontdex&utm_source=frontdex&utm_medium=referral',
   );
+  // Links de saída do recurso abrem numa nova aba (spec 003).
+  await expect(visit).toHaveAttribute('target', '_blank');
   for (const link of await page.locator('a[href^="http"]').all()) {
     await expect(link).toHaveAttribute('rel', /noopener/);
   }

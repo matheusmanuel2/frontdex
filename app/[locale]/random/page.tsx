@@ -24,6 +24,7 @@ export default async function RandomPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations('random');
   const pricing = await getTranslations('pricing');
+  const a11y = await getTranslations('a11y');
 
   const items: RandomItem[] = listResources().map((resource) => ({
     slug: resource.slug,
@@ -60,6 +61,7 @@ export default async function RandomPage({ params }: Props) {
                 open: t('open'),
                 another: t('another'),
                 visit: t('visit'),
+                newTab: a11y('newTab'),
                 footer: t('footer', { count: items.length }),
               }}
             />
