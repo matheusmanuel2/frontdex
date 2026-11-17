@@ -56,7 +56,7 @@ export default async function AddPage({ params }: Props) {
         <div className="mt-8 flex flex-wrap gap-3">
           <a
             href={`${GITHUB_URL}/issues/new?template=add-resource.yml`}
-            rel="noopener"
+            target="_blank" rel="noopener noreferrer"
             data-umami-event="add_click"
             className="t-hover inline-flex h-10 items-center rounded-pill bg-button-primary px-5 text-small font-semibold text-button-primary-text hover:opacity-90"
           >
@@ -64,7 +64,7 @@ export default async function AddPage({ params }: Props) {
           </a>
           <a
             href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`}
-            rel="noopener"
+            target="_blank" rel="noopener noreferrer"
             className="t-hover inline-flex h-10 items-center rounded-pill border border-border-strong px-5 text-small text-primary hover:bg-graphite"
           >
             {t('contributing')}

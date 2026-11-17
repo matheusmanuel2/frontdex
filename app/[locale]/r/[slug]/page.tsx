@@ -279,7 +279,7 @@ export default async function ResourcePage({ params }: Props) {
               {t('edit')}{' '}
               <a
                 href={`${GITHUB_URL}/edit/main/data/resources/${resource.slug}.yaml`}
-                rel="noopener"
+                target="_blank" rel="noopener noreferrer"
                 className="link-inline"
               >
                 {t('editLink')}

@@ -57,7 +57,7 @@ export async function SiteFooter() {
               </a>
             </li>
             <li>
-              <a href={GITHUB_URL} className={footerLink} rel="noopener">
+              <a href={GITHUB_URL} className={footerLink} target="_blank" rel="noopener noreferrer">
                 {t('github')}
               </a>
             </li>

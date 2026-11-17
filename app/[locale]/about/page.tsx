@@ -118,7 +118,7 @@ export default async function AboutPage({ params }: Props) {
             <div className="mt-7 flex flex-wrap gap-3">
               <a
                 href={GITHUB_URL}
-                rel="noopener"
+                target="_blank" rel="noopener noreferrer"
                 className="t-hover t-icon-host inline-flex h-10 items-center gap-2 rounded-pill bg-button-primary px-5 text-small font-semibold text-button-primary-text hover:opacity-90"
               >
                 <StarIcon size={16} />
