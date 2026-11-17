@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Gestalt Principles"
+url: https://www.gestaltprinciples.com/
+area: learn
+category: reference
+tags: [ interactive ]
+pricing: free
+open_source: false
+description:
+  pt: "Os princípios da Gestalt explicados com animações interativas. Explica por que um layout parece agrupado."
+  en: "Gestalt principles explained with interactive animations. Explains why a layout reads as grouped."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

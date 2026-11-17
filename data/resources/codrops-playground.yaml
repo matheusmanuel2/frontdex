@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Codrops Playground"
+url: https://tympanus.net/codrops/category/playground/
+author: "Codrops"
+area: learn
+category: reference
+tags: [ css, javascript, motion ]
+pricing: free
+open_source: false
+description:
+  pt: "Experimentos de interação e animação do Codrops com o código aberto ao lado. Bom para ver como um efeito é feito."
+  en: "Codrops interaction and animation experiments with the code alongside. Good for seeing how an effect is built."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail. Proteção anti-bot (403) no curl."

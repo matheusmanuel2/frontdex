@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "LS Graphics"
+url: https://www.ls.graphics/
+area: build
+category: assets
+tags: [ mockups, figma ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Mockups de dispositivos e UI para Figma e Photoshop, grátis e premium. Bons para apresentar telas."
+  en: "Device and UI mockups for Figma and Photoshop, free and premium. Good for presenting screens."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Paul Rand Logo Presentation Books"
+url: https://www.paulrand.design/work/Logo-Presentation-Books.html
+author: "Paul Rand"
+area: learn
+category: articles
+tags: [ branding, history ]
+pricing: free
+open_source: false
+description:
+  pt: "Os livros com que Paul Rand apresentava logos a clientes como IBM e NeXT. Aula de como defender uma ideia."
+  en: "The books Paul Rand used to present logos to clients like IBM and NeXT. A lesson in defending an idea."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

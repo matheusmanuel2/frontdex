@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Saul Bass Bell System pitch"
+url: https://www.youtube.com/watch?v=xKu2de0yCJI
+author: "AT&T Archives"
+area: learn
+category: articles
+tags: [ branding, history, video ]
+pricing: free
+open_source: false
+description:
+  pt: "Vídeo de 1969 com Saul Bass apresentando a nova identidade da Bell System. Pitch de marca do começo ao fim."
+  en: "1969 film of Saul Bass presenting the new Bell System identity. A brand pitch from start to finish."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

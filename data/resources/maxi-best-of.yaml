@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Maxi Best Of"
+url: https://maxibestof.one/
+area: discover
+category: ui-inspiration
+tags: [ web, typography ]
+pricing: TODO
+open_source: false
+description:
+  pt: "Seleção de sites, secções e fontes atualizada todo dia útil, mostrando que fontes cada site usa."
+  en: "Websites, sections and fonts picked every weekday, showing which typefaces each site uses."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Import Design Holy Grail. Cloudflare 403 no curl; abriu no browser. Pricing por confirmar (tem conta/login)."

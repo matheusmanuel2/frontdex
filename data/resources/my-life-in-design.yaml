@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "My Life in Design"
+url: https://podcasts.apple.com/us/podcast/my-life-in-design-podcast/id1618059450
+author: "Claire Blyth"
+area: learn
+category: podcasts
+tags: [ podcast, career, design-engineering ]
+pricing: free
+open_source: false
+description:
+  pt: "Conversas de Claire Blyth com designers sobre carreira e o caminho até onde estão hoje."
+  en: "Claire Blyth talks with designers about their careers and how they got where they are."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

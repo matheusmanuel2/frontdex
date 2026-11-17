@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Fontjoy"
+url: https://fontjoy.com/
+area: build
+category: typography-tools
+tags: [ typography ]
+pricing: free
+open_source: false
+description:
+  pt: "Sugere pares de fontes num clique, com controle de contraste entre elas. Bom ponto de partida."
+  en: "Suggests font pairings in one click, with control over how much they contrast. A good starting point."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

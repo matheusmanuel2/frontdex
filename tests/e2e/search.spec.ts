@@ -1,5 +1,7 @@
 import { expect, test, type Page } from '@playwright/test';
 
+import { listResources } from '../../lib/content';
+
 const pagefindRequests = (page: Page) => {
   const urls: string[] = [];
   page.on('request', (request) => {
@@ -132,7 +134,9 @@ test.describe('/search', () => {
       await page.getByRole('searchbox').fill('terminal');
       await page.getByRole('button', { name: 'Buscar', exact: true }).click();
       await expect(page).toHaveURL(/\/pt\/search\?q=terminal$/);
-      await expect(page.getByRole('list', { name: 'Índice completo' }).getByRole('listitem')).toHaveCount(8);
+      await expect(page.getByRole('list', { name: 'Índice completo' }).getByRole('listitem')).toHaveCount(
+        listResources().length,
+      );
     });
   });
 });

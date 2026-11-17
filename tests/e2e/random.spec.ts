@@ -1,5 +1,7 @@
 import { expect, test } from '@playwright/test';
 
+import { listResources } from '../../lib/content';
+
 test('mostra um recurso ao acaso e "Outro ao acaso" troca', async ({ page }) => {
   await page.goto('/pt/random');
   const name = page.locator('article h2');
@@ -11,7 +13,7 @@ test('mostra um recurso ao acaso e "Outro ao acaso" troca', async ({ page }) => 
   }
   expect(seen.size).toBeGreaterThan(1);
   await expect(page.getByRole('link', { name: 'Abrir recurso' })).toHaveAttribute('href', /^\/pt\/r\//);
-  await expect(page.getByText('sorteado de 8 recursos')).toBeVisible();
+  await expect(page.getByText(`sorteado de ${listResources().length} recursos`)).toBeVisible();
 });
 
 test('a tecla R sorteia outro', async ({ page }) => {

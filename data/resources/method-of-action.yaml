@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Method of Action"
+url: https://method.ac/
+area: learn
+category: challenges
+tags: [ interactive, typography ]
+pricing: free
+open_source: false
+description:
+  pt: "Jogos curtos para treinar o olho em curvas Bézier, cor, kerning e formas de letra."
+  en: "Short games to train your eye on Bézier curves, color, kerning and letterforms."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

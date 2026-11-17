@@ -63,6 +63,56 @@ describe('verificação de URLs nos YAML alterados', () => {
     expect(fetchImpl).toHaveBeenCalledTimes(2);
   });
 
+  it('confirma com GET quando HEAD devolve 4xx', async () => {
+    const methods: string[] = [];
+    const fetchImpl = vi.fn(async (_input: string | URL | Request, init?: RequestInit) => {
+      methods.push(init?.method ?? 'GET');
+      return response(methods.length === 1 ? 404 : 200);
+    });
+    const link = { file: 'data/resources/example.yaml', field: 'url' as const, url: 'https://example.test' };
+
+    const errors = await checkResourceLinks([link], { fetchImpl, resolveHost: resolvePublicHost });
+
+    expect(methods).toEqual(['HEAD', 'GET']);
+    expect(errors).toEqual([]);
+  });
+
+  it('confirma com GET quando HEAD falha na rede', async () => {
+    const fetchImpl = vi
+      .fn<() => Promise<Response>>()
+      .mockRejectedValueOnce(new TypeError('fetch failed'))
+      .mockResolvedValueOnce(response(200));
+    const link = { file: 'data/resources/example.yaml', field: 'url' as const, url: 'https://example.test' };
+
+    expect(await checkResourceLinks([link], { fetchImpl, resolveHost: resolvePublicHost })).toEqual([]);
+    expect(fetchImpl).toHaveBeenCalledTimes(2);
+  });
+
+  it.each([
+    ['cf-mitigated', 'challenge', 403, 'desafio anti-bot do Cloudflare'],
+    ['x-vercel-mitigated', 'challenge', 429, 'desafio anti-bot da Vercel'],
+    ['location', 'https://example.test/.within.website?redir=%2F', 307, 'desafio anti-bot do Anubis'],
+  ])('trata %s como desafio anti-bot: aviso, não erro', async (header, value, status, reason) => {
+    const fetchImpl = vi.fn(async () => new Response(null, { status, headers: { [header]: value } }));
+    const onChallenge = vi.fn();
+    const link = { file: 'data/resources/example.yaml', field: 'url' as const, url: 'https://example.test' };
+
+    const errors = await checkResourceLinks([link], { fetchImpl, resolveHost: resolvePublicHost, onChallenge });
+
+    expect(errors).toEqual([]);
+    expect(onChallenge).toHaveBeenCalledWith(link, reason);
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
+
+  it('continua a falhar num 403 sem sinal de desafio', async () => {
+    const fetchImpl = vi.fn(async () => response(403));
+    const link = { file: 'data/resources/example.yaml', field: 'url' as const, url: 'https://example.test' };
+
+    const errors = await checkResourceLinks([link], { fetchImpl, resolveHost: resolvePublicHost, attempts: 1 });
+
+    expect(errors).toEqual([{ ...link, reason: 'resposta HTTP 403' }]);
+  });
+
   it('usa GET com Range quando o host não suporta HEAD e falha claramente em 4xx', async () => {
     const methods: string[] = [];
     const fetchImpl = vi.fn(async (_input: string | URL | Request, init?: RequestInit) => {

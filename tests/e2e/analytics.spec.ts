@@ -18,7 +18,8 @@ test('⌘K e Surpresa enviam os eventos esperados', async ({ page }) => {
     window.umami = { track: (eventName) => window.umamiEvents.push(eventName) };
   });
 
-  await page.goto('/pt');
+  // Como em search.spec: o atalho só existe depois de a ilha da busca hidratar.
+  await page.goto('/pt', { waitUntil: 'networkidle' });
   await page.keyboard.press('Control+k');
   await expect(page.getByRole('dialog')).toBeVisible();
   expect(await page.evaluate(() => window.umamiEvents)).toContain('search_open');

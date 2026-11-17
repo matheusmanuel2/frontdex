@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Pentagram"
+url: https://www.pentagram.com/
+area: discover
+category: studios
+tags: [ branding, typography ]
+pricing: free
+open_source: false
+description:
+  pt: "A maior consultoria de design independente, gerida por sócios. O arquivo de projetos é uma aula de identidade."
+  en: "The largest independent design consultancy, run by its partners. The project archive is a lesson in identity."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Curated"
+url: https://curated.design/
+area: discover
+category: ui-inspiration
+tags: [ web ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Sites e landing pages reais revistos um a um, com filtro por estilo e setor e link direto para o site no ar."
+  en: "Real websites and landing pages reviewed one at a time, filterable by style and industry, linking straight to the live site."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

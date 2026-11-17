@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Good Brief"
+url: https://goodbrief.io/
+area: grow
+category: freelance
+tags: [ portfolio, career ]
+pricing: free
+open_source: false
+description:
+  pt: "Gera briefings de design aleatórios para praticar e ter projetos de portfólio quando faltam clientes."
+  en: "Generates random design briefs to practice and build portfolio pieces when clients are scarce."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

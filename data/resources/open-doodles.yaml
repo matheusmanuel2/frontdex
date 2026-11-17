@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: "Open Doodles"
+url: https://www.opendoodles.com/
+author: "Pablo Stanley"
+area: build
+category: assets
+tags: [ illustration ]
+pricing: free
+open_source: false
+license: CC0-1.0
+description:
+  pt: "Ilustrações de pessoas com traço de esboço, grátis para uso pessoal e comercial (CC0)."
+  en: "Sketchy illustrations of people, free for personal and commercial use (CC0)."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

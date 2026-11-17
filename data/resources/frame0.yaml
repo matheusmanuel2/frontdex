@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Frame0"
+url: https://frame0.app/
+area: build
+category: design-tools
+tags: [ flows, screens ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Wireframes com cara de esboço à mão, como o Balsamiq, mas com interface atual. Bom para discutir fluxo, não pixel."
+  en: "Hand-sketch style wireframes like Balsamiq, with a modern interface. Good for discussing flow, not pixels."
+featured: true
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail. Hidden gem."

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Jesse Nyberg"
+url: https://www.youtube.com/@JesseNyberg
+author: "Jesse Nyberg"
+area: learn
+category: videos
+tags: [ video, freelance, career ]
+pricing: free
+open_source: false
+description:
+  pt: "Designer freelance de Los Angeles falando de design gráfico e do lado prático de viver de freelance."
+  en: "Los Angeles freelance designer talking graphic design and the practical side of freelancing."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

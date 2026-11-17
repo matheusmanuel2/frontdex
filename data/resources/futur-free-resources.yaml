@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "The Futur Free Resources"
+url: https://thefutur.com/free-resources
+author: "The Futur"
+area: grow
+category: freelance
+tags: [ freelance, career ]
+pricing: free
+open_source: false
+description:
+  pt: "Templates grátis da The Futur: perguntas para reunião com cliente, propostas e guias de preço."
+  en: "Free templates from The Futur: client meeting questions, proposals and pricing guides."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

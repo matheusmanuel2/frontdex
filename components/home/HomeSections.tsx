@@ -15,6 +15,7 @@ import {
   resourceToYaml,
   type Resource,
 } from '@/lib/content';
+import type { Pricing } from '@/lib/content/schema';
 import type { AppLocale } from '@/lib/i18n/routing';
 
 import { SectionHeader } from './SectionHeader';
@@ -139,7 +140,7 @@ export async function AreasSection() {
   );
 }
 
-function priceLabel(resource: Resource, t: (key: 'free' | 'freemium' | 'paid') => string) {
+function priceLabel(resource: Resource, t: (key: Pricing) => string) {
   return resource.pricing === 'TODO' ? null : t(resource.pricing);
 }
 

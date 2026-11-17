@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Aquent Salary Guide"
+url: https://aquent.com/lp/salary-guide
+author: "Aquent"
+area: grow
+category: freelance
+tags: [ career, pricing-guide ]
+pricing: free
+open_source: false
+description:
+  pt: "Guia anual de salários da Aquent para design, marketing e tecnologia. Referência para negociar."
+  en: "Aquent's yearly salary guide for design, marketing and tech roles. A reference for negotiating."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

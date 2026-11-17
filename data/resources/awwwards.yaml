@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Awwwards"
+url: https://www.awwwards.com/
+area: discover
+category: ui-inspiration
+tags: [ web, motion ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Prêmios diários de sites, com notas do júri por design, usabilidade e conteúdo. Bom para ver onde o web design está indo."
+  en: "Daily website awards with jury scores for design, usability and content. Good for seeing where web design is heading."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

@@ -47,9 +47,18 @@
         "ui-inspiration",
         "motion-inspiration",
         "app-research",
+        "brand-inspiration",
+        "portfolios",
+        "moodboards",
+        "studios",
         "courses",
         "guides",
         "books",
+        "podcasts",
+        "videos",
+        "reference",
+        "challenges",
+        "articles",
         "icons",
         "ui-components",
         "animation",
@@ -58,9 +67,15 @@
         "charts",
         "dev-tools",
         "ai-tools",
+        "typography-tools",
+        "accessibility",
+        "assets",
+        "brand-apis",
+        "design-tools",
         "communities",
         "open-source",
-        "careers"
+        "careers",
+        "freelance"
       ]
     },
     "tags": {
@@ -100,7 +115,27 @@
           "interactive",
           "registry",
           "glassmorphism",
-          "market-data"
+          "market-data",
+          "career",
+          "portfolio",
+          "typography",
+          "branding",
+          "accessibility",
+          "illustration",
+          "photos",
+          "mockups",
+          "textures",
+          "logos",
+          "gradients",
+          "podcast",
+          "video",
+          "figma",
+          "design-systems",
+          "freelance",
+          "pricing-guide",
+          "design-engineering",
+          "history",
+          "api"
         ]
       },
       "description": "1 a 6 slugs de data/tags.yaml."
@@ -112,7 +147,8 @@
           "enum": [
             "free",
             "freemium",
-            "paid"
+            "paid",
+            "pay-what-you-want"
           ]
         },
         {

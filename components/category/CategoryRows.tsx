@@ -1,11 +1,12 @@
 import { ResourceList, ResourceRow, TagChip } from '@/components/index';
+import type { Pricing } from '@/lib/content/schema';
 
 import type { FilterItem } from './filters';
 
 export type RowLabels = {
   list: string;
   oss: string;
-  pricing: Record<'free' | 'freemium' | 'paid', string>;
+  pricing: Record<Pricing, string>;
 };
 
 /** Linhas da categoria. Usado pelo servidor (lista completa, sem JS) e pela ilha de filtros. */

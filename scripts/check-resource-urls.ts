@@ -20,7 +20,21 @@ type CheckOptions = {
   attempts?: number;
   timeoutMs?: number;
   retryDelay?: (attempt: number) => Promise<void>;
+  /** Chamado quando o site respondeu com um desafio anti-bot identificado (não conta como erro). */
+  onChallenge?: (link: ResourceLink, reason: string) => void;
 };
+
+/**
+ * Desafios anti-bot que o próprio servidor identifica. O site está no ar, só não serve robôs:
+ * vira aviso, não erro. Um 403/429 sem um destes sinais continua a falhar.
+ */
+export function challengeReason(response: Response): string | undefined {
+  if (response.headers.get('cf-mitigated') === 'challenge') return 'desafio anti-bot do Cloudflare';
+  if (response.headers.get('x-vercel-mitigated') === 'challenge') return 'desafio anti-bot da Vercel';
+  const location = response.headers.get('location');
+  if (location && location.includes('/.within.website')) return 'desafio anti-bot do Anubis';
+  return undefined;
+}
 
 const NON_PUBLIC_IPV4 = new BlockList();
 for (const [subnet, prefix] of [
@@ -153,7 +167,9 @@ async function fetchWithPublicRedirects(
       signal: AbortSignal.timeout(timeoutMs),
     });
     const location = response.headers.get('location');
-    if (![301, 302, 303, 307, 308].includes(response.status) || !location) return response;
+    if (![301, 302, 303, 307, 308].includes(response.status) || !location || challengeReason(response)) {
+      return response;
+    }
     await response.body?.cancel();
     if (redirects === 5) throw new Error('demasiados redirecionamentos');
     url = new URL(location, url);
@@ -169,6 +185,7 @@ async function checkLink(
     attempts = 3,
     timeoutMs = 10_000,
     retryDelay = defaultRetryDelay,
+    onChallenge,
   }: CheckOptions,
 ): Promise<UrlCheckError | undefined> {
   const invalidProtocol = protocolError(link);
@@ -177,14 +194,31 @@ async function checkLink(
   let reason = 'sem resposta';
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
-      let response = await fetchWithPublicRedirects(link.url, link.field, 'HEAD', fetchImpl, resolveHost, timeoutMs);
-      if (response.status === 405 || response.status === 501) {
-        await response.body?.cancel();
+      let response: Response | undefined;
+      try {
+        response = await fetchWithPublicRedirects(link.url, link.field, 'HEAD', fetchImpl, resolveHost, timeoutMs);
+      } catch (error) {
+        // Destinos proibidos (IP privado, protocolo, credenciais) não têm segunda tentativa com GET.
+        if (!(error instanceof TypeError)) throw error;
+      }
+      // Há servidores que respondem mal a HEAD (404, 403, erro de rede) e bem a GET: confirmamos com GET.
+      if (
+        !response ||
+        (response.status >= 400 && response.status < 500 && !challengeReason(response)) ||
+        response.status === 501
+      ) {
+        await response?.body?.cancel();
         response = await fetchWithPublicRedirects(link.url, link.field, 'GET', fetchImpl, resolveHost, timeoutMs);
       }
 
       await response.body?.cancel();
-      if (response.status >= 200 && response.status < 400) return undefined;
+      if (response.status >= 200 && response.status < 300) return undefined;
+      const challenge = challengeReason(response);
+      if (challenge) {
+        onChallenge?.(link, challenge);
+        return undefined;
+      }
+      if (response.status < 400) return undefined;
       reason = `resposta HTTP ${response.status}`;
       if (response.status < 500 && response.status !== 408 && response.status !== 429) break;
     } catch (error) {
@@ -229,7 +263,10 @@ async function main() {
   }
 
   const links = files.flatMap((file) => readResourceLinks(file, readFileSync(file, 'utf8')));
-  const errors = await checkResourceLinks(links);
+  const errors = await checkResourceLinks(links, {
+    onChallenge: (link, reason) =>
+      console.warn(`! ${link.file} › ${link.field} › ${reason} (site no ar, não verificável por robô)`),
+  });
   for (const error of errors) {
     console.error(`${error.file} › ${error.field} › ${error.reason}`);
   }

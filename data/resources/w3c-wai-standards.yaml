@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "W3C WAI Standards"
+url: https://www.w3.org/WAI/standards-guidelines/
+author: "W3C"
+area: learn
+category: reference
+tags: [ accessibility, web ]
+pricing: free
+open_source: false
+description:
+  pt: "Visão geral oficial das normas de acessibilidade do W3C (WCAG, ARIA, ATAG), com links para cada uma."
+  en: "Official overview of W3C accessibility standards (WCAG, ARIA, ATAG), linking to each one."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

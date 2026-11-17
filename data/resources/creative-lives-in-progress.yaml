@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Creative Lives in Progress"
+url: https://creativelivesinprogress.com/
+area: learn
+category: articles
+tags: [ career ]
+pricing: free
+open_source: false
+description:
+  pt: "Entrevistas e guias sobre como se entra e cresce nas indústrias criativas, pensado para quem está começando."
+  en: "Interviews and guides on getting into and growing in the creative industries, aimed at people starting out."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

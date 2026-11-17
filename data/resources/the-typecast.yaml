@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "The Typecast"
+url: https://open.spotify.com/show/4i3HCDF8mjZMr2XRtrz3gS
+area: learn
+category: podcasts
+tags: [ podcast, typography ]
+pricing: free
+open_source: false
+description:
+  pt: "Podcast sobre tipografia e quem desenha fontes. Bom para entender as escolhas por trás de um tipo."
+  en: "Podcast about typography and the people who design typefaces. Good for understanding the choices behind a font."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

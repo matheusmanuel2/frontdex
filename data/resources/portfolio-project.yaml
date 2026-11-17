@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Portfolio Project"
+url: https://portfolioproject.io/
+area: discover
+category: portfolios
+tags: [ career, portfolio ]
+pricing: TODO
+open_source: false
+description:
+  pt: "Coleção curada de portfólios de designers, devs e artistas. Referência quando você vai refazer o seu."
+  en: "Curated collection of portfolios from designers, developers and artists. Reference for redoing yours."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Import Design Holy Grail. Pricing por confirmar."
