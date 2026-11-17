@@ -12,5 +12,5 @@ description:
   en: React grid with paging, sorting, filtering, editing and grouping built in.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.telerik.com/kendo-react-ui/components/grid/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.telerik.com/kendo-react-ui/components/grid/"

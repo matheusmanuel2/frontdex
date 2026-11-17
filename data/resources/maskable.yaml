@@ -14,5 +14,5 @@ description:
   en: Previews maskable PWA icons in the browser so you see how they look under each mask.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://maskable.app/editor/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://maskable.app/editor/"

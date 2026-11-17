@@ -12,5 +12,5 @@ description:
   en: Measures anything on your Mac screen in seconds, handy for checking spacing and sizes in interfaces.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getpixelsnap.com. Redirecionava de https://getpixelsnap.com"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getpixelsnap.com. Redirecionava de https://getpixelsnap.com"

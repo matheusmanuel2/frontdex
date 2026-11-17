@@ -12,5 +12,5 @@ description:
   en: Dresses up screenshots with backgrounds, browser frames, shadows and text.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, swyxio/spark-joy. Lida: https://pika.style"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, swyxio/spark-joy. Lida: https://pika.style"

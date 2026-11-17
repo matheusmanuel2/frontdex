@@ -12,5 +12,5 @@ description:
   en: Over 189,000 palettes created by Color Hex users, with scheme variations.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://www.color-hex.com/color-palettes/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://www.color-hex.com/color-palettes/"

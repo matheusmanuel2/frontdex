@@ -13,5 +13,5 @@ description:
   en: Tweaks a palette so its colors feel more cohesive together.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://javier.xyz/cohesive-colors/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://javier.xyz/cohesive-colors/"

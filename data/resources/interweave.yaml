@@ -14,5 +14,5 @@ description:
   en: Safely renders HTML in React, filters attributes, transforms text with matchers and renders emoji.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://interweave.dev"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://interweave.dev"

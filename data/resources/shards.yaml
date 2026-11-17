@@ -13,5 +13,5 @@ description:
   en: Bootstrap 4 UI kit with 2 landing pages and 11 extra custom components.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://designrevision.com/downloads/shards/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://designrevision.com/downloads/shards/"

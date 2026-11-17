@@ -16,5 +16,5 @@ description:
   en: Free admin dashboard template with Next.js 14 (App Router), Material UI, Tailwind CSS and TypeScript.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://themeselection.com/item/materio-free-mui-nextjs-admin-template"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://themeselection.com/item/materio-free-mui-nextjs-admin-template"

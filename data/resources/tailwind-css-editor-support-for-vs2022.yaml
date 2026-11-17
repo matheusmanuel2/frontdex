@@ -14,5 +14,5 @@ description:
   en: Unofficial extension bringing Tailwind IntelliSense, linting and class sorting to Visual Studio 2022 and 2026.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: aniftyco/awesome-tailwindcss. Lida: https://marketplace.visualstudio.com/items?itemName=TheronWang.TailwindCSSIntellisense"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: aniftyco/awesome-tailwindcss. Lida: https://marketplace.visualstudio.com/items?itemName=TheronWang.TailwindCSSIntellisense"

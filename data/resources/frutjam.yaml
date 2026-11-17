@@ -14,5 +14,5 @@ description:
   en: 65+ CSS-only Tailwind v4 components, WCAG AA/AAA and zero JavaScript, for any stack.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://frutjam.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://frutjam.com/"

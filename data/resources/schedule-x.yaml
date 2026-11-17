@@ -14,5 +14,5 @@ description:
   en: JavaScript event calendar, an alternative to FullCalendar and react-big-calendar.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://schedule-x.dev"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://schedule-x.dev"

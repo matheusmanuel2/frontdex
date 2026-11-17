@@ -12,5 +12,5 @@ description:
   en: Mac screenshots and screen recording with annotation, scrolling capture and cloud upload.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getcleanshot.com. Redirecionava de https://getcleanshot.com"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getcleanshot.com. Redirecionava de https://getcleanshot.com"

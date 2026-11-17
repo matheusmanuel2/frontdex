@@ -12,5 +12,5 @@ description:
   en: About 6,000 vector icons in SVG and PNG for web, iOS and Android, some free and some pro.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://orioniconlibrary.com/all-icons"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://orioniconlibrary.com/all-icons"

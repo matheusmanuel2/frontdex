@@ -13,5 +13,5 @@ description:
   en: Lightweight CSS framework with base typography styles, a flexbox responsive grid and pure CSS components.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://picturepan2.github.io/spectre/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://picturepan2.github.io/spectre/"

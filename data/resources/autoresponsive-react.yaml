@@ -14,5 +14,5 @@ description:
   en: React layout library that rearranges items responsively on its own.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://xudafeng.github.io/autoresponsive-react"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://xudafeng.github.io/autoresponsive-react"

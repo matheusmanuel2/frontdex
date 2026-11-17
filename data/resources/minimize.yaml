@@ -14,5 +14,5 @@ description:
   en: HTML minifier in JavaScript with its own parser.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/Swaagie/minimize"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/Swaagie/minimize"

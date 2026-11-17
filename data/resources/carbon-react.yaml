@@ -14,5 +14,5 @@ description:
   en: Reusable React components from Carbon, IBM's design system, for websites and interfaces.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://carbondesignsystem.com/developing/frameworks/react/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://carbondesignsystem.com/developing/frameworks/react/"

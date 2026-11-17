@@ -14,5 +14,5 @@ description:
   en: Sends messages to a Slack channel straight from your React app through a webhook.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/Nilanth/react-slack-notification"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/Nilanth/react-slack-notification"

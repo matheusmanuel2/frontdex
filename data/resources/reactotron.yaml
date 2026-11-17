@@ -15,5 +15,5 @@ description:
   en: Desktop app for inspecting React and React Native projects on macOS, Linux and Windows.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://docs.infinite.red/reactotron/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://docs.infinite.red/reactotron/"

@@ -13,5 +13,5 @@ description:
   en: Free, open source CSS framework based on Flexbox and built with Sass.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css, troxler/awesome-css-frameworks. Lida: https://bulma.io/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css, troxler/awesome-css-frameworks. Lida: https://bulma.io/"

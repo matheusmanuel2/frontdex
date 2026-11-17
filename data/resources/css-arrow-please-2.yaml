@@ -13,5 +13,5 @@ description:
   en: Generates CSS for a custom box with an arrow sticking out of one side, ready to export.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.cssarrowplease.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.cssarrowplease.com/"

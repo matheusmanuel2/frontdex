@@ -13,5 +13,5 @@ description:
   en: Open-source design system built on Bootstrap 4, with organized SASS code for product work.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uilibrary.github.io/done-design-system/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uilibrary.github.io/done-design-system/"

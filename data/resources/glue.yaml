@@ -15,5 +15,5 @@ description:
   en: Command-line tool that generates CSS sprites.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/jorgebastida/glue"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/jorgebastida/glue"

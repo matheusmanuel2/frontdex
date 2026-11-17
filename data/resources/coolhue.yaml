@@ -14,5 +14,5 @@ description:
   en: Hand-picked gradients to copy as CSS or download as an image.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://webkul.github.io/coolhue/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://webkul.github.io/coolhue/"

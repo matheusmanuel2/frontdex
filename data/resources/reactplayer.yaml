@@ -15,5 +15,5 @@ description:
   en: React component that plays URLs from files, YouTube, Vimeo, Twitch, SoundCloud and more.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://cookpete.github.io/react-player"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://cookpete.github.io/react-player"

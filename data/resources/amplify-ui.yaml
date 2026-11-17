@@ -14,5 +14,5 @@ description:
   en: React components wired to AWS Amplify cloud features, with theming and utilities for accessible screens.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://ui.docs.amplify.aws/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://ui.docs.amplify.aws/"

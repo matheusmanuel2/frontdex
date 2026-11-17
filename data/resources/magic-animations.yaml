@@ -14,5 +14,5 @@ description:
   en: Set of simple CSS3 animations to drop into your site or app.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.minimamente.com/project/magic/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.minimamente.com/project/magic/"

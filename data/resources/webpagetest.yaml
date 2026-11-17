@@ -12,5 +12,5 @@ description:
   en: Tests site speed and performance across browsers, devices, locations and network conditions.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.catchpoint.com/webpagetest. Redirecionava de https://www.catchpoint.com/webpagetest"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.catchpoint.com/webpagetest. Redirecionava de https://www.catchpoint.com/webpagetest"

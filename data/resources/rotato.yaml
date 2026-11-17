@@ -14,5 +14,5 @@ description:
   en: Generates and animates 3D iPhone and Android mockups in 4K, free download for Mac.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://www.rotato.xyz/. Redirecionava de https://www.rotato.xyz/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://www.rotato.xyz/. Redirecionava de https://www.rotato.xyz/"

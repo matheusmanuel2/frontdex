@@ -13,5 +13,5 @@ description:
   en: Captures or records any area of the screen on Windows and shares it with a single key.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getsharex.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getsharex.com/"

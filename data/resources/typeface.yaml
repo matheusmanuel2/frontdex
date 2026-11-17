@@ -13,5 +13,5 @@ description:
   en: Font manager for macOS with a minimal interface, built for browsing your collection and picking type for a design.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://typefaceapp.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://typefaceapp.com/"

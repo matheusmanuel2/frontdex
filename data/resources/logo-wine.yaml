@@ -12,5 +12,5 @@ description:
   en: Collection of brand logos from around the world, free to download as SVG or PNG.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.logo.wine/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.logo.wine/"

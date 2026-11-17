@@ -12,5 +12,5 @@ description:
   en: Extracts a palette from a whole video, a time range or a paused frame, showing each color's share, with no upload.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://coolcolor.space/video-palette"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://coolcolor.space/video-palette"

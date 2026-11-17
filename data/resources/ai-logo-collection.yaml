@@ -12,5 +12,5 @@ description:
   en: 390+ logos of AI companies like ChatGPT, Claude and Gemini, to download as SVG and PNG.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ailogocollection.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ailogocollection.com/"

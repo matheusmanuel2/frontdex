@@ -14,5 +14,5 @@ description:
   en: Draggable, resizable grid layout for React with responsive breakpoints.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-grid-layout.github.io/react-grid-layout/examples/00-showcase.html"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-grid-layout.github.io/react-grid-layout/examples/00-showcase.html"

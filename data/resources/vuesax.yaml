@@ -13,5 +13,5 @@ description:
   en: 1,100+ Web Components, animations and sections as one native tag with no dependencies, plus an MCP server for your IDE.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://vuesax.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://vuesax.com/"

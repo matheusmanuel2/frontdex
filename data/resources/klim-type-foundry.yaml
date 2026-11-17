@@ -12,5 +12,5 @@ description:
   en: Independent foundry led by Kris Sowersby in Wellington, selling fonts and doing custom type work.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://klim.co.nz/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://klim.co.nz/"

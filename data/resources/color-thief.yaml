@@ -14,5 +14,5 @@ description:
   en: Grabs the color palette from an image with JavaScript, in the browser or Node.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://lokeshdhakar.com/projects/color-thief/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://lokeshdhakar.com/projects/color-thief/"

@@ -14,5 +14,5 @@ description:
   en: Processor that turns modern CSS into code that works in every browser.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/stylecow/stylecow"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/stylecow/stylecow"

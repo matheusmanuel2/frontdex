@@ -15,5 +15,5 @@ description:
   en: Canvas financial charts for the web with indicators; the open-source core of LuxAlgo's Vela.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.vela.dev"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.vela.dev"

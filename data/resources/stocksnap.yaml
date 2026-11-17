@@ -12,5 +12,5 @@ description:
   en: CC0 stock photos, copyright-free and with no attribution required.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://stocksnap.io/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://stocksnap.io/"

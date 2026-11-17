@@ -14,5 +14,5 @@ description:
   en: Decorator that resolves async props in react-router, handy for server-side rendering React.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/makeomatic/redux-connect"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/makeomatic/redux-connect"

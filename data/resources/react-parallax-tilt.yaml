@@ -16,5 +16,5 @@ description:
   en: Parallax tilt-on-hover effect for React components, with zero dependencies and 2.9 kB.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://mkosir.github.io/react-parallax-tilt"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://mkosir.github.io/react-parallax-tilt"

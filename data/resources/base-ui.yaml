@@ -16,5 +16,5 @@ description:
   en: Unstyled, accessible components for design systems, from the creators of Radix and Material UI.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://base-ui.com"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://base-ui.com"

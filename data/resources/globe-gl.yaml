@@ -14,5 +14,5 @@ description:
   en: UI component for globe data visualization using ThreeJS and WebGL.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vasturiano.github.io/globe.gl/example/world-population/. Redirecionava de https://vasturiano.github.io/globe.gl/example/world-population/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vasturiano.github.io/globe.gl/example/world-population/. Redirecionava de https://vasturiano.github.io/globe.gl/example/world-population/"

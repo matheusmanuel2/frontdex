@@ -14,5 +14,5 @@ description:
   en: Design language and React component library aimed at enterprise applications.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design, alexpate/awesome-design-systems. Lida: https://ant.design/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design, alexpate/awesome-design-systems. Lida: https://ant.design/"

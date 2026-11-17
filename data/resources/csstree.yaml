@@ -15,5 +15,5 @@ description:
   en: CSS parser, walker, generator and lexer based on W3C specs and browser implementations.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://csstree.github.io/docs/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://csstree.github.io/docs/"

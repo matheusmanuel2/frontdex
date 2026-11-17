@@ -16,5 +16,5 @@ description:
   en: TypeScript React UI kit built for easy customization.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://sha-el-design.netlify.app/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://sha-el-design.netlify.app/"

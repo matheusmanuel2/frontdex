@@ -12,5 +12,5 @@ description:
   en: Carefully drawn interface icons, in the fully redone Redux version.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://pictos.cc/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://pictos.cc/"

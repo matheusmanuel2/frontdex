@@ -13,5 +13,5 @@ description:
   en: Convert, play and edit Lottie and SVG files in the browser, with no watermark or signup, exporting up to 1080p at 30fps.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.iconking.net/tools"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.iconking.net/tools"

@@ -14,5 +14,5 @@ description:
   en: React component for splitting the layout into panes.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://tomkp.github.io/react-split-pane"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://tomkp.github.io/react-split-pane"

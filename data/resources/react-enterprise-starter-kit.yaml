@@ -15,5 +15,5 @@ description:
   en: React starter kit for enterprise apps with webpack, Storybook, ESLint and GitHub workflows.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/anandgupta193/react-enterprise-starter-kit"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/anandgupta193/react-enterprise-starter-kit"

@@ -12,5 +12,5 @@ description:
   en: Documents designs, maps user flows and tracks versions for handoff to development.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://zeplin.io/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://zeplin.io/"

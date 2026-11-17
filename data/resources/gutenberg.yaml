@@ -14,5 +14,5 @@ description:
   en: SCSS framework for printing web pages correctly.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://bafs.github.io/Gutenberg"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://bafs.github.io/Gutenberg"

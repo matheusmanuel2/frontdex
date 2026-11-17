@@ -14,5 +14,5 @@ description:
   en: Duotone filters made with plain CSS, applied by class over any image.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://github.com/LukyVj/colofilter.css"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://github.com/LukyVj/colofilter.css"

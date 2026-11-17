@@ -15,5 +15,5 @@ description:
   en: 3D force-directed graph component built on ThreeJS and WebGL.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vasturiano.github.io/3d-force-graph/example/large-graph/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vasturiano.github.io/3d-force-graph/example/large-graph/"

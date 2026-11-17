@@ -14,5 +14,5 @@ description:
   en: 6,000+ flat, line and glyph icons for iOS and Android apps, with Photoshop, Illustrator and SVG files.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://thesquid.ink"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://thesquid.ink"

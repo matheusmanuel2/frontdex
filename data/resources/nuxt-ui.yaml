@@ -15,5 +15,5 @@ description:
   en: 125+ accessible Vue components with Tailwind CSS, working with or without Nuxt.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ui.nuxtlabs.com/getting-started. Redirecionava de https://ui.nuxtlabs.com/getting-started"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ui.nuxtlabs.com/getting-started. Redirecionava de https://ui.nuxtlabs.com/getting-started"

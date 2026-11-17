@@ -13,5 +13,5 @@ description:
   en: Open source JavaScript library for HTML5 charts, simple to get started with.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, hal9ai/awesome-dataviz. Lida: https://www.chartjs.org/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, hal9ai/awesome-dataviz. Lida: https://www.chartjs.org/"

@@ -13,5 +13,5 @@ description:
   en: "Class-less stylesheet: write semantic HTML and the elements come out styled."
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://andybrewer.github.io/mvp/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://andybrewer.github.io/mvp/"

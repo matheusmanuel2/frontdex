@@ -13,5 +13,5 @@ description:
   en: Turns paper sketches into interactive prototypes for iPhone, iPad, Apple Watch, Apple TV and Android.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://marvelapp.com/pop/?popref=1"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://marvelapp.com/pop/?popref=1"

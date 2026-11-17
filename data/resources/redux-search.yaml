@@ -14,5 +14,5 @@ description:
   en: Redux bindings for running search on the client side.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://bvaughn.github.io/redux-search/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://bvaughn.github.io/redux-search/"

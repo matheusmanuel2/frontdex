@@ -15,5 +15,5 @@ description:
   en: Animated React components with TypeScript, Tailwind and Motion, to copy or install via the shadcn CLI.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uibeats.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uibeats.com/"

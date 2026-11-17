@@ -14,5 +14,5 @@ description:
   en: Hides your header while scrolling and brings it back when you need it.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://kyleamathews.github.io/react-headroom"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://kyleamathews.github.io/react-headroom"

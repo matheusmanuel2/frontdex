@@ -12,5 +12,5 @@ description:
   en: Sound effects in WAV or MP3 for commercial use with credit (CC BY 4.0), no sign-up, or generated with AI.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://budgetpixel.com/sfx"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://budgetpixel.com/sfx"

@@ -14,5 +14,5 @@ description:
   en: CSS reset for a consistent starting point across browsers.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://ress.page"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://ress.page"

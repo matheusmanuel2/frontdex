@@ -14,5 +14,5 @@ description:
   en: JavaScript animation engine with 3D transforms, SVG morph and draw, and scroll animation.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://thednp.github.io/kute.js/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://thednp.github.io/kute.js/"

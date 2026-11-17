@@ -15,5 +15,5 @@ description:
   en: Grunt task that runs your CSS files through CSS Shrink during the build.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/JohnCashmore/grunt-cssshrink"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/JohnCashmore/grunt-cssshrink"

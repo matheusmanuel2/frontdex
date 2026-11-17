@@ -14,5 +14,5 @@ description:
   en: Light HTML, Sass, CSS and JavaScript base for starting responsive sites.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://responsivebp.com"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://responsivebp.com"

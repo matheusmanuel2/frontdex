@@ -15,5 +15,5 @@ description:
   en: Starter with Next.js, auth, i18n, shadcn and forms already set up.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-boilerplate-coral.vercel.app"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-boilerplate-coral.vercel.app"

@@ -14,5 +14,5 @@ description:
   en: Adjusts font-size to the element's width so web typography stays readable on any screen.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://simplefocus.com/flowtype/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://simplefocus.com/flowtype/"

@@ -12,5 +12,5 @@ description:
   en: "Over 6000 3D assets for Cinema 4D, Blender, Houdini and Unreal: materials, models, textures and HDRIs."
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://greyscalegorilla.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://greyscalegorilla.com/"

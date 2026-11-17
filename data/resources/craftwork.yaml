@@ -13,5 +13,5 @@ description:
   en: Figma UI kits, Framer templates, fonts, React components, icons and mockups made by designers.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://craftwork.design/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://craftwork.design/"

@@ -14,5 +14,5 @@ description:
   en: Zero-config virtual list, grid and masonry for React, Vue, Solid, Svelte and Angular.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://inokawa.github.io/virtua/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://inokawa.github.io/virtua/"

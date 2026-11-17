@@ -14,5 +14,5 @@ description:
   en: SAP framework for enterprise web apps that respond to all devices and most browsers.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://github.com/SAP/openui5"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://github.com/SAP/openui5"

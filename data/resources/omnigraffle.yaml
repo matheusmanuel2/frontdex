@@ -12,5 +12,5 @@ description:
   en: Diagramming app for putting together flows, wireframes and schematics with a professional finish.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.omnigroup.com/omnigraffle/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.omnigroup.com/omnigraffle/"

@@ -13,5 +13,5 @@ description:
   en: React components that follow Material Design down to the details, created by Javi Velasco.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://react-toolbox.io/#/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://react-toolbox.io/#/"

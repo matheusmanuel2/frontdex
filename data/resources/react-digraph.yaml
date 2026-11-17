@@ -14,5 +14,5 @@ description:
   en: Uber library for building directed graph editors in React.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/uber/react-digraph"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/uber/react-digraph"

@@ -14,5 +14,5 @@ description:
   en: Install Payload CMS blocks in one command, with collection config, generated types and the import map for Next.js.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.payload-components.xyz"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.payload-components.xyz"

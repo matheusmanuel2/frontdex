@@ -14,5 +14,5 @@ description:
   en: Web version of the Visualization Toolkit (VTK), for scientific visualization in the browser.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://kitware.github.io/vtk-js/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://kitware.github.io/vtk-js/"

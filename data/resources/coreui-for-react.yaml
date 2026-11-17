@@ -14,5 +14,5 @@ description:
   en: React hook components that replace Bootstrap's JavaScript, without jQuery.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://coreui.io/react/docs/getting-started/introduction/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://coreui.io/react/docs/getting-started/introduction/"

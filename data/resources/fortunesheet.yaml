@@ -15,5 +15,5 @@ description:
   en: Drop-in JavaScript spreadsheet with Excel and Google Sheets style features.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://ruilisi.github.io/fortune-sheet-docs/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://ruilisi.github.io/fortune-sheet-docs/"

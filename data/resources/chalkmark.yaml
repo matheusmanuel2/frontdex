@@ -12,5 +12,5 @@ description:
   en: First-click testing to spot navigation issues and validate design decisions with real users.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.optimalworkshop.com/chalkmark"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.optimalworkshop.com/chalkmark"

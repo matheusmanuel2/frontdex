@@ -15,5 +15,5 @@ description:
   en: Accessible Svelte components whose code you copy and adapt to build your own library.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.shadcn-svelte.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.shadcn-svelte.com/"

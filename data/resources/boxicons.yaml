@@ -15,5 +15,5 @@ description:
   en: 3,500 free icons and 50,000+ Pro variations in SVG, PNG and JSX, for React, Vue and Figma.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://boxicons.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://boxicons.com/"

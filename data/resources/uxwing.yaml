@@ -12,5 +12,5 @@ description:
   en: SVG and PNG icons for commercial use with no attribution, with the option to copy the SVG code directly.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uxwing.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uxwing.com/"

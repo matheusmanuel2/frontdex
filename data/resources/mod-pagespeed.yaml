@@ -13,5 +13,5 @@ description:
   en: Module for Apache, nginx, IIS or Docker that serves pages already optimized by the server.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://modpagespeed.com/docs/getting-started/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://modpagespeed.com/docs/getting-started/"

@@ -12,5 +12,5 @@ description:
   en: Official hex color codes for more than 500 brands, such as Facebook, Twitter and Instagram.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design, Siddharth11/Colorful. Lida: https://brandcolors.net/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design, Siddharth11/Colorful. Lida: https://brandcolors.net/"

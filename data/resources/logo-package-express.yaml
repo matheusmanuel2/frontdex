@@ -13,5 +13,5 @@ description:
   en: Exports every logo file format your client needs in under five minutes.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://thelogopackage.com. Redirecionava de https://thelogopackage.com"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://thelogopackage.com. Redirecionava de https://thelogopackage.com"

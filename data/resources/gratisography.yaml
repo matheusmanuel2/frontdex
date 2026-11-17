@@ -12,5 +12,5 @@ description:
   en: Quirky high-resolution photos free of copyright restrictions, with new ones every week.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://gratisography.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://gratisography.com/"

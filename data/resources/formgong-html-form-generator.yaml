@@ -12,5 +12,5 @@ description:
   en: Writes a plain HTML form with labels, required fields and a honeypot, no framework classes and no JavaScript.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://formgong.com/en/tools/html-form-generator/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://formgong.com/en/tools/html-form-generator/"

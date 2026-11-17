@@ -14,5 +14,5 @@ description:
   en: React component for viewing and editing JSON and object data as a tree.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://carlosnz.github.io/json-edit-react/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://carlosnz.github.io/json-edit-react/"

@@ -15,5 +15,5 @@ description:
   en: GraphQL client with caching for TypeScript, JavaScript, React, Vue and Angular.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://apollographql.com/client"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://apollographql.com/client"

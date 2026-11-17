@@ -14,5 +14,5 @@ description:
   en: Analyzes bundle size, assets, modules and packages and compares builds; works with webpack, Vite and Rollup.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://relative-ci.com/documentation/metrics-and-data"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://relative-ci.com/documentation/metrics-and-data"

@@ -14,5 +14,5 @@ description:
   en: Design a button and download PNG, JPG, WebP or SVG, or copy HTML and CSS, including Outlook-safe email code.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/komarovalexander/react-filter-control"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/komarovalexander/react-filter-control"

@@ -14,5 +14,5 @@ description:
   en: JavaScript diagramming library that renders with SVG and HTML.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://x6.antv.antgroup.com"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://x6.antv.antgroup.com"

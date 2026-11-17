@@ -14,5 +14,5 @@ description:
   en: CSS design system for faithful recreations of old UIs in the Windows 98 look.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://jdan.github.io/98.css/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://jdan.github.io/98.css/"

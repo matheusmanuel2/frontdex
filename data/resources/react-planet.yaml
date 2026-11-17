@@ -14,5 +14,5 @@ description:
   en: Circular menus for React, with submenus that open in orbit.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://innfactory.github.io/react-planet"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://innfactory.github.io/react-planet"

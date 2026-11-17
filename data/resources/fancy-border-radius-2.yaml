@@ -13,5 +13,5 @@ description:
   en: Visual generator for organic shapes built only with the CSS border-radius property.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://9elements.github.io/fancy-border-radius/full-control.html"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://9elements.github.io/fancy-border-radius/full-control.html"

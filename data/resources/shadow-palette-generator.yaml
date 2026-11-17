@@ -14,5 +14,5 @@ description:
   en: CSS shadow palette generator from Josh W. Comeau's site.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/Paratco/async-modal"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/Paratco/async-modal"

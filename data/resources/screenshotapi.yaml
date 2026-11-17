@@ -12,5 +12,5 @@ description:
   en: API that captures the viewport or full page of any site as PNG, JPG, WebP or PDF, blocking ads and cookie banners.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://screenshotapi.net"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://screenshotapi.net"

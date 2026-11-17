@@ -13,5 +13,5 @@ description:
   en: Expansion of Morris Fuller Benton's American gothic into nine weights, sturdy for UI and editorial text.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://beautifulwebtype.com/libre-franklin/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://beautifulwebtype.com/libre-franklin/"

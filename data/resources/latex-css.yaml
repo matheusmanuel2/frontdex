@@ -14,5 +14,5 @@ description:
   en: Almost class-less CSS that makes your website look like a LaTeX document.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, swyxio/spark-joy. Lida: https://latex.now.sh/. Redirecionava de https://latex.now.sh/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, swyxio/spark-joy. Lida: https://latex.now.sh/. Redirecionava de https://latex.now.sh/"

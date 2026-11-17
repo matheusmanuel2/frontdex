@@ -14,5 +14,5 @@ description:
   en: Web UI framework with a futuristic sci-fi look.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://github.com/arwes/arwes"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://github.com/arwes/arwes"

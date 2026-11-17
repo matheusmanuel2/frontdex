@@ -13,5 +13,5 @@ description:
   en: Open-source color picker for OKLCH, HWB, HSL, HSV and RGB.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://hslpicker.com/. Redirecionava de https://hslpicker.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://hslpicker.com/. Redirecionava de https://hslpicker.com/"

@@ -12,5 +12,5 @@ description:
   en: Brand logos in SVG to download with no sign-up and no download limit.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://worldvectorlogo.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://worldvectorlogo.com/"

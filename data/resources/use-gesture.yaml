@@ -15,5 +15,5 @@ description:
   en: Component-tied mouse and touch gestures like drag, pinch and zoom, in React or vanilla JS.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://use-gesture.netlify.app"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://use-gesture.netlify.app"

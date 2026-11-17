@@ -15,5 +15,5 @@ description:
   en: Chart.js module for financial charts such as candlesticks.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/chartjs/chartjs-chart-financial"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/chartjs/chartjs-chart-financial"

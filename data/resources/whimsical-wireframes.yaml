@@ -13,5 +13,5 @@ description:
   en: Low-fidelity wireframe components for websites and native apps, made to align the team early.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://whimsical.co/wireframes/. Redirecionava de https://whimsical.co/wireframes/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://whimsical.co/wireframes/. Redirecionava de https://whimsical.co/wireframes/"

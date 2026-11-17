@@ -14,5 +14,5 @@ description:
   en: CSS design system for building retro Apple-style interfaces.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: troxler/awesome-css-frameworks, swyxio/spark-joy. Lida: https://sakofchit.github.io/system.css/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: troxler/awesome-css-frameworks, swyxio/spark-joy. Lida: https://sakofchit.github.io/system.css/"

@@ -14,5 +14,5 @@ description:
   en: Lightweight, modular front-end framework for building web interfaces.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css, troxler/awesome-css-frameworks. Lida: https://getuikit.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css, troxler/awesome-css-frameworks. Lida: https://getuikit.com/"

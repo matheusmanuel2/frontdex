@@ -15,5 +15,5 @@ description:
   en: 6,500+ open source SVG icons with adjustable size, color and stroke, for React, SolidJS, Vue and Figma.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://tabler-icons.io/. Redirecionava de https://tabler-icons.io/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://tabler-icons.io/. Redirecionava de https://tabler-icons.io/"

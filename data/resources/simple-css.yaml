@@ -13,5 +13,5 @@ description:
   en: "Classless framework: write semantic HTML and it comes out styled."
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://simplecss.org/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://simplecss.org/"

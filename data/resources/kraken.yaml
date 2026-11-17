@@ -12,5 +12,5 @@ description:
   en: Web interface to optimize, compress and resize images in the browser, with free and PRO plans.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://kraken.io/web-interface"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://kraken.io/web-interface"

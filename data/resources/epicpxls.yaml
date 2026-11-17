@@ -12,5 +12,5 @@ description:
   en: Curated fonts, graphics, templates and UI kits, in free and premium versions.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.epicpxls.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.epicpxls.com/"

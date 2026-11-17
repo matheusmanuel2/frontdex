@@ -14,5 +14,5 @@ description:
   en: Tab component for React whose tabs you can reorder by dragging.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://ctxhou.github.io/react-tabtab/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://ctxhou.github.io/react-tabtab/"

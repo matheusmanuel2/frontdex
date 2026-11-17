@@ -12,5 +12,5 @@ description:
   en: "Palettes shown on a real example site: click one and every color on the page updates so you see it in context."
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.happyhues.co/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.happyhues.co/"

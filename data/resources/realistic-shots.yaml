@@ -12,5 +12,5 @@ description:
   en: High-resolution photos for personal and commercial use, with 7 new ones each week.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida: https://realisticshots.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida: https://realisticshots.com/"

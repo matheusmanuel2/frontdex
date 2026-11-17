@@ -13,5 +13,5 @@ description:
   en: Self-hosted image optimization in your own cloud, at a flat monthly rate instead of per-request fees.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://imageengine.io"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://imageengine.io"

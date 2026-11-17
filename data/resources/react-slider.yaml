@@ -15,5 +15,5 @@ description:
   en: Accessible slider for React that imposes no CSS, ranges included.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://zillow.github.io/react-slider"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://zillow.github.io/react-slider"

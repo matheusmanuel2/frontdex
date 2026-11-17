@@ -15,5 +15,5 @@ description:
   en: CSS styles that make a web page look like Edward Tufte's handouts.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://edwardtufte.github.io/tufte-css/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://edwardtufte.github.io/tufte-css/"

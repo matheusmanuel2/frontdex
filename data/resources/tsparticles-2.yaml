@@ -14,5 +14,5 @@ description:
   en: Particle animations for the web, with an Angular integration among others.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://particles.matteobruni.it/. Redirecionava de https://particles.matteobruni.it/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://particles.matteobruni.it/. Redirecionava de https://particles.matteobruni.it/"

@@ -14,5 +14,5 @@ description:
   en: Browser extension that finds the SVGs on a page and lets you edit, optimize and export them.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.svggobbler.com"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.svggobbler.com"

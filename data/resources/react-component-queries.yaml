@@ -14,5 +14,5 @@ description:
   en: Provides props to React components based on their width or height.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/ctrlplusb/react-component-queries"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/ctrlplusb/react-component-queries"
