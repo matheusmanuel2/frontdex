@@ -64,6 +64,9 @@ export function FilterBar({ items, pageInfo, locale, labels, suggest }: FilterBa
   const filters = parseFilters(new URLSearchParams(params.toString()));
   const filtering = filters.pricing !== undefined || filters.sort !== 'recent';
   const [all, setAll] = useState<FilterItem[] | null>(null);
+  // Depois do primeiro filtro (ou voltar/avançar), a lista muda sem repetir a entrada da página.
+  const [changed, setChanged] = useState(filtering);
+  if (filtering && !changed) setChanged(true);
 
   useEffect(() => {
     if (!filtering || all) return;
@@ -142,10 +145,10 @@ export function FilterBar({ items, pageInfo, locale, labels, suggest }: FilterBa
       </p>
 
       {loading ? (
-        <CategoryRows items={items} locale={locale} labels={labels} />
+        <CategoryRows items={items} locale={locale} labels={labels} reveal={!changed} />
       ) : shown.length > 0 ? (
         <>
-          <CategoryRows items={shown} locale={locale} labels={labels} />
+          <CategoryRows items={shown} locale={locale} labels={labels} reveal={!changed} />
           {filtering ? null : (
             <Pagination base={pageInfo.base} page={pageInfo.page} count={pageInfo.count} labels={labels.pagination} />
           )}

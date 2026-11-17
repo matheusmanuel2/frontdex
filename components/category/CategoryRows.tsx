@@ -10,9 +10,19 @@ export type RowLabels = {
 };
 
 /** Linhas da categoria. Usado pelo servidor (lista completa, sem JS) e pela ilha de filtros. */
-export function CategoryRows({ items, locale, labels }: { items: FilterItem[]; locale: string; labels: RowLabels }) {
+export function CategoryRows({
+  items,
+  locale,
+  labels,
+  reveal = true,
+}: {
+  items: FilterItem[];
+  locale: string;
+  labels: RowLabels;
+  reveal?: boolean;
+}) {
   return (
-    <ResourceList label={labels.list}>
+    <ResourceList label={labels.list} reveal={reveal}>
       {items.map((item) => (
         <ResourceRow
           key={item.slug}
