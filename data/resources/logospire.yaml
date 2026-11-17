@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Logospire
+url: https://logospire.com/
+area: discover
+category: brand-inspiration
+tags:
+  - logos
+pricing: free
+open_source: false
+description:
+  pt: Galeria de logos para buscar inspiração antes de desenhar uma marca.
+  en: Logo gallery to browse for inspiration before designing a brand.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://logospire.com/"

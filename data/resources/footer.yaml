@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Footer
+url: https://www.footer.design
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Galeria de rodapés de sites, filtráveis por tipo e estilo.
+  en: Gallery of website footers you can sort by type and style.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: pedido do Matheus. Lida: https://www.footer.design"

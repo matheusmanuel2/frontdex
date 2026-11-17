@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Collect UI
+url: https://collectui.com/
+area: discover
+category: ui-inspiration
+tags:
+  - screens
+pricing: free
+open_source: false
+description:
+  pt: Inspiração diária de UI com designs e portfólios selecionados.
+  en: Daily UI inspiration with curated designs and portfolios.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, pedido do Matheus. Lida: https://collectui.com/"

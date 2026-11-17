@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Best Website Gallery
+url: https://bestwebsite.gallery/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Sites escolhidos a dedo por David Hellmann e reunidos numa galeria mantida desde 2008.
+  en: Websites hand-picked by David Hellmann and gathered in a gallery maintained since 2008.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://bestwebsite.gallery/"

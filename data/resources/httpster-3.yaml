@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Httpster
+url: https://httpster.net/2020/apr/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Galeria de sites com ideias de design criativo para usar como referência.
+  en: Gallery of websites with creative design ideas to use as reference.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://httpster.net/2020/apr/"

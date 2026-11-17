@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Design Nominees
+url: https://www.fontspace.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Premiações e vitrine de sites, apps e jogos, com destaque para designers, devs e agências.
+  en: Awards and showcase for websites, apps and games, spotlighting designers, developers and agencies.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.fontspace.com/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Landing.Gallery
+url: https://arabicfonts.net/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Mais de 1.939 landing pages reais de marcas e startups para estudar layouts e padrões de UI.
+  en: 1,939+ real landing pages from brands and startups for studying layouts and UI patterns.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://arabicfonts.net/"

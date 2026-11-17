@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Landingfolio
+url: https://landingfolio.com/
+area: discover
+category: ui-inspiration
+tags:
+  - web
+  - screens
+pricing: freemium
+open_source: false
+description:
+  pt: Galeria de landing pages com templates e componentes para buscar referências.
+  en: Gallery of landing page designs, plus templates and components for reference.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, swyxio/spark-joy. Lida: https://landingfolio.com/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: A1 Gallery
+url: https://www.a1.gallery
+area: discover
+category: ui-inspiration
+tags:
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Sites escolhidos a dedo para inspiração de design, atualizada quase todo dia.
+  en: Hand-picked websites for design inspiration, updated nearly every day.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.a1.gallery"

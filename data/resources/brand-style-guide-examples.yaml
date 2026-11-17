@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Brand Style Guide Examples
+url: https://saijogeorge.com/brand-style-guide-examples/
+area: discover
+category: brand-inspiration
+tags:
+  - branding
+  - design-systems
+pricing: free
+open_source: false
+description:
+  pt: Links curados por Saijo George para guias de estilo, bibliotecas de padrões e manuais de design.
+  en: Links curated by Saijo George to style guides, pattern libraries and design manuals.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://saijogeorge.com/brand-style-guide-examples/"
