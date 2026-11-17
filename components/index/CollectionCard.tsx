@@ -30,7 +30,8 @@ export function CollectionCard({ href, title, eyebrow, count, description, items
       )}
     >
       <span className="flex items-center justify-between gap-3">
-        <span className="label-mono text-muted">{eyebrow}</span>
+        {/* Sem eyebrow fica só o espaçador, para a contagem continuar à direita. */}
+        {eyebrow ? <span className="label-mono text-muted">{eyebrow}</span> : <span />}
         <TagChip>{count}</TagChip>
       </span>
       <span className="title-card">{title}</span>

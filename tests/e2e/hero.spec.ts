@@ -1,12 +1,17 @@
 import { expect, test } from '@playwright/test';
 
+import { listResources } from '../../lib/content';
+
+/** Igual a HERO_STATS_MIN em components/hero/Hero.tsx (não importamos o componente no Playwright). */
+const HERO_STATS_MIN = 25;
+
 test.describe('hero da home', () => {
-  test('mostra o título e as duas ações; esconde os números com menos de 25 recursos', async ({ page }) => {
+  test('mostra o título e as duas ações; números só a partir de HERO_STATS_MIN recursos', async ({ page }) => {
     await page.goto('/pt');
     const hero = page.locator('section[aria-labelledby="hero-title"]');
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(/Menos busca\.\s*Mais construção\./);
-    // 8 recursos active no seed (lib/content): abaixo de HERO_STATS_MIN.
-    await expect(hero.getByRole('definition')).toHaveCount(0);
+    if (listResources().length < HERO_STATS_MIN) await expect(hero.getByRole('definition')).toHaveCount(0);
+    else await expect(hero.getByRole('definition').first()).toBeVisible();
     await expect(hero.getByRole('link', { name: /Buscar no índice/ })).toHaveAttribute('href', '/pt/search');
     await expect(hero.getByRole('link', { name: /ou adicione um recurso/ })).toHaveAttribute('href', '/pt/add');
   });

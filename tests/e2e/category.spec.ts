@@ -1,12 +1,20 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test, type Page } from '@playwright/test';
 
+import { listCategories, listResources } from '../../lib/content';
+
+const byName = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name, 'en');
+const uiInspiration = listResources({ category: 'ui-inspiration' });
+const animation = listResources({ category: 'animation' });
+const emptyCategory = listCategories().find((category) => listResources({ category: category.slug }).length === 0);
+
 const rows = (page: Page) => page.getByRole('list', { name: 'Recursos da categoria' }).getByRole('listitem');
 
 test('lista densa com todos os recursos da categoria e sem violações axe', async ({ page }) => {
   await page.goto('/pt/c/ui-inspiration');
-  await expect(rows(page)).toHaveCount(3);
-  await expect(page.getByText('Mostrando 3 de 3')).toBeVisible();
+  const total = uiInspiration.length;
+  await expect(rows(page)).toHaveCount(total);
+  await expect(page.getByText(`Mostrando ${total} de ${total}`)).toBeVisible();
   await expect(page.getByRole('checkbox', { name: 'Só open source' })).toHaveCount(0);
   await expect(page.getByRole('combobox', { name: 'Nível' })).toHaveCount(0);
   const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa']).analyze();
@@ -14,8 +22,12 @@ test('lista densa com todos os recursos da categoria e sem violações axe', asy
 });
 
 test('filtros vão para a URL e funcionam com voltar/avançar', async ({ page }) => {
+  test.skip(
+    animation.some((resource) => resource.pricing === 'paid'),
+    'o teste precisa de animation sem recursos pagos',
+  );
   await page.goto('/pt/c/animation');
-  await expect(rows(page)).toHaveCount(2);
+  await expect(rows(page)).toHaveCount(animation.length);
 
   await page.getByRole('button', { name: 'Pago' }).click();
   await expect(page).toHaveURL(/\/pt\/c\/animation\?pricing=paid$/);
@@ -23,7 +35,7 @@ test('filtros vão para a URL e funcionam com voltar/avançar', async ({ page })
 
   await page.goBack();
   await expect(page).toHaveURL(/\/pt\/c\/animation$/);
-  await expect(rows(page)).toHaveCount(2);
+  await expect(rows(page)).toHaveCount(animation.length);
 
   await page.goForward();
   await expect(page).toHaveURL(/pricing=paid/);
@@ -36,7 +48,8 @@ test('filtros vão para a URL e funcionam com voltar/avançar', async ({ page })
 test('um link com filtros é partilhável', async ({ page }) => {
   await page.goto('/pt/c/ui-inspiration?sort=name&pricing=freemium');
   await expect(page.getByRole('button', { name: 'Freemium' })).toHaveAttribute('aria-pressed', 'true');
-  await expect(rows(page).first()).toContainText('Mobbin');
+  const [first] = uiInspiration.filter((resource) => resource.pricing === 'freemium').sort(byName);
+  await expect(rows(page).first()).toContainText(first!.name);
 });
 
 test.describe('sem JavaScript', () => {
@@ -44,12 +57,13 @@ test.describe('sem JavaScript', () => {
 
   test('a lista completa aparece', async ({ page }) => {
     await page.goto('/pt/c/ui-inspiration?pricing=paid');
-    await expect(rows(page)).toHaveCount(3);
+    await expect(rows(page)).toHaveCount(uiInspiration.length);
   });
 });
 
 test('categoria sem recursos mostra o estado vazio', async ({ page }) => {
-  const response = await page.goto('/pt/c/icons');
+  test.skip(!emptyCategory, 'todas as categorias têm recursos');
+  const response = await page.goto(`/pt/c/${emptyCategory!.slug}`);
   expect(response?.status()).toBe(200);
   await expect(page.getByText('Ainda não há recursos nesta categoria.')).toBeVisible();
 });
