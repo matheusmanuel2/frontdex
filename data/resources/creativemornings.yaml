@@ -5,8 +5,8 @@ area: grow
 category: communities
 tags:
   - video
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Série de palestras matinais gratuitas para a comunidade criativa, em cidades do mundo todo e online.
   en: Free monthly breakfast talks for the creative community, held in cities worldwide and watchable online.
