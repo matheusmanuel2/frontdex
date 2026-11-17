@@ -11308,5 +11308,11 @@
     "name": "Degreeless.design",
     "decision": "out",
     "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ui8.net/category/freebies",
+    "name": "UI8 Freebies",
+    "decision": "out",
+    "reason": "CI não consegue verificar (403 do Cloudflare sem sinal de desafio)"
   }
 ]
