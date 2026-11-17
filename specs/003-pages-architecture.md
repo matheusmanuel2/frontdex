@@ -58,6 +58,7 @@ data/*.yaml  →  lib/content  →  app/ + components/
 - Todas as páginas, exceto a home (que tem a entrada própria do hero), entram com o recipe **18 · Texts reveal** do transitions.dev: os blocos do conteúdo aparecem um de cada vez, de cima para baixo, a subir `--distance-medium` com blur e fade (`--duration-very-slow`, `--ease-smooth-out`).
 - Atraso de `--duration-micro` entre blocos (`.t-reveal`) e de `--duration-stagger` entre itens de uma lista (`.t-reveal-list`: linhas de recursos, cards de categoria e de coleção, categorias da barra lateral). A partir do 12.º elemento entram juntos.
 - Corre no primeiro carregamento e em cada navegação (área, categoria, recurso…), só com CSS. Com `prefers-reduced-motion`, o conteúdo aparece sem animação.
+- Na categoria, a barra lateral só entra em sequência quando a tela de categoria abre. Trocar de categoria pela própria barra anima apenas o conteúdo; a barra fica parada.
 - Os links de saída para o recurso (site, repositório, aleatório) abrem numa nova aba (`target="_blank"`, `rel="noopener"`) e avisam leitores de ecrã com "(abre em nova aba)". A busca ⌘K já abria resultados externos numa nova aba.
 
 ## Critérios de aceitação
