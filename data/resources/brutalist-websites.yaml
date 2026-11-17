@@ -7,9 +7,12 @@ tags: [ web, css ]
 pricing: free
 open_source: false
 description:
-  pt: "Arquivo de sites crus e fora do padrão, cada um com uma entrevista curta com quem fez. Antídoto para templates."
-  en: "Archive of raw, off-template websites, each with a short interview with its maker. An antidote to templates."
+  pt: "Arquivo de sites crus e fora do padrão, cada um com uma entrevista curta
+    com quem fez. Antídoto para templates."
+  en: "Archive of raw, off-template websites, each with a short interview with its
+    maker. An antidote to templates."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 30

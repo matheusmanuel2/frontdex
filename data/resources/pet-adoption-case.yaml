@@ -7,9 +7,12 @@ tags: [ career, portfolio, flows ]
 pricing: free
 open_source: false
 description:
-  pt: "Case de UX feito para o processo de contratação do Google. Mostra o nível de detalhe esperado num desafio."
-  en: "UX case study made for Google's hiring process. Shows the level of detail expected in a design challenge."
+  pt: "Case de UX feito para o processo de contratação do Google. Mostra o nível
+    de detalhe esperado num desafio."
+  en: "UX case study made for Google's hiring process. Shows the level of detail
+    expected in a design challenge."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail. Medium com proteção anti-bot (403) no curl."
+id: 79

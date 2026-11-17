@@ -7,9 +7,13 @@ tags: [ web ]
 pricing: TODO
 open_source: false
 description:
-  pt: "Galeria antiga e bem filtrada de sites, por estilo, tipo e assunto. Menos tendência, mais trabalho sóbrio."
-  en: "Long-running, well-filtered gallery of websites by style, type and subject. Less trend-chasing, more restrained work."
+  pt: "Galeria antiga e bem filtrada de sites, por estilo, tipo e assunto. Menos
+    tendência, mais trabalho sóbrio."
+  en: "Long-running, well-filtered gallery of websites by style, type and subject.
+    Less trend-chasing, more restrained work."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Import Design Holy Grail. Site devolveu 429 (rate limit) na verificação; pricing por confirmar."
+notes: "Import Design Holy Grail. Site devolveu 429 (rate limit) na verificação;
+  pricing por confirmar."
+id: 89

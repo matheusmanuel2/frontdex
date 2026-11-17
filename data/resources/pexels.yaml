@@ -7,9 +7,12 @@ tags: [ photos, video ]
 pricing: free
 open_source: false
 description:
-  pt: "Fotos e vídeos de stock grátis para uso comercial, sem atribuição obrigatória."
-  en: "Free stock photos and videos for commercial use, with no attribution required."
+  pt: "Fotos e vídeos de stock grátis para uso comercial, sem atribuição
+    obrigatória."
+  en: "Free stock photos and videos for commercial use, with no attribution
+    required."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail. Cloudflare 403 no curl."
+id: 80

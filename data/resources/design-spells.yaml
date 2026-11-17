@@ -7,9 +7,13 @@ tags: [ motion, interactive ]
 pricing: TODO
 open_source: false
 description:
-  pt: "Coleção de microinterações e detalhes que fazem uma interface parecer viva. Referência rápida para movimento."
-  en: "Collection of micro-interactions and small details that make an interface feel alive. Quick reference for motion."
+  pt: "Coleção de microinterações e detalhes que fazem uma interface parecer viva.
+    Referência rápida para movimento."
+  en: "Collection of micro-interactions and small details that make an interface
+    feel alive. Quick reference for motion."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Import Design Holy Grail. Site devolveu 429 na verificação; pricing por confirmar."
+notes: "Import Design Holy Grail. Site devolveu 429 na verificação; pricing por
+  confirmar."
+id: 40

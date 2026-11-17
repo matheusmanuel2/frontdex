@@ -7,9 +7,12 @@ tags: [ css ]
 pricing: free
 open_source: false
 description:
-  pt: "Misturador e modificador de cores com milhares de nomes de cor e combinações. Bom para nomear tokens."
-  en: "Color mixer and modifier with thousands of color names and combinations. Good for naming tokens."
+  pt: "Misturador e modificador de cores com milhares de nomes de cor e
+    combinações. Bom para nomear tokens."
+  en: "Color mixer and modifier with thousands of color names and combinations.
+    Good for naming tokens."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 56

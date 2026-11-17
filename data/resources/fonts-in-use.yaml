@@ -7,9 +7,12 @@ tags: [ typography, branding ]
 pricing: free
 open_source: false
 description:
-  pt: "Arquivo pesquisável de tipografia aplicada, indexado por fonte, formato e tema. Mostra uma fonte no mundo real."
-  en: "Searchable archive of typography in use, indexed by typeface, format and topic. Shows a font out in the real world."
+  pt: "Arquivo pesquisável de tipografia aplicada, indexado por fonte, formato e
+    tema. Mostra uma fonte no mundo real."
+  en: "Searchable archive of typography in use, indexed by typeface, format and
+    topic. Shows a font out in the real world."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 46

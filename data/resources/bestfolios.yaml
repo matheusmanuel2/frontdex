@@ -7,9 +7,12 @@ tags: [ career, portfolio ]
 pricing: TODO
 open_source: false
 description:
-  pt: "Galeria de portfólios, currículos e decks de designers de UX e produto, filtrável por tipo de trabalho."
-  en: "Gallery of portfolios, resumes and decks from UX and product designers, filterable by kind of work."
+  pt: "Galeria de portfólios, currículos e decks de designers de UX e produto,
+    filtrável por tipo de trabalho."
+  en: "Gallery of portfolios, resumes and decks from UX and product designers,
+    filterable by kind of work."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
 notes: "Import Design Holy Grail. SPA sem meta description; pricing por confirmar."
+id: 26

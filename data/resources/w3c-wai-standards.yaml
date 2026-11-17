@@ -8,9 +8,12 @@ tags: [ accessibility, web ]
 pricing: free
 open_source: false
 description:
-  pt: "Visão geral oficial das normas de acessibilidade do W3C (WCAG, ARIA, ATAG), com links para cada uma."
-  en: "Official overview of W3C accessibility standards (WCAG, ARIA, ATAG), linking to each one."
+  pt: "Visão geral oficial das normas de acessibilidade do W3C (WCAG, ARIA, ATAG),
+    com links para cada uma."
+  en: "Official overview of W3C accessibility standards (WCAG, ARIA, ATAG),
+    linking to each one."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 102

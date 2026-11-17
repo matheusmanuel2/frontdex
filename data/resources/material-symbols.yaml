@@ -9,9 +9,12 @@ tags: [ icons, web ]
 pricing: free
 open_source: true
 description:
-  pt: "Mais de 2.500 ícones Material Symbols numa fonte variável, com peso, preenchimento e tamanho ajustáveis."
-  en: "Over 2,500 Material Symbols icons in one variable font, with adjustable weight, fill and optical size."
+  pt: "Mais de 2.500 ícones Material Symbols numa fonte variável, com peso,
+    preenchimento e tamanho ajustáveis."
+  en: "Over 2,500 Material Symbols icons in one variable font, with adjustable
+    weight, fill and optical size."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 67

@@ -7,9 +7,12 @@ tags: [ web ]
 pricing: free
 open_source: false
 description:
-  pt: "Gerador de paletas que usa um modelo treinado em fotos, filmes e arte para sugerir cores coerentes."
-  en: "Palette generator using a model trained on photos, films and art to suggest coherent colors."
+  pt: "Gerador de paletas que usa um modelo treinado em fotos, filmes e arte para
+    sugerir cores coerentes."
+  en: "Palette generator using a model trained on photos, films and art to suggest
+    coherent colors."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 35

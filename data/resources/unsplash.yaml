@@ -7,9 +7,12 @@ tags: [ photos ]
 pricing: freemium
 open_source: false
 description:
-  pt: "Fotos em alta resolução grátis para uso comercial, com uma camada paga (Unsplash+). Atenção à licença de cada foto."
-  en: "High-resolution photos free for commercial use, with a paid tier (Unsplash+). Check each photo's license."
+  pt: "Fotos em alta resolução grátis para uso comercial, com uma camada paga
+    (Unsplash+). Atenção à licença de cada foto."
+  en: "High-resolution photos free for commercial use, with a paid tier
+    (Unsplash+). Check each photo's license."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail. Proteção anti-bot no curl."
+id: 101

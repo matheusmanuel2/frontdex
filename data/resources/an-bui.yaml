@@ -8,9 +8,12 @@ tags: [ portfolio, motion ]
 pricing: free
 open_source: false
 description:
-  pt: "Portfólio limpo, com trabalho de motion em destaque. Exemplo de como deixar o projeto falar sem enfeite."
-  en: "Clean portfolio with motion work up front. An example of letting the projects speak without decoration."
+  pt: "Portfólio limpo, com trabalho de motion em destaque. Exemplo de como deixar
+    o projeto falar sem enfeite."
+  en: "Clean portfolio with motion work up front. An example of letting the
+    projects speak without decoration."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 21

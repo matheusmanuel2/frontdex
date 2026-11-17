@@ -7,10 +7,13 @@ tags: [ flows, screens ]
 pricing: freemium
 open_source: false
 description:
-  pt: "Wireframes com cara de esboço à mão, como o Balsamiq, mas com interface atual. Bom para discutir fluxo, não pixel."
-  en: "Hand-sketch style wireframes like Balsamiq, with a modern interface. Good for discussing flow, not pixels."
+  pt: "Wireframes com cara de esboço à mão, como o Balsamiq, mas com interface
+    atual. Bom para discutir fluxo, não pixel."
+  en: "Hand-sketch style wireframes like Balsamiq, with a modern interface. Good
+    for discussing flow, not pixels."
 featured: true
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail. Hidden gem."
+id: 48

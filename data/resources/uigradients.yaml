@@ -8,9 +8,12 @@ tags: [ gradients, css ]
 pricing: free
 open_source: true
 description:
-  pt: "Coleção de gradientes prontos com o CSS para copiar. Útil quando um fundo pede só um toque de cor."
-  en: "Collection of ready gradients with copyable CSS. Handy when a background needs just a touch of color."
+  pt: "Coleção de gradientes prontos com o CSS para copiar. Útil quando um fundo
+    pede só um toque de cor."
+  en: "Collection of ready gradients with copyable CSS. Handy when a background
+    needs just a touch of color."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 98

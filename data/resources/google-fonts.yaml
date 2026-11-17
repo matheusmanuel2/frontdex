@@ -8,9 +8,12 @@ tags: [ typography, web ]
 pricing: free
 open_source: true
 description:
-  pt: "Catálogo de fontes open source com hospedagem grátis e filtros por idioma, eixo variável e classificação."
-  en: "Catalog of open-source fonts with free hosting and filters by language, variable axis and classification."
+  pt: "Catálogo de fontes open source com hospedagem grátis e filtros por idioma,
+    eixo variável e classificação."
+  en: "Catalog of open-source fonts with free hosting and filters by language,
+    variable axis and classification."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 54

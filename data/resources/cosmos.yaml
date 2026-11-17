@@ -7,9 +7,12 @@ tags: [ branding ]
 pricing: freemium
 open_source: false
 description:
-  pt: "Moodboards visuais com pesquisa por imagem e clusters. Bom para juntar referência antes de abrir o Figma."
-  en: "Visual moodboards with image search and clusters. Good for gathering references before opening Figma."
+  pt: "Moodboards visuais com pesquisa por imagem e clusters. Bom para juntar
+    referência antes de abrir o Figma."
+  en: "Visual moodboards with image search and clusters. Good for gathering
+    references before opening Figma."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 37

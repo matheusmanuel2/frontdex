@@ -7,9 +7,12 @@ tags: [ logos, api ]
 pricing: freemium
 open_source: false
 description:
-  pt: "API que devolve o logo de uma empresa pelo domínio, em PNG, WebP ou JPG. Plano grátis generoso."
-  en: "API that returns a company's logo from its domain, as PNG, WebP or JPG. Generous free tier."
+  pt: "API que devolve o logo de uma empresa pelo domínio, em PNG, WebP ou JPG.
+    Plano grátis generoso."
+  en: "API that returns a company's logo from its domain, as PNG, WebP or JPG.
+    Generous free tier."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 65

@@ -7,9 +7,12 @@ tags: [ web, mobile, flows ]
 pricing: free
 open_source: false
 description:
-  pt: "Checklists de boas práticas para páginas, componentes e fluxos. Use antes de entregar para não esquecer estados."
-  en: "Best-practice checklists for pages, components and flows. Run through one before shipping so no state gets missed."
+  pt: "Checklists de boas práticas para páginas, componentes e fluxos. Use antes
+    de entregar para não esquecer estados."
+  en: "Best-practice checklists for pages, components and flows. Run through one
+    before shipping so no state gets missed."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 31

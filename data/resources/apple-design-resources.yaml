@@ -8,9 +8,12 @@ tags: [ ios, figma, macos ]
 pricing: free
 open_source: false
 description:
-  pt: "Templates oficiais da Apple para Figma e Sketch, ícones e guias de cor para cada plataforma."
-  en: "Apple's official Figma and Sketch templates, icon production files and color guides for each platform."
+  pt: "Templates oficiais da Apple para Figma e Sketch, ícones e guias de cor para
+    cada plataforma."
+  en: "Apple's official Figma and Sketch templates, icon production files and
+    color guides for each platform."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 22

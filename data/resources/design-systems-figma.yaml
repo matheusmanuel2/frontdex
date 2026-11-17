@@ -8,9 +8,12 @@ tags: [ design-systems, figma ]
 pricing: free
 open_source: false
 description:
-  pt: "Publicação da Figma sobre design systems: artigos de quem mantém sistemas grandes, do começo à governança."
-  en: "Figma's publication on design systems: articles from people running large systems, from first steps to governance."
+  pt: "Publicação da Figma sobre design systems: artigos de quem mantém sistemas
+    grandes, do começo à governança."
+  en: "Figma's publication on design systems: articles from people running large
+    systems, from first steps to governance."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 41

@@ -8,9 +8,12 @@ tags: [ freelance, pricing-guide ]
 pricing: free
 open_source: false
 description:
-  pt: "Calculadora que ajuda a chegar no preço de um projeto criativo a partir de custos, horas e escopo."
-  en: "Calculator that helps you price a creative project from your costs, hours and scope."
+  pt: "Calculadora que ajuda a chegar no preço de um projeto criativo a partir de
+    custos, horas e escopo."
+  en: "Calculator that helps you price a creative project from your costs, hours
+    and scope."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 73

@@ -7,9 +7,12 @@ tags: [ logos, api, branding ]
 pricing: freemium
 open_source: false
 description:
-  pt: "Logos, cores e fontes de milhões de marcas por API ou pela web. Bom para listas de clientes e integrações."
-  en: "Logos, colors and fonts for millions of brands via API or web. Good for customer lists and integrations."
+  pt: "Logos, cores e fontes de milhões de marcas por API ou pela web. Bom para
+    listas de clientes e integrações."
+  en: "Logos, colors and fonts for millions of brands via API or web. Good for
+    customer lists and integrations."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 28

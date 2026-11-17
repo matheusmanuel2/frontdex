@@ -7,9 +7,13 @@ tags: [ career, pricing-guide ]
 pricing: free
 open_source: false
 description:
-  pt: "Planilha pública e colaborativa com salários reais de design gráfico, por cargo, cidade e experiência."
-  en: "Public, crowdsourced sheet of real graphic design salaries by role, city and experience."
+  pt: "Planilha pública e colaborativa com salários reais de design gráfico, por
+    cargo, cidade e experiência."
+  en: "Public, crowdsourced sheet of real graphic design salaries by role, city
+    and experience."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Import Design Holy Grail. No documento chama-se AIGA Salary Sheet; o título da planilha não cita a AIGA. Confirmar autoria."
+notes: "Import Design Holy Grail. No documento chama-se AIGA Salary Sheet; o
+  título da planilha não cita a AIGA. Confirmar autoria."
+id: 20

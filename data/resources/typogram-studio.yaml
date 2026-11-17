@@ -7,10 +7,14 @@ tags: [ typography, branding ]
 pricing: TODO
 open_source: false
 description:
-  pt: "Editor de tipografia e logotipos no browser, com ajuste fino de letras sem abrir um programa de vetor."
-  en: "In-browser editor for type and wordmarks, with fine letter tweaks without opening a vector app."
+  pt: "Editor de tipografia e logotipos no browser, com ajuste fino de letras sem
+    abrir um programa de vetor."
+  en: "In-browser editor for type and wordmarks, with fine letter tweaks without
+    opening a vector app."
 featured: true
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Import Design Holy Grail. Hidden gem. App SPA sem meta; confirmar descrição e pricing."
+notes: "Import Design Holy Grail. Hidden gem. App SPA sem meta; confirmar
+  descrição e pricing."
+id: 97

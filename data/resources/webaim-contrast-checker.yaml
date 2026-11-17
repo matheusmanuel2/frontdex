@@ -8,9 +8,12 @@ tags: [ accessibility, css ]
 pricing: free
 open_source: false
 description:
-  pt: "Verificador de contraste da WebAIM com resultado WCAG AA e AAA para texto normal, grande e UI."
-  en: "WebAIM's contrast checker with WCAG AA and AAA results for normal text, large text and UI."
+  pt: "Verificador de contraste da WebAIM com resultado WCAG AA e AAA para texto
+    normal, grande e UI."
+  en: "WebAIM's contrast checker with WCAG AA and AAA results for normal text,
+    large text and UI."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
 notes: "Import Design Holy Grail."
+id: 104
