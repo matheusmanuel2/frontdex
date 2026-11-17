@@ -66,7 +66,11 @@ async function readHtml(url: string): Promise<Page> {
     const res = await fetch(url, {
       signal: controller.signal,
       redirect: 'follow',
-      headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36', Accept: 'text/html' },
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36',
+        Accept: 'text/html',
+      },
     });
     if (!res.ok) return { error: `HTTP ${res.status}` };
     const reader = res.body?.getReader();
@@ -102,7 +106,13 @@ async function githubMeta(repos: string[], token: string): Promise<Map<string, N
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({ query: `{ ${q} }` }),
     });
-    type R = { description: string | null; homepageUrl: string | null; licenseInfo: { spdxId: string } | null; primaryLanguage: { name: string } | null; repositoryTopics: { nodes: { topic: { name: string } }[] } };
+    type R = {
+      description: string | null;
+      homepageUrl: string | null;
+      licenseInfo: { spdxId: string } | null;
+      primaryLanguage: { name: string } | null;
+      repositoryTopics: { nodes: { topic: { name: string } }[] };
+    };
     const json = (await res.json()) as { data?: Record<string, R | null> };
     batch.forEach((r, j) => {
       const d = json.data?.[`r${j}`];
@@ -129,8 +139,12 @@ async function main() {
 
   const token = execFileSync('gh', ['auth', 'token'], { encoding: 'utf8' }).trim();
   const gh = todo.filter((c) => c.key.startsWith('github.com/'));
-  const meta = await githubMeta(gh.map((c) => c.key.split('/').slice(1, 3).join('/')), token);
-  for (const c of gh) pages[c.key] = { title: c.name, github: meta.get(c.key.split('/').slice(1, 3).join('/')) ?? { topics: [] } };
+  const meta = await githubMeta(
+    gh.map((c) => c.key.split('/').slice(1, 3).join('/')),
+    token,
+  );
+  for (const c of gh)
+    pages[c.key] = { title: c.name, github: meta.get(c.key.split('/').slice(1, 3).join('/')) ?? { topics: [] } };
   writeFileSync(OUT, JSON.stringify(pages) + '\n');
 
   const web = todo.filter((c) => !c.key.startsWith('github.com/'));
@@ -139,7 +153,7 @@ async function main() {
   for (let i = 0; i < web.length; i += CONC) {
     const batch = web.slice(i, i + CONC);
     const results = await Promise.all(batch.map((c) => readHtml(c.url)));
-    batch.forEach((c, j) => (pages[c.key] = results[j] ?? { error: "sem resposta" }));
+    batch.forEach((c, j) => (pages[c.key] = results[j] ?? { error: 'sem resposta' }));
     done += batch.length;
     if (done % 300 < CONC || done === web.length) {
       writeFileSync(OUT, JSON.stringify(pages) + '\n');
