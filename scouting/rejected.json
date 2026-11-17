@@ -7210,5 +7210,4103 @@
     "decision": "out",
     "name": "DesignerMill",
     "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "99percentinvisible.org",
+    "name": "99% Invisible",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "acorn.firefox.com",
+    "name": "Acorn",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "allthetags.com",
+    "name": "All The Tags",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "anyway.fm",
+    "name": "Anyway.FM",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.apple.com/design",
+    "name": "Apple Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "astrouxds.com",
+    "name": "Astro UXDS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "auro.alaskaair.com",
+    "name": "Auro Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "skyscanner.design",
+    "name": "Backpack",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "bbc.co.uk/gel",
+    "name": "BBC GEL",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.yahoo.com/performance/rules.html",
+    "name": "Best Practices for Speeding Up Your Web Site",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "boagworld.com/show",
+    "name": "Boagworld Show",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "boltdesignsystem.com",
+    "name": "Bolt Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "booooooom.com/blog/design",
+    "name": "Booooooom",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "rei.github.io/rei-cedar-docs",
+    "name": "Cedar Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "anychart.com/chartopedia",
+    "name": "Chartopedia",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.chrome.com/docs/performance",
+    "name": "Chrome DevTools Performance",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developers.google.com/web/tools/chrome-devtools",
+    "name": "Chrome DevTools",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "clarity.design",
+    "name": "Clarity Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "design.cms.gov",
+    "name": "CMS Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "tympanus.net/codrops",
+    "name": "Codrops",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "cds.coinbase.com",
+    "name": "Coinbase Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "creativebloq.com",
+    "name": "Creative Bloq",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "creativereview.co.uk",
+    "name": "Creative Review",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "medium.com/@shaunbent/css-at-bbc-sport-part-1-bab546184e66",
+    "name": "CSS at BBC Sport",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ianfeather.co.uk/css-at-lonely-planet",
+    "name": "CSS at Lonely Planet",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "css-tricks.com",
+    "name": "CSS-Tricks",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "drafts.csswg.org/index.html",
+    "name": "CSS Working Group Drafts",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "cube.fyi",
+    "name": "CUBE CSS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "datastori.es",
+    "name": "Data Stories",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "datavizproject.com",
+    "name": "Data Viz Project",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designbetter.co",
+    "name": "Design Better",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designbetter.co/books",
+    "name": "Design Better",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designcode.io",
+    "name": "Design+Code",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "brianlovin.com/design-details",
+    "name": "Design Details",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designers.italia.it/design-system",
+    "name": "Designers Italia",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines",
+    "name": "Designing for macOS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designingforperformance.com",
+    "name": "Designing for Performance",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designtaxi.com",
+    "name": "DesignTAXI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "devhints.io",
+    "name": "Devhints",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "medium.com/dropbox-design",
+    "name": "Dropbox Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/dropbox/css-style-guide",
+    "name": "Dropbox (S)CSS Style Guide",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "duetds.com",
+    "name": "Duet Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "compat-table.github.io/compat-table/es6",
+    "name": "ECMAScript 6 compatibility table",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ecma-international.org/publications/standards/Ecma-262.htm",
+    "name": "ECMAScript Language Specification (ECMA-262)",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "emojiguide.org",
+    "name": "Emoji Guide",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "engie.design",
+    "name": "ENGIE Fluid",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "es6katas.org",
+    "name": "ES6 Katas",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ponyfoo.com/articles/es6",
+    "name": "ES6 Overview in 350 Bullet Points",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "exercism.io/tracks/javascript",
+    "name": "Exercism JavaScript Track",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "flexbox.malven.co",
+    "name": "FLEX",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react-shadow-scroll.netlify.com",
+    "name": "Flex",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "microsoft.com/design/fluent",
+    "name": "Fluent 2",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fluent.microsoft.com",
+    "name": "Fluent 2",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fffuel.co",
+    "name": "Frontend Mentor",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/getify/Functional-Light-JS",
+    "name": "Functional-Light JavaScript",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "vercel.com/geist",
+    "name": "Geist",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ux360.design/gestalt-principles-design",
+    "name": "Gestalt Principles of Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "goodui.org",
+    "name": "GoodUI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "design.google.com",
+    "name": "Google Design",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "google.github.io/styleguide/htmlcssguide.html",
+    "name": "Google HTML/CSS Style Guide",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "grid.malven.co",
+    "name": "GRID",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sheetxl.com",
+    "name": "Grid",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "hackingui.com",
+    "name": "Hacking UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "hackr.io/tutorials/learn-css",
+    "name": "Hackr.io CSS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "heydesigner.com",
+    "name": "HeyDesigner",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "httparchive.org",
+    "name": "HTTP Archive",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.apple.com/ios/human-interface-guidelines",
+    "name": "Human Interface Guidelines",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ibm.com/standards/web",
+    "name": "IBM.com Web Standards",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/necolas/idiomatic-css",
+    "name": "Idiomatic CSS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "design.infor.com",
+    "name": "Infor Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "udacity.com/course/intro-to-javascript--cd2073",
+    "name": "Intro to JavaScript",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript",
+    "name": "JavaScript language overview",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "blog.justfont.com",
+    "name": "justfont blog",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "guides.kontur.ru",
+    "name": "Kontur Guides",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "krds.go.kr",
+    "name": "KRDS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint",
+    "name": "LargestContentfulPaint",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "lawsofux.com",
+    "name": "Laws of UX",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.mozilla.org/en-US/docs/Web/API/LayoutShift",
+    "name": "LayoutShift",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addyosmani.com/resources/essentialjsdesignpatterns/book",
+    "name": "Learning JavaScript Design Patterns",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.chrome.com/docs/lighthouse",
+    "name": "Lighthouse",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "lightningdesignsystem.com",
+    "name": "Lightning Design System 2",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.mozilla.org/en-US/docs/Web/API/Long_Tasks_API",
+    "name": "Long Tasks API",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "styleguide.mailchimp.com",
+    "name": "Mailchimp Content Style Guide",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "maintainablecss.com",
+    "name": "MaintainableCSS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "makeovermonday.co.uk",
+    "name": "Makeover Monday",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "marvelapp.com/styleguide",
+    "name": "Marvel Styleguide",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "marvelapp.com/styleguide/overview/introduction",
+    "name": "Marvel Styleguide",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "material.io",
+    "name": "Material Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "material.io/resources",
+    "name": "Material Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "material.io/tools/gallery",
+    "name": "Material Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "material.google.com",
+    "name": "Material Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "material.io/guidelines/style/color.html",
+    "name": "Material Design: cores",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "material.io/guidelines",
+    "name": "Material Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "material-minimal.com",
+    "name": "Material Minimal",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.mozilla.org/docs/Web/JavaScript/Reference",
+    "name": "MDN JavaScript reference",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06",
+    "name": "Medium's CSS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "brandfactory.telefonica.com/mistica",
+    "name": "Mística",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "monzo.com/tone-of-voice",
+    "name": "Monzo tone of voice",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "nasa.github.io/nasawds-site",
+    "name": "NASA Web Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "nationbuilder.design",
+    "name": "NationBuilder Radius",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.mozilla.org/en-US/docs/Web/API/Navigation_timing_API",
+    "name": "Navigation Timing API",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "service-manual.nhs.uk",
+    "name": "NHS digital service manual",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "nordhealth.design",
+    "name": "Nord Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "overapi.com",
+    "name": "OverAPI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "design.gitlab.com",
+    "name": "Pajamas",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "usepanda.com",
+    "name": "Panda",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "design-system.pluralsight.com",
+    "name": "Pando Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "w3.org/TR/performance-timeline",
+    "name": "Performance Timeline",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "pie.design",
+    "name": "PIE Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "polaris.shopify.com",
+    "name": "Polaris",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designsystem.porsche.com",
+    "name": "Porsche Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "primer.style",
+    "name": "Primer",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "rambler-digital-solutions.github.io/rambler-ui",
+    "name": "Ratio",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.mozilla.org/en-US/docs/Web/API/Performance_API/Resource_timing",
+    "name": "Resource Timing API",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "rfc-editor.org/rfc/rfc9218.html",
+    "name": "RFC 9218: HTTP Prioritization",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "experience.sap.com/fiori-design",
+    "name": "SAP Fiori",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/davidtheclark/scalable-css-reading-list",
+    "name": "Scalable CSS Reading List",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "shortcode.dev",
+    "name": "shortcode.dev",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sidebar.io",
+    "name": "Sidebar",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ix.siemens.io",
+    "name": "Siemens Industrial Experience",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "jargon.js.org",
+    "name": "Simplified JavaScript Jargon",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designsystem.tech.gov.sg",
+    "name": "Singapore Government Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sketchapp.com/learn",
+    "name": "Sketch Learn",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sketchmaster.com",
+    "name": "Sketch Master",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "smashingmagazine.com",
+    "name": "Smashing Magazine",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "spectrum.adobe.com",
+    "name": "Spectrum",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "tdesign.tencent.com",
+    "name": "TDesign",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "adventuresindesignmarket.com",
+    "name": "The AID Network",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "javascript.info",
+    "name": "The Modern JavaScript Tutorial",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "typeisbeautiful.com",
+    "name": "The Type",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "uxofvr.com",
+    "name": "The UX of VR",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designsystem.wmnetwork.co.uk",
+    "name": "Transport for West Midlands Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designcode.io/ui-design-for-developers",
+    "name": "UI Design for Developers",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "w3.org/TR/user-timing",
+    "name": "User Timing",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+    "name": "Using the Fetch API",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designsystem.digital.gov",
+    "name": "USWDS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "web.dev",
+    "name": "web.dev",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "make.wordpress.org/core/handbook/best-practices/coding-standards/css",
+    "name": "WordPress CSS Coding Standards",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "design.workday.com",
+    "name": "Workday Canvas",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "wpostats.com",
+    "name": "WPO Stats",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "amazon.com/dp/B085XXCJ7X",
+    "name": "You Don't Know JS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "garden.zendesk.com",
+    "name": "Zendesk Garden",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "a11y-starter-kit.vercel.app",
+    "name": "A11y Starter Kit",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "abox.tools/compress-image",
+    "name": "abox Compress Image",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "aceternity.sveltekit.io",
+    "name": "Aceternity UI Svelte",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "achecker.ca",
+    "name": "achecker",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "briangonzalez.github.io/jquery.adaptive-backgrounds.js",
+    "name": "Adaptive Backgrounds",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "adaptive-images.com",
+    "name": "Adaptive Images",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "color.adobe.com",
+    "name": "Adobe Color",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fonts.adobe.com/fonts",
+    "name": "Adobe Fonts",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "aestheticsuite.dev",
+    "name": "Aesthetic",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/ag-grid/ag-grid",
+    "name": "AG Grid",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ivoryui.com",
+    "name": "AI Background Remover",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "material.angular.io",
+    "name": "Angular Material",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "animate.style",
+    "name": "Animate.css",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "animista.net",
+    "name": "Animista",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "animockup.com",
+    "name": "Animockup",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "antdv.com",
+    "name": "Ant Design Vue",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "apexcharts.com",
+    "name": "ApexCharts",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/Khan/aphrodite",
+    "name": "Aphrodite",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "appicon.co",
+    "name": "App Icon Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ariakit.com",
+    "name": "Ariakit",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "artboard.studio",
+    "name": "Artboard Studio",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "aseprite.org",
+    "name": "Aseprite",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "assetmelt.com",
+    "name": "Asset Melt",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fontsource.org",
+    "name": "Asset Melt",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "asvg.app",
+    "name": "asvg",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/jarred-sumner/atbuild",
+    "name": "AtBuild",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "atomicmotion.dev",
+    "name": "AtomicMotion",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "atomizecode.com",
+    "name": "Atomize",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "shergin.github.io/malevich",
+    "name": "Atomize",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/DualWield/auto-size-transition",
+    "name": "auto-size-transition",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react-voodoo.github.io/react-voodoo-samples",
+    "name": "Avataaars Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "npmjs.com/package/axios-react",
+    "name": "axios-react",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "balsamiq.cloud",
+    "name": "Balsamiq Cloud",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/beautifer-minify",
+    "name": "Beautifer & Minify",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "beercss.com",
+    "name": "Beer CSS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "benchmarkjs.com",
+    "name": "Benchmark.js",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/alibaba/BizCharts",
+    "name": "BizCharts",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "blazeui.com",
+    "name": "Blaze UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "colinkeany.com/blend",
+    "name": "Blend",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "blobs.app",
+    "name": "Blobs",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "techdocs.akamai.com/mpulse-boomerang/docs/welcome-to-mpulse-boomerang",
+    "name": "Boomerang",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "brick.im",
+    "name": "Brick",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "browserdiet.com/calories",
+    "name": "Browser Calories",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "browserframe.com",
+    "name": "BrowserFrame",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "bundle.js.org",
+    "name": "bundlejs",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "techsmith.com/video-editor.html",
+    "name": "Camtasia",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/tpkahlon/captcha-image",
+    "name": "captcha-image",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "carbon-components-svelte.onrender.com",
+    "name": "Carbon Components Svelte",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/xulihang/react-vision-camera",
+    "name": "Carbon",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ckeditor.com/ckeditor-5",
+    "name": "CKEditor 5 React",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "design.teambition.com",
+    "name": "Clarity Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "codeadrian.github.io/clay.css",
+    "name": "clay.css",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "cleverbrush.com",
+    "name": "CleverBrush",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "microsoft.github.io/vscode-codicons/dist/codicon.html",
+    "name": "Codicons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "colorleap.app",
+    "name": "Color Leap",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "colorbox.io",
+    "name": "ColorBox",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "colorca.org",
+    "name": "Colorca",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "alexbeals.com/projects/colorize",
+    "name": "Colorize",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/colorpick-eyedropper",
+    "name": "Colorpick Eyedropper",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "colors.lol",
+    "name": "colors.lol",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "colorpicker.cx",
+    "name": "ColorTools",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/colorzilla",
+    "name": "ColorZilla",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "colorzilla.com",
+    "name": "ColorZilla",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "compressimage.io",
+    "name": "Compress Image",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "coreui.io/icons",
+    "name": "CoreUI Icons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "creative-tim.com",
+    "name": "Creative Tim",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "crisp-react.winwiz1.com",
+    "name": "crisp-react",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "corewebvitals.io/tools/critical-css-generator",
+    "name": "Critical CSS Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "cruip.com/free-templates",
+    "name": "Cruip Free Templates",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "jeshwin.github.io/react-layman",
+    "name": "CSS Arrow Please",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "freetypography.com",
+    "name": "CSS Buttons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "shareyourdata.readthedocs.io",
+    "name": "CSS Flex Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "css.gg",
+    "name": "CSS.gg",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "uixdraft.com/tools/css-gradient-generator",
+    "name": "CSS Gradient Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "uidesigndaily.com",
+    "name": "CSS Grid Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "eazychart.com",
+    "name": "CSS Grid Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "cssloaders.github.io",
+    "name": "CSS Loaders",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/stoyan/csscolormin",
+    "name": "csscolormin",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "cssnippets.shefali.dev",
+    "name": "CSSnippets",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "csvtodashboard.com",
+    "name": "CSV to Dashboard",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "culrs.com",
+    "name": "Culrs",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "d3js.org/d3-scale-chromatic",
+    "name": "d3-scale-chromatic",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "clickminded.com/button-generator",
+    "name": "Da Button Factory",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "dareboost.com",
+    "name": "Dareboost",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/gmattie/Data-Pixels",
+    "name": "Data Pixels",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "datadoghq.com/product/real-user-monitoring",
+    "name": "Datadog Real User Monitoring",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "daub.dev",
+    "name": "DAUB",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/wessman/defer.js",
+    "name": "Defer.js",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "depositphotos.com",
+    "name": "Depositphotos",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "devdojo.com",
+    "name": "DevDojo",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "deviceshots.com",
+    "name": "Device Shots",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "transparenttextures.com",
+    "name": "DevOmniTools",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "dhtmlx.com/docs/products/dhtmlxGantt",
+    "name": "DHTMLX Gantt",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "hiradary.github.io/reoverlay",
+    "name": "Done Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "doodleipsum.com",
+    "name": "Doodle Ipsum",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "luoanb.github.io/hook-form-react",
+    "name": "Doodle Ipsum",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "colors.dopely.top",
+    "name": "Dopely",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "elrumordelaluz.github.io/draGGradients",
+    "name": "draGGradients",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "glimapp.github.io",
+    "name": "draw.io",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "drawbang.com",
+    "name": "Draw!",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "draw.io",
+    "name": "draw.io",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "duotone.shapefactory.co",
+    "name": "Duotone",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "easylottie.com",
+    "name": "EasyLottie",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "amanghuman.com/easypng.html",
+    "name": "EasyPNG",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "elegantframework.com",
+    "name": "Elegant",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "element.eleme.io",
+    "name": "Element",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "elementz.style",
+    "name": "Elementz",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/kieler/elkjs",
+    "name": "elkjs",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mikroconsult.gumroad.com/l/free-ui-sounds",
+    "name": "Essential UI Sounds",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ethn.io",
+    "name": "Ethnio",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "akveo.github.io/eva-icons",
+    "name": "Eva Icons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "excalidraw.com",
+    "name": "Excalidraw",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "extract.pics",
+    "name": "extract.pics",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ezgif.com",
+    "name": "Ezgif",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "shademix.com",
+    "name": "Ezgif",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/fake-filler",
+    "name": "Fake Filler",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "af-utils.vercel.app",
+    "name": "Fancy Border Radius",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "farbvelo.elastiq.ch",
+    "name": "FarbVélo",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "favicomatic.com",
+    "name": "Favic-o-Matic",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "favicon.cc",
+    "name": "favicon.cc",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "favicon.inbrowser.app",
+    "name": "Favicon InBrowser.App",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "favicon.io",
+    "name": "favicon.io",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "favicondl.com/tools.html",
+    "name": "favicondl",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "elrumordelaluz.github.io/coloreact",
+    "name": "Figma",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "figpeek.vercel.app",
+    "name": "Figpeek",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fineartfree.com",
+    "name": "Fine Art Free",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fonts.google.com/specimen/Fira+Sans",
+    "name": "Fira Sans",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mozilla.org/en-US/firefox/developer",
+    "name": "Firefox Developer Edition",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/fireshot",
+    "name": "FireShot",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "flatuicolors.com",
+    "name": "Flat UI Colors",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "floatui.com",
+    "name": "Float UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "createwithflow.com",
+    "name": "Flow",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "flowbite-admin-dashboard.vercel.app",
+    "name": "Flowbite Admin Dashboard",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "flowbite-react.com",
+    "name": "Flowbite React",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "flowrift.com/c/banner",
+    "name": "Flowrift",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.microsoft.com/en-us/fluentui",
+    "name": "Fluent UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react.fluentui.dev",
+    "name": "Fluent UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fontawesome.io",
+    "name": "Font Awesome",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fontawesome.com",
+    "name": "Font Awesome",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fontself.com",
+    "name": "Fontself",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "forge.madebyever.com",
+    "name": "Forge",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "get.foundation/sites/docs",
+    "name": "Foundation for Sites",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "zurb.com/playground/foundation-icon-fonts-3",
+    "name": "Foundation Icon Fonts 3",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "frappe.io/charts/docs",
+    "name": "Frappe Charts",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "freebbble.com",
+    "name": "Freebbble",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "squarefaceicongenerator.co",
+    "name": "FreeFrontend",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "froala.com/design-blocks",
+    "name": "Froala Design Blocks",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "frontify.com",
+    "name": "Frontify",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "game-icons.net",
+    "name": "Game-icons.net",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "generated.photos",
+    "name": "Generated Photos",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "gerillass.com",
+    "name": "Gerillass",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "tradecanvas.dev",
+    "name": "Get Waves",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "gimp.org",
+    "name": "GIMP",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "glassmorphism.com",
+    "name": "Glassmorphism CSS Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "odatamap.cherishchen2510.workers.dev",
+    "name": "Glassmorphism",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "gliffy.com",
+    "name": "Gliffy",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/aheckmann/gm",
+    "name": "gm",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developers.google.com/chart",
+    "name": "Google Charts",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developers.google.com/speed/libraries",
+    "name": "Google Hosted Libraries",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "gradienthunt.com",
+    "name": "Gradient Hunt",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "gitlab.com/GrafX2/grafX2",
+    "name": "GrafX2",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "grapesjs.com",
+    "name": "GrapesJS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "100dailyui.webflow.io",
+    "name": "GrapesJS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "kanaries.net/graphic-walker",
+    "name": "Graphic Walker",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "usemodify.com",
+    "name": "GraphicBurger",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "graphviz.org",
+    "name": "Graphviz",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/JamieMason/grunt-imageoptim",
+    "name": "grunt-imageoptim",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "npmjs.com/package/grunt-sprite-css-replace",
+    "name": "grunt-sprite-css-replace",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "greensock.com",
+    "name": "GSAP",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "gsap.com",
+    "name": "GSAP",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/heldr/gulp-smushit",
+    "name": "gulp-smushit",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/aslansky/gulp-sprite",
+    "name": "gulp-sprite",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "npmjs.com/package/gulp-svgmin",
+    "name": "gulp-svgmin",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "app.haikei.app",
+    "name": "Haikei",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "handsontable.com/docs",
+    "name": "Handsontable",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "heroicons.dev",
+    "name": "Heroicons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "hexnaw.com",
+    "name": "Hex Naw",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "typography.com",
+    "name": "Hoefler&Co.",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/trulia/hologram",
+    "name": "Hologram",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ianlunn.github.io/Hover",
+    "name": "Hover.css",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "hsluv.org/comparison",
+    "name": "HSLuv",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "htmlcolorcodes.com",
+    "name": "HTML Color Codes",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "htmlcolors.com",
+    "name": "HTML Colors",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "htmltables.io",
+    "name": "HTML Tables",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/stereobooster/html_minifier",
+    "name": "HTMLminifier",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ian.umces.edu/imagelibrary",
+    "name": "IAN Symbol Libraries",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "iconsear.ch/search.html",
+    "name": "Icon Search",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "iconfont.cn",
+    "name": "Iconfont",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "iconspedia.com",
+    "name": "Iconspedia",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "iconstash.io",
+    "name": "IconStash",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "iconsvg.xyz",
+    "name": "ICONSVG",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "codequest.work/generator/image-color-picker",
+    "name": "Image Color Picker",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/imageye_image_downloader",
+    "name": "Imageye",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "inclusivecolors.com",
+    "name": "InclusiveColors",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "bluepeter.github.io/react-middle-ellipsis",
+    "name": "Infogram",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "inkline.io",
+    "name": "Inkline",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "instant-eyedropper.com",
+    "name": "Instant Eyedropper",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "it-tools.tech",
+    "name": "IT Tools",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/Jawbone/JBChartView",
+    "name": "JBChartView",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "artbook.dev",
+    "name": "Jitter",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "releases.jquery.com",
+    "name": "jQuery CDN",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "jsbench.me",
+    "name": "JSBench.me",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/lauriro/json-lite",
+    "name": "JSON Lite",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/bluepeter/jsondiffpatch-react",
+    "name": "jsondiffpatch-react",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "josephuspaye.github.io/Keen-UI",
+    "name": "Keen UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/keepfast/keepfast",
+    "name": "Keepfast",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "kepler.gl",
+    "name": "Kepler.gl",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "khroma.co",
+    "name": "Khroma",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "krita.org/en",
+    "name": "Krita",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "latofonts.com",
+    "name": "Lato",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "launch.7eventeen.dev",
+    "name": "LaunchCheck",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "vumox.github.io/layout-forge",
+    "name": "Layout Forge",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "patternico.com",
+    "name": "Layout Forge",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "grid.layoutit.com",
+    "name": "Layoutit Grid",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "lightest.app",
+    "name": "lightest",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "lightgalleryjs.com",
+    "name": "lightGallery",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "icons8.com/line-awesome",
+    "name": "Line Awesome",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "codequest.work/generator/liquid-glass-generator",
+    "name": "Liquid Glass Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "gsapvault.com",
+    "name": "Liquid Glass Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "loopple.com/color-palette-generator",
+    "name": "Loopple AI Color Palette Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "lipsum.com/feed/html",
+    "name": "Lorem Ipsum",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "picsum.photos",
+    "name": "Lorem Picsum",
+    "decision": "out",
+    "reason": "duplicado depois do redirecionamento"
+  },
+  {
+    "key": "lorem.space",
+    "name": "Lorem Space",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "lospec.com/palette-list",
+    "name": "Lospec Palette List",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "lucide.netlify.app",
+    "name": "Lucide",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "lucide.dev",
+    "name": "Lucide",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "lukaszadam.com/illustrations",
+    "name": "Lukasz Adam Illustrations",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "magicgradient.com",
+    "name": "Magic Gradient",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "make8bitart.com",
+    "name": "make 8-bit art!",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "maplibre.org/maplibre-gl-js/docs",
+    "name": "MapLibre GL JS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "maptalks.org",
+    "name": "maptalks.js",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "material.colorion.co",
+    "name": "material.colorion",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/BafS/Material-Colors-native",
+    "name": "Material Colors Native",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "materialdesignicons.com",
+    "name": "Material Design Icons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "materialpalettes.com",
+    "name": "Material Design Palette Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "materialpalette.com",
+    "name": "Material Palette",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "material-ui.com",
+    "name": "Material UI",
+    "decision": "out",
+    "reason": "duplicado depois do redirecionamento"
+  },
+  {
+    "key": "mdbootstrap.com/docs/b5/react",
+    "name": "MDB React",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mdbootstrap.com",
+    "name": "MDB",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mediamodifier.com",
+    "name": "Mediamodifier",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/MariaLetta/mega-doodles-pack",
+    "name": "Mega Doodles Pack",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/paulirish/memory-stats.js",
+    "name": "memory-stats.js",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "merakiui.com",
+    "name": "Meraki UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mermaid.design",
+    "name": "Mermaid Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "metabase.com",
+    "name": "Metabase",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "aerolab.github.io/midnight.js",
+    "name": "Midnight.js",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mindnode.com",
+    "name": "MindNode",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mobiriseicons.com",
+    "name": "Mobirise Icons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mobirise.com",
+    "name": "Mobirise",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mockflow.com",
+    "name": "MockFlow",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mockupreel.studio",
+    "name": "Mockupreel",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "modao.cc",
+    "name": "Modao",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "idl.uw.edu/mosaic",
+    "name": "Mosaic",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "framer.com/motion",
+    "name": "Motion",
+    "decision": "out",
+    "reason": "duplicado depois do redirecionamento"
+  },
+  {
+    "key": "github.com/mozilla/mozjpeg",
+    "name": "mozjpeg",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mui-treasury.com",
+    "name": "MUI Treasury",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mui.com/x",
+    "name": "MUI X",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "search.muz.li",
+    "name": "Muzli Search",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "namer-ui.vercel.app",
+    "name": "Namer UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "akveo.github.io/nebular",
+    "name": "Nebular",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "neumorphism.io",
+    "name": "Neumorphism.io",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "newrelic.com/platform/browser-monitoring",
+    "name": "New Relic Browser Monitoring",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designsystem.ny.gov/components",
+    "name": "New York State Design System",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ng-bootstrap.github.io",
+    "name": "ng-bootstrap",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ng-lightning.github.io/ng-lightning",
+    "name": "ng-lightning",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "npmjs.com/package/ng-multiselect-dropdown",
+    "name": "ng-multiselect-dropdown",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ng-semantic.herokuapp.com",
+    "name": "NG Semantic",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "akveo.github.io/ngx-admin",
+    "name": "ngx-admin",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "nodesign.dev",
+    "name": "Nodesign.dev",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "google.com/get/noto",
+    "name": "Noto",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "nutilz.com/color-shades-generator",
+    "name": "Nutilz Color Shades Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "synergies.js.org",
+    "name": "Nutilz Glassmorphism Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/novus/nvd3",
+    "name": "NVD3",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "observablehq.com/framework",
+    "name": "Observable Framework",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "octopus.do",
+    "name": "Octopus.do",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "redirect-checker.autocompany.workers.dev",
+    "name": "okso.app",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "inokawa.github.io/react-animatable",
+    "name": "Once UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "onhtml.com",
+    "name": "onHTML",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "devwares.com/product/contrast",
+    "name": "Onlineboard",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "onsen.io/angular2",
+    "name": "Onsen UI Angular",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "onsen.io/react",
+    "name": "Onsen UI React",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "onsen.io/vue",
+    "name": "Onsen UI Vue",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "onsen.io",
+    "name": "Onsen UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "cruip.com",
+    "name": "Open React Template",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fonts.google.com/specimen/Open+Sans",
+    "name": "Open Sans",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/openlorem",
+    "name": "OpenLorem",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "orbit.kiwi",
+    "name": "Orbit",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "origami.design",
+    "name": "Origami Studio",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "owlcarousel2.github.io/OwlCarousel2",
+    "name": "Owl Carousel 2",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "pageclip.co",
+    "name": "Pageclip",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "pagegym.com",
+    "name": "PageGym",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "pagelocity.com",
+    "name": "Pagelocity",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "palettab.com",
+    "name": "Palettab",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "pixelpixi.github.io/spritewright/palette-extractor",
+    "name": "Palette Extractor",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "paletton.com",
+    "name": "Paletton",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "palettr.com",
+    "name": "Palettr",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "palettte.app",
+    "name": "Palettte",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/CSSLint/parser-lib",
+    "name": "ParserLib",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "stackblitz.com/edit/react-a6pm3w",
+    "name": "particles-bg",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/mpay24/payment-logos",
+    "name": "Payment System Logos",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "pele.run",
+    "name": "Pele",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "skyzhao1223.github.io/free-for-creators",
+    "name": "Penpot",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "npmjs.com/package/perfjankie",
+    "name": "perfjankie",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/zeman/perfmap",
+    "name": "PerfMap",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "restspace.io/react/schema-form",
+    "name": "Personas",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/pesticide-for-firefox",
+    "name": "Pesticide",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "phosphoricons.com",
+    "name": "Phosphor Icons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "picular.co",
+    "name": "Picular",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "pidoco.com/en",
+    "name": "Pidoco",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/lipka/piecon",
+    "name": "Piecon",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "pigment.shapefactory.co",
+    "name": "Pigment",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "pocoloco.io",
+    "name": "pocoloco",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/potree/potree",
+    "name": "Potree",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/stoyan/prettyugly",
+    "name": "prettyugly",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "primedesignsystem.com",
+    "name": "Prime Design System Kit",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "primer.style/components",
+    "name": "Primer",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "primevue.org",
+    "name": "PrimeVue",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "proto.io",
+    "name": "Proto.io",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "purecss.io",
+    "name": "Pure",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "pyxeledit.com",
+    "name": "Pyxel Edit",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "zpao.github.io/qrcode.react",
+    "name": "qrcode.react",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fonts.google.com/specimen/Raleway",
+    "name": "Raleway",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "store.ramotion.com",
+    "name": "Ramotion Store",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "rawgraphs.io",
+    "name": "RAWGraphs",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ray.so",
+    "name": "Ray.so",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "advanced-cropper.github.io/react-advanced-cropper",
+    "name": "react-advanced-cropper",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/kierien/react-autowidth-input",
+    "name": "react-autowidth-input",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/JosephSmith127/react-avatar-generator",
+    "name": "react-avatar-generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "dynamsoft.com/codepool/react-barcode-qr-code-scanner-library.html",
+    "name": "react-barcode-qrcode-scanner",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react-call.desko.dev",
+    "name": "react-call",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "ovvwzkzry9.codesandbox.io",
+    "name": "React Credit Cards",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/chithakumar13/react-chat-bot",
+    "name": "react-customizable-chat-bot",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "flatlogic.com/admin-dashboards/react-dashboard/demo",
+    "name": "React Dashboard",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "comcast.github.io/react-data-grid",
+    "name": "React Data Grid",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react-designer.github.io/react-designer",
+    "name": "React Designer",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "reactdesktop.js.org",
+    "name": "React Desktop",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/react-devtools",
+    "name": "React Developer Tools",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react-device-frameset.zheeeng.me",
+    "name": "react-device-frameset",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "fritx.github.io/react-drag-sizing",
+    "name": "react-drag-sizing",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/fritx/react-editor",
+    "name": "react-editor",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/HubSpot/react-experiments",
+    "name": "react-experiments",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "master--625676b6922472003af898b4.chromatic.com",
+    "name": "react-functional-select",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/yahoo/react-i13n",
+    "name": "react-i13n",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "npmjs.com/package/react-imgix",
+    "name": "react-imgix",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "codesandbox.io/s/github/gilbarbara/react-inlinesvg/tree/main/demo",
+    "name": "react-inlinesvg",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/wangzuo/react-input-color",
+    "name": "react-input-color",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "5d8cb665bc622e0020296079-dippbxxgcq.chromatic.com",
+    "name": "react-inspector",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/alibaba/react-intl-universal",
+    "name": "react-intl-universal",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "formatjs.github.io",
+    "name": "React Intl",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/ayrton/react-key-handler",
+    "name": "react-key-handler",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react-keyboard-navigator.zheeeng.me",
+    "name": "react-keyboard-navigator",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/lionix-team/react-laravel-paginex",
+    "name": "react-laravel-paginex",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fckt.github.io/react-layer-stack",
+    "name": "react-layer-stack",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "react-leaflet.js.org",
+    "name": "React Leaflet",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "fakundo.github.io/react-localized",
+    "name": "react-localized",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/STRML/react-localstorage",
+    "name": "react-localstorage",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/visgl/react-map-gl",
+    "name": "react-map-gl",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "muzejs.org/docs/wa/latest/muze/integrations/react-muze/introduction",
+    "name": "react-muze",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/wuxudong/react-native-charts-wrapper",
+    "name": "react-native-charts-wrapper",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "shakacode.com/react-on-rails/docs",
+    "name": "React on Rails",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "malerba118.github.io/react-particle-image-demo",
+    "name": "react-particle-image",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "medipass.github.io/react-payment-inputs",
+    "name": "react-payment-inputs",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react-rainbow.io",
+    "name": "React Rainbow",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "blog.heroku.com/react-refetch",
+    "name": "React Refetch",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "codesandbox.io/s/l40jjo48nl",
+    "name": "react-shortcuts",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/masroorejaz/react-simple-captcha",
+    "name": "react-simple-captcha",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react-simplemde-edtior.netlify.com",
+    "name": "react-simplemde-editor",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "labs.voronianski.dev/react-soundplayer",
+    "name": "react-soundplayer",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/gilbox/react-spark-scroll",
+    "name": "react-spark-scroll",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "bit.cloud/joshk/react-spinners-css",
+    "name": "react-spinners-css",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/yahoo/react-stickynode",
+    "name": "react-stickynode",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "arnaudambro.github.io/react-swipe-to-delete-ios",
+    "name": "react-swipe-to-delete-ios",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "codesandbox.io/p/sandbox/react-tags-l65545",
+    "name": "React Tag Input",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/esnet/react-timeseries-charts",
+    "name": "react-timeseries-charts",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "codesandbox.io/s/byqvk",
+    "name": "react-toast",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/gilbox/react-track",
+    "name": "react-track",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/Lapple/react-transitive-number",
+    "name": "react-transitive-number",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react-smooth-scroll-effect.netlify.app",
+    "name": "React Use Smooth Scroll",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react95.io",
+    "name": "React95",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "firebaseopensource.com/projects/firebaseextended/reactfire",
+    "name": "ReactFire",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/PixelsCommander/ReactiveElements",
+    "name": "Reactive Elements",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "reakit.io",
+    "name": "Reakit",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "realfavicongenerator.net",
+    "name": "RealFaviconGenerator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "realtimecolors.com",
+    "name": "Realtime Colors",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "wvst19.csb.app",
+    "name": "redux-first-history",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "remixicon.com",
+    "name": "Remix Icon",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "zurb.com/playground/responsive-sketchsheets",
+    "name": "Responsive Sketchsheets",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "demozap.github.io/react-demo-tab",
+    "name": "RetouchPi",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/Heydon/REVENGE.CSS",
+    "name": "revenge.css",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "rgbhexcode.com",
+    "name": "RGB Hex Code",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "rgb.to",
+    "name": "rgb.to",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "rive.app",
+    "name": "Rive",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "alexsergey.github.io/rockpack",
+    "name": "rockpack",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "table.rsuitejs.com",
+    "name": "rsuite-table",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "runjs.app/play",
+    "name": "RunJS Playground",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sankeydiagram.net",
+    "name": "SankeyDiagram",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sargamicons.com",
+    "name": "Sargam Icons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/jimniels/sassme",
+    "name": "SassMe",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "scizone.dev",
+    "name": "Scizone",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "screenshot.rocks",
+    "name": "Screenshot.Rocks",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "screenstab.com",
+    "name": "Screenstab",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "screenzy.io",
+    "name": "Screenzy",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "scrollbar.app",
+    "name": "Scrollbar.app",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sinwaver.com",
+    "name": "Scrollbar.app",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/keithclark/selectivizr",
+    "name": "Selectivizr",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "semantic-ui-vue.github.io",
+    "name": "Semantic UI Vue",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "semi.design",
+    "name": "Semi Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "semi.design/en-US",
+    "name": "Semi Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/blaisck/sfwin",
+    "name": "SFWin",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "shadcntemplates.com",
+    "name": "Shadcn Templates",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "shadeswash.netlify.app",
+    "name": "ShadeSwash",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "joshwcomeau.com/shadow-palette",
+    "name": "Shadow Palette Generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "shape.so/pricing",
+    "name": "Shape",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "designrevision.com/downloads/shards-react",
+    "name": "Shards React",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "shorthandcss.bansal.io",
+    "name": "Shorthand Framework",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "meetshotty.com",
+    "name": "Shotty",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "showcode.app",
+    "name": "Showcode",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/website-color-palette",
+    "name": "Site Palette",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sparkleapp.com",
+    "name": "Sitely",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sketch.systems",
+    "name": "Sketch.systems",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sketchapp.com",
+    "name": "Sketch",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sketchize.com",
+    "name": "Sketchize",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "eliteseo6.gumroad.com/l/ibgler",
+    "name": "Slate Free Icons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "react.frameright.io",
+    "name": "Smart Upscaler",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "tamagui.dev",
+    "name": "SnackUI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "techsmith.com/screen-capture.html",
+    "name": "Snagit",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "sneakpeekit.com",
+    "name": "Sneakpeekit",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "corewebvitals.io/tools/speculation-rules-generator",
+    "name": "Speculation rules generator",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "speedcurve.com/features/performance-monitoring",
+    "name": "SpeedCurve",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "spiritapp.io",
+    "name": "Spirit",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "uxmisfit.com/squid",
+    "name": "SQUID",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "urbanfonts.com",
+    "name": "Squoosh",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "startbootstrap.com",
+    "name": "Start Bootstrap",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/stylebot-web",
+    "name": "Stylebot",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/styledown/styledown",
+    "name": "Styledown",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "superdesigner.co",
+    "name": "Super Designer",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "lexend.com",
+    "name": "Super Designer",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "svgartista.net",
+    "name": "SVG Artista",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "svgicons.sparkk.fr",
+    "name": "SVG Icons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "svg-to-ico.org",
+    "name": "SVG to ICO",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "svgwave.in",
+    "name": "SVG Wave",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "svgminify.com",
+    "name": "SVGminify",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "coolours.perpetualsummer.ltd",
+    "name": "SVGminify",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "symbolset.com/icons",
+    "name": "Symbolset",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "tabbied.com",
+    "name": "Tabbied",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "otf-kit.dev/components",
+    "name": "TableConvert",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "yaireo.github.io/tagify",
+    "name": "Tagify",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "taiga-ui.dev",
+    "name": "Taiga UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mertjf.github.io/tailblocks",
+    "name": "Tailblocks",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "npm.im/teaful",
+    "name": "Teaful",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "github.com/cloudflare/telescope",
+    "name": "Telescope",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "terria.io",
+    "name": "TerriaJS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "terser.org",
+    "name": "Terser",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "thedesigntools.site/tools",
+    "name": "The Design Tools",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "themesfor.app",
+    "name": "Themes for App",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/addyosmani/timing.js",
+    "name": "Timing.js",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "tldraw.com",
+    "name": "tldraw",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "toolabs.com",
+    "name": "Toolabs",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "trace-logos.ru/en",
+    "name": "Trace Logo's",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "create-react-dependency.netlify.com",
+    "name": "Trace",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "treact.owaiskhan.me",
+    "name": "Treact",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "trianglify.io",
+    "name": "Trianglify.io",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "truegrittexturesupply.com",
+    "name": "True Grit Texture Supply",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "type-scale.com",
+    "name": "Typescale",
+    "decision": "out",
+    "reason": "duplicado depois do redirecionamento"
+  },
+  {
+    "key": "typicons.com",
+    "name": "Typicons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/oyvindeh/ucss",
+    "name": "uCSS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/mishoo/UglifyJS",
+    "name": "UglifyJS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "uicolorpicker.com",
+    "name": "UI Color Picker",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "umap-project.org",
+    "name": "uMap",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "iconscout.com/unicons",
+    "name": "Unicons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "unocss.dev",
+    "name": "UnoCSS",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "userbitapp.com",
+    "name": "UserBit",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "userbrain.net",
+    "name": "Userbrain",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "usva.build",
+    "name": "usva",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "u-wave.net/react-dailymotion",
+    "name": "UXWing SVG Editor",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "youzan.github.io/vant",
+    "name": "Vant",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "veui.dev/en-US",
+    "name": "VEUI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "formidable.com/open-source/victory",
+    "name": "Victory",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "commerce.nearform.com/open-source/victory-native",
+    "name": "Victory Native",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/FormidableLabs/victory",
+    "name": "Victory",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "iviewui.com",
+    "name": "View UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "visjs.github.io/vis-timeline",
+    "name": "vis-timeline",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "visactor.io/vmind",
+    "name": "VisActor VMind",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/anvaka/VivaGraphJS",
+    "name": "VivaGraph",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "volumecolor.io",
+    "name": "Volume",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "visactor.io/vstory",
+    "name": "VStory",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "visactor.io/vtable",
+    "name": "VTable",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "vuetifyjs.com/en",
+    "name": "Vuetify",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "wakamaifondue.com",
+    "name": "Wakamai Fondue",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/wappalyzer",
+    "name": "Wappalyzer",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker",
+    "name": "WCAG Contrast checker",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "erikflowers.github.io/weather-icons",
+    "name": "Weather Icons",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "webflow.com",
+    "name": "Webflow",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/paulcalvano/webfont-usage-analyzer",
+    "name": "Webfont Usage Analyzer",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "websequencediagrams.com",
+    "name": "WebSequenceDiagrams",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "myfonts.com/WhatTheFont",
+    "name": "WhatTheFont",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "whimsical.co",
+    "name": "Whimsical",
+    "decision": "out",
+    "reason": "duplicado depois do redirecionamento"
+  },
+  {
+    "key": "github.com/diogobernardino/WilliamChart",
+    "name": "WilliamChart",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "wind-ui.com",
+    "name": "Wind UI",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "github.com/tremorlabs/tremor-raw",
+    "name": "Windframe",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "tailwindtoolbox.com",
+    "name": "Windy Toolbox",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "witeboard.com",
+    "name": "Witeboard",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "flickr.com/photos/wocintechchat",
+    "name": "#WOCinTech Chat",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "wordmark.it",
+    "name": "Wordmark",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "npm.im/wouter",
+    "name": "wouter",
+    "decision": "out",
+    "reason": "a página deixou de responder"
+  },
+  {
+    "key": "wowjs.uk",
+    "name": "wow.js",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "yworks.com/products/yed",
+    "name": "yEd",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "zzz.dog",
+    "name": "Zdog",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "zeroheight.com",
+    "name": "zeroheight",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "zwicon.com",
+    "name": "Zwicon",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "djamshed.github.io/rough-awesome-font/dist",
+    "name": "A1 Gallery",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "are.na",
+    "name": "Are.na",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "bentogrids.com",
+    "name": "Bento Grids",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "jsabutis.github.io/button-interaction-specs",
+    "name": "Button Hover Specimens",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "calltoidea.com",
+    "name": "Calltoidea",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "getcssscan.com/css-box-shadow-examples",
+    "name": "CSS Box-shadow Examples",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "csszengarden.com",
+    "name": "CSS Zen Garden",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "alvarotrigo.com/shadow-gradients",
+    "name": "CSS Zen Garden",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "dropbox.com/branding",
+    "name": "Dropbox Branding Guidelines",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "creatica.app/backgrounds",
+    "name": "Foxyapps",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "informationisbeautiful.net",
+    "name": "Information is Beautiful",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.apple.com/fonts",
+    "name": "Landings",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "milanote.com",
+    "name": "Milanote",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "minimal.gallery",
+    "name": "Minimal Gallery",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "mobbin.design",
+    "name": "Mobbin",
+    "decision": "out",
+    "reason": "duplicado depois do redirecionamento"
+  },
+  {
+    "key": "mozilla.org/en-US/styleguide",
+    "name": "Mozilla Brand Portal",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "onepagelove.com/gallery",
+    "name": "One Page Love",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "onepagelove.com",
+    "name": "One Page Love",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "csshero.org/mesher",
+    "name": "Page Flows",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "pageflows.com",
+    "name": "Page Flows",
+    "decision": "out",
+    "reason": "duplicado depois do redirecionamento"
+  },
+  {
+    "key": "savee.it",
+    "name": "Savee",
+    "decision": "out",
+    "reason": "duplicado depois do redirecionamento"
+  },
+  {
+    "key": "sitesee.co",
+    "name": "SiteSee",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "developer.spotify.com/design",
+    "name": "Spotify Design & Branding Guidelines",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "truth-and-beauty.net",
+    "name": "Truth & Beauty",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "typ.io",
+    "name": "Typ.io",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "typewolf.com",
+    "name": "Typewolf",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "design.ubuntu.com",
+    "name": "Ubuntu Design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "press.vimeo.com/brand-guidelines",
+    "name": "Vimeo Media Kit",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "websitevice.com",
+    "name": "Websitevice",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "meshgradient.in",
+    "name": "Websitevice",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
+  },
+  {
+    "key": "degreeless.design",
+    "name": "Degreeless.design",
+    "decision": "out",
+    "reason": "sem prova de preço ou open source na página"
   }
 ]
