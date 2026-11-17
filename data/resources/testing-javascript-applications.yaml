@@ -8,9 +8,14 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Livro da Manning sobre testes automatizados em JavaScript, escrito por um contribuidor de biblioteca de testes.
-  en: Manning book on automated testing in JavaScript, written by a core JS testing library contributor.
+  pt: Livro da Manning sobre testes automatizados em JavaScript, escrito por um
+    contribuidor de biblioteca de testes.
+  en: Manning book on automated testing in JavaScript, written by a core JS
+    testing library contributor.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://www.manning.com/books/testing-javascript-applications"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  micromata/awesome-javascript-learning. Lida:
+  https://www.manning.com/books/testing-javascript-applications"
+id: 162

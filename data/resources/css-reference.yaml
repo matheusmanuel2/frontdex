@@ -9,9 +9,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Guia visual gratuito das propriedades CSS mais usadas, explicadas com exemplos ilustrados e animados.
-  en: Free visual guide to the most popular CSS properties, explained with illustrated and animated examples.
+  pt: Guia visual gratuito das propriedades CSS mais usadas, explicadas com
+    exemplos ilustrados e animados.
+  en: Free visual guide to the most popular CSS properties, explained with
+    illustrated and animated examples.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://cssreference.io/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://cssreference.io/"
+id: 122

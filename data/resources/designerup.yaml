@@ -8,9 +8,12 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Cursos de UX/UI e design de produto com recursos e uma comunidade de designers.
+  pt: Cursos de UX/UI e design de produto com recursos e uma comunidade de
+    designers.
   en: UX/UI and product design courses with resources and a community of designers.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://designerup.co/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://designerup.co/"
+id: 127

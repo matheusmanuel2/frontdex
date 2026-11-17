@@ -8,9 +8,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Livro de Matt Lacey com dicas práticas de UX para apps mobile, escrito para devs e designers acidentais.
-  en: Matt Lacey's book of practical mobile app UX tips for developers and accidental designers.
+  pt: Livro de Matt Lacey com dicas práticas de UX para apps mobile, escrito para
+    devs e designers acidentais.
+  en: Matt Lacey's book of practical mobile app UX tips for developers and
+    accidental designers.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.manning.com/books/usability-matters"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://www.manning.com/books/usability-matters"
+id: 175

@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Estilos, componentes e padrões para desenhar serviços públicos do governo britânico.
+  pt: Estilos, componentes e padrões para desenhar serviços públicos do governo
+    britânico.
   en: Styles, components and patterns for designing UK government public services.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://www.gov.uk/design-system. Redirecionava de https://www.gov.uk/design-system"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  alexpate/awesome-design-systems. Lida: https://www.gov.uk/design-system.
+  Redirecionava de https://www.gov.uk/design-system"
+id: 139

@@ -8,9 +8,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Aulas de fotografia, design, vídeo e negócios dadas por criadores que trabalham na área.
-  en: Classes in photography, design, video and business taught by working creators.
+  pt: Aulas de fotografia, design, vídeo e negócios dadas por criadores que
+    trabalham na área.
+  en: Classes in photography, design, video and business taught by working
+    creators.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.creativelive.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://www.creativelive.com/"
+id: 117

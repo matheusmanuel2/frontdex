@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Guia sobre por que e como escrever JavaScript de cliente que continua funcionando quando algo falha.
-  en: Guide on why and how to write client-side JavaScript that keeps working when something fails.
+  pt: Guia sobre por que e como escrever JavaScript de cliente que continua
+    funcionando quando algo falha.
+  en: Guide on why and how to write client-side JavaScript that keeps working when
+    something fails.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://molily.de/robust-javascript/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  micromata/awesome-javascript-learning. Lida:
+  https://molily.de/robust-javascript/"
+id: 154

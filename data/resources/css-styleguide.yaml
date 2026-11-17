@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Guia de estilo de CSS opinativo, com convenções de nome para aplicações que crescem.
-  en: Opinionated CSS style guide with naming conventions for applications that grow.
+  pt: Guia de estilo de CSS opinativo, com convenções de nome para aplicações que
+    crescem.
+  en: Opinionated CSS style guide with naming conventions for applications that
+    grow.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/grvcoelho/css"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  awesome-css-group/awesome-css. Lida: https://github.com/grvcoelho/css"
+id: 123

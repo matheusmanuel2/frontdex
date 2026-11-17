@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: CC-BY-4.0
 description:
-  pt: Artigos e trechos curtos de código para evoluir no dia a dia de desenvolvimento.
+  pt: Artigos e trechos curtos de código para evoluir no dia a dia de
+    desenvolvimento.
   en: Short coding articles and snippets to level up your development skills.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://30secondsofcode.org/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  micromata/awesome-javascript-learning. Lida: https://30secondsofcode.org/"
+id: 106

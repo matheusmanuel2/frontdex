@@ -9,9 +9,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Design system da Twilio para desenhar e construir experiências consistentes nos seus produtos.
-  en: Twilio's design system for designing and building consistent experiences across its products.
+  pt: Design system da Twilio para desenhar e construir experiências consistentes
+    nos seus produtos.
+  en: Twilio's design system for designing and building consistent experiences
+    across its products.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://paste.twilio.design/. Redirecionava de https://paste.twilio.design/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  alexpate/awesome-design-systems. Lida: https://paste.twilio.design/.
+  Redirecionava de https://paste.twilio.design/"
+id: 149

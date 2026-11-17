@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Diretrizes, componentes front-end e recursos de design da AWS para interfaces inclusivas em larga escala.
-  en: AWS guidelines, front-end components and design resources for inclusive interfaces at scale.
+  pt: Diretrizes, componentes front-end e recursos de design da AWS para
+    interfaces inclusivas em larga escala.
+  en: AWS guidelines, front-end components and design resources for inclusive
+    interfaces at scale.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://cloudscape.design/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  alexpate/awesome-design-systems. Lida: https://cloudscape.design/"
+id: 115

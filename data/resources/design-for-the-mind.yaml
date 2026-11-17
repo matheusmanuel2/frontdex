@@ -8,9 +8,14 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Livro de Victor S. Yocco sobre a psicologia por trás do design persuasivo aplicada a sites.
-  en: Victor S. Yocco's book on the psychology behind persuasive design, applied to websites.
+  pt: Livro de Victor S. Yocco sobre a psicologia por trás do design persuasivo
+    aplicada a sites.
+  en: Victor S. Yocco's book on the psychology behind persuasive design, applied
+    to websites.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.manning.com/books/design-for-the-mind"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida:
+  https://www.manning.com/books/design-for-the-mind"
+id: 124

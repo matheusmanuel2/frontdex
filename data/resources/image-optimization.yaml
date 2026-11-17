@@ -9,9 +9,14 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Livro impresso da Smashing sobre carregar imagens na web sem perder qualidade nem velocidade.
-  en: Smashing printed book on loading images on the web without losing quality or speed.
+  pt: Livro impresso da Smashing sobre carregar imagens na web sem perder
+    qualidade nem velocidade.
+  en: Smashing printed book on loading images on the web without losing quality or
+    speed.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.smashingmagazine.com/printed-books/image-optimization/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida:
+  https://www.smashingmagazine.com/printed-books/image-optimization/"
+id: 142

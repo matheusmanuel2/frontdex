@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Guia central de design para os produtos de colaboração digital do governo do Canadá (GCcollab).
-  en: Central design guide for the Canadian government's GCcollab digital collaboration products.
+  pt: Guia central de design para os produtos de colaboração digital do governo do
+    Canadá (GCcollab).
+  en: Central design guide for the Canadian government's GCcollab digital
+    collaboration products.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://design.gccollab.ca/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  alexpate/awesome-design-systems. Lida: https://design.gccollab.ca/"
+id: 110

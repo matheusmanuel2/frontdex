@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Newsletter semanal com comparações de ferramentas de design e análises de fluxo de trabalho baseadas em dados.
-  en: Weekly newsletter with design tool comparisons and data-backed workflow deep dives.
+  pt: Newsletter semanal com comparações de ferramentas de design e análises de
+    fluxo de trabalho baseadas em dados.
+  en: Weekly newsletter with design tool comparisons and data-backed workflow deep
+    dives.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://uxtools.co/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://uxtools.co/"
+id: 178

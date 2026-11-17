@@ -9,9 +9,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Desafio de 30 dias para construir 30 projetos com JavaScript puro, um tutorial por dia.
-  en: 30-day challenge to build 30 things in vanilla JavaScript, one tutorial a day.
+  pt: Desafio de 30 dias para construir 30 projetos com JavaScript puro, um
+    tutorial por dia.
+  en: 30-day challenge to build 30 things in vanilla JavaScript, one tutorial a
+    day.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://javascript30.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  micromata/awesome-javascript-learning. Lida: https://javascript30.com"
+id: 144

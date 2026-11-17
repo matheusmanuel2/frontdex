@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: "Edição diária de links escolhidos para a comunidade de design: ferramentas, textos e vídeos."
-  en: "Daily edition of hand-picked links for the design community: tools, writing and videos."
+  pt: "Edição diária de links escolhidos para a comunidade de design: ferramentas,
+    textos e vídeos."
+  en: "Daily edition of hand-picked links for the design community: tools, writing
+    and videos."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://www.designernews.co/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida:
+  https://www.designernews.co/"
+id: 126

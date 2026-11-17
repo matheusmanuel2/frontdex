@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Padrões de @mdo para escrever HTML e CSS consistentes, flexíveis e fáceis de manter.
-  en: Standards by @mdo for writing consistent, flexible and maintainable HTML and CSS.
+  pt: Padrões de @mdo para escrever HTML e CSS consistentes, flexíveis e fáceis de
+    manter.
+  en: Standards by @mdo for writing consistent, flexible and maintainable HTML and
+    CSS.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://codeguide.co/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  awesome-css-group/awesome-css. Lida: https://codeguide.co/"
+id: 116
