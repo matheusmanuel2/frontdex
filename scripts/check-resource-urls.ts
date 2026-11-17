@@ -233,13 +233,21 @@ function defaultRetryDelay(attempt: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, Math.min(attempt * 250, 1_000)));
 }
 
+/** Pedidos em paralelo: em série, um PR com 1.000 recursos levava mais de 12 min. */
+const CONCURRENCY = 16;
+
 export async function checkResourceLinks(links: ResourceLink[], options: CheckOptions = {}): Promise<UrlCheckError[]> {
-  const errors: UrlCheckError[] = [];
-  for (const link of links) {
-    const error = await checkLink(link, options);
-    if (error) errors.push(error);
-  }
-  return errors;
+  const results: (UrlCheckError | undefined)[] = new Array(links.length);
+  let next = 0;
+  const worker = async () => {
+    while (next < links.length) {
+      const index = next++;
+      results[index] = await checkLink(links[index]!, options);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(CONCURRENCY, links.length) }, worker));
+  // Mesma ordem dos links, para a saída do CI ser estável.
+  return results.filter((error): error is UrlCheckError => error !== undefined);
 }
 
 function changedResourceFiles(baseRef: string, headRef: string): string[] {
