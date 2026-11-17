@@ -121,7 +121,7 @@ export default async function CategoryPage({ params }: Props) {
             {t('sidebar', { area: area?.name[locale] ?? '' })}
           </p>
           <nav aria-labelledby="category-siblings">
-            <ul className="flex gap-1 overflow-x-auto pb-2 lg:flex-col lg:overflow-visible lg:pb-0">
+            <ul className="t-reveal-list flex gap-1 overflow-x-auto pb-2 lg:flex-col lg:overflow-visible lg:pb-0">
               {siblings.map((sibling) => {
                 const active = sibling.slug === slug;
                 return (
@@ -146,7 +146,7 @@ export default async function CategoryPage({ params }: Props) {
           </nav>
         </aside>
 
-        <section aria-labelledby="category-title" className="min-w-0 flex-1 basis-xl" data-pagefind-body>
+        <section aria-labelledby="category-title" className="t-reveal min-w-0 flex-1 basis-xl" data-pagefind-body>
           <Breadcrumb
             label={areaT('breadcrumb')}
             items={[

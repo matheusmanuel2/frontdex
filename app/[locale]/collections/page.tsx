@@ -49,7 +49,10 @@ export default async function CollectionsPage({ params }: Props) {
     <>
       <SiteHeader current="collections" />
       <JsonLd data={structured} />
-      <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14">
+      <main
+        id="conteudo"
+        className="t-reveal mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24 sm:pt-14"
+      >
         <Breadcrumb
           label={areaT('breadcrumb')}
           items={[{ label: areaT('index'), href: `/${locale}` }, { label: nav('collections') }]}
@@ -75,7 +78,7 @@ export default async function CollectionsPage({ params }: Props) {
             }
           />
         ) : (
-          <ul className="mt-14 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          <ul className="t-reveal-list mt-14 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             {collections.map((collection) => {
               const items = getCollectionResources(collection.slug);
               const areas = [...new Set(items.map((item) => item.area))];

@@ -45,8 +45,8 @@ export default async function RandomPage({ params }: Props) {
   return (
     <>
       <SiteHeader />
-      <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-20 pb-28">
-        <div className="text-center">
+      <main id="conteudo" className="t-reveal mx-auto w-full max-w-(--container-max) px-(--gutter) pt-20 pb-28">
+        <div className="t-reveal text-center">
           <Eyebrow className="mb-5">{t('eyebrow')}</Eyebrow>
           <SectionTitle as="h1" size="h1" title={t('title')} muted={t('titleMuted')} />
         </div>

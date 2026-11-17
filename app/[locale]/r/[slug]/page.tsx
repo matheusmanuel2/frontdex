@@ -108,7 +108,7 @@ export default async function ResourcePage({ params }: Props) {
     <>
       <SiteHeader current={resource.area} />
       <JsonLd data={structured} />
-      <main id="conteudo" className="mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24">
+      <main id="conteudo" className="t-reveal mx-auto w-full max-w-(--container-max) px-(--gutter) pt-12 pb-24">
         <Breadcrumb
           label={areaT('breadcrumb')}
           items={[
@@ -119,8 +119,8 @@ export default async function ResourcePage({ params }: Props) {
           ]}
         />
 
-        <div className="mt-8 flex flex-wrap items-start gap-12">
-          <article className="min-w-0 flex-[999_1_560px]" data-pagefind-body={archived ? undefined : ''}>
+        <div className="t-reveal mt-8 flex flex-wrap items-start gap-12">
+          <article className="t-reveal min-w-0 flex-[999_1_560px]" data-pagefind-body={archived ? undefined : ''}>
             {/* Metadados e filtros da busca (spec 008): não aparecem na página. */}
             <div hidden>
               <span data-pagefind-meta="kind">resource</span>
@@ -248,7 +248,10 @@ export default async function ResourcePage({ params }: Props) {
             ) : null}
           </article>
 
-          <aside aria-labelledby="details" className="flex w-full flex-col gap-4 lg:max-w-sm lg:flex-[1_1_280px]">
+          <aside
+            aria-labelledby="details"
+            className="t-reveal flex w-full flex-col gap-4 lg:max-w-sm lg:flex-[1_1_280px]"
+          >
             <div className="overflow-hidden rounded-card border border-border bg-carbon">
               <h2 id="details" className="label-mono border-b border-border px-6 py-4 text-muted">
                 {t('details')}

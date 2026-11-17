@@ -34,7 +34,7 @@ export default async function RootNotFound() {
       <body className="flex min-h-dvh flex-col">
         <SkipLink />
         <SiteHeader />
-        <main id="conteudo" className="divide-y divide-border">
+        <main id="conteudo" className="t-reveal divide-y divide-border">
           <NotFoundContent locale="pt" />
           <NotFoundContent locale="en" primary={false} />
         </main>

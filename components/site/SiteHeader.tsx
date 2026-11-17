@@ -32,7 +32,7 @@ export async function SiteHeader({ current }: SiteHeaderProps) {
   const links = NAV_SECTIONS.map((section) => ({ section, label: t(section) }));
 
   return (
-    <header className="t-page-anchor border-b border-border">
+    <header className="border-b border-border">
       <div className="mx-auto flex max-w-(--container-max) items-center gap-4 px-(--gutter) py-4 lg:gap-7">
         <Link href="/" aria-label={a11y('homeLink')} className="shrink-0 rounded-sm">
           <Logo />
