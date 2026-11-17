@@ -42,7 +42,7 @@ Next.js (App Router, SSG) · TypeScript strict · pnpm · Tailwind CSS v4 sobre 
 ## Regras que não se negociam
 
 - Nada de "cara de AI": ver `specs/006-anti-ai-guidelines.md`. O CI bloqueia as violações mecânicas.
-- Agentes **nunca** escrevem descrições de recursos nem inventam URLs, preços ou licenças. Recursos vêm do Matheus ou de contribuidores.
+- Agentes **nunca** inventam URLs, preços ou licenças. Só rascunham descrições em `status: draft` para candidatos que o Matheus aprovou na triagem (ADR 0014); só o Matheus publica (`active`).
 - Português do site = pt-BR. Todo o texto de UI existe em `messages/pt.json` e `messages/en.json`.
 - Cores, raios, fontes e durações só através dos tokens. Nada de valores soltos.
 - Sem bibliotecas de ícones genéricas (`lucide-react`, `@heroicons/react`, `react-icons`, `@tabler/icons-react`).
