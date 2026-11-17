@@ -1,0 +1,7214 @@
+[
+  {
+    "key": "invisionapp.com/studio",
+    "decision": "out",
+    "reason": "redireciona para o Miro; título não bate com o nome"
+  },
+  {
+    "key": "taskade.com",
+    "decision": "out",
+    "reason": "fora do tema: gestão de tarefas e automação de negócios"
+  },
+  {
+    "key": "invisionapp.com",
+    "decision": "out",
+    "reason": "redireciona para o Miro; título não bate com o nome"
+  },
+  {
+    "key": "fontget.com",
+    "decision": "out",
+    "reason": "SEO: site de downloads genérico com gerador de texto"
+  },
+  {
+    "key": "verandacolor.com",
+    "decision": "out",
+    "reason": "domínio tomado por cassino; não bate com o nome"
+  },
+  {
+    "key": "logomakr.com",
+    "decision": "out",
+    "reason": "fora do tema: criador de logos para pequenos negócios"
+  },
+  {
+    "key": "reshot.com",
+    "decision": "out",
+    "reason": "serviço encerrado; página fala do fim do Reshot"
+  },
+  {
+    "key": "bensound.com",
+    "decision": "out",
+    "reason": "fora do tema: música para vídeos"
+  },
+  {
+    "key": "freesound.org",
+    "decision": "out",
+    "reason": "fora do tema: banco de sons para músicos"
+  },
+  {
+    "key": "screely.com",
+    "decision": "out",
+    "reason": "página padrão de domínio"
+  },
+  {
+    "key": "collabshot.com",
+    "decision": "out",
+    "reason": "título não bate (\"Dashboard\"); captura de tela genérica, fora do tema"
+  },
+  {
+    "key": "ui.shadcn.com",
+    "decision": "out",
+    "reason": "duplicado de github.com/shadcn-ui/ui"
+  },
+  {
+    "key": "photos.icons8.com/creator",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "wix.com",
+    "decision": "out",
+    "reason": "sem descrição; construtor de sites genérico"
+  },
+  {
+    "key": "deviantart.com",
+    "decision": "out",
+    "reason": "comunidade de arte geral, fora do tema"
+  },
+  {
+    "key": "trello.com",
+    "decision": "out",
+    "reason": "gestão de tarefas, fora do tema"
+  },
+  {
+    "key": "geenes.app",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "avocode.com",
+    "decision": "out",
+    "reason": "produto descontinuado"
+  },
+  {
+    "key": "hotjar.com",
+    "decision": "out",
+    "reason": "página de empresa (anúncio de fusão)"
+  },
+  {
+    "key": "inspectlet.com",
+    "decision": "out",
+    "reason": "analytics de marketing, fora do tema"
+  },
+  {
+    "key": "usabilla.com",
+    "decision": "out",
+    "reason": "redireciona para SurveyMonkey; não bate com o nome"
+  },
+  {
+    "key": "screenspace.io",
+    "decision": "out",
+    "reason": "título não bate com o nome"
+  },
+  {
+    "key": "prottapp.com",
+    "decision": "out",
+    "reason": "serviço descontinuado"
+  },
+  {
+    "key": "jaymantri.com",
+    "decision": "out",
+    "reason": "perfil pessoal"
+  },
+  {
+    "key": "airsquirrels.com/reflector",
+    "decision": "out",
+    "reason": "espelhamento de tela, fora do tema"
+  },
+  {
+    "key": "atomic.io",
+    "decision": "out",
+    "reason": "título não bate com o nome"
+  },
+  {
+    "key": "webdesignernews.com",
+    "decision": "out",
+    "reason": "página com erro (HTTP 429), sem informação"
+  },
+  {
+    "key": "designschool.canva.com",
+    "decision": "out",
+    "reason": "página com erro (HTTP 403), sem informação"
+  },
+  {
+    "key": "producthunt.com",
+    "decision": "out",
+    "reason": "página com erro (HTTP 403); plataforma de lançamentos genérica"
+  },
+  {
+    "key": "solid.buzzfeed.com",
+    "decision": "out",
+    "reason": "página com erro (HTTP 406), sem informação"
+  },
+  {
+    "key": "css-tricks.com/nerds-guide-color-web",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.com/@JustinMezzell/how-i-work-with-color-8439c98ae5ed",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "pinterest.com",
+    "decision": "out",
+    "reason": "rede social genérica, fora do tema"
+  },
+  {
+    "key": "github.com/streamlit/streamlit",
+    "decision": "out",
+    "reason": "framework de data apps em Python, fora do tema front-end"
+  },
+  {
+    "key": "github.com/mingrammer/diagrams",
+    "decision": "out",
+    "reason": "diagramas de arquitetura cloud em Python, fora do tema"
+  },
+  {
+    "key": "github.com/lutzroeder/netron",
+    "decision": "out",
+    "reason": "visualizador de modelos de machine learning, fora do tema"
+  },
+  {
+    "key": "github.com/getredash/redash",
+    "decision": "out",
+    "reason": "plataforma de BI, fora do tema"
+  },
+  {
+    "key": "github.com/d2lang/d2",
+    "decision": "out",
+    "reason": "diagramas de arquitetura de software, fora do tema"
+  },
+  {
+    "key": "github.com/plotly/dash",
+    "decision": "out",
+    "reason": "dashboards em Python, fora do tema"
+  },
+  {
+    "key": "github.com/comet-ml/opik",
+    "decision": "out",
+    "reason": "observabilidade de LLM, fora do tema"
+  },
+  {
+    "key": "github.com/elastic/kibana",
+    "decision": "out",
+    "reason": "plataforma de dados Elasticsearch, fora do tema"
+  },
+  {
+    "key": "github.com/avaiga/taipy",
+    "decision": "out",
+    "reason": "apps de dados em Python, fora do tema"
+  },
+  {
+    "key": "github.com/microsoft/data-formulator",
+    "decision": "out",
+    "reason": "análise de dados com IA, fora do tema"
+  },
+  {
+    "key": "github.com/kanaries/pygwalker",
+    "decision": "out",
+    "reason": "análise de dataframes em Python, fora do tema"
+  },
+  {
+    "key": "github.com/pyecharts/pyecharts",
+    "decision": "out",
+    "reason": "gráficos em Python, fora do tema"
+  },
+  {
+    "key": "github.com/yaronn/blessed-contrib",
+    "decision": "out",
+    "reason": "dashboards de terminal, fora do tema"
+  },
+  {
+    "key": "github.com/qgis/qgis",
+    "decision": "out",
+    "reason": "software GIS desktop, fora do tema"
+  },
+  {
+    "key": "github.com/marceloprates/prettymaps",
+    "decision": "out",
+    "reason": "mapas em Python/matplotlib, fora do tema"
+  },
+  {
+    "key": "github.com/data-centric-ai-community/fg-data-profiling",
+    "decision": "out",
+    "reason": "profiling de dados em Python, fora do tema"
+  },
+  {
+    "key": "github.com/gizak/termui",
+    "decision": "out",
+    "reason": "dashboard de terminal em Go, fora do tema"
+  },
+  {
+    "key": "github.com/plantuml/plantuml",
+    "decision": "out",
+    "reason": "diagramas UML a partir de texto, fora do tema"
+  },
+  {
+    "key": "github.com/acaudwell/gource",
+    "decision": "out",
+    "reason": "visualização de controle de versão, fora do tema"
+  },
+  {
+    "key": "github.com/arize-ai/phoenix",
+    "decision": "out",
+    "reason": "observabilidade de IA, fora do tema"
+  },
+  {
+    "key": "github.com/rerun-io/rerun",
+    "decision": "out",
+    "reason": "dados de robótica, fora do tema"
+  },
+  {
+    "key": "github.com/voxel51/fiftyone",
+    "decision": "out",
+    "reason": "datasets de visão computacional, fora do tema"
+  },
+  {
+    "key": "github.com/sapegin/react-styleguidist",
+    "decision": "out",
+    "reason": "duplicado de github.com/styleguidist/react-styleguidist"
+  },
+  {
+    "key": "github.com/amueller/word_cloud",
+    "decision": "out",
+    "reason": "word cloud em Python, fora do tema"
+  },
+  {
+    "key": "github.com/fossasia/visdom",
+    "decision": "out",
+    "reason": "monitoramento de experimentos de ML, fora do tema"
+  },
+  {
+    "key": "github.com/saulpw/visidata",
+    "decision": "out",
+    "reason": "planilha de terminal, fora do tema"
+  },
+  {
+    "key": "github.com/garrettj403/scienceplots",
+    "decision": "out",
+    "reason": "estilos de matplotlib, fora do tema"
+  },
+  {
+    "key": "github.com/opengeos/geolibre",
+    "decision": "out",
+    "reason": "plataforma GIS, fora do tema"
+  },
+  {
+    "key": "github.com/uber/react-map-gl",
+    "decision": "out",
+    "reason": "duplicado de github.com/visgl/react-map-gl"
+  },
+  {
+    "key": "github.com/jessevig/bertviz",
+    "decision": "out",
+    "reason": "visualização de atenção em transformers, fora do tema"
+  },
+  {
+    "key": "github.com/penrose/penrose",
+    "decision": "out",
+    "reason": "diagramas matemáticos, fora do tema"
+  },
+  {
+    "key": "github.com/go-echarts/go-echarts",
+    "decision": "out",
+    "reason": "gráficos em Go, fora do tema"
+  },
+  {
+    "key": "github.com/plantuml-stdlib/c4-plantuml",
+    "decision": "out",
+    "reason": "diagramas de arquitetura, fora do tema"
+  },
+  {
+    "key": "github.com/python-visualization/folium",
+    "decision": "out",
+    "reason": "biblioteca Python, fora do front-end"
+  },
+  {
+    "key": "github.com/serial-studio/serial-studio",
+    "decision": "out",
+    "reason": "dashboard de telemetria para hardware embarcado, fora do tema"
+  },
+  {
+    "key": "github.com/tensorflow/tensorboard",
+    "decision": "out",
+    "reason": "ferramenta de ML, fora do tema"
+  },
+  {
+    "key": "github.com/jerairrest/react-chartjs-2",
+    "decision": "out",
+    "reason": "duplicado de reactchartjs/react-chartjs-2"
+  },
+  {
+    "key": "github.com/scottplot/scottplot",
+    "decision": "out",
+    "reason": "biblioteca .NET desktop, fora do front-end"
+  },
+  {
+    "key": "github.com/gephi/gephi",
+    "decision": "out",
+    "reason": "aplicação desktop de análise de grafos, fora do tema"
+  },
+  {
+    "key": "github.com/plotjuggler/plotjuggler",
+    "decision": "out",
+    "reason": "ferramenta desktop de séries temporais (ROS), fora do tema"
+  },
+  {
+    "key": "github.com/aimhubio/aim",
+    "decision": "out",
+    "reason": "rastreador de experimentos de ML, fora do tema"
+  },
+  {
+    "key": "github.com/epezent/implot",
+    "decision": "out",
+    "reason": "plotagem C++/ImGui, fora do front-end"
+  },
+  {
+    "key": "github.com/lightdash/lightdash",
+    "decision": "out",
+    "reason": "plataforma de BI, fora do front-end"
+  },
+  {
+    "key": "github.com/creativetimofficial/tailwind-starter-kit",
+    "decision": "out",
+    "reason": "descrição não bate com o nome"
+  },
+  {
+    "key": "github.com/voila-dashboards/voila",
+    "decision": "out",
+    "reason": "ferramenta Python/Jupyter, fora do front-end"
+  },
+  {
+    "key": "github.com/holoviz/panel",
+    "decision": "out",
+    "reason": "framework Python, fora do front-end"
+  },
+  {
+    "key": "github.com/biolab/orange3",
+    "decision": "out",
+    "reason": "ferramenta de mineração de dados, fora do tema"
+  },
+  {
+    "key": "github.com/alexlenail/nn-svg",
+    "decision": "out",
+    "reason": "esquemas de redes neurais, fora do tema"
+  },
+  {
+    "key": "github.com/live-charts/livecharts2",
+    "decision": "out",
+    "reason": "biblioteca .NET, fora do front-end"
+  },
+  {
+    "key": "github.com/jonathantneal/sanitize.css",
+    "decision": "out",
+    "reason": "duplicado de csstools/sanitize.css"
+  },
+  {
+    "key": "github.com/man-group/dtale",
+    "decision": "out",
+    "reason": "visualizador de pandas, fora do tema"
+  },
+  {
+    "key": "github.com/blushft/go-diagrams",
+    "decision": "out",
+    "reason": "biblioteca Go de diagramas, fora do tema"
+  },
+  {
+    "key": "github.com/f3d-app/f3d",
+    "decision": "out",
+    "reason": "visualizador 3D desktop, fora do tema"
+  },
+  {
+    "key": "github.com/apple/embedding-atlas",
+    "decision": "out",
+    "reason": "ferramenta de ML, fora do tema"
+  },
+  {
+    "key": "github.com/alandefreitas/matplotplusplus",
+    "decision": "out",
+    "reason": "biblioteca C++, fora do front-end"
+  },
+  {
+    "key": "github.com/paddlepaddle/visualdl",
+    "decision": "out",
+    "reason": "ferramenta de ML, fora do tema"
+  },
+  {
+    "key": "github.com/red-data-tools/youplot",
+    "decision": "out",
+    "reason": "gráficos no terminal em Ruby, fora do front-end"
+  },
+  {
+    "key": "github.com/ankane/blazer",
+    "decision": "out",
+    "reason": "BI em Ruby/SQL, fora do front-end"
+  },
+  {
+    "key": "github.com/has2k1/plotnine",
+    "decision": "out",
+    "reason": "biblioteca Python, fora do front-end"
+  },
+  {
+    "key": "github.com/kanaries/rath",
+    "decision": "out",
+    "reason": "plataforma de análise de dados, fora do tema"
+  },
+  {
+    "key": "github.com/plotters-rs/plotters",
+    "decision": "out",
+    "reason": "biblioteca Rust de plotagem, fora do front-end"
+  },
+  {
+    "key": "github.com/districtdatalabs/yellowbrick",
+    "decision": "out",
+    "reason": "ferramenta de ML, fora do tema"
+  },
+  {
+    "key": "github.com/mapnik/mapnik",
+    "decision": "out",
+    "reason": "toolkit C++ de mapas, fora do front-end"
+  },
+  {
+    "key": "github.com/pyvista/pyvista",
+    "decision": "out",
+    "reason": "visualização científica em Python, fora do tema"
+  },
+  {
+    "key": "github.com/mckinsey/vizro",
+    "decision": "out",
+    "reason": "toolkit Python, fora do front-end"
+  },
+  {
+    "key": "github.com/xcharts-team/xcharts",
+    "decision": "out",
+    "reason": "gráficos para Unity, fora do front-end"
+  },
+  {
+    "key": "github.com/opengeos/leafmap",
+    "decision": "out",
+    "reason": "pacote Python/Jupyter, fora do front-end"
+  },
+  {
+    "key": "github.com/bqplot/bqplot",
+    "decision": "out",
+    "reason": "biblioteca Jupyter, fora do front-end"
+  },
+  {
+    "key": "github.com/pair-code/lit",
+    "decision": "out",
+    "reason": "ferramenta de ML, fora do tema"
+  },
+  {
+    "key": "github.com/holoviz/datashader",
+    "decision": "out",
+    "reason": "renderização de dados em Python, fora do tema"
+  },
+  {
+    "key": "github.com/oxyplot/oxyplot",
+    "decision": "out",
+    "reason": "biblioteca .NET, fora do front-end"
+  },
+  {
+    "key": "github.com/microsoft/tensorwatch",
+    "decision": "out",
+    "reason": "ferramenta de ML, fora do tema"
+  },
+  {
+    "key": "github.com/root-project/root",
+    "decision": "out",
+    "reason": "framework científico C++, fora do tema"
+  },
+  {
+    "key": "github.com/mkaz/termgraph",
+    "decision": "out",
+    "reason": "gráficos no terminal em Python, fora do front-end"
+  },
+  {
+    "key": "github.com/kitware/vtk",
+    "decision": "out",
+    "reason": "toolkit C++ de visualização, fora do tema"
+  },
+  {
+    "key": "github.com/parrt/dtreeviz",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/fbdesignpro/sweetviz",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/guptarohit/asciigraph",
+    "decision": "out",
+    "reason": "fora do tema (Go/CLI, não front-end)"
+  },
+  {
+    "key": "github.com/mum4k/termdash",
+    "decision": "out",
+    "reason": "fora do tema (Go/CLI, não front-end)"
+  },
+  {
+    "key": "github.com/fleaflet/flutter_map",
+    "decision": "out",
+    "reason": "fora do tema (Flutter, não web)"
+  },
+  {
+    "key": "github.com/rilldata/rill",
+    "decision": "out",
+    "reason": "fora do tema (BI/dados, não front-end)"
+  },
+  {
+    "key": "github.com/gonum/plot",
+    "decision": "out",
+    "reason": "fora do tema (Go/CLI, não front-end)"
+  },
+  {
+    "key": "github.com/opengeos/rustgis",
+    "decision": "out",
+    "reason": "fora do tema (Rust, não front-end)"
+  },
+  {
+    "key": "github.com/django-compressor/django-compressor",
+    "decision": "out",
+    "reason": "fora do tema (Django/backend)"
+  },
+  {
+    "key": "github.com/viser-project/viser",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/makieorg/makie.jl",
+    "decision": "out",
+    "reason": "fora do tema (Julia, não front-end)"
+  },
+  {
+    "key": "github.com/napari/napari",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/kozea/pygal",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/core-plot/core-plot",
+    "decision": "out",
+    "reason": "fora do tema (iOS nativo, não web)"
+  },
+  {
+    "key": "github.com/video-react/video-react",
+    "decision": "out",
+    "reason": "descontinuado em favor do Video.js"
+  },
+  {
+    "key": "github.com/plotly/plotly.r",
+    "decision": "out",
+    "reason": "fora do tema (pacote R, não front-end)"
+  },
+  {
+    "key": "github.com/thomasp85/patchwork",
+    "decision": "out",
+    "reason": "fora do tema (pacote R, não front-end)"
+  },
+  {
+    "key": "github.com/yuankunzhang/charming",
+    "decision": "out",
+    "reason": "fora do tema (Rust, não front-end)"
+  },
+  {
+    "key": "github.com/yandex/yandex-tank",
+    "decision": "out",
+    "reason": "fora do tema (teste de carga de backend)"
+  },
+  {
+    "key": "github.com/perses/perses",
+    "decision": "out",
+    "reason": "fora do tema (observabilidade/backend)"
+  },
+  {
+    "key": "github.com/mpld3/mpld3",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/jasonkessler/scattertext",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/maplibre/maplibre-native",
+    "decision": "out",
+    "reason": "fora do tema (mapas nativos em C++)"
+  },
+  {
+    "key": "github.com/running-elephant/datart",
+    "decision": "out",
+    "reason": "fora do tema (plataforma de BI)"
+  },
+  {
+    "key": "github.com/marcomusy/vedo",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/nmwsharp/polyscope",
+    "decision": "out",
+    "reason": "fora do tema (C++, não front-end)"
+  },
+  {
+    "key": "github.com/piccolomo/plotext",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/indrajeetpatil/ggstatsplot",
+    "decision": "out",
+    "reason": "fora do tema (pacote R, não front-end)"
+  },
+  {
+    "key": "github.com/tylermorganwall/rayshader",
+    "decision": "out",
+    "reason": "fora do tema (pacote R, não front-end)"
+  },
+  {
+    "key": "github.com/rstudio/gt",
+    "decision": "out",
+    "reason": "fora do tema (pacote R, não front-end)"
+  },
+  {
+    "key": "github.com/opensearch-project/opensearch-dashboards",
+    "decision": "out",
+    "reason": "fora do tema (dashboards do OpenSearch/backend)"
+  },
+  {
+    "key": "github.com/microcharts-dotnet/microcharts",
+    "decision": "out",
+    "reason": "fora do tema (.NET, não front-end)"
+  },
+  {
+    "key": "github.com/thomasp85/gganimate",
+    "decision": "out",
+    "reason": "fora do tema (pacote R, não front-end)"
+  },
+  {
+    "key": "github.com/juliaplots/plots.jl",
+    "decision": "out",
+    "reason": "fora do tema (Julia, não front-end)"
+  },
+  {
+    "key": "github.com/giovineitalia/gadfly.jl",
+    "decision": "out",
+    "reason": "fora do tema (Julia, não front-end)"
+  },
+  {
+    "key": "github.com/w3c/css-houdini-drafts",
+    "decision": "out",
+    "reason": "sem descrição; não há como saber o que é"
+  },
+  {
+    "key": "github.com/cetz-package/cetz",
+    "decision": "out",
+    "reason": "fora do tema (Typst, não front-end)"
+  },
+  {
+    "key": "github.com/dreamrs/esquisse",
+    "decision": "out",
+    "reason": "fora do tema (pacote R, não front-end)"
+  },
+  {
+    "key": "github.com/entronad/graphic",
+    "decision": "out",
+    "reason": "fora do tema (Flutter, não web)"
+  },
+  {
+    "key": "github.com/jetbrains/lets-plot",
+    "decision": "out",
+    "reason": "fora do tema (JVM, não front-end)"
+  },
+  {
+    "key": "github.com/posit-dev/py-shiny",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/rich-iannone/diagrammer",
+    "decision": "out",
+    "reason": "fora do tema (pacote R, não front-end)"
+  },
+  {
+    "key": "github.com/kitware/paraview",
+    "decision": "out",
+    "reason": "fora do tema (C++, não front-end)"
+  },
+  {
+    "key": "github.com/datalens-tech/datalens",
+    "decision": "out",
+    "reason": "fora do tema (plataforma de BI)"
+  },
+  {
+    "key": "github.com/scitools/cartopy",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/google-ai-edge/model-explorer",
+    "decision": "out",
+    "reason": "fora do tema (machine learning)"
+  },
+  {
+    "key": "github.com/knowm/xchart",
+    "decision": "out",
+    "reason": "fora do tema (JVM, não front-end)"
+  },
+  {
+    "key": "github.com/mapsui/mapsui",
+    "decision": "out",
+    "reason": "fora do tema (.NET, não front-end)"
+  },
+  {
+    "key": "github.com/jokergoo/complexheatmap",
+    "decision": "out",
+    "reason": "fora do tema (pacote R, não front-end)"
+  },
+  {
+    "key": "github.com/juliaplots/unicodeplots.jl",
+    "decision": "out",
+    "reason": "fora do tema (Julia, não front-end)"
+  },
+  {
+    "key": "github.com/jupyter-widgets/ipyleaflet",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/jazzband/django-pipeline",
+    "decision": "out",
+    "reason": "fora do tema (Django/backend)"
+  },
+  {
+    "key": "github.com/fastplotlib/fastplotlib",
+    "decision": "out",
+    "reason": "fora do tema (biblioteca Python, não front-end)"
+  },
+  {
+    "key": "github.com/microsoft/automatic-graph-layout",
+    "decision": "out",
+    "reason": "fora do tema (.NET, não front-end)"
+  },
+  {
+    "key": "github.com/plotly/plotly.rs",
+    "decision": "out",
+    "reason": "fora do tema (Rust, não front-end)"
+  },
+  {
+    "key": "github.com/topfunky/gruff",
+    "decision": "out",
+    "reason": "fora do tema (Ruby, não front-end)"
+  },
+  {
+    "key": "github.com/jfree/jfreechart",
+    "decision": "out",
+    "reason": "fora do tema (JVM, não front-end)"
+  },
+  {
+    "key": "github.com/tenox7/ttyplot",
+    "decision": "out",
+    "reason": "fora do tema (terminal, não front-end)"
+  },
+  {
+    "key": "github.com/pgf-tikz/pgf",
+    "decision": "out",
+    "reason": "fora do tema (TeX/LaTeX)"
+  },
+  {
+    "key": "github.com/holoviz/hvplot",
+    "decision": "out",
+    "reason": "fora do tema (Python/ciência de dados)"
+  },
+  {
+    "key": "github.com/openspace/openspace",
+    "decision": "out",
+    "reason": "fora do tema (astrovisualização em C++)"
+  },
+  {
+    "key": "github.com/brenocq/implot3d",
+    "decision": "out",
+    "reason": "fora do tema (C++/ImGui)"
+  },
+  {
+    "key": "github.com/kassambara/ggpubr",
+    "decision": "out",
+    "reason": "fora do tema (R)"
+  },
+  {
+    "key": "github.com/glumpy/glumpy",
+    "decision": "out",
+    "reason": "fora do tema (Python/OpenGL científico)"
+  },
+  {
+    "key": "github.com/slowkow/ggrepel",
+    "decision": "out",
+    "reason": "fora do tema (R)"
+  },
+  {
+    "key": "github.com/thomasp85/ggraph",
+    "decision": "out",
+    "reason": "fora do tema (R)"
+  },
+  {
+    "key": "github.com/genericmappingtools/gmt",
+    "decision": "out",
+    "reason": "fora do tema (geociência)"
+  },
+  {
+    "key": "github.com/fireproof-storage/fireproof",
+    "decision": "out",
+    "reason": "fora do tema (banco de dados)"
+  },
+  {
+    "key": "github.com/developmentseed/lonboard",
+    "decision": "out",
+    "reason": "fora do tema (Jupyter/geoespacial)"
+  },
+  {
+    "key": "github.com/lightly-ai/lightly-studio",
+    "decision": "out",
+    "reason": "fora do tema (machine learning)"
+  },
+  {
+    "key": "github.com/r-tmap/tmap",
+    "decision": "out",
+    "reason": "fora do tema (R)"
+  },
+  {
+    "key": "github.com/genericmappingtools/pygmt",
+    "decision": "out",
+    "reason": "fora do tema (Python/geociência)"
+  },
+  {
+    "key": "github.com/davidgohel/ggiraph",
+    "decision": "out",
+    "reason": "fora do tema (R)"
+  },
+  {
+    "key": "github.com/plotly/plotly.net",
+    "decision": "out",
+    "reason": "fora do tema (.NET)"
+  },
+  {
+    "key": "github.com/rstudio/leaflet",
+    "decision": "out",
+    "reason": "fora do tema (R)"
+  },
+  {
+    "key": "github.com/jiffyclub/palettable",
+    "decision": "out",
+    "reason": "fora do tema (Python)"
+  },
+  {
+    "key": "github.com/bruin-data/dac",
+    "decision": "out",
+    "reason": "fora do tema (BI/dashboards como código)"
+  },
+  {
+    "key": "github.com/ramnathv/htmlwidgets",
+    "decision": "out",
+    "reason": "fora do tema (R)"
+  },
+  {
+    "key": "github.com/tedious/jshrink",
+    "decision": "out",
+    "reason": "fora do tema (minificador em PHP)"
+  },
+  {
+    "key": "github.com/kotlin/kandy",
+    "decision": "out",
+    "reason": "fora do tema (Kotlin)"
+  },
+  {
+    "key": "github.com/cytoscape/cytoscape",
+    "decision": "out",
+    "reason": "fora do tema (análise de redes desktop)"
+  },
+  {
+    "key": "github.com/datavzrd/datavzrd",
+    "decision": "out",
+    "reason": "fora do tema (bioinformática)"
+  },
+  {
+    "key": "github.com/yt-project/yt",
+    "decision": "out",
+    "reason": "fora do tema (Python científico)"
+  },
+  {
+    "key": "github.com/visit-dav/visit",
+    "decision": "out",
+    "reason": "fora do tema (visualização científica HPC)"
+  },
+  {
+    "key": "github.com/makieorg/algebraofgraphics.jl",
+    "decision": "out",
+    "reason": "fora do tema (Julia)"
+  },
+  {
+    "key": "github.com/kde/labplot",
+    "decision": "out",
+    "reason": "fora do tema (software desktop de análise de dados)"
+  },
+  {
+    "key": "github.com/jetbrains/lets-plot-kotlin",
+    "decision": "out",
+    "reason": "fora do tema (Kotlin)"
+  },
+  {
+    "key": "github.com/topology-tool-kit/ttk",
+    "decision": "out",
+    "reason": "fora do tema (C++/análise topológica)"
+  },
+  {
+    "key": "github.com/bcms/cms",
+    "decision": "out",
+    "reason": "fora do tema (CMS headless/backend)"
+  },
+  {
+    "key": "github.com/olavolav/uniplot",
+    "decision": "out",
+    "reason": "fora do tema (Python/terminal)"
+  },
+  {
+    "key": "github.com/technion-kishony-lab/quibbler",
+    "decision": "out",
+    "reason": "fora do tema (Python/matplotlib)"
+  },
+  {
+    "key": "github.com/prosopo/captcha",
+    "decision": "out",
+    "reason": "fora do tema (segurança/CAPTCHA)"
+  },
+  {
+    "key": "github.com/pgf-tikz/pgfplots",
+    "decision": "out",
+    "reason": "fora do tema (TeX/LaTeX)"
+  },
+  {
+    "key": "github.com/comet-ml/comet-examples",
+    "decision": "out",
+    "reason": "fora do tema (machine learning)"
+  },
+  {
+    "key": "github.com/theron-wang/vs2022-editor-support-for-tailwind-css",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "github.com/arifszn/reactive-button",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "github.com/gpietro/react-numpad",
+    "decision": "out",
+    "reason": "artigo isolado no Medium"
+  },
+  {
+    "key": "github.com/devexperts/dxcharts-lite",
+    "decision": "out",
+    "reason": "galeria de clones de páginas, não é um recurso claro"
+  },
+  {
+    "key": "github.com/ckeditor/ckeditor4-react",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "github.com/alexsergey/issr",
+    "decision": "out",
+    "reason": "filtro de fotos, fora do tema"
+  },
+  {
+    "key": "github.com/alexnault/react-headings",
+    "decision": "out",
+    "reason": "ferramentas de negócio da Shopify, fora do tema"
+  },
+  {
+    "key": "github.com/siftscience/resourcerer",
+    "decision": "out",
+    "reason": "banners para redes sociais, fora do tema"
+  },
+  {
+    "key": "github.com/simplelocalize/simplelocalize-cli",
+    "decision": "out",
+    "reason": "editor de fotos genérico, fora do tema"
+  },
+  {
+    "key": "github.com/omachala/heroshot",
+    "decision": "out",
+    "reason": "editor de fotos genérico, fora do tema"
+  },
+  {
+    "key": "github.com/99ff00/react-charty",
+    "decision": "out",
+    "reason": "apresentações e marketing, fora do tema"
+  },
+  {
+    "key": "github.com/mkosir/react-demo-tab-cli",
+    "decision": "out",
+    "reason": "efeitos de foto, fora do tema"
+  },
+  {
+    "key": "github.com/advanced-cropper/react-mobile-cropper",
+    "decision": "out",
+    "reason": "editor de fotos genérico, fora do tema"
+  },
+  {
+    "key": "github.com/assetgraph/assetgraph-sprite",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "github.com/apinet/lit-line",
+    "decision": "out",
+    "reason": "modelagem de banco de dados, fora do tema e sem descrição"
+  },
+  {
+    "key": "github.com/kelsier90/react-pulse-text",
+    "decision": "out",
+    "reason": "construtor de ferramentas internas, fora do tema"
+  },
+  {
+    "key": "github.com/satya164/pigment",
+    "decision": "out",
+    "reason": "recurso pago do Canva para vídeo, fora do tema"
+  },
+  {
+    "key": "github.com/imbue-ai/gp-treemap",
+    "decision": "out",
+    "reason": "título e descrição não batem com o nome"
+  },
+  {
+    "key": "github.com/1amageek/mapkit",
+    "decision": "out",
+    "reason": "conversor de planilhas, fora do tema"
+  },
+  {
+    "key": "github.com/seanhanca/glyph",
+    "decision": "out",
+    "reason": "título e descrição não batem com o nome"
+  },
+  {
+    "key": "github.com/swamoth/globedots",
+    "decision": "out",
+    "reason": "duplicado de Carbon e Ray.so"
+  },
+  {
+    "key": "github.com/okay-babe/okaybabe-gradient-pack",
+    "decision": "out",
+    "reason": "formatador de JSON genérico, fora do tema"
+  },
+  {
+    "key": "github.com/saadnasir-git/react-confirm-lite",
+    "decision": "out",
+    "reason": "GIFs de texto para redes, fora do tema"
+  },
+  {
+    "key": "github.com/planadecu/ink-uplot",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "sketchappsources.com",
+    "decision": "out",
+    "reason": "colagens de fotos, fora do tema"
+  },
+  {
+    "key": "manypixels.co/gallery",
+    "decision": "out",
+    "reason": "redimensionador de emotes, fora do tema"
+  },
+  {
+    "key": "openpeeps.com",
+    "decision": "out",
+    "reason": "marca d'água em fotos, fora do tema"
+  },
+  {
+    "key": "invisionapp.com/inside-design/design-resources",
+    "decision": "out",
+    "reason": "coleção genérica de utilitários, fora do tema"
+  },
+  {
+    "key": "heropatterns.com",
+    "decision": "out",
+    "reason": "utilitários genéricos de imagem, fora do tema"
+  },
+  {
+    "key": "patterns.beaubus.com",
+    "decision": "out",
+    "reason": "utilitários de impressão e imagem, fora do tema"
+  },
+  {
+    "key": "icons8.com/illustrations",
+    "decision": "out",
+    "reason": "arte ASCII, fora do tema"
+  },
+  {
+    "key": "pixeltrue.com/illustrations",
+    "decision": "out",
+    "reason": "templates para redes sociais, fora do tema"
+  },
+  {
+    "key": "abstractapi.com/user-avatar-api",
+    "decision": "out",
+    "reason": "divisor de imagens, fora do tema"
+  },
+  {
+    "key": "patternpad.com",
+    "decision": "out",
+    "reason": "coleção genérica de utilitários, fora do tema"
+  },
+  {
+    "key": "dimensions.com",
+    "decision": "out",
+    "reason": "distorção de texto para corte, fora do tema"
+  },
+  {
+    "key": "2.flexiple.com/scale/all-illustrations",
+    "decision": "out",
+    "reason": "duplicado de Image to ASCII, fora do tema"
+  },
+  {
+    "key": "cooltext.com",
+    "decision": "out",
+    "reason": "título não bate com o nome (página do CorelDRAW Go)"
+  },
+  {
+    "key": "doodad.dev/pattern-generator",
+    "decision": "out",
+    "reason": "revelação de fotos RAW, fora do tema"
+  },
+  {
+    "key": "pattern.monster",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "themeselection.com/products/exemplar-free-avatar-library-for-figma-and-sketch",
+    "decision": "out",
+    "reason": "página de erro (404)"
+  },
+  {
+    "key": "openby.design",
+    "decision": "out",
+    "reason": "revelação de fotos RAW, fora do tema"
+  },
+  {
+    "key": "symu.co/freebies/templates-4",
+    "decision": "out",
+    "reason": "programa de desenho genérico, fora do tema"
+  },
+  {
+    "key": "toolsnippet.com/category/design-generators",
+    "decision": "out",
+    "reason": "projeto arquivado, não é mais mantido"
+  },
+  {
+    "key": "fontfabric.com/free-fonts",
+    "decision": "out",
+    "reason": "spam (apostas)"
+  },
+  {
+    "key": "winniethemu.github.io/tiff",
+    "decision": "out",
+    "reason": "arquivo de blog, não é um recurso"
+  },
+  {
+    "key": "abstractfonts.com",
+    "decision": "out",
+    "reason": "título não bate com o nome (redireciona para ScreensDesign)"
+  },
+  {
+    "key": "fontflipper.com",
+    "decision": "out",
+    "reason": "duplicado de Page Flows (screenlane.com)"
+  },
+  {
+    "key": "fontdrop.info",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "open-foundry.com",
+    "decision": "out",
+    "reason": "diretório genérico com cara de SEO"
+  },
+  {
+    "key": "ffonts.net",
+    "decision": "out",
+    "reason": "anúncios de Instagram, fora do tema"
+  },
+  {
+    "key": "devfonts.gafi.dev",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "wfonts.com",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "modern-fluid-typography.vercel.app",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "typespiration.com",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "fontbolt.com",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "fontswiki.com",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "whatfontfinder.com/font-identifier",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "fonts.bunny.net",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "fontboxdl.com/tools/font-finder",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "cursive-text-generator.net",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "cutefontgen.com",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "brivtools.com/tools/color-contrast-checker",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "getcolorlab.com",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "colorof.app",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "colorcurves.app",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "colorgradient.dev",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "uicolors.app/create",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "material.io/resources/color",
+    "decision": "out",
+    "reason": "visor de EXIF, fora do tema"
+  },
+  {
+    "key": "mini-tools.uk/color-picker",
+    "decision": "out",
+    "reason": "duplicado: vários compressores de imagem no lote, fica o melhor"
+  },
+  {
+    "key": "combinecolors.com",
+    "decision": "out",
+    "reason": "domínio virou site de cassino"
+  },
+  {
+    "key": "colourlovers.com/palettes",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "enigmaeasel.com",
+    "decision": "out",
+    "reason": "fora do tema (planners e planilhas)"
+  },
+  {
+    "key": "nutilz.com/color-picker",
+    "decision": "out",
+    "reason": "duplicado (fica o gerador de tons do Nutilz)"
+  },
+  {
+    "key": "figma.com/resources/assets/evericons-for-figma",
+    "decision": "out",
+    "reason": "sem título; descrição não diz o que é"
+  },
+  {
+    "key": "convertio.co/png-svg",
+    "decision": "out",
+    "reason": "conversor genérico de arquivos"
+  },
+  {
+    "key": "shittyicons.com",
+    "decision": "out",
+    "reason": "sem descrição; não há como saber o que é"
+  },
+  {
+    "key": "iconhub.io",
+    "decision": "out",
+    "reason": "sem descrição; não há como saber o que é"
+  },
+  {
+    "key": "vectopus.com",
+    "decision": "out",
+    "reason": "página do estúdio; os pacotes já estão no lote (Roundicons)"
+  },
+  {
+    "key": "svgiconify.com",
+    "decision": "out",
+    "reason": "duplicado de All SVG Icons (mesmo texto, menos ícones)"
+  },
+  {
+    "key": "namecheap.com/logo-maker",
+    "decision": "out",
+    "reason": "gerador de logos de registradora; não é recurso de front-end"
+  },
+  {
+    "key": "jam-icons.com",
+    "decision": "out",
+    "reason": "página de despedida; o recurso não está mais lá"
+  },
+  {
+    "key": "linea.io",
+    "decision": "out",
+    "reason": "site de listas de outros recursos com cara de SEO; título não bate"
+  },
+  {
+    "key": "react-icons.github.io/react-icons",
+    "decision": "out",
+    "reason": "biblioteca de ícones genérica vetada no projeto (CLAUDE.md)"
+  },
+  {
+    "key": "chamberofcommerce.org/findaphoto",
+    "decision": "out",
+    "reason": "serviço fora do ar"
+  },
+  {
+    "key": "placeholder.com",
+    "decision": "out",
+    "reason": "domínio virou site de consultoria"
+  },
+  {
+    "key": "piqsels.com",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "freeimages.com",
+    "decision": "out",
+    "reason": "redireciona para o iStock (banco pago genérico)"
+  },
+  {
+    "key": "wordpress.org/openverse",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "pixabay.com/videos",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "free-stock.video",
+    "decision": "out",
+    "reason": "fora do tema (b-roll para redes sociais)"
+  },
+  {
+    "key": "free-stock-music.com",
+    "decision": "out",
+    "reason": "fora do tema (música para vídeos)"
+  },
+  {
+    "key": "mixkit.co/free-stock-music",
+    "decision": "out",
+    "reason": "fora do tema (música para vídeos)"
+  },
+  {
+    "key": "freemusicarchive.org",
+    "decision": "out",
+    "reason": "fora do tema (música)"
+  },
+  {
+    "key": "musopen.org/music",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "pixabay.com/music",
+    "decision": "out",
+    "reason": "fora do tema (música)"
+  },
+  {
+    "key": "unminus.com",
+    "decision": "out",
+    "reason": "fora do tema (música)"
+  },
+  {
+    "key": "budgetpixel.com/background-music",
+    "decision": "out",
+    "reason": "fora do tema (música de fundo)"
+  },
+  {
+    "key": "pngtree.com/free-vectors",
+    "decision": "out",
+    "reason": "página de verificação humana"
+  },
+  {
+    "key": "vector4free.com",
+    "decision": "out",
+    "reason": "descrição genérica; sem como saber o que distingue"
+  },
+  {
+    "key": "lukaszadam.com",
+    "decision": "out",
+    "reason": "perfil pessoal"
+  },
+  {
+    "key": "clipart.email",
+    "decision": "out",
+    "reason": "sem descrição; não há como saber o que é"
+  },
+  {
+    "key": "growwwkit.com/illustrations/phonies",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "hiclipart.com",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "smart.servier.com",
+    "decision": "out",
+    "reason": "fora do tema: ilustrações médicas para publicações científicas"
+  },
+  {
+    "key": "robohash.org",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "screenpeek.io",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "podifai.com/tools/mockup-generator",
+    "decision": "out",
+    "reason": "fora do tema: mockups de produto para lojas Shopify"
+  },
+  {
+    "key": "gosocialmockup.com",
+    "decision": "out",
+    "reason": "fora do tema: gerador de tweets falsos"
+  },
+  {
+    "key": "hubspot.com/resources",
+    "decision": "out",
+    "reason": "fora do tema: recursos de marketing e vendas"
+  },
+  {
+    "key": "mobirise.com/html-templates",
+    "decision": "out",
+    "reason": "página de SEO de construtor de sites"
+  },
+  {
+    "key": "all-free-download.com/free-website-templates/free-html-css-templates.html",
+    "decision": "out",
+    "reason": "agregador de downloads com foco em SEO"
+  },
+  {
+    "key": "uniformcss.com",
+    "decision": "out",
+    "reason": "título e descrição não batem com o nome (Uniform CSS)"
+  },
+  {
+    "key": "oocss.org",
+    "decision": "out",
+    "reason": "título e descrição não batem com o nome (OOCSS)"
+  },
+  {
+    "key": "bouncejs.com",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "sequencejs.com",
+    "decision": "out",
+    "reason": "domínio reaproveitado, conteúdo não bate com o nome"
+  },
+  {
+    "key": "thoughtbot.com/blog/transitions-and-transforms",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "adajuly.github.io/AniX",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "gvguy.github.io/nice-waves",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "frappe.io/charts",
+    "decision": "out",
+    "reason": "página aponta para produtos da Frappe, não para a biblioteca de gráficos"
+  },
+  {
+    "key": "g2plot.antv.vision/en",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "gionkunz.github.io/chartist-js/index.html",
+    "decision": "out",
+    "reason": "página antiga, o projeto mudou para chartist.dev"
+  },
+  {
+    "key": "drive.google.com/file/d/1SZOTxXYfCMujqP2P684Vd5QIrlk5bwe6/view",
+    "decision": "out",
+    "reason": "link para um arquivo zip no Google Drive, não é página de recurso"
+  },
+  {
+    "key": "wickedblocks.dev",
+    "decision": "out",
+    "reason": "título e descrição são do Shadcnblocks, não batem com Wicked Blocks"
+  },
+  {
+    "key": "devui.io",
+    "decision": "out",
+    "reason": "domínio à venda"
+  },
+  {
+    "key": "theme-ui.com/home",
+    "decision": "out",
+    "reason": "página de erro (HTTP 404)"
+  },
+  {
+    "key": "bumbag.style",
+    "decision": "out",
+    "reason": "domínio expirado à venda"
+  },
+  {
+    "key": "react-spring.io",
+    "decision": "out",
+    "reason": "página com conteúdo de spam/SEO, não bate com a biblioteca"
+  },
+  {
+    "key": "codeui.co.in",
+    "decision": "out",
+    "reason": "sem título nem descrição, não há como saber o que é"
+  },
+  {
+    "key": "oruga.io",
+    "decision": "out",
+    "reason": "página de cassino (spam), não bate com o nome"
+  },
+  {
+    "key": "svelteui.js.org",
+    "decision": "out",
+    "reason": "título é um redirecionamento 302 do JS.ORG, não bate com o nome"
+  },
+  {
+    "key": "skoda-brand.com/explore-our-brand",
+    "decision": "out",
+    "reason": "sem descrição, não dá para saber o que é"
+  },
+  {
+    "key": "horizonx.so/blog/figma-to-production-design-to-code-2026",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.com/design-bootcamp/the-ultimate-design-principles-guide-for-developers-d4aa58937283",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "cloneany.com/gallery",
+    "decision": "out",
+    "reason": "descrição não diz o que é"
+  },
+  {
+    "key": "logomovo.com/blog/small-business-brand-style-guide-template",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "digicamfilter.online",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "taler.app",
+    "decision": "out",
+    "reason": "fora do tema (ferramentas de negócio)"
+  },
+  {
+    "key": "astra-intelligence.github.io/free-banner-maker",
+    "decision": "out",
+    "reason": "fora do tema (banners de redes sociais)"
+  },
+  {
+    "key": "fotor.com",
+    "decision": "out",
+    "reason": "editor de fotos genérico"
+  },
+  {
+    "key": "pixlr.com",
+    "decision": "out",
+    "reason": "editor de fotos genérico"
+  },
+  {
+    "key": "codequest.work/generator/bg-remover",
+    "decision": "out",
+    "reason": "editor de imagens genérico"
+  },
+  {
+    "key": "visme.co",
+    "decision": "out",
+    "reason": "fora do tema (apresentações)"
+  },
+  {
+    "key": "chartgo.com",
+    "decision": "out",
+    "reason": "pouco útil, há opções melhores"
+  },
+  {
+    "key": "cartoon.pho.to",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "onlineboard.eu",
+    "decision": "out",
+    "reason": "pouco útil, há opções melhores"
+  },
+  {
+    "key": "photofresco.com",
+    "decision": "out",
+    "reason": "editor de fotos genérico"
+  },
+  {
+    "key": "retouchpi.com/en/retouchpi",
+    "decision": "out",
+    "reason": "editor de fotos genérico"
+  },
+  {
+    "key": "photoquill.com",
+    "decision": "out",
+    "reason": "editor de fotos genérico"
+  },
+  {
+    "key": "mapinseconds.com",
+    "decision": "out",
+    "reason": "sem descrição"
+  },
+  {
+    "key": "codequest.work/generator/grid",
+    "decision": "out",
+    "reason": "duplicado de CSS Grid Generator"
+  },
+  {
+    "key": "codequest.work/generator/flex",
+    "decision": "out",
+    "reason": "duplicado de FLEX e geradores do lote"
+  },
+  {
+    "key": "icons8.com/upscaler",
+    "decision": "out",
+    "reason": "ferramenta de imagem genérica"
+  },
+  {
+    "key": "stickermule.com/trace",
+    "decision": "out",
+    "reason": "ferramenta de imagem genérica"
+  },
+  {
+    "key": "app.dbdesigner.net",
+    "decision": "out",
+    "reason": "sem descrição, backend"
+  },
+  {
+    "key": "uibakery.io",
+    "decision": "out",
+    "reason": "fora do tema (construtor de ferramentas internas)"
+  },
+  {
+    "key": "unscreen.com",
+    "decision": "out",
+    "reason": "título não bate com o nome (Canva)"
+  },
+  {
+    "key": "lucidchart.com/pages",
+    "decision": "out",
+    "reason": "página de erro (403)"
+  },
+  {
+    "key": "pixcleaner.com",
+    "decision": "out",
+    "reason": "título e descrição não batem com o nome"
+  },
+  {
+    "key": "nutilz.com/glassmorphism-generator",
+    "decision": "out",
+    "reason": "duplicado de Glassmorphism CSS Generator"
+  },
+  {
+    "key": "exceltomd.com/excel-to-markdown",
+    "decision": "out",
+    "reason": "duplicado de TableConvert"
+  },
+  {
+    "key": "slickr.vercel.app",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "codepng.app",
+    "decision": "out",
+    "reason": "duplicado de Carbon e Ray.so"
+  },
+  {
+    "key": "jsont.run",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "typingwordsgif.com",
+    "decision": "out",
+    "reason": "pouco útil"
+  },
+  {
+    "key": "visily.ai",
+    "decision": "out",
+    "reason": "sem descrição"
+  },
+  {
+    "key": "okso.app",
+    "decision": "out",
+    "reason": "pouco útil"
+  },
+  {
+    "key": "piccollages.com",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "alltools.dev/tools/design",
+    "decision": "out",
+    "reason": "agregador genérico"
+  },
+  {
+    "key": "emoteresize.com",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "nutilz.com/image-watermark",
+    "decision": "out",
+    "reason": "ferramenta de imagem genérica"
+  },
+  {
+    "key": "onetoolbox.dev",
+    "decision": "out",
+    "reason": "agregador genérico de utilitários"
+  },
+  {
+    "key": "deerimage.com",
+    "decision": "out",
+    "reason": "ferramenta de imagem genérica"
+  },
+  {
+    "key": "artboardlab.com/tools",
+    "decision": "out",
+    "reason": "agregador genérico"
+  },
+  {
+    "key": "devomnitools.com",
+    "decision": "out",
+    "reason": "agregador genérico de utilitários"
+  },
+  {
+    "key": "imagetoascii.art",
+    "decision": "out",
+    "reason": "pouco útil"
+  },
+  {
+    "key": "budgetpixel.com/design/templates",
+    "decision": "out",
+    "reason": "fora do tema (templates de marketing)"
+  },
+  {
+    "key": "imagesplit.online",
+    "decision": "out",
+    "reason": "ferramenta de imagem genérica"
+  },
+  {
+    "key": "tools.mindutil.com",
+    "decision": "out",
+    "reason": "agregador genérico de utilitários"
+  },
+  {
+    "key": "warpimage.com",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "semaphore.bobochang.cn",
+    "decision": "out",
+    "reason": "duplicado de ferramentas ASCII, pouco útil"
+  },
+  {
+    "key": "designer.io/en",
+    "decision": "out",
+    "reason": "título não bate com o nome (CorelDRAW Go)"
+  },
+  {
+    "key": "blender.org/download",
+    "decision": "out",
+    "reason": "página de erro (403)"
+  },
+  {
+    "key": "rawtherapee.com",
+    "decision": "out",
+    "reason": "fora do tema (revelação de fotos RAW)"
+  },
+  {
+    "key": "befunky.com/features/graphic-designer",
+    "decision": "out",
+    "reason": "sem descrição, editor genérico"
+  },
+  {
+    "key": "krita.org/en/download/krita-desktop",
+    "decision": "out",
+    "reason": "página de erro (404)"
+  },
+  {
+    "key": "darktable.org",
+    "decision": "out",
+    "reason": "fora do tema (revelação de fotos RAW)"
+  },
+  {
+    "key": "webdesigner.withgoogle.com",
+    "decision": "out",
+    "reason": "página de erro (timeout)"
+  },
+  {
+    "key": "itspaintmac.com",
+    "decision": "out",
+    "reason": "pouco útil"
+  },
+  {
+    "key": "screenlane.com",
+    "decision": "out",
+    "reason": "título não bate com o nome (redireciona para Page Flows)"
+  },
+  {
+    "key": "webframe.xyz",
+    "decision": "out",
+    "reason": "projeto arquivado"
+  },
+  {
+    "key": "navnav.co",
+    "decision": "out",
+    "reason": "spam (apostas)"
+  },
+  {
+    "key": "designyourway.net/blog/web-and-mobile-design",
+    "decision": "out",
+    "reason": "arquivo de blog"
+  },
+  {
+    "key": "designvault.io",
+    "decision": "out",
+    "reason": "título não bate com o nome (ScreensDesign)"
+  },
+  {
+    "key": "pagecollective.com",
+    "decision": "out",
+    "reason": "título não bate com o nome (redireciona para Page Flows)"
+  },
+  {
+    "key": "a-fresh.website",
+    "decision": "out",
+    "reason": "página de erro (429)"
+  },
+  {
+    "key": "bestwebdesigntools.com",
+    "decision": "out",
+    "reason": "diretório SEO"
+  },
+  {
+    "key": "steep.design",
+    "decision": "out",
+    "reason": "fora do tema (stories de marketing)"
+  },
+  {
+    "key": "toolknit.com/tools/compress-image.html",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "compressmyphotos.com",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "imagecompressor.com",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "opensourcephotoeditor.com",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "codequest.work/generator/image-compressor",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "bulkresizephotos.com",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "iloveimg.com",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "image-resizer.net",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "compressjpeg.com",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "compressnow.com",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "promo.com/tools/image-resizer",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "imageoptimizer.net",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "nasrtech.dev/image-compressor",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "jpeg-optimizer.com",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "quicktinyv2.vercel.app/compress-image",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "resizing.app",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "onlinepngtools.com/resize-png",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "verexif.com/en",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "photoreducer.com",
+    "decision": "out",
+    "reason": "compressor/redimensionador genérico, redundante com Squoosh e Asset Melt"
+  },
+  {
+    "key": "watermarkly.com/compress-jpeg",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "jpeg.io",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "jpegcompressor.com",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "imageresizeai.com",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "99tools.net/png-compressor",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "vaultool.com/tools/image-compressor",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "pixheic.com",
+    "decision": "out",
+    "reason": "conversor HEIC genérico, fora do tema"
+  },
+  {
+    "key": "devtransform-hub.vercel.app/tools/image-compressor",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "narqo.com",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "sammapix.com/tools/compress",
+    "decision": "out",
+    "reason": "sem título nem descrição, não há como saber o que é"
+  },
+  {
+    "key": "imagemachinery.net",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "frisqoo.com/tools/compress-image",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "usecos.app/tools/passport-photo-resizer",
+    "decision": "out",
+    "reason": "redimensionador de foto de passaporte, fora do tema"
+  },
+  {
+    "key": "refentra.com/tools/compress-image-to-target-size",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "picturetolink.com/image-compressor",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "quickimagekit.com/compress-image",
+    "decision": "out",
+    "reason": "sem título nem descrição, não há como saber o que é"
+  },
+  {
+    "key": "toolars.com/tools/image-compressor",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "pixvibe.ai/tools/compress-image",
+    "decision": "out",
+    "reason": "duplicado de outro compressor de imagem do lote"
+  },
+  {
+    "key": "ailab.packscena.com/tools/image-compressor",
+    "decision": "out",
+    "reason": "serviço pago por créditos sem detalhe, pouco útil"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc",
+    "decision": "out",
+    "reason": "duplicado do JSON Lite"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/pesticide-for-chrome-with/neonnmencpneifkhlmhmfhfiklgjmloi",
+    "decision": "out",
+    "reason": "duplicado da versão Firefox com descrição"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/site-palette/pekhihjiehdafocefoimckjpbkegknoh",
+    "decision": "out",
+    "reason": "duplicado da versão Firefox com descrição"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp",
+    "decision": "out",
+    "reason": "duplicado da versão Firefox com descrição"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/imageye-image-downloader/agionbommeaifngbhincahgmoflcikhm",
+    "decision": "out",
+    "reason": "duplicado da versão Firefox com descrição"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha",
+    "decision": "out",
+    "reason": "duplicado da versão Firefox com descrição"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg",
+    "decision": "out",
+    "reason": "duplicado da versão Firefox com descrição"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
+    "decision": "out",
+    "reason": "duplicado da versão Firefox com descrição"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg",
+    "decision": "out",
+    "reason": "duplicado da versão Firefox com descrição"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo",
+    "decision": "out",
+    "reason": "duplicado da versão Firefox com descrição"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/web-editor/pdmlhckofhkhebmcplblcijijgjiakcm",
+    "decision": "out",
+    "reason": "sem título nem descrição, não há como saber o que é"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa",
+    "decision": "out",
+    "reason": "duplicado do JSON Lite"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi",
+    "decision": "out",
+    "reason": "SEO, fora do tema"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/zjm-whatfont",
+    "decision": "out",
+    "reason": "página bloqueada (Client Challenge), duplicado da versão Chrome"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/whatruns",
+    "decision": "out",
+    "reason": "página bloqueada (Client Challenge), duplicado da versão Chrome"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/web-developer",
+    "decision": "out",
+    "reason": "página bloqueada (Client Challenge), duplicado da versão Chrome"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/screenshot-capture-annotate",
+    "decision": "out",
+    "reason": "página bloqueada (Client Challenge), duplicado da versão Chrome"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/daily",
+    "decision": "out",
+    "reason": "página bloqueada (Client Challenge), duplicado da versão Chrome"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/jsonview",
+    "decision": "out",
+    "reason": "página bloqueada (Client Challenge), duplicado da versão Chrome"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/window-resizer-webextension",
+    "decision": "out",
+    "reason": "página bloqueada (Client Challenge), duplicado da versão Chrome"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/responsify-viewer",
+    "decision": "out",
+    "reason": "página bloqueada (Client Challenge), duplicado da versão Chrome"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/browserstack-toolbar-toggle",
+    "decision": "out",
+    "reason": "página bloqueada (Client Challenge), duplicado da versão Chrome"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/visbug",
+    "decision": "out",
+    "reason": "página bloqueada (Client Challenge), duplicado da versão Chrome"
+  },
+  {
+    "key": "addons.mozilla.org/en-US/firefox/addon/pixel-perfect-pro",
+    "decision": "out",
+    "reason": "descrição não diz nada concreto"
+  },
+  {
+    "key": "leonardo.ai",
+    "decision": "out",
+    "reason": "plataforma de marketing generativo, descrição sem detalhe útil"
+  },
+  {
+    "key": "usegalileo.ai",
+    "decision": "out",
+    "reason": "título (Stitch) não bate com o domínio"
+  },
+  {
+    "key": "imggen.ai",
+    "decision": "out",
+    "reason": "gerador de imagens genérico com texto SEO"
+  },
+  {
+    "key": "unblurimage.ai",
+    "decision": "out",
+    "reason": "fora do tema (restaurar fotos)"
+  },
+  {
+    "key": "vertopal.com",
+    "decision": "out",
+    "reason": "conversor de arquivos genérico"
+  },
+  {
+    "key": "docultra.org",
+    "decision": "out",
+    "reason": "conversor de arquivos genérico"
+  },
+  {
+    "key": "thewebtoolbox.cc",
+    "decision": "out",
+    "reason": "sem título nem descrição, não há como saber o que é"
+  },
+  {
+    "key": "webdevtrick.com",
+    "decision": "out",
+    "reason": "site de snippets genérico, inclui PHP"
+  },
+  {
+    "key": "tyr1105.github.io/devutils-tools",
+    "decision": "out",
+    "reason": "duplicado de outras caixas de ferramentas do lote"
+  },
+  {
+    "key": "cssportal.com/css-ribbon-generator",
+    "decision": "out",
+    "reason": "duplicado do CSS Portal"
+  },
+  {
+    "key": "mydevice.io",
+    "decision": "out",
+    "reason": "cripto/casino, fora do tema"
+  },
+  {
+    "key": "vuetelemetry.com",
+    "decision": "out",
+    "reason": "descrição vaga, não há como saber o que é"
+  },
+  {
+    "key": "papersizes.io",
+    "decision": "out",
+    "reason": "tamanhos de papel, fora do tema"
+  },
+  {
+    "key": "markodenic.com/tools/qr-code-generator",
+    "decision": "out",
+    "reason": "gerador de QR genérico"
+  },
+  {
+    "key": "papersdb.com",
+    "decision": "out",
+    "reason": "tamanhos de papel, fora do tema"
+  },
+  {
+    "key": "rapidapi.com/hub",
+    "decision": "out",
+    "reason": "sem título nem descrição, não há como saber o que é"
+  },
+  {
+    "key": "troopl.com",
+    "decision": "out",
+    "reason": "serviço encerrado"
+  },
+  {
+    "key": "apifox.cn",
+    "decision": "out",
+    "reason": "sem título nem descrição, não há como saber o que é"
+  },
+  {
+    "key": "piccalil.li/blog/a-modern-css-reset",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "clipperly.com",
+    "decision": "out",
+    "reason": "sem título nem descrição, não há como saber o que é"
+  },
+  {
+    "key": "cheatgrid.com/programming-languages/0004-python-cheat-sheet",
+    "decision": "out",
+    "reason": "cheatsheet de Python, fora do tema"
+  },
+  {
+    "key": "appydev.co",
+    "decision": "out",
+    "reason": "diretório genérico de ferramentas"
+  },
+  {
+    "key": "extendsclass.com",
+    "decision": "out",
+    "reason": "caixa de ferramentas genérica"
+  },
+  {
+    "key": "toolshref.com",
+    "decision": "out",
+    "reason": "ferramentas de DevOps/Java, fora do tema"
+  },
+  {
+    "key": "toolbox-kit.com",
+    "decision": "out",
+    "reason": "ferramentas genéricas, não focadas em front-end"
+  },
+  {
+    "key": "toolsnova.net",
+    "decision": "out",
+    "reason": "ferramentas genéricas, não focadas em front-end"
+  },
+  {
+    "key": "a1lab.tech",
+    "decision": "out",
+    "reason": "descrição vaga, não dá para saber o que é"
+  },
+  {
+    "key": "calculora.net",
+    "decision": "out",
+    "reason": "ferramentas genéricas, não focadas em front-end"
+  },
+  {
+    "key": "jsonviewertool.com",
+    "decision": "out",
+    "reason": "duplicado de outros formatadores de JSON genéricos"
+  },
+  {
+    "key": "toolcascade.com",
+    "decision": "out",
+    "reason": "ferramentas genéricas, não focadas em front-end"
+  },
+  {
+    "key": "bestjson.com",
+    "decision": "out",
+    "reason": "formatador de JSON genérico, duplicado"
+  },
+  {
+    "key": "urbanmixo.online",
+    "decision": "out",
+    "reason": "ferramentas genéricas, não focadas em front-end"
+  },
+  {
+    "key": "tools.vikasmaur.com",
+    "decision": "out",
+    "reason": "visualizador de JSON genérico, fora do tema"
+  },
+  {
+    "key": "minglyph.com/newsletter-header-design",
+    "decision": "out",
+    "reason": "página isolada de um produto, não é recurso"
+  },
+  {
+    "key": "beatflyer.com",
+    "decision": "out",
+    "reason": "marketing para redes sociais"
+  },
+  {
+    "key": "3dmybusiness.com",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "uselightbox.com",
+    "decision": "out",
+    "reason": "fotos de produto para Shopify, fora do tema"
+  },
+  {
+    "key": "offeo.com",
+    "decision": "out",
+    "reason": "título não bate com o nome (diretório de IA)"
+  },
+  {
+    "key": "storyswag.co",
+    "decision": "out",
+    "reason": "marketing para redes sociais"
+  },
+  {
+    "key": "easyar.com",
+    "decision": "out",
+    "reason": "AR/3D, fora do tema"
+  },
+  {
+    "key": "layar.com",
+    "decision": "out",
+    "reason": "agência, não é recurso"
+  },
+  {
+    "key": "lensstudio.snapchat.com",
+    "decision": "out",
+    "reason": "AR/3D, fora do tema"
+  },
+  {
+    "key": "lightform.com",
+    "decision": "out",
+    "reason": "AR/3D, fora do tema"
+  },
+  {
+    "key": "sparkar.com",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "torch.app",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "unity.com",
+    "decision": "out",
+    "reason": "motor de jogos, fora do tema"
+  },
+  {
+    "key": "vectary.com",
+    "decision": "out",
+    "reason": "AR/3D, fora do tema"
+  },
+  {
+    "key": "vuforia.com",
+    "decision": "out",
+    "reason": "AR/3D, fora do tema"
+  },
+  {
+    "key": "wikitude.com",
+    "decision": "out",
+    "reason": "AR/3D, fora do tema"
+  },
+  {
+    "key": "airtable.com",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "asana.com",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "basecamp.com",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "freedcamp.com",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "droplr.com",
+    "decision": "out",
+    "reason": "gravação de tela genérica"
+  },
+  {
+    "key": "filestage.io",
+    "decision": "out",
+    "reason": "proofing para marketing, fora do tema"
+  },
+  {
+    "key": "float.com",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "hivedesk.com",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "atlassian.com/software/jira",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "jitsi.org",
+    "decision": "out",
+    "reason": "videoconferência, fora do tema"
+  },
+  {
+    "key": "keybase.io",
+    "decision": "out",
+    "reason": "descrição não diz nada"
+  },
+  {
+    "key": "lumeer.io",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "mattermost.com",
+    "decision": "out",
+    "reason": "chat corporativo, fora do tema"
+  },
+  {
+    "key": "moqhub.com",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "mural.co",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "nextcloud.com",
+    "decision": "out",
+    "reason": "colaboração genérica, fora do tema"
+  },
+  {
+    "key": "proofhub.com",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "slack.com",
+    "decision": "out",
+    "reason": "chat corporativo, fora do tema"
+  },
+  {
+    "key": "sunsama.com",
+    "decision": "out",
+    "reason": "planner pessoal, fora do tema"
+  },
+  {
+    "key": "workzone.com",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "wrike.com",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "zenkit.com",
+    "decision": "out",
+    "reason": "gestão de projetos, fora do tema"
+  },
+  {
+    "key": "zipboard.co",
+    "decision": "out",
+    "reason": "revisão de documentos, fora do tema"
+  },
+  {
+    "key": "zulipchat.com",
+    "decision": "out",
+    "reason": "chat corporativo, fora do tema"
+  },
+  {
+    "key": "colorhexa.com",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "bjango.com/mac/skalacolor",
+    "decision": "out",
+    "reason": "projeto em pausa"
+  },
+  {
+    "key": "projects.susielu.com/viz-palette",
+    "decision": "out",
+    "reason": "título não bate com o nome"
+  },
+  {
+    "key": "govisually.com",
+    "decision": "out",
+    "reason": "proofing para marketing, fora do tema"
+  },
+  {
+    "key": "invisionapp.com/feature/inspect",
+    "decision": "out",
+    "reason": "redireciona para o Miro"
+  },
+  {
+    "key": "owwly.com/feed/inspirations",
+    "decision": "out",
+    "reason": "título não bate com o nome (lista de IA)"
+  },
+  {
+    "key": "uisources.com",
+    "decision": "out",
+    "reason": "título não bate com o nome (redireciona para outro produto)"
+  },
+  {
+    "key": "waveguide.io",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "catalog.style",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "invisionapp.com/design-system-manager",
+    "decision": "out",
+    "reason": "redireciona para o Miro"
+  },
+  {
+    "key": "lingoapp.com",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "lucid.style",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "symboldesign.co",
+    "decision": "out",
+    "reason": "spam (jogo de azar)"
+  },
+  {
+    "key": "pagecloud.com",
+    "decision": "out",
+    "reason": "construtor de sites para negócios, fora do tema"
+  },
+  {
+    "key": "abstract.com",
+    "decision": "out",
+    "reason": "domínio agora é de um fundo de investimento"
+  },
+  {
+    "key": "kactus.io",
+    "decision": "out",
+    "reason": "spam, domínio ocupado por outro site"
+  },
+  {
+    "key": "litmus.com",
+    "decision": "out",
+    "reason": "marketing de email, fora do tema"
+  },
+  {
+    "key": "amplitude.com",
+    "decision": "out",
+    "reason": "analytics de produto, fora do tema"
+  },
+  {
+    "key": "usefathom.com",
+    "decision": "out",
+    "reason": "analytics de produto, fora do tema"
+  },
+  {
+    "key": "fullstory.com",
+    "decision": "out",
+    "reason": "analytics de produto, fora do tema"
+  },
+  {
+    "key": "analytics.google.com/analytics/web",
+    "decision": "out",
+    "reason": "página de redirecionamento"
+  },
+  {
+    "key": "heapanalytics.com",
+    "decision": "out",
+    "reason": "analytics de produto, fora do tema"
+  },
+  {
+    "key": "livesession.io",
+    "decision": "out",
+    "reason": "analytics de produto, fora do tema"
+  },
+  {
+    "key": "mixpanel.com",
+    "decision": "out",
+    "reason": "analytics de produto, fora do tema"
+  },
+  {
+    "key": "mouseflow.com",
+    "decision": "out",
+    "reason": "analytics de produto, fora do tema"
+  },
+  {
+    "key": "pendo.io",
+    "decision": "out",
+    "reason": "analytics de produto, fora do tema"
+  },
+  {
+    "key": "smartlook.com",
+    "decision": "out",
+    "reason": "página sem conteúdo"
+  },
+  {
+    "key": "fontspark.app",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "fontsquirrel.com/fonts/acherus-grotesque",
+    "decision": "out",
+    "reason": "página de uma fonte isolada, não do site"
+  },
+  {
+    "key": "sizecalc.com",
+    "decision": "out",
+    "reason": "domínio com spam de apostas"
+  },
+  {
+    "key": "webfontpreview.com",
+    "decision": "out",
+    "reason": "sem título nem descrição, impossível saber o que é"
+  },
+  {
+    "key": "colorspark.app/gradient",
+    "decision": "out",
+    "reason": "domínio com spam de apostas"
+  },
+  {
+    "key": "illustrio.com",
+    "decision": "out",
+    "reason": "sem título nem descrição, impossível saber o que é"
+  },
+  {
+    "key": "getmotion.io",
+    "decision": "out",
+    "reason": "sem título nem descrição, impossível saber o que é"
+  },
+  {
+    "key": "visualpharm.com",
+    "decision": "out",
+    "reason": "estúdio de serviços, não é um recurso"
+  },
+  {
+    "key": "xicons.co",
+    "decision": "out",
+    "reason": "serviço de design de ícones sob encomenda, não é um recurso"
+  },
+  {
+    "key": "pngtree.com/illustration-design",
+    "decision": "out",
+    "reason": "página de verificação, sem conteúdo"
+  },
+  {
+    "key": "joeschmoe.io",
+    "decision": "out",
+    "reason": "domínio com spam de streaming"
+  },
+  {
+    "key": "designevo.com",
+    "decision": "out",
+    "reason": "gerador de logos genérico para negócios"
+  },
+  {
+    "key": "freelogodesign.org",
+    "decision": "out",
+    "reason": "gerador de logos genérico para negócios"
+  },
+  {
+    "key": "graphicsprings.com",
+    "decision": "out",
+    "reason": "gerador de logos genérico para negócios"
+  },
+  {
+    "key": "logojoy.com",
+    "decision": "out",
+    "reason": "gerador de logos genérico para negócios (agora Looka)"
+  },
+  {
+    "key": "designhill.com/tools/logo-maker",
+    "decision": "out",
+    "reason": "gerador de logos genérico para negócios"
+  },
+  {
+    "key": "logomyway.com",
+    "decision": "out",
+    "reason": "concurso de logos, serviço e não recurso"
+  },
+  {
+    "key": "wizlogo.com",
+    "decision": "out",
+    "reason": "gerador de logos genérico para negócios"
+  },
+  {
+    "key": "dimmy.club",
+    "decision": "out",
+    "reason": "sem descrição, impossível saber o que é"
+  },
+  {
+    "key": "frrames.com",
+    "decision": "out",
+    "reason": "página \"coming soon\", sem conteúdo"
+  },
+  {
+    "key": "coda.io",
+    "decision": "out",
+    "reason": "workspace de documentos genérico, fora do tema"
+  },
+  {
+    "key": "pagexl.com",
+    "decision": "out",
+    "reason": "construtor de sites/lojas genérico, sem descrição"
+  },
+  {
+    "key": "tryretool.com",
+    "decision": "out",
+    "reason": "ferramentas internas de negócio, fora do tema"
+  },
+  {
+    "key": "shopify.com",
+    "decision": "out",
+    "reason": "plataforma de e-commerce, fora do tema"
+  },
+  {
+    "key": "userguiding.com",
+    "decision": "out",
+    "reason": "software de adoção de produto, fora do tema"
+  },
+  {
+    "key": "meetalva.io",
+    "decision": "out",
+    "reason": "domínio com spam de apostas"
+  },
+  {
+    "key": "drama.app",
+    "decision": "out",
+    "reason": "sem descrição, impossível saber o que é"
+  },
+  {
+    "key": "apple.com/keynote",
+    "decision": "out",
+    "reason": "página de suporte de app de apresentações"
+  },
+  {
+    "key": "lightwell.pro",
+    "decision": "out",
+    "reason": "produto descontinuado em 2019; página é artigo sobre alternativas"
+  },
+  {
+    "key": "support.apple.com/quicktime",
+    "decision": "out",
+    "reason": "página de suporte de app do sistema"
+  },
+  {
+    "key": "support.microsoft.com/en-us/help/13776/windows-use-snipping-tool-to-capture-screenshots",
+    "decision": "out",
+    "reason": "página de suporte de app do sistema"
+  },
+  {
+    "key": "crello.com",
+    "decision": "out",
+    "reason": "design gráfico para redes sociais e impressos, fora do tema"
+  },
+  {
+    "key": "pablo.buffer.com",
+    "decision": "out",
+    "reason": "ferramenta de redes sociais, fora do tema"
+  },
+  {
+    "key": "socialsizes.io",
+    "decision": "out",
+    "reason": "medidas de redes sociais, fora do tema"
+  },
+  {
+    "key": "getstencil.com",
+    "decision": "out",
+    "reason": "título/descrição não batem com o nome"
+  },
+  {
+    "key": "appsounds.pro",
+    "decision": "out",
+    "reason": "sem título nem descrição, impossível saber o que é"
+  },
+  {
+    "key": "audiojungle.net",
+    "decision": "out",
+    "reason": "loja de músicas, fora do tema"
+  },
+  {
+    "key": "icons8.com/music",
+    "decision": "out",
+    "reason": "sem conteúdo (HTTP 429), impossível saber o que é"
+  },
+  {
+    "key": "cycling74.com/products/max",
+    "decision": "out",
+    "reason": "ambiente de áudio/multimídia, fora do tema"
+  },
+  {
+    "key": "reaper.fm",
+    "decision": "out",
+    "reason": "produção de áudio, fora do tema"
+  },
+  {
+    "key": "sonic-pi.net",
+    "decision": "out",
+    "reason": "música com código, fora do tema"
+  },
+  {
+    "key": "wistia.com/resources/music",
+    "decision": "out",
+    "reason": "música para vídeos, fora do tema"
+  },
+  {
+    "key": "landingstock.com",
+    "decision": "out",
+    "reason": "título/descrição não batem com o nome"
+  },
+  {
+    "key": "lorempixel.com",
+    "decision": "out",
+    "reason": "sem título nem descrição, impossível saber o que é"
+  },
+  {
+    "key": "pngtree.com",
+    "decision": "out",
+    "reason": "página de verificação, sem conteúdo"
+  },
+  {
+    "key": "styledstock.co",
+    "decision": "out",
+    "reason": "título/descrição não batem com o nome"
+  },
+  {
+    "key": "figmatraining.com",
+    "decision": "out",
+    "reason": "curso encerrado"
+  },
+  {
+    "key": "designer.io",
+    "decision": "out",
+    "reason": "título/descrição não batem com o nome (agora CorelDRAW Go)"
+  },
+  {
+    "key": "studio.pixelixe.com",
+    "decision": "out",
+    "reason": "automação de visuais de marca, fora do tema"
+  },
+  {
+    "key": "voiceflow.com",
+    "decision": "out",
+    "reason": "plataforma de agentes de atendimento, fora do tema"
+  },
+  {
+    "key": "calendly.com",
+    "decision": "out",
+    "reason": "fora do tema (agendamento de reuniões)"
+  },
+  {
+    "key": "crowdsignal.com",
+    "decision": "out",
+    "reason": "fora do tema (pesquisas e quizzes genéricos)"
+  },
+  {
+    "key": "doodle.com",
+    "decision": "out",
+    "reason": "fora do tema (agendamento de reuniões)"
+  },
+  {
+    "key": "feedbacklite.com",
+    "decision": "out",
+    "reason": "título não bate com o nome (redireciona para Survicate)"
+  },
+  {
+    "key": "handrailux.com",
+    "decision": "out",
+    "reason": "título não bate com o nome (redireciona para UserTesting)"
+  },
+  {
+    "key": "jotform.com",
+    "decision": "out",
+    "reason": "sem descrição, página de navegador não suportado"
+  },
+  {
+    "key": "minetime.ai",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "sticktailapp.com",
+    "decision": "out",
+    "reason": "spam (domínio com outro conteúdo)"
+  },
+  {
+    "key": "surveymonkey.com",
+    "decision": "out",
+    "reason": "fora do tema (formulários genéricos)"
+  },
+  {
+    "key": "typeform.com",
+    "decision": "out",
+    "reason": "fora do tema (formulários e marketing)"
+  },
+  {
+    "key": "wufoo.com",
+    "decision": "out",
+    "reason": "fora do tema (formulários genéricos)"
+  },
+  {
+    "key": "yesinsights.com",
+    "decision": "out",
+    "reason": "fora do tema (pesquisas de marketing)"
+  },
+  {
+    "key": "zoom.us",
+    "decision": "out",
+    "reason": "fora do tema (videochamadas)"
+  },
+  {
+    "key": "blokkfont.com",
+    "decision": "out",
+    "reason": "spam (domínio de cassino)"
+  },
+  {
+    "key": "cssgrid.cc/css-grid-builder.html",
+    "decision": "out",
+    "reason": "título e descrição não batem com o nome"
+  },
+  {
+    "key": "freecadweb.org",
+    "decision": "out",
+    "reason": "spam (domínio com outro conteúdo)"
+  },
+  {
+    "key": "matterhackers.com/store/l/mattercontrol/sk/MKZGTDW6",
+    "decision": "out",
+    "reason": "fora do tema (impressão 3D)"
+  },
+  {
+    "key": "onshape.com",
+    "decision": "out",
+    "reason": "fora do tema (CAD de produto)"
+  },
+  {
+    "key": "openscad.org",
+    "decision": "out",
+    "reason": "fora do tema (CAD)"
+  },
+  {
+    "key": "rhino3d.com",
+    "decision": "out",
+    "reason": "fora do tema (CAD/3D industrial)"
+  },
+  {
+    "key": "sketchup.com",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "tinkercad.com",
+    "decision": "out",
+    "reason": "fora do tema (CAD educativo)"
+  },
+  {
+    "key": "3dslash.net",
+    "decision": "out",
+    "reason": "timeout, sem informação"
+  },
+  {
+    "key": "1x.com",
+    "decision": "out",
+    "reason": "descrição não diz nada"
+  },
+  {
+    "key": "imcreator.com",
+    "decision": "out",
+    "reason": "título não bate com o nome (construtor de sites)"
+  },
+  {
+    "key": "photos.bucketlistly.com",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "butdoesitfloat.com",
+    "decision": "out",
+    "reason": "descrição não diz nada"
+  },
+  {
+    "key": "webpagefx.com/web-design/hex-to-rgb",
+    "decision": "out",
+    "reason": "título não bate com o nome (agência de marketing)"
+  },
+  {
+    "key": "icondock.com",
+    "decision": "out",
+    "reason": "spam (domínio de apostas)"
+  },
+  {
+    "key": "evil-icons.io",
+    "decision": "out",
+    "reason": "spam (domínio de apostas)"
+  },
+  {
+    "key": "freeiconshop.com",
+    "decision": "out",
+    "reason": "spam (domínio de loteria)"
+  },
+  {
+    "key": "design.google.com/icons",
+    "decision": "out",
+    "reason": "duplicado (aponta para Google Design)"
+  },
+  {
+    "key": "glyphrstudio.com/online",
+    "decision": "out",
+    "reason": "link aponta para a v1 descontinuada"
+  },
+  {
+    "key": "vllg.com",
+    "decision": "out",
+    "reason": "fundição encerrada (2005-2023)"
+  },
+  {
+    "key": "milieugrotesque.com",
+    "decision": "out",
+    "reason": "título não bate com o nome (redireciona para MyFonts)"
+  },
+  {
+    "key": "colophon-foundry.org",
+    "decision": "out",
+    "reason": "site mudou de endereço"
+  },
+  {
+    "key": "haiku.ai",
+    "decision": "out",
+    "reason": "domínio à venda"
+  },
+  {
+    "key": "validately.com",
+    "decision": "out",
+    "reason": "duplicado (redireciona para UserTesting)"
+  },
+  {
+    "key": "usersthink.com",
+    "decision": "out",
+    "reason": "serviço encerrado"
+  },
+  {
+    "key": "clicktale.com",
+    "decision": "out",
+    "reason": "produto absorvido pela Contentsquare"
+  },
+  {
+    "key": "frogdesign.com",
+    "decision": "out",
+    "reason": "página de empresa genérica"
+  },
+  {
+    "key": "danskdesigncenter.dk",
+    "decision": "out",
+    "reason": "instituição, não é recurso"
+  },
+  {
+    "key": "google.com/culturalinstitute/beta",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "yankodesign.com",
+    "decision": "out",
+    "reason": "fora do tema (design industrial)"
+  },
+  {
+    "key": "swiss-miss.com",
+    "decision": "out",
+    "reason": "blog pessoal"
+  },
+  {
+    "key": "ideo.com",
+    "decision": "out",
+    "reason": "página de empresa genérica"
+  },
+  {
+    "key": "designmodo.com/inspiration",
+    "decision": "out",
+    "reason": "título não bate com o nome (ferramenta de e-mail)"
+  },
+  {
+    "key": "hugeinc.com",
+    "decision": "out",
+    "reason": "página de empresa genérica"
+  },
+  {
+    "key": "underconsideration.com",
+    "decision": "out",
+    "reason": "página de empresa (estúdio)"
+  },
+  {
+    "key": "creativeoverflow.net",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "fromupnorth.com",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "medium.com/facebook-design",
+    "decision": "out",
+    "reason": "HTTP 404"
+  },
+  {
+    "key": "blog.pixelsquid.com",
+    "decision": "out",
+    "reason": "blog de produto"
+  },
+  {
+    "key": "designm.ag",
+    "decision": "out",
+    "reason": "descrição não bate com o nome (artigo isolado)"
+  },
+  {
+    "key": "dexigner.com",
+    "decision": "out",
+    "reason": "site de notícias de design"
+  },
+  {
+    "key": "blog.niice.co",
+    "decision": "out",
+    "reason": "título não bate: plataforma de marca com IA, não o blog"
+  },
+  {
+    "key": "medium.muz.li",
+    "decision": "out",
+    "reason": "publicação no Medium com descrição vaga"
+  },
+  {
+    "key": "zurb.com/patterntap",
+    "decision": "out",
+    "reason": "redireciona para a página da empresa ZURB"
+  },
+  {
+    "key": "officelovin.com",
+    "decision": "out",
+    "reason": "design de escritórios, fora do tema"
+  },
+  {
+    "key": "1stwebdesigner.com",
+    "decision": "out",
+    "reason": "blog genérico com descrição vaga"
+  },
+  {
+    "key": "webpagefx.com/tools/emoji-cheat-sheet",
+    "decision": "out",
+    "reason": "redireciona para agência de marketing"
+  },
+  {
+    "key": "uplabs.com",
+    "decision": "out",
+    "reason": "título não bate: empresa de IA corporativa"
+  },
+  {
+    "key": "mobilemozaic.com",
+    "decision": "out",
+    "reason": "título não bate: planos de eSIM"
+  },
+  {
+    "key": "wwwhere.io",
+    "decision": "out",
+    "reason": "título não bate: site de futebol"
+  },
+  {
+    "key": "medium.com/uber-design",
+    "decision": "out",
+    "reason": "blog de empresa no Medium"
+  },
+  {
+    "key": "buffer.com/style-guide",
+    "decision": "out",
+    "reason": "redireciona para a página do produto Buffer"
+  },
+  {
+    "key": "vsco.co/id/journal/p/1",
+    "decision": "out",
+    "reason": "perfil no VSCO"
+  },
+  {
+    "key": "whatsappbrand.com",
+    "decision": "out",
+    "reason": "página de erro (HTTP 400)"
+  },
+  {
+    "key": "snapchat.com/brand-guidelines",
+    "decision": "out",
+    "reason": "redireciona para página institucional da Snap"
+  },
+  {
+    "key": "newslab.withgoogle.com/assets/docs/google-trends-guide.pdf",
+    "decision": "out",
+    "reason": "PDF sem informação, guia de Google Trends fora do tema"
+  },
+  {
+    "key": "developers.google.com/glass/design",
+    "decision": "out",
+    "reason": "página sem conteúdo identificável"
+  },
+  {
+    "key": "microsoft.com/en-us/design",
+    "decision": "out",
+    "reason": "página institucional da Microsoft Design"
+  },
+  {
+    "key": "tutsplus.com",
+    "decision": "out",
+    "reason": "duplicado de webdesign.tutsplus.com"
+  },
+  {
+    "key": "g-mark.org",
+    "decision": "out",
+    "reason": "prêmio de design de produto em geral, fora do foco"
+  },
+  {
+    "key": "cssawards.net",
+    "decision": "out",
+    "reason": "página sem conteúdo"
+  },
+  {
+    "key": "dandad.org",
+    "decision": "out",
+    "reason": "prêmio de criatividade comercial em geral, fora do foco"
+  },
+  {
+    "key": "designconference.aiga.org",
+    "decision": "out",
+    "reason": "página de erro (HTTP 403)"
+  },
+  {
+    "key": "sxsw.com",
+    "decision": "out",
+    "reason": "festival de tecnologia, cinema e música, fora do foco"
+  },
+  {
+    "key": "theillustrationconference.org",
+    "decision": "out",
+    "reason": "evento, não recurso"
+  },
+  {
+    "key": "interaction16.ixda.org",
+    "decision": "out",
+    "reason": "evento de 2016 já encerrado"
+  },
+  {
+    "key": "iloveoffset.com",
+    "decision": "out",
+    "reason": "arquivo de evento sem descrição"
+  },
+  {
+    "key": "typographics.com",
+    "decision": "out",
+    "reason": "evento, não recurso"
+  },
+  {
+    "key": "underconsideration.com/brandnewconference",
+    "decision": "out",
+    "reason": "evento, não recurso"
+  },
+  {
+    "key": "whatdesigncando.com",
+    "decision": "out",
+    "reason": "evento sobre design e sociedade, fora do foco"
+  },
+  {
+    "key": "designcontentconf.com",
+    "decision": "out",
+    "reason": "título não bate: site de jogos de azar"
+  },
+  {
+    "key": "generateconf.com",
+    "decision": "out",
+    "reason": "título não bate"
+  },
+  {
+    "key": "servicedesigndays.com",
+    "decision": "out",
+    "reason": "conferência de gestão de jornadas, fora do foco"
+  },
+  {
+    "key": "semipermanent.com",
+    "decision": "out",
+    "reason": "título não bate: instituição cultural"
+  },
+  {
+    "key": "dribbble.com/meetups",
+    "decision": "out",
+    "reason": "página sem conteúdo"
+  },
+  {
+    "key": "blog.codepen.io/meetups",
+    "decision": "out",
+    "reason": "página de erro (HTTP 404)"
+  },
+  {
+    "key": "workmode.show",
+    "decision": "out",
+    "reason": "página sem conteúdo"
+  },
+  {
+    "key": "tentative.fm",
+    "decision": "out",
+    "reason": "título não bate: cassino online"
+  },
+  {
+    "key": "medium.com",
+    "decision": "out",
+    "reason": "plataforma de blogs genérica"
+  },
+  {
+    "key": "fribbble.com",
+    "decision": "out",
+    "reason": "título não bate: SEO"
+  },
+  {
+    "key": "tumblr.com",
+    "decision": "out",
+    "reason": "rede social genérica"
+  },
+  {
+    "key": "blog.marvelapp.com",
+    "decision": "out",
+    "reason": "blog de empresa"
+  },
+  {
+    "key": "medium.com/tag/web-design",
+    "decision": "out",
+    "reason": "listagem de tag no Medium"
+  },
+  {
+    "key": "sitepoint.com/design-ux",
+    "decision": "out",
+    "reason": "seção de blog sem descrição"
+  },
+  {
+    "key": "morningreader.com",
+    "decision": "out",
+    "reason": "notícias de tecnologia"
+  },
+  {
+    "key": "gradients.io",
+    "decision": "out",
+    "reason": "título não bate: treino de IA em cripto"
+  },
+  {
+    "key": "material.io/icons",
+    "decision": "out",
+    "reason": "duplicado de material.google.com"
+  },
+  {
+    "key": "placehold.it",
+    "decision": "out",
+    "reason": "página de erro (HTTP 403)"
+  },
+  {
+    "key": "imgur.com",
+    "decision": "out",
+    "reason": "hospedagem de imagens genérica"
+  },
+  {
+    "key": "flickr.com",
+    "decision": "out",
+    "reason": "rede de fotografia genérica, fora do foco"
+  },
+  {
+    "key": "moveoapps.com/ultimate-guide-to-mobile-app-design-principles",
+    "decision": "out",
+    "reason": "artigo isolado de blog de empresa"
+  },
+  {
+    "key": "xdguru.com/adobe-xd-guide",
+    "decision": "out",
+    "reason": "página de erro (HTTP 429), sem informação"
+  },
+  {
+    "key": "toggl.com",
+    "decision": "out",
+    "reason": "produtividade geral, fora do tema"
+  },
+  {
+    "key": "rescuetime.com",
+    "decision": "out",
+    "reason": "produtividade geral, fora do tema"
+  },
+  {
+    "key": "qotoqot.com/qbserve",
+    "decision": "out",
+    "reason": "produtividade geral, fora do tema"
+  },
+  {
+    "key": "pasteapp.me",
+    "decision": "out",
+    "reason": "produtividade geral, fora do tema"
+  },
+  {
+    "key": "timingapp.com",
+    "decision": "out",
+    "reason": "produtividade geral, fora do tema"
+  },
+  {
+    "key": "teamsketch.io",
+    "decision": "out",
+    "reason": "página sem descrição"
+  },
+  {
+    "key": "learnboost.github.io/stylus",
+    "decision": "out",
+    "reason": "página movida"
+  },
+  {
+    "key": "code.hootsuite.com/css-at-hootsuite",
+    "decision": "out",
+    "reason": "descrição vaga, blog de engenharia"
+  },
+  {
+    "key": "markdotto.com/2014/07/23/githubs-css",
+    "decision": "out",
+    "reason": "página de erro (HTTP 404)"
+  },
+  {
+    "key": "blog.trello.com/refining-the-way-we-structure-our-css-at-trello",
+    "decision": "out",
+    "reason": "redireciona para a home do blog da Atlassian"
+  },
+  {
+    "key": "sitepoint.com/atomic-oobemitscss",
+    "decision": "out",
+    "reason": "artigo isolado"
+  },
+  {
+    "key": "smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss",
+    "decision": "out",
+    "reason": "artigo isolado"
+  },
+  {
+    "key": "pointnorth.io",
+    "decision": "out",
+    "reason": "título e descrição não batem com o nome"
+  },
+  {
+    "key": "sitepoint.com/title-css-simple-approach-css-class-naming",
+    "decision": "out",
+    "reason": "artigo isolado"
+  },
+  {
+    "key": "medium.com/@ymzEmre/css-cascade-specificity-basic-selectors-c5adc01dd861",
+    "decision": "out",
+    "reason": "artigo isolado"
+  },
+  {
+    "key": "stackdiary.com/css-math-functions",
+    "decision": "out",
+    "reason": "artigo isolado"
+  },
+  {
+    "key": "snipcart.com/blog/organize-css-modular-architecture",
+    "decision": "out",
+    "reason": "artigo isolado"
+  },
+  {
+    "key": "mui.com/material-ui/react-autocomplete",
+    "decision": "out",
+    "reason": "página isolada de um componente da MUI"
+  },
+  {
+    "key": "mui.com/material-ui/react-modal",
+    "decision": "out",
+    "reason": "página isolada de um componente da MUI"
+  },
+  {
+    "key": "mui.com/material-ui/react-slider",
+    "decision": "out",
+    "reason": "página isolada de um componente da MUI"
+  },
+  {
+    "key": "mui.com/material-ui/react-table",
+    "decision": "out",
+    "reason": "página isolada de um componente da MUI"
+  },
+  {
+    "key": "mui.com/material-ui/react-tree-view",
+    "decision": "out",
+    "reason": "página isolada de um componente da MUI"
+  },
+  {
+    "key": "ionicframework.com/blog/announcing-ionic-react",
+    "decision": "out",
+    "reason": "notícia de lançamento"
+  },
+  {
+    "key": "fluxguard.com",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "conflicts.app",
+    "decision": "out",
+    "reason": "não é um recurso de front-end"
+  },
+  {
+    "key": "qcustomplot.com",
+    "decision": "out",
+    "reason": "widget C++/Qt, fora de front-end"
+  },
+  {
+    "key": "matplotlib.org",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "seaborn.pydata.org",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "toyplot.readthedocs.io/en/stable",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "veusz.github.io",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "altair-viz.github.io",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "holoviews.org",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "bokeh.org",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "plotly.com/python",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "docs.enthought.com/mayavi/mayavi",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "vtk.org",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "pyqtgraph.org",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "vispy.org",
+    "decision": "out",
+    "reason": "biblioteca Python, fora de front-end"
+  },
+  {
+    "key": "ggplot2.tidyverse.org",
+    "decision": "out",
+    "reason": "ferramenta de R, fora de front-end"
+  },
+  {
+    "key": "ggvis.rstudio.com",
+    "decision": "out",
+    "reason": "ferramenta de R, fora de front-end"
+  },
+  {
+    "key": "lattice.r-forge.r-project.org",
+    "decision": "out",
+    "reason": "ferramenta de R, fora de front-end"
+  },
+  {
+    "key": "hafen.github.io/rbokeh",
+    "decision": "out",
+    "reason": "ferramenta de R, fora de front-end"
+  },
+  {
+    "key": "cran.r-project.org/web/packages/rgl/index.html",
+    "decision": "out",
+    "reason": "ferramenta de R, fora de front-end"
+  },
+  {
+    "key": "shiny.rstudio.com",
+    "decision": "out",
+    "reason": "ferramenta de R, fora de front-end"
+  },
+  {
+    "key": "datastorm-open.github.io/visNetwork",
+    "decision": "out",
+    "reason": "ferramenta de R, fora de front-end"
+  },
+  {
+    "key": "wavedrom.com",
+    "decision": "out",
+    "reason": "diagramas de temporização digital, fora do tema"
+  },
+  {
+    "key": "plotivy.app",
+    "decision": "out",
+    "reason": "ferramenta de plotagem científica em Python, fora de front-end"
+  },
+  {
+    "key": "squey.org",
+    "decision": "out",
+    "reason": "ferramenta de análise de dados, fora de front-end"
+  },
+  {
+    "key": "manning.com/books/r-in-action-third-edition",
+    "decision": "out",
+    "reason": "livro de R, fora de front-end"
+  },
+  {
+    "key": "chimera.labs.oreilly.com/books/1230000000345",
+    "decision": "out",
+    "reason": "título não bate com o nome"
+  },
+  {
+    "key": "r-graph-gallery.com",
+    "decision": "out",
+    "reason": "galeria de R, fora de front-end"
+  },
+  {
+    "key": "en.wikipedia.org/wiki/Data_visualization",
+    "decision": "out",
+    "reason": "artigo da Wikipedia"
+  },
+  {
+    "key": "en.wikipedia.org/wiki/List_of_graphical_methods",
+    "decision": "out",
+    "reason": "artigo da Wikipedia"
+  },
+  {
+    "key": "en.wikipedia.org/wiki/Diagram",
+    "decision": "out",
+    "reason": "artigo da Wikipedia"
+  },
+  {
+    "key": "en.wikipedia.org/wiki/Chart",
+    "decision": "out",
+    "reason": "artigo da Wikipedia"
+  },
+  {
+    "key": "datacamp.com/community/podcast",
+    "decision": "out",
+    "reason": "ciência de dados, fora do tema"
+  },
+  {
+    "key": "annkemery.com",
+    "decision": "out",
+    "reason": "blog pessoal"
+  },
+  {
+    "key": "stephanieevergreen.com",
+    "decision": "out",
+    "reason": "blog pessoal, página com erro"
+  },
+  {
+    "key": "globaldatatracker.com",
+    "decision": "out",
+    "reason": "site de estatísticas, não é recurso de front-end"
+  },
+  {
+    "key": "lisacharlotterost.github.io",
+    "decision": "out",
+    "reason": "perfil pessoal"
+  },
+  {
+    "key": "theplanetthinks.com",
+    "decision": "out",
+    "reason": "demo, não é um recurso"
+  },
+  {
+    "key": "vivamap.ch",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "ashutoshsinghpr7.github.io/marble-taxonomy-explorer",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "fabiosouto.me",
+    "decision": "out",
+    "reason": "perfil pessoal"
+  },
+  {
+    "key": "hal9.com",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "cloudish.ai",
+    "decision": "out",
+    "reason": "fora do tema"
+  },
+  {
+    "key": "bloom.appearhere.co.uk",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "palette.artsy.net",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "overdrive.autoguru.io",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "basis.now.sh",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "takenet.github.io/blip-ds",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "bold.bridge.ufsc.tech",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "design.buzzvil.com",
+    "decision": "out",
+    "reason": "página institucional sobre o processo de uma equipe"
+  },
+  {
+    "key": "coop.co.uk/experience-library",
+    "decision": "out",
+    "reason": "página de bloqueio, sem conteúdo"
+  },
+  {
+    "key": "ui.decentraland.org",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "dsyui.enelx.com",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "brand.estonia.ee",
+    "decision": "out",
+    "reason": "marca-país, marketing"
+  },
+  {
+    "key": "toolbox.finland.fi",
+    "decision": "out",
+    "reason": "kit de promoção de país, marketing"
+  },
+  {
+    "key": "systeme-de-design.gouv.fr",
+    "decision": "out",
+    "reason": "HTTP 403, sem informação"
+  },
+  {
+    "key": "futurelearn.com/pattern-library",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "goodbarber.com/uxdesign",
+    "decision": "out",
+    "reason": "guia de um construtor de apps comercial, ligado ao produto"
+  },
+  {
+    "key": "developers.grafana.com/ui/latest",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "grommet.github.io",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "javadbat.github.io/design-system",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "atlantis.getjobber.com",
+    "decision": "out",
+    "reason": "design system tornou-se interno"
+  },
+  {
+    "key": "cultureamp.design",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "design.mail.ru",
+    "decision": "out",
+    "reason": "página institucional de equipe"
+  },
+  {
+    "key": "mongodb.design",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "odyssey-storybook.okta.design",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "redwood.oracle.com",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "privy-open-source.github.io/design-system",
+    "decision": "out",
+    "reason": "título e descrição não dizem o que é"
+  },
+  {
+    "key": "design-system.strapi.io",
+    "decision": "out",
+    "reason": "sem informação sobre o que é"
+  },
+  {
+    "key": "wix-style-react.com/storybook",
+    "decision": "out",
+    "reason": "página de redirecionamento, sem informação"
+  },
+  {
+    "key": "oreilly.com/library/view/even-faster-web/9780596803773",
+    "decision": "out",
+    "reason": "HTTP 403, sem informação"
+  },
+  {
+    "key": "oreilly.com/library/view/high-performance-javascript/9781449382308",
+    "decision": "out",
+    "reason": "HTTP 403, sem informação"
+  },
+  {
+    "key": "oreilly.com/library/view/high-performance-web/9780596529307",
+    "decision": "out",
+    "reason": "HTTP 403, sem informação"
+  },
+  {
+    "key": "oreilly.com/library/view/high-performance-responsive/9781491949979",
+    "decision": "out",
+    "reason": "HTTP 403, sem informação"
+  },
+  {
+    "key": "oreilly.com/library/view/time-is-money/9781491928783",
+    "decision": "out",
+    "reason": "HTTP 403, sem informação"
+  },
+  {
+    "key": "oreilly.com/library/view/using-webpagetest/9781491902783",
+    "decision": "out",
+    "reason": "HTTP 403, sem informação"
+  },
+  {
+    "key": "oreilly.com/library/view/web-performance-tuning/059600172X",
+    "decision": "out",
+    "reason": "HTTP 403, sem informação"
+  },
+  {
+    "key": "oreilly.com/library/view/you-dont-know/9781491905197",
+    "decision": "out",
+    "reason": "HTTP 403, sem informação"
+  },
+  {
+    "key": "oreilly.com/library/view/web-performance-engineering/9798341660182",
+    "decision": "out",
+    "reason": "HTTP 403, sem informação"
+  },
+  {
+    "key": "w3.org/TR/navigation-timing-2",
+    "decision": "out",
+    "reason": "duplicado da referência MDN de Navigation Timing"
+  },
+  {
+    "key": "welovespeed.com/2024",
+    "decision": "out",
+    "reason": "evento pontual (conferência de 2024)"
+  },
+  {
+    "key": "pwasummit.org",
+    "decision": "out",
+    "reason": "evento pontual (conferência)"
+  },
+  {
+    "key": "perfnow.nl",
+    "decision": "out",
+    "reason": "evento pontual (conferência)"
+  },
+  {
+    "key": "perfmattersconf.com",
+    "decision": "out",
+    "reason": "evento pontual (conferência de 2020)"
+  },
+  {
+    "key": "developers.google.com/speed",
+    "decision": "out",
+    "reason": "página genérica de hub do Google"
+  },
+  {
+    "key": "screpy.com",
+    "decision": "out",
+    "reason": "ferramenta de SEO, fora do tema"
+  },
+  {
+    "key": "datadoghq.com/product/apm",
+    "decision": "out",
+    "reason": "APM de backend, fora do tema"
+  },
+  {
+    "key": "betteruptime.com",
+    "decision": "out",
+    "reason": "monitoramento de uptime, fora do tema"
+  },
+  {
+    "key": "pingdom.com",
+    "decision": "out",
+    "reason": "monitoramento de uptime, fora do tema"
+  },
+  {
+    "key": "uptimerobot.com",
+    "decision": "out",
+    "reason": "monitoramento de uptime, fora do tema"
+  },
+  {
+    "key": "statuslist.app",
+    "decision": "out",
+    "reason": "monitoramento de uptime, fora do tema"
+  },
+  {
+    "key": "atatus.com",
+    "decision": "out",
+    "reason": "plataforma de observabilidade geral, fora do tema"
+  },
+  {
+    "key": "akamai.github.io/boomerang/oss",
+    "decision": "out",
+    "reason": "duplicado do Boomerang (techdocs.akamai.com)"
+  },
+  {
+    "key": "hughsk.io/disc",
+    "decision": "out",
+    "reason": "sem título nem descrição"
+  },
+  {
+    "key": "developer.yahoo.com/yslow",
+    "decision": "out",
+    "reason": "página genérica da Yahoo, título não bate"
+  },
+  {
+    "key": "andy.edinborough.org/CSS-Stress-Testing-and-Performance-Profiling",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "cloudflare.com/products/cdn",
+    "decision": "out",
+    "reason": "página de produto de CDN, infraestrutura"
+  },
+  {
+    "key": "pagecdn.com/lib",
+    "decision": "out",
+    "reason": "sem informação"
+  },
+  {
+    "key": "optipng.sourceforge.net",
+    "decision": "out",
+    "reason": "página com erro HTTP 403"
+  },
+  {
+    "key": "advancemame.it/doc-advpng.html",
+    "decision": "out",
+    "reason": "título e descrição não batem com o nome"
+  },
+  {
+    "key": "pingbreak.com",
+    "decision": "out",
+    "reason": "monitoramento de uptime, fora do tema"
+  },
+  {
+    "key": "dareboost.com/en",
+    "decision": "out",
+    "reason": "duplicado do Dareboost (dareboost.com)"
+  },
+  {
+    "key": "codedread.com/scour",
+    "decision": "out",
+    "reason": "título e descrição não batem com o nome"
+  },
+  {
+    "key": "jmeter.apache.org/download_jmeter.cgi",
+    "decision": "out",
+    "reason": "teste de carga de servidor, backend"
+  },
+  {
+    "key": "locust.io",
+    "decision": "out",
+    "reason": "teste de carga de servidor, backend"
+  },
+  {
+    "key": "k6.io",
+    "decision": "out",
+    "reason": "teste de carga de servidor, backend"
+  },
+  {
+    "key": "w3.org/webperf",
+    "decision": "out",
+    "reason": "página de grupo de trabalho, não é recurso"
+  },
+  {
+    "key": "html.spec.whatwg.org/multipage/interaction.html",
+    "decision": "out",
+    "reason": "aponta para o HTML Standard inteiro, título não bate"
+  },
+  {
+    "key": "auth0.com/blog/glossary-of-modern-javascript-concepts",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "auth0.com/blog/glossary-of-modern-javascript-concepts-part-2",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "sitepoint.com/javascript-closures-demystified",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "scotch.io/tutorials/understanding-hoisting-in-javascript",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "danmartensen.svbtle.com/javascripts-map-reduce-and-filter",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "sohamkamani.com/blog/2016/08/28/incremenal-tutorial-to-promises",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "shop.oreilly.com/product/9780596517748.do",
+    "decision": "out",
+    "reason": "página com erro HTTP 403"
+  },
+  {
+    "key": "shop.oreilly.com/product/0636920027713.do",
+    "decision": "out",
+    "reason": "página com erro HTTP 403"
+  },
+  {
+    "key": "2ality.com",
+    "decision": "out",
+    "reason": "blog temporariamente offline"
+  },
+  {
+    "key": "ponyfoo.com",
+    "decision": "out",
+    "reason": "blog sem descrição"
+  },
+  {
+    "key": "latentflip.com/loupe",
+    "decision": "out",
+    "reason": "sem informação"
+  },
+  {
+    "key": "vimeo.com/181328943",
+    "decision": "out",
+    "reason": "vídeo isolado sem informação"
+  },
+  {
+    "key": "codeschool.com/learn/javascript",
+    "decision": "out",
+    "reason": "título e descrição não batem com o nome"
+  },
+  {
+    "key": "freecodecamp.org/news/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "domenlightenment.com",
+    "decision": "out",
+    "reason": "título e descrição não batem com o nome"
+  },
+  {
+    "key": "zellwk.com/blog/dom-traversals",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "nodeschool.io",
+    "decision": "out",
+    "reason": "Node.js, fora do tema front-end"
+  },
+  {
+    "key": "learnnode.com",
+    "decision": "out",
+    "reason": "curso de backend, fora do tema"
+  },
+  {
+    "key": "archive.org/details/mso97clipart",
+    "decision": "out",
+    "reason": "título genérico do Internet Archive, sem informação"
+  },
+  {
+    "key": "pixelambacht.nl/2013/css3-c64",
+    "decision": "out",
+    "reason": "demo isolada em artigo de blog"
+  },
+  {
+    "key": "metalmorphism.com",
+    "decision": "out",
+    "reason": "spam, conteúdo não bate com o nome"
+  },
+  {
+    "key": "reddit.com/r/reactjs/comments/vtgbai/comparison_of_ui_libraries_for_react",
+    "decision": "out",
+    "reason": "discussão no Reddit, não é recurso"
+  },
+  {
+    "key": "tailwindcss.com/docs/breakpoints",
+    "decision": "out",
+    "reason": "página isolada de docs do Tailwind"
+  },
+  {
+    "key": "news.ycombinator.com/item",
+    "decision": "out",
+    "reason": "comentário no Hacker News, não é recurso"
+  },
+  {
+    "key": "uxdesign.cc/uniwidth-typefaces-for-interface-design-b6e8078dc0f7",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "jonathan-harrell.com/blog/better-typography-with-font-variants",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "learnui.design/blog/justifying-font-choices.html",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "dribbble.com/stories/2021/04/26/web-design-data-fonts",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "csswizardry.com/2020/05/the-fastest-google-fonts",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "css-tricks.com/design-v18",
+    "decision": "out",
+    "reason": "post sobre redesign do site"
+  },
+  {
+    "key": "manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "css-tricks.com/viewport-sized-typography",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "georgefrancis.dev/writing/a-beginners-guide-to-applying-color-in-ui-design",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "learnui.design/blog/the-hsb-color-system-practicioners-primer.html",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "learnui.design/blog/color-in-ui-design-a-practical-framework.html",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.muz.li/the-ultimate-ux-guide-to-color-design-4d0a18a706ed",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "convertkit.com/color-theory",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "courses.joshwcomeau.com/css-for-js/treasure-trove/014-color-palettes",
+    "decision": "out",
+    "reason": "página de curso pago, não recurso autônomo"
+  },
+  {
+    "key": "stripe.com/blog/accessible-color-systems",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.com/@marcintreder/design-system-sprint-2-one-color-palette-to-rule-them-all-d0114ed1f659",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "notes.neeasade.net/color-spaces.html",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "refactoringui.com/previews/building-your-color-palette",
+    "decision": "out",
+    "reason": "duplicado de Refactoring UI"
+  },
+  {
+    "key": "n8d.at/the-numeric-colour-palettes-in-modern-web-frameworks-explained",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "vectornator.io/blog/monochromatic-colors",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "canva.com/colors/color-wheel",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "observablehq.com/@mbostock/lab-and-rgb",
+    "decision": "out",
+    "reason": "página com erro"
+  },
+  {
+    "key": "blog.datawrapper.de/beautifulcolors",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "matplotlib.org/stable/tutorials/colors/colormaps.html",
+    "decision": "out",
+    "reason": "fora do tema (Python)"
+  },
+  {
+    "key": "css-tricks.com/how-to-favicon-in-2021",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "microsoft.com/en-sg/microsoft-365/visio/flowchart-software",
+    "decision": "out",
+    "reason": "produto genérico, fora do tema"
+  },
+  {
+    "key": "azimutt.app",
+    "decision": "out",
+    "reason": "fora do tema (banco de dados)"
+  },
+  {
+    "key": "mocodo.net",
+    "decision": "out",
+    "reason": "sem descrição, não dá para saber o que é"
+  },
+  {
+    "key": "creativemarket.com/templates/mockups/mobile-web",
+    "decision": "out",
+    "reason": "loja, página com erro"
+  },
+  {
+    "key": "atfzl.com/don-t-attach-tooltips-to-document-body",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "css-tricks.com/a-table-with-both-a-sticky-header-and-a-sticky-first-column",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "css-tricks.com/gooey-effect",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "svelte.dev/repl/defc901c5f434ed4a76161605cf1db76",
+    "decision": "out",
+    "reason": "playground isolado"
+  },
+  {
+    "key": "css-tricks.com/how-to-create-a-realistic-motion-blur-with-css-transitions",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "codepen.io/oliviale/pen/YgzNzK",
+    "decision": "out",
+    "reason": "pen isolado"
+  },
+  {
+    "key": "codepen.io/sdras/pen/LYELqPX",
+    "decision": "out",
+    "reason": "pen isolado"
+  },
+  {
+    "key": "reddit.com/r/webdev/comments/f6ah78/responsive_website_testing_any_alternative_to",
+    "decision": "out",
+    "reason": "thread do Reddit"
+  },
+  {
+    "key": "theappfuel.com",
+    "decision": "out",
+    "reason": "fora do tema (anúncios/marketing)"
+  },
+  {
+    "key": "tympanus.net/codrops/2019/06/04/inspirational-websites-roundup-5",
+    "decision": "out",
+    "reason": "post isolado de roundup"
+  },
+  {
+    "key": "data.world/datasets/open-data",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "csr.lanl.gov/data/cyber1",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "numer.ai/data/v4",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "kaggle.com/datasets/wcukierski/enron-email-dataset",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "offshoreleaks.icij.org",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "gdeltproject.org",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "izzy.co/blogs/horoscope-aug.html",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "cloud.google.com/blog/products/gcp/global-historical-daily-weather-data-now-available-in-bigquery",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "dev-portal.at.govt.nz",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "insideairbnb.com",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "geonet.org.nz/data/types/eq_catalogue",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "correlatesofwar.org",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "huggingface.co/datasets/shuttie/dadjokes",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "lucymcgowan.github.io/touringplans",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "nflfastr.com",
+    "decision": "out",
+    "reason": "fora do tema (dataset)"
+  },
+  {
+    "key": "codenewbie.org/podcast/how-do-i-learn-design",
+    "decision": "out",
+    "reason": "episódio isolado"
+  },
+  {
+    "key": "syntax.fm/show/196/design-foundations-for-developers",
+    "decision": "out",
+    "reason": "episódio isolado"
+  },
+  {
+    "key": "syntax.fm/show/068/design-tips-for-developers",
+    "decision": "out",
+    "reason": "episódio isolado"
+  },
+  {
+    "key": "changelog.com/podcast/333",
+    "decision": "out",
+    "reason": "episódio isolado"
+  },
+  {
+    "key": "shoptalkshow.com/343",
+    "decision": "out",
+    "reason": "episódio isolado"
+  },
+  {
+    "key": "odannyboy.medium.com/100-things-i-know-about-design-8e50f7b1818b",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "geofcrowl.com/blog/articles/2020/2/17/collection-higs",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "buffer.com/library/social-media-design-tips",
+    "decision": "out",
+    "reason": "fora do tema (marketing)"
+  },
+  {
+    "key": "designdetails.fm/episodes/220880",
+    "decision": "out",
+    "reason": "episódio isolado"
+  },
+  {
+    "key": "learnui.design/blog/7-rules-for-creating-gorgeous-ui-part-1.html",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "knock.app/blog/how-to-design-great-keyboard-shortcuts",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "picocli.info",
+    "decision": "out",
+    "reason": "fora do tema (CLI Java)"
+  },
+  {
+    "key": "savemypalette.com",
+    "decision": "out",
+    "reason": "descrição vazia, não dá para saber o que é"
+  },
+  {
+    "key": "colorlibrary.ch",
+    "decision": "out",
+    "reason": "fora do tema (impressão)"
+  },
+  {
+    "key": "icolorpalette.com",
+    "decision": "out",
+    "reason": "página com erro"
+  },
+  {
+    "key": "hexcolorpedia.com",
+    "decision": "out",
+    "reason": "página com erro"
+  },
+  {
+    "key": "colorpalettes.net",
+    "decision": "out",
+    "reason": "fora do tema (decoração)"
+  },
+  {
+    "key": "vanschneider.com/colors",
+    "decision": "out",
+    "reason": "título não bate com o nome"
+  },
+  {
+    "key": "awwwards.com/trendy-web-color-palettes-and-material-design-color-schemes-tools.html",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.com/@jxnblk/color-palette-documentation-for-living-style-guides-d25d65aa20a5",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.com/@julialundman/my-experiences-in-learning-about-color-6de4ec274503",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.com/@nicknelo/why-use-colour-branding-in-apps-a95deba49dae",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "uxplanet.org/create-emotion-with-color-in-ux-design-446a3766b085",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.com/@becca_u/the-principles-of-ux-choreography-69c91c2cbc2a",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.com/design-story/how-to-create-a-color-story-aa75a62bf953",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "helpscout.net/blog/psychology-of-color",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "uxplanet.org/algorithm-for-automatic-harmonious-color-selection-for-the-image-fc26dde69ca1",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.com/@WebdesignerDepot/take-color-inspiration-from-the-masters-e9c2bcf1c8e2",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "tympanus.net/codrops/2012/09/17/build-a-color-scheme-the-fundamentals",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "tympanus.net/codrops/2012/02/28/principles-of-color-and-the-color-wheel",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "tympanus.net/codrops/2012/04/03/color-and-emotion-what-does-each-hue-mean",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "smashingmagazine.com/2010/01/color-theory-for-designers-part-1-the-meaning-of-color",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "smashingmagazine.com/2016/04/web-developer-guide-color",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "smashingmagazine.com/2014/10/color-contrast-tips-and-tools-for-accessibility",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "smashingmagazine.com/2012/10/the-code-side-of-color",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "alistapart.com/article/finessing-fecolormatrix",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.freecodecamp.com/designing-in-color-abd358660a7b",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "web.mit.edu/abyrne/www/ColorRealism.html",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "medium.com/swlh/the-psychology-of-color-in-marketing-and-branding-ebb2320a2b0",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "uxplanet.org/a-guide-to-color-and-conversion-rates-f3a28e8e32bb",
+    "decision": "out",
+    "reason": "artigo isolado de blog"
+  },
+  {
+    "key": "github.com/wg/wrk",
+    "decision": "out",
+    "reason": "fora do tema (benchmark HTTP)"
+  },
+  {
+    "key": "github.com/harisiqbal88/plotneuralnet",
+    "decision": "out",
+    "reason": "fora do tema (LaTeX)"
+  },
+  {
+    "key": "github.com/brendangregg/flamegraph",
+    "decision": "out",
+    "reason": "fora do tema (profiling de stack traces)"
+  },
+  {
+    "key": "github.com/sqshq/sampler",
+    "decision": "out",
+    "reason": "fora do tema (monitoramento de shell)"
+  },
+  {
+    "key": "github.com/maxogden/art-of-node",
+    "decision": "out",
+    "reason": "fora do tema (node.js backend)"
+  },
+  {
+    "key": "github.com/newsapps/beeswithmachineguns",
+    "decision": "out",
+    "reason": "fora do tema (teste de carga com EC2)"
+  },
+  {
+    "key": "github.com/matplotlib/mplfinance",
+    "decision": "out",
+    "reason": "fora do tema (Python/matplotlib)"
+  },
+  {
+    "key": "github.com/residentmario/missingno",
+    "decision": "out",
+    "reason": "fora do tema (Python/pandas)"
+  },
+  {
+    "key": "github.com/gaearon/react-hot-boilerplate",
+    "decision": "out",
+    "reason": "exemplo/boilerplate, não é recurso"
+  },
+  {
+    "key": "github.com/spotify/chartify",
+    "decision": "out",
+    "reason": "fora do tema (Python)"
+  },
+  {
+    "key": "github.com/microsoft/lida",
+    "decision": "out",
+    "reason": "fora do tema (Python/LLM)"
+  },
+  {
+    "key": "github.com/ajstarks/svgo",
+    "decision": "out",
+    "reason": "fora do tema (Go)"
+  },
+  {
+    "key": "github.com/louisnw01/lightweight-charts-python",
+    "decision": "out",
+    "reason": "fora do tema (Python)"
+  },
+  {
+    "key": "github.com/lynndylanhurley/redux-auth",
+    "decision": "out",
+    "reason": "fora do tema (autenticação)"
+  },
+  {
+    "key": "github.com/react-designer/react-designer",
+    "decision": "out",
+    "reason": "descrição não diz nada"
+  },
+  {
+    "key": "github.com/lunasec-io/lunasec",
+    "decision": "out",
+    "reason": "fora do tema (scanner de segurança)"
+  },
+  {
+    "key": "github.com/fredericheem/starhackit",
+    "decision": "out",
+    "reason": "fora do tema (starter fullstack)"
+  },
+  {
+    "key": "github.com/jokergoo/circlize",
+    "decision": "out",
+    "reason": "fora do tema (R)"
+  },
+  {
+    "key": "github.com/httperf/httperf",
+    "decision": "out",
+    "reason": "fora do tema (load testing HTTP)"
+  },
+  {
+    "key": "github.com/garythung/trashnet",
+    "decision": "out",
+    "reason": "fora do tema (dataset de ML)"
+  },
+  {
+    "key": "github.com/lferry007/largevis",
+    "decision": "out",
+    "reason": "sem descrição"
+  },
+  {
+    "key": "github.com/heremaps/pptk",
+    "decision": "out",
+    "reason": "fora do tema (Python, nuvens de pontos)"
+  },
+  {
+    "key": "github.com/rill-js/rill",
+    "decision": "out",
+    "reason": "router universal Node, fora do foco de front-end"
+  },
+  {
+    "key": "github.com/logicalparadox/matcha",
+    "decision": "out",
+    "reason": "descrição não diz o que é nem para quê"
+  },
+  {
+    "key": "github.com/madrobby/dom-monster",
+    "decision": "out",
+    "reason": "sem descrição, não há como saber o que é"
+  },
+  {
+    "key": "github.com/cobrateam/django-htmlmin",
+    "decision": "out",
+    "reason": "backend Python"
+  },
+  {
+    "key": "github.com/rstudio/r2d3",
+    "decision": "out",
+    "reason": "pacote R, fora do tema"
+  },
+  {
+    "key": "github.com/shootaroo/jit-grunt",
+    "decision": "out",
+    "reason": "carregador de plugins do Grunt, sem valor próprio"
+  },
+  {
+    "key": "github.com/ramongebben/react-perf-tool",
+    "decision": "out",
+    "reason": "descontinuado pelo próprio autor"
+  },
+  {
+    "key": "github.com/tehmaze/diagram",
+    "decision": "out",
+    "reason": "diagramas de terminal, fora do tema"
+  },
+  {
+    "key": "github.com/jakutis/httpinvoke",
+    "decision": "out",
+    "reason": "cliente HTTP genérico, não é front-end/design"
+  },
+  {
+    "key": "github.com/krasimir/coloor",
+    "decision": "out",
+    "reason": "nome e descrição não batem"
+  },
+  {
+    "key": "github.com/mhart/react-server-routing-example",
+    "decision": "out",
+    "reason": "projeto de exemplo, não é recurso"
+  },
+  {
+    "key": "github.com/igrigorik/webp-detect",
+    "decision": "out",
+    "reason": "negociação de WebP no servidor, backend"
+  },
+  {
+    "key": "github.com/igrigorik/autoperf",
+    "decision": "out",
+    "reason": "teste de carga em Ruby, backend"
+  },
+  {
+    "key": "github.com/pilwon/react-famous",
+    "decision": "out",
+    "reason": "ponte para Famo.us, framework extinto"
+  },
+  {
+    "key": "github.com/sazito/phoenix",
+    "decision": "out",
+    "reason": "boilerplate genérico sem detalhe"
+  },
+  {
+    "key": "github.com/nicohlr/ipychart",
+    "decision": "out",
+    "reason": "biblioteca Python"
+  },
+  {
+    "key": "github.com/stemkoski/three.py",
+    "decision": "out",
+    "reason": "biblioteca Python"
+  },
+  {
+    "key": "github.com/hzdg/react-google-analytics",
+    "decision": "out",
+    "reason": "descrição não diz nada"
+  },
+  {
+    "key": "github.com/ccontrols/component-controls",
+    "decision": "out",
+    "reason": "descrição vaga (blazing-fast) sem o que é concreto"
+  },
+  {
+    "key": "github.com/fritx/react-threejs",
+    "decision": "out",
+    "reason": "WIP declarado, inacabado"
+  },
+  {
+    "key": "github.com/mre/phpench",
+    "decision": "out",
+    "reason": "benchmarks de PHP, backend"
+  },
+  {
+    "key": "github.com/winwiz1/crisp-bigquery",
+    "decision": "out",
+    "reason": "starter de BigQuery, backend"
+  },
+  {
+    "key": "github.com/bloodyowl/react-styled",
+    "decision": "out",
+    "reason": "descrição não diz o que é"
+  },
+  {
+    "key": "github.com/stereobooster/html_press",
+    "decision": "out",
+    "reason": "descontinuado pelo próprio autor"
+  },
+  {
+    "key": "github.com/koajs/html-minifier",
+    "decision": "out",
+    "reason": "middleware de servidor Koa, backend"
+  },
+  {
+    "key": "github.com/kapolos/react-godfather",
+    "decision": "out",
+    "reason": "descrição não diz o que é"
+  },
+  {
+    "key": "github.com/jmervine/httperfjs",
+    "decision": "out",
+    "reason": "benchmark de servidor web, backend"
+  },
+  {
+    "key": "github.com/jacobbednarz/php-bench",
+    "decision": "out",
+    "reason": "benchmark de PHP, backend"
+  },
+  {
+    "key": "github.com/jmervine/httperfrb",
+    "decision": "out",
+    "reason": "benchmark de servidor web em Ruby, backend"
+  },
+  {
+    "key": "github.com/jmervine/httperfpy",
+    "decision": "out",
+    "reason": "benchmark de servidor web em Python, backend"
+  },
+  {
+    "key": "github.com/abistarun/resseract-lite",
+    "decision": "out",
+    "reason": "ferramenta de análise de dados em Java, fora do tema"
+  },
+  {
+    "key": "github.com/jmervine/php-httperf",
+    "decision": "out",
+    "reason": "benchmark de servidor web em PHP, backend"
+  },
+  {
+    "key": "github.com/jmervine/gohttperf",
+    "decision": "out",
+    "reason": "benchmark de servidor web em Go, backend"
+  },
+  {
+    "key": "github.com/kogarashisan/perftests",
+    "decision": "out",
+    "reason": "testes de performance isolados, não é recurso"
+  },
+  {
+    "key": "github.com/timolins/react-hot-toast",
+    "decision": "out",
+    "name": "React Hot Toast",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "mineral-ui.netlify.app",
+    "decision": "out",
+    "name": "Mineral UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "stackoverflow.design",
+    "decision": "out",
+    "name": "Stacks",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk",
+    "decision": "out",
+    "name": "Lighthouse",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "pinterest.github.io/gestalt",
+    "decision": "out",
+    "name": "Gestalt",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "zumerlab.github.io/orbit-docs",
+    "decision": "out",
+    "name": "Orbit",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "moti.fyi",
+    "decision": "out",
+    "name": "Moti",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/brettstimmerman/mensch",
+    "decision": "out",
+    "name": "Mensch",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "readymag.com",
+    "decision": "out",
+    "name": "Readymag",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "blog.codepen.io/radio",
+    "decision": "out",
+    "name": "CodePen Radio",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "atlaskit.atlassian.com/packages",
+    "decision": "out",
+    "name": "Atlaskit",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "commitizen.github.io/cz-cli",
+    "decision": "out",
+    "name": "Commitizen",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "baianat.com/resources",
+    "decision": "out",
+    "name": "Baianat Resources",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "palettegenerator.colorion.co",
+    "decision": "out",
+    "name": "Color Palette Generator",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "colorable.jxnblk.com",
+    "decision": "out",
+    "name": "Colorable",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/dailydev-news-for-busy-de/jlmpjdjjbgclbocgajdjefcidcncaied",
+    "decision": "out",
+    "name": "daily.dev",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "inkscape.org/en",
+    "decision": "out",
+    "name": "Inkscape",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "flowbite.com",
+    "decision": "out",
+    "name": "Flowbite",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "manning.com/books/the-joy-of-javascript",
+    "decision": "out",
+    "name": "The Joy of JavaScript",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "myliang.github.io/fish-ui",
+    "decision": "out",
+    "name": "Fish UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/tony-xlh/react-mrz-scanner",
+    "decision": "out",
+    "name": "react-mrz-scanner",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "cssgrid-generator.netlify.app",
+    "decision": "out",
+    "name": "CSS Grid Generator",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "etrade.design",
+    "decision": "out",
+    "name": "E*TRADE Design Language",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "colororacle.org",
+    "decision": "out",
+    "name": "Color Oracle",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "ray.wework.com",
+    "decision": "out",
+    "name": "Ray",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "freenatureimages.eu",
+    "decision": "out",
+    "name": "Saxifraga",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "keyshapeapp.com",
+    "decision": "out",
+    "name": "Keyshape",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "designsystem.ontario.ca",
+    "decision": "out",
+    "name": "Ontario Design System",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "idl.cs.washington.edu/papers",
+    "decision": "out",
+    "name": "UW Interactive Data Lab Papers",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "bootswatch.com",
+    "decision": "out",
+    "name": "Bootswatch",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh",
+    "decision": "out",
+    "name": "Fonts Ninja",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "primefaces.org/primereact",
+    "decision": "out",
+    "name": "PrimeReact",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "meshdesignsystem.com",
+    "decision": "out",
+    "name": "Mesh",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "design-seeds.com",
+    "decision": "out",
+    "name": "Design Seeds",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "w3.org/TR/2023/DISC-resource-hints-20230314",
+    "decision": "out",
+    "name": "Resource Hints",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/dunglas/react-esi",
+    "decision": "out",
+    "name": "React ESI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "shop.oreilly.com/product/0636920031123.do",
+    "decision": "out",
+    "name": "CSS Secrets",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/imteekay/web-performance-research",
+    "decision": "out",
+    "name": "Web Performance Research",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "overframe.xyz",
+    "decision": "out",
+    "name": "Overframe",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "primefaces.org/primeng",
+    "decision": "out",
+    "name": "PrimeNG",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd",
+    "decision": "out",
+    "name": "Redux DevTools",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/fastcomments/fastcomments-react",
+    "decision": "out",
+    "name": "Lucidchart",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/sindresorhus/modern-normalize",
+    "decision": "out",
+    "name": "modern-normalize",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "blog.codepen.io",
+    "decision": "out",
+    "name": "CodePen Blog",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "a11ygator.chialab.io",
+    "decision": "out",
+    "name": "A11ygator",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "genericons.com",
+    "decision": "out",
+    "name": "Genericons Neue",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "design.herokai.com",
+    "decision": "out",
+    "name": "Heroku Design",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "design-system.learningequality.org",
+    "decision": "out",
+    "name": "Kolibri Design System",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "reactstrap.github.io",
+    "decision": "out",
+    "name": "Reactstrap",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "shoutem.github.io/docs/ui-toolkit/introduction",
+    "decision": "out",
+    "name": "Shoutem UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "shapedivider.app",
+    "decision": "out",
+    "name": "Shape Divider App",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "themockup.club",
+    "decision": "out",
+    "name": "The Mockup Club",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "dataviztoday.com",
+    "decision": "out",
+    "name": "Data Viz Today",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "losttype.com/browse",
+    "decision": "out",
+    "name": "Lost Type",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "contrasteapp.com",
+    "decision": "out",
+    "name": "Contraste",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "stackoverflow.com/questions/tagged/css",
+    "decision": "out",
+    "name": "Stack Overflow: CSS",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "alistapart.com",
+    "decision": "out",
+    "name": "A List Apart",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/ivnsch/swiftcharts",
+    "decision": "out",
+    "name": "SwiftCharts",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "t26.com",
+    "decision": "out",
+    "name": "T26",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "jetbrains.com/lp/mono",
+    "decision": "out",
+    "name": "JetBrains Mono",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/d6u/react-container-query",
+    "decision": "out",
+    "name": "react-container-query",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "kangax.github.io/html-minifier",
+    "decision": "out",
+    "name": "HTML Minifier",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "iradesign.io",
+    "decision": "out",
+    "name": "IRA Design",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "nvidia.github.io/elements",
+    "decision": "out",
+    "name": "NVIDIA Elements",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/whatruns/cmkdbmfndkfgebldhnkbfhlneefdaaip",
+    "decision": "out",
+    "name": "WhatRuns",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "illright.github.io/attractions",
+    "decision": "out",
+    "name": "Attractions",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/stoyan/cssshrink",
+    "decision": "out",
+    "name": "CSSShrink",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "bestguy.github.io/sveltestrap",
+    "decision": "out",
+    "name": "Sveltestrap",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "flowingdata.com",
+    "decision": "out",
+    "name": "FlowingData",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "metricsgraphicsjs.org",
+    "decision": "out",
+    "name": "MetricsGraphics.js",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "rscss.io",
+    "decision": "out",
+    "name": "RSCSS",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "oxal.org/projects/sakura",
+    "decision": "out",
+    "name": "Sakura",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh",
+    "decision": "out",
+    "name": "Window Resizer",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/ux-check/giekhiebdpmljgchjojblnekkcgpdobp",
+    "decision": "out",
+    "name": "UX Check",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "design.foyer.lu",
+    "decision": "out",
+    "name": "Foyer Design System",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "pencil.evolus.vn",
+    "decision": "out",
+    "name": "Pencil Project",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc",
+    "decision": "out",
+    "name": "VisBug",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "refactoringui.com",
+    "decision": "out",
+    "name": "Refactoring UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "meyerweb.com/eric/tools/css/reset",
+    "decision": "out",
+    "name": "Reset CSS",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "dank.sh",
+    "decision": "out",
+    "name": "Dank Mono",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "thegreatdiscontent.com/podcast",
+    "decision": "out",
+    "name": "The Great Discontent Podcast",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "uxmag.com",
+    "decision": "out",
+    "name": "UX Magazine",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "kodika.io",
+    "decision": "out",
+    "name": "Kodika",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/luciancaetano/lens-ui",
+    "decision": "out",
+    "name": "lens-ui",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "atlaskit.atlassian.com",
+    "decision": "out",
+    "name": "Atlaskit",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/jedwatson/react-select",
+    "decision": "out",
+    "name": "React Select",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "inuitcss.com",
+    "decision": "out",
+    "name": "inuitcss",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "htmlelements.com/react/demos/chart/overview",
+    "decision": "out",
+    "name": "Smart React Chart",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "colours.neilorangepeel.com",
+    "decision": "out",
+    "name": "CSS Colours",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm",
+    "decision": "out",
+    "name": "Web Developer",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "personas.draftbit.com",
+    "decision": "out",
+    "name": "Personas",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "gist.github.com/bobbygrace/9e961e8982f42eb91b80",
+    "decision": "out",
+    "name": "Trello CSS Guide",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "fancycrave.com",
+    "decision": "out",
+    "name": "FancyCrave",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/table-library/react-table-library",
+    "decision": "out",
+    "name": "React Table Library",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "responsivewebdesign.com/podcast",
+    "decision": "out",
+    "name": "A Responsive Web Design Podcast",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "webalys.com/nova/index.html",
+    "decision": "out",
+    "name": "Nova Icons",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "depictdatastudio.com/charts",
+    "decision": "out",
+    "name": "Depict Data Studio Charts",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "reddit.com/r/web_design",
+    "decision": "out",
+    "name": "r/web_design",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "protocol.mozilla.org",
+    "decision": "out",
+    "name": "Mozilla Protocol",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "web.dev/case-studies",
+    "decision": "out",
+    "name": "web.dev case studies",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "casesandberg.github.io/react-color",
+    "decision": "out",
+    "name": "React Color",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "wave.webaim.org",
+    "decision": "out",
+    "name": "WAVE",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "afeld.github.io/emoji-css",
+    "decision": "out",
+    "name": "Emoji CSS",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "bojler.slicejack.com",
+    "decision": "out",
+    "name": "Bojler",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "mjavascript.com",
+    "decision": "out",
+    "name": "Practical ES6",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "styleguide.sendgrid.com",
+    "decision": "out",
+    "name": "SendGrid Style Guide",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "mrao.cam.ac.uk/~dag/CUBEHELIX",
+    "decision": "out",
+    "name": "Cubehelix",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "i.semrush.com",
+    "decision": "out",
+    "name": "Intergalactic",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "iconmonstr.com",
+    "decision": "out",
+    "name": "iconmonstr",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "iamhosseindhv.com/notistack",
+    "decision": "out",
+    "name": "notistack",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "jenil.github.io/chota",
+    "decision": "out",
+    "name": "chota",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "bvaughn.github.io/react-virtualized",
+    "decision": "out",
+    "name": "React Virtualized",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "practicaltypography.com",
+    "decision": "out",
+    "name": "Butterick's Practical Typography",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "datavisualizationsociety.com",
+    "decision": "out",
+    "name": "Data Visualization Society",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "thedayscolor.com",
+    "decision": "out",
+    "name": "The Day's Color",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "at-ui.github.io/at-ui",
+    "decision": "out",
+    "name": "AT UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "particles.js.org",
+    "decision": "out",
+    "name": "tsParticles",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "dribbble.com",
+    "decision": "out",
+    "name": "Dribbble",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm",
+    "decision": "out",
+    "name": "WhatFont",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "devexpress.github.io/devextreme-reactive/react/scheduler",
+    "decision": "out",
+    "name": "DevExtreme React Scheduler",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Work_with_animations",
+    "decision": "out",
+    "name": "Work with animations",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "rn.mobile.ant.design",
+    "decision": "out",
+    "name": "Ant Design Mobile RN",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "pagespeed.web.dev",
+    "decision": "out",
+    "name": "PageSpeed Insights",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "svelte-ux.techniq.dev",
+    "decision": "out",
+    "name": "Svelte UX",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "priceline.github.io/design-system",
+    "decision": "out",
+    "name": "Priceline One Design System",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "mint-ui.github.io",
+    "decision": "out",
+    "name": "Mint UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "itcss.io",
+    "decision": "out",
+    "name": "ITCSS",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "gradientos.app",
+    "decision": "out",
+    "name": "Gradientos",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "webfieldmanual.com",
+    "decision": "out",
+    "name": "Web Field Manual",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "lolcolors.com",
+    "decision": "out",
+    "name": "LOL Colors",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "material.io/components/web",
+    "decision": "out",
+    "name": "Material Components Web",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "w3.org/TR/resource-timing",
+    "decision": "out",
+    "name": "Resource Timing",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "nostarch.com/oojs",
+    "decision": "out",
+    "name": "The Principles of Object-Oriented JavaScript",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "teradata.github.io/covalent/v3",
+    "decision": "out",
+    "name": "Covalent",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "react95.github.io/React95",
+    "decision": "out",
+    "name": "React95",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "emoji.streamlineicons.com",
+    "decision": "out",
+    "name": "Streamline Emoji",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "imgopt.com",
+    "decision": "out",
+    "name": "smush.it",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "dygraphs.com",
+    "decision": "out",
+    "name": "Dygraphs",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "jackschaedler.github.io/goya",
+    "decision": "out",
+    "name": "Goya",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "gka.github.io/palettes",
+    "decision": "out",
+    "name": "chroma.js palette helper",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "arco.design/en-US",
+    "decision": "out",
+    "name": "Arco Design",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "asphalt.gojek.io",
+    "decision": "out",
+    "name": "Asphalt",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "docs.google.com/drawings",
+    "decision": "out",
+    "name": "Google Drawings",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "mojs.github.io",
+    "decision": "out",
+    "name": "mo.js",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "youmightnotneedjquery.com",
+    "decision": "out",
+    "name": "You Might Not Need jQuery",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "sap.github.io/fundamental-styles",
+    "decision": "out",
+    "name": "Fundamental Library Styles",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/uber/react-vis",
+    "decision": "out",
+    "name": "react-vis",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/debug-css/igiofjnckcagmjgdoaakafngegecjnkj",
+    "decision": "out",
+    "name": "Debug CSS",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "weui.github.io/react-weui/docs",
+    "decision": "out",
+    "name": "React-WeUI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "docs.atlassian.com/aui/latest/docs",
+    "decision": "out",
+    "name": "AUI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "kbrsh.github.io/wing",
+    "decision": "out",
+    "name": "Wing",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "arco.design",
+    "decision": "out",
+    "name": "Arco Design",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/dixonandmoe/rellax",
+    "decision": "out",
+    "name": "Rellax",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "unsemantic.com",
+    "decision": "out",
+    "name": "Unsemantic",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "flatuicolorpicker.com",
+    "decision": "out",
+    "name": "Flat UI Color Picker",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "colorhexpicker.com",
+    "decision": "out",
+    "name": "Color Hex Picker",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce",
+    "decision": "out",
+    "name": "CSSViewer",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "octicons.github.com",
+    "decision": "out",
+    "name": "Octicons",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "flinto.com",
+    "decision": "out",
+    "name": "Flinto",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "css.spritegen.com",
+    "decision": "out",
+    "name": "CSS Sprite Generator",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "material.pages.dev",
+    "decision": "out",
+    "name": "Tronic247 Material",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "britishgas.design",
+    "decision": "out",
+    "name": "British Gas Design System",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "evergreen.surge.sh",
+    "decision": "out",
+    "name": "Evergreen",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "webperformancereport.com",
+    "decision": "out",
+    "name": "WebPerformance Report",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "eagereyes.org",
+    "decision": "out",
+    "name": "eagereyes",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "every-layout.dev",
+    "decision": "out",
+    "name": "Every Layout",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/measure/bbompmbliibpeaaloikpoahdokhjdmeg",
+    "decision": "out",
+    "name": "Measure",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/openlayers/openlayers",
+    "decision": "out",
+    "name": "OpenLayers",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/rsuite/rsuite",
+    "decision": "out",
+    "name": "React Suite",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "reactnativeelements.com",
+    "decision": "out",
+    "name": "React Native Elements",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "animxyz.com",
+    "decision": "out",
+    "name": "AnimXYZ",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "ibm.com/design/language",
+    "decision": "out",
+    "name": "IBM Design Language",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "rundsk.com",
+    "decision": "out",
+    "name": "DSK",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "quatrochan.github.io/Equal",
+    "decision": "out",
+    "name": "Equal UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "mattboldt.com/demos/typed-js",
+    "decision": "out",
+    "name": "Typed.js",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "tilomitra.github.io/infinite",
+    "decision": "out",
+    "name": "Infinite",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "tools.paulcalvano.com/wpt-third-party-analysis",
+    "decision": "out",
+    "name": "Third Party Analysis Tool",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/lukyvj/colorify.js",
+    "decision": "out",
+    "name": "Colorify.js",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "uigarage.net",
+    "decision": "out",
+    "name": "UI Garage",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "gympass.github.io/yoga",
+    "decision": "out",
+    "name": "Yoga",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "jeremyckahn.github.io/mantra",
+    "decision": "out",
+    "name": "Mantra",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "principleformac.com",
+    "decision": "out",
+    "name": "Principle",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "pa11y.org",
+    "decision": "out",
+    "name": "Pa11y",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/tkwant/react-steps",
+    "decision": "out",
+    "name": "react-steps",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "pharos.jstor.org",
+    "decision": "out",
+    "name": "Pharos",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "typenetwork.com",
+    "decision": "out",
+    "name": "Type Network",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "screentogif.com",
+    "decision": "out",
+    "name": "ScreenToGif",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "webfontapp.com",
+    "decision": "out",
+    "name": "Webfont",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/deanhume/html-minifier",
+    "decision": "out",
+    "name": "Asphalt",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/vutran/react-offcanvas",
+    "decision": "out",
+    "name": "react-offcanvas",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "kimmobrunfeldt.github.io/progressbar.js",
+    "decision": "out",
+    "name": "ProgressBar.js",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "videezy.com",
+    "decision": "out",
+    "name": "Videezy",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/ukorvl/lightweight-charts-react-components",
+    "decision": "out",
+    "name": "Pr1mer Guidelines",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "zustand.surge.sh",
+    "decision": "out",
+    "name": "Zustand",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "docs.svelteit.dev",
+    "decision": "out",
+    "name": "Svelteit",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "vue-cheatsheet.themeselection.com",
+    "decision": "out",
+    "name": "Vue Cheatsheet",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "colorbrewer2.org",
+    "decision": "out",
+    "name": "ColorBrewer",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/gaearon/react-dnd",
+    "decision": "out",
+    "name": "React DnD",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "colorwheel.co",
+    "decision": "out",
+    "name": "Color Wheel",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "wesbos.com/javascript",
+    "decision": "out",
+    "name": "Beginner JavaScript Notes & Reference",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "rsms.me/raster",
+    "decision": "out",
+    "name": "Raster",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "yeun.github.io/open-color",
+    "decision": "out",
+    "name": "Open Color",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "wix.github.io/react-native-ui-lib",
+    "decision": "out",
+    "name": "RNUILib",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi",
+    "decision": "out",
+    "name": "PerfectPixel",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/reactjs/react-magic",
+    "decision": "out",
+    "name": "HTMLtoJSX",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "deck.gl",
+    "decision": "out",
+    "name": "deck.gl",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "huemint.com",
+    "decision": "out",
+    "name": "Huemint",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chroma.spencerhamm.com",
+    "decision": "out",
+    "name": "Chroma",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "nasa.gov/sites/default/files/atoms/files/nasa_graphics_manual_nhb_1430-2_jan_1976.pdf",
+    "decision": "out",
+    "name": "NASA Graphics Standards Manual",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "holasvg.com",
+    "decision": "out",
+    "name": "Google Web Designer",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "endlessicons.com",
+    "decision": "out",
+    "name": "Endless Icons",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "htmlelements.com/react/demos/grid/overview",
+    "decision": "out",
+    "name": "Smart React Grid",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "jeremyckahn.github.io/stylie",
+    "decision": "out",
+    "name": "Stylie",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "yelp.com/styleguide",
+    "decision": "out",
+    "name": "Yelp Design",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "0to255.com",
+    "decision": "out",
+    "name": "0to255",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "eldoraui.site",
+    "decision": "out",
+    "name": "Eldora UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "oddbird.net/susy",
+    "decision": "out",
+    "name": "Susy",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "opensource.ebay.com/evo-web",
+    "decision": "out",
+    "name": "Evo Web",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "mossaik.app",
+    "decision": "out",
+    "name": "Mossaik",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "foundation.zurb.com",
+    "decision": "out",
+    "name": "Foundation",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "drafts.csswg.org/css-will-change",
+    "decision": "out",
+    "name": "CSS Will Change Module Level 1",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/0529bill/react-client-validation",
+    "decision": "out",
+    "name": "react-client-validation",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "lineto.com",
+    "decision": "out",
+    "name": "Lineto",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "styleguide.vtex.com",
+    "decision": "out",
+    "name": "VTEX Styleguide",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "csslayout.io",
+    "decision": "out",
+    "name": "csslayout.io",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "style.monday.com",
+    "decision": "out",
+    "name": "Vibe Design System",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "w3layouts.com",
+    "decision": "out",
+    "name": "W3Layouts",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb",
+    "decision": "out",
+    "name": "Responsive Viewer",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "designsystem.morningstar.com",
+    "decision": "out",
+    "name": "Morningstar Design System",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "pexels.com/videos",
+    "decision": "out",
+    "name": "Pexels Videos",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "didi.github.io/cube-ui",
+    "decision": "out",
+    "name": "Cube UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "arco.design/vue/en-US/docs/start",
+    "decision": "out",
+    "name": "Arco Design Vue",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh",
+    "decision": "out",
+    "name": "Angular DevTools",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "labex.io/tutorials/quick-start-with-css-free-tutorials-413795",
+    "decision": "out",
+    "name": "LabEx CSS",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "5by5.tv/bigwebshow",
+    "decision": "out",
+    "name": "The Big Web Show",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "code.google.com/archive/p/htmlcompressor",
+    "decision": "out",
+    "name": "HTMLCompressor",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "antoniandre.github.io/wave-ui",
+    "decision": "out",
+    "name": "Wave UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/bvaughn/react-resizable-panels",
+    "decision": "out",
+    "name": "React Resizable Panels",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "developers.google.com/speed/docs/insights/v5/get-started",
+    "decision": "out",
+    "name": "PageSpeed Insights API",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "reddit.com/r/css",
+    "decision": "out",
+    "name": "r/css",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "public-ui.github.io",
+    "decision": "out",
+    "name": "KoliBri",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chromewebstore.google.com/detail/statable-wcag-checker/cgfkmhkdjaglhanjmaofjfkmieanchmo",
+    "decision": "out",
+    "name": "Statable WCAG Checker",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "patternlab.io/resources.html",
+    "decision": "out",
+    "name": "Pattern Lab Resources",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/mrdoob/stats.js",
+    "decision": "out",
+    "name": "stats.js",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "codepen.io/collection/nrkjgo",
+    "decision": "out",
+    "name": "react-anime",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "illustrationkit.com",
+    "decision": "out",
+    "name": "Blender",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "imageoptim.com/mac",
+    "decision": "out",
+    "name": "ImageOptim",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "color.hailpixel.com",
+    "decision": "out",
+    "name": "Colordot",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "zondicons.com/icons.html",
+    "decision": "out",
+    "name": "Zondicons",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "w3schools.com/w3css",
+    "decision": "out",
+    "name": "W3.CSS",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "cssicon.space",
+    "decision": "out",
+    "name": "CSS ICON",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "fezvrasta.github.io/bootstrap-material-design",
+    "decision": "out",
+    "name": "Bootstrap Material Design",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "accessibilityinsights.io",
+    "decision": "out",
+    "name": "Accessibility Insights",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/bevacqua/react-dragula",
+    "decision": "out",
+    "name": "react-dragula",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/zalmoxisus/remote-redux-devtools",
+    "decision": "out",
+    "name": "Remote Redux DevTools",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "fast.design",
+    "decision": "out",
+    "name": "FAST",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "usecontrast.com",
+    "decision": "out",
+    "name": "Use Contrast",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/jsperf/jsperf.com",
+    "decision": "out",
+    "name": "jsPerf",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "developer.chrome.com/docs/crux",
+    "decision": "out",
+    "name": "Chrome UX Report (CrUX)",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "devexpress.github.io/devextreme-reactive/react/grid",
+    "decision": "out",
+    "name": "DevExtreme React Grid",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/akiran/react-slick",
+    "decision": "out",
+    "name": "React Slick",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "shop.oreilly.com/product/0636920012726.do",
+    "decision": "out",
+    "name": "CSS: The Definitive Guide",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "trimage.org",
+    "decision": "out",
+    "name": "Trimage",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "xicons.org",
+    "decision": "out",
+    "name": "xicons",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/browserstack/nkihdmlheodkdfojglpcjjmioefjahjb",
+    "decision": "out",
+    "name": "BrowserStack",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl",
+    "decision": "out",
+    "name": "GoFullPage",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "morguefile.com",
+    "decision": "out",
+    "name": "Morguefile",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal",
+    "decision": "out",
+    "name": "Page Ruler Redux",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "thedesignership.com",
+    "decision": "out",
+    "name": "Designership",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "clrs.cc/a11y",
+    "decision": "out",
+    "name": "Colors",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/joony/styledoc",
+    "decision": "out",
+    "name": "Styledoc",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "magnus-ui.com",
+    "decision": "out",
+    "name": "Magnus UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "color.obscuredetour.com",
+    "decision": "out",
+    "name": "Color Deck",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "redux.js.org/react-redux",
+    "decision": "out",
+    "name": "React Redux",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "sage.kajabi.com",
+    "decision": "out",
+    "name": "Sage Design System",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "design-milk.com",
+    "decision": "out",
+    "name": "Design Milk",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "baseweb.design",
+    "decision": "out",
+    "name": "Base Web",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "flowbite-svelte.com",
+    "decision": "out",
+    "name": "Flowbite Svelte",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/javascript-and-css-code-b/iiglodndmmefofehaibmaignglbpdald",
+    "decision": "out",
+    "name": "JavaScript and CSS Code Beautifier",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "lucidchart.com",
+    "decision": "out",
+    "name": "Lucidchart",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "femmebot.github.io/google-type",
+    "decision": "out",
+    "name": "Google Font Combinations",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "source.opennews.org/articles",
+    "decision": "out",
+    "name": "Source by OpenNews",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "reactivex.io/learnrx",
+    "decision": "out",
+    "name": "Functional Programming in JavaScript",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "shop.oreilly.com/product/0636920036357.do",
+    "decision": "out",
+    "name": "CSS: The Missing Manual",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "tabler-icons-react.vercel.app",
+    "decision": "out",
+    "name": "tabler-icons-react",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "design.mixpanel.com",
+    "decision": "out",
+    "name": "Mixpanel Brand Guidelines",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/jensimmons/cssremedy",
+    "decision": "out",
+    "name": "CSS Remedy",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "hackingui.com/podcast",
+    "decision": "out",
+    "name": "Hacking UI Podcast",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "deque.com/axe",
+    "decision": "out",
+    "name": "axe",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "blender.org",
+    "decision": "out",
+    "name": "Blender",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "waterfall-tools.com",
+    "decision": "out",
+    "name": "Waterfall Viewer",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj",
+    "decision": "out",
+    "name": "Awesome Screenshot",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "en.bem.info",
+    "decision": "out",
+    "name": "BEM",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "wannapik.com",
+    "decision": "out",
+    "name": "Wannapik",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "devexpress.github.io/devextreme-reactive/react/chart",
+    "decision": "out",
+    "name": "DevExtreme Reactive Chart",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "rsms.me/inter",
+    "decision": "out",
+    "name": "Inter",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "visjs.org",
+    "decision": "out",
+    "name": "vis.js",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "patternfly.org",
+    "decision": "out",
+    "name": "PatternFly",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "logooftheday.com",
+    "decision": "out",
+    "name": "Logo of the Day",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "meyerweb.com/eric/tools/color-blend",
+    "decision": "out",
+    "name": "Color Blender",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "brand.aalto.fi",
+    "decision": "out",
+    "name": "Aalto Brand Library",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/inturn/classy",
+    "decision": "out",
+    "name": "Classy",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "vuikit.js.org",
+    "decision": "out",
+    "name": "Vuikit",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "patterns.boston.gov",
+    "decision": "out",
+    "name": "Fleet",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "gionkunz.github.io/chartist-js",
+    "decision": "out",
+    "name": "Chartist.js",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "ibm.com/plex",
+    "decision": "out",
+    "name": "IBM Plex",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "kumo-ui.com",
+    "decision": "out",
+    "name": "Kumo",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "inspirationui.com",
+    "decision": "out",
+    "name": "Inspiration UI",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "vecta.io/nano",
+    "decision": "out",
+    "name": "Vecta Nano",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chocolat.insipi.de",
+    "decision": "out",
+    "name": "Chocolat",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "v2.grommet.io",
+    "decision": "out",
+    "name": "Grommet",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "pixelartcss.com",
+    "decision": "out",
+    "name": "Pixel Art to CSS",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "michelf.ca/projects/sim-daltonism",
+    "decision": "out",
+    "name": "Sim Daltonism",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "vuetensils.stegosource.com",
+    "decision": "out",
+    "name": "Vuetensils",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "developer.mozilla.org/en-US/docs/Web/CSS",
+    "decision": "out",
+    "name": "MDN CSS",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "eloquentjavascript.net",
+    "decision": "out",
+    "name": "Eloquent JavaScript",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "epic-spinners.epicmax.co",
+    "decision": "out",
+    "name": "Epic Spinners",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "atlas.adeven.com",
+    "decision": "out",
+    "name": "Adjust Atlas",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "requirejs.org",
+    "decision": "out",
+    "name": "RequireJS",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "sass-lang.com/styleguide",
+    "decision": "out",
+    "name": "Sass Style Guide",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/fisshy/react-scroll",
+    "decision": "out",
+    "name": "react-scroll",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "primer.github.io",
+    "decision": "out",
+    "name": "Primer",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "bookofspeed.com",
+    "decision": "out",
+    "name": "Book of Speed",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "flexboxpatterns.com",
+    "decision": "out",
+    "name": "Flexbox Patterns",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "getstark.co",
+    "decision": "out",
+    "name": "Stark",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "losttype.com",
+    "decision": "out",
+    "name": "Lost Type Co-op",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "tailwindtemplates.io",
+    "decision": "out",
+    "name": "Tailwind Templates",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/borisyankov/react-sparklines",
+    "decision": "out",
+    "name": "react-sparklines",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "vis4.net/blog",
+    "decision": "out",
+    "name": "vis4.net",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "gka.github.io/chroma.js",
+    "decision": "out",
+    "name": "chroma.js",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "w3c.github.io/navigation-timing",
+    "decision": "out",
+    "name": "Navigation Timing Level 2",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "tools.paulcalvano.com/wpt-font-analysis",
+    "decision": "out",
+    "name": "Font Usage Analyzer",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "get.foundation",
+    "decision": "out",
+    "name": "Foundation",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "kazzkiq.github.io/svg-color-filter",
+    "decision": "out",
+    "name": "SVG Color Filter Playground",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "grabient.com",
+    "decision": "out",
+    "name": "Grabient",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "dotcom-tools.com/website-speed-test",
+    "decision": "out",
+    "name": "Dotcom-Tools Website Speed Test",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "icones.js.org",
+    "decision": "out",
+    "name": "Icônes",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "vecteezy.com",
+    "decision": "out",
+    "name": "Vecteezy",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "color.adobe.com/create",
+    "decision": "out",
+    "name": "Vecta Nano",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "guidelines.pr1mer.tech",
+    "decision": "out",
+    "name": "Pr1mer Guidelines",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "photos.icons8.com",
+    "decision": "out",
+    "name": "Moose",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "fonts.com",
+    "decision": "out",
+    "name": "Fonts.com",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "chrome.google.com/webstore/detail/kontrast-wcag-contrast-ch/haphaaenepedkjngghandlmhfillnhjk",
+    "decision": "out",
+    "name": "Kontrast",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "w3schools.com/w3css/w3css_templates.asp",
+    "decision": "out",
+    "name": "W3.CSS Templates",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "requestmap.webperf.tools",
+    "decision": "out",
+    "name": "Request Map",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "github.com/redfin/react-server",
+    "decision": "out",
+    "name": "React Server",
+    "reason": "sem informação na página para uma descrição concreta"
+  },
+  {
+    "key": "designermill.com",
+    "decision": "out",
+    "name": "DesignerMill",
+    "reason": "sem informação na página para uma descrição concreta"
+  }
+]
