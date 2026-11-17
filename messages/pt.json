@@ -162,7 +162,12 @@
     "missingTitle": "Falta um recurso em {category}?",
     "missingBody": "Se faria falta quando sumisse, ele pertence aqui.",
     "noneTitle": "Ainda não há recursos nesta categoria.",
-    "noneBody": "Conhece algo que faria falta aqui? Sugira pelo GitHub."
+    "noneBody": "Conhece algo que faria falta aqui? Sugira pelo GitHub.",
+    "loading": "Carregando a categoria inteira…",
+    "pagination": "Paginação",
+    "previous": "Anterior",
+    "next": "Próxima",
+    "page": "Página {page}"
   },
   "level": {
     "beginner": "Iniciante",
@@ -288,6 +293,7 @@
     "related": "Mais em {category}",
     "relatedList": "Outros recursos de {category}",
     "data": "Dados abertos",
-    "areas": "Áreas"
+    "areas": "Áreas",
+    "categoryPageTitle": "{category}: recursos front-end selecionados, página {page}"
   }
 }

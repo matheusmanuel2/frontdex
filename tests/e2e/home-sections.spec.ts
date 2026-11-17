@@ -12,7 +12,7 @@ test.describe('secções da home (dados do loader)', () => {
     const areas = page.getByRole('region', { name: 'Explorar por área' });
     await expect(areas.locator('ul').first().locator(':scope > li')).toHaveCount(4);
     await expect(areas.getByRole('link', { name: 'Construir', exact: true })).toHaveAttribute('href', '/pt/build');
-    await expect(areas.getByText(`${buildCount} recursos`)).toBeVisible();
+    await expect(areas.getByText(`${buildCount.toLocaleString('pt-BR')} recursos`)).toBeVisible();
     await expect(areas.locator('canvas[aria-hidden="true"]')).toHaveCount(4);
     await expect(areas).not.toContainText(' · ');
     await expect(areas).not.toContainText('01');

@@ -1,12 +1,14 @@
 'use client';
 
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { useEffect, useState } from 'react';
 
 import { EmptyState } from '@/components/index';
 import { cn } from '@/lib/utils';
 
 import { CategoryRows, type RowLabels } from './CategoryRows';
 import { applyFilters, parseFilters, serializeFilters, type FilterItem, type Filters } from './filters';
+import { Pagination, type PaginationLabels } from './Pagination';
 
 import type { ReactNode } from 'react';
 
@@ -22,10 +24,26 @@ export type FilterLabels = RowLabels & {
   emptyTitle: string;
   emptyBody: string;
   clear: string;
+  /** Mostrado enquanto a lista completa carrega. */
+  loading: string;
+  pagination: PaginationLabels;
+};
+
+export type PageInfo = {
+  /** Caminho da categoria, sem /p/N. */
+  base: string;
+  page: number;
+  count: number;
+  /** Total de recursos da categoria. */
+  total: number;
+  /** JSON com a lista completa (spec 003: items.json). */
+  dataUrl: string;
 };
 
 type FilterBarProps = {
+  /** Recursos da página atual (vêm do servidor). */
   items: FilterItem[];
+  pageInfo: PageInfo;
   locale: string;
   labels: FilterLabels;
   /** Link "Sugerir recurso" do estado vazio (vem do servidor). */
@@ -37,17 +55,40 @@ const control =
 
 /**
  * Ilha de filtros da categoria (spec 003). Estado só na URL: cada mudança faz `router.push`,
- * por isso voltar/avançar funciona e o link é partilhável. Sem JS, o servidor mostra a lista completa.
+ * por isso voltar/avançar funciona e o link é partilhável. Sem filtros mostra a página do servidor;
+ * com filtros carrega a categoria inteira de `items.json`. Sem JS, o servidor mostra a página pedida.
  */
-export function FilterBar({ items, locale, labels, suggest }: FilterBarProps) {
+export function FilterBar({ items, pageInfo, locale, labels, suggest }: FilterBarProps) {
   const router = useRouter();
-  const pathname = usePathname();
   const params = useSearchParams();
   const filters = parseFilters(new URLSearchParams(params.toString()));
-  const shown = applyFilters(items, filters);
+  const filtering = filters.pricing !== undefined || filters.sort !== 'recent';
+  const [all, setAll] = useState<FilterItem[] | null>(null);
+  // Depois do primeiro filtro (ou voltar/avançar), a lista muda sem repetir a entrada da página.
+  const [changed, setChanged] = useState(filtering);
+  if (filtering && !changed) setChanged(true);
+
+  useEffect(() => {
+    if (!filtering || all) return;
+    let cancelled = false;
+    fetch(pageInfo.dataUrl)
+      .then((response) => (response.ok ? (response.json() as Promise<FilterItem[]>) : null))
+      .then((data) => {
+        if (!cancelled && data) setAll(data);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [filtering, all, pageInfo.dataUrl]);
+
+  const loading = filtering && !all;
+  const shown = filtering ? applyFilters(all ?? [], filters) : items;
+  const total = pageInfo.total;
 
   const update = (next: Partial<Filters>) => {
-    router.push(`${pathname}${serializeFilters({ ...filters, ...next })}`, { scroll: false });
+    // Filtros valem para a categoria inteira: saem da página /p/N para a raiz.
+    router.push(`${pageInfo.base}${serializeFilters({ ...filters, ...next })}`, { scroll: false });
   };
 
   const pricingOptions = [
@@ -98,11 +139,20 @@ export function FilterBar({ items, locale, labels, suggest }: FilterBarProps) {
       </div>
 
       <p role="status" className="mb-3 pl-1 font-mono text-mono text-muted">
-        {labels.showing.replace('{shown}', String(shown.length)).replace('{total}', String(items.length))}
+        {loading
+          ? labels.loading
+          : labels.showing.replace('{shown}', String(shown.length)).replace('{total}', String(total))}
       </p>
 
-      {shown.length > 0 ? (
-        <CategoryRows items={shown} locale={locale} labels={labels} />
+      {loading ? (
+        <CategoryRows items={items} locale={locale} labels={labels} reveal={!changed} />
+      ) : shown.length > 0 ? (
+        <>
+          <CategoryRows items={shown} locale={locale} labels={labels} reveal={!changed} />
+          {filtering ? null : (
+            <Pagination base={pageInfo.base} page={pageInfo.page} count={pageInfo.count} labels={labels.pagination} />
+          )}
+        </>
       ) : (
         <EmptyState
           title={labels.emptyTitle}
@@ -111,7 +161,7 @@ export function FilterBar({ items, locale, labels, suggest }: FilterBarProps) {
             <>
               <button
                 type="button"
-                onClick={() => router.push(pathname, { scroll: false })}
+                onClick={() => router.push(pageInfo.base, { scroll: false })}
                 className="t-hover inline-flex h-10 items-center rounded-pill bg-button-primary px-4 text-small font-semibold text-button-primary-text hover:opacity-90"
               >
                 {labels.clear}
