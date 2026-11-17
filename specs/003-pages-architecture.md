@@ -53,10 +53,11 @@ data/*.yaml  →  lib/content  →  app/ + components/
 - O hover/foco usa os recipes de movimento de `styles/motion.css`; o conteúdo e os links funcionam sem JavaScript.
 - No máximo 2 categorias por card (as com mais recursos); a lista completa está na página da área.
 
-## Transição entre páginas e links de saída (Matheus, 2026-11-17)
+## Entrada das páginas e links de saída (Matheus, 2026-11-17)
 
-- A navegação entre páginas usa o recipe **08 · Page side-by-side** do transitions.dev sobre a View Transitions API (`<ViewTransition>` do React no layout de locale): a página que sai desliza `--distance-base` para a esquerda com fade e blur, a que entra vem da direita. Tokens `--duration-fast`, `--ease-smooth-out`, `--blur-medium`.
-- Com `prefers-reduced-motion`, a troca é instantânea. Sem suporte do browser, a navegação funciona como antes.
+- Todas as páginas, exceto a home (que tem a entrada própria do hero), entram com o recipe **18 · Texts reveal** do transitions.dev: os blocos do conteúdo aparecem um de cada vez, de cima para baixo, a subir `--distance-medium` com blur e fade (`--duration-very-slow`, `--ease-smooth-out`).
+- Atraso de `--duration-micro` entre blocos (`.t-reveal`) e de `--duration-stagger` entre itens de uma lista (`.t-reveal-list`: linhas de recursos, cards de categoria e de coleção, categorias da barra lateral). A partir do 12.º elemento entram juntos.
+- Corre no primeiro carregamento e em cada navegação (área, categoria, recurso…), só com CSS. Com `prefers-reduced-motion`, o conteúdo aparece sem animação.
 - Os links de saída para o recurso (site, repositório, aleatório) abrem numa nova aba (`target="_blank"`, `rel="noopener"`) e avisam leitores de ecrã com "(abre em nova aba)". A busca ⌘K já abria resultados externos numa nova aba.
 
 ## Critérios de aceitação
@@ -68,5 +69,5 @@ data/*.yaml  →  lib/content  →  app/ + components/
 - [ ] O hero usa `components/hero/` (layout do hero-37, sem `lucide-react` nem `motion`, aviso MIT no topo do ficheiro, D-12) e o LCP é a imagem poster.
 - [ ] Os cards de área mantêm conteúdo renderizado no servidor, tinta decorativa acessível, fallback sem WebGL e frame estático com movimento reduzido (D-15).
 - [ ] Metas da constitution passam no Lighthouse CI para home, categoria e recurso.
-- [ ] A navegação entre páginas anima com o recipe 08 e respeita `prefers-reduced-motion`.
+- [ ] As páginas entram com o recipe 18 (blocos e listas em sequência) e respeitam `prefers-reduced-motion`.
 - [ ] Os links de saída do recurso abrem numa nova aba e anunciam isso a leitores de ecrã.
