@@ -32,7 +32,7 @@ export function challengeReason(response: Response): string | undefined {
   if (response.headers.get('cf-mitigated') === 'challenge') return 'desafio anti-bot do Cloudflare';
   if (response.headers.get('x-vercel-mitigated') === 'challenge') return 'desafio anti-bot da Vercel';
   const location = response.headers.get('location');
-  if (location && location.includes('/.within.website/')) return 'desafio anti-bot do Anubis';
+  if (location && location.includes('/.within.website')) return 'desafio anti-bot do Anubis';
   return undefined;
 }
 

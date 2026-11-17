@@ -91,7 +91,7 @@ describe('verificação de URLs nos YAML alterados', () => {
   it.each([
     ['cf-mitigated', 'challenge', 403, 'desafio anti-bot do Cloudflare'],
     ['x-vercel-mitigated', 'challenge', 429, 'desafio anti-bot da Vercel'],
-    ['location', 'https://example.test/.within.website/?redir=%2F', 307, 'desafio anti-bot do Anubis'],
+    ['location', 'https://example.test/.within.website?redir=%2F', 307, 'desafio anti-bot do Anubis'],
   ])('trata %s como desafio anti-bot: aviso, não erro', async (header, value, status, reason) => {
     const fetchImpl = vi.fn(async () => new Response(null, { status, headers: { [header]: value } }));
     const onChallenge = vi.fn();
