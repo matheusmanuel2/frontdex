@@ -16,8 +16,10 @@ export const metadata: Metadata = {
   applicationName: 'FrontDex',
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: '48x48' },
+      { url: '/favicon.ico', sizes: '16x16 32x32 48x48' },
       { url: '/icon.svg', type: 'image/svg+xml' },
+      // PNG múltiplo de 48 px: o que o Google usa no favicon da pesquisa.
+      { url: '/icon-192.png', type: 'image/png', sizes: '192x192' },
     ],
     apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
   },
