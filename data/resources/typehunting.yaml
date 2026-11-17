@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Typehunting"
+url: https://typehunting.com/
+area: discover
+category: brand-inspiration
+tags: [ typography, history ]
+pricing: free
+open_source: false
+description:
+  pt: "Lettering e tipografia antiga fotografada em ruas, embalagens e impressos. Referência para letras com história."
+  en: "Vintage lettering and type photographed on streets, packaging and print. Reference for letterforms with history."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail. Proteção anti-bot (403) no curl."

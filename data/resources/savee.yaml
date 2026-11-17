@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Savee"
+url: https://savee.com/
+area: discover
+category: moodboards
+tags: [ branding ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Alternativa ao Pinterest feita para designers: salve referências em boards, sem anúncios nem ruído."
+  en: "A Pinterest alternative for designers: save references into boards, with no ads or clutter."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

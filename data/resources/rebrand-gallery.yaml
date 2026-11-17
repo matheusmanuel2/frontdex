@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Rebrand Gallery"
+url: https://www.rebrand.gallery/
+area: discover
+category: brand-inspiration
+tags: [ branding, typography ]
+pricing: TODO
+open_source: false
+description:
+  pt: "Rebrands com vídeo de lançamento, cores e tipografia, pesquisáveis por estilo, fonte, setor e estúdio."
+  en: "Rebrands with reveal videos, colors and typography, searchable by style, typeface, industry and studio."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Import Design Holy Grail. Tem página de pricing; confirmar se é freemium."

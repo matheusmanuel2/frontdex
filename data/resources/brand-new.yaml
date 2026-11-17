@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Brand New"
+url: https://www.underconsideration.com/brandnew/
+author: "UnderConsideration"
+area: discover
+category: brand-inspiration
+tags: [ branding ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Críticas de novas identidades de marca, com antes e depois e opinião direta. Bom para afinar o olhar."
+  en: "Reviews of new brand identities with before-and-after and a blunt opinion. Good for training your eye."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

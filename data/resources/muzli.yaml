@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Muzli"
+url: https://muz.li/
+area: discover
+category: moodboards
+tags: [ web, branding ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Feed diário de inspiração de design, também como extensão do Chrome que troca a nova aba."
+  en: "Daily design inspiration feed, also available as a Chrome extension that replaces your new tab."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

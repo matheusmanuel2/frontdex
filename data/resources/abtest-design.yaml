@@ -7,10 +7,10 @@ tags: [ ab-testing ]
 pricing: TODO
 open_source: false
 description:
-  pt: "TODO"
-  en: "TODO"
+  pt: "Resultados de testes A/B de apps conhecidos, com o que mudou e o efeito na conversão. Prova antes de opinião."
+  en: "A/B test results from well-known apps, showing what changed and the effect on conversion. Evidence over opinion."
 added: 2026-11-12
-last_checked: 2026-11-12
+last_checked: 2026-11-17
 status: draft
-notes: "Site não abriu na verificação. Confirmar o que é e a categoria."
+notes: "Site abriu em 2026-11-17 (import Design Holy Grail): coleção curada de resultados de A/B tests. Pricing por confirmar."
 id: 2
