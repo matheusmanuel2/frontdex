@@ -1,7 +1,7 @@
 import { applyFilters, type FilterItem } from './filters';
 
 /** Recursos por página da categoria (spec 003, "Paginação da categoria"). */
-export const PAGE_SIZE = 50;
+export const PAGE_SIZE = 30;
 
 export function pageCount(total: number): number {
   return Math.max(1, Math.ceil(total / PAGE_SIZE));

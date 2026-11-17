@@ -15,19 +15,19 @@ const item = (n: number): FilterItem => ({
 });
 
 describe('paginação da categoria', () => {
-  it('conta páginas de 50, com mínimo de 1', () => {
+  it('conta páginas de 30, com mínimo de 1', () => {
     expect(pageCount(0)).toBe(1);
-    expect(pageCount(50)).toBe(1);
-    expect(pageCount(51)).toBe(2);
-    expect(pageCount(394)).toBe(8);
+    expect(pageCount(30)).toBe(1);
+    expect(pageCount(31)).toBe(2);
+    expect(pageCount(394)).toBe(14);
   });
 
   it('corta a página na ordem "Mais recentes" e não repete itens entre páginas', () => {
-    const items = Array.from({ length: 120 }, (_, i) => item(i));
+    const items = Array.from({ length: 70 }, (_, i) => item(i));
     const pages = [1, 2, 3].map((p) => pageItems(items, p));
-    expect(pages.map((p) => p.length)).toEqual([PAGE_SIZE, PAGE_SIZE, 20]);
-    expect(new Set(pages.flat().map((i) => i.slug)).size).toBe(120);
-    expect(pages[0]![0]!.added >= pages[2]![19]!.added).toBe(true);
+    expect(pages.map((p) => p.length)).toEqual([PAGE_SIZE, PAGE_SIZE, 10]);
+    expect(new Set(pages.flat().map((i) => i.slug)).size).toBe(70);
+    expect(pages[0]![0]!.added >= pages[2]![9]!.added).toBe(true);
   });
 
   it('a página 1 é a raiz da categoria', () => {

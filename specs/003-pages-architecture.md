@@ -12,7 +12,7 @@ O MVP tem 11 tipos de página, gerados no build para `/pt` e `/en`. Os slugs sã
 | --- | --- | --- |
 | `/[locale]` | Início | Hero (ver abaixo), 4 áreas, Recém-indexados, Joias escondidas, Coleções, Contribua |
 | `/[locale]/discover` · `learn` · `build` · `grow` | Área | Categorias da área + destaques |
-| `/[locale]/c/[category]` | Categoria | Lista densa com filtros na URL (`?pricing=free&sort=…`); 50 recursos por página |
+| `/[locale]/c/[category]` | Categoria | Lista densa com filtros na URL (`?pricing=free&sort=…`); 30 recursos por página |
 | `/[locale]/c/[category]/p/[page]` | Categoria, página 2+ | Mesma lista, página seguinte |
 | `/[locale]/r/[slug]` | Recurso | ID, descrição, por que está aqui, detalhes, tags, alternativas |
 | `/[locale]/collections` | Coleções | Lista |
@@ -66,7 +66,7 @@ data/*.yaml  →  lib/content  →  app/ + components/
 
 Uma categoria com centenas de recursos não pode mandar tudo no HTML (a ui-components chegou a 1,6 MB e baixou o Lighthouse para 0,90).
 
-- 50 recursos por página, ordenados por "Mais recentes". A página 1 é `/c/[category]`; as seguintes, `/c/[category]/p/2`, `/p/3`… Tudo gerado no build.
+- 30 recursos por página, ordenados por "Mais recentes". A página 1 é `/c/[category]`; as seguintes, `/c/[category]/p/2`, `/p/3`… Tudo gerado no build.
 - Navegação de páginas no fim da lista (`nav` "Paginação": anterior, números, seguinte), com links reais: funciona sem JS.
 - Cada página tem canonical próprio e entra no sitemap. O JSON-LD lista só os recursos da página.
 - A lista completa da categoria (os campos mínimos da ilha de filtros) é um JSON estático: `/[locale]/c/[category]/items.json`.
@@ -77,7 +77,7 @@ Uma categoria com centenas de recursos não pode mandar tudo no HTML (a ui-compo
 
 - [ ] Todas as rotas geram HTML estático para `pt` e `en` (`generateStaticParams`).
 - [ ] Os filtros da categoria funcionam com botão voltar e são partilháveis pela URL.
-- [ ] Categorias com mais de 50 recursos têm páginas `/p/N`, com navegação que funciona sem JS; os filtros cobrem a categoria inteira.
+- [ ] Categorias com mais de 30 recursos têm páginas `/p/N`, com navegação que funciona sem JS; os filtros cobrem a categoria inteira.
 - [ ] Cada recurso `active` tem página, aparece na categoria, no sitemap e no feed se for novo.
 - [ ] Páginas 404 traduzidas.
 - [ ] O hero usa `components/hero/` (layout do hero-37, sem `lucide-react` nem `motion`, aviso MIT no topo do ficheiro, D-12) e o LCP é a imagem poster.
