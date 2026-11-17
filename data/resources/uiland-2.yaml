@@ -13,5 +13,5 @@ description:
   en: Searchable library of over 489k app and web screens, plus captured web pages.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uiland.design/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uiland.design/"

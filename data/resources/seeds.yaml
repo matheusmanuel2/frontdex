@@ -13,5 +13,5 @@ description:
   en: Sprout Social's creative hub, holding the resources used to express its brand identity.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://sproutsocial.com/seeds. Redirecionava de https://sproutsocial.com/seeds"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://sproutsocial.com/seeds. Redirecionava de https://sproutsocial.com/seeds"

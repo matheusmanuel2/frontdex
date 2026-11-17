@@ -13,5 +13,5 @@ description:
   en: App interface patterns for learning user experience best practices.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://pttrns.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://pttrns.com/"

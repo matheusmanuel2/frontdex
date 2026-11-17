@@ -13,5 +13,5 @@ description:
   en: Over 100,000 recorded user flows, app screens and UI patterns from apps like Airbnb, Uber and Netflix.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: nicolesaidy/awesome-web-design. Lida: https://uimovement.com. Redirecionava de https://uimovement.com"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: nicolesaidy/awesome-web-design. Lida: https://uimovement.com. Redirecionava de https://uimovement.com"

@@ -12,5 +12,5 @@ description:
   en: Publication sharing design, photography and UI/UX inspiration, running since 2006.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://abduzeedo.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://abduzeedo.com/"

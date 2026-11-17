@@ -12,5 +12,5 @@ description:
   en: Gallery devoted to empty states, the screens showing what an interface does when there is no data.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://emptystat.es/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://emptystat.es/"

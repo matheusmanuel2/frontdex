@@ -13,5 +13,5 @@ description:
   en: Winners and finalists of Apple's award for innovation and technical craft in app and game design.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://developer.apple.com/design/awards/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://developer.apple.com/design/awards/"

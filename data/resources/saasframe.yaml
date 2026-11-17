@@ -14,5 +14,5 @@ description:
   en: Library of real SaaS websites and product screens, with UX flows and designs you can copy into Figma.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://www.saasframe.io/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://www.saasframe.io/"

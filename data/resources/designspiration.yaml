@@ -13,5 +13,5 @@ description:
   en: Image and colour search engine for building moodboards from art, logos, photography and UI.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://designspiration.net/. Redirecionava de https://designspiration.net/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://designspiration.net/. Redirecionava de https://designspiration.net/"

@@ -13,5 +13,5 @@ description:
   en: Handpicked UI inspiration with GIF previews and HTML/CSS code to copy.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://codemyui.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://codemyui.com/"
