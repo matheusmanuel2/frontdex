@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: SvelteUI
+url: https://svelteui.dev
+repo: https://github.com/svelteuidev/svelteui
+area: build
+category: ui-components
+tags:
+  - web
+pricing: free
+open_source: TODO
+description:
+  pt: "Componentes para Svelte inspirados no Mantine: mais de 40 no pacote core, com temas por tokens e modo escuro."
+  en: "Mantine-inspired Svelte components: 40+ in the core package, with token-based theming and dark mode."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Rascunho do scout (ADR 0014). Fonte: redirecionamento de svelteui.js.org. Lida: https://npmjs.com/package/@svelteuidev/core e índice da documentação SvelteUI"
