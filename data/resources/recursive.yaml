@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: OFL-1.1
 description:
-  pt: Fonte variável com versões Sans e Mono, flexível para design, código e interfaces.
-  en: Variable font with Sans and Mono styles, flexible enough for design, code and UI.
+  pt: Fonte variável com versões Sans e Mono, flexível para design, código e
+    interfaces.
+  en: Variable font with Sans and Mono styles, flexible enough for design, code
+    and UI.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://www.recursive.design/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  swyxio/spark-joy. Lida: https://www.recursive.design/"
+id: 1069

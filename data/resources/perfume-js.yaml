@@ -12,9 +12,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca para medir no navegador as métricas de performance da web, como os Core Web Vitals.
-  en: Library for measuring web performance vitals metrics, such as Core Web Vitals, in the browser.
+  pt: Biblioteca para medir no navegador as métricas de performance da web, como
+    os Core Web Vitals.
+  en: Library for measuring web performance vitals metrics, such as Core Web
+    Vitals, in the browser.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://zizzamia.github.io/perfume/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida: https://zizzamia.github.io/perfume/"
+id: 814

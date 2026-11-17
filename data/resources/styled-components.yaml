@@ -11,9 +11,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Estilização para React com uma só API para server e client components, SSR em streaming e React Native.
-  en: Styling for React with one API across server and client components, streaming SSR and React Native.
+  pt: Estilização para React com uma só API para server e client components, SSR
+    em streaming e React Native.
+  en: Styling for React with one API across server and client components,
+    streaming SSR and React Native.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css, brillout/awesome-react-components. Lida: https://styled-components.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  awesome-css-group/awesome-css, brillout/awesome-react-components. Lida:
+  https://styled-components.com"
+id: 1183

@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Ícones SVG e PNG para uso comercial sem atribuição, com opção de copiar o código SVG direto.
-  en: SVG and PNG icons for commercial use with no attribution, with the option to copy the SVG code directly.
+  pt: Ícones SVG e PNG para uso comercial sem atribuição, com opção de copiar o
+    código SVG direto.
+  en: SVG and PNG icons for commercial use with no attribution, with the option to
+    copy the SVG code directly.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uxwing.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://uxwing.com/"
+id: 1291

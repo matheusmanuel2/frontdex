@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Converte tabelas entre mais de 30 formatos, como Excel, CSV, JSON, Markdown, LaTeX e SQL.
-  en: Converts tables between 30+ formats, including Excel, CSV, JSON, Markdown, LaTeX and SQL.
+  pt: Converte tabelas entre mais de 30 formatos, como Excel, CSV, JSON, Markdown,
+    LaTeX e SQL.
+  en: Converts tables between 30+ formats, including Excel, CSV, JSON, Markdown,
+    LaTeX and SQL.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://tableconvert.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://tableconvert.com/"
+id: 1213

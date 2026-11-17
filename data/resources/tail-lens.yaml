@@ -8,9 +8,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Inspecione, edite e pré-visualize classes Tailwind direto na página, sem trocar de ferramenta.
-  en: Inspect, edit and preview Tailwind classes right on the page, without switching tools.
+  pt: Inspecione, edite e pré-visualize classes Tailwind direto na página, sem
+    trocar de ferramenta.
+  en: Inspect, edit and preview Tailwind classes right on the page, without
+    switching tools.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://taillens.io"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://taillens.io"
+id: 1219

@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Lógica headless de tabelas e datagrids para TS/JS, com adaptadores para React, Vue, Solid e Svelte.
-  en: Headless table and datagrid logic for TS/JS, with adapters for React, Vue, Solid and Svelte.
+  pt: Lógica headless de tabelas e datagrids para TS/JS, com adaptadores para
+    React, Vue, Solid e Svelte.
+  en: Headless table and datagrid logic for TS/JS, with adapters for React, Vue,
+    Solid and Svelte.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://tanstack.com/table"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://tanstack.com/table"
+id: 1227

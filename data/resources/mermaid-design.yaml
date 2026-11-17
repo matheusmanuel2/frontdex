@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Editor online de diagramas Mermaid com pré-visualização ao vivo, mais de 20 temas e exportação em SVG ou PNG.
-  en: Online Mermaid diagram editor with live preview, 20+ theme presets and SVG or PNG export.
+  pt: Editor online de diagramas Mermaid com pré-visualização ao vivo, mais de 20
+    temas e exportação em SVG ou PNG.
+  en: Online Mermaid diagram editor with live preview, 20+ theme presets and SVG
+    or PNG export.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://he-tree-react.phphe.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://he-tree-react.phphe.com"
+id: 743

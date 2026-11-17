@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Biblioteca open source para visualizações de dados animadas e histórias com dados.
-  en: Open-source JavaScript library for animated data visualizations and data stories.
+  pt: Biblioteca open source para visualizações de dados animadas e histórias com
+    dados.
+  en: Open-source JavaScript library for animated data visualizations and data
+    stories.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://lib.vizzuhq.com/0.3.0/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://lib.vizzuhq.com/0.3.0/"
+id: 1311

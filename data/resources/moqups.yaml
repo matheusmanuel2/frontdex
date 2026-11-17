@@ -8,9 +8,12 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: App web para criar wireframes, mockups, diagramas e protótipos em colaboração.
+  pt: App web para criar wireframes, mockups, diagramas e protótipos em
+    colaboração.
   en: Web app for building wireframes, mockups, diagrams and prototypes together.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://moqups.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://moqups.com/"
+id: 759

@@ -9,9 +9,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Otimização de imagens auto-hospedada na sua nuvem, com preço mensal fixo em vez de cobrança por requisição.
-  en: Self-hosted image optimization in your own cloud, at a flat monthly rate instead of per-request fees.
+  pt: Otimização de imagens auto-hospedada na sua nuvem, com preço mensal fixo em
+    vez de cobrança por requisição.
+  en: Self-hosted image optimization in your own cloud, at a flat monthly rate
+    instead of per-request fees.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://imageengine.io"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida: https://imageengine.io"
+id: 623

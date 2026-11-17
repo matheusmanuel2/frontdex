@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Ilustrações vetoriais em SVG, PNG e GIF, incluindo 3D e animadas, para sites e apps.
-  en: Vector illustrations in SVG, PNG and GIF, including 3D and animated ones, for sites and apps.
+  pt: Ilustrações vetoriais em SVG, PNG e GIF, incluindo 3D e animadas, para sites
+    e apps.
+  en: Vector illustrations in SVG, PNG and GIF, including 3D and animated ones,
+    for sites and apps.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://icons8.com/ouch"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://icons8.com/ouch"
+id: 806

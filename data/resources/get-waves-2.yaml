@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: "Gera ondas em SVG para layouts: escolha a curva, ajuste a complexidade e sorteie variações."
-  en: "Generates SVG waves for layouts: pick a curve, tune the complexity and randomize variations."
+  pt: "Gera ondas em SVG para layouts: escolha a curva, ajuste a complexidade e
+    sorteie variações."
+  en: "Generates SVG waves for layouts: pick a curve, tune the complexity and
+    randomize variations."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://getwaves.io/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://getwaves.io/"
+id: 527

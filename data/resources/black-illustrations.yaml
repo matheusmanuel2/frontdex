@@ -8,9 +8,14 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Ilustrações digitais de pessoas negras para projetos online, grátis para uso pessoal e comercial.
-  en: Digital illustrations of Black people for online projects, free for personal and commercial use.
+  pt: Ilustrações digitais de pessoas negras para projetos online, grátis para uso
+    pessoal e comercial.
+  en: Digital illustrations of Black people for online projects, free for personal
+    and commercial use.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.blackillustrations.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.blackillustrations.com/"
+id: 302

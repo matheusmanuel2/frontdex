@@ -9,9 +9,14 @@ pricing: freemium
 open_source: true
 license: MIT
 description:
-  pt: Framework open source para apps B2B no navegador sobre APIs REST ou GraphQL, com React e Material Design.
-  en: Open-source framework for in-browser B2B apps on top of REST or GraphQL APIs, using React and Material Design.
+  pt: Framework open source para apps B2B no navegador sobre APIs REST ou GraphQL,
+    com React e Material Design.
+  en: Open-source framework for in-browser B2B apps on top of REST or GraphQL
+    APIs, using React and Material Design.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://marmelab.com/react-admin/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://marmelab.com/react-admin/"
+id: 866

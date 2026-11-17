@@ -10,9 +10,13 @@ pricing: freemium
 open_source: true
 license: MIT
 description:
-  pt: Slider e carrossel acessível escrito em TypeScript, sem dependências e sem erros no Lighthouse.
-  en: Accessible slider and carousel written in TypeScript, with no dependencies and no Lighthouse errors.
+  pt: Slider e carrossel acessível escrito em TypeScript, sem dependências e sem
+    erros no Lighthouse.
+  en: Accessible slider and carousel written in TypeScript, with no dependencies
+    and no Lighthouse errors.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://splidejs.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://splidejs.com"
+id: 1169

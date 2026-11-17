@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Bibliotecas de componentes em React e Figma feitas em par para acelerar design e desenvolvimento.
-  en: Paired React and Figma component libraries for faster product design and development.
+  pt: Bibliotecas de componentes em React e Figma feitas em par para acelerar
+    design e desenvolvimento.
+  en: Paired React and Figma component libraries for faster product design and
+    development.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://reshaped.so"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  alexpate/awesome-design-systems. Lida: https://reshaped.so"
+id: 1087

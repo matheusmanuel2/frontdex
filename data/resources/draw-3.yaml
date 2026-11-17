@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Aplicativo de diagramas gratuito em que você escolhe onde seus dados ficam guardados.
+  pt: Aplicativo de diagramas gratuito em que você escolhe onde seus dados ficam
+    guardados.
   en: Free diagramming app where you choose where your data is stored.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.diagrams.net/. Redirecionava de https://www.diagrams.net/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://www.diagrams.net/.
+  Redirecionava de https://www.diagrams.net/"
+id: 456

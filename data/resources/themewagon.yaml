@@ -9,9 +9,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Mais de 1600 templates em Bootstrap, HTML5 e CSS3 de graça, liberados para uso comercial.
-  en: Over 1,600 free Bootstrap, HTML5 and CSS3 website templates, cleared for commercial use.
+  pt: Mais de 1600 templates em Bootstrap, HTML5 e CSS3 de graça, liberados para
+    uso comercial.
+  en: Over 1,600 free Bootstrap, HTML5 and CSS3 website templates, cleared for
+    commercial use.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://themewagon.com/theme-price/free/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://themewagon.com/theme-price/free/"
+id: 1237

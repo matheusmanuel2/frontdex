@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: "Lorem ipsum para fotos: imagens de placeholder servidas por URL para preencher layouts."
+  pt: "Lorem ipsum para fotos: imagens de placeholder servidas por URL para
+    preencher layouts."
   en: "Lorem ipsum for photos: placeholder images served by URL to fill layouts."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: nicolesaidy/awesome-web-design. Lida: https://unsplash.it. Redirecionava de https://unsplash.it"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  nicolesaidy/awesome-web-design. Lida: https://unsplash.it. Redirecionava de
+  https://unsplash.it"
+id: 707

@@ -9,9 +9,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Protótipos, especificações e diagramas de software reunidos numa ferramenta só.
+  pt: Protótipos, especificações e diagramas de software reunidos numa ferramenta
+    só.
   en: Prototypes, specifications and diagrams for software in a single tool.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://www.axure.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida:
+  https://www.axure.com/"
+id: 285

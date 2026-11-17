@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Servidor MCP e skills com mais de 25 tipos de gráfico do AntV para gerar visualizações.
-  en: MCP server and skills with 25+ AntV chart types for generating visualizations.
+  pt: Servidor MCP e skills com mais de 25 tipos de gráfico do AntV para gerar
+    visualizações.
+  en: MCP server and skills with 25+ AntV chart types for generating
+    visualizations.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/antvis/mcp-server-chart"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://github.com/antvis/mcp-server-chart"
+id: 740

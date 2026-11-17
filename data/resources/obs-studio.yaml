@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: GPL-2.0
 description:
-  pt: Grava vídeo e faz transmissões ao vivo para Twitch, YouTube e outros, de graça e em código aberto.
-  en: Records video and streams live to Twitch, YouTube and more, free and open source.
+  pt: Grava vídeo e faz transmissões ao vivo para Twitch, YouTube e outros, de
+    graça e em código aberto.
+  en: Records video and streams live to Twitch, YouTube and more, free and open
+    source.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://obsproject.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://obsproject.com/"
+id: 796

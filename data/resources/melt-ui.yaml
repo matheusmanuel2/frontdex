@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca open source para Svelte voltada a design systems e apps web acessíveis.
-  en: Open-source Svelte library for building accessible design systems and web apps.
+  pt: Biblioteca open source para Svelte voltada a design systems e apps web
+    acessíveis.
+  en: Open-source Svelte library for building accessible design systems and web
+    apps.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://melt-ui.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://melt-ui.com"
+id: 742

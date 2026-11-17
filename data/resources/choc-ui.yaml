@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componentes prontos e acessíveis para Chakra UI, cobrindo as peças comuns de aplicações web.
-  en: Ready-made, accessible components for Chakra UI, covering the common pieces of web apps.
+  pt: Componentes prontos e acessíveis para Chakra UI, cobrindo as peças comuns de
+    aplicações web.
+  en: Ready-made, accessible components for Chakra UI, covering the common pieces
+    of web apps.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://choc-ui.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://choc-ui.com/"
+id: 363

@@ -15,4 +15,8 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://demos.themeselection.com/sneat-bootstrap-html-admin-template-free/html/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://demos.themeselection.com/sneat-bootstrap-html-admin-template-free/htm\
+  l/"
+id: 1156

@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: App que reúne mais de 75 mil ícones em 18 sets, deixa recolorir para a sua marca e exporta para SVG, PNG, WebP ou Vue.
-  en: App bundling 75,000+ icons across 18 sets that lets you recolor them for your brand and export to SVG, PNG, WebP or Vue.
+  pt: App que reúne mais de 75 mil ícones em 18 sets, deixa recolorir para a sua
+    marca e exporta para SVG, PNG, WebP ou Vue.
+  en: App bundling 75,000+ icons across 18 sets that lets you recolor them for
+    your brand and export to SVG, PNG, WebP or Vue.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://norde.io/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://norde.io/"
+id: 787

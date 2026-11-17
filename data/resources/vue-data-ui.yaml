@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca open source de componentes de visualização de dados para Vue 3, voltada a contar histórias com dados.
-  en: Open-source Vue 3 component library for data visualization and data storytelling.
+  pt: Biblioteca open source de componentes de visualização de dados para Vue 3,
+    voltada a contar histórias com dados.
+  en: Open-source Vue 3 component library for data visualization and data
+    storytelling.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vue-data-ui.graphieros.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://vue-data-ui.graphieros.com/"
+id: 1315

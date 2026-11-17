@@ -9,9 +9,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Framework de UI que cria um vocabulário comum entre designers e devs para descrever interfaces.
-  en: UI framework that builds a shared vocabulary between designers and developers.
+  pt: Framework de UI que cria um vocabulário comum entre designers e devs para
+    descrever interfaces.
+  en: UI framework that builds a shared vocabulary between designers and
+    developers.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css, troxler/awesome-css-frameworks. Lida: https://semantic-ui.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css,
+  troxler/awesome-css-frameworks. Lida: https://semantic-ui.com/"
+id: 1116

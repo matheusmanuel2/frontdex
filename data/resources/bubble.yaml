@@ -9,9 +9,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Construtor no-code de apps web e mobile em que você edita visualmente design, banco de dados, lógica e privacidade.
-  en: No-code builder for web and mobile apps where you visually edit design, database, logic and privacy rules.
+  pt: Construtor no-code de apps web e mobile em que você edita visualmente
+    design, banco de dados, lógica e privacidade.
+  en: No-code builder for web and mobile apps where you visually edit design,
+    database, logic and privacy rules.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://bubble.io/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://bubble.io/"
+id: 321

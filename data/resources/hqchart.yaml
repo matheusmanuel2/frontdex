@@ -11,9 +11,14 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Gráficos de candles e de tendência para ações e futuros em H5, com ferramentas de desenho.
+  pt: Gráficos de candles e de tendência para ações e futuros em H5, com
+    ferramentas de desenho.
   en: H5 candlestick and trend charts for stocks and futures, with drawing tools.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://jones2000.github.io/HQChart/webhqchart.demo/samples/kline_index_edit.html"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida:
+  https://jones2000.github.io/HQChart/webhqchart.demo/samples/kline_index_edit.\
+  html"
+id: 590

@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca de componentes React da SHEIN, com foco em desempenho e formulários.
+  pt: Biblioteca de componentes React da SHEIN, com foco em desempenho e
+    formulários.
   en: React component library from SHEIN, focused on performance and forms.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://shine.wiki"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://shine.wiki"
+id: 1138

@@ -11,9 +11,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Loader do webpack que carrega CSS em apps universais, renderizados no servidor e no cliente.
+  pt: Loader do webpack que carrega CSS em apps universais, renderizados no
+    servidor e no cliente.
   en: Webpack loader for CSS in universal apps rendered on both server and client.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://reactstarter.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://reactstarter.com"
+id: 637

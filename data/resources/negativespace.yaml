@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Fotos em alta resolução sob CC0 de negócios, comida, pessoas e tecnologia, sem atribuição.
-  en: High-resolution CC0 photos of business, food, people and technology, with no attribution.
+  pt: Fotos em alta resolução sob CC0 de negócios, comida, pessoas e tecnologia,
+    sem atribuição.
+  en: High-resolution CC0 photos of business, food, people and technology, with no
+    attribution.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://negativespace.co/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://negativespace.co/"
+id: 772

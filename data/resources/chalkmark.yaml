@@ -8,9 +8,14 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Testes de primeiro clique para achar problemas de navegação e validar decisões de design com usuários reais.
-  en: First-click testing to spot navigation issues and validate design decisions with real users.
+  pt: Testes de primeiro clique para achar problemas de navegação e validar
+    decisões de design com usuários reais.
+  en: First-click testing to spot navigation issues and validate design decisions
+    with real users.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.optimalworkshop.com/chalkmark"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida:
+  https://www.optimalworkshop.com/chalkmark"
+id: 348

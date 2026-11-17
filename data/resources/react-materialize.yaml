@@ -11,9 +11,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componentes React com Material Design, construídos sobre o framework Materialize CSS.
+  pt: Componentes React com Material Design, construídos sobre o framework
+    Materialize CSS.
   en: Material Design components for React, built on the Materialize CSS framework.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-materialize.github.io/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://react-materialize.github.io/"
+id: 962

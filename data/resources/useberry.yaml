@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Testes de usabilidade remotos, moderados ou não, em sites, designs e protótipos.
-  en: Remote moderated and unmoderated usability tests on websites, designs and prototypes.
+  pt: Testes de usabilidade remotos, moderados ou não, em sites, designs e
+    protótipos.
+  en: Remote moderated and unmoderated usability tests on websites, designs and
+    prototypes.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.useberry.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://www.useberry.com/"
+id: 1286

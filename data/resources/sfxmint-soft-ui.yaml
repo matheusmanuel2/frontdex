@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: 61 sons de interface em CC0 divididos em 8 grupos, de cliques e toggles a transições de tela e notificações.
-  en: 61 CC0 interface sounds in 8 groups, from taps and toggles to screen transitions and notifications.
+  pt: 61 sons de interface em CC0 divididos em 8 grupos, de cliques e toggles a
+    transições de tela e notificações.
+  en: 61 CC0 interface sounds in 8 groups, from taps and toggles to screen
+    transitions and notifications.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://sfxmint.com/sets/ui-soft"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://sfxmint.com/sets/ui-soft"
+id: 1118

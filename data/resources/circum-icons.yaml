@@ -9,9 +9,13 @@ pricing: freemium
 open_source: true
 license: MPL-2.0
 description:
-  pt: Ícones open source desenhados numa grade de 24x24, com foco em simplicidade, consistência e legibilidade.
-  en: Open source icons drawn on a 24x24 grid, focused on simplicity, consistency and readability.
+  pt: Ícones open source desenhados numa grade de 24x24, com foco em simplicidade,
+    consistência e legibilidade.
+  en: Open source icons drawn on a 24x24 grid, focused on simplicity, consistency
+    and readability.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://circumicons.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://circumicons.com/"
+id: 364

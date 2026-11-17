@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Framework gráfico para Svelte que serve de base para montar seus próprios gráficos.
+  pt: Framework gráfico para Svelte que serve de base para montar seus próprios
+    gráficos.
   en: Graphics framework for Svelte to build your own charts on.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://layercake.graphics"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://layercake.graphics"
+id: 677

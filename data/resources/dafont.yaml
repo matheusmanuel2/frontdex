@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Arquivo de fontes para baixar grátis, organizado por ordem alfabética, estilo, autor ou popularidade.
-  en: Archive of free fonts to download, browsable by alphabet, style, author or popularity.
+  pt: Arquivo de fontes para baixar grátis, organizado por ordem alfabética,
+    estilo, autor ou popularidade.
+  en: Archive of free fonts to download, browsable by alphabet, style, author or
+    popularity.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://www.dafont.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools.
+  Lida: https://www.dafont.com/"
+id: 436

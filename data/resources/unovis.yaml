@@ -12,9 +12,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Framework modular de visualização de dados para React, Angular, Svelte, Vue e TypeScript ou JavaScript puro.
-  en: Modular data visualization framework for React, Angular, Svelte, Vue and vanilla TypeScript or JavaScript.
+  pt: Framework modular de visualização de dados para React, Angular, Svelte, Vue
+    e TypeScript ou JavaScript puro.
+  en: Modular data visualization framework for React, Angular, Svelte, Vue and
+    vanilla TypeScript or JavaScript.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://unovis.dev"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://unovis.dev"
+id: 1280

@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Componentes web open source que implementam o SAP Fiori para aplicações empresariais.
-  en: Open source web components implementing SAP Fiori for enterprise web applications.
+  pt: Componentes web open source que implementam o SAP Fiori para aplicações
+    empresariais.
+  en: Open source web components implementing SAP Fiori for enterprise web
+    applications.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://ui5.github.io/webcomponents/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  alexpate/awesome-design-systems. Lida: https://ui5.github.io/webcomponents/"
+id: 1270

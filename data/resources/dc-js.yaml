@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Gráficos multidimensionais renderizados com d3.js que filtram dados via crossfilter.
-  en: Multi-dimensional charts rendered with d3.js that filter data through crossfilter.
+  pt: Gráficos multidimensionais renderizados com d3.js que filtram dados via
+    crossfilter.
+  en: Multi-dimensional charts rendered with d3.js that filter data through
+    crossfilter.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/dc-js/dc.js"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://github.com/dc-js/dc.js"
+id: 443

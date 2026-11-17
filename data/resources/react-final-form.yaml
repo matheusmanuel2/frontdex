@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Estado de formulário para React baseado em assinaturas, para renderizar só o que mudou.
+  pt: Estado de formulário para React baseado em assinaturas, para renderizar só o
+    que mudou.
   en: Subscription-based form state management for React.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://final-form.org/react"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://final-form.org/react"
+id: 917

@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Card sorting aberto, fechado ou híbrido para descobrir como as pessoas agrupam e nomeiam o seu conteúdo.
-  en: Open, closed or hybrid card sorts to learn how people group and label your content.
+  pt: Card sorting aberto, fechado ou híbrido para descobrir como as pessoas
+    agrupam e nomeiam o seu conteúdo.
+  en: Open, closed or hybrid card sorts to learn how people group and label your
+    content.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.optimalworkshop.com/optimalsort"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida:
+  https://www.optimalworkshop.com/optimalsort"
+id: 802

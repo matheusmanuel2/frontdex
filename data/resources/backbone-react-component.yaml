@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Liga modelos e coleções do Backbone aos componentes React, no navegador e no servidor.
-  en: Plugs Backbone models and collections into React components, in the browser and on the server.
+  pt: Liga modelos e coleções do Backbone aos componentes React, no navegador e no
+    servidor.
+  en: Plugs Backbone models and collections into React components, in the browser
+    and on the server.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/magalhas/backbone-react-component"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/magalhas/backbone-react-component"
+id: 288

@@ -8,9 +8,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: "Mais de 6000 assets 3D para Cinema 4D, Blender, Houdini e Unreal: materiais, modelos, texturas e HDRIs."
-  en: "Over 6000 3D assets for Cinema 4D, Blender, Houdini and Unreal: materials, models, textures and HDRIs."
+  pt: "Mais de 6000 assets 3D para Cinema 4D, Blender, Houdini e Unreal:
+    materiais, modelos, texturas e HDRIs."
+  en: "Over 6000 3D assets for Cinema 4D, Blender, Houdini and Unreal: materials,
+    models, textures and HDRIs."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://greyscalegorilla.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://greyscalegorilla.com/"
+id: 550

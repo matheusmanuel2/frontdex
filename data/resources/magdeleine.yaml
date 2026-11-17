@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Fotos em alta resolução selecionadas, sob CC0, domínio público e Creative Commons.
+  pt: Fotos em alta resolução selecionadas, sob CC0, domínio público e Creative
+    Commons.
   en: Curated high-resolution photos under CC0, public domain and Creative Commons.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://magdeleine.co/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools.
+  Lida: https://magdeleine.co/"
+id: 713

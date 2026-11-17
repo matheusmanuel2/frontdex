@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Media queries do CSS usadas direto em componentes React para montar layouts responsivos.
-  en: CSS media queries used directly in React components to build responsive layouts.
+  pt: Media queries do CSS usadas direto em componentes React para montar layouts
+    responsivos.
+  en: CSS media queries used directly in React components to build responsive
+    layouts.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://contra.io/react-responsive"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://contra.io/react-responsive"
+id: 997

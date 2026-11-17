@@ -8,9 +8,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Mais de 45 mil ícones vetoriais em 29 pacotes, com pagamento único e download vitalício.
-  en: 45,000+ vector icons across 29 packs, with a one-time payment and lifetime downloads.
+  pt: Mais de 45 mil ícones vetoriais em 29 pacotes, com pagamento único e
+    download vitalício.
+  en: 45,000+ vector icons across 29 packs, with a one-time payment and lifetime
+    downloads.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://roundicons.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://roundicons.com/"
+id: 1101

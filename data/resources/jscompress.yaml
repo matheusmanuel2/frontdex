@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: ISC
 description:
-  pt: Compressor online que minifica arquivos JavaScript em até 80% do tamanho original.
-  en: Online compressor that minifies JavaScript files by up to 80% of their original size.
+  pt: Compressor online que minifica arquivos JavaScript em até 80% do tamanho
+    original.
+  en: Online compressor that minifies JavaScript files by up to 80% of their
+    original size.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://jscompress.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida: https://jscompress.com/"
+id: 646

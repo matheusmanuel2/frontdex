@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Wireframe, protótipo, teste com usuários e inspeção num só lugar, com API para integrações.
-  en: Wireframing, prototyping, user testing and inspection in one place, with an API for integrations.
+  pt: Wireframe, protótipo, teste com usuários e inspeção num só lugar, com API
+    para integrações.
+  en: Wireframing, prototyping, user testing and inspection in one place, with an
+    API for integrations.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://marvelapp.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools, gztchan/awesome-design,
+  nicolesaidy/awesome-web-design. Lida: https://marvelapp.com/"
+id: 724

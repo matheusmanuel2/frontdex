@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Gerencia as meta tags do head em React de forma segura para renderização no servidor.
+  pt: Gerencia as meta tags do head em React de forma segura para renderização no
+    servidor.
   en: Manages head meta tags in React, thread-safe for server rendering.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/staylor/react-helmet-async#readme"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/staylor/react-helmet-async#readme"
+id: 931

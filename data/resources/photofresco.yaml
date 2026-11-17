@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Alternativa ao Photoshop no navegador, com camadas, máscaras, pincéis, importação e exportação de PSD.
-  en: Photoshop alternative in the browser, with layers, masks, brushes and PSD import and export.
+  pt: Alternativa ao Photoshop no navegador, com camadas, máscaras, pincéis,
+    importação e exportação de PSD.
+  en: Photoshop alternative in the browser, with layers, masks, brushes and PSD
+    import and export.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/joyceworks/flowchart-react"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/joyceworks/flowchart-react"
+id: 817

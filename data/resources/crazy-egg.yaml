@@ -9,9 +9,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Mapas de calor, gravações de sessão, pesquisas e testes A/B para ver o que visitantes fazem no site.
-  en: Heatmaps, session recordings, surveys and A/B tests to see what visitors do on your site.
+  pt: Mapas de calor, gravações de sessão, pesquisas e testes A/B para ver o que
+    visitantes fazem no site.
+  en: Heatmaps, session recordings, surveys and A/B tests to see what visitors do
+    on your site.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.crazyegg.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://www.crazyegg.com/"
+id: 413

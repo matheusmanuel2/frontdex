@@ -11,9 +11,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Framework de SPAs sobre APIs REST ou GraphQL, com TypeScript, React e Material Design.
-  en: Framework for single-page apps on REST or GraphQL APIs, using TypeScript, React and Material Design.
+  pt: Framework de SPAs sobre APIs REST ou GraphQL, com TypeScript, React e
+    Material Design.
+  en: Framework for single-page apps on REST or GraphQL APIs, using TypeScript,
+    React and Material Design.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/marmelab/react-admin"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/marmelab/react-admin"
+id: 867

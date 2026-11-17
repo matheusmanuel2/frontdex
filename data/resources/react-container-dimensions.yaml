@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Detecta o redimensionamento de um elemento e passa as novas dimensões para os filhos.
+  pt: Detecta o redimensionamento de um elemento e passa as novas dimensões para
+    os filhos.
   en: Detects element resize and passes the new dimensions down the tree.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/okonet/react-container-dimensions"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/okonet/react-container-dimensions"
+id: 895

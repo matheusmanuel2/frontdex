@@ -10,8 +10,12 @@ pricing: paid
 open_source: false
 description:
   pt: Grava a tela ou converte vídeos em GIFs no Mac, com edição e compressão.
-  en: Records the screen or converts videos into GIFs on Mac, with editing and compression.
+  en: Records the screen or converts videos into GIFs on Mac, with editing and
+    compression.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://gifox.io. Redirecionava de https://gifox.io"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://gifox.io. Redirecionava de
+  https://gifox.io"
+id: 528

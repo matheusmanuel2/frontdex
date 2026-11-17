@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componentes de visualização de baixo nível para React, construídos sobre d3, da Airbnb.
+  pt: Componentes de visualização de baixo nível para React, construídos sobre d3,
+    da Airbnb.
   en: Low-level visualization components for React built on d3, from Airbnb.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://visx.airbnb.tech"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://visx.airbnb.tech"
+id: 1306

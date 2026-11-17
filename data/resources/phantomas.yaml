@@ -16,4 +16,6 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.npmjs.com/package/phantomas"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida: https://www.npmjs.com/package/phantomas"
+id: 816

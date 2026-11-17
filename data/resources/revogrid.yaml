@@ -10,9 +10,13 @@ pricing: freemium
 open_source: true
 license: MIT
 description:
-  pt: Tabela de dados virtual estilo planilha, com recursos do Excel e customização avançada.
-  en: Virtual data table in spreadsheet style, with Excel-like features and deep customization.
+  pt: Tabela de dados virtual estilo planilha, com recursos do Excel e
+    customização avançada.
+  en: Virtual data table in spreadsheet style, with Excel-like features and deep
+    customization.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://rv-grid.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://rv-grid.com"
+id: 1092

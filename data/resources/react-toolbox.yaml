@@ -11,9 +11,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componentes React que seguem o Material Design do Google, estilizados com CSS Modules.
-  en: React components implementing Google's Material Design, styled with CSS Modules.
+  pt: Componentes React que seguem o Material Design do Google, estilizados com
+    CSS Modules.
+  en: React components implementing Google's Material Design, styled with CSS
+    Modules.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/react-toolbox/react-toolbox"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/react-toolbox/react-toolbox"
+id: 1041

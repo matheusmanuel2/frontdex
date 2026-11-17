@@ -16,4 +16,7 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/airbnb/react-with-styles"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  awesome-css-group/awesome-css. Lida:
+  https://github.com/airbnb/react-with-styles"
+id: 1058

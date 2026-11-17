@@ -11,9 +11,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Textarea para React que colore, destaca e decora o texto e oferece autocompletar.
-  en: React textarea that colorizes, highlights and decorates text and offers autocomplete.
+  pt: Textarea para React que colore, destaca e decora o texto e oferece
+    autocompletar.
+  en: React textarea that colorizes, highlights and decorates text and offers
+    autocomplete.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://inokawa.github.io/rich-textarea/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://inokawa.github.io/rich-textarea/"
+id: 1094

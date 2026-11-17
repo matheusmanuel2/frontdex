@@ -11,9 +11,13 @@ pricing: freemium
 open_source: true
 license: MIT
 description:
-  pt: Bibliotecas em Figma e React espelhadas uma na outra, para passar do mockup ao código sem documentação extra.
-  en: Mirrored Figma and React libraries, so mockups move to code without extra documentation.
+  pt: Bibliotecas em Figma e React espelhadas uma na outra, para passar do mockup
+    ao código sem documentação extra.
+  en: Mirrored Figma and React libraries, so mockups move to code without extra
+    documentation.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://bento-ds.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  alexpate/awesome-design-systems. Lida: https://bento-ds.com"
+id: 296

@@ -8,9 +8,14 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Ilustrações desenhadas à mão, expressivas, para marcas e criadores usarem em projetos digitais.
-  en: Expressive hand-drawn illustrations for brands and creators to use in digital work.
+  pt: Ilustrações desenhadas à mão, expressivas, para marcas e criadores usarem em
+    projetos digitais.
+  en: Expressive hand-drawn illustrations for brands and creators to use in
+    digital work.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://absurd.design/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools.
+  Lida: https://absurd.design/"
+id: 246

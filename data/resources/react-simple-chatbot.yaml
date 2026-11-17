@@ -15,4 +15,7 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://lucasbassetti.github.io/react-simple-chatbot/."
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://lucasbassetti.github.io/react-simple-chatbot/."
+id: 1006

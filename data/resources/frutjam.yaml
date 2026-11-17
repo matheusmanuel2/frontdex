@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Mais de 65 componentes em Tailwind v4 só com CSS, WCAG AA/AAA e sem JavaScript, para qualquer stack.
-  en: 65+ CSS-only Tailwind v4 components, WCAG AA/AAA and zero JavaScript, for any stack.
+  pt: Mais de 65 componentes em Tailwind v4 só com CSS, WCAG AA/AAA e sem
+    JavaScript, para qualquer stack.
+  en: 65+ CSS-only Tailwind v4 components, WCAG AA/AAA and zero JavaScript, for
+    any stack.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://frutjam.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://frutjam.com/"
+id: 522

@@ -8,9 +8,12 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Galeria de ícones de apps da Mac App Store, para buscar referência de estilo e acabamento.
+  pt: Galeria de ícones de apps da Mac App Store, para buscar referência de estilo
+    e acabamento.
   en: Gallery of Mac App Store app icons, for style and finish references.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://macosicongallery.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://macosicongallery.com/"
+id: 712

@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca WebGL em JavaScript puro que transforma elementos do DOM em planos texturizados interativos.
-  en: Vanilla WebGL library that turns HTML DOM elements into interactive textured planes.
+  pt: Biblioteca WebGL em JavaScript puro que transforma elementos do DOM em
+    planos texturizados interativos.
+  en: Vanilla WebGL library that turns HTML DOM elements into interactive textured
+    planes.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://www.curtainsjs.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  swyxio/spark-joy. Lida: https://www.curtainsjs.com/"
+id: 431

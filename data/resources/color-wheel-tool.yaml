@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Roda de cores HSL interativa que gera esquemas complementares, análogos, triádicos e monocromáticos.
-  en: Interactive HSL color wheel that gives complementary, analogous, triadic and monochrome schemes.
+  pt: Roda de cores HSL interativa que gera esquemas complementares, análogos,
+    triádicos e monocromáticos.
+  en: Interactive HSL color wheel that gives complementary, analogous, triadic and
+    monochrome schemes.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://image-color.com/. Redirecionava de https://image-color.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools.
+  Lida: https://image-color.com/. Redirecionava de https://image-color.com/"
+id: 386

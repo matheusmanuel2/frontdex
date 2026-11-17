@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Explore paletas e gradientes por estilo e humor, com temas em alta e combinações para marcas.
-  en: Browse palettes and gradients by style and mood, with trending themes and brand color combinations.
+  pt: Explore paletas e gradientes por estilo e humor, com temas em alta e
+    combinações para marcas.
+  en: Browse palettes and gradients by style and mood, with trending themes and
+    brand color combinations.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://color.adobe.com/explore/?filter=most-popular&time=month"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida:
+  https://color.adobe.com/explore/?filter=most-popular&time=month"
+id: 249

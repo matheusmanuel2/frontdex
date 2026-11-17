@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Lista, grade e masonry virtualizados sem configuração, para React, Vue, Solid, Svelte e Angular.
-  en: Zero-config virtual list, grid and masonry for React, Vue, Solid, Svelte and Angular.
+  pt: Lista, grade e masonry virtualizados sem configuração, para React, Vue,
+    Solid, Svelte e Angular.
+  en: Zero-config virtual list, grid and masonry for React, Vue, Solid, Svelte and
+    Angular.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://inokawa.github.io/virtua/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://inokawa.github.io/virtua/"
+id: 1304

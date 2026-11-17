@@ -10,9 +10,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Mais de 150 mil templates para criar mockups, logos, vídeos e peças gráficas, com downloads ilimitados.
-  en: 150K+ templates to create mockups, logos, videos and graphics, with unlimited downloads.
+  pt: Mais de 150 mil templates para criar mockups, logos, vídeos e peças
+    gráficas, com downloads ilimitados.
+  en: 150K+ templates to create mockups, logos, videos and graphics, with
+    unlimited downloads.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://placeit.net/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://placeit.net/"
+id: 835

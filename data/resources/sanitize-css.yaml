@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: CC0-1.0
 description:
-  pt: Base de CSS com boas práticas para começar estilos de forma consistente entre navegadores.
-  en: CSS foundation with best practices to start styles consistently across browsers.
+  pt: Base de CSS com boas práticas para começar estilos de forma consistente
+    entre navegadores.
+  en: CSS foundation with best practices to start styles consistently across
+    browsers.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://csstools.github.io/sanitize.css"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  swyxio/spark-joy. Lida: https://csstools.github.io/sanitize.css"
+id: 1105

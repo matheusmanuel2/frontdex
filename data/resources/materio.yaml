@@ -15,4 +15,10 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://themeselection.com/demo/materio-vuetify-vuejs-admin-template-free/demo/. Redirecionava de https://themeselection.com/demo/materio-vuetify-vuejs-admin-template-free/demo/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://themeselection.com/demo/materio-vuetify-vuejs-admin-template-free/dem\
+  o/. Redirecionava de
+  https://themeselection.com/demo/materio-vuetify-vuejs-admin-template-free/dem\
+  o/"
+id: 737

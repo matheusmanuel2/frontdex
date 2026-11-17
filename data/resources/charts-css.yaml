@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: "Framework CSS para visualização de dados: gráficos feitos com HTML e classes CSS."
-  en: "CSS framework for data visualization: charts built from HTML and CSS classes."
+  pt: "Framework CSS para visualização de dados: gráficos feitos com HTML e
+    classes CSS."
+  en: "CSS framework for data visualization: charts built from HTML and CSS
+    classes."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://ChartsCSS.org"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://ChartsCSS.org"
+id: 356

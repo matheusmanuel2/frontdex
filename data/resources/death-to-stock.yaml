@@ -9,9 +9,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Mais de 15 mil fotos e vídeos de banco feitos por criadores reais, não por IA.
+  pt: Mais de 15 mil fotos e vídeos de banco feitos por criadores reais, não por
+    IA.
   en: 15,000+ stock photos and videos made by real creators, not AI.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://deathtothestockphoto.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida:
+  https://deathtothestockphoto.com/"
+id: 444

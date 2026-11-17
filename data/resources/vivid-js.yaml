@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Mais de 100 ícones SVG open source prontos para Sketch e para projetos JavaScript com React e npm.
-  en: 100+ open source SVG icons ready for Sketch and for JavaScript projects with React and npm.
+  pt: Mais de 100 ícones SVG open source prontos para Sketch e para projetos
+    JavaScript com React e npm.
+  en: 100+ open source SVG icons ready for Sketch and for JavaScript projects with
+    React and npm.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://webkul.github.io/vivid/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://webkul.github.io/vivid/"
+id: 1307

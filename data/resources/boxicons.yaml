@@ -11,9 +11,13 @@ pricing: freemium
 open_source: true
 license: MIT
 description:
-  pt: 3.500 ícones grátis e mais de 50 mil variações Pro em SVG, PNG e JSX, para React, Vue e Figma.
-  en: 3,500 free icons and 50,000+ Pro variations in SVG, PNG and JSX, for React, Vue and Figma.
+  pt: 3.500 ícones grátis e mais de 50 mil variações Pro em SVG, PNG e JSX, para
+    React, Vue e Figma.
+  en: 3,500 free icons and 50,000+ Pro variations in SVG, PNG and JSX, for React,
+    Vue and Figma.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://boxicons.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://boxicons.com/"
+id: 315

@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Usa o Tailwind como base para design systems adaptáveis, com componentes prontos para vários frameworks.
-  en: Uses Tailwind as the base for adaptive design systems, with ready components for several frameworks.
+  pt: Usa o Tailwind como base para design systems adaptáveis, com componentes
+    prontos para vários frameworks.
+  en: Uses Tailwind as the base for adaptive design systems, with ready components
+    for several frameworks.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.skeleton.dev/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://www.skeleton.dev/"
+id: 1149

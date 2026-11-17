@@ -9,9 +9,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Monta sites de portfólio e landing pages sem código e com liberdade criativa no layout.
-  en: Build portfolio sites and landing pages with no code and full creative freedom over layout.
+  pt: Monta sites de portfólio e landing pages sem código e com liberdade criativa
+    no layout.
+  en: Build portfolio sites and landing pages with no code and full creative
+    freedom over layout.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://studio.design/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://studio.design/"
+id: 1181

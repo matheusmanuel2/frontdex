@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Gera fluxogramas e diagramas de sequência a partir de texto, numa sintaxe parecida com Markdown.
-  en: Generates flowcharts and sequence diagrams from text, with a Markdown-like syntax.
+  pt: Gera fluxogramas e diagramas de sequência a partir de texto, numa sintaxe
+    parecida com Markdown.
+  en: Generates flowcharts and sequence diagrams from text, with a Markdown-like
+    syntax.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, hal9ai/awesome-dataviz. Lida: https://mermaid.ai/open-source/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, hal9ai/awesome-dataviz. Lida:
+  https://mermaid.ai/open-source/"
+id: 744

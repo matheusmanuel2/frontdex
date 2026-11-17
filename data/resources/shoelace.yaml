@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca de web components, custom elements feitos à mão que funcionam em qualquer projeto.
+  pt: Biblioteca de web components, custom elements feitos à mão que funcionam em
+    qualquer projeto.
   en: "A library of web components: hand-crafted custom elements for any project."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems, swyxio/spark-joy. Lida: https://www.shoelace.style/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems,
+  swyxio/spark-joy. Lida: https://www.shoelace.style/"
+id: 1139

@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Verifica tags Open Graph, imagens de preview e cards do X numa página, domínio ou sitemap.
-  en: Checks Open Graph tags, preview images and X cards for a page, domain or sitemap.
+  pt: Verifica tags Open Graph, imagens de preview e cards do X numa página,
+    domínio ou sitemap.
+  en: Checks Open Graph tags, preview images and X cards for a page, domain or
+    sitemap.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://sharescan.io/scan"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://sharescan.io/scan"
+id: 1132

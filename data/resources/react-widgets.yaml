@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Campos de formulário acessíveis para React, com vários tipos de input prontos.
+  pt: Campos de formulário acessíveis para React, com vários tipos de input
+    prontos.
   en: Accessible form inputs for React, with many ready-made input types.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/jquense/react-widgets"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/jquense/react-widgets"
+id: 1056

@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componentes Tailwind open source revisados para acessibilidade, RTL e modo escuro, com Markdown e llms.txt para agentes.
-  en: Open-source Tailwind components checked for accessibility, RTL and dark mode, with Markdown and llms.txt for agents.
+  pt: Componentes Tailwind open source revisados para acessibilidade, RTL e modo
+    escuro, com Markdown e llms.txt para agentes.
+  en: Open-source Tailwind components checked for accessibility, RTL and dark
+    mode, with Markdown and llms.txt for agents.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.hyperui.dev/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://www.hyperui.dev/"
+id: 600

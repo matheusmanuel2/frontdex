@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Ícones de coleções como Material Design, Feather e Heroicons reunidos num só lugar para baixar em SVG e PNG.
-  en: Icons from collections like Material Design, Feather and Heroicons gathered in one place to download as SVG and PNG.
+  pt: Ícones de coleções como Material Design, Feather e Heroicons reunidos num só
+    lugar para baixar em SVG e PNG.
+  en: Icons from collections like Material Design, Feather and Heroicons gathered
+    in one place to download as SVG and PNG.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://iconshelf.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://iconshelf.com/"
+id: 620

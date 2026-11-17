@@ -8,9 +8,15 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Mockups de produto em alta resolução a partir de uma biblioteca de templates editáveis no navegador.
-  en: High-res product mockups built from a library of templates you edit in the browser.
+  pt: Mockups de produto em alta resolução a partir de uma biblioteca de templates
+    editáveis no navegador.
+  en: High-res product mockups built from a library of templates you edit in the
+    browser.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://smartmockups.com/. Redirecionava de https://smartmockups.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools,
+  gztchan/awesome-design. Lida: https://smartmockups.com/. Redirecionava de
+  https://smartmockups.com/"
+id: 334

@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: BSD-3-Clause
 description:
-  pt: Gramática de alto nível para gráficos estatísticos, ao estilo do ggplot, que gera specs Vega.
-  en: High-level grammar for statistical graphics, ggplot-style, that compiles to Vega specs.
+  pt: Gramática de alto nível para gráficos estatísticos, ao estilo do ggplot, que
+    gera specs Vega.
+  en: High-level grammar for statistical graphics, ggplot-style, that compiles to
+    Vega specs.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vega.github.io/vega-lite/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://vega.github.io/vega-lite/"
+id: 1300

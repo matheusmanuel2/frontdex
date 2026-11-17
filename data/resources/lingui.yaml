@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Internacionalização para JavaScript com cerca de 2 KB, legível e automatizada.
+  pt: Internacionalização para JavaScript com cerca de 2 KB, legível e
+    automatizada.
   en: Readable, automated internationalization for JavaScript at about 2 KB.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://lingui.dev"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://lingui.dev"
+id: 696

@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Cria gráficos, mapas e infográficos interativos para compartilhar e incorporar em qualquer página.
-  en: Builds interactive charts, maps and infographics to share and embed on any page.
+  pt: Cria gráficos, mapas e infográficos interativos para compartilhar e
+    incorporar em qualquer página.
+  en: Builds interactive charts, maps and infographics to share and embed on any
+    page.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://infogram.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://infogram.com/"
+id: 629

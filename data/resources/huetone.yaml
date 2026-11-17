@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Cria sistemas de cor acessíveis ajustando contraste em CIELAB, com saída em tokens.
-  en: Builds accessible color systems by tuning contrast in CIELAB, with design-token output.
+  pt: Cria sistemas de cor acessíveis ajustando contraste em CIELAB, com saída em
+    tokens.
+  en: Builds accessible color systems by tuning contrast in CIELAB, with
+    design-token output.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://huetone.ardov.me"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://huetone.ardov.me"
+id: 599

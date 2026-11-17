@@ -9,9 +9,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Sistema de design open source sobre Bootstrap 4, com código SASS organizado para o produto.
-  en: Open-source design system built on Bootstrap 4, with organized SASS code for product work.
+  pt: Sistema de design open source sobre Bootstrap 4, com código SASS organizado
+    para o produto.
+  en: Open-source design system built on Bootstrap 4, with organized SASS code for
+    product work.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uilibrary.github.io/done-design-system/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://uilibrary.github.io/done-design-system/"
+id: 453

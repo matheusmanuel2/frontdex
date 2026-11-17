@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Stack full-stack para Angular com AnalogJs e uma biblioteca de UI acessível, a spartan/ui.
-  en: Full-stack Angular stack with AnalogJs and an accessible UI library, spartan/ui.
+  pt: Stack full-stack para Angular com AnalogJs e uma biblioteca de UI acessível,
+    a spartan/ui.
+  en: Full-stack Angular stack with AnalogJs and an accessible UI library,
+    spartan/ui.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.spartan.ng/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://www.spartan.ng/"
+id: 1163

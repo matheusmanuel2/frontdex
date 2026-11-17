@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componentes Vue personalizáveis feitos para trabalhar junto com o Tailwind CSS.
+  pt: Componentes Vue personalizáveis feitos para trabalhar junto com o Tailwind
+    CSS.
   en: Customizable Vue components made to work alongside Tailwind CSS.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.vue-tailwind.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.vue-tailwind.com/"
+id: 1322

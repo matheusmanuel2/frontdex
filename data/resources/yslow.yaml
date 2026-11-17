@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: BSD-3-Clause
 description:
-  pt: Analisa páginas web e sugere melhorias de desempenho com base em regras para páginas rápidas.
-  en: Analyzes web pages and suggests performance fixes based on rules for fast pages.
+  pt: Analisa páginas web e sugere melhorias de desempenho com base em regras para
+    páginas rápidas.
+  en: Analyzes web pages and suggests performance fixes based on rules for fast
+    pages.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/marcelduran/yslow"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida: https://github.com/marcelduran/yslow"
+id: 1353

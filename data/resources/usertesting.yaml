@@ -8,9 +8,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Plataforma de testes com pessoas reais para embasar decisões de produto, experiência digital e UX.
-  en: Testing platform with real people to inform product, digital experience and UX decisions.
+  pt: Plataforma de testes com pessoas reais para embasar decisões de produto,
+    experiência digital e UX.
+  en: Testing platform with real people to inform product, digital experience and
+    UX decisions.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.usertesting.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://www.usertesting.com/"
+id: 1288

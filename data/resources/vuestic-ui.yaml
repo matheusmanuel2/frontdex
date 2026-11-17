@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Framework de UI para Vue 3, simples e personalizável, para apps de qualquer tamanho.
+  pt: Framework de UI para Vue 3, simples e personalizável, para apps de qualquer
+    tamanho.
   en: Simple, customizable UI framework for Vue 3, for apps of any size.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://vuestic.dev/. Redirecionava de https://vuestic.dev/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://vuestic.dev/.
+  Redirecionava de https://vuestic.dev/"
+id: 1321

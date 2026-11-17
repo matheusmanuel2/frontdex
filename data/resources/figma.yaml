@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Canvas colaborativo onde design, código e IA ficam juntos, da primeira ideia ao produto pronto.
-  en: Collaborative canvas where design, code and AI sit together, from first idea to shipped product.
+  pt: Canvas colaborativo onde design, código e IA ficam juntos, da primeira ideia
+    ao produto pronto.
+  en: Collaborative canvas where design, code and AI sit together, from first idea
+    to shipped product.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://www.figma.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools, gztchan/awesome-design,
+  nicolesaidy/awesome-web-design. Lida: https://www.figma.com/"
+id: 480

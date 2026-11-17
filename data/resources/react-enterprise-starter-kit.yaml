@@ -11,9 +11,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Starter kit React para apps empresariais com webpack, Storybook, ESLint e GitHub workflows.
-  en: React starter kit for enterprise apps with webpack, Storybook, ESLint and GitHub workflows.
+  pt: Starter kit React para apps empresariais com webpack, Storybook, ESLint e
+    GitHub workflows.
+  en: React starter kit for enterprise apps with webpack, Storybook, ESLint and
+    GitHub workflows.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/anandgupta193/react-enterprise-starter-kit"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/anandgupta193/react-enterprise-starter-kit"
+id: 913

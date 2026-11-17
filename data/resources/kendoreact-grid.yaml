@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Grade de React com paginação, ordenação, filtros, edição e agrupamento já incluídos.
+  pt: Grade de React com paginação, ordenação, filtros, edição e agrupamento já
+    incluídos.
   en: React grid with paging, sorting, filtering, editing and grouping built in.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.telerik.com/kendo-react-ui/components/grid/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://www.telerik.com/kendo-react-ui/components/grid/"
+id: 661

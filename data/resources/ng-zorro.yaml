@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca de componentes Angular baseada no Ant Design, toda open source sob licença MIT.
-  en: Angular component library based on Ant Design, fully open source under the MIT license.
+  pt: Biblioteca de componentes Angular baseada no Ant Design, toda open source
+    sob licença MIT.
+  en: Angular component library based on Ant Design, fully open source under the
+    MIT license.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ng.ant.design/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://ng.ant.design/"
+id: 778

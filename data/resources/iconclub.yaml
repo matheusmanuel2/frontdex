@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Mais de 8.000 ícones grátis para wireframes e protótipos, disponíveis para Adobe XD, Illustrator, Photoshop e Sketch.
-  en: 8,000+ free icons for wireframes and prototypes, available for Adobe XD, Illustrator, Photoshop and Sketch.
+  pt: Mais de 8.000 ícones grátis para wireframes e protótipos, disponíveis para
+    Adobe XD, Illustrator, Photoshop e Sketch.
+  en: 8,000+ free icons for wireframes and prototypes, available for Adobe XD,
+    Illustrator, Photoshop and Sketch.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://shapedfonts.com/iconclub/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://shapedfonts.com/iconclub/"
+id: 608

@@ -9,9 +9,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Coloca moldura de dispositivo nas suas gravações de tela para criar mockups em vídeo.
+  pt: Coloca moldura de dispositivo nas suas gravações de tela para criar mockups
+    em vídeo.
   en: Adds a device frame to your screen recordings to create video mockups.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://www.mock.video/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools.
+  Lida: https://www.mock.video/"
+id: 752

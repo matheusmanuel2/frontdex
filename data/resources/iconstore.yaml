@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Ícones vetoriais em SVG feitos por designers, gratuitos inclusive para uso comercial.
+  pt: Ícones vetoriais em SVG feitos por designers, gratuitos inclusive para uso
+    comercial.
   en: Vector SVG icons made by designers, free to download for commercial use.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://iconstore.co/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida:
+  https://iconstore.co/"
+id: 621

@@ -8,9 +8,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Gera sitemaps visuais a partir da estrutura do site para planejar a arquitetura e o conteúdo.
-  en: Builds visual sitemaps from a site's structure to plan its architecture and content.
+  pt: Gera sitemaps visuais a partir da estrutura do site para planejar a
+    arquitetura e o conteúdo.
+  en: Builds visual sitemaps from a site's structure to plan its architecture and
+    content.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://dynomapper.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://dynomapper.com/"
+id: 458

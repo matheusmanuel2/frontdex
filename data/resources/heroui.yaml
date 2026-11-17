@@ -10,8 +10,12 @@ open_source: true
 license: Apache-2.0
 description:
   pt: Componentes abertos para React e React Native, com templates pagos à parte.
-  en: Open source components for React and React Native, with premium templates on the side.
+  en: Open source components for React and React Native, with premium templates on
+    the side.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems. Lida: https://www.heroui.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems.
+  Lida: https://www.heroui.com/"
+id: 587

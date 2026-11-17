@@ -11,9 +11,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Interface cmd+k portátil e extensível para adicionar uma command palette ao site.
+  pt: Interface cmd+k portátil e extensível para adicionar uma command palette ao
+    site.
   en: Portable, extensible cmd+k interface to add a command palette to your site.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://kbar.vercel.app"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://kbar.vercel.app"
+id: 657

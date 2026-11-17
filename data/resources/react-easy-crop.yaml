@@ -11,8 +11,12 @@ open_source: true
 license: MIT
 description:
   pt: Componente React para recortar imagens e vídeos com arrastar e zoom.
-  en: React component for cropping images and videos with simple drag and zoom interactions.
+  en: React component for cropping images and videos with simple drag and zoom
+    interactions.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://valentinh.github.io/react-easy-crop/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://valentinh.github.io/react-easy-crop/"
+id: 911

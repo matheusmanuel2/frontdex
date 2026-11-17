@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: "Tailwind em JavaScript: gera os estilos em tempo de execução, sem etapa de build."
+  pt: "Tailwind em JavaScript: gera os estilos em tempo de execução, sem etapa de
+    build."
   en: Tailwind-in-JS that generates styles at runtime, no build step.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://twind.dev/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://twind.dev/"
+id: 1262

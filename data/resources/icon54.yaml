@@ -10,9 +10,12 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Pacote de ícones vetoriais em linha e sólidos desenhados à mão para iOS, Android e sites.
+  pt: Pacote de ícones vetoriais em linha e sólidos desenhados à mão para iOS,
+    Android e sites.
   en: Hand-drawn vector line and solid icon pack for iOS, Android and websites.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://icon54.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://icon54.com"
+id: 606

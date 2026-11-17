@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Carrega componentes, imagens ou qualquer coisa React só quando entram na tela.
-  en: Lazy-loads React components, images or anything else when they come into view.
+  pt: Carrega componentes, imagens ou qualquer coisa React só quando entram na
+    tela.
+  en: Lazy-loads React components, images or anything else when they come into
+    view.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/jasonslyvia/react-lazyload"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/jasonslyvia/react-lazyload"
+id: 953

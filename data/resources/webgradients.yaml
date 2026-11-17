@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Coleção de 180 gradientes CSS gratuitos para copiar na hora, com um gerador para criar o seu.
-  en: A set of 180 free CSS gradients you copy instantly, plus a generator to build your own.
+  pt: Coleção de 180 gradientes CSS gratuitos para copiar na hora, com um gerador
+    para criar o seu.
+  en: A set of 180 free CSS gradients you copy instantly, plus a generator to
+    build your own.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design, Siddharth11/Colorful. Lida: https://webgradients.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools,
+  gztchan/awesome-design, Siddharth11/Colorful. Lida: https://webgradients.com/"
+id: 1325

@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: AGPL-3.0
 description:
-  pt: Navegador para desenvolvimento web responsivo, feito para ajustar layouts com mais rapidez e precisão.
-  en: A browser for responsive web development, built to tune layouts faster and more precisely.
+  pt: Navegador para desenvolvimento web responsivo, feito para ajustar layouts
+    com mais rapidez e precisão.
+  en: A browser for responsive web development, built to tune layouts faster and
+    more precisely.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://responsively.app"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://responsively.app"
+id: 1090

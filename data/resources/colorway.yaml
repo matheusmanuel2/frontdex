@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Extensão para Chrome, Edge e Brave com conta-gotas, seletor e gerador de paletas que você compartilha por link.
-  en: Chrome, Edge and Brave extension with an eyedropper, picker and palette builder you can share by link.
+  pt: Extensão para Chrome, Edge e Brave com conta-gotas, seletor e gerador de
+    paletas que você compartilha por link.
+  en: Chrome, Edge and Brave extension with an eyedropper, picker and palette
+    builder you can share by link.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://chroma.dev/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://chroma.dev/"
+id: 400

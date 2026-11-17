@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Mais de 3.000 pares de Google Fonts para testar com o seu próprio texto e salvar os favoritos.
-  en: Over 3,000 Google Font pairings to preview with your own content and save as favorites.
+  pt: Mais de 3.000 pares de Google Fonts para testar com o seu próprio texto e
+    salvar os favoritos.
+  en: Over 3,000 Google Font pairings to preview with your own content and save as
+    favorites.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, nicolesaidy/awesome-web-design. Lida: https://fontpair.co/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools,
+  nicolesaidy/awesome-web-design. Lida: https://fontpair.co/"
+id: 497

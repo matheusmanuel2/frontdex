@@ -12,8 +12,11 @@ open_source: true
 license: MIT
 description:
   pt: "BI como código: visualizações interativas escritas em SQL e markdown."
-  en: "Business intelligence as code: interactive data visualizations written in SQL and markdown."
+  en: "Business intelligence as code: interactive data visualizations written in
+    SQL and markdown."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://evidence.dev"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://evidence.dev"
+id: 472

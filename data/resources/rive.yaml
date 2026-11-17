@@ -11,9 +11,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Motor 2D e 3D para jogos, apps e UI interativa, por trás do Duolingo e do Spotify Wrapped.
-  en: 2D and 3D engine for games, apps and interactive UI, behind Duolingo and Spotify Wrapped.
+  pt: Motor 2D e 3D para jogos, apps e UI interativa, por trás do Duolingo e do
+    Spotify Wrapped.
+  en: 2D and 3D engine for games, apps and interactive UI, behind Duolingo and
+    Spotify Wrapped.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/behnamrhp/React-VVM"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/behnamrhp/React-VVM"
+id: 1097

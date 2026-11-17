@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Extensão oficial do SweetAlert2 que aceita elementos React como conteúdo dos alertas.
+  pt: Extensão oficial do SweetAlert2 que aceita elementos React como conteúdo dos
+    alertas.
   en: Official SweetAlert2 add-on that accepts React elements as alert content.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/sweetalert2/sweetalert2-react-content"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/sweetalert2/sweetalert2-react-content"
+id: 1208

@@ -13,4 +13,7 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida: https://freedesignresources.net/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida:
+  https://freedesignresources.net/"
+id: 513

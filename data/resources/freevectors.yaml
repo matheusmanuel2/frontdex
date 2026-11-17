@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Milhares de vetores enviados por artistas do mundo todo para uso pessoal e comercial.
-  en: Thousands of vectors submitted by artists worldwide for personal and commercial use.
+  pt: Milhares de vetores enviados por artistas do mundo todo para uso pessoal e
+    comercial.
+  en: Thousands of vectors submitted by artists worldwide for personal and
+    commercial use.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.freevectors.net/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.freevectors.net/"
+id: 521

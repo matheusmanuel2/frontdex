@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Usa a Intersection Observer API em React para saber quando um elemento entra ou sai da viewport.
-  en: Intersection Observer API for React, telling you when an element enters or leaves the viewport.
+  pt: Usa a Intersection Observer API em React para saber quando um elemento entra
+    ou sai da viewport.
+  en: Intersection Observer API for React, telling you when an element enters or
+    leaves the viewport.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://rio.thebuilder.dk. Redirecionava de https://rio.thebuilder.dk"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://rio.thebuilder.dk.
+  Redirecionava de https://rio.thebuilder.dk"
+id: 947

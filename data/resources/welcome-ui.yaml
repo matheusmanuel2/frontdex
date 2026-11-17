@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Design system personalizável do Welcome to the Jungle, com React, TypeScript, Tailwind CSS e Ariakit.
-  en: Customizable design system from Welcome to the Jungle, built with React, TypeScript, Tailwind CSS and Ariakit.
+  pt: Design system personalizável do Welcome to the Jungle, com React,
+    TypeScript, Tailwind CSS e Ariakit.
+  en: Customizable design system from Welcome to the Jungle, built with React,
+    TypeScript, Tailwind CSS and Ariakit.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://www.welcome-ui.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  alexpate/awesome-design-systems. Lida: https://www.welcome-ui.com/"
+id: 1331

@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Monte sitemaps online, com notas e conteúdo anexados a cada página, e compartilhe com a equipe.
-  en: Build sitemaps online with notes and content attached to each page, then share them with your team.
+  pt: Monte sitemaps online, com notas e conteúdo anexados a cada página, e
+    compartilhe com a equipe.
+  en: Build sitemaps online with notes and content attached to each page, then
+    share them with your team.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://writemaps.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://writemaps.com/"
+id: 1343

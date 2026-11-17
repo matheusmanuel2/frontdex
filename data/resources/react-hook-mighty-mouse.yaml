@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Hook React sem dependências que rastreia posição e ângulo do mouse sobre um elemento.
-  en: Zero-dependency React hook that tracks mouse position and angle over an element.
+  pt: Hook React sem dependências que rastreia posição e ângulo do mouse sobre um
+    elemento.
+  en: Zero-dependency React hook that tracks mouse position and angle over an
+    element.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://mkosir.github.io/react-hook-mighty-mouse"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://mkosir.github.io/react-hook-mighty-mouse"
+id: 935

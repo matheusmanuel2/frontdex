@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Plugin do Sketch que gera especificações de medidas para entregar ao time de dev.
+  pt: Plugin do Sketch que gera especificações de medidas para entregar ao time de
+    dev.
   en: Sketch plugin that generates measurement specs to hand off to developers.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://github.com/utom/sketch-measure"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://github.com/utom/sketch-measure"
+id: 1150

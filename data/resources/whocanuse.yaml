@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Mostra como um par de cores aparece para pessoas com diferentes deficiências visuais, para avaliar contraste além da nota.
-  en: Shows how a color pair reads for people with different visual impairments, so contrast goes beyond a score.
+  pt: Mostra como um par de cores aparece para pessoas com diferentes deficiências
+    visuais, para avaliar contraste além da nota.
+  en: Shows how a color pair reads for people with different visual impairments,
+    so contrast goes beyond a score.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://whocanuse.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://whocanuse.com"
+id: 1336

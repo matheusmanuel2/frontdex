@@ -9,9 +9,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Ícones animados em Rive e Lottie com cores e animação ajustáveis no navegador, prontos para React, iOS e Android.
-  en: Animated icons in Rive and Lottie with colors and motion tweakable in the browser, ready for React, iOS and Android.
+  pt: Ícones animados em Rive e Lottie com cores e animação ajustáveis no
+    navegador, prontos para React, iOS e Android.
+  en: Animated icons in Rive and Lottie with colors and motion tweakable in the
+    browser, ready for React, iOS and Android.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://unicornicons.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://unicornicons.com"
+id: 1278

@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componentes React para montar carrosséis sem impor estrutura de DOM nem estilos.
-  en: React components for building carousels without imposing DOM structure or CSS styles.
+  pt: Componentes React para montar carrosséis sem impor estrutura de DOM nem
+    estilos.
+  en: React components for building carousels without imposing DOM structure or
+    CSS styles.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://express-labs.github.io/pure-react-carousel/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://express-labs.github.io/pure-react-carousel/"
+id: 854

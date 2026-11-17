@@ -8,9 +8,14 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Loja de fontes com curadoria, escolhas semanais e lançamentos de fundições independentes.
-  en: Curated font shop with weekly picks and new releases from independent foundries.
+  pt: Loja de fontes com curadoria, escolhas semanais e lançamentos de fundições
+    independentes.
+  en: Curated font shop with weekly picks and new releases from independent
+    foundries.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://ilovetypography.com/. Redirecionava de https://ilovetypography.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://ilovetypography.com/. Redirecionava de
+  https://ilovetypography.com/"
+id: 601

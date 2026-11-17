@@ -11,8 +11,12 @@ open_source: true
 license: MIT
 description:
   pt: Envia mensagens para um canal do Slack direto do seu app React, via webhook.
-  en: Sends messages to a Slack channel straight from your React app through a webhook.
+  en: Sends messages to a Slack channel straight from your React app through a
+    webhook.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/Nilanth/react-slack-notification"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/Nilanth/react-slack-notification"
+id: 1013

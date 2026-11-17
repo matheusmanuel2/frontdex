@@ -9,9 +9,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Paletas exatas de mais de 2.000 marcas, com valores HEX, RGB, CMYK e Pantone e download de logos.
-  en: Exact palettes for 2,000+ brands, with HEX, RGB, CMYK and Pantone values plus logo downloads.
+  pt: Paletas exatas de mais de 2.000 marcas, com valores HEX, RGB, CMYK e Pantone
+    e download de logos.
+  en: Exact palettes for 2,000+ brands, with HEX, RGB, CMYK and Pantone values
+    plus logo downloads.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://brandpalettes.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://brandpalettes.com/"
+id: 317

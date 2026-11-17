@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Software de design gráfico gratuito para Windows, macOS e Linux que abre e edita arquivos do Sketch.
-  en: Free graphic design software for Windows, macOS and Linux that opens and edits Sketch files.
+  pt: Software de design gráfico gratuito para Windows, macOS e Linux que abre e
+    edita arquivos do Sketch.
+  en: Free graphic design software for Windows, macOS and Linux that opens and
+    edits Sketch files.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://icons8.com/lunacy"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools.
+  Lida: https://icons8.com/lunacy"
+id: 711

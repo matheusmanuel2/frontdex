@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Reúne os conjuntos de ícones mais populares num só framework, em vez de instalar uma biblioteca para cada um.
-  en: Brings the popular icon sets together under one framework instead of installing a library for each.
+  pt: Reúne os conjuntos de ícones mais populares num só framework, em vez de
+    instalar uma biblioteca para cada um.
+  en: Brings the popular icon sets together under one framework instead of
+    installing a library for each.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://iconify.design/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://iconify.design/"
+id: 610

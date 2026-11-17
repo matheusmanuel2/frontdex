@@ -11,9 +11,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Tabela para Mantine com carregamento assíncrono, ordenação, menus de contexto, aninhamento e seleção em lote.
-  en: Mantine table with async loading, sorting, context menus, nesting and Gmail-style batch selection.
+  pt: Tabela para Mantine com carregamento assíncrono, ordenação, menus de
+    contexto, aninhamento e seleção em lote.
+  en: Mantine table with async loading, sorting, context menus, nesting and
+    Gmail-style batch selection.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://icflorescu.github.io/mantine-datatable/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://icflorescu.github.io/mantine-datatable/"
+id: 719

@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Tabela responsiva com ordenação, paginação, seleção e linhas expansíveis já incluídas.
-  en: Responsive table with built-in sorting, pagination, selection and expandable rows.
+  pt: Tabela responsiva com ordenação, paginação, seleção e linhas expansíveis já
+    incluídas.
+  en: Responsive table with built-in sorting, pagination, selection and expandable
+    rows.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://reactdatatable.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://reactdatatable.com"
+id: 903

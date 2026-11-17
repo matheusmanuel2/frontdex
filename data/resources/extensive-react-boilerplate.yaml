@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Ponto de partida com Next.js, autenticação, i18n, shadcn e formulários já configurados.
+  pt: Ponto de partida com Next.js, autenticação, i18n, shadcn e formulários já
+    configurados.
   en: Starter with Next.js, auth, i18n, shadcn and forms already set up.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-boilerplate-coral.vercel.app"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://react-boilerplate-coral.vercel.app"
+id: 474

@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Fotos em alta resolução para uso pessoal e comercial, com 7 novas toda semana.
-  en: High-resolution photos for personal and commercial use, with 7 new ones each week.
+  pt: Fotos em alta resolução para uso pessoal e comercial, com 7 novas toda
+    semana.
+  en: High-resolution photos for personal and commercial use, with 7 new ones each
+    week.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida: https://realisticshots.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida:
+  https://realisticshots.com/"
+id: 1064

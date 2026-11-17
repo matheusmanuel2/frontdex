@@ -8,9 +8,12 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Mais de 189 mil paletas criadas pelos usuários do Color Hex, com variações de esquema.
+  pt: Mais de 189 mil paletas criadas pelos usuários do Color Hex, com variações
+    de esquema.
   en: Over 189,000 palettes created by Color Hex users, with scheme variations.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://www.color-hex.com/color-palettes/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  Siddharth11/Colorful. Lida: https://www.color-hex.com/color-palettes/"
+id: 379

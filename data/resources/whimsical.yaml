@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Quadros brancos e documentos para quem constrói produto, com espaço para planejar junto com agentes de IA.
-  en: Whiteboards and docs for product builders, with room to plan alongside AI agents.
+  pt: Quadros brancos e documentos para quem constrói produto, com espaço para
+    planejar junto com agentes de IA.
+  en: Whiteboards and docs for product builders, with room to plan alongside AI
+    agents.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.npmjs.com/package/teenyicons"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.npmjs.com/package/teenyicons"
+id: 1334

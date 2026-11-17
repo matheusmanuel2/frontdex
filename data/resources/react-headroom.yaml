@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Esconde o cabeçalho ao rolar a página e o mostra de volta quando você precisa.
+  pt: Esconde o cabeçalho ao rolar a página e o mostra de volta quando você
+    precisa.
   en: Hides your header while scrolling and brings it back when you need it.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://kyleamathews.github.io/react-headroom"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://kyleamathews.github.io/react-headroom"
+id: 928

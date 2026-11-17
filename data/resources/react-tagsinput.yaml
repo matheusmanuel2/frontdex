@@ -11,9 +11,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Campo de tags para React com bastante espaço para personalizar aparência e comportamento.
-  en: Tag input field for React with plenty of room to customize its look and behavior.
+  pt: Campo de tags para React com bastante espaço para personalizar aparência e
+    comportamento.
+  en: Tag input field for React with plenty of room to customize its look and
+    behavior.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/olahol/react-tagsinput"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/olahol/react-tagsinput"
+id: 1034

@@ -11,9 +11,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componentes acessíveis para Svelte cujo código você copia e adapta para montar sua própria biblioteca.
-  en: Accessible Svelte components whose code you copy and adapt to build your own library.
+  pt: Componentes acessíveis para Svelte cujo código você copia e adapta para
+    montar sua própria biblioteca.
+  en: Accessible Svelte components whose code you copy and adapt to build your own
+    library.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.shadcn-svelte.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.shadcn-svelte.com/"
+id: 1123

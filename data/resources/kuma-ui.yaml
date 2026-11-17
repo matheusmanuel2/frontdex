@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca de componentes headless com CSS-in-JS sem custo em tempo de execução.
+  pt: Biblioteca de componentes headless com CSS-in-JS sem custo em tempo de
+    execução.
   en: Headless component library with zero-runtime CSS-in-JS.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.kuma-ui.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://www.kuma-ui.com/"
+id: 670

@@ -11,9 +11,13 @@ pricing: freemium
 open_source: true
 license: MIT
 description:
-  pt: Mais de 31 mil ícones de linha em SVG, PNG, React e Figma, com CDN grátis e editor de ícones.
-  en: 31,000+ line icons in SVG, PNG, React and Figma, with a free CDN and an icon editor.
+  pt: Mais de 31 mil ícones de linha em SVG, PNG, React e Figma, com CDN grátis e
+    editor de ícones.
+  en: 31,000+ line icons in SVG, PNG, React and Figma, with a free CDN and an icon
+    editor.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://lineicons.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://lineicons.com"
+id: 695

@@ -11,9 +11,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componentes de mapa gratuitos, sem configuração, instalados com um único comando.
+  pt: Componentes de mapa gratuitos, sem configuração, instalados com um único
+    comando.
   en: Free map components with zero config, installed with a single command.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://mapcn.dev"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://mapcn.dev"
+id: 722

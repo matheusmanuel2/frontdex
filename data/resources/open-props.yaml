@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Custom properties CSS prontas para tokens de design consistentes, por CDN ou NPM, em CSS ou JS.
-  en: Ready-made CSS custom properties for consistent design tokens, via CDN or NPM, as CSS or JS.
+  pt: Custom properties CSS prontas para tokens de design consistentes, por CDN ou
+    NPM, em CSS ou JS.
+  en: Ready-made CSS custom properties for consistent design tokens, via CDN or
+    NPM, as CSS or JS.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://open-props.style"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  troxler/awesome-css-frameworks. Lida: https://open-props.style"
+id: 800

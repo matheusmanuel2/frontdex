@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: 13 mockups de dispositivos feitos só com CSS, de iPhone X a Galaxy S5 e Macbook Pro.
+  pt: 13 mockups de dispositivos feitos só com CSS, de iPhone X a Galaxy S5 e
+    Macbook Pro.
   en: 13 pure CSS device mockups, from iPhone X to Galaxy S5 and Macbook Pro.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://marvelapp.github.io/devices.css/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://marvelapp.github.io/devices.css/"
+id: 448

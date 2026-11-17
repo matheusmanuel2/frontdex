@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca de ícones open source mantida pelo time do Bootstrap, grátis para qualquer projeto.
+  pt: Biblioteca de ícones open source mantida pelo time do Bootstrap, grátis para
+    qualquer projeto.
   en: Open source icon library from the Bootstrap team, free for any project.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://icons.getbootstrap.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://icons.getbootstrap.com/"
+id: 308

@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: "Gera diagramas a partir de uma descrição em texto: mais de 16 tipos, como fluxogramas e diagramas ER."
-  en: Turns a text description into a diagram, with 16+ types such as flowcharts and ER diagrams.
+  pt: "Gera diagramas a partir de uma descrição em texto: mais de 16 tipos, como
+    fluxogramas e diagramas ER."
+  en: Turns a text description into a diagram, with 16+ types such as flowcharts
+    and ER diagrams.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://diagram-generator.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://diagram-generator.com/"
+id: 450

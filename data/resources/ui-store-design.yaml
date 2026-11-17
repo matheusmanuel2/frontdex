@@ -9,9 +9,12 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: 648 UI kits gratuitos selecionados para Figma, Sketch, Adobe XD, Webflow e Framer.
+  pt: 648 UI kits gratuitos selecionados para Figma, Sketch, Adobe XD, Webflow e
+    Framer.
   en: 648 handpicked free UI kits for Figma, Sketch, Adobe XD, Webflow and Framer.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.uistore.design/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://www.uistore.design/"
+id: 1268

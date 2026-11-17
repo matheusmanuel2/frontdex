@@ -9,9 +9,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Paletas e gradientes para explorar, com extração de cores de imagens, checagem de contraste e escalas para Tailwind CSS.
-  en: Palettes and gradients to browse, plus image color extraction, contrast checks and Tailwind CSS scales.
+  pt: Paletas e gradientes para explorar, com extração de cores de imagens,
+    checagem de contraste e escalas para Tailwind CSS.
+  en: Palettes and gradients to browse, plus image color extraction, contrast
+    checks and Tailwind CSS scales.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://colorsinspo.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://colorsinspo.com/"
+id: 396

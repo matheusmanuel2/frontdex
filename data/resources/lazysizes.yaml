@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Carrega imagens responsivas e iframes sob demanda, detectando mudanças de visibilidade sem configuração.
-  en: Lazy-loads responsive images and iframes, detecting visibility changes with no configuration.
+  pt: Carrega imagens responsivas e iframes sob demanda, detectando mudanças de
+    visibilidade sem configuração.
+  en: Lazy-loads responsive images and iframes, detecting visibility changes with
+    no configuration.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/aFarkas/lazysizes"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida: https://github.com/aFarkas/lazysizes"
+id: 680

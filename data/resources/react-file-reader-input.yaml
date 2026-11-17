@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Input de arquivo para React com controle total do estilo e da leitura do arquivo.
+  pt: Input de arquivo para React com controle total do estilo e da leitura do
+    arquivo.
   en: React file input with full control over styling and file reading.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/ngokevin/react-file-reader-input"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/ngokevin/react-file-reader-input"
+id: 916

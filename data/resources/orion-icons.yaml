@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Cerca de 6 mil ícones vetoriais em SVG e PNG para web, iOS e Android, uma parte gratuita e outra pro.
-  en: About 6,000 vector icons in SVG and PNG for web, iOS and Android, some free and some pro.
+  pt: Cerca de 6 mil ícones vetoriais em SVG e PNG para web, iOS e Android, uma
+    parte gratuita e outra pro.
+  en: About 6,000 vector icons in SVG and PNG for web, iOS and Android, some free
+    and some pro.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://orioniconlibrary.com/all-icons"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://orioniconlibrary.com/all-icons"
+id: 805

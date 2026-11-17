@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: UI de busca em React e Vue para Elasticsearch e OpenSearch, compatível com InstantSearch.
-  en: React and Vue search UI for Elasticsearch and OpenSearch, compatible with InstantSearch.
+  pt: UI de busca em React e Vue para Elasticsearch e OpenSearch, compatível com
+    InstantSearch.
+  en: React and Vue search UI for Elasticsearch and OpenSearch, compatible with
+    InstantSearch.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/searchkit/searchkit"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/searchkit/searchkit"
+id: 1114

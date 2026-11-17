@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Framework CSS leve construído sobre custom properties, fácil de ajustar ao seu projeto.
-  en: Lightweight CSS framework built on custom properties, easy to tune to your project.
+  pt: Framework CSS leve construído sobre custom properties, fácil de ajustar ao
+    seu projeto.
+  en: Lightweight CSS framework built on custom properties, easy to tune to your
+    project.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://jonathanharrell.github.io/hiq/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  troxler/awesome-css-frameworks. Lida: https://jonathanharrell.github.io/hiq/"
+id: 589

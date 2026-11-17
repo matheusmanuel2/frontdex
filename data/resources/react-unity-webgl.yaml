@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Incorpora builds Unity WebGL em apps React, com comunicação nos dois sentidos entre Unity e React.
-  en: Embeds Unity WebGL builds in React apps, with two-way communication between Unity and React.
+  pt: Incorpora builds Unity WebGL em apps React, com comunicação nos dois
+    sentidos entre Unity e React.
+  en: Embeds Unity WebGL builds in React apps, with two-way communication between
+    Unity and React.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-unity-webgl.dev"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://react-unity-webgl.dev"
+id: 1049

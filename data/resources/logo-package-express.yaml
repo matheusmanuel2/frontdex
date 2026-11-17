@@ -9,9 +9,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Gera todos os formatos de arquivo do logo que o cliente precisa em menos de 5 minutos.
+  pt: Gera todos os formatos de arquivo do logo que o cliente precisa em menos de
+    5 minutos.
   en: Exports every logo file format your client needs in under five minutes.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://thelogopackage.com. Redirecionava de https://thelogopackage.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://thelogopackage.com.
+  Redirecionava de https://thelogopackage.com"
+id: 700

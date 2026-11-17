@@ -8,9 +8,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Loja para comprar e baixar fontes desktop e webfonts @font-face, de clássicos a lançamentos.
-  en: Store to buy and download desktop fonts and @font-face webfonts, from classics to new releases.
+  pt: Loja para comprar e baixar fontes desktop e webfonts @font-face, de
+    clássicos a lançamentos.
+  en: Store to buy and download desktop fonts and @font-face webfonts, from
+    classics to new releases.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.myfonts.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://www.myfonts.com/"
+id: 768

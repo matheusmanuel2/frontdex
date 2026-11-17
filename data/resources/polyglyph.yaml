@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Descreva o que quer e receba um vetor SVG editável; créditos grátis no cadastro e sem assinatura.
-  en: Describe what you want and get an editable SVG vector; free credits on signup, no subscription.
+  pt: Descreva o que quer e receba um vetor SVG editável; créditos grátis no
+    cadastro e sem assinatura.
+  en: Describe what you want and get an editable SVG vector; free credits on
+    signup, no subscription.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://polyglyph.io/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://polyglyph.io/"
+id: 842

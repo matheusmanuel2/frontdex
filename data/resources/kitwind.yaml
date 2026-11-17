@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Marketplace de UI kits responsivos em Tailwind CSS, pensados para startups e produtos de vários tipos.
-  en: Marketplace of responsive Tailwind CSS UI kits aimed at startups and products of many kinds.
+  pt: Marketplace de UI kits responsivos em Tailwind CSS, pensados para startups e
+    produtos de vários tipos.
+  en: Marketplace of responsive Tailwind CSS UI kits aimed at startups and
+    products of many kinds.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://kitwind.io/products/kometa/components"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://kitwind.io/products/kometa/components"
+id: 663

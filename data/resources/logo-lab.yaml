@@ -9,9 +9,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Testa o seu logo e mostra o menor tamanho em que ainda funciona e onde some em fundos claros e escuros.
-  en: Tests your logo, showing the smallest size it still works at and where it vanishes on light and dark backgrounds.
+  pt: Testa o seu logo e mostra o menor tamanho em que ainda funciona e onde some
+    em fundos claros e escuros.
+  en: Tests your logo, showing the smallest size it still works at and where it
+    vanishes on light and dark backgrounds.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://logolab.app/home"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://logolab.app/home"
+id: 699

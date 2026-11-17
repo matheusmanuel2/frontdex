@@ -9,9 +9,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Gerador visual de formas orgânicas feitas só com a propriedade border-radius do CSS.
-  en: Visual generator for organic shapes built only with the CSS border-radius property.
+  pt: Gerador visual de formas orgânicas feitas só com a propriedade border-radius
+    do CSS.
+  en: Visual generator for organic shapes built only with the CSS border-radius
+    property.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://9elements.github.io/fancy-border-radius/full-control.html"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://9elements.github.io/fancy-border-radius/full-control.html"
+id: 476

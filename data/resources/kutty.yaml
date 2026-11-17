@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Plugin do Tailwind com componentes acessíveis e reutilizáveis para as peças mais comuns de aplicações web.
-  en: Tailwind plugin with accessible, reusable components for the pieces web applications use most.
+  pt: Plugin do Tailwind com componentes acessíveis e reutilizáveis para as peças
+    mais comuns de aplicações web.
+  en: Tailwind plugin with accessible, reusable components for the pieces web
+    applications use most.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://kutty.netlify.app/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://kutty.netlify.app/"
+id: 672

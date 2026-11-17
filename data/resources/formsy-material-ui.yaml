@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Camada de compatibilidade entre Formsy e os componentes de formulário do Material-UI.
+  pt: Camada de compatibilidade entre Formsy e os componentes de formulário do
+    Material-UI.
   en: Compatibility wrapper between Formsy and Material-UI form components.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/mbrookes/formsy-material-ui"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/mbrookes/formsy-material-ui"
+id: 505

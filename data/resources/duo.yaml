@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Coleção pessoal de pares de cores escolhidos por Alex Pate, para quando você precisa de só duas cores que funcionem.
-  en: Alex Pate's personal collection of color pairings, for when you need just two colors that work.
+  pt: Coleção pessoal de pares de cores escolhidos por Alex Pate, para quando você
+    precisa de só duas cores que funcionem.
+  en: Alex Pate's personal collection of color pairings, for when you need just
+    two colors that work.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://duo.alexpate.uk/. Redirecionava de https://duo.alexpate.uk/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://duo.alexpate.uk/.
+  Redirecionava de https://duo.alexpate.uk/"
+id: 457

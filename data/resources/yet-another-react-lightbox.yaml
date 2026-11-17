@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Lightbox para React que abre imagens em tela cheia com navegação em carrossel.
+  pt: Lightbox para React que abre imagens em tela cheia com navegação em
+    carrossel.
   en: React lightbox that opens images full screen with carousel navigation.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://yet-another-react-lightbox.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://yet-another-react-lightbox.com"
+id: 1352

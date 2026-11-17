@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: O minificador de HTML original (2010–2019), hoje mantido em j9t/html-minifier.
+  pt: O minificador de HTML original (2010–2019), hoje mantido em
+    j9t/html-minifier.
   en: The original HTML minifier (2010–2019), now maintained at j9t/html-minifier.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/kangax/html-minifier"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida: https://github.com/kangax/html-minifier"
+id: 597

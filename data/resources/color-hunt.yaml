@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Paletas de cores escolhidas a dedo, com as mais recentes no topo, para projetos de design e arte.
+  pt: Paletas de cores escolhidas a dedo, com as mais recentes no topo, para
+    projetos de design e arte.
   en: Hand-picked color palettes, newest first, for design and art projects.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design, Siddharth11/Colorful. Lida: https://colorhunt.co/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools,
+  gztchan/awesome-design, Siddharth11/Colorful. Lida: https://colorhunt.co/"
+id: 381

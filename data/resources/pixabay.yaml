@@ -9,9 +9,15 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Imagens e vídeos livres de royalties para baixar e usar sem precisar dar crédito.
-  en: Royalty-free images and videos to download and use with no attribution required.
+  pt: Imagens e vídeos livres de royalties para baixar e usar sem precisar dar
+    crédito.
+  en: Royalty-free images and videos to download and use with no attribution
+    required.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida: https://pixabay.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools,
+  gztchan/awesome-design, nicolesaidy/awesome-web-design. Lida:
+  https://pixabay.com/"
+id: 832

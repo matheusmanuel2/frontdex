@@ -10,9 +10,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Mais de 200 componentes, blocos e templates de landing page para copiar, feitos com Tailwind e Motion.
-  en: 200+ copy-paste components, blocks and landing page templates built with Tailwind and Motion.
+  pt: Mais de 200 componentes, blocos e templates de landing page para copiar,
+    feitos com Tailwind e Motion.
+  en: 200+ copy-paste components, blocks and landing page templates built with
+    Tailwind and Motion.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ui.aceternity.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://ui.aceternity.com/"
+id: 247

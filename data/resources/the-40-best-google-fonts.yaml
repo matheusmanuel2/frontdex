@@ -8,9 +8,12 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Seleção da Typewolf com as 40 melhores fontes do Google Fonts, livres para uso comercial.
+  pt: Seleção da Typewolf com as 40 melhores fontes do Google Fonts, livres para
+    uso comercial.
   en: Typewolf's pick of the 40 best Google Fonts, all free for commercial use.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://www.typewolf.com/google-fonts"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  swyxio/spark-joy. Lida: https://www.typewolf.com/google-fonts"
+id: 1232

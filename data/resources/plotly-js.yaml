@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca de gráficos open source por trás do Plotly e do Dash, sobre d3 e WebGL.
+  pt: Biblioteca de gráficos open source por trás do Plotly e do Dash, sobre d3 e
+    WebGL.
   en: Open-source charting library behind Plotly and Dash, built on d3 and WebGL.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://plotly.com/javascript/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://plotly.com/javascript/"
+id: 839

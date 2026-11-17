@@ -9,9 +9,13 @@ pricing: freemium
 open_source: true
 license: Apache-2.0
 description:
-  pt: "Banco NoSQL local-first para apps JavaScript: sites, PWAs, Electron e apps híbridos."
-  en: "Local-first NoSQL database for JavaScript apps: websites, PWAs, Electron and hybrid apps."
+  pt: "Banco NoSQL local-first para apps JavaScript: sites, PWAs, Electron e apps
+    híbridos."
+  en: "Local-first NoSQL database for JavaScript apps: websites, PWAs, Electron
+    and hybrid apps."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://rxdb.info/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://rxdb.info/"
+id: 1103

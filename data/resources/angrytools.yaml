@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Ferramentas online gratuitas para web e mobile, como gerador de gradientes para navegador e Android.
-  en: Free online tools for web and mobile development, including a gradient generator for browsers and Android.
+  pt: Ferramentas online gratuitas para web e mobile, como gerador de gradientes
+    para navegador e Android.
+  en: Free online tools for web and mobile development, including a gradient
+    generator for browsers and Android.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://angrytools.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://angrytools.com/"
+id: 261

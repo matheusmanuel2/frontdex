@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Recrutamento de participantes para pesquisa de UX, com público de 6 milhões de pessoas ou sua própria base.
-  en: Participant recruiting for UX research, from an audience of 6 million people or your own panel.
+  pt: Recrutamento de participantes para pesquisa de UX, com público de 6 milhões
+    de pessoas ou sua própria base.
+  en: Participant recruiting for UX research, from an audience of 6 million people
+    or your own panel.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.userinterviews.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://www.userinterviews.com/"
+id: 1287

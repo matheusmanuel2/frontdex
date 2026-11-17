@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca de gráficos multiplataforma voltada para contar histórias com dados.
+  pt: Biblioteca de gráficos multiplataforma voltada para contar histórias com
+    dados.
   en: Cross-platform charting library aimed at data storytelling.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.visactor.io/vchart"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://www.visactor.io/vchart"
+id: 1295

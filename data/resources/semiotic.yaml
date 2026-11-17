@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Biblioteca React de visualização de dados com foco em dados em streaming e redes.
+  pt: Biblioteca React de visualização de dados com foco em dados em streaming e
+    redes.
   en: React data visualization library focused on streaming data and networks.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://semiotic.nteract.io"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://semiotic.nteract.io"
+id: 1117

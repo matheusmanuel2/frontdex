@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Primitivas headless, sem estilo e acessíveis para Svelte, base para a sua própria biblioteca de componentes.
-  en: Headless, unstyled, accessible Svelte primitives to base your own component library on.
+  pt: Primitivas headless, sem estilo e acessíveis para Svelte, base para a sua
+    própria biblioteca de componentes.
+  en: Headless, unstyled, accessible Svelte primitives to base your own component
+    library on.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.bits-ui.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://www.bits-ui.com/"
+id: 301

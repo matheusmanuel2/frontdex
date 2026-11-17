@@ -12,9 +12,13 @@ pricing: free
 open_source: true
 license: BSD-3-Clause
 description:
-  pt: Efeito de máquina de escrever em componente React, escrito em TypeScript para React 18.
+  pt: Efeito de máquina de escrever em componente React, escrito em TypeScript
+    para React 18.
   en: Typewriter effect component written in TypeScript for React 18+.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/gerardmarquinarubio/ReactTypewriter"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/gerardmarquinarubio/ReactTypewriter"
+id: 1046

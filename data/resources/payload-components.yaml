@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Instala blocos do Payload CMS num comando, com config de coleção, tipos gerados e import map para Next.js.
-  en: Install Payload CMS blocks in one command, with collection config, generated types and the import map for Next.js.
+  pt: Instala blocos do Payload CMS num comando, com config de coleção, tipos
+    gerados e import map para Next.js.
+  en: Install Payload CMS blocks in one command, with collection config, generated
+    types and the import map for Next.js.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.payload-components.xyz"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.payload-components.xyz"
+id: 811

@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Testa a velocidade da página numa conexão limitada real, com waterfall, relatório Lighthouse e Core Web Vitals.
-  en: Tests page speed on a real throttled connection, with a waterfall, Lighthouse report and Core Web Vitals.
+  pt: Testa a velocidade da página numa conexão limitada real, com waterfall,
+    relatório Lighthouse e Core Web Vitals.
+  en: Tests page speed on a real throttled connection, with a waterfall,
+    Lighthouse report and Core Web Vitals.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.debugbear.com/test/website-speed"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.debugbear.com/test/website-speed"
+id: 445

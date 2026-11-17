@@ -9,9 +9,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Gera tints e shades que batem com a saída do Chrome DevTools, Sass, Less e PostCSS.
-  en: Makes tints and shades matching the output of Chrome DevTools, Sass, Less and PostCSS.
+  pt: Gera tints e shades que batem com a saída do Chrome DevTools, Sass, Less e
+    PostCSS.
+  en: Makes tints and shades matching the output of Chrome DevTools, Sass, Less
+    and PostCSS.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, Siddharth11/Colorful. Lida: https://maketintsandshades.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools, Siddharth11/Colorful. Lida:
+  https://maketintsandshades.com/"
+id: 1245

@@ -8,9 +8,12 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Ícones de interface desenhados com cuidado, na versão Redux totalmente refeita.
+  pt: Ícones de interface desenhados com cuidado, na versão Redux totalmente
+    refeita.
   en: Carefully drawn interface icons, in the fully redone Redux version.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://pictos.cc/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://pictos.cc/"
+id: 824

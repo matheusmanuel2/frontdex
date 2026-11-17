@@ -9,9 +9,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Prototipagem de interações geradas por IA, ajustadas à mão e entregues com specs.
+  pt: Prototipagem de interações geradas por IA, ajustadas à mão e entregues com
+    specs.
   en: Prototyping where AI drafts interactions you refine and hand off with specs.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://www.protopie.io/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida:
+  https://www.protopie.io/"
+id: 849

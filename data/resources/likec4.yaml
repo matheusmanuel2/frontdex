@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Diagramas de arquitetura de software gerados a partir do código, sempre atualizados.
+  pt: Diagramas de arquitetura de software gerados a partir do código, sempre
+    atualizados.
   en: Software architecture diagrams generated from code, so they stay up to date.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://likec4.dev"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://likec4.dev"
+id: 693

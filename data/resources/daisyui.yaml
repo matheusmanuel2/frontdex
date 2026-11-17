@@ -9,9 +9,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componentes semânticos para Tailwind CSS, com temas embutidos e blocos reutilizáveis.
-  en: Semantic components for Tailwind CSS, with built-in themes and reusable blocks.
+  pt: Componentes semânticos para Tailwind CSS, com temas embutidos e blocos
+    reutilizáveis.
+  en: Semantic components for Tailwind CSS, with built-in themes and reusable
+    blocks.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems. Lida: https://daisyui.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems.
+  Lida: https://daisyui.com/"
+id: 438

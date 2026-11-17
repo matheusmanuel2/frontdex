@@ -10,9 +10,13 @@ pricing: freemium
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca de componentes React com gráficos, árvores e muitos outros widgets.
+  pt: Biblioteca de componentes React com gráficos, árvores e muitos outros
+    widgets.
   en: React component library including charts, trees and many other widgets.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://primereact.org. Redirecionava de https://primereact.org"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://primereact.org. Redirecionava
+  de https://primereact.org"
+id: 848

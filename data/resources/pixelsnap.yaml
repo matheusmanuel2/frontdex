@@ -8,9 +8,14 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Mede qualquer coisa na tela do Mac em segundos, útil para conferir distâncias e tamanhos em interfaces.
-  en: Measures anything on your Mac screen in seconds, handy for checking spacing and sizes in interfaces.
+  pt: Mede qualquer coisa na tela do Mac em segundos, útil para conferir
+    distâncias e tamanhos em interfaces.
+  en: Measures anything on your Mac screen in seconds, handy for checking spacing
+    and sizes in interfaces.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getpixelsnap.com. Redirecionava de https://getpixelsnap.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://getpixelsnap.com. Redirecionava
+  de https://getpixelsnap.com"
+id: 834

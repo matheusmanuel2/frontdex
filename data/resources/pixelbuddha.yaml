@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Recursos gráficos premium e gratuitos para designers, de mockups a materiais difíceis de achar.
-  en: Premium and free graphic resources for designers, from mockups to hard-to-find material.
+  pt: Recursos gráficos premium e gratuitos para designers, de mockups a materiais
+    difíceis de achar.
+  en: Premium and free graphic resources for designers, from mockups to
+    hard-to-find material.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://pixelbuddha.net/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://pixelbuddha.net/"
+id: 833

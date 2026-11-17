@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Gráficos de linha em ASCII para Node.js, navegador e terminal, sem dependências.
-  en: ASCII line charts for Node.js, browsers and the terminal, with no dependencies.
+  pt: Gráficos de linha em ASCII para Node.js, navegador e terminal, sem
+    dependências.
+  en: ASCII line charts for Node.js, browsers and the terminal, with no
+    dependencies.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/kroitor/asciichart"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://github.com/kroitor/asciichart"
+id: 277

@@ -11,9 +11,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Cores tradicionais chinesas em variáveis CSS, cores Tailwind, tokens DTCG, variáveis do Figma e amostras para Procreate.
-  en: Traditional Chinese colors as CSS variables, Tailwind colors, DTCG tokens, Figma Variables and Procreate swatches.
+  pt: Cores tradicionais chinesas em variáveis CSS, cores Tailwind, tokens DTCG,
+    variáveis do Figma e amostras para Procreate.
+  en: Traditional Chinese colors as CSS variables, Tailwind colors, DTCG tokens,
+    Figma Variables and Procreate swatches.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/moishinetzer/pbandj"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/moishinetzer/pbandj"
+id: 361

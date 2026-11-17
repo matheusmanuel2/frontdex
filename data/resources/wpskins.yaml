@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Mais de 2500 temas de graça para WordPress, Shopify, Webflow, Ghost, Hugo, Astro, Nuxt e outras plataformas.
-  en: Over 2,500 free themes for WordPress, Shopify, Webflow, Ghost, Hugo, Astro, Nuxt and other platforms.
+  pt: Mais de 2500 temas de graça para WordPress, Shopify, Webflow, Ghost, Hugo,
+    Astro, Nuxt e outras plataformas.
+  en: Over 2,500 free themes for WordPress, Shopify, Webflow, Ghost, Hugo, Astro,
+    Nuxt and other platforms.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://wpskins.org/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://wpskins.org/"
+id: 1342

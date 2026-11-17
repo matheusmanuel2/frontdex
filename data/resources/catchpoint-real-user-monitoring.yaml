@@ -10,9 +10,15 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Monitoramento de usuários reais para web e apps, com replay de sessão e performance por dispositivo e região.
-  en: Real user monitoring for web and mobile apps, with session replay and performance by device and region.
+  pt: Monitoramento de usuários reais para web e apps, com replay de sessão e
+    performance por dispositivo e região.
+  en: Real user monitoring for web and mobile apps, with session replay and
+    performance by device and region.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.catchpoint.com/real-user-monitoring. Redirecionava de https://www.catchpoint.com/real-user-monitoring"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida:
+  https://www.catchpoint.com/real-user-monitoring. Redirecionava de
+  https://www.catchpoint.com/real-user-monitoring"
+id: 341

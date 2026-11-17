@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Componentes acessíveis com o visual e o comportamento do design system da Adobe.
+  pt: Componentes acessíveis com o visual e o comportamento do design system da
+    Adobe.
   en: Accessible components with the look and behavior of Adobe's design system.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://react-spectrum.adobe.com/react-spectrum/index.html"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://react-spectrum.adobe.com/react-spectrum/index.html"
+id: 1017

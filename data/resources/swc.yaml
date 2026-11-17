@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Plataforma extensível escrita em Rust para compilar e minificar JavaScript, base de ferramentas de dev rápidas.
-  en: Extensible Rust-based platform for compiling and minifying JavaScript, the base for fast dev tooling.
+  pt: Plataforma extensível escrita em Rust para compilar e minificar JavaScript,
+    base de ferramentas de dev rápidas.
+  en: Extensible Rust-based platform for compiling and minifying JavaScript, the
+    base for fast dev tooling.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://swc.rs/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida: https://swc.rs/"
+id: 1206

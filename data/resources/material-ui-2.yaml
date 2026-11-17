@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca open source de componentes React que implementa o Material Design do Google, pronta para produção.
-  en: Open source React component library implementing Google's Material Design, ready for production.
+  pt: Biblioteca open source de componentes React que implementa o Material Design
+    do Google, pronta para produção.
+  en: Open source React component library implementing Google's Material Design,
+    ready for production.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://mui.com/material-ui/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  alexpate/awesome-design-systems. Lida: https://mui.com/material-ui/"
+id: 732

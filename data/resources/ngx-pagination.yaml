@@ -10,8 +10,12 @@ open_source: true
 license: MIT
 description:
   pt: Paginação para listas e tabelas em Angular, instalada com um pacote npm.
-  en: Pagination for lists and tables in Angular, installed as a single npm package.
+  en: Pagination for lists and tables in Angular, installed as a single npm
+    package.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.npmjs.com/package/ngx-pagination"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.npmjs.com/package/ngx-pagination"
+id: 782

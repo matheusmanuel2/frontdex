@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Quadros brancos e documentos para quem constrói produto, onde ideias viram planos com a equipe.
-  en: Whiteboards and docs for product builders, where ideas turn into plans with your team.
+  pt: Quadros brancos e documentos para quem constrói produto, onde ideias viram
+    planos com a equipe.
+  en: Whiteboards and docs for product builders, where ideas turn into plans with
+    your team.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://whimsical.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://whimsical.com/"
+id: 1332

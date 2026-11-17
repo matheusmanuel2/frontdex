@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Formatadores, validadores, minificadores e conversores online para JSON, XML, CSS, JavaScript e HTML.
-  en: Online formatters, validators, minifiers and converters for JSON, XML, CSS, JavaScript and HTML.
+  pt: Formatadores, validadores, minificadores e conversores online para JSON,
+    XML, CSS, JavaScript e HTML.
+  en: Online formatters, validators, minifiers and converters for JSON, XML, CSS,
+    JavaScript and HTML.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://codebeautify.org/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://codebeautify.org/"
+id: 373

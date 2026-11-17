@@ -9,9 +9,14 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Mais de 40 mil ícones SVG para UI e marketing, editáveis num app web ou via servidor MCP para agentes.
-  en: Over 40,000 SVG icons for UI and marketing, editable in a web app or through an MCP server for agents.
+  pt: Mais de 40 mil ícones SVG para UI e marketing, editáveis num app web ou via
+    servidor MCP para agentes.
+  en: Over 40,000 SVG icons for UI and marketing, editable in a web app or through
+    an MCP server for agents.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://nucleoapp.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools,
+  gztchan/awesome-design. Lida: https://nucleoapp.com/"
+id: 791

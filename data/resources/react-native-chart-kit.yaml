@@ -11,9 +11,13 @@ pricing: freemium
 open_source: true
 license: MIT
 description:
-  pt: "Gráficos para React Native: linha, área, barra, pizza, rosca, progresso e heatmaps de contribuição."
-  en: "Charts for React Native: line, area, bar, pie, donut, progress and contribution heatmaps."
+  pt: "Gráficos para React Native: linha, área, barra, pizza, rosca, progresso e
+    heatmaps de contribuição."
+  en: "Charts for React Native: line, area, bar, pie, donut, progress and
+    contribution heatmaps."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://chartkit.io"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://chartkit.io"
+id: 975

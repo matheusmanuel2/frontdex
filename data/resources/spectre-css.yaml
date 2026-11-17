@@ -9,9 +9,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Framework CSS leve com tipografia base, grid em flexbox e componentes prontos.
-  en: Lightweight CSS framework with base typography, a flexbox grid and ready components.
+  pt: Framework CSS leve com tipografia base, grid em flexbox e componentes
+    prontos.
+  en: Lightweight CSS framework with base typography, a flexbox grid and ready
+    components.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css, swyxio/spark-joy. Lida: https://picturepan2.github.io/spectre/index.html"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  awesome-css-group/awesome-css, swyxio/spark-joy. Lida:
+  https://picturepan2.github.io/spectre/index.html"
+id: 1166

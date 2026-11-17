@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Otimização de imagens pela linha de comando, incluindo AVIF, JPEG, PNG, GIF e SVG.
+  pt: Otimização de imagens pela linha de comando, incluindo AVIF, JPEG, PNG, GIF
+    e SVG.
   en: Command-line image optimization, covering AVIF, JPEG, PNG, GIF and SVG.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/343dev/optimizt"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida: https://github.com/343dev/optimizt"
+id: 803

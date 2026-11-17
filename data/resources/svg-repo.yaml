@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Mais de 500 mil vetores e ícones SVG gratuitos, mono ou coloridos, para uso comercial.
-  en: Over 500,000 free SVG vectors and icons, mono or multicolor, for commercial use.
+  pt: Mais de 500 mil vetores e ícones SVG gratuitos, mono ou coloridos, para uso
+    comercial.
+  en: Over 500,000 free SVG vectors and icons, mono or multicolor, for commercial
+    use.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://www.svgrepo.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools.
+  Lida: https://www.svgrepo.com/"
+id: 1201

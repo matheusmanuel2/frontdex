@@ -9,9 +9,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Esboce telas, ligue interações e compartilhe um protótipo clicável, sem instalar nada.
-  en: Sketch screens, wire up interactions and share a clickable prototype, no install.
+  pt: Esboce telas, ligue interações e compartilhe um protótipo clicável, sem
+    instalar nada.
+  en: Sketch screens, wire up interactions and share a clickable prototype, no
+    install.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://ninjamock.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida:
+  https://ninjamock.com/"
+id: 783

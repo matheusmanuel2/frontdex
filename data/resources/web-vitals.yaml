@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Biblioteca que mede as Core Web Vitals, as métricas essenciais da saúde de um site.
-  en: Library that measures Core Web Vitals, the essential metrics of a healthy site.
+  pt: Biblioteca que mede as Core Web Vitals, as métricas essenciais da saúde de
+    um site.
+  en: Library that measures Core Web Vitals, the essential metrics of a healthy
+    site.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://web.dev/vitals"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  davidsonfellipe/awesome-wpo. Lida: https://web.dev/vitals"
+id: 1324

@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Banco de cores, paletas, gradientes e padrões populares para usar como inspiração.
-  en: Database of popular colors, palettes, gradients and patterns to draw inspiration from.
+  pt: Banco de cores, paletas, gradientes e padrões populares para usar como
+    inspiração.
+  en: Database of popular colors, palettes, gradients and patterns to draw
+    inspiration from.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://colrd.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  Siddharth11/Colorful. Lida: https://colrd.com/"
+id: 401

@@ -11,9 +11,13 @@ pricing: freemium
 open_source: true
 license: Apache-2.0
 description:
-  pt: Transforma JSON, YAML, XML e CSV em grafos interativos para navegar pela estrutura dos dados.
-  en: Turns JSON, YAML, XML and CSV into interactive graphs so you can browse the data's structure.
+  pt: Transforma JSON, YAML, XML e CSV em grafos interativos para navegar pela
+    estrutura dos dados.
+  en: Turns JSON, YAML, XML and CSV into interactive graphs so you can browse the
+    data's structure.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://jsoncrack.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://jsoncrack.com/"
+id: 648

@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: "Versão open source do shadcn/ui para Vue: componentes cujo código você copia e adapta ao seu design system."
-  en: "Open-source Vue port of shadcn/ui: components whose code you copy and adapt to your design system."
+  pt: "Versão open source do shadcn/ui para Vue: componentes cujo código você
+    copia e adapta ao seu design system."
+  en: "Open-source Vue port of shadcn/ui: components whose code you copy and adapt
+    to your design system."
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.shadcn-vue.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.shadcn-vue.com/"
+id: 1125

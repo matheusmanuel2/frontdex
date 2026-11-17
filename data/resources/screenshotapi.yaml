@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: API que captura a viewport ou a página inteira de qualquer site em PNG, JPG, WebP ou PDF, bloqueando anúncios e banners de cookies.
-  en: API that captures the viewport or full page of any site as PNG, JPG, WebP or PDF, blocking ads and cookie banners.
+  pt: API que captura a viewport ou a página inteira de qualquer site em PNG, JPG,
+    WebP ou PDF, bloqueando anúncios e banners de cookies.
+  en: API that captures the viewport or full page of any site as PNG, JPG, WebP or
+    PDF, blocking ads and cookie banners.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://screenshotapi.net"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://screenshotapi.net"
+id: 1112

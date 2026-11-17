@@ -11,9 +11,12 @@ pricing: freemium
 open_source: true
 license: AGPL-3.0
 description:
-  pt: Visualiza métricas, logs e traces de Prometheus, Loki, Postgres e outras fontes.
+  pt: Visualiza métricas, logs e traces de Prometheus, Loki, Postgres e outras
+    fontes.
   en: Visualizes metrics, logs and traces from Prometheus, Loki, Postgres and more.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://grafana.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://grafana.com"
+id: 539

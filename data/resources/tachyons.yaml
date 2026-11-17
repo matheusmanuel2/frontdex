@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Toolkit CSS de classes utilitárias para montar interfaces responsivas e legíveis.
+  pt: Toolkit CSS de classes utilitárias para montar interfaces responsivas e
+    legíveis.
   en: CSS toolkit of utility classes for building responsive, readable interfaces.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css, troxler/awesome-css-frameworks. Lida: https://tachyons.io/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css,
+  troxler/awesome-css-frameworks. Lida: https://tachyons.io/"
+id: 1216

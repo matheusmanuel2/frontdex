@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Mapas mentais online ou no desktop, com templates e estruturas visuais para organizar ideias e planejar projetos.
-  en: Mind maps online or on desktop, with templates and visual structures to organize ideas and plan projects.
+  pt: Mapas mentais online ou no desktop, com templates e estruturas visuais para
+    organizar ideias e planejar projetos.
+  en: Mind maps online or on desktop, with templates and visual structures to
+    organize ideas and plan projects.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.xmind.net/zen/. Redirecionava de https://www.xmind.net/zen/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://www.xmind.net/zen/.
+  Redirecionava de https://www.xmind.net/zen/"
+id: 1345

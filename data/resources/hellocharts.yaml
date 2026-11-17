@@ -11,8 +11,11 @@ open_source: true
 license: Apache-2.0
 description:
   pt: Gráficos para Android compatíveis com API 8+, com zoom, rolagem e animações.
-  en: Android charts compatible with API 8+, with scaling, scrolling and animations.
+  en: Android charts compatible with API 8+, with scaling, scrolling and
+    animations.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/lecho/hellocharts-android"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://github.com/lecho/hellocharts-android"
+id: 585

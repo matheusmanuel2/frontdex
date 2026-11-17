@@ -9,9 +9,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Mais de 175 templates e temas em Bootstrap, gratuitos e pagos, responsivos e fáceis de ajustar.
-  en: Over 175 free and premium Bootstrap templates and themes, responsive and easy to adjust.
+  pt: Mais de 175 templates e temas em Bootstrap, gratuitos e pagos, responsivos e
+    fáceis de ajustar.
+  en: Over 175 free and premium Bootstrap templates and themes, responsive and
+    easy to adjust.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://bootstrapmade.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://bootstrapmade.com/"
+id: 311

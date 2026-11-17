@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Web components pequenos feitos com lit-element, prontos para qualquer framework.
-  en: Small-footprint web components built on lit-element, usable from any framework.
+  pt: Web components pequenos feitos com lit-element, prontos para qualquer
+    framework.
+  en: Small-footprint web components built on lit-element, usable from any
+    framework.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://github.com/andreasbm/weightless"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  swyxio/spark-joy. Lida: https://github.com/andreasbm/weightless"
+id: 1330

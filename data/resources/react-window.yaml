@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componentes React que renderizam listas longas e dados tabulares sem travar a tela.
+  pt: Componentes React que renderizam listas longas e dados tabulares sem travar
+    a tela.
   en: React components for rendering long lists and tabular data efficiently.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-window.vercel.app/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://react-window.vercel.app/"
+id: 1057

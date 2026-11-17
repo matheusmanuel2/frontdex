@@ -11,9 +11,13 @@ pricing: freemium
 open_source: true
 license: Apache-2.0
 description:
-  pt: Gráficos financeiros em canvas para a web, com indicadores; é o núcleo open source do Vela da LuxAlgo.
-  en: Canvas financial charts for the web with indicators; the open-source core of LuxAlgo's Vela.
+  pt: Gráficos financeiros em canvas para a web, com indicadores; é o núcleo open
+    source do Vela da LuxAlgo.
+  en: Canvas financial charts for the web with indicators; the open-source core of
+    LuxAlgo's Vela.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.vela.dev"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://www.vela.dev"
+id: 1302

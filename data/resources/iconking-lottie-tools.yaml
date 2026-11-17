@@ -9,9 +9,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Converte, reproduz e edita arquivos Lottie e SVG no navegador, sem marca d'água nem cadastro, exportando até 1080p a 30fps.
-  en: Convert, play and edit Lottie and SVG files in the browser, with no watermark or signup, exporting up to 1080p at 30fps.
+  pt: Converte, reproduz e edita arquivos Lottie e SVG no navegador, sem marca
+    d'água nem cadastro, exportando até 1080p a 30fps.
+  en: Convert, play and edit Lottie and SVG files in the browser, with no
+    watermark or signup, exporting up to 1080p at 30fps.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.iconking.net/tools"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.iconking.net/tools"
+id: 612

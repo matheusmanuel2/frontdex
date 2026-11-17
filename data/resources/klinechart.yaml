@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Gráfico de candles (k-line) leve e customizável, sem dependências e com suporte a mobile.
-  en: Lightweight, customizable k-line (candlestick) chart with zero dependencies and mobile support.
+  pt: Gráfico de candles (k-line) leve e customizável, sem dependências e com
+    suporte a mobile.
+  en: Lightweight, customizable k-line (candlestick) chart with zero dependencies
+    and mobile support.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://klinecharts.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://klinecharts.com/"
+id: 665

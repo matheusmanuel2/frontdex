@@ -8,9 +8,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Mais de 120 ilustrações open source criadas num desafio de 100 dias, para landing pages, apps e apresentações.
-  en: 120+ open source illustrations made during a 100-day challenge, for landing pages, apps and slides.
+  pt: Mais de 120 ilustrações open source criadas num desafio de 100 dias, para
+    landing pages, apps e apresentações.
+  en: 120+ open source illustrations made during a 100-day challenge, for landing
+    pages, apps and slides.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://illlustrations.co/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://illlustrations.co/"
+id: 622

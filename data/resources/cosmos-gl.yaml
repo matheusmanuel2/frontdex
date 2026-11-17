@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Layout e renderização de grafos de força na GPU com WebGL, para redes com muitos nós.
-  en: GPU force-graph layout and rendering with WebGL, for networks with many nodes.
+  pt: Layout e renderização de grafos de força na GPU com WebGL, para redes com
+    muitos nós.
+  en: GPU force-graph layout and rendering with WebGL, for networks with many
+    nodes.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://cosmos.gl"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://cosmos.gl"
+id: 409

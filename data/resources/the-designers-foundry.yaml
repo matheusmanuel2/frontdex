@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Fundição de fontes de varejo e sob medida, que também desenha lettering, logos e identidades.
-  en: Foundry for retail and custom fonts that also designs lettering, logos and branding.
+  pt: Fundição de fontes de varejo e sob medida, que também desenha lettering,
+    logos e identidades.
+  en: Foundry for retail and custom fonts that also designs lettering, logos and
+    branding.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.thedesignersfoundry.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  gztchan/awesome-design. Lida: https://www.thedesignersfoundry.com/"
+id: 1233

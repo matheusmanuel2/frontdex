@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca de componentes Vue 3 baseada no Material Design 2 e 3, para mobile e desktop.
-  en: Vue 3 component library based on Material Design 2 and 3, for mobile and desktop.
+  pt: Biblioteca de componentes Vue 3 baseada no Material Design 2 e 3, para
+    mobile e desktop.
+  en: Vue 3 component library based on Material Design 2 and 3, for mobile and
+    desktop.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://varletjs.org"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://varletjs.org"
+id: 1294

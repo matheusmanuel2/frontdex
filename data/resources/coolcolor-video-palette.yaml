@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Extrai a paleta de um vídeo inteiro, de um trecho ou de um quadro, mostrando quanto cada cor ocupa, sem upload.
-  en: Extracts a palette from a whole video, a time range or a paused frame, showing each color's share, with no upload.
+  pt: Extrai a paleta de um vídeo inteiro, de um trecho ou de um quadro, mostrando
+    quanto cada cor ocupa, sem upload.
+  en: Extracts a palette from a whole video, a time range or a paused frame,
+    showing each color's share, with no upload.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://coolcolor.space/video-palette"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://coolcolor.space/video-palette"
+id: 404

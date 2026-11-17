@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: ISC
 description:
-  pt: API concisa para visualização exploratória de dados com gramática de gráficos em camadas.
-  en: Concise API for exploratory data visualization using a layered grammar of graphics.
+  pt: API concisa para visualização exploratória de dados com gramática de
+    gráficos em camadas.
+  en: Concise API for exploratory data visualization using a layered grammar of
+    graphics.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://observablehq.github.io/plot/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://observablehq.github.io/plot/"
+id: 797

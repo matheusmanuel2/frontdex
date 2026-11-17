@@ -15,4 +15,8 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-\
+  types"
+id: 287

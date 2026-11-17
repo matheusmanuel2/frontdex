@@ -11,9 +11,12 @@ pricing: freemium
 open_source: true
 license: MIT
 description:
-  pt: Framework React para ferramentas internas, painéis de admin, dashboards e apps B2B.
+  pt: Framework React para ferramentas internas, painéis de admin, dashboards e
+    apps B2B.
   en: React framework for internal tools, admin panels, dashboards and B2B apps.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://refine.dev"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://refine.dev"
+id: 1079

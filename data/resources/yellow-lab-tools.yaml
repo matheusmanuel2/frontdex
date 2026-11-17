@@ -9,9 +9,13 @@ pricing: free
 open_source: true
 license: GPL-2.0
 description:
-  pt: Auditoria online de performance e qualidade de front-end de uma página, de código aberto.
+  pt: Auditoria online de performance e qualidade de front-end de uma página, de
+    código aberto.
   en: Open source online audit of a page's performance and front-end quality.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, davidsonfellipe/awesome-wpo. Lida: https://yellowlab.tools/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, davidsonfellipe/awesome-wpo.
+  Lida: https://yellowlab.tools/"
+id: 1351

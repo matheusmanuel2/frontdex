@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Gerenciamento de estado para React que já vem com tudo o que você precisa no dia a dia.
+  pt: Gerenciamento de estado para React que já vem com tudo o que você precisa no
+    dia a dia.
   en: State management for React with batteries included.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://keajs.org/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://keajs.org/"
+id: 658

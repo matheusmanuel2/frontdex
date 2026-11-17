@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Gráficos JavaScript com uma linha de Ruby, usando Chart.js, Google Charts ou Highcharts.
-  en: JavaScript charts from one line of Ruby, using Chart.js, Google Charts or Highcharts.
+  pt: Gráficos JavaScript com uma linha de Ruby, usando Chart.js, Google Charts ou
+    Highcharts.
+  en: JavaScript charts from one line of Ruby, using Chart.js, Google Charts or
+    Highcharts.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://chartkick.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://chartkick.com"
+id: 355

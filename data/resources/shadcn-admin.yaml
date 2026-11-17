@@ -9,9 +9,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Templates pagos de dashboard administrativo com shadcn/ui, Tailwind e TypeScript para React, Next.js e Vue.
-  en: Premium admin dashboard templates with shadcn/ui, Tailwind and TypeScript for React, Next.js and Vue.
+  pt: Templates pagos de dashboard administrativo com shadcn/ui, Tailwind e
+    TypeScript para React, Next.js e Vue.
+  en: Premium admin dashboard templates with shadcn/ui, Tailwind and TypeScript
+    for React, Next.js and Vue.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://shadcnadmin.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://shadcnadmin.com/"
+id: 1120

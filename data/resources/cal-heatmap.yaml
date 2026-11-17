@@ -10,9 +10,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Biblioteca JavaScript que desenha séries temporais como um heatmap em formato de calendário.
+  pt: Biblioteca JavaScript que desenha séries temporais como um heatmap em
+    formato de calendário.
   en: JavaScript library that draws time series as a calendar heatmap.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/wa0x6e/cal-heatmap"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://github.com/wa0x6e/cal-heatmap"
+id: 333

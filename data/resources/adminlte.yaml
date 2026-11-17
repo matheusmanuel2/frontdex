@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Template de dashboard admin open source em Bootstrap, com versões gratuita e paga.
-  en: Open-source Bootstrap admin dashboard template, with free and premium versions.
+  pt: Template de dashboard admin open source em Bootstrap, com versões gratuita e
+    paga.
+  en: Open-source Bootstrap admin dashboard template, with free and premium
+    versions.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://adminlte.io/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://adminlte.io/"
+id: 248

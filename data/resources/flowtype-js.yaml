@@ -10,9 +10,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Ajusta o font-size conforme a largura do elemento para manter a tipografia legível em qualquer tela.
-  en: Adjusts font-size to the element's width so web typography stays readable on any screen.
+  pt: Ajusta o font-size conforme a largura do elemento para manter a tipografia
+    legível em qualquer tela.
+  en: Adjusts font-size to the element's width so web typography stays readable on
+    any screen.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://simplefocus.com/flowtype/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  swyxio/spark-joy. Lida: https://simplefocus.com/flowtype/"
+id: 489

@@ -15,4 +15,7 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css, troxler/awesome-css-frameworks. Lida: https://getuikit.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css,
+  troxler/awesome-css-frameworks. Lida: https://getuikit.com/"
+id: 1273

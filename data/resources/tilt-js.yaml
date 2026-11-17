@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Efeito de tilt com parallax no hover para jQuery, a 60+ fps com requestAnimationFrame.
-  en: Parallax hover tilt effect for jQuery, running at 60+ fps on requestAnimationFrame.
+  pt: Efeito de tilt com parallax no hover para jQuery, a 60+ fps com
+    requestAnimationFrame.
+  en: Parallax hover tilt effect for jQuery, running at 60+ fps on
+    requestAnimationFrame.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://gijsroge.github.io/tilt.js/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://gijsroge.github.io/tilt.js/"
+id: 1242

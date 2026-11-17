@@ -10,9 +10,13 @@ pricing: freemium
 open_source: true
 license: MIT
 description:
-  pt: Sistema de design para React e Next.js com componentes, tokens e regras que o seu agente de código segue.
-  en: Design system for React and Next.js with components, tokens and rules your coding agent follows.
+  pt: Sistema de design para React e Next.js com componentes, tokens e regras que
+    o seu agente de código segue.
+  en: Design system for React and Next.js with components, tokens and rules your
+    coding agent follows.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://once-ui.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://once-ui.com/"
+id: 799

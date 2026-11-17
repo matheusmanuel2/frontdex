@@ -8,9 +8,14 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Agenda para React com visões de dia, semana, mês, linha do tempo e compromissos recorrentes.
-  en: React scheduler with day, week, month, timeline views and recurring appointments.
+  pt: Agenda para React com visões de dia, semana, mês, linha do tempo e
+    compromissos recorrentes.
+  en: React scheduler with day, week, month, timeline views and recurring
+    appointments.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.jqwidgets.com/react/react-scheduler/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida:
+  https://www.jqwidgets.com/react/react-scheduler/"
+id: 644

@@ -11,9 +11,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Componente de árvore acessível e sem opinião de estilo, com seleção múltipla e arrastar e soltar.
+  pt: Componente de árvore acessível e sem opinião de estilo, com seleção múltipla
+    e arrastar e soltar.
   en: Unopinionated, accessible tree component with multi-select and drag and drop.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://rct.lukasbach.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://rct.lukasbach.com"
+id: 893

@@ -11,9 +11,12 @@ pricing: free
 open_source: true
 license: Apache-2.0
 description:
-  pt: Biblioteca de visualizações de dados animadas, pensada para contar histórias com dados.
+  pt: Biblioteca de visualizações de dados animadas, pensada para contar histórias
+    com dados.
   en: Library for animated data visualizations and data stories.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://lib.vizzuhq.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://lib.vizzuhq.com"
+id: 1312

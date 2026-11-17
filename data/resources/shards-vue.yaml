@@ -10,9 +10,14 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: UI kit Vue gratuito baseado no Bootstrap 4, com um design system e dezenas de componentes.
-  en: Free Vue UI kit based on Bootstrap 4, with a design system and dozens of components.
+  pt: UI kit Vue gratuito baseado no Bootstrap 4, com um design system e dezenas
+    de componentes.
+  en: Free Vue UI kit based on Bootstrap 4, with a design system and dozens of
+    components.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://designrevision.com/downloads/shards-vue/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://designrevision.com/downloads/shards-vue/"
+id: 1129

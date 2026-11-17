@@ -8,9 +8,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Biblioteca de nomes de cor HTML e CSS com códigos HEX, RGB e HSL, prévia, geração de paletas e checagem de contraste.
-  en: Library of HTML and CSS color names with HEX, RGB and HSL codes, previews, palette generation and contrast checks.
+  pt: Biblioteca de nomes de cor HTML e CSS com códigos HEX, RGB e HSL, prévia,
+    geração de paletas e checagem de contraste.
+  en: Library of HTML and CSS color names with HEX, RGB and HSL codes, previews,
+    palette generation and contrast checks.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.htmlcsscolor.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://www.htmlcsscolor.com/"
+id: 596

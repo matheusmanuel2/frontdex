@@ -9,9 +9,14 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Mais de 300 mil ícones de bibliotecas open source, com cor e tamanho ajustáveis e exportação em SVG, PNG, JSX ou Base64.
-  en: 300,000+ icons from open source libraries, with adjustable color and size and export to SVG, PNG, JSX or Base64.
+  pt: Mais de 300 mil ícones de bibliotecas open source, com cor e tamanho
+    ajustáveis e exportação em SVG, PNG, JSX ou Base64.
+  en: 300,000+ icons from open source libraries, with adjustable color and size
+    and export to SVG, PNG, JSX or Base64.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://iconbuddy.app/. Redirecionava de https://iconbuddy.app/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://iconbuddy.app/.
+  Redirecionava de https://iconbuddy.app/"
+id: 607

@@ -9,9 +9,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Templates em HTML e CSS de graça para landing pages, blogs, portfólios, e-commerce e dashboards.
-  en: Free HTML and CSS templates for landing pages, blogs, portfolios, ecommerce and admin dashboards.
+  pt: Templates em HTML e CSS de graça para landing pages, blogs, portfólios,
+    e-commerce e dashboards.
+  en: Free HTML and CSS templates for landing pages, blogs, portfolios, ecommerce
+    and admin dashboards.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://htmlrev.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://htmlrev.com"
+id: 598

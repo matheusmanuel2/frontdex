@@ -9,9 +9,14 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Fotos e ilustrações em JPG HD para uso comercial com crédito, sob licença CC BY 4.0.
-  en: HD JPG photos and illustrations for commercial use with credit, under CC BY 4.0.
+  pt: Fotos e ilustrações em JPG HD para uso comercial com crédito, sob licença CC
+    BY 4.0.
+  en: HD JPG photos and illustrations for commercial use with credit, under CC BY
+    4.0.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://budgetpixel.com/images"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida:
+  https://budgetpixel.com/images"
+id: 322

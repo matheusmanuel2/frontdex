@@ -8,9 +8,13 @@ tags:
 pricing: freemium
 open_source: false
 description:
-  pt: Importa seus SVGs ou usa ícones grátis e exporta como fonte de ícones, SVG, PNG, PDF ou sprite.
-  en: Import your own SVGs or use free icons and export them as an icon font, SVG, PNG, PDF or sprite.
+  pt: Importa seus SVGs ou usa ícones grátis e exporta como fonte de ícones, SVG,
+    PNG, PDF ou sprite.
+  en: Import your own SVGs or use free icons and export them as an icon font, SVG,
+    PNG, PDF or sprite.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://icomoon.io/app/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://icomoon.io/app/"
+id: 603

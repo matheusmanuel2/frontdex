@@ -9,8 +9,11 @@ pricing: free
 open_source: false
 description:
   pt: Coleção de logos de marcas do mundo todo para baixar grátis em SVG ou PNG.
-  en: Collection of brand logos from around the world, free to download as SVG or PNG.
+  en: Collection of brand logos from around the world, free to download as SVG or
+    PNG.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.logo.wine/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers. Lida: https://www.logo.wine/"
+id: 702

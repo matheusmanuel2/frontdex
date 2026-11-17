@@ -11,9 +11,12 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Gráficos de linha para React Native desenhados com Skia, pensados para performance.
+  pt: Gráficos de linha para React Native desenhados com Skia, pensados para
+    performance.
   en: Graphs and charts for React Native drawn with Skia, built for performance.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://margelo.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  hal9ai/awesome-dataviz. Lida: https://margelo.com"
+id: 978

@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Hooks para estado e validação de formulários em React, funcionando na web e no React Native.
-  en: Hooks for form state and validation in React, working on the web and in React Native.
+  pt: Hooks para estado e validação de formulários em React, funcionando na web e
+    no React Native.
+  en: Hooks for form state and validation in React, working on the web and in
+    React Native.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-hook-form.com"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://react-hook-form.com"
+id: 934

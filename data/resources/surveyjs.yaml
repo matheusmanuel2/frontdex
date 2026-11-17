@@ -11,9 +11,13 @@ pricing: free
 open_source: true
 license: MIT
 description:
-  pt: Formulários dinâmicos a partir de JSON, com wizards e pesquisas, para React, Angular e Vue.
-  en: Dynamic JSON-driven forms, wizards and surveys for React, Angular, Vue and plain JS.
+  pt: Formulários dinâmicos a partir de JSON, com wizards e pesquisas, para React,
+    Angular e Vue.
+  en: Dynamic JSON-driven forms, wizards and surveys for React, Angular, Vue and
+    plain JS.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://surveyjs.io/form-library"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  brillout/awesome-react-components. Lida: https://surveyjs.io/form-library"
+id: 1193

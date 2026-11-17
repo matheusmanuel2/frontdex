@@ -8,9 +8,13 @@ tags:
 pricing: free
 open_source: false
 description:
-  pt: Fotografia gratuita em alta resolução, com busca de imagens por cor ou formato.
+  pt: Fotografia gratuita em alta resolução, com busca de imagens por cor ou
+    formato.
   en: Free high-resolution photography you can search by color or format.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://www.lifeofpix.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools,
+  gztchan/awesome-design. Lida: https://www.lifeofpix.com/"
+id: 688

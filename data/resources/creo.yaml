@@ -10,9 +10,13 @@ tags:
 pricing: paid
 open_source: false
 description:
-  pt: Construtor de apps por arrastar e soltar para iOS, macOS e Android que junta design e desenvolvimento.
-  en: Drag-and-drop app builder for iOS, macOS and Android that merges design and development.
+  pt: Construtor de apps por arrastar e soltar para iOS, macOS e Android que junta
+    design e desenvolvimento.
+  en: Drag-and-drop app builder for iOS, macOS and Android that merges design and
+    development.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: active
-notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://creolabs.com/"
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte:
+  goabstract/Awesome-Design-Tools. Lida: https://creolabs.com/"
+id: 415
