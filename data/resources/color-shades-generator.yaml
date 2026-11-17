@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Gera uma paleta de tons selecionáveis a partir de qualquer cor CSS válida.
   en: Generates a selectable palette of shades from any valid CSS color.

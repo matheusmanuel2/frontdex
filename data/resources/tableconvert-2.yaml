@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Converte tabelas entre mais de 30 formatos, como Excel, CSV, JSON, Markdown, LaTeX e SQL.
   en: Converts tables between 30+ formats, including Excel, CSV, JSON, Markdown, LaTeX and SQL.

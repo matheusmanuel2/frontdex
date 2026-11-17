@@ -7,8 +7,9 @@ tags:
   - react
   - mobile
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Componentes de UI para React Native baseados no Eva Design System.
   en: React Native UI components based on the Eva Design System.

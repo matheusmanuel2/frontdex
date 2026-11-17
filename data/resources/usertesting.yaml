@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - analytics
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Plataforma de testes com pessoas reais para embasar decisões de produto, experiência digital e UX.
   en: Testing platform with real people to inform product, digital experience and UX decisions.

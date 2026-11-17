@@ -6,8 +6,8 @@ category: design-tools
 tags:
   - illustration
   - logos
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Editor vetorial com gerador de logos por IA, remoção de fundo e conversor para SVG.
   en: Vector editor with an AI logo maker, background remover and SVG converter.

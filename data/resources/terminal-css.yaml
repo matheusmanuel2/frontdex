@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - css
   - terminal
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Framework CSS minimalista com visual de terminal.
   en: Minimal CSS framework with a terminal look.

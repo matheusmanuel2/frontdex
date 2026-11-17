@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - gradients
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Digite uma cor e receba várias paletas e esquemas que combinam com ela, além de gradientes.
   en: Enter one color and get many matching palettes and schemes, plus gradients.

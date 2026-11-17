@@ -6,7 +6,7 @@ category: design-tools
 tags:
   - web
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: "Gera ondas em SVG para layouts: escolha a curva, ajuste a complexidade e sorteie variações."
   en: "Generates SVG waves for layouts: pick a curve, tune the complexity and randomize variations."

@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - flows
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Testes de primeiro clique para achar problemas de navegação e validar decisões de design com usuários reais.
   en: First-click testing to spot navigation issues and validate design decisions with real users.

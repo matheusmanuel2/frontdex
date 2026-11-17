@@ -6,7 +6,7 @@ category: dev-tools
 tags:
   - web
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: Formatadores, validadores, minificadores e conversores online para JSON, XML, CSS, JavaScript e HTML.
   en: Online formatters, validators, minifiers and converters for JSON, XML, CSS, JavaScript and HTML.

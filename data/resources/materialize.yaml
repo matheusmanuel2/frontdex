@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Framework CSS responsivo baseado no Material Design do Google.
   en: Responsive CSS framework based on Google's Material Design.

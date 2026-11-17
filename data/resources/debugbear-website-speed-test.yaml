@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Testa a velocidade da página numa conexão limitada real, com waterfall, relatório Lighthouse e Core Web Vitals.
   en: Tests page speed on a real throttled connection, with a waterfall, Lighthouse report and Core Web Vitals.

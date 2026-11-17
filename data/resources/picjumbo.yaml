@@ -5,8 +5,8 @@ area: build
 category: assets
 tags:
   - photos
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Imagens, fundos e wallpapers gratuitos para usar em sites, templates e blogs.
   en: Free images, backgrounds and wallpapers for websites, templates and blogs.

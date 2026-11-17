@@ -5,8 +5,9 @@ area: build
 category: dev-tools
 tags:
   - icons
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Cria favicons com ícones do Font Awesome e mostra a prévia ao vivo no navegador.
   en: Creates favicons from Font Awesome icons with a live preview in the browser.

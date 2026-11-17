@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - javascript
   - accessibility
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Componentes Vue simples, modulares e acessíveis, na linha do Chakra UI.
   en: Simple, modular and accessible Vue components in the style of Chakra UI.

@@ -5,8 +5,9 @@ area: build
 category: icons
 tags:
   - icons
-pricing: TODO
+pricing: freemium
 open_source: true
+license: MPL-2.0
 description:
   pt: Ícones open source desenhados numa grade de 24x24, com foco em simplicidade, consistência e legibilidade.
   en: Open source icons drawn on a 24x24 grid, focused on simplicity, consistency and readability.

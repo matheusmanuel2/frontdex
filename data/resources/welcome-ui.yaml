@@ -7,8 +7,9 @@ tags:
   - react
   - typescript
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Design system personalizável do Welcome to the Jungle, com React, TypeScript, Tailwind CSS e Ariakit.
   en: Customizable design system from Welcome to the Jungle, built with React, TypeScript, Tailwind CSS and Ariakit.

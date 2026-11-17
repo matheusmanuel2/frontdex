@@ -5,8 +5,8 @@ area: build
 category: assets
 tags:
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Efeitos sonoros em WAV ou MP3 para uso comercial com crédito (CC BY 4.0), sem cadastro, ou gerados com IA.
   en: Sound effects in WAV or MP3 for commercial use with credit (CC BY 4.0), no sign-up, or generated with AI.

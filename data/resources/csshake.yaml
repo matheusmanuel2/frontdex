@@ -6,8 +6,9 @@ category: animation
 tags:
   - css
   - motion
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Classes CSS que fazem os elementos tremerem, com vários tipos de shake.
   en: CSS classes that shake your elements, with several kinds of shake.

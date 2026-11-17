@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - analytics
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Junta replay de sessão, analytics e rastreamento de erros para entender os problemas que afetam seus usuários.
   en: Combines session replay, product analytics and error tracking to understand problems affecting your users.

@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Software de design de sites e produtos digitais em que a equipe colabora no mesmo arquivo.
   en: Design software for websites and digital products where the whole team works in the same file.

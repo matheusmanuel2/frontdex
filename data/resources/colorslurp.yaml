@@ -6,8 +6,8 @@ category: colors
 tags:
   - macos
   - ios
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Seletor de cores para Mac e iOS que captura, edita e copia cores da tela.
   en: Color picker for Mac and iOS that picks, edits and copies colors from your screen.

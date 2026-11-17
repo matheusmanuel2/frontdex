@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=../schema.json
 name: JSONX
-url: https://repetere.github.io/jsonx/
+url: https://jsonx.net/
 repo: https://github.com/repetere/jsonx
 area: build
 category: dev-tools
 tags:
   - react
   - javascript
-pricing: TODO
+pricing: free
 open_source: true
 license: MIT
 description:
@@ -16,4 +16,4 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://repetere.github.io/jsonx/"
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://repetere.github.io/jsonx/. Redirecionava de https://repetere.github.io/jsonx/"

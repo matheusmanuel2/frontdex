@@ -7,7 +7,7 @@ tags:
   - illustration
   - web
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: Gerador de imagens de fundo em SVG para sites, blogs e apps.
   en: SVG background image generator for websites, blogs and apps.

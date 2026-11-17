@@ -6,8 +6,9 @@ category: dev-tools
 tags:
   - react
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Framework CSS-in-JS utility-first feito para React.
   en: Utility-first CSS-in-JS framework built for React.

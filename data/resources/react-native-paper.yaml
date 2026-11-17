@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - react
   - mobile
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Biblioteca Material Design para React Native que segue os padrões da especificação.
   en: Material Design library for React Native that follows the specification's standards.

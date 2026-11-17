@@ -8,6 +8,7 @@ tags:
   - motion
 pricing: free
 open_source: true
+license: MIT
 description:
   pt: Efeitos de hover com parallax 3D que funcionam no toque, open source e leves.
   en: Touch-friendly 3D parallax hover effects, open source and lightweight.

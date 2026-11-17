@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Motor de design tokens para montar o processo exato de distribuição de tokens que seu design system pede.
   en: Design token engine for building the exact token pipeline your design system needs.

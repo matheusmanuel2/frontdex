@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - flows
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Planejamento de sites com sitemap, user flows, wireframes e conteúdo no mesmo projeto.
   en: Website planning with sitemaps, user flows, wireframes and content in one project.

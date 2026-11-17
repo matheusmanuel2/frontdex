@@ -6,8 +6,9 @@ category: dev-tools
 tags:
   - css
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Sistema de estilos que a Meta usa nos próprios produtos.
   en: The styling system Meta uses in its own products.

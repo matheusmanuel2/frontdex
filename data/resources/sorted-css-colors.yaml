@@ -5,8 +5,9 @@ area: build
 category: colors
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Cores nomeadas do CSS ordenadas por matiz, saturação e luminosidade.
   en: CSS named colors sorted by hue, saturation and lightness.

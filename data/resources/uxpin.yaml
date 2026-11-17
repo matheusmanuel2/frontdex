@@ -7,7 +7,7 @@ tags:
   - design-systems
   - mockups
 pricing: freemium
-open_source: TODO
+open_source: false
 description:
   pt: Protótipos com componentes de código, lógica e estados, ligados ao seu sistema de design.
   en: Prototypes with code components, logic and states, tied to your design system.

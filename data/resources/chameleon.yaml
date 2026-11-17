@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Padrões front-end, variáveis e helpers que aplicam a identidade visual da Pusher à interface.
   en: Front-end patterns, variables and helpers that apply Pusher's visual identity to a UI.

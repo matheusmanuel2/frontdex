@@ -7,7 +7,7 @@ category: design-tools
 tags:
   - photos
 pricing: free
-open_source: TODO
+open_source: true
 license: MIT
 description:
   pt: Alternativa ao Photoshop no navegador, com camadas, máscaras, pincéis, importação e exportação de PSD.

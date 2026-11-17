@@ -5,8 +5,9 @@ area: build
 category: charts
 tags:
   - react
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Componentes de visualização da AntV para React.
   en: AntV visualization components for React.

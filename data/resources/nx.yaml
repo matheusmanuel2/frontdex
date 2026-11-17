@@ -6,8 +6,9 @@ category: dev-tools
 tags:
   - javascript
   - cli
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: true
+license: MIT
 description:
   pt: Plataforma de monorepo focada em reduzir tempos de build conforme o repositório cresce.
   en: Monorepo platform focused on keeping build times down as the repo grows.

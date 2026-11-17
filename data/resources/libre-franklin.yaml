@@ -5,8 +5,9 @@ area: build
 category: fonts
 tags:
   - typography
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: OFL-1.1
 description:
   pt: Expansão da gótica americana de Morris Fuller Benton em nove pesos, firme para interfaces e texto editorial.
   en: Expansion of Morris Fuller Benton's American gothic into nine weights, sturdy for UI and editorial text.

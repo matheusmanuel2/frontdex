@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - react
   - css
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: true
+license: MIT
 description:
   pt: Coleção de mais de 200 componentes feitos à mão com CSS, React e shadcn/ui.
   en: Collection of 200+ handcrafted components built with CSS, React and shadcn/ui.

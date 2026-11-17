@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - photos
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Remove o fundo de imagens automaticamente em cerca de 5 segundos, com um clique.
   en: Removes image backgrounds automatically in about 5 seconds with one click.

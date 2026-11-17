@@ -6,8 +6,8 @@ category: design-tools
 tags:
   - css
   - gradients
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Editor de gradientes CSS com editor de caminhos, máscaras e camadas em pastas, que exporta HTML, CSS e SVG.
   en: CSS gradient editor with a path editor, clipping masks and layer folders, exporting HTML, CSS and SVG.

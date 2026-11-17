@@ -5,8 +5,8 @@ area: build
 category: assets
 tags:
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: 61 sons de interface em CC0 divididos em 8 grupos, de cliques e toggles a transições de tela e notificações.
   en: 61 CC0 interface sounds in 8 groups, from taps and toggles to screen transitions and notifications.

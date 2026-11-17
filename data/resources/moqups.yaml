@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: App web para criar wireframes, mockups, diagramas e protótipos em colaboração.
   en: Web app for building wireframes, mockups, diagrams and prototypes together.

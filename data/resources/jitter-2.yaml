@@ -5,8 +5,8 @@ area: build
 category: animation
 tags:
   - motion
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Ferramenta colaborativa de motion design na web para criar animações em minutos.
   en: Collaborative motion design tool on the web for making animations in minutes.

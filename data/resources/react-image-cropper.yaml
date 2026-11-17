@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=../schema.json
 name: react-image-cropper
-url: https://braavos.me/react-image-cropper/
+url: https://website.tomkinschan.com/
 repo: https://github.com/flyfloor/react-image-cropper
 area: build
 category: ui-components
 tags:
   - react
   - photos
-pricing: TODO
+pricing: free
 open_source: true
 license: MIT
 description:
@@ -16,4 +16,4 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://braavos.me/react-image-cropper/"
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://braavos.me/react-image-cropper/. Redirecionava de https://braavos.me/react-image-cropper/"

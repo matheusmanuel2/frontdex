@@ -6,8 +6,8 @@ category: ai-tools
 tags:
   - figma
   - ai-agents
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Agente de IA que gera apps a partir de arquivos do Figma, URLs ou prompts, fazendo a ponte entre design e código.
   en: AI agent that generates apps from Figma files, URLs or prompts, bridging design and code.

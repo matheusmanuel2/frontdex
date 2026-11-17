@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=../schema.json
 name: react-accessible-accordion
-url: https://springload.github.io/react-accessible-accordion
+url: https://react-accessible-accordion.springload.co.nz/
 repo: https://github.com/springload/react-accessible-accordion
 area: build
 category: accessibility
 tags:
   - react
   - accessibility
-pricing: TODO
+pricing: free
 open_source: true
 license: MIT
 description:
@@ -16,4 +16,4 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://springload.github.io/react-accessible-accordion"
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://springload.github.io/react-accessible-accordion. Redirecionava de https://springload.github.io/react-accessible-accordion"

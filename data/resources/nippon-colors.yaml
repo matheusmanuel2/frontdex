@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Catálogo das cores tradicionais do Japão, cada uma com nome e valor para usar em projetos.
   en: Catalog of Japan's traditional colors, each with its name and value to use in projects.

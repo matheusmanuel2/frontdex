@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=../schema.json
 name: Grommet
-url: https://grommet.io
+url: https://v2.grommet.io/
 repo: https://github.com/grommet/grommet
 area: build
 category: ui-components
 tags:
   - react
   - accessibility
-pricing: TODO
+pricing: free
 open_source: true
 license: Apache-2.0
 description:
@@ -16,4 +16,4 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://grommet.io"
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://grommet.io. Redirecionava de https://grommet.io"

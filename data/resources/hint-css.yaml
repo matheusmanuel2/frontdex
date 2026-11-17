@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Tooltips feitos só com CSS, sem JavaScript.
   en: Tooltips made with CSS only, no JavaScript.

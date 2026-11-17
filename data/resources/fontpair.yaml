@@ -5,8 +5,8 @@ area: build
 category: fonts
 tags:
   - typography
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Mais de 3.000 pares de Google Fonts para testar com o seu próprio texto e salvar os favoritos.
   en: Over 3,000 Google Font pairings to preview with your own content and save as favorites.

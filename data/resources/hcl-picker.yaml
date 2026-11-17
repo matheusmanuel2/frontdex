@@ -5,8 +5,9 @@ area: build
 category: colors
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: BSD-3-Clause
 description:
   pt: Seletor de cores para visualização de dados que evita as cores equidistantes do HSV.
   en: Color picker for data visualization that avoids equidistant HSV colors.

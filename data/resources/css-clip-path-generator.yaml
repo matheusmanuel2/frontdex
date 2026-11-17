@@ -6,7 +6,7 @@ category: dev-tools
 tags:
   - css
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: "Editor de clip-path com prévia ao vivo: polígono, círculo, elipse, inset e curva, copiando o código em CSS ou SVG."
   en: Clip-path editor with live preview for polygon, circle, ellipse, inset and curve shapes, copying CSS or SVG code.

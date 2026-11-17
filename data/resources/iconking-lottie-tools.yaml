@@ -6,8 +6,8 @@ category: animation
 tags:
   - motion
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Converte, reproduz e edita arquivos Lottie e SVG no navegador, sem marca d'água nem cadastro, exportando até 1080p a 30fps.
   en: Convert, play and edit Lottie and SVG files in the browser, with no watermark or signup, exporting up to 1080p at 30fps.

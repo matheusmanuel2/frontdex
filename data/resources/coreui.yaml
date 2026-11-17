@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - react
   - web
-pricing: free
+pricing: freemium
 open_source: true
+license: MIT
 description:
   pt: Biblioteca de componentes e templates de dashboard para Bootstrap, React, Angular e Vue, sob licença MIT.
   en: Component library and dashboard templates for Bootstrap, React, Angular and Vue, under the MIT license.

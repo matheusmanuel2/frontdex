@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - photos
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Editor de fotos no navegador com efeitos, filtros, texto e recorte, sem instalar nada.
   en: In-browser photo editor with effects, filters, text and cropping, nothing to install.

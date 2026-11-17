@@ -6,7 +6,7 @@ category: dev-tools
 tags:
   - css
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: Monte um grid responsivo arrastando blocos e copie o CSS com as media queries já escritas.
   en: Drag out a responsive grid layout and copy the CSS with the media queries already written.

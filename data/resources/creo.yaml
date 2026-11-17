@@ -7,8 +7,8 @@ tags:
   - ios
   - android
   - macos
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Construtor de apps por arrastar e soltar para iOS, macOS e Android que junta design e desenvolvimento.
   en: Drag-and-drop app builder for iOS, macOS and Android that merges design and development.

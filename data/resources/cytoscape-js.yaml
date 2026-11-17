@@ -5,8 +5,9 @@ area: build
 category: charts
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Biblioteca de teoria dos grafos para analisar e desenhar redes, compatível com npm e JS puro.
   en: Graph theory library for analysing and drawing networks, works with npm and plain JS.

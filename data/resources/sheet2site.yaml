@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Cria um site sem código a partir de uma planilha do Google Sheets, com imagens, filtros e links.
   en: Builds a site without code from a Google Sheet, with images, filters and links.

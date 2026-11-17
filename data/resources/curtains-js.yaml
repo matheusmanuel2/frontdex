@@ -5,8 +5,9 @@ area: build
 category: animation
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Biblioteca WebGL em JavaScript puro que transforma elementos do DOM em planos texturizados interativos.
   en: Vanilla WebGL library that turns HTML DOM elements into interactive textured planes.

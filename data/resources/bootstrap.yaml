@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - css
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Toolkit front-end com grid pronto, componentes, personalização em Sass e plugins em JavaScript.
   en: Front-end toolkit with a prebuilt grid, components, Sass customization and JavaScript plugins.

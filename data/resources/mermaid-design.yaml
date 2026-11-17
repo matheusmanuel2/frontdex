@@ -6,8 +6,8 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
 license: MIT
 description:
   pt: Editor online de diagramas Mermaid com pré-visualização ao vivo, mais de 20 temas e exportação em SVG ou PNG.

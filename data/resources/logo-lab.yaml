@@ -7,7 +7,7 @@ tags:
   - logos
   - branding
 pricing: freemium
-open_source: TODO
+open_source: false
 description:
   pt: Testa o seu logo e mostra o menor tamanho em que ainda funciona e onde some em fundos claros e escuros.
   en: Tests your logo, showing the smallest size it still works at and where it vanishes on light and dark backgrounds.

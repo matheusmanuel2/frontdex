@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - gradients
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Gera a transição entre duas cores e mostra todos os tons intermediários da mistura.
   en: Generates the blend between two colors and shows every in-between shade.

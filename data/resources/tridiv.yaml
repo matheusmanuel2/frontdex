@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Editor no navegador para modelar formas 3D feitas só com CSS.
   en: Browser-based editor for modelling 3D shapes built entirely in CSS.

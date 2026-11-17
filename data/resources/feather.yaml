@@ -5,8 +5,9 @@ area: build
 category: icons
 tags:
   - icons
-pricing: TODO
+pricing: free
 open_source: true
+license: MIT
 description:
   pt: Ícones de código aberto desenhados num grid de 24x24, com foco em simplicidade e legibilidade.
   en: Open source icons drawn on a 24x24 grid, focused on simplicity and readability.

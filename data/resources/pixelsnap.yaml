@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=../schema.json
 name: PixelSnap
-url: https://getpixelsnap.com
+url: https://pixelsnap.com/
 area: build
 category: design-tools
 tags:
   - macos
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Mede qualquer coisa na tela do Mac em segundos, útil para conferir distâncias e tamanhos em interfaces.
   en: Measures anything on your Mac screen in seconds, handy for checking spacing and sizes in interfaces.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getpixelsnap.com"
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getpixelsnap.com. Redirecionava de https://getpixelsnap.com"

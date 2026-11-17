@@ -8,7 +8,8 @@ tags:
   - react
   - figma
 pricing: freemium
-open_source: TODO
+open_source: true
+license: MIT
 description:
   pt: 3.500 ícones grátis e mais de 50 mil variações Pro em SVG, PNG e JSX, para React, Vue e Figma.
   en: 3,500 free icons and 50,000+ Pro variations in SVG, PNG and JSX, for React, Vue and Figma.

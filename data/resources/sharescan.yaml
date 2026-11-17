@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Verifica tags Open Graph, imagens de preview e cards do X numa página, domínio ou sitemap.
   en: Checks Open Graph tags, preview images and X cards for a page, domain or sitemap.

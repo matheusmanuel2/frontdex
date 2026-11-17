@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - api
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: API que captura a viewport ou a página inteira de qualquer site em PNG, JPG, WebP ou PDF, bloqueando anúncios e banners de cookies.
   en: API that captures the viewport or full page of any site as PNG, JPG, WebP or PDF, blocking ads and cookie banners.

@@ -5,8 +5,8 @@ area: build
 category: assets
 tags:
   - mockups
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Transforma capturas de tela de apps e sites em imagens de mockup com moldura de dispositivo.
   en: Turns screenshots of apps and websites into device-framed mockup images.

@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - css
   - web
-pricing: freemium
+pricing: free
 open_source: true
+license: MIT
 description:
   pt: Template de dashboard admin open source em Bootstrap, com versões gratuita e paga.
   en: Open-source Bootstrap admin dashboard template, with free and premium versions.

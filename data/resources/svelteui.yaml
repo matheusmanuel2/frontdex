@@ -6,8 +6,9 @@ area: build
 category: ui-components
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: "Componentes para Svelte inspirados no Mantine: mais de 40 no pacote core, com temas por tokens e modo escuro."
   en: "Mantine-inspired Svelte components: 40+ in the core package, with token-based theming and dark mode."

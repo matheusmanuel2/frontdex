@@ -6,8 +6,8 @@ category: assets
 tags:
   - mockups
   - video
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Coloca moldura de dispositivo nas suas gravações de tela para criar mockups em vídeo.
   en: Adds a device frame to your screen recordings to create video mockups.

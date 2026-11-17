@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Teste gratuito que mede a velocidade de carregamento do site e aponta como deixá-lo mais rápido.
   en: Free test that measures your site's load speed and points out how to make it faster.

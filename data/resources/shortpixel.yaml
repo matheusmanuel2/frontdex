@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - photos
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Comprime JPG, PNG e GIF animado online, converte para WebP e AVIF e remove fundos.
   en: Online compressor for JPG, PNG and animated GIF that also converts to WebP/AVIF and removes backgrounds.

@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Tree testing para ver se as pessoas encontram o que procuram na sua navegação e quais rótulos confundem.
   en: Tree testing that shows whether people find what they need in your navigation and which labels confuse them.

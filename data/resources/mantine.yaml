@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - react
   - accessibility
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Biblioteca React com mais de 120 componentes personalizáveis, além de hooks e utilitários.
   en: React library with more than 120 customizable components, plus hooks and utilities.

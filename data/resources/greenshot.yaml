@@ -6,7 +6,8 @@ category: design-tools
 tags:
   - web
 pricing: free
-open_source: TODO
+open_source: true
+license: GPL-3.0
 description:
   pt: Ferramenta gratuita de screenshot pensada para produtividade.
   en: Free screenshot tool built for productivity.

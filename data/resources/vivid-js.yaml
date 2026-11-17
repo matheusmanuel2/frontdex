@@ -8,6 +8,7 @@ tags:
   - react
 pricing: free
 open_source: true
+license: MIT
 description:
   pt: Mais de 100 ícones SVG open source prontos para Sketch e para projetos JavaScript com React e npm.
   en: 100+ open source SVG icons ready for Sketch and for JavaScript projects with React and npm.

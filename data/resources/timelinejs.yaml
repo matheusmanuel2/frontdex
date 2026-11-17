@@ -6,7 +6,8 @@ category: charts
 tags:
   - javascript
 pricing: free
-open_source: TODO
+open_source: true
+license: MPL-2.0
 description:
   pt: Ferramenta gratuita para contar histórias em formato de linha do tempo.
   en: Free tool for telling stories as a timeline.

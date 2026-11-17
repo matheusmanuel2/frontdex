@@ -5,8 +5,8 @@ area: build
 category: ui-components
 tags:
   - react
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Agenda para React com visões de dia, semana, mês, linha do tempo e compromissos recorrentes.
   en: React scheduler with day, week, month, timeline views and recurring appointments.

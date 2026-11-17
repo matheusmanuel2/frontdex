@@ -5,8 +5,9 @@ area: build
 category: charts
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: BSD-3-Clause
 description:
   pt: Gramática declarativa para descrever, salvar e compartilhar visualizações interativas.
   en: Declarative grammar for describing, saving and sharing interactive visualizations.

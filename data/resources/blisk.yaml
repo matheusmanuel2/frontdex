@@ -6,8 +6,8 @@ category: dev-tools
 tags:
   - mobile
   - web
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Navegador para desenvolvimento com testes em vários dispositivos, hot reload, capturas e scroll sincronizado.
   en: Browser for web development with cross-device testing, hot reload, screenshots and scroll sync.

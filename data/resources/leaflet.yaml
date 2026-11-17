@@ -5,8 +5,9 @@ area: build
 category: charts
 tags:
   - javascript
-pricing: TODO
+pricing: free
 open_source: true
+license: BSD-2-Clause
 description:
   pt: Biblioteca JavaScript leve e open source para mapas interativos.
   en: Lightweight open-source JavaScript library for interactive maps.

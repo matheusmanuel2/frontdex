@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - macos
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: App de diagramas para montar fluxos, wireframes e esquemas com acabamento profissional.
   en: Diagramming app for putting together flows, wireframes and schematics with a professional finish.

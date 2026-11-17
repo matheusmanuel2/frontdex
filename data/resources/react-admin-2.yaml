@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - react
-pricing: TODO
+pricing: freemium
 open_source: true
+license: MIT
 description:
   pt: Framework open source para apps B2B no navegador sobre APIs REST ou GraphQL, com React e Material Design.
   en: Open-source framework for in-browser B2B apps on top of REST or GraphQL APIs, using React and Material Design.

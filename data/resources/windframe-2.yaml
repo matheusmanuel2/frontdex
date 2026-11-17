@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=../schema.json
 name: Windframe
-url: https://www.devwares.com/windframe/
+url: https://windframe.dev/
 area: build
 category: design-tools
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Editor visual de Tailwind CSS com mais de 1000 blocos de template editáveis.
   en: Visual Tailwind CSS editor with over 1000 editable template blocks.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.devwares.com/windframe/"
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.devwares.com/windframe/. Redirecionava de https://www.devwares.com/windframe/"

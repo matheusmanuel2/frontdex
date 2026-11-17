@@ -5,8 +5,8 @@ area: build
 category: icons
 tags:
   - icons
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Importa seus SVGs ou usa ícones grátis e exporta como fonte de ícones, SVG, PNG, PDF ou sprite.
   en: Import your own SVGs or use free icons and export them as an icon font, SVG, PNG, PDF or sprite.

@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - figma
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Envia mudanças do Figma direto para o código, sem fatiar nem exportar assets na mão.
   en: Pushes changes from Figma straight to your codebase, with no manual slicing or exporting.

@@ -6,8 +6,8 @@ category: design-tools
 tags:
   - ios
   - android
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Apps nativos para iOS e Android sem código, com um construtor de IA que cuida de design, lógica e publicação.
   en: Native iOS and Android apps without code, with an AI builder handling design, logic and publishing.

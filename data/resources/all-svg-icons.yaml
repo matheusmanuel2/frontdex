@@ -6,8 +6,8 @@ category: icons
 tags:
   - icons
   - react
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Mais de 551 mil ícones SVG de bibliotecas open source, com código SVG cru ou exportação em PNG, JSX e Base64.
   en: 551,000+ SVG icons from open source libraries, with raw SVG code or PNG, JSX and Base64 export.

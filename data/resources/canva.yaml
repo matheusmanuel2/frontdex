@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Editor gráfico online para posts, apresentações, pôsteres, vídeos e logos, com uso gratuito.
   en: Online graphic editor for social posts, presentations, posters, videos and logos, free to use.

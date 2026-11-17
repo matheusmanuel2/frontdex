@@ -6,8 +6,8 @@ category: colors
 tags:
   - gradients
   - css
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Gradientes de fundo prontos, apresentados em formato de ovo, com códigos hex e CSS.
   en: Ready-to-use background gradients shown as eggs, with hex and CSS codes.

@@ -6,8 +6,9 @@ category: dev-tools
 tags:
   - javascript
   - typescript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: Apache-2.0
 description:
   pt: Plataforma extensível escrita em Rust para compilar e minificar JavaScript, base de ferramentas de dev rápidas.
   en: Extensible Rust-based platform for compiling and minifying JavaScript, the base for fast dev tooling.

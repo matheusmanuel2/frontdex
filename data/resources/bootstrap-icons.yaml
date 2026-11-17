@@ -7,6 +7,7 @@ tags:
   - icons
 pricing: free
 open_source: true
+license: MIT
 description:
   pt: Biblioteca de ícones open source mantida pelo time do Bootstrap, grátis para qualquer projeto.
   en: Open source icon library from the Bootstrap team, free for any project.

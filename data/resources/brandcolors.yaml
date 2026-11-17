@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - branding
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Códigos hex oficiais das cores de mais de 500 marcas, como Facebook, Twitter e Instagram.
   en: Official hex color codes for more than 500 brands, such as Facebook, Twitter and Instagram.

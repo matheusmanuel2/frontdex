@@ -6,8 +6,8 @@ category: icons
 tags:
   - icons
   - motion
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Ícones animados em Rive e Lottie com cores e animação ajustáveis no navegador, prontos para React, iOS e Android.
   en: Animated icons in Rive and Lottie with colors and motion tweakable in the browser, ready for React, iOS and Android.

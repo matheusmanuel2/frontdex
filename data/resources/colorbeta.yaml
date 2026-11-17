@@ -7,7 +7,7 @@ tags:
   - css
   - gradients
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: Cria e edita gradientes CSS lineares, radiais e cônicos online.
   en: Creates and edits linear, radial and conic CSS gradients online.

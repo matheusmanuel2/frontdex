@@ -8,6 +8,7 @@ tags:
   - design-systems
 pricing: free
 open_source: true
+license: MIT
 description:
   pt: Oficina para construir componentes e páginas de UI isolados, com testes e documentação junto.
   en: Workshop for building UI components and pages in isolation, with testing and documentation alongside.

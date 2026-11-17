@@ -1,17 +1,17 @@
 # yaml-language-server: $schema=../schema.json
 name: Iconbuddy
-url: https://iconbuddy.app/
+url: https://iconbuddy.com/
 area: build
 category: icons
 tags:
   - icons
   - react
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Mais de 300 mil ícones de bibliotecas open source, com cor e tamanho ajustáveis e exportação em SVG, PNG, JSX ou Base64.
   en: 300,000+ icons from open source libraries, with adjustable color and size and export to SVG, PNG, JSX or Base64.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://iconbuddy.app/"
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://iconbuddy.app/. Redirecionava de https://iconbuddy.app/"

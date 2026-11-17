@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Inspecione, edite e pré-visualize classes Tailwind direto na página, sem trocar de ferramenta.
   en: Inspect, edit and preview Tailwind classes right on the page, without switching tools.

@@ -6,8 +6,8 @@ category: typography-tools
 tags:
   - macos
   - typography
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Gerenciador de fontes para Mac que pré-visualiza, instala e sincroniza via iCloud ou Dropbox.
   en: Mac font manager that previews, installs and syncs fonts over iCloud or Dropbox.

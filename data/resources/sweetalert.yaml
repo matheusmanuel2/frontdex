@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Substituto visual para o alert nativo do JavaScript.
   en: Styled replacement for JavaScript's native alert.

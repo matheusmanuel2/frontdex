@@ -7,7 +7,7 @@ category: charts
 tags:
   - web
 pricing: free
-open_source: TODO
+open_source: true
 license: MIT
 description:
   pt: Cria gráficos de barras, linhas e pizza direto no navegador, sem instalar nada.

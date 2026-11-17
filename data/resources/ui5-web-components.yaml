@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - web
   - design-systems
-pricing: TODO
+pricing: free
 open_source: true
+license: Apache-2.0
 description:
   pt: Componentes web open source que implementam o SAP Fiori para aplicações empresariais.
   en: Open source web components implementing SAP Fiori for enterprise web applications.

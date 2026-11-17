@@ -5,8 +5,9 @@ area: build
 category: dev-tools
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Gera o CSS de uma caixa com seta saindo de um dos lados, pronta para exportar.
   en: Generates CSS for a custom box with an arrow sticking out of one side, ready to export.

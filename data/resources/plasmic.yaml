@@ -5,8 +5,9 @@ area: build
 category: design-tools
 tags:
   - react
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: true
+license: MIT
 description:
   pt: Construtor visual de apps web, de ferramentas internas a produtos, que se integra ao seu código.
   en: Visual builder for web apps, from internal tools to products, that plugs into your codebase.

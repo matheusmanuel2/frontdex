@@ -8,7 +8,7 @@ tags:
   - gradients
   - accessibility
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: Paletas, gradientes CSS para copiar, gerador de tons e checagem de contraste num só lugar.
   en: Palettes, copy-paste CSS gradients, a shade generator and contrast checking in one place.

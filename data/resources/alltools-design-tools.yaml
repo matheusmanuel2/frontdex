@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Calculadoras de proporção, verificadores de contraste, geradores de box-shadow e outros utilitários de design.
   en: Aspect ratio calculators, contrast checkers, box shadow generators and other design utilities.

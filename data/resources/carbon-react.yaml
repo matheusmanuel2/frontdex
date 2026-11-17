@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - react
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: Apache-2.0
 description:
   pt: Componentes React reutilizáveis do Carbon, o design system da IBM, para sites e interfaces.
   en: Reusable React components from Carbon, IBM's design system, for websites and interfaces.

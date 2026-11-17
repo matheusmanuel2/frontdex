@@ -7,8 +7,8 @@ category: charts
 tags:
   - javascript
   - react
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Globos 3D e mapas-múndi em Canvas 2D sem WebGL, tiles, chave de API nem dependências.
   en: 3D globes and flat world maps on Canvas 2D with no WebGL, tiles, API key or dependencies.

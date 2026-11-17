@@ -8,6 +8,7 @@ tags:
   - react
 pricing: free
 open_source: true
+license: MIT
 description:
   pt: Mais de 200 componentes e templates Tailwind open source, já codificados para React, Angular e VueJS.
   en: Over 200 open-source Tailwind components and templates, already coded for React, Angular and VueJS.

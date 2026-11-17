@@ -5,8 +5,9 @@ area: build
 category: dev-tools
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Gerador visual de formas orgânicas feitas só com a propriedade border-radius do CSS.
   en: Visual generator for organic shapes built only with the CSS border-radius property.

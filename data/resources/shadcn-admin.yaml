@@ -7,7 +7,7 @@ tags:
   - react
   - typescript
 pricing: paid
-open_source: TODO
+open_source: false
 description:
   pt: Templates pagos de dashboard administrativo com shadcn/ui, Tailwind e TypeScript para React, Next.js e Vue.
   en: Premium admin dashboard templates with shadcn/ui, Tailwind and TypeScript for React, Next.js and Vue.

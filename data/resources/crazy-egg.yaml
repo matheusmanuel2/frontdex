@@ -6,8 +6,8 @@ category: dev-tools
 tags:
   - analytics
   - ab-testing
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Mapas de calor, gravações de sessão, pesquisas e testes A/B para ver o que visitantes fazem no site.
   en: Heatmaps, session recordings, surveys and A/B tests to see what visitors do on your site.

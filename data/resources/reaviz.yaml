@@ -1,16 +1,17 @@
 # yaml-language-server: $schema=../schema.json
 name: Reaviz
-url: https://reaviz.io
+url: https://reaviz.dev/
 area: build
 category: charts
 tags:
   - react
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: Apache-2.0
 description:
   pt: Mais de 22 componentes de visualização de dados para React.
   en: Over 22 data visualization components for React.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://reaviz.io"
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://reaviz.io. Redirecionava de https://reaviz.io"

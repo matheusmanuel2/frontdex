@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Notificações não bloqueantes, caixas de diálogo e indicadores de carregamento em JavaScript puro, sem dependências.
   en: Non-blocking notifications, popup boxes and loading indicators in plain JavaScript, with no dependencies.

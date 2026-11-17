@@ -5,8 +5,9 @@ area: build
 category: charts
 tags:
   - react
-pricing: TODO
+pricing: freemium
 open_source: true
+license: MIT
 description:
   pt: Gráfico de Gantt nativo em React com dependências entre tarefas e edição por arrastar.
   en: Native React Gantt chart with task dependencies and drag-and-drop editing.

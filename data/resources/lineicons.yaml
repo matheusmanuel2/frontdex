@@ -8,7 +8,8 @@ tags:
   - react
   - figma
 pricing: freemium
-open_source: TODO
+open_source: true
+license: MIT
 description:
   pt: Mais de 31 mil ícones de linha em SVG, PNG, React e Figma, com CDN grátis e editor de ícones.
   en: 31,000+ line icons in SVG, PNG, React and Figma, with a free CDN and an icon editor.

@@ -7,8 +7,9 @@ tags:
   - react
   - motion
   - registry
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Componentes React animados com TypeScript, Tailwind e Motion, para copiar ou instalar pelo CLI do shadcn.
   en: Animated React components with TypeScript, Tailwind and Motion, to copy or install via the shadcn CLI.

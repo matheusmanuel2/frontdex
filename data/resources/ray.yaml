@@ -6,8 +6,8 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
 license: MIT
 description:
   pt: Gera imagens do seu código com temas de sintaxe, fundo opcional e janela clara ou escura.

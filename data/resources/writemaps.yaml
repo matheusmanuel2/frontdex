@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Monte sitemaps online, com notas e conteúdo anexados a cada página, e compartilhe com a equipe.
   en: Build sitemaps online with notes and content attached to each page, then share them with your team.

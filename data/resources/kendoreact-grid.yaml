@@ -5,8 +5,8 @@ area: build
 category: ui-components
 tags:
   - react
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Grade de React com paginação, ordenação, filtros, edição e agrupamento já incluídos.
   en: React grid with paging, sorting, filtering, editing and grouping built in.

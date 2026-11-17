@@ -8,6 +8,7 @@ tags:
   - motion
 pricing: free
 open_source: true
+license: MIT
 description:
   pt: Componentes React divertidos e prontos para usar, para deixar a web menos séria.
   en: Ready-to-use playful React components to make the web fun again.

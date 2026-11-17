@@ -5,8 +5,9 @@ area: build
 category: icons
 tags:
   - icons
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Monte uma fonte de ícones sob medida escolhendo só os ícones que você vai usar.
   en: Build a custom icon font that holds only the icons you pick.

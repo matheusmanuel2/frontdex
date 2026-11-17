@@ -6,8 +6,9 @@ category: animation
 tags:
   - css
   - motion
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Spinners de carregamento simples feitos em CSS.
   en: Simple loading spinners made with pure CSS.

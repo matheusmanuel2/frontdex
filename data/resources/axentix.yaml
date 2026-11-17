@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Mistura componentes personalizáveis com classes utilitárias e deixa as decisões de design com você.
   en: Mixes customizable components with utility classes and leaves design decisions to you.

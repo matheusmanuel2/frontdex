@@ -6,8 +6,8 @@ category: design-tools
 tags:
   - mockups
   - flows
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Esboce telas, ligue interações e compartilhe um protótipo clicável, sem instalar nada.
   en: Sketch screens, wire up interactions and share a clickable prototype, no install.

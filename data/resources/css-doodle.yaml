@@ -6,8 +6,9 @@ category: animation
 tags:
   - css
   - interactive
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: "Web component para arte generativa: desenhe padrões e formas com CSS e compartilhe o resultado."
   en: "Web component for generative art: draw patterns and shapes with CSS and share what you make."

@@ -6,7 +6,7 @@ category: ai-tools
 tags:
   - web
 pricing: freemium
-open_source: TODO
+open_source: false
 description:
   pt: "Gera diagramas a partir de uma descrição em texto: mais de 16 tipos, como fluxogramas e diagramas ER."
   en: Turns a text description into a diagram, with 16+ types such as flowcharts and ER diagrams.

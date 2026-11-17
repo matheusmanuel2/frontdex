@@ -5,8 +5,9 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: Apache-2.0
 description:
   pt: Módulo para Apache, nginx, IIS ou Docker que entrega páginas já otimizadas pelo servidor.
   en: Module for Apache, nginx, IIS or Docker that serves pages already optimized by the server.

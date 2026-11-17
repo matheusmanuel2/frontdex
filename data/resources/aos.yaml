@@ -7,8 +7,9 @@ tags:
   - javascript
   - css
   - motion
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Anima elementos ao entrarem na tela durante o scroll, usando CSS3.
   en: Animates elements as they scroll into view, using CSS3.

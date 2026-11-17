@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - css
   - mobile
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Componentes de UI para mobile construídos com Tailwind CSS.
   en: Mobile UI components built with Tailwind CSS.

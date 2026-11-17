@@ -6,8 +6,8 @@ category: ui-components
 tags:
   - design-systems
   - mobile
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Sistema de design adaptável à sua marca, com bibliotecas de componentes mobile e web para Sketch.
   en: Design system that adapts to your brand, with mobile and web component libraries for Sketch.

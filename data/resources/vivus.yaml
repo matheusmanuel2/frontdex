@@ -6,8 +6,9 @@ category: animation
 tags:
   - javascript
   - motion
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Anima SVGs como se estivessem sendo desenhados.
   en: Animates SVGs as if they were being drawn.

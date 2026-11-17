@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: App de design para montar sites responsivos sobre o framework Bootstrap.
   en: Design app for building responsive websites on the Bootstrap framework.

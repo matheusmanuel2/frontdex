@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - api
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Wireframe, protótipo, teste com usuários e inspeção num só lugar, com API para integrações.
   en: Wireframing, prototyping, user testing and inspection in one place, with an API for integrations.

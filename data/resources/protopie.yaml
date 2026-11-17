@@ -6,8 +6,8 @@ category: design-tools
 tags:
   - motion
   - mockups
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Prototipagem de interações geradas por IA, ajustadas à mão e entregues com specs.
   en: Prototyping where AI drafts interactions you refine and hand off with specs.

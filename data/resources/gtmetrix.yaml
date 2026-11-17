@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Testa a velocidade do seu site com notas do Lighthouse, Core Web Vitals e recomendações.
   en: Tests your site's speed with Lighthouse scores, Core Web Vitals and recommendations.

@@ -5,8 +5,9 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: AGPL-3.0
 description:
   pt: Navegador para desenvolvimento web responsivo, feito para ajustar layouts com mais rapidez e precisão.
   en: A browser for responsive web development, built to tune layouts faster and more precisely.

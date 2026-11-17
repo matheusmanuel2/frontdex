@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - logos
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Analisa o seu logo com deep learning e aponta possíveis problemas de design.
   en: Checks your logo with deep learning and flags possible design issues.

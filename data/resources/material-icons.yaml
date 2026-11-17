@@ -6,8 +6,9 @@ category: icons
 tags:
   - react
   - icons
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Mais de 2.100 ícones Material prontos para usar como componentes React.
   en: Over 2,100 Material icons ready to use as React components.

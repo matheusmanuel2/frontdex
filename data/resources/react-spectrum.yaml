@@ -7,8 +7,9 @@ tags:
   - react
   - accessibility
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: Apache-2.0
 description:
   pt: Componentes acessíveis com o visual e o comportamento do design system da Adobe.
   en: Accessible components with the look and behavior of Adobe's design system.

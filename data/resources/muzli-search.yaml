@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Busque, descubra e teste paletas de cores para os seus projetos.
   en: Search, discover and test color palettes for your projects.

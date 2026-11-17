@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Documenta designs, mapeia fluxos e registra versões para a entrega ao desenvolvimento.
   en: Documents designs, maps user flows and tracks versions for handoff to development.

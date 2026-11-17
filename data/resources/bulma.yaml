@@ -7,6 +7,7 @@ tags:
   - css
 pricing: free
 open_source: true
+license: MIT
 description:
   pt: Framework CSS gratuito e de código aberto, baseado em Flexbox e escrito em Sass.
   en: Free, open source CSS framework based on Flexbox and built with Sass.

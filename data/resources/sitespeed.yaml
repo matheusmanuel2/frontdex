@@ -6,8 +6,9 @@ category: dev-tools
 tags:
   - cli
   - web
-pricing: TODO
+pricing: free
 open_source: true
+license: MIT
 description:
   pt: Ferramenta open source que analisa a velocidade do site com base em boas práticas de performance.
   en: Open source tool that analyzes and helps optimize site speed against web performance best practices.

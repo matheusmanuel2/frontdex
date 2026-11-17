@@ -5,8 +5,9 @@ area: build
 category: dev-tools
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: ISC
 description:
   pt: Compressor online que minifica arquivos JavaScript em até 80% do tamanho original.
   en: Online compressor that minifies JavaScript files by up to 80% of their original size.

@@ -5,8 +5,9 @@ area: build
 category: design-tools
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Editor web de design focado em CSS3 e SVG, com colaboração e editor personalizável.
   en: Web design editor focused on CSS3 and SVG, with collaboration and a customizable editor.

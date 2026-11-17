@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Geradores, exemplos e recursos de CSS e HTML para design de sites, como ribbons e cantos dobrados.
   en: CSS and HTML generators, examples and resources for web design, such as ribbons and folded corners.

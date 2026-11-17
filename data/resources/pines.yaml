@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - css
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Sliders, tooltips, modais e animações para copiar em projetos com Alpine e Tailwind, sem etapa de build.
   en: Sliders, tooltips, modals and animations to paste into Alpine and Tailwind projects, with no build step.

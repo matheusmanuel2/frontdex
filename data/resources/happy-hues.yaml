@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: "Paletas mostradas num site de exemplo real: ao clicar numa paleta, todas as cores da página mudam para você ver o uso em contexto."
   en: "Palettes shown on a real example site: click one and every color on the page updates so you see it in context."

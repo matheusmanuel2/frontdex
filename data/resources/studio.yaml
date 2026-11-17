@@ -6,8 +6,8 @@ category: design-tools
 tags:
   - portfolio
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Monta sites de portfólio e landing pages sem código e com liberdade criativa no layout.
   en: Build portfolio sites and landing pages with no code and full creative freedom over layout.

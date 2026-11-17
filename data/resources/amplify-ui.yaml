@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - react
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: Apache-2.0
 description:
   pt: Componentes React ligados à nuvem da AWS Amplify, com temas e utilitários para montar telas acessíveis.
   en: React components wired to AWS Amplify cloud features, with theming and utilities for accessible screens.

@@ -1,18 +1,18 @@
 # yaml-language-server: $schema=../schema.json
 name: Catchpoint Real User Monitoring
-url: https://www.catchpoint.com/real-user-monitoring
+url: https://www.logicmonitor.com/platform/real-user-monitoring
 area: build
 category: dev-tools
 tags:
   - analytics
   - web
   - mobile
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Monitoramento de usuários reais para web e apps, com replay de sessão e performance por dispositivo e região.
   en: Real user monitoring for web and mobile apps, with session replay and performance by device and region.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.catchpoint.com/real-user-monitoring"
+notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.catchpoint.com/real-user-monitoring. Redirecionava de https://www.catchpoint.com/real-user-monitoring"

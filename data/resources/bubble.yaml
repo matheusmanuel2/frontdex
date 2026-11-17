@@ -6,8 +6,8 @@ category: design-tools
 tags:
   - web
   - mobile
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Construtor no-code de apps web e mobile em que você edita visualmente design, banco de dados, lógica e privacidade.
   en: No-code builder for web and mobile apps where you visually edit design, database, logic and privacy rules.

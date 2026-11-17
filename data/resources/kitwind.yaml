@@ -5,8 +5,8 @@ area: build
 category: ui-components
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Marketplace de UI kits responsivos em Tailwind CSS, pensados para startups e produtos de vários tipos.
   en: Marketplace of responsive Tailwind CSS UI kits aimed at startups and products of many kinds.

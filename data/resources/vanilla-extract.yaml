@@ -6,8 +6,9 @@ category: dev-tools
 tags:
   - typescript
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Folhas de estilo escritas em TypeScript que viram CSS estático no build, sem custo em runtime.
   en: Stylesheets written in TypeScript that compile to static CSS at build time, with zero runtime.

@@ -5,8 +5,8 @@ area: build
 category: assets
 tags:
   - mockups
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Mockups com molduras de dispositivos e fundos personalizados, feitos no navegador e de graça.
   en: Mockups with device frames and custom backgrounds, made in the browser for free.

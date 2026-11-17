@@ -6,7 +6,7 @@ category: colors
 tags:
   - web
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: Extensão para Chrome, Edge e Brave com conta-gotas, seletor e gerador de paletas que você compartilha por link.
   en: Chrome, Edge and Brave extension with an eyedropper, picker and palette builder you can share by link.

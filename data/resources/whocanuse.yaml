@@ -5,8 +5,9 @@ area: build
 category: accessibility
 tags:
   - accessibility
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Mostra como um par de cores aparece para pessoas com diferentes deficiências visuais, para avaliar contraste além da nota.
   en: Shows how a color pair reads for people with different visual impairments, so contrast goes beyond a score.

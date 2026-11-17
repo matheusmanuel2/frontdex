@@ -6,8 +6,9 @@ category: dev-tools
 tags:
   - web
   - android
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Pré-visualiza ícones maskable de PWA no navegador para ver como ficam em cada recorte.
   en: Previews maskable PWA icons in the browser so you see how they look under each mask.

@@ -5,8 +5,9 @@ area: build
 category: fonts
 tags:
   - typography
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: OFL-1.1
 description:
   pt: Fonte variável com versões Sans e Mono, flexível para design, código e interfaces.
   en: Variable font with Sans and Mono styles, flexible enough for design, code and UI.

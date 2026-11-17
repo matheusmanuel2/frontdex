@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Testes de usabilidade remotos, moderados ou não, em sites, designs e protótipos.
   en: Remote moderated and unmoderated usability tests on websites, designs and prototypes.

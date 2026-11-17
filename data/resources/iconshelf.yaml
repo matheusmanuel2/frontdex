@@ -5,8 +5,8 @@ area: build
 category: icons
 tags:
   - icons
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Ícones de coleções como Material Design, Feather e Heroicons reunidos num só lugar para baixar em SVG e PNG.
   en: Icons from collections like Material Design, Feather and Heroicons gathered in one place to download as SVG and PNG.

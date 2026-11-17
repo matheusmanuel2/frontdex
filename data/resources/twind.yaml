@@ -6,8 +6,9 @@ category: dev-tools
 tags:
   - css
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: "Tailwind em JavaScript: gera os estilos em tempo de execução, sem etapa de build."
   en: Tailwind-in-JS that generates styles at runtime, no build step.

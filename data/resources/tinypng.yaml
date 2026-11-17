@@ -6,8 +6,8 @@ category: dev-tools
 tags:
   - photos
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Compressão com perdas de AVIF, JPEG XL, WebP, PNG e JPEG para sites mais leves.
   en: Lossy compression for AVIF, JPEG XL, WebP, PNG and JPEG to lighten websites.

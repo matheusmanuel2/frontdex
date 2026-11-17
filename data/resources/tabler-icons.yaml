@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 name: Tabler Icons
-url: https://tabler-icons.io/
+url: https://tabler.io/icons
 area: build
 category: icons
 tags:
@@ -9,10 +9,11 @@ tags:
   - figma
 pricing: free
 open_source: true
+license: MIT
 description:
   pt: Mais de 6.500 ícones SVG open source com tamanho, cor e traço ajustáveis, para React, SolidJS, Vue e Figma.
   en: 6,500+ open source SVG icons with adjustable size, color and stroke, for React, SolidJS, Vue and Figma.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://tabler-icons.io/"
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://tabler-icons.io/. Redirecionava de https://tabler-icons.io/"

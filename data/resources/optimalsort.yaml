@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Card sorting aberto, fechado ou híbrido para descobrir como as pessoas agrupam e nomeiam o seu conteúdo.
   en: Open, closed or hybrid card sorts to learn how people group and label your content.

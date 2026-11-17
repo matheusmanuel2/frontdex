@@ -7,7 +7,7 @@ tags:
   - icons
   - web
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: Cria favicons em SVG e PNG a partir de uma letra ou de um emoji, direto no navegador.
   en: Makes SVG and PNG favicons from a letter or an emoji, right in the browser.

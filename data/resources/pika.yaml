@@ -5,8 +5,8 @@ area: build
 category: assets
 tags:
   - mockups
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Deixa capturas de tela apresentáveis com fundos, molduras de navegador, sombras e texto.
   en: Dresses up screenshots with backgrounds, browser frames, shadows and text.

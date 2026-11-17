@@ -6,8 +6,9 @@ category: charts
 tags:
   - javascript
   - market-data
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: "Gráficos financeiros sobre D3: candlestick, OHLC, indicadores e análise técnica."
   en: "Financial charts on D3: candlestick, OHLC, indicators and technical analysis."

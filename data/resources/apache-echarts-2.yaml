@@ -5,8 +5,9 @@ area: build
 category: charts
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: Apache-2.0
 description:
   pt: Biblioteca de gráficos e visualização interativa para o navegador.
   en: Interactive charting and visualization library for the browser.

@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - css
   - accessibility
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Plugin do Tailwind com componentes acessíveis e reutilizáveis para as peças mais comuns de aplicações web.
   en: Tailwind plugin with accessible, reusable components for the pieces web applications use most.

@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: "Framework sem classes: você escreve HTML semântico e ele já sai com estilo."
   en: "Classless framework: write semantic HTML and it comes out styled."

@@ -5,8 +5,9 @@ area: build
 category: dev-tools
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Mostra quanto um pacote npm pesa e o impacto dele no bundle antes de você instalar.
   en: Shows how much an npm package weighs and its impact on your frontend bundle before you install it.

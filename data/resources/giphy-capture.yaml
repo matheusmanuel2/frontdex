@@ -7,7 +7,7 @@ tags:
   - macos
   - video
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: Grava um trecho da tela do Mac e transforma em GIF.
   en: Records part of your Mac screen and turns it into a GIF.

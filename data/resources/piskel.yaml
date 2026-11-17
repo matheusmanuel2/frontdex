@@ -7,6 +7,7 @@ tags:
   - illustration
 pricing: free
 open_source: true
+license: Apache-2.0
 description:
   pt: Editor de sprites no navegador para criar pixel art, sprites de jogos e GIFs animados.
   en: Browser-based sprite editor for pixel art, game sprites and animated GIFs.

@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Framework CSS leve construído sobre custom properties, fácil de ajustar ao seu projeto.
   en: Lightweight CSS framework built on custom properties, easy to tune to your project.

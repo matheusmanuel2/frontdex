@@ -6,8 +6,9 @@ category: colors
 tags:
   - gradients
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Gradientes escolhidos a dedo para copiar como CSS ou baixar como imagem.
   en: Hand-picked gradients to copy as CSS or download as an image.

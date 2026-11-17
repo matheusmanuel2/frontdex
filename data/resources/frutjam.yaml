@@ -7,7 +7,8 @@ tags:
   - css
   - accessibility
 pricing: free
-open_source: TODO
+open_source: true
+license: MIT
 description:
   pt: Mais de 65 componentes em Tailwind v4 só com CSS, WCAG AA/AAA e sem JavaScript, para qualquer stack.
   en: 65+ CSS-only Tailwind v4 components, WCAG AA/AAA and zero JavaScript, for any stack.

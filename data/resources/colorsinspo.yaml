@@ -7,7 +7,7 @@ tags:
   - css
   - gradients
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: Paletas e gradientes para explorar, com extração de cores de imagens, checagem de contraste e escalas para Tailwind CSS.
   en: Palettes and gradients to browse, plus image color extraction, contrast checks and Tailwind CSS scales.

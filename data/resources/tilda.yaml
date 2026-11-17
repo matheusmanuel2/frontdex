@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Construtor de sites, lojas e landing pages com centenas de templates prontos, sem código.
   en: Website, store and landing page builder with hundreds of pre-designed templates, no code required.

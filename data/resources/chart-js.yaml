@@ -5,8 +5,9 @@ area: build
 category: charts
 tags:
   - javascript
-pricing: TODO
+pricing: free
 open_source: true
+license: MIT
 description:
   pt: Biblioteca JavaScript de gráficos em HTML5, de código aberto e simples de começar.
   en: Open source JavaScript library for HTML5 charts, simple to get started with.

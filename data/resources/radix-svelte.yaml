@@ -7,8 +7,9 @@ tags:
   - javascript
   - accessibility
   - design-systems
-pricing: TODO
+pricing: free
 open_source: true
+license: MIT
 description:
   pt: Biblioteca open source de componentes Svelte para construir design systems e apps acessíveis.
   en: Open-source Svelte component library for building accessible design systems and web apps.

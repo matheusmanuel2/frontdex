@@ -7,8 +7,8 @@ category: animation
 tags:
   - motion
   - interactive
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
 license: MIT
 description:
   pt: Motor 2D e 3D para jogos, apps e UI interativa, por trás do Duolingo e do Spotify Wrapped.

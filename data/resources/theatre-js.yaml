@@ -6,8 +6,9 @@ category: animation
 tags:
   - javascript
   - motion
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: Apache-2.0
 description:
   pt: Editor de animação com interface visual para a web.
   en: Animation editor with a visual interface for the web.

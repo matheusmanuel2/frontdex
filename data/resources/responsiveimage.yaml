@@ -6,8 +6,9 @@ category: dev-tools
 tags:
   - javascript
   - photos
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Biblioteca JavaScript para imagens responsivas, com WebP, AVIF, placeholders LQIP e CDNs de imagem em vários frameworks.
   en: JavaScript library for responsive images across frameworks, with WebP, AVIF, LQIP placeholders and image CDNs.

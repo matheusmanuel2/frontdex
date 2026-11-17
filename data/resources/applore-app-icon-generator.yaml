@@ -7,8 +7,8 @@ tags:
   - ios
   - android
   - mobile
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: "Transforma uma imagem de 1024 px em todos os tamanhos: AppIcon do Xcode, ícones adaptativos do Android, favicon e PWA."
   en: "Turns one 1024 px image into every size: Xcode AppIcon set, Android adaptive icons, favicon and PWA icons."

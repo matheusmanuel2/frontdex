@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - javascript
   - react
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: Apache-2.0
 description:
   pt: "Um tema só para vários frameworks: Lit, JavaScript puro, React, Vue e Svelte."
   en: "One theme across frameworks: Lit, vanilla JS, React, Vue and Svelte."

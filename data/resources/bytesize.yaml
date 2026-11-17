@@ -6,8 +6,9 @@ category: icons
 tags:
   - icons
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Iconset minúsculo em SVG cujo estilo, como espessura do traço, é controlado por CSS.
   en: Tiny SVG iconset whose style, such as stroke width, is controlled from CSS.

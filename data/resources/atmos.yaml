@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Gerador de paletas para designers de UI, com tons uniformes e escalas de cor.
   en: Color palette generator for UI designers, with uniform shades and color scales.

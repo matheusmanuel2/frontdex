@@ -6,7 +6,7 @@ category: colors
 tags:
   - ai-agents
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: Gera paletas a partir de um humor, marca, nome, código hex ou imagem.
   en: Generates palettes from a mood, brand, name, hex code or image.

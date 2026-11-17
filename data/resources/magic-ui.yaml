@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - react
   - motion
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: true
+license: MIT
 description:
   pt: Componentes e templates animados voltados para landing pages.
   en: Animated components and templates aimed at landing pages.

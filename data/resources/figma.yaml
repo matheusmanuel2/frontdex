@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - figma
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Canvas colaborativo onde design, código e IA ficam juntos, da primeira ideia ao produto pronto.
   en: Collaborative canvas where design, code and AI sit together, from first idea to shipped product.

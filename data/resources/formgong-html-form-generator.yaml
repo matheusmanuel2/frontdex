@@ -5,8 +5,8 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Gera um formulário HTML simples com labels, campos obrigatórios e honeypot, sem classes de framework nem JS.
   en: Writes a plain HTML form with labels, required fields and a honeypot, no framework classes and no JavaScript.

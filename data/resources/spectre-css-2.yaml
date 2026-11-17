@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Framework CSS leve com estilos base para tipografia, grid responsivo em flexbox e componentes puros em CSS.
   en: Lightweight CSS framework with base typography styles, a flexbox responsive grid and pure CSS components.

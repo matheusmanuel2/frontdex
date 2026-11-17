@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=../schema.json
 name: globe.gl
-url: https://vasturiano.github.io/globe.gl/example/world-population/
+url: https://globe.gl/example/world-population/
 repo: https://github.com/vasturiano/globe.gl
 area: build
 category: charts
 tags:
   - javascript
-pricing: TODO
+pricing: free
 open_source: true
 license: MIT
 description:
@@ -15,4 +15,4 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vasturiano.github.io/globe.gl/example/world-population/"
+notes: "Rascunho do scout (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vasturiano.github.io/globe.gl/example/world-population/. Redirecionava de https://vasturiano.github.io/globe.gl/example/world-population/"

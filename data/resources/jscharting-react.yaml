@@ -6,8 +6,8 @@ area: build
 category: charts
 tags:
   - react
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Plugin React oficial do JSCharting, com exemplos prontos de gráficos para copiar.
   en: Official JSCharting plugin for React, with ready chart examples to copy.

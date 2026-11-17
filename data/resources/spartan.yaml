@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - typescript
   - accessibility
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Stack full-stack para Angular com AnalogJs e uma biblioteca de UI acessível, a spartan/ui.
   en: Full-stack Angular stack with AnalogJs and an accessible UI library, spartan/ui.

@@ -8,7 +8,7 @@ tags:
   - figma
   - mcp
 pricing: freemium
-open_source: TODO
+open_source: false
 description:
   pt: Mais de 1100 blocos shadcn/ui, templates, kit Figma, gerador de tema e servidor MCP numa assinatura com plano grátis.
   en: Over 1,100 shadcn/ui blocks, templates, a Figma kit, theme generator and MCP server in one subscription with a free tier.

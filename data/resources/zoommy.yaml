@@ -5,8 +5,8 @@ area: build
 category: assets
 tags:
   - photos
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Busca fotos de stock gratuitas num só lugar, num acervo de mais de 200 mil imagens.
   en: Searches free stock photos in one place, across more than 200,000 images.

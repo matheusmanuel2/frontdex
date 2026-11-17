@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - react
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Componentes React para construir sites com o framework CSS Bulma.
   en: React components for building websites with the Bulma CSS framework.

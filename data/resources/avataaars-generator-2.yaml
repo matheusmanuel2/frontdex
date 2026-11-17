@@ -6,7 +6,8 @@ category: assets
 tags:
   - illustration
 pricing: free
-open_source: TODO
+open_source: true
+license: MIT
 description:
   pt: Monte avatares ilustrados no navegador, trocando as peças até chegar no personagem que você quer.
   en: Build illustrated avatars in the browser by swapping parts until you get the character you want.

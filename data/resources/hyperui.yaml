@@ -9,6 +9,7 @@ tags:
   - ai-agents
 pricing: free
 open_source: true
+license: MIT
 description:
   pt: Componentes Tailwind open source revisados para acessibilidade, RTL e modo escuro, com Markdown e llms.txt para agentes.
   en: Open-source Tailwind components checked for accessibility, RTL and dark mode, with Markdown and llms.txt for agents.

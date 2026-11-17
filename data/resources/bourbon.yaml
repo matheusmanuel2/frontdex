@@ -5,8 +5,9 @@ area: build
 category: dev-tools
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Conjunto leve de ferramentas para quem escreve Sass.
   en: Lightweight tool set for writing Sass stylesheets.

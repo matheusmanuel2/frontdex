@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Construtor de sites com agente de design que leva da ideia ao ar, com hospedagem, CMS e analytics incluídos.
   en: Website builder with a design agent that goes from idea to launch, with hosting, CMS and analytics built in.

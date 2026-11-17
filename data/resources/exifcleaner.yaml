@@ -6,7 +6,8 @@ category: dev-tools
 tags:
   - photos
 pricing: free
-open_source: TODO
+open_source: true
+license: MIT
 description:
   pt: Remove os metadados EXIF de fotos, vídeos e PDFs antes de você publicar ou compartilhar.
   en: Strips EXIF metadata from photos, videos and PDFs before you publish or share them.

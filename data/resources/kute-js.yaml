@@ -6,8 +6,9 @@ category: animation
 tags:
   - javascript
   - motion
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Motor de animação em JavaScript com transformações 3D, morph e desenho de SVG e animação no scroll.
   en: JavaScript animation engine with 3D transforms, SVG morph and draw, and scroll animation.

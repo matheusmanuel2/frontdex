@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - illustration
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Editor de pixel art e animação no navegador, que abre arquivos do Aseprite e trabalha com camadas e frames.
   en: Pixel art and animation editor in the browser that opens Aseprite files and handles layers and frames.

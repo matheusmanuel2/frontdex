@@ -6,8 +6,8 @@ category: dev-tools
 tags:
   - web
   - interactive
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Editor de código online para criar, compartilhar e publicar projetos, com colaboração em tempo real.
   en: Online code editor to build, share and deploy projects, with realtime collaboration.

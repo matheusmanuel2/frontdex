@@ -7,8 +7,9 @@ tags:
   - javascript
   - accessibility
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Componentes acessíveis para Svelte cujo código você copia e adapta para montar sua própria biblioteca.
   en: Accessible Svelte components whose code you copy and adapt to build your own library.

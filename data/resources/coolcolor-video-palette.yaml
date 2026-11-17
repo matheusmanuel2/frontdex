@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - video
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Extrai a paleta de um vídeo inteiro, de um trecho ou de um quadro, mostrando quanto cada cor ocupa, sem upload.
   en: Extracts a palette from a whole video, a time range or a paused frame, showing each color's share, with no upload.

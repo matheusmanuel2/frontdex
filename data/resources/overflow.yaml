@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - flows
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: User flows interativos e apresentações de design para críticas ao vivo ou assíncronas.
   en: Interactive user flows and design presentations for live or async critique.

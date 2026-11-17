@@ -5,8 +5,9 @@ area: build
 category: icons
 tags:
   - icons
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Coleção agregada de ícones SVG de vários sets, reunidos em um só lugar.
   en: Aggregated collection of SVG icons from many sets, gathered in one place.

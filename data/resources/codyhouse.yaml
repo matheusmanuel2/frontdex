@@ -6,8 +6,8 @@ category: ui-components
 tags:
   - css
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Componentes e ferramentas prontos para produção, voltados a web designers.
   en: Production-ready components and tools aimed at web designers.

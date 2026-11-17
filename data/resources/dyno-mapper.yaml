@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Gera sitemaps visuais a partir da estrutura do site para planejar a arquitetura e o conteúdo.
   en: Builds visual sitemaps from a site's structure to plan its architecture and content.

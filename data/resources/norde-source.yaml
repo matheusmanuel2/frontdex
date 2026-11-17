@@ -5,8 +5,8 @@ area: build
 category: icons
 tags:
   - icons
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: App que reúne mais de 75 mil ícones em 18 sets, deixa recolorir para a sua marca e exporta para SVG, PNG, WebP ou Vue.
   en: App bundling 75,000+ icons across 18 sets that lets you recolor them for your brand and export to SVG, PNG, WebP or Vue.

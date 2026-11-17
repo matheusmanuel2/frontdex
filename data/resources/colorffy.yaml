@@ -6,8 +6,8 @@ category: colors
 tags:
   - css
   - gradients
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Gera paletas, gradientes e temas de UI com saída em CSS, tudo num só conjunto de ferramentas de cor.
   en: Generates palettes, gradients and UI themes with CSS output, all in one set of color tools.

@@ -6,8 +6,9 @@ category: charts
 tags:
   - javascript
   - motion
-pricing: TODO
+pricing: free
 open_source: true
+license: Apache-2.0
 description:
   pt: Biblioteca open source para visualizações de dados animadas e histórias com dados.
   en: Open-source JavaScript library for animated data visualizations and data stories.

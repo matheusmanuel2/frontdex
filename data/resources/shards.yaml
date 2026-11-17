@@ -6,7 +6,8 @@ category: ui-components
 tags:
   - css
 pricing: free
-open_source: TODO
+open_source: true
+license: MIT
 description:
   pt: UI kit para Bootstrap 4 com 2 landing pages e 11 componentes próprios.
   en: Bootstrap 4 UI kit with 2 landing pages and 11 extra custom components.

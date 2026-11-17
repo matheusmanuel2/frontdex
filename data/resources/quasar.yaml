@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - javascript
   - mobile
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Framework Vue que gera site, PWA, SSR, SSG, extensão, app mobile e desktop a partir de um só código.
   en: Vue framework that builds sites, PWAs, SSR, SSG, extensions, mobile and desktop apps from one codebase.

@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Framework CSS utility-first que gera as classes sob demanda.
   en: Utility-first CSS framework that generates classes on demand.

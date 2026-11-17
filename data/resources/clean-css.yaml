@@ -6,8 +6,8 @@ category: dev-tools
 tags:
   - css
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Formata e minifica CSS, HTML e JavaScript online para ler ou comprimir seu código.
   en: Formats and minifies CSS, HTML and JavaScript online, for reading or compressing your code.

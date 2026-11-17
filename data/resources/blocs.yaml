@@ -6,8 +6,8 @@ category: design-tools
 tags:
   - macos
   - ios
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Editor visual para Mac e iPad que cria sites responsivos e temas WordPress sem escrever código.
   en: Visual web design app for Mac and iPad that builds responsive sites and WordPress themes without code.

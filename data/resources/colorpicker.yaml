@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=../schema.json
 name: Colorpicker
-url: https://designstripe.com/catalog
+url: https://visual.app/assets
 area: build
 category: colors
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: App de desktop para gerenciar cores e capturar qualquer cor que esteja na tela.
   en: Desktop app for managing colors and picking any color on your screen.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://designstripe.com/catalog"
+notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://designstripe.com/catalog. Redirecionava de https://designstripe.com/catalog"

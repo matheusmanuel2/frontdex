@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - react
   - ai-agents
-pricing: TODO
+pricing: freemium
 open_source: true
+license: MIT
 description:
   pt: Sistema de design para React e Next.js com componentes, tokens e regras que o seu agente de código segue.
   en: Design system for React and Next.js with components, tokens and rules your coding agent follows.

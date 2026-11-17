@@ -5,8 +5,9 @@ area: build
 category: dev-tools
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: true
+license: Apache-2.0
 description:
   pt: "Banco NoSQL local-first para apps JavaScript: sites, PWAs, Electron e apps híbridos."
   en: "Local-first NoSQL database for JavaScript apps: websites, PWAs, Electron and hybrid apps."

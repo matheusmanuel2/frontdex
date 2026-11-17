@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=../schema.json
 name: react-intersection-observer
-url: https://rio.thebuilder.dk
+url: https://react-intersection-observer.thebuilder.dk/
 repo: https://github.com/thebuilder/react-intersection-observer
 area: build
 category: ui-components
 tags:
   - react
-pricing: TODO
+pricing: free
 open_source: true
 license: MIT
 description:
@@ -15,4 +15,4 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://rio.thebuilder.dk"
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://rio.thebuilder.dk. Redirecionava de https://rio.thebuilder.dk"

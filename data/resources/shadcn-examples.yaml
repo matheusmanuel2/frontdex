@@ -6,8 +6,8 @@ category: ui-components
 tags:
   - react
   - typescript
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Exemplos, componentes e blocos shadcn/ui com Tailwind, para Next.js, React e Vue, compatíveis com TypeScript.
   en: shadcn/ui examples, components and blocks with Tailwind, for Next.js, React and Vue, TypeScript compatible.

@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - javascript
   - accessibility
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Primitivas headless, sem estilo e acessíveis para Svelte, base para a sua própria biblioteca de componentes.
   en: Headless, unstyled, accessible Svelte primitives to base your own component library on.

@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - javascript
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Biblioteca de componentes para sites reativos, do protótipo à produção.
   en: Component library for reactive websites, from prototype to production.

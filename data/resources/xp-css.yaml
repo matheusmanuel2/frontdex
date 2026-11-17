@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - css
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Sistema de design em CSS para recriar interfaces antigas no estilo do Windows XP.
   en: CSS design system for recreating old interfaces in the Windows XP style.

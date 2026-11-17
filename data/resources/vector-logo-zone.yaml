@@ -5,8 +5,9 @@ area: build
 category: brand-apis
 tags:
   - logos
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: AGPL-3.0
 description:
   pt: Logos em SVG pensados para README e páginas de créditos.
   en: SVG logos made for READMEs and credits pages.

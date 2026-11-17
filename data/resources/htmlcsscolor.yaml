@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Biblioteca de nomes de cor HTML e CSS com códigos HEX, RGB e HSL, prévia, geração de paletas e checagem de contraste.
   en: Library of HTML and CSS color names with HEX, RGB and HSL codes, previews, palette generation and contrast checks.

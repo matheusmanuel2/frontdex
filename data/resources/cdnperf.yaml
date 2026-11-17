@@ -6,8 +6,8 @@ category: dev-tools
 tags:
   - analytics
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Compara CDNs por performance e uptime com dados de usuários reais, no mundo ou por país.
   en: Compares CDN providers by performance and uptime using real user data, worldwide or per country.

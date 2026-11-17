@@ -6,8 +6,9 @@ category: typography-tools
 tags:
   - typography
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Ajusta o font-size conforme a largura do elemento para manter a tipografia legível em qualquer tela.
   en: Adjusts font-size to the element's width so web typography stays readable on any screen.

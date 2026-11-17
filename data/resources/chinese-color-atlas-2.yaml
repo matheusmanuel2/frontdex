@@ -6,8 +6,9 @@ category: colors
 tags:
   - css
   - branding
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: true
+license: MIT
 description:
   pt: Cores tradicionais chinesas em variáveis CSS, cores Tailwind, tokens DTCG e variáveis do Figma.
   en: Traditional Chinese colors as CSS variables, Tailwind colors, DTCG tokens and Figma Variables.

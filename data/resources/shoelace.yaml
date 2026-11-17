@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Biblioteca de web components, custom elements feitos à mão que funcionam em qualquer projeto.
   en: "A library of web components: hand-crafted custom elements for any project."

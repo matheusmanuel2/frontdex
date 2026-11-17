@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - flows
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Quadros brancos e documentos para quem constrói produto, onde ideias viram planos com a equipe.
   en: Whiteboards and docs for product builders, where ideas turn into plans with your team.

@@ -5,8 +5,8 @@ area: build
 category: charts
 tags:
   - analytics
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Cria gráficos, mapas e infográficos interativos para compartilhar e incorporar em qualquer página.
   en: Builds interactive charts, maps and infographics to share and embed on any page.

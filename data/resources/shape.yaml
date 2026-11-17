@@ -7,8 +7,8 @@ tags:
   - icons
   - illustration
   - react
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Ícones e ilustrações estáticos ou animados com estilo, cores e borda ajustáveis, exportados para React, SVG e Lottie.
   en: Static and animated icons and illustrations with adjustable style, colors and border, exported to React, SVG and Lottie.

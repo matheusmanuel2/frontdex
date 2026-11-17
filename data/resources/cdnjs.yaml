@@ -8,6 +8,7 @@ tags:
   - css
 pricing: free
 open_source: true
+license: MIT
 description:
   pt: CDN gratuita e open source com as bibliotecas JS, CSS e fontes mais usadas, em cache na rede da Cloudflare.
   en: Free, open source CDN for popular JavaScript, CSS and font libraries, cached on Cloudflare's network.

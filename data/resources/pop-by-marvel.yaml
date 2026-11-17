@@ -6,8 +6,8 @@ category: design-tools
 tags:
   - ios
   - android
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Transforma esboços em papel em protótipos interativos para iPhone, iPad, Apple Watch, Apple TV e Android.
   en: Turns paper sketches into interactive prototypes for iPhone, iPad, Apple Watch, Apple TV and Android.

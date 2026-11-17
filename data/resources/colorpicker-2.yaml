@@ -5,8 +5,9 @@ area: build
 category: colors
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: GPL-3.0
 description:
   pt: App de desktop para gestão de cores que captura qualquer cor visível na tela.
   en: Desktop color management app that picks any color visible on your screen.

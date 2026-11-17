@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - react
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Componente de toast para React com opiniões fortes sobre comportamento e visual.
   en: Toast component for React, opinionated about behavior and looks.

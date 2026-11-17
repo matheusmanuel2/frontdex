@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Construtor online grátis de sites e landing pages responsivas, que publica na hora ou exporta o código.
   en: Free online builder for responsive sites and landing pages that publishes instantly or exports the code.

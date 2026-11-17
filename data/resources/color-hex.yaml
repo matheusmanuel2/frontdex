@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Consulta de códigos de cor com modelos RGB, HSL, HSV e CMYK e os valores prontos para CSS e HTML.
   en: Color code lookup with RGB, HSL, HSV and CMYK models and values ready for CSS and HTML.

@@ -6,8 +6,8 @@ category: ui-components
 tags:
   - web
   - mcp
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Mais de 1100 Web Components, animações e seções numa tag nativa sem dependências, com servidor MCP para a IDE.
   en: 1,100+ Web Components, animations and sections as one native tag with no dependencies, plus an MCP server for your IDE.

@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=../schema.json
 name: react-recaptcha
-url: https://www.google.com/recaptcha/intro/index.html
+url: https://cloud.google.com/security/products/recaptcha
 repo: https://github.com/appleboy/react-recaptcha
 area: build
 category: ui-components
 tags:
   - react
   - javascript
-pricing: TODO
+pricing: free
 open_source: true
 license: BSD-3-Clause
 description:
@@ -16,4 +16,4 @@ description:
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.google.com/recaptcha/intro/index.html"
+notes: "Rascunho do scout (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.google.com/recaptcha/intro/index.html. Redirecionava de https://www.google.com/recaptcha/intro/index.html"

@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - typescript
   - accessibility
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: true
+license: MIT
 description:
   pt: Slider e carrossel acessível escrito em TypeScript, sem dependências e sem erros no Lighthouse.
   en: Accessible slider and carousel written in TypeScript, with no dependencies and no Lighthouse errors.

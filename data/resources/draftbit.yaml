@@ -6,8 +6,8 @@ category: ai-tools
 tags:
   - mobile
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Monta apps web e mobile com IA e edição visual, usando seu plano do Claude ou ChatGPT, e publica em um clique.
   en: Builds web and mobile apps with AI and visual editing, using your Claude or ChatGPT plan, with one-click publish.

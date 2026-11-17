@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - design-systems
-pricing: TODO
+pricing: free
 open_source: true
+license: MIT
 description:
   pt: Ferramenta open source para montar design systems de UI com Vue.js, com padrões e práticas organizados.
   en: Open source tool for building UI design systems with Vue.js, with organised patterns and practices.

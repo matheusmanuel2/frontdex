@@ -5,8 +5,8 @@ area: build
 category: ai-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Crie e rode sites e apps com ajuda de IA, hospedagem própria e pessoas para ajudar quando travar.
   en: Build and run websites and apps with AI, its own cloud, and people to help when you get stuck.

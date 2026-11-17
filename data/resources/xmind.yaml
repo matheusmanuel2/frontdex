@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=../schema.json
 name: Xmind
-url: https://www.xmind.net/zen/
+url: https://xmind.com/
 area: build
 category: design-tools
 tags:
   - flows
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Mapas mentais online ou no desktop, com templates e estruturas visuais para organizar ideias e planejar projetos.
   en: Mind maps online or on desktop, with templates and visual structures to organize ideas and plan projects.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.xmind.net/zen/"
+notes: "Rascunho do scout (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.xmind.net/zen/. Redirecionava de https://www.xmind.net/zen/"

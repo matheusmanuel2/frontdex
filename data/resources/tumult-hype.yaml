@@ -6,8 +6,8 @@ category: animation
 tags:
   - motion
   - macos
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: App para macOS que cria animações e conteúdo interativo em HTML5 sem código, para desktop e mobile.
   en: macOS app for building HTML5 animations and interactive content without code, for desktop and mobile.

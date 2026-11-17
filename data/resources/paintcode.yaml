@@ -6,8 +6,8 @@ category: dev-tools
 tags:
   - ios
   - macos
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: App de desenho vetorial que gera código de desenho em Objective-C ou Swift em tempo real.
   en: Vector drawing app that generates Objective-C or Swift drawing code in real time.

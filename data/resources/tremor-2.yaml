@@ -7,8 +7,9 @@ tags:
   - react
   - css
   - accessibility
-pricing: TODO
+pricing: freemium
 open_source: true
+license: Apache-2.0
 description:
   pt: Componentes React open source e acessíveis com Tailwind para montar gráficos e dashboards copiando o código.
   en: Open-source, accessible React components with Tailwind for building charts and dashboards by copying code.

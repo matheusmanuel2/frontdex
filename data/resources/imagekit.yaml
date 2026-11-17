@@ -7,8 +7,8 @@ tags:
   - photos
   - video
   - api
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: API que transforma e entrega imagens e vídeos otimizados em tempo real, com DAM que também conecta via MCP.
   en: API that transforms and delivers optimized images and video in real time, plus a DAM that connects via MCP.

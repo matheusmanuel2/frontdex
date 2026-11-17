@@ -5,8 +5,8 @@ area: build
 category: colors
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Catálogo de cores tradicionais chinesas, cada uma com nome e valor para copiar.
   en: Catalog of traditional Chinese colors, each with its name and value to copy.

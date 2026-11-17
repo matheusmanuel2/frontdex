@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - react
-pricing: TODO
+pricing: free
 open_source: true
+license: MIT
 description:
   pt: Biblioteca open source de componentes React que implementa o Material Design do Google, pronta para produção.
   en: Open source React component library implementing Google's Material Design, ready for production.

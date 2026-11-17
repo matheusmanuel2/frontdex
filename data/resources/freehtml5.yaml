@@ -6,8 +6,8 @@ category: ui-components
 tags:
   - css
   - web
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Templates de site em HTML5 feitos com Bootstrap, para baixar de graça.
   en: HTML5 website templates built with Bootstrap, free to download.

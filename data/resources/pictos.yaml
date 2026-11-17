@@ -5,8 +5,8 @@ area: build
 category: icons
 tags:
   - icons
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Ícones de interface desenhados com cuidado, na versão Redux totalmente refeita.
   en: Carefully drawn interface icons, in the fully redone Redux version.

@@ -5,8 +5,9 @@ area: build
 category: assets
 tags:
   - illustration
-pricing: free
-open_source: TODO
+pricing: freemium
+open_source: true
+license: CC-BY-4.0
 description:
   pt: Mapa-múndi SVG gratuito do Natural Earth, um path por país com id no código ISO.
   en: Free SVG world map from Natural Earth, one path per country keyed by ISO code.

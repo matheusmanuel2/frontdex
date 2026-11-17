@@ -5,8 +5,9 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: Apache-2.0
 description:
   pt: Badges concisos, consistentes e legíveis para READMEs e páginas de projeto.
   en: Concise, consistent and legible badges for READMEs and project pages.

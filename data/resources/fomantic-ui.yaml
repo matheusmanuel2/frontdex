@@ -5,8 +5,9 @@ area: build
 category: ui-components
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Fork oficial mantido pela comunidade do Semantic UI.
   en: The official community-maintained fork of Semantic UI.

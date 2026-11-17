@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - illustration
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Editor de gráficos animados feito para sprites e pixel art.
   en: Animated graphics editor built for sprites and pixel art.

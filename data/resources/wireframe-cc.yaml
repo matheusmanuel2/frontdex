@@ -5,8 +5,8 @@ area: build
 category: design-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Wireframes de baixa fidelidade direto no navegador, prontos para compartilhar.
   en: Low-fidelity wireframes right in the browser, ready to share.

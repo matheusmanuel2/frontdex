@@ -7,7 +7,8 @@ tags:
   - css
   - react
 pricing: free
-open_source: TODO
+open_source: true
+license: MIT
 description:
   pt: Mais de 150 componentes e templates Tailwind gratuitos para copiar em HTML ou JSX direto no projeto.
   en: Over 150 free Tailwind components and templates you copy as HTML or JSX straight into your project.

@@ -5,8 +5,9 @@ area: build
 category: dev-tools
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Editor de markdown com seções prontas para montar o README do seu projeto.
   en: Markdown editor with ready-made sections for building your project README.

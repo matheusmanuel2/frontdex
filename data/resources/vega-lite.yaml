@@ -5,8 +5,9 @@ area: build
 category: charts
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: BSD-3-Clause
 description:
   pt: Gramática de alto nível para gráficos estatísticos, ao estilo do ggplot, que gera specs Vega.
   en: High-level grammar for statistical graphics, ggplot-style, that compiles to Vega specs.

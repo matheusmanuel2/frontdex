@@ -6,8 +6,9 @@ category: ui-components
 tags:
   - react
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Tokens no formato W3C DTCG com cores OKLCH, mais componentes React acessíveis publicados no npm.
   en: W3C DTCG design tokens with OKLCH colors, plus accessible React components published to npm.
