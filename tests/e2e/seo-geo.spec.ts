@@ -21,7 +21,8 @@ test('todas as páginas declaram favicon, ícone SVG, apple-touch-icon e manifes
   for (const path of ['/pt', '/en/r/kugiri', '/pt/qualquer-coisa']) {
     await page.goto(path);
     const head = page.locator('head');
-    await expect(head.locator('link[rel="icon"][href="/favicon.ico"][sizes="48x48"]')).toHaveCount(1);
+    await expect(head.locator('link[rel="icon"][href="/favicon.ico"][sizes="16x16 32x32 48x48"]')).toHaveCount(1);
+    await expect(head.locator('link[rel="icon"][href="/icon-192.png"][sizes="192x192"]')).toHaveCount(1);
     await expect(head.locator('link[rel="icon"][href="/icon.svg"][type="image/svg+xml"]')).toHaveCount(1);
     await expect(head.locator('link[rel="apple-touch-icon"][href="/apple-touch-icon.png"]')).toHaveCount(1);
     await expect(head.locator('link[rel="manifest"][href="/site.webmanifest"]')).toHaveCount(1);
