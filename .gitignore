@@ -59,5 +59,4 @@ public/pagefind/
 !/docs/design/contrast.md
 
 # cache do scout (spec 011): regenerável com scripts/scout
-/scouting/pages.json
-/scouting/drafts/
+/scouting/

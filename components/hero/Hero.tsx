@@ -125,7 +125,8 @@ export async function Hero({ resourceCount, categoryCount, areaCount }: HeroProp
           <LocaleSwitch to={other} hrefLang={HTML_LANG[other]} label={localeT('label')} short={localeT('short')} />
           <a
             href={GITHUB_URL}
-            rel="noopener"
+            target="_blank"
+            rel="noopener noreferrer"
             className="t-hover t-icon-host hidden min-h-10 items-center gap-3 rounded-pill px-2 text-small text-paper/85 hover:text-paper sm:inline-flex"
           >
             <span aria-hidden="true" className="size-2 bg-signal-orange" />
