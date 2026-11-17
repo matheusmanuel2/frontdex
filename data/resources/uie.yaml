@@ -12,5 +12,5 @@ description:
   en: Center Centre articles on user interface design and UX strategy.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://articles.uie.com/. Redirecionava de https://articles.uie.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://articles.uie.com/. Redirecionava de https://articles.uie.com/"

@@ -13,5 +13,5 @@ description:
   en: Twilio's design system for designing and building consistent experiences across its products.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://paste.twilio.design/. Redirecionava de https://paste.twilio.design/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://paste.twilio.design/. Redirecionava de https://paste.twilio.design/"

@@ -14,5 +14,5 @@ description:
   en: Collection of articles with interactive CSS examples on layout, styling, animation and interactions.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://www.30secondsofcode.org/css/p/1"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://www.30secondsofcode.org/css/p/1"

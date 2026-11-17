@@ -12,5 +12,5 @@ description:
   en: High-level advice and guidelines for writing manageable, scalable CSS in large projects.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://cssguidelin.es/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://cssguidelin.es/"

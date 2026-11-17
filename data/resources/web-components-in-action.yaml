@@ -13,5 +13,5 @@ description:
   en: Book on building reusable web components from scratch with HTML, CSS and JavaScript.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.manning.com/books/web-components-in-action"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.manning.com/books/web-components-in-action"

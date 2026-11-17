@@ -14,5 +14,5 @@ description:
   en: Interactive list of Bootstrap 5 classes, variables and mixins.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://bootstrap-cheatsheet.themeselection.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://bootstrap-cheatsheet.themeselection.com/"

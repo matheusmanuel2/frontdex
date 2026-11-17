@@ -13,5 +13,5 @@ description:
   en: Podcast about CSS hosted by Una Kravets and Bramus Van Damme, for going past the basics.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://thecsspodcast.libsyn.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://thecsspodcast.libsyn.com/"

@@ -13,5 +13,5 @@ description:
   en: Blog to learn JavaScript, CSS, UX and WordPress and keep up with web development.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.sitepoint.com/blog/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.sitepoint.com/blog/"

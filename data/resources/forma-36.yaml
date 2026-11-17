@@ -14,5 +14,5 @@ description:
   en: Contentful's design system, with tools and guidance for teams building and extending its apps.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://f36.contentful.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://f36.contentful.com/"

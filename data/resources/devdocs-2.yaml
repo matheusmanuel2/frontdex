@@ -13,5 +13,5 @@ description:
   en: JavaScript API docs with instant search, offline support and keyboard shortcuts.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://devdocs.io/javascript"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://devdocs.io/javascript"

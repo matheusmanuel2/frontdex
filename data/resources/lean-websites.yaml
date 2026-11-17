@@ -12,5 +12,5 @@ description:
   en: Practical book on website performance focused on the front end, with theory and real examples.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.sitepoint.com/premium/books/lean-websites/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.sitepoint.com/premium/books/lean-websites/"

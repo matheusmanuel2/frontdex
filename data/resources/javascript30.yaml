@@ -13,5 +13,5 @@ description:
   en: 30-day challenge to build 30 things in vanilla JavaScript, one tutorial a day.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://javascript30.com"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: micromata/awesome-javascript-learning. Lida: https://javascript30.com"

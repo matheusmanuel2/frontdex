@@ -13,5 +13,5 @@ description:
   en: Opinionated style guide for writing sane, maintainable and scalable Sass.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://sass-guidelin.es/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://sass-guidelin.es/"

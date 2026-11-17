@@ -13,5 +13,5 @@ description:
   en: Paul McFedries's book with hands-on projects and its own online workspace for building web pages.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: nicolesaidy/awesome-web-design. Lida: https://www.manning.com/books/web-design-playground/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: nicolesaidy/awesome-web-design. Lida: https://www.manning.com/books/web-design-playground/"

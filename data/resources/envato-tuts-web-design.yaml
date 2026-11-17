@@ -13,5 +13,5 @@ description:
   en: Thousands of free web design tutorials and courses on design, code and workflow.
 added: 2026-11-17
 last_checked: 2026-11-17
-status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: nicolesaidy/awesome-web-design. Lida: https://webdesign.tutsplus.com/"
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: nicolesaidy/awesome-web-design. Lida: https://webdesign.tutsplus.com/"
