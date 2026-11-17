@@ -102,7 +102,8 @@ export async function AreasSection() {
                       <br />
                       <a
                         href={suggestHref(area.slug)}
-                        target="_blank" rel="noopener noreferrer"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         data-umami-event="add_click"
                         aria-label={t('suggestLabel', { area: area.name[locale] })}
                         className="link-inline relative z-10 rounded-sm"
@@ -313,7 +314,8 @@ export async function ContributeSection() {
             </Link>
             <a
               href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`}
-              target="_blank" rel="noopener noreferrer"
+              target="_blank"
+              rel="noopener noreferrer"
               className="t-hover inline-flex h-12 items-center rounded-pill border border-border-strong px-6 text-body text-primary hover:bg-graphite"
             >
               {t('guidelines')}
