@@ -100,7 +100,8 @@
   "pricing": {
     "free": "Grátis",
     "freemium": "Freemium",
-    "paid": "Pago"
+    "paid": "Pago",
+    "pay-what-you-want": "Pague quanto quiser"
   },
   "resource": {
     "oss": "OSS",

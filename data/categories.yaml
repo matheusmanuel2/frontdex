@@ -2,9 +2,18 @@
 - { slug: ui-inspiration, area: discover, name: { pt: Inspiração de UI, en: UI inspiration } }
 - { slug: motion-inspiration, area: discover, name: { pt: Inspiração de movimento, en: Motion inspiration } }
 - { slug: app-research, area: discover, name: { pt: Pesquisa de apps, en: App research } }
+- { slug: brand-inspiration, area: discover, name: { pt: Identidade e tipografia, en: Brand and type inspiration } }
+- { slug: portfolios, area: discover, name: { pt: Portfólios, en: Portfolios } }
+- { slug: moodboards, area: discover, name: { pt: Moodboards, en: Moodboards } }
+- { slug: studios, area: discover, name: { pt: Estúdios, en: Studios } }
 - { slug: courses, area: learn, name: { pt: Cursos, en: Courses } }
 - { slug: guides, area: learn, name: { pt: Guias e tutoriais, en: Guides and tutorials } }
 - { slug: books, area: learn, name: { pt: Livros, en: Books } }
+- { slug: podcasts, area: learn, name: { pt: Podcasts, en: Podcasts } }
+- { slug: videos, area: learn, name: { pt: Vídeos, en: Videos } }
+- { slug: reference, area: learn, name: { pt: Referência e docs, en: Reference and docs } }
+- { slug: challenges, area: learn, name: { pt: Desafios, en: Challenges } }
+- { slug: articles, area: learn, name: { pt: Artigos e cases, en: Articles and case studies } }
 - { slug: icons, area: build, name: { pt: Ícones, en: Icons } }
 - { slug: ui-components, area: build, name: { pt: Componentes de UI, en: UI components } }
 - { slug: animation, area: build, name: { pt: Animação, en: Animation } }
@@ -13,6 +22,12 @@
 - { slug: charts, area: build, name: { pt: Gráficos e dashboards, en: Charts and dashboards } }
 - { slug: dev-tools, area: build, name: { pt: Ferramentas de dev, en: Dev tools } }
 - { slug: ai-tools, area: build, name: { pt: Ferramentas de IA, en: AI tools } }
+- { slug: typography-tools, area: build, name: { pt: Ferramentas de tipografia, en: Typography tools } }
+- { slug: accessibility, area: build, name: { pt: Acessibilidade, en: Accessibility } }
+- { slug: assets, area: build, name: { pt: Imagens e ilustrações, en: Images and illustrations } }
+- { slug: brand-apis, area: build, name: { pt: APIs de logos, en: Logo APIs } }
+- { slug: design-tools, area: build, name: { pt: Ferramentas de design, en: Design tools } }
 - { slug: communities, area: grow, name: { pt: Comunidades, en: Communities } }
 - { slug: open-source, area: grow, name: { pt: Open source, en: Open source } }
 - { slug: careers, area: grow, name: { pt: Carreira, en: Careers } }
+- { slug: freelance, area: grow, name: { pt: Freelance e preços, en: Freelance and pricing } }

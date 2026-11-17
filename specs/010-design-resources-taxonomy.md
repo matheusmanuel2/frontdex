@@ -1,6 +1,6 @@
 # 010 — Taxonomia para recursos de design (import "Design Holy Grail")
 
-Status: proposta (aguarda aprovação do Matheus) · Depende de: 000, 001 · Altera: 001
+Status: aprovada (Matheus, 2026-11-17) · Depende de: 000, 001 · Altera: 001
 
 ## Contexto
 
@@ -22,14 +22,13 @@ Vamos importar ~130 recursos de design (inspiração, tipografia, assets, carrei
 
 O enum é `free · freemium · paid`. Atipo Scilla (e várias fontes de foundries independentes) são "pague quanto quiser".
 
-**Proposta:** acrescentar `pay-what-you-want` a `PRICING` (schema, JSON Schema, labels pt/en em `messages/*.json`, filtros).
-Alternativa sem mudar o schema: marcar como `free` e explicar no `why`. Pede-se decisão.
+**Decisão:** acrescentar `pay-what-you-want` a `PRICING` (schema, JSON Schema, labels pt/en em `messages/*.json`, filtros).
 
 ### 2. Persona
 
 Não há campo de persona (ex.: "My Life in Design → design-engineer").
 
-**Proposta:** não criar campo novo. Usar uma tag `design-engineering`. Um campo `persona` só se justificar quando houver mais de uma persona com filtro próprio no site.
+**Decisão:** não criar campo novo. Usar uma tag `design-engineering`. Um campo `persona` só se justificar quando houver mais de uma persona com filtro próprio no site.
 
 ### 3. Categorias novas
 
@@ -49,7 +48,6 @@ Não há campo de persona (ex.: "My Life in Design → design-engineer").
 | `assets` | build | Imagens e ilustrações | Images and illustrations | Unsplash, Humaaans, mockups… |
 | `brand-apis` | build | APIs de logos | Logo APIs | Logo.dev, Brandfetch |
 | `design-tools` | build | Ferramentas de design | Design tools | Frame0, GoFullPage, Space Type Generator… |
-| `jobs` | grow | Vagas | Jobs | ver ponto 5 |
 | `freelance` | grow | Freelance e preços | Freelance and pricing | AIGA contrato, salários, Wave |
 
 Já existentes e reutilizadas: `ui-inspiration`, `icons`, `fonts`, `colors`, `communities`, `careers`.
@@ -67,6 +65,8 @@ Opções:
 - b) Entram em `careers` com tag `career`, sem categoria de vagas.
 - c) Ficam fora até depois do MVP.
 
+**Decisão (Matheus, 2026-11-17): c).** Vagas não entram ainda; não se cria a categoria `jobs`.
+
 ## Fora desta spec (notas do import)
 
 - Duplicados já detetados: **Mobbin** (`mobbin.yaml`, active) e **abtest.design** (`abtest-design.yaml`, draft com TODOs). O import completa o draft do abtest.design em vez de criar outro ficheiro.
@@ -75,7 +75,7 @@ Opções:
 
 ## Critérios de aceitação
 
-- [ ] Decisões 1, 2 e 5 tomadas pelo Matheus.
+- [x] Decisões 1, 2 e 5 tomadas pelo Matheus.
 - [ ] `categories.yaml` e `tags.yaml` atualizados; `pnpm schema` regenera `data/schema.json`.
 - [ ] Labels novas em `messages/pt.json` e `messages/en.json`.
 - [ ] `pnpm validate` e `pnpm test` passam.

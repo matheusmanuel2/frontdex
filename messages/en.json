@@ -100,7 +100,8 @@
   "pricing": {
     "free": "Free",
     "freemium": "Freemium",
-    "paid": "Paid"
+    "paid": "Paid",
+    "pay-what-you-want": "Pay what you want"
   },
   "resource": {
     "oss": "OSS",

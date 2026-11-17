@@ -85,7 +85,12 @@ export default async function CategoryPage({ params }: Props) {
   const labels: FilterLabels = {
     list: t('list'),
     oss: resource('oss'),
-    pricing: { free: pricing('free'), freemium: pricing('freemium'), paid: pricing('paid') },
+    pricing: {
+      free: pricing('free'),
+      freemium: pricing('freemium'),
+      paid: pricing('paid'),
+      'pay-what-you-want': pricing('pay-what-you-want'),
+    },
     filters: t('filters'),
     pricingLabel: t('pricing'),
     all: t('all'),

@@ -1,4 +1,4 @@
-import type { Resource } from '@/lib/content/schema';
+import type { Pricing, Resource } from '@/lib/content/schema';
 
 /** O mínimo de cada recurso que a ilha de filtros precisa (evita mandar o YAML inteiro para o browser). */
 export type FilterItem = {
@@ -13,11 +13,12 @@ export type FilterItem = {
 };
 
 export type Filters = {
-  pricing?: 'free' | 'freemium' | 'paid';
+  pricing?: Pricing;
   sort: 'recent' | 'name';
 };
 
-const PRICING = ['free', 'freemium', 'paid'] as const;
+/** Cópia local de PRICING (schema.ts puxaria o Zod para o bundle do cliente). */
+const PRICING: readonly Pricing[] = ['free', 'freemium', 'paid', 'pay-what-you-want'];
 
 /** Lê os filtros da URL (spec 003: `?pricing=free&sort=…`). Valores inválidos são ignorados. */
 export function parseFilters(params: URLSearchParams): Filters {

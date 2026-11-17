@@ -55,6 +55,7 @@ export function FilterBar({ items, locale, labels, suggest }: FilterBarProps) {
     { value: 'free' as const, label: labels.pricing.free },
     { value: 'freemium' as const, label: labels.pricing.freemium },
     { value: 'paid' as const, label: labels.pricing.paid },
+    { value: 'pay-what-you-want' as const, label: labels.pricing['pay-what-you-want'] },
   ];
 
   return (

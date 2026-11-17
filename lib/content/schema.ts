@@ -15,7 +15,8 @@ export const LOCALES = ['pt', 'en'] as const;
 export type Locale = (typeof LOCALES)[number];
 
 export const AREAS = ['discover', 'learn', 'build', 'grow'] as const;
-export const PRICING = ['free', 'freemium', 'paid'] as const;
+export const PRICING = ['free', 'freemium', 'paid', 'pay-what-you-want'] as const;
+export type Pricing = (typeof PRICING)[number];
 export const LEVELS = ['beginner', 'intermediate', 'expert'] as const;
 export const RESOURCE_STATUS = ['active', 'draft', 'archived'] as const;
 export const COLLECTION_STATUS = ['active', 'draft'] as const;
