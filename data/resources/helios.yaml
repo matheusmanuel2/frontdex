@@ -6,8 +6,9 @@ category: reference
 tags:
   - design-systems
   - accessibility
-pricing: TODO
+pricing: free
 open_source: true
+license: MPL-2.0
 description:
   pt: Blocos open source da HashiCorp para desenhar e implementar experiências de produto acessíveis e coerentes.
   en: HashiCorp's open source building blocks for designing and implementing accessible, coherent product experiences.

@@ -5,8 +5,8 @@ area: learn
 category: books
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Livro sobre otimização de assets, renderização e fluxo de trabalho para sites mais rápidos.
   en: Book on optimizing assets, rendering and workflows for faster websites.

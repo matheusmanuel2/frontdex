@@ -6,8 +6,9 @@ category: guides
 tags:
   - css
   - interactive
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MPL-2.0
 description:
   pt: Exercícios da Mozilla para aprender CSS Grid e o depurador do Firefox na prática.
   en: Mozilla exercises for learning CSS Grid and the Firefox debugger hands-on.

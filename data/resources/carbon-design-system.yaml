@@ -5,8 +5,9 @@ area: learn
 category: reference
 tags:
   - design-systems
-pricing: TODO
+pricing: free
 open_source: true
+license: Apache-2.0
 description:
   pt: Design system de código aberto da IBM, com código, ferramentas de design e diretrizes de interface.
   en: IBM's open source design system, with working code, design tools and interface guidelines.

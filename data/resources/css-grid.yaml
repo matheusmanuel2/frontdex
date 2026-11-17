@@ -7,7 +7,7 @@ tags:
   - css
   - video
 pricing: free
-open_source: TODO
+open_source: false
 description:
   pt: Série gratuita de vídeos do Wes Bos que cobre CSS Grid do começo ao fim.
   en: Free video series by Wes Bos covering CSS Grid from start to finish.

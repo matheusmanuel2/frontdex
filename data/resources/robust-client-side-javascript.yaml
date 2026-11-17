@@ -5,8 +5,8 @@ area: learn
 category: guides
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Guia sobre por que e como escrever JavaScript de cliente que continua funcionando quando algo falha.
   en: Guide on why and how to write client-side JavaScript that keeps working when something fails.

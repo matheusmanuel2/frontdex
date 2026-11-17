@@ -6,8 +6,9 @@ category: reference
 tags:
   - design-systems
   - react
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: Apache-2.0
 description:
   pt: Diretrizes, componentes front-end e recursos de design da AWS para interfaces inclusivas em larga escala.
   en: AWS guidelines, front-end components and design resources for inclusive interfaces at scale.

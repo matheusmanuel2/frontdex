@@ -5,8 +5,8 @@ area: learn
 category: podcasts
 tags:
   - podcast
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Programas semanais sobre desenvolvimento de software, open source, cultura dev e as pessoas por trás disso.
   en: Weekly shows on software development, open source, dev culture and the people behind them.

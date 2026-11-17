@@ -6,8 +6,8 @@ category: courses
 tags:
   - css
   - web
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Trilha de web design com HTML, CSS, teoria das cores e tipografia, pensada para quem busca emprego na área.
   en: Web design track covering HTML, CSS, colour theory and typography, aimed at landing a tech job.

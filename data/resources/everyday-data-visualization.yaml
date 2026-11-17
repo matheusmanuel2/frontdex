@@ -5,8 +5,8 @@ area: learn
 category: books
 tags:
   - typography
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Livro sobre os princípios de cor, tipografia, tipos de gráfico e narrativa com dados.
   en: Book on the principles of color, typography, chart types and data storytelling.

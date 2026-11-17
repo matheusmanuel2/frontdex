@@ -5,8 +5,8 @@ area: learn
 category: courses
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Catálogo de cursos da Udemy para aprender a desenhar sites, logos, cartazes e mais.
   en: Udemy course catalogue for learning to design websites, logos, posters and more.

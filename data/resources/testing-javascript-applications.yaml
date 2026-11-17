@@ -6,7 +6,7 @@ category: books
 tags:
   - javascript
 pricing: paid
-open_source: TODO
+open_source: false
 description:
   pt: Livro da Manning sobre testes automatizados em JavaScript, escrito por um contribuidor de biblioteca de testes.
   en: Manning book on automated testing in JavaScript, written by a core JS testing library contributor.

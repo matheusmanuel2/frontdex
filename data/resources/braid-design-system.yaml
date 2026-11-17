@@ -6,8 +6,9 @@ category: reference
 tags:
   - design-systems
   - react
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Design system com temas usado pelo SEEK Group nos seus produtos de emprego.
   en: Themeable design system used by the SEEK Group across its job products.

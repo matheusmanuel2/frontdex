@@ -5,8 +5,8 @@ area: learn
 category: courses
 tags:
   - tutorial
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Cursos de UX/UI e design de produto com recursos e uma comunidade de designers.
   en: UX/UI and product design courses with resources and a community of designers.

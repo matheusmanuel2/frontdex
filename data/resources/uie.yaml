@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=../schema.json
 name: UIE
-url: https://articles.uie.com/
+url: https://articles.centercentre.com/
 area: learn
 category: articles
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Artigos da Center Centre sobre design de interfaces e estratégia de UX.
   en: Center Centre articles on user interface design and UX strategy.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://articles.uie.com/"
+notes: "Rascunho do scout (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://articles.uie.com/. Redirecionava de https://articles.uie.com/"

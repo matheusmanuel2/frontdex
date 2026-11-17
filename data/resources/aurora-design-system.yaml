@@ -5,8 +5,9 @@ area: learn
 category: reference
 tags:
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Guia central de design para os produtos de colaboração digital do governo do Canadá (GCcollab).
   en: Central design guide for the Canadian government's GCcollab digital collaboration products.

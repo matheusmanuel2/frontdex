@@ -6,8 +6,9 @@ category: challenges
 tags:
   - css
   - interactive
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Jogo para aprender flexbox em CSS resolvendo fases que pedem cada propriedade.
   en: A game for learning CSS flexbox, one level and property at a time.

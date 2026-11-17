@@ -6,8 +6,9 @@ category: challenges
 tags:
   - css
   - interactive
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MPL-2.0
 description:
   pt: Jogo em que você pratica seletores CSS escolhendo pratos numa mesa, nível após nível.
   en: Game where you practice CSS selectors by picking dishes off a table, level by level.

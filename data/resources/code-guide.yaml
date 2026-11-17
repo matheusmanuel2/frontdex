@@ -5,8 +5,9 @@ area: learn
 category: guides
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Padrões de @mdo para escrever HTML e CSS consistentes, flexíveis e fáceis de manter.
   en: Standards by @mdo for writing consistent, flexible and maintainable HTML and CSS.

@@ -6,8 +6,8 @@ category: articles
 tags:
   - javascript
   - css
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Blog para aprender JavaScript, CSS, UX e WordPress e se manter atualizado em desenvolvimento web.
   en: Blog to learn JavaScript, CSS, UX and WordPress and keep up with web development.

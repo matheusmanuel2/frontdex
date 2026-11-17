@@ -6,8 +6,8 @@ category: books
 tags:
   - web
   - photos
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Livro impresso da Smashing sobre carregar imagens na web sem perder qualidade nem velocidade.
   en: Smashing printed book on loading images on the web without losing quality or speed.

@@ -5,8 +5,8 @@ area: learn
 category: guides
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Abordagem de arquitetura escalável e modular para organizar o CSS de um projeto.
   en: Scalable and modular architecture approach for organizing a project's CSS.

@@ -6,7 +6,7 @@ category: books
 tags:
   - web
 pricing: paid
-open_source: TODO
+open_source: false
 description:
   pt: Livro de Victor S. Yocco sobre a psicologia por trás do design persuasivo aplicada a sites.
   en: Victor S. Yocco's book on the psychology behind persuasive design, applied to websites.

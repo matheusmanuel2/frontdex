@@ -5,8 +5,8 @@ area: learn
 category: books
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Livro prático que ensina CSS através de 12 projetos pequenos, um tema de cada vez.
   en: Hands-on book that teaches CSS through 12 small projects, one topic at a time.

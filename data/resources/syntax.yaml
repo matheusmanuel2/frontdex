@@ -7,8 +7,9 @@ tags:
   - javascript
   - css
   - podcast
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Wes Bos e Scott Tolinski falam de CSS, JavaScript, frameworks e TypeScript em dois episódios por semana.
   en: Wes Bos and Scott Tolinski talk CSS, JavaScript, frameworks and TypeScript in two episodes a week.

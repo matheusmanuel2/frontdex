@@ -5,8 +5,8 @@ area: learn
 category: books
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Livro prático sobre performance de sites focado no front-end, com teoria e exemplos reais.
   en: Practical book on website performance focused on the front end, with theory and real examples.

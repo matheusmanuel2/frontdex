@@ -5,8 +5,8 @@ area: learn
 category: articles
 tags:
   - interactive
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Ensaios visuais que explicam ideias com dados e gráficos interativos.
   en: Visual essays that explain ideas through data and interactive graphics.

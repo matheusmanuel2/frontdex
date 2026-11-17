@@ -6,8 +6,8 @@ category: courses
 tags:
   - javascript
   - tutorial
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Desafio de 30 dias para construir 30 projetos com JavaScript puro, um tutorial por dia.
   en: 30-day challenge to build 30 things in vanilla JavaScript, one tutorial a day.

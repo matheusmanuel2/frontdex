@@ -5,8 +5,9 @@ area: learn
 category: reference
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Indica o gráfico certo para o tipo de dado, com link para o código e erros comuns a evitar.
   en: Points you to the right chart for your data, with code links and common pitfalls to avoid.

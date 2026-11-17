@@ -6,8 +6,9 @@ category: reference
 tags:
   - design-systems
   - react
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Design system com versões em React e em Angular geradas a partir de um único contrato.
   en: Design system shipped in both React and Angular, generated from a single shared contract.

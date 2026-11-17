@@ -6,8 +6,9 @@ category: reference
 tags:
   - design-systems
   - react
-pricing: TODO
+pricing: free
 open_source: true
+license: MIT
 description:
   pt: Design system do Contentful com ferramentas e orientação para quem cria e estende apps na plataforma.
   en: Contentful's design system, with tools and guidance for teams building and extending its apps.

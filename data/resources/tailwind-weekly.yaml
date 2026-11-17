@@ -5,8 +5,8 @@ area: learn
 category: articles
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Newsletter semanal com notícias, artigos, vídeos e recursos sobre Tailwind CSS e front-end.
   en: Weekly newsletter with news, articles, videos and resources on Tailwind CSS and front-end.

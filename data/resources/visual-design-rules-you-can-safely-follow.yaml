@@ -5,8 +5,8 @@ area: learn
 category: guides
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Lista de regras de design visual que você pode aplicar sempre, sem precisar pensar em exceções.
   en: List of visual design rules you can apply every time, without worrying about exceptions.

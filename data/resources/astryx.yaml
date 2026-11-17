@@ -6,8 +6,9 @@ category: reference
 tags:
   - design-systems
   - ai-agents
-pricing: TODO
+pricing: free
 open_source: true
+license: MIT
 description:
   pt: Design system open source da Meta, totalmente personalizável e preparado para uso por agentes.
   en: Meta's open source design system, fully customizable and ready for use by agents.

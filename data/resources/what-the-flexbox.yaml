@@ -6,8 +6,8 @@ category: videos
 tags:
   - css
   - video
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Curso de 20 vídeos curtos para aprender Flexbox com exemplos de layout.
   en: Course of 20 short videos for learning Flexbox through layout examples.

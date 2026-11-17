@@ -5,8 +5,8 @@ area: learn
 category: guides
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: pay-what-you-want
+open_source: false
 description:
   pt: Conselhos de alto nível para escrever CSS gerenciável e escalável em projetos grandes.
   en: High-level advice and guidelines for writing manageable, scalable CSS in large projects.

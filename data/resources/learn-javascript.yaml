@@ -6,8 +6,8 @@ category: courses
 tags:
   - javascript
   - interactive
-pricing: TODO
-open_source: TODO
+pricing: freemium
+open_source: false
 description:
   pt: Aprenda JavaScript com lições curtas, desafios e flashcards, tudo no navegador.
   en: Learn JavaScript through short lessons, coding challenges and flashcards, all in the browser.

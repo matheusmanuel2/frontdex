@@ -5,8 +5,9 @@ area: learn
 category: guides
 tags:
   - javascript
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Guia para dividir código em vários bundles com entry points, SplitChunksPlugin e import dinâmico.
   en: Guide to splitting code into bundles with entry points, SplitChunksPlugin and dynamic import.

@@ -5,8 +5,8 @@ area: learn
 category: articles
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Artigos, tutoriais e análises sobre tendências, ferramentas e boas práticas de web design.
   en: Articles, tutorials and analysis on web design trends, tools and best practices.

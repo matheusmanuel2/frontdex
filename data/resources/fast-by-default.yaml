@@ -5,8 +5,8 @@ area: learn
 category: books
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Livro de engenharia de performance que ensina a reconhecer padrões previsíveis de problemas de velocidade.
   en: Performance engineering book on spotting the predictable patterns behind speed problems.

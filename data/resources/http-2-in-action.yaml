@@ -5,8 +5,8 @@ area: learn
 category: books
 tags:
   - web
-pricing: TODO
-open_source: TODO
+pricing: paid
+open_source: false
 description:
   pt: Livro sobre os conceitos centrais do HTTP/2, como frames, streams e multiplexação, para sites mais rápidos.
   en: Book on the core concepts of HTTP/2, such as frames, streams and multiplexing, for faster sites.

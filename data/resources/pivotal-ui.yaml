@@ -5,8 +5,9 @@ area: learn
 category: reference
 tags:
   - design-systems
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Guia de estilo, design system e biblioteca de componentes da Pivotal Software.
   en: Pivotal Software's style guide, design system and component library.

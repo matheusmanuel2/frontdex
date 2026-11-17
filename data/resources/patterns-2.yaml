@@ -6,8 +6,8 @@ category: guides
 tags:
   - javascript
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: false
 description:
   pt: Padrões de design e de performance em JavaScript para estruturar aplicações web.
   en: JavaScript design and performance patterns for structuring web applications.

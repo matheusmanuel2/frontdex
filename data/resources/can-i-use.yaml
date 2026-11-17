@@ -7,8 +7,9 @@ tags:
   - css
   - javascript
   - web
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: CC-BY-4.0
 description:
   pt: Tabelas de suporte por navegador para tecnologias front-end, no desktop e no celular.
   en: Browser support tables for front-end web technologies on desktop and mobile.

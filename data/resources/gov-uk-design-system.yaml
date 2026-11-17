@@ -1,17 +1,18 @@
 # yaml-language-server: $schema=../schema.json
 name: GOV.UK Design System
-url: https://www.gov.uk/design-system
+url: https://design-system.service.gov.uk/
 area: learn
 category: reference
 tags:
   - design-systems
   - accessibility
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Estilos, componentes e padrões para desenhar serviços públicos do governo britânico.
   en: Styles, components and patterns for designing UK government public services.
 added: 2026-11-17
 last_checked: 2026-11-17
 status: draft
-notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://www.gov.uk/design-system"
+notes: "Rascunho do scout (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://www.gov.uk/design-system. Redirecionava de https://www.gov.uk/design-system"

@@ -6,8 +6,9 @@ category: guides
 tags:
   - css
   - interactive
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: CC-BY-4.0
 description:
   pt: Coleção de artigos com exemplos interativos de CSS sobre layout, estilo, animação e interações.
   en: Collection of articles with interactive CSS examples on layout, styling, animation and interactions.

@@ -5,8 +5,9 @@ area: learn
 category: guides
 tags:
   - css
-pricing: TODO
-open_source: TODO
+pricing: free
+open_source: true
+license: MIT
 description:
   pt: Guia opinativo para escrever Sass legível, fácil de manter e escalável.
   en: Opinionated style guide for writing sane, maintainable and scalable Sass.

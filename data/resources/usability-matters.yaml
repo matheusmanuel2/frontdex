@@ -6,7 +6,7 @@ category: books
 tags:
   - mobile
 pricing: paid
-open_source: TODO
+open_source: false
 description:
   pt: Livro de Matt Lacey com dicas práticas de UX para apps mobile, escrito para devs e designers acidentais.
   en: Matt Lacey's book of practical mobile app UX tips for developers and accidental designers.
