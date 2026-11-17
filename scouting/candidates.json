@@ -56161,9 +56161,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "BafS/Gutenberg",
@@ -56187,9 +56185,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "lindelof/particles-bg",
@@ -56209,9 +56205,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "necolas/normalize.css",
@@ -56231,9 +56225,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "wg/wrk",
@@ -56253,9 +56245,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "atlassian/react-beautiful-dnd",
@@ -56275,9 +56265,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "niklasvh/html2canvas",
@@ -56297,9 +56285,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "HarisIqbal88/PlotNeuralNet",
@@ -56319,9 +56305,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "facebookarchive/draft-js",
@@ -56341,9 +56325,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "chenglou/react-motion",
@@ -56363,9 +56345,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "nostalgic-css/NES.css",
@@ -56385,9 +56365,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "brendangregg/FlameGraph",
@@ -56407,9 +56385,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "aFarkas/lazysizes",
@@ -56429,9 +56405,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "nfl/react-helmet",
@@ -56451,9 +56425,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "material-components/material-components-web",
@@ -56473,9 +56445,7 @@
       }
     ],
     "category": "books",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "getify/Functional-Light-JS",
@@ -56495,9 +56465,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "sqshq/sampler",
@@ -56517,9 +56485,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "alexfoxy/lax.js",
@@ -56539,9 +56505,7 @@
       }
     ],
     "category": "fonts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "cmiscm/leonsans",
@@ -56561,9 +56525,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "max-mapper/art-of-node",
@@ -56583,9 +56545,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "pmndrs/use-gesture",
@@ -56605,9 +56565,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "kevinzhow/PNChart",
@@ -56627,9 +56585,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "mrdoob/stats.js",
@@ -56649,9 +56605,7 @@
       }
     ],
     "category": "icons",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "bytedance/IconPark",
@@ -56671,9 +56625,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "rebassjs/rebass",
@@ -56693,9 +56645,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "stitchesjs/stitches",
@@ -56715,9 +56665,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "lecho/hellocharts-android",
@@ -56737,9 +56685,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "dc-js/dc.js",
@@ -56759,9 +56705,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "novus/nvd3",
@@ -56781,9 +56725,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jwilber/roughViz",
@@ -56803,9 +56745,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "dixonandmoe/rellax",
@@ -56825,9 +56765,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "bcakmakoglu/vue-flow",
@@ -56847,9 +56785,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "necolas/idiomatic-css",
@@ -56869,9 +56805,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "newsapps/beeswithmachineguns",
@@ -56891,9 +56825,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "pa7/heatmap.js",
@@ -56913,9 +56845,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "holman/spark",
@@ -56935,9 +56865,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "flot/flot",
@@ -56957,9 +56885,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "twobin/react-lazyload",
@@ -56979,9 +56905,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "airbnb/hypernova",
@@ -57001,9 +56925,7 @@
       }
     ],
     "category": "design-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "GoogleChromeLabs/ProjectVisBug",
@@ -57023,9 +56945,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "insin/nwb",
@@ -57045,9 +56965,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "dieulot/instantclick",
@@ -57067,9 +56985,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "nhn/tui.chart",
@@ -57089,9 +57005,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "sarcadass/granim.js",
@@ -57111,9 +57025,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "bgrins/TinyColor",
@@ -57133,9 +57045,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "react-ga/react-ga",
@@ -57155,9 +57065,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "epochjs/epoch",
@@ -57177,9 +57085,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "apache/incubator-weex-ui",
@@ -57199,9 +57105,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "geist-org/geist-ui",
@@ -57221,9 +57125,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Yomguithereal/react-blessed",
@@ -57243,9 +57145,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "matplotlib/mplfinance",
@@ -57265,9 +57165,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "webpack/css-loader",
@@ -57287,9 +57185,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ResidentMario/missingno",
@@ -57309,9 +57205,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "clean-css/clean-css",
@@ -57331,9 +57225,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "joshwcomeau/react-flip-move",
@@ -57353,9 +57245,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "headjs/headjs",
@@ -57375,9 +57265,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "civiccc/react-waypoint",
@@ -57397,9 +57285,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "danvk/source-map-explorer",
@@ -57419,9 +57305,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "gaearon/react-hot-boilerplate",
@@ -57441,9 +57325,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "redfin/react-server",
@@ -57463,9 +57345,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "uncss/grunt-uncss",
@@ -57485,9 +57365,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "css/csso",
@@ -57507,9 +57385,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "LeaVerou/prefixfree",
@@ -57529,9 +57405,7 @@
       }
     ],
     "category": "books",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "zeman/perfmap",
@@ -57551,9 +57425,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Jawbone/JBChartView",
@@ -57573,9 +57445,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "yhat/ggpy",
@@ -57595,9 +57465,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "spotify/chartify",
@@ -57617,9 +57485,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "CSFrequency/react-firebase-hooks",
@@ -57639,9 +57505,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "plouc/mozaik",
@@ -57661,9 +57525,7 @@
       }
     ],
     "category": "design-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "gmattie/Data-Pixels",
@@ -57683,9 +57545,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "microsoft/lida",
@@ -57705,9 +57565,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "GoogleChromeLabs/psi",
@@ -57727,9 +57585,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "mjavascript/practical-modern-javascript",
@@ -57749,9 +57605,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "Andy-set-studio/modern-css-reset",
@@ -57771,9 +57625,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "borisyankov/react-sparklines",
@@ -57793,9 +57645,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jgthms/minireset.css",
@@ -57815,9 +57665,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "lojjic/PIE",
@@ -57837,9 +57685,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "charted-co/charted",
@@ -57859,9 +57705,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "gregnb/mui-datatables",
@@ -57881,9 +57725,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "seatgeek/react-infinite",
@@ -57903,9 +57745,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "uber/react-digraph",
@@ -57925,9 +57765,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "amaroteam/react-credit-cards",
@@ -57947,9 +57785,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "Boris-Em/BEMSimpleLineGraph",
@@ -57969,9 +57805,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "google/tracing-framework",
@@ -57991,9 +57825,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "react-pdf-viewer/react-pdf-viewer",
@@ -58013,9 +57845,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "cognitom/paper-css",
@@ -58035,9 +57865,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "maisano/react-router-transition",
@@ -58057,9 +57885,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ivnsch/SwiftCharts",
@@ -58079,9 +57905,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jorgebastida/glue",
@@ -58101,9 +57925,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ReactTraining/react-media",
@@ -58123,9 +57945,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "joshwnj/react-visibility-sensor",
@@ -58145,9 +57965,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "tabler/tabler-react",
@@ -58167,9 +57985,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "lipka/piecon",
@@ -58189,9 +58005,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "sanniassin/react-input-mask",
@@ -58211,9 +58025,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "getify/LABjs",
@@ -58233,9 +58045,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ajstarks/svgo",
@@ -58255,9 +58065,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jensimmons/cssremedy",
@@ -58277,9 +58085,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "marcelduran/yslow",
@@ -58299,9 +58105,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "louisnw01/lightweight-charts-python",
@@ -58321,9 +58125,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "trulia/hologram",
@@ -58343,9 +58145,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "greena13/react-hotkeys",
@@ -58365,9 +58165,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "lynndylanhurley/redux-auth",
@@ -58387,9 +58185,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "paulirish/memory-stats.js",
@@ -58409,9 +58205,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ctrlplusb/react-sizeme",
@@ -58431,9 +58225,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "alyssaxuu/animockup",
@@ -58453,9 +58245,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "souporserious/react-measure",
@@ -58475,9 +58265,7 @@
       }
     ],
     "category": "videos",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "tjallingt/react-youtube",
@@ -58497,9 +58285,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "react-designer/react-designer",
@@ -58519,9 +58305,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "addyosmani/puppeteer-webperf",
@@ -58541,9 +58325,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "speedracer/speedracer",
@@ -58563,9 +58345,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jh3y/whirl",
@@ -58585,9 +58365,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "zalmoxisus/remote-redux-devtools",
@@ -58607,9 +58385,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "yahoo/fluxible",
@@ -58629,9 +58405,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "react-simple-code-editor/react-simple-code-editor",
@@ -58651,9 +58425,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Lucifier129/react-lite",
@@ -58673,9 +58445,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "airbnb/react-with-styles",
@@ -58695,9 +58465,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "keithclark/selectivizr",
@@ -58717,9 +58485,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "lovasoa/react-contenteditable",
@@ -58739,9 +58505,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "RazrFalcon/svgcleaner",
@@ -58761,9 +58525,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "voronianski/react-swipe",
@@ -58783,9 +58545,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "addyosmani/tmi",
@@ -58805,9 +58565,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "codesuki/react-d3-components",
@@ -58827,9 +58585,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "AlexGilleran/jsx-control-statements",
@@ -58849,9 +58605,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "oyvindeh/ucss",
@@ -58871,9 +58625,7 @@
       }
     ],
     "category": "icons",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "AlexanderPoellmann/PaymentFont",
@@ -58893,9 +58645,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "manrajgrover/SingleDivProject",
@@ -58915,9 +58665,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "plus1tv/react-anime",
@@ -58937,9 +58685,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "davidtheclark/scalable-css-reading-list",
@@ -58959,9 +58705,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "react-d3-library/react-d3-library",
@@ -58981,9 +58725,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "firtoz/react-three-renderer",
@@ -59003,9 +58745,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "kidjp85/react-id-swiper",
@@ -59025,9 +58765,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "lunasec-io/lunasec",
@@ -59047,9 +58785,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "addyosmani/timing.js",
@@ -59069,9 +58805,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "filamentgroup/fixed-sticky",
@@ -59091,9 +58825,7 @@
       }
     ],
     "category": "videos",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "kosmetism/react-soundplayer",
@@ -59113,9 +58845,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "supermedium/aframe-react",
@@ -59135,9 +58865,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "react-financial/react-financial-charts",
@@ -59157,9 +58885,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "webpack/compression-webpack-plugin",
@@ -59179,9 +58905,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "liferay/alloy-editor",
@@ -59201,9 +58925,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "bvaughn/redux-search",
@@ -59223,9 +58945,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "bitjson/qr-code",
@@ -59245,9 +58965,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "alexkuz/react-input-enhancements",
@@ -59267,9 +58985,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jsperf/jsperf.com",
@@ -59289,9 +59005,7 @@
       }
     ],
     "category": "fonts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "aishalih/sfwin",
@@ -59311,9 +59025,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "teodosii/react-notifications-component",
@@ -59333,9 +59045,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "FredericHeem/starhackit",
@@ -59355,9 +59065,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "catamphetamine/webpack-isomorphic-tools",
@@ -59377,9 +59085,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "SC5/sc5-styleguide",
@@ -59399,9 +59105,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "kirjs/react-highcharts",
@@ -59421,9 +59125,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "dantrain/react-stonecutter",
@@ -59443,9 +59145,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "dropbox/css-style-guide",
@@ -59465,9 +59165,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "gruntjs/grunt-contrib-imagemin",
@@ -59487,9 +59185,7 @@
       }
     ],
     "category": "books",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "micmro/performance-bookmarklet",
@@ -59509,9 +59205,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "nkbt/react-collapse",
@@ -59531,9 +59225,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "twolfson/grunt-spritesmith",
@@ -59553,9 +59245,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jacobrask/styledocco",
@@ -59575,9 +59265,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "stoyan/cssshrink",
@@ -59597,9 +59285,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "ubilabs/react-geosuggest",
@@ -59619,9 +59305,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "tshelburne/redux-batched-actions",
@@ -59641,9 +59325,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "davidtheclark/react-aria-modal",
@@ -59663,9 +59345,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jokergoo/circlize",
@@ -59685,9 +59365,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "httperf/httperf",
@@ -59707,9 +59385,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "neveldo/jQuery-Mapael",
@@ -59729,9 +59405,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "bevacqua/react-dragula",
@@ -59751,9 +59425,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "bmarrdev/android-DecoView-charting",
@@ -59773,9 +59445,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "loktar00/react-lazy-load",
@@ -59795,9 +59465,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "azmenak/react-stripe-checkout",
@@ -59817,9 +59485,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "vladotesanovic/ngSemantic",
@@ -59839,9 +59505,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "aaronshaf/react-toggle",
@@ -59861,9 +59525,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "reactjs/react-magic",
@@ -59883,9 +59545,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "mironov/react-redux-loading-bar",
@@ -59905,9 +59565,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "ben-eb/gulp-uncss",
@@ -59927,9 +59585,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "oliviertassinari/babel-plugin-transform-react-remove-prop-types",
@@ -59949,9 +59605,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "react-container-query/react-container-query",
@@ -59971,9 +59625,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Heydon/REVENGE.CSS",
@@ -59993,9 +59645,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "esnet/react-timeseries-charts",
@@ -60015,9 +59665,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "ariamckinley/hedron",
@@ -60037,9 +59685,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "tcasparro/react-render-visualizer",
@@ -60059,9 +59705,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "taion/react-router-scroll",
@@ -60081,9 +59725,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "magalhas/backbone-react-component",
@@ -60103,9 +59745,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "LukyVj/Colorify.js",
@@ -60125,9 +59765,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "kennethormandy/normalize-opentype.css",
@@ -60147,9 +59785,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "RIP21/react-simplemde-editor",
@@ -60169,9 +59805,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "JedWatson/react-input-autosize",
@@ -60191,9 +59825,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "DesignRevision/shards-react",
@@ -60213,9 +59845,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "NV/CSSOM",
@@ -60235,9 +59865,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "garythung/trashnet",
@@ -60257,9 +59885,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "azazdeaz/react-gsap-enhancer",
@@ -60279,9 +59905,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "imager-io/imager",
@@ -60301,9 +59925,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jonschlinkert/gulp-htmlmin",
@@ -60323,9 +59945,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "lferry007/LargeVis",
@@ -60345,9 +59965,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "edtr-io/edtr-io",
@@ -60367,9 +59985,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "reactive-elements/reactive-elements",
@@ -60389,9 +60005,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "chrvadala/react-svg-pan-zoom",
@@ -60411,9 +60025,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "dunglas/react-esi",
@@ -60433,9 +60045,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "csstools/mdcss",
@@ -60455,9 +60065,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "luukdv/gooey-react",
@@ -60477,9 +60085,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "fmoo/react-typeahead",
@@ -60499,9 +60105,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "styledown/styledown",
@@ -60521,9 +60125,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "appleboy/react-recaptcha",
@@ -60543,9 +60145,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "heremaps/pptk",
@@ -60565,9 +60165,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "LukyVj/colofilter.css",
@@ -60587,9 +60185,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "rill-js/rill",
@@ -60609,9 +60205,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "digiaonline/react-foundation",
@@ -60631,9 +60225,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "MariaLetta/mega-doodles-pack",
@@ -60653,9 +60245,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ruilisi/css-checker",
@@ -60675,9 +60265,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "tsparticles/react",
@@ -60697,9 +60285,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "codeAdrian/clay.css",
@@ -60719,9 +60305,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "rtsao/csjs",
@@ -60741,9 +60325,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "formsy/formsy-material-ui",
@@ -60763,9 +60345,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "mdo/css-perf",
@@ -60785,9 +60365,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "logicalparadox/matcha",
@@ -60807,9 +60385,7 @@
       }
     ],
     "category": "books",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "madrobby/dom-monster",
@@ -60829,9 +60405,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "tkh44/data-driven-motion",
@@ -60851,9 +60425,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "makeomatic/redux-connect",
@@ -60873,9 +60445,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "cobrateam/django-htmlmin",
@@ -60895,9 +60465,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "rstudio/r2d3",
@@ -60917,9 +60485,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "malerba118/react-particle-image",
@@ -60939,9 +60505,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "shootaroo/jit-grunt",
@@ -60961,9 +60525,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "wangzuo/react-medium-editor",
@@ -60983,9 +60545,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "conorhastings/redux-test-recorder",
@@ -61005,9 +60565,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "JakeSidSmith/react-fastclick",
@@ -61027,9 +60585,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "sprity/sprity",
@@ -61049,9 +60605,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "JamieMason/grunt-imageoptim",
@@ -61071,9 +60625,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ardov/huetone",
@@ -61093,9 +60645,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jasonslyvia/react-anything-sortable",
@@ -61115,9 +60665,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "medipass/react-payment-inputs",
@@ -61137,9 +60685,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "anatoliygatt/heart-switch",
@@ -61159,9 +60705,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "awana-archive/react-dimensions",
@@ -61181,9 +60725,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "chenglou/react-radio-group",
@@ -61203,9 +60745,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "grvcoelho/css-styleguide",
@@ -61225,9 +60765,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ctxhou/react-tabtab",
@@ -61247,9 +60785,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "RamonGebben/react-perf-tool",
@@ -61269,9 +60805,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Evo-Forge/Essence",
@@ -61291,9 +60825,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "genderev/prerender.js",
@@ -61313,9 +60845,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "tehmaze/diagram",
@@ -61335,9 +60865,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "gaearon/redux-devtools-dock-monitor",
@@ -61357,9 +60885,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "robinweser/inline-style-prefixer",
@@ -61379,9 +60905,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ayrton/react-key-handler",
@@ -61401,9 +60925,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "andreasbm/weightless",
@@ -61423,9 +60945,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "paol-imi/muuri-react",
@@ -61445,9 +60965,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "moarwick/react-mt-svg-lines",
@@ -61467,9 +60985,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "gilbox/react-spark-scroll",
@@ -61489,9 +61005,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "rumble-charts/rumble-charts",
@@ -61511,9 +61025,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "gilbox/react-track",
@@ -61533,9 +61045,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jakutis/httpinvoke",
@@ -61555,9 +61065,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "shakyShane/gulp-svg-sprites",
@@ -61577,9 +61085,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "krasimir/coloor",
@@ -61599,9 +61105,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "avocode/react-shortcuts",
@@ -61621,9 +61125,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "rawls238/react-experiments",
@@ -61643,9 +61145,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "martinandert/react-translate-component",
@@ -61665,9 +61165,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Yomguithereal/baobab-react",
@@ -61687,9 +61185,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "gaearon/redux-devtools-log-monitor",
@@ -61709,9 +61205,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "bringking/react-web-animation",
@@ -61731,9 +61225,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "mhart/react-server-routing-example",
@@ -61753,9 +61245,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "philipwalton/polyfill",
@@ -61775,9 +61265,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "martinandert/babel-plugin-css-in-js",
@@ -61797,9 +61285,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "reduxjs/redux-devtools-chart-monitor",
@@ -61819,9 +61305,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "twisty/formsy-react-components",
@@ -61841,9 +61325,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "STRML/react-localstorage",
@@ -61863,9 +61345,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "cdonohue/polychrome",
@@ -61885,9 +61365,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "stefanjudis/grunt-phantomas",
@@ -61907,9 +61385,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "turkyden/react-darkreader",
@@ -61929,9 +61405,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "BafS/Material-Colors-native",
@@ -61951,9 +61425,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "gre/gl-react-v2",
@@ -61973,9 +61445,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "shorthandcss/shorthand",
@@ -61995,9 +61465,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "frontaid/natural-selection",
@@ -62017,9 +61485,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "swiftcarrot/react-input-color",
@@ -62039,9 +61505,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "igrigorik/webp-detect",
@@ -62061,9 +61525,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "VictorCazanave/react-svg-map",
@@ -62083,9 +61545,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "npjg/classic.css",
@@ -62105,9 +61565,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "alexkuz/redux-devtools-inspector",
@@ -62127,9 +61585,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "okonet/react-container-dimensions",
@@ -62149,9 +61605,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "merrickluo/lsp-tailwindcss",
@@ -62171,9 +61625,7 @@
       }
     ],
     "category": "icons",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "iconify/iconify-react",
@@ -62193,9 +61645,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "reactjs/react-static-container",
@@ -62215,9 +61665,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jrm2k6/react-markdown-editor",
@@ -62237,9 +61685,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Lapple/react-transitive-number",
@@ -62259,9 +61705,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "aesthetic-suite/framework",
@@ -62281,9 +61725,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "yury-dymov/react-autocomplete-input",
@@ -62303,9 +61745,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "innFactory/react-planet",
@@ -62325,9 +61765,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "gcanti/tcomb-react",
@@ -62347,9 +61785,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ggordan/react-infinite-grid",
@@ -62369,9 +61805,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "based-ghost/react-functional-select",
@@ -62391,9 +61825,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "pzavolinsky/react-unit",
@@ -62413,9 +61845,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "winwiz1/crisp-react",
@@ -62435,9 +61865,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "brycedorn/react-intense",
@@ -62457,9 +61885,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "salvoravida/react-universal-hooks",
@@ -62479,9 +61905,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "tsparticles/vue3",
@@ -62501,9 +61925,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "bruderstein/unexpected-react",
@@ -62523,9 +61945,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ctrlplusb/react-component-queries",
@@ -62545,9 +61965,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "igrigorik/autoperf",
@@ -62567,9 +61985,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "flyfloor/react-image-cropper",
@@ -62589,9 +62005,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "pilwon/react-famous",
@@ -62611,9 +62025,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "broofa/jslitmus",
@@ -62633,9 +62045,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "stylecow/stylecow",
@@ -62655,9 +62065,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "lexfrl/react-layer-stack",
@@ -62677,9 +62085,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Sazito/phoenix",
@@ -62699,9 +62105,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Swaagie/minimize",
@@ -62721,9 +62125,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "martinnov92/React-Splitters",
@@ -62743,9 +62145,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "sakhnyuk/rc-scrollbars",
@@ -62765,9 +62165,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "anatoliygatt/numeric-stepper",
@@ -62787,9 +62185,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Siddharth11/gradstop",
@@ -62809,9 +62205,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "GigaTables/reactables",
@@ -62831,9 +62225,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "bvaughn/redux-devtools-filterable-log-monitor",
@@ -62853,9 +62245,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "instructure-react/react-tokeninput",
@@ -62875,9 +62265,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "RD17/react-trumbowyg",
@@ -62897,9 +62285,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "anater/tachyons-animate",
@@ -62919,9 +62305,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "OlegWock/react-local-toast",
@@ -62941,9 +62325,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "nicohlr/ipychart",
@@ -62963,9 +62345,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "marekrozmus/react-swipeable-list",
@@ -62985,9 +62365,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jhudson8/react-backbone",
@@ -63007,9 +62385,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "clari/react-ios-switch",
@@ -63029,9 +62405,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "zenorocha/browser-calories",
@@ -63051,9 +62425,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "internalfx/distinct-colors",
@@ -63073,9 +62445,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "mkosir/react-hook-mighty-mouse",
@@ -63095,9 +62465,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jeroencoumans/react-scroll-components",
@@ -63117,9 +62485,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "stemkoski/three.py",
@@ -63139,9 +62505,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ngokevin/react-file-reader-input",
@@ -63161,9 +62525,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "somerandomdude/grunt-webp",
@@ -63183,9 +62545,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "brettstimmerman/mensch",
@@ -63205,9 +62565,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "hzdg/react-google-analytics",
@@ -63227,9 +62585,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "KtorZPersonal/elm-react-component",
@@ -63249,9 +62605,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "zheeeng/react-device-frameset",
@@ -63271,9 +62625,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "almogtavor/date-range-picker",
@@ -63293,9 +62645,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "keepfast/keepfast",
@@ -63315,9 +62665,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "sindresorhus/gulp-vulcanize",
@@ -63337,9 +62685,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "anandgupta193/react-enterprise-starter-kit",
@@ -63359,9 +62705,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "antonfisher/react-simple-timefield",
@@ -63381,9 +62725,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "antvis/L7Plot",
@@ -63403,9 +62745,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "moharnadreza/react-toast",
@@ -63425,9 +62765,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "heldr/grunt-smushit",
@@ -63447,9 +62785,7 @@
       }
     ],
     "category": "icons",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "lunahq/react-open-doodles",
@@ -63469,9 +62805,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ccontrols/component-controls",
@@ -63491,9 +62825,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "sindresorhus/gulp-google-cdn",
@@ -63513,9 +62845,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "fritx/react-threejs",
@@ -63535,9 +62865,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "skozer/react-instagram-zoom-slider",
@@ -63557,9 +62885,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "mpay24/payment-logos",
@@ -63579,9 +62905,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "m-inan/react-upload-gallery",
@@ -63601,9 +62925,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "jfet97/strawberry",
@@ -63623,9 +62945,7 @@
       }
     ],
     "category": "videos",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Werter12/material-ui-audio-player",
@@ -63645,9 +62965,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jsmmth/react-avatar-generator",
@@ -63667,9 +62985,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "wessman/defer.js",
@@ -63689,9 +63005,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "zehfernandes/screeener",
@@ -63711,9 +63025,7 @@
       }
     ],
     "category": "colors",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jimniels/sassme",
@@ -63733,9 +63045,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "andreizanik/react-mouse-select",
@@ -63755,9 +63065,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ahmetcanaydemir/react-advanced-news-ticker",
@@ -63777,9 +63085,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ikr/react-star-rating-input",
@@ -63799,9 +63105,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "fritx/react-editor",
@@ -63821,9 +63125,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "mre/PHPench",
@@ -63843,9 +63145,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "arnaudambro/react-swipe-to-delete-ios",
@@ -63865,9 +63165,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "vutran/react-offcanvas",
@@ -63887,9 +63185,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "masroorejaz/react-simple-captcha",
@@ -63909,9 +63205,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "winwiz1/crisp-bigquery",
@@ -63931,9 +63225,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "soroushchehresa/axios-react",
@@ -63953,9 +63245,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "gerardmarquinarubio/ReactTypewriter",
@@ -63975,9 +63265,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "bloodyowl/react-styled",
@@ -63997,9 +63285,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "sha-el/sha-el-design",
@@ -64019,9 +63305,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "creolingo/react-translate-maker",
@@ -64041,9 +63325,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Nilanth/cra-template-redux-auth-starter",
@@ -64063,9 +63345,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Jarred-Sumner/atbuild",
@@ -64085,9 +63365,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "jney/grunt-htmlcompressor",
@@ -64107,9 +63385,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "stereobooster/html_press",
@@ -64129,9 +63405,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "zheeeng/react-keyboard-navigator",
@@ -64151,9 +63425,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "sideroad/grunt-wpt",
@@ -64173,9 +63445,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Martin-Pitt/css-unstyle",
@@ -64195,9 +63465,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "lionix-team/react-laravel-paginex",
@@ -64217,9 +63485,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "finnfiddle/react-svg-textures",
@@ -64239,9 +63505,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "heldr/gulp-smushit",
@@ -64261,9 +63525,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "koajs/html-minifier",
@@ -64283,9 +63545,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "MehmetKaplan/matrix-card",
@@ -64305,9 +63565,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "antvis/Dipper",
@@ -64327,9 +63585,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "JohnCashmore/grunt-cssshrink",
@@ -64349,9 +63605,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "kapolos/react-godfather",
@@ -64371,9 +63625,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "jmervine/bench",
@@ -64393,9 +63645,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jmervine/httperfjs",
@@ -64415,9 +63665,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "inturn/classy",
@@ -64437,9 +63685,7 @@
       }
     ],
     "category": "videos",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "tony-xlh/react-barcode-qrcode-scanner",
@@ -64459,9 +63705,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "makotot/paginated",
@@ -64481,9 +63725,7 @@
       }
     ],
     "category": "assets",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "JafarAkhondali/Tapnesh",
@@ -64503,9 +63745,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jscharting/jscharting-react",
@@ -64525,9 +63765,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "torrottum/gulp-cssshrink",
@@ -64547,9 +63785,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "tkwant/react-steps",
@@ -64569,9 +63805,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "ckalgos/react-chat-bot",
@@ -64591,9 +63825,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "fritx/react-drag-sizing",
@@ -64613,9 +63845,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "pitomba/spriter",
@@ -64635,9 +63865,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "tsparticles/vue2",
@@ -64657,9 +63885,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "chartshq/react-muze",
@@ -64679,9 +63905,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "milesj/rut",
@@ -64701,9 +63925,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jacobbednarz/php-bench",
@@ -64723,9 +63945,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "aslansky/gulp-sprite",
@@ -64745,9 +63965,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "steambap/xpath-to-selector",
@@ -64767,9 +63985,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "chr-ge/react-column-select",
@@ -64789,9 +64005,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "kierianlee/react-autowidth-input",
@@ -64811,9 +64025,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Nilanth/react-slack-notification",
@@ -64833,9 +64045,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jmervine/httperfrb",
@@ -64855,9 +64065,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "saidMounaim/React-Use-Smooth-Scroll",
@@ -64877,9 +64085,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "jmlweb/reactponsive",
@@ -64899,9 +64105,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "stoyan/csscolormin",
@@ -64921,9 +64125,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "umeshmk/react-schematic",
@@ -64943,9 +64145,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "bluepeter/jsondiffpatch-react",
@@ -64965,9 +64165,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "stereobooster/html_minifier",
@@ -64987,9 +64185,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "tpkahlon/captcha-image",
@@ -65009,9 +64205,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "fakundo/react-localized",
@@ -65031,9 +64225,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "paulcalvano/webfont-usage-analyzer",
@@ -65053,9 +64245,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jmervine/httperfpy",
@@ -65075,9 +64265,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "phphe/react-colrow",
@@ -65097,9 +64285,7 @@
       }
     ],
     "category": "animation",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "DualWield/auto-size-transition",
@@ -65119,9 +64305,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "luciancaetano/lens-ui",
@@ -65141,9 +64325,7 @@
       }
     ],
     "category": "guides",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "Joony/styledoc",
@@ -65163,9 +64345,7 @@
       }
     ],
     "category": "charts",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "abistarun/resseract-lite",
@@ -65185,9 +64365,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "stoyan/prettyugly",
@@ -65207,9 +64385,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jmervine/php-httperf",
@@ -65229,9 +64405,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "rich1richard/HasserCSS",
@@ -65251,9 +64425,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "tony-xlh/react-mrz-scanner",
@@ -65273,9 +64445,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "yairEO/ui-switch",
@@ -65295,9 +64465,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "jmervine/gohttperf",
@@ -65317,9 +64485,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "0529bill/react-client-validation",
@@ -65339,9 +64505,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "pajaydev/lasso-analyzer",
@@ -65361,9 +64525,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "kajyr/SvgToCSS",
@@ -65383,9 +64545,7 @@
       }
     ],
     "category": "dev-tools",
-    "alerts": [
-      "github: sem push há 2+ anos"
-    ],
+    "alerts": ["github: sem push há 2+ anos"],
     "decision": null,
     "github": {
       "repo": "kogarashisan/PerfTests",
@@ -65405,9 +64565,7 @@
       }
     ],
     "category": null,
-    "alerts": [
-      "github: arquivado"
-    ],
+    "alerts": ["github: arquivado"],
     "decision": null,
     "github": {
       "repo": "l-portet/pagepatch-free-hero",
@@ -65427,9 +64585,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: repositório não existe"
-    ],
+    "alerts": ["github: repositório não existe"],
     "decision": null
   },
   {
@@ -65443,9 +64599,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: repositório não existe"
-    ],
+    "alerts": ["github: repositório não existe"],
     "decision": null
   },
   {
@@ -65459,9 +64613,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: repositório não existe"
-    ],
+    "alerts": ["github: repositório não existe"],
     "decision": null
   },
   {
@@ -65475,9 +64627,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: repositório não existe"
-    ],
+    "alerts": ["github: repositório não existe"],
     "decision": null
   },
   {
@@ -65491,9 +64641,7 @@
       }
     ],
     "category": "ui-components",
-    "alerts": [
-      "github: repositório não existe"
-    ],
+    "alerts": ["github: repositório não existe"],
     "decision": null
   }
 ]

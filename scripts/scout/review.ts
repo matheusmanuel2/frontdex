@@ -19,14 +19,32 @@ const REJECTED = path.join(ROOT, 'scouting/rejected.json');
 const PORT = 4747;
 const SLUG = /^[a-z0-9-]+$/;
 
-type Draft = { slug: string; name: string; url: string; repo?: string; area: string; category: string; tags: string[]; pricing: string; open_source: boolean | string; license?: string; description: { pt: string; en: string }; notes?: string };
+type Draft = {
+  slug: string;
+  name: string;
+  url: string;
+  repo?: string;
+  area: string;
+  category: string;
+  tags: string[];
+  pricing: string;
+  open_source: boolean | string;
+  license?: string;
+  description: { pt: string; en: string };
+  notes?: string;
+};
 
 function drafts(): Draft[] {
   return readdirSync(RES)
     .filter((f) => f.endsWith('.yaml'))
-    .map((f) => ({ slug: f.slice(0, -5), ...(parseDocument(readFileSync(path.join(RES, f), 'utf8')).toJS() as Omit<Draft, 'slug'> & { status: string }) }))
+    .map((f) => ({
+      slug: f.slice(0, -5),
+      ...(parseDocument(readFileSync(path.join(RES, f), 'utf8')).toJS() as Omit<Draft, 'slug'> & { status: string }),
+    }))
     .filter((d) => (d as unknown as { status: string }).status === 'draft' && d.notes?.startsWith('Rascunho do scout'))
-    .sort((a, b) => a.area.localeCompare(b.area) || a.category.localeCompare(b.category) || a.name.localeCompare(b.name));
+    .sort(
+      (a, b) => a.area.localeCompare(b.area) || a.category.localeCompare(b.category) || a.name.localeCompare(b.name),
+    );
 }
 
 function approve(slug: string, pricing?: string, openSource?: boolean, pt?: string, en?: string) {
@@ -36,7 +54,8 @@ function approve(slug: string, pricing?: string, openSource?: boolean, pt?: stri
   if (typeof openSource === 'boolean') doc.set('open_source', openSource);
   if (pt) doc.setIn(['description', 'pt'], pt);
   if (en) doc.setIn(['description', 'en'], en);
-  if (doc.get('pricing') === 'TODO' || doc.get('open_source') === 'TODO') throw new Error('falta pricing ou open_source');
+  if (doc.get('pricing') === 'TODO' || doc.get('open_source') === 'TODO')
+    throw new Error('falta pricing ou open_source');
   doc.set('status', 'active');
   const notes = String(doc.get('notes') ?? '').replace(/^Rascunho do scout/, 'Scout, aprovado pelo Matheus');
   doc.set('notes', notes);
@@ -108,10 +127,24 @@ createServer((req, res) => {
     req.on('data', (c) => (raw += c));
     req.on('end', () => {
       try {
-        const b = JSON.parse(raw) as { slug: string; kind: string; pricing: string; open_source: string; pt: string; en: string; reason: string };
+        const b = JSON.parse(raw) as {
+          slug: string;
+          kind: string;
+          pricing: string;
+          open_source: string;
+          pt: string;
+          en: string;
+          reason: string;
+        };
         if (!SLUG.test(b.slug)) throw new Error('slug inválido');
         if (b.kind === 'approve') {
-          approve(b.slug, b.pricing !== 'TODO' ? b.pricing : undefined, b.open_source === 'TODO' ? undefined : b.open_source === 'true', b.pt?.trim(), b.en?.trim());
+          approve(
+            b.slug,
+            b.pricing !== 'TODO' ? b.pricing : undefined,
+            b.open_source === 'TODO' ? undefined : b.open_source === 'true',
+            b.pt?.trim(),
+            b.en?.trim(),
+          );
         } else if (b.kind === 'reject') reject(b.slug, b.reason?.trim());
         else throw new Error('ação desconhecida');
         send(200, 'ok');

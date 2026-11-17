@@ -24,8 +24,10 @@ export type Evidence = {
   error?: string;
 };
 
-const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36';
-const NOT_REPOS = /^(features|sponsors|login|join|about|pricing|marketplace|topics|explore|orgs|settings|site|apps|collections|trending|readme|enterprise|security|customer-stories)$/i;
+const UA =
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36';
+const NOT_REPOS =
+  /^(features|sponsors|login|join|about|pricing|marketplace|topics|explore|orgs|settings|site|apps|collections|trending|readme|enterprise|security|customer-stories)$/i;
 
 export function visibleText(html: string, max: number): string {
   return html
@@ -61,11 +63,18 @@ const sameHost = (a: string, b: string) => {
   }
 };
 
-async function get(url: string, max = 600_000): Promise<{ status: number; url: string; html: string } | { error: string }> {
+async function get(
+  url: string,
+  max = 600_000,
+): Promise<{ status: number; url: string; html: string } | { error: string }> {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 15_000);
   try {
-    const res = await fetch(url, { signal: ctrl.signal, redirect: 'follow', headers: { 'User-Agent': UA, Accept: 'text/html' } });
+    const res = await fetch(url, {
+      signal: ctrl.signal,
+      redirect: 'follow',
+      headers: { 'User-Agent': UA, Accept: 'text/html' },
+    });
     const reader = res.body?.getReader();
     const dec = new TextDecoder();
     let html = '';
@@ -98,12 +107,17 @@ async function licenses(repos: string[], token: string) {
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({ query: `{ ${q} }` }),
     });
-    const json = (await res.json()) as { data?: Record<string, { description: string | null; licenseInfo: { spdxId: string } | null } | null> };
+    const json = (await res.json()) as {
+      data?: Record<string, { description: string | null; licenseInfo: { spdxId: string } | null } | null>;
+    };
     batch.forEach((r, j) => {
       const d = json.data?.[`r${j}`];
       if (!d) return;
       const spdx = d.licenseInfo?.spdxId;
-      out.set(r, { license: spdx && spdx !== 'NOASSERTION' ? spdx : undefined, description: d.description ?? undefined });
+      out.set(r, {
+        license: spdx && spdx !== 'NOASSERTION' ? spdx : undefined,
+        description: d.description ?? undefined,
+      });
     });
   }
   return out;
@@ -121,7 +135,11 @@ async function main() {
     const batch = todo.slice(i, i + 25);
     await Promise.all(
       batch.map(async (f) => {
-        const d = parseDocument(readFileSync(path.join(dir, f), 'utf8')).toJS() as { name: string; url: string; repo?: string };
+        const d = parseDocument(readFileSync(path.join(dir, f), 'utf8')).toJS() as {
+          name: string;
+          url: string;
+          repo?: string;
+        };
         const e: Evidence = { name: d.name, url: d.url, repos: [] };
         const repoKeys = new Set<string>();
         if (d.repo) repoKeys.add(d.repo.replace(/^https:\/\/github\.com\//, '').toLowerCase());
@@ -136,7 +154,8 @@ async function main() {
           if (!/github\.com|npmjs\.com|chrome\.google\.com/.test(page.url)) {
             const origin = new URL(page.url).origin;
             const pr = await get(`${origin}/pricing`, 300_000);
-            if (!('error' in pr) && pr.status === 200 && new URL(pr.url).pathname.includes('pricing')) e.pricingPage = visibleText(pr.html, 1200);
+            if (!('error' in pr) && pr.status === 200 && new URL(pr.url).pathname.includes('pricing'))
+              e.pricingPage = visibleText(pr.html, 1200);
           }
         }
         e.repos = [...repoKeys].map((repo) => ({ repo }));
@@ -152,7 +171,8 @@ async function main() {
   const token = execFileSync('gh', ['auth', 'token'], { encoding: 'utf8' }).trim();
   const allRepos = [...new Set(Object.values(ev).flatMap((e) => e.repos.map((r) => r.repo)))];
   const lic = await licenses(allRepos, token);
-  for (const e of Object.values(ev)) e.repos = e.repos.filter((r) => lic.has(r.repo)).map((r) => ({ repo: r.repo, ...lic.get(r.repo) }));
+  for (const e of Object.values(ev))
+    e.repos = e.repos.filter((r) => lic.has(r.repo)).map((r) => ({ repo: r.repo, ...lic.get(r.repo) }));
   writeFileSync(outFile, JSON.stringify(ev) + '\n');
   console.log(`feito · ${Object.keys(ev).length} com provas`);
 }
