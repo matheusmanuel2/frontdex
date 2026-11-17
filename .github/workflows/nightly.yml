@@ -1,0 +1,72 @@
+name: Noturno
+
+# Testes lentos que não bloqueiam o merge: Lighthouse e e2e (com acessibilidade).
+# Correm todas as noites na main e quando pedidos à mão. Se falharem, abrem
+# (ou comentam) uma issue "CI noturno falhou".
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: nightly
+  cancel-in-progress: true
+
+jobs:
+  slow:
+    name: Lighthouse e e2e
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: Instalar dependências
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm build
+
+      - name: Browsers do Playwright
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Lighthouse CI
+        run: pnpm lighthouse:ci
+
+      - name: Guardar relatórios Lighthouse
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-${{ github.run_id }}
+          path: .lighthouseci/
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Testes e2e e acessibilidade
+        if: success() || failure()
+        run: pnpm test:e2e
+
+      - name: Avisar numa issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="CI noturno falhou"
+          number=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          body="O CI noturno falhou em $(date -u +%Y-%m-%d). Detalhes: $RUN_URL"
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
