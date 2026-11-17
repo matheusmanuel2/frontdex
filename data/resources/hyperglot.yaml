@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: "Hyperglot"
+url: https://hyperglot.rosettatype.com/
+repo: https://github.com/rosettatype/hyperglot
+author: "Rosetta Type"
+area: build
+category: typography-tools
+tags: [ typography ]
+pricing: free
+open_source: true
+description:
+  pt: "Base de dados de mais de 640 idiomas que mostra quais línguas uma fonte suporta. Essencial para sites multilíngues."
+  en: "Database of 640+ languages that shows which ones a font supports. Essential for multilingual sites."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

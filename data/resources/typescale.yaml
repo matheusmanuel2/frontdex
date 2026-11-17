@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Typescale"
+url: https://typescale.com/
+area: build
+category: typography-tools
+tags: [ typography, css ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Testa escalas tipográficas com fontes do Google e gera o CSS. Rápido para fechar tamanhos de títulos."
+  en: "Try out type scales with Google Fonts and get the CSS. Quick way to settle heading sizes."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

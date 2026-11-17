@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Coolors"
+url: https://coolors.co/
+area: build
+category: colors
+tags: [ web ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Gerador de paletas com a barra de espaço: trava as cores que gosta e troca o resto até fechar."
+  en: "Palette generator driven by the space bar: lock the colors you like and shuffle the rest until it clicks."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

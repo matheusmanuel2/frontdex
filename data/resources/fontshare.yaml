@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Fontshare"
+url: https://www.fontshare.com/
+author: "Indian Type Foundry"
+area: build
+category: fonts
+tags: [ typography ]
+pricing: free
+open_source: false
+description:
+  pt: "Fontes de qualidade profissional da Indian Type Foundry, grátis também para uso comercial."
+  en: "Professional-grade typefaces from the Indian Type Foundry, free for commercial use too."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

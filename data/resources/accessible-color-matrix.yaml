@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Accessible Color Matrix"
+url: https://toolness.github.io/accessible-color-matrix/
+repo: https://github.com/toolness/accessible-color-matrix
+area: build
+category: accessibility
+tags: [ accessibility ]
+pricing: free
+open_source: true
+description:
+  pt: "Cola a paleta e vê uma grelha com o contraste de cada par de cores. Mostra na hora que combinações passam."
+  en: "Paste your palette and get a grid with the contrast of every color pair. Shows at a glance which combos pass."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Envato Elements"
+url: https://elements.envato.com/
+author: "Envato"
+area: build
+category: assets
+tags: [ photos, mockups, illustration ]
+pricing: paid
+open_source: false
+description:
+  pt: "Assinatura com downloads ilimitados de fotos, mockups, fontes e templates com licença comercial."
+  en: "Subscription with unlimited downloads of photos, mockups, fonts and templates under a commercial license."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

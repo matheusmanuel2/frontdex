@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "UI Hut Icons"
+url: https://uihut.com/icons
+area: build
+category: icons
+tags: [ icons ]
+pricing: freemium
+open_source: false
+description:
+  pt: "Mais de 9.000 ícones SVG para copiar e colar, sem atribuição. Parte do catálogo UIHut, que tem planos pagos."
+  en: "Over 9,000 copy-and-paste SVG icons with no attribution. Part of the UIHut catalog, which has paid plans."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

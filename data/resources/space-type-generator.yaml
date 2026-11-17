@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "Space Type Generator"
+url: https://spacetypegenerator.com/
+area: build
+category: design-tools
+tags: [ typography, motion, interactive ]
+pricing: TODO
+open_source: false
+description:
+  pt: "Gerador de tipografia cinética no browser: texto em espiral, ondas e 3D, exportável em vídeo ou imagem."
+  en: "In-browser kinetic type generator: text in spirals, waves and 3D, exportable as video or image."
+featured: true
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Import Design Holy Grail. Hidden gem. Pricing por confirmar."

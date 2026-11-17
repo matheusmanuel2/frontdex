@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "Collletttivo"
+url: https://www.collletttivo.it/
+area: build
+category: fonts
+tags: [ typography ]
+pricing: free
+open_source: true
+description:
+  pt: "Foundry open source italiana feita por uma rede de pessoas. Fontes com personalidade, grátis."
+  en: "Italian open-source type foundry run by a network of people. Free typefaces with character."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

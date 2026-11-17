@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: "GoFullPage"
+url: https://gofullpage.com/
+area: build
+category: design-tools
+tags: [ web, screens ]
+pricing: TODO
+open_source: false
+description:
+  pt: "Extensão do Chrome que tira screenshot da página inteira num clique e exporta para imagem ou PDF."
+  en: "Chrome extension that captures a full-page screenshot in one click and exports to image or PDF."
+featured: true
+added: 2026-11-17
+last_checked: 2026-11-17
+status: draft
+notes: "Import Design Holy Grail. Hidden gem. Confirmar plano Premium (freemium?)."

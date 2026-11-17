@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schema.json
+name: "FontBase"
+url: https://fontba.se/
+area: build
+category: typography-tools
+tags: [ typography, macos ]
+pricing: free
+open_source: false
+description:
+  pt: "Gerenciador de fontes para Mac e Windows, rápido, que ativa fontes sem instalá-las no sistema."
+  en: "Fast font manager for Mac and Windows that activates fonts without installing them system-wide."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."

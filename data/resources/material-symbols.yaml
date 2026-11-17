@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: "Google Material Icons"
+url: https://fonts.google.com/icons
+repo: https://github.com/google/material-design-icons
+author: "Google"
+area: build
+category: icons
+tags: [ icons, web ]
+pricing: free
+open_source: true
+description:
+  pt: "Mais de 2.500 ícones Material Symbols numa fonte variável, com peso, preenchimento e tamanho ajustáveis."
+  en: "Over 2,500 Material Symbols icons in one variable font, with adjustable weight, fill and optical size."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Import Design Holy Grail."
