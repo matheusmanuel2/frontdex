@@ -5,6 +5,7 @@ import { Suspense } from 'react';
 import { CategoryRows } from '@/components/category/CategoryRows';
 import { FilterBar, type FilterLabels } from '@/components/category/FilterBar';
 import type { FilterItem } from '@/components/category/filters';
+import { SidebarList } from '@/components/category/SidebarList';
 import { Breadcrumb, EmptyState, SectionTitle } from '@/components/index';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { Link } from '@/components/site/LocaleLink';
@@ -121,7 +122,7 @@ export default async function CategoryPage({ params }: Props) {
             {t('sidebar', { area: area?.name[locale] ?? '' })}
           </p>
           <nav aria-labelledby="category-siblings">
-            <ul className="t-reveal-list flex gap-1 overflow-x-auto pb-2 lg:flex-col lg:overflow-visible lg:pb-0">
+            <SidebarList className="flex gap-1 overflow-x-auto pb-2 lg:flex-col lg:overflow-visible lg:pb-0">
               {siblings.map((sibling) => {
                 const active = sibling.slug === slug;
                 return (
@@ -142,7 +143,7 @@ export default async function CategoryPage({ params }: Props) {
                   </li>
                 );
               })}
-            </ul>
+            </SidebarList>
           </nav>
         </aside>
 
