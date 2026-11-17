@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Playwright
+url: https://playwright.dev
+repo: https://github.com/microsoft/playwright
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - typescript
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Testes e automação web com uma só API para Chromium, Firefox e WebKit.
+  en: Web testing and automation with one API for Chromium, Firefox and WebKit.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://playwright.dev"

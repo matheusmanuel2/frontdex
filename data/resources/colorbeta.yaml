@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: ColorBeta
+url: https://colorbeta.com/
+area: build
+category: colors
+tags:
+  - css
+  - gradients
+pricing: free
+open_source: false
+description:
+  pt: Cria e edita gradientes CSS lineares, radiais e cônicos online.
+  en: Creates and edits linear, radial and conic CSS gradients online.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://colorbeta.com/"

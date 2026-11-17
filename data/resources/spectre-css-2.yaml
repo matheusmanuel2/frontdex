@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Spectre.css
+url: https://picturepan2.github.io/spectre/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Framework CSS leve com estilos base para tipografia, grid responsivo em flexbox e componentes puros em CSS.
+  en: Lightweight CSS framework with base typography styles, a flexbox responsive grid and pure CSS components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://picturepan2.github.io/spectre/"

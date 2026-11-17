@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: iron-session
+url: https://get-iron-session.vercel.app
+repo: https://github.com/vvo/iron-session
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Sessões seguras e stateless baseadas em cookies para Next.js ou qualquer framework JS.
+  en: Secure, stateless, cookie-based sessions for Next.js or any JavaScript framework.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://get-iron-session.vercel.app"

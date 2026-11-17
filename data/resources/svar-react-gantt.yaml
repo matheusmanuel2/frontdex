@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: SVAR React Gantt
+url: https://svar.dev/react/gantt/
+area: build
+category: charts
+tags:
+  - react
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Gráfico de Gantt nativo em React com dependências entre tarefas e edição por arrastar.
+  en: Native React Gantt chart with task dependencies and drag-and-drop editing.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://svar.dev/react/gantt/"

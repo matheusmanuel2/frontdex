@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: html2pdf.js
+url: https://ekoopmans.github.io/html2pdf.js/
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gera PDF a partir de HTML direto no cliente, usando apenas JavaScript.
+  en: Renders HTML to PDF on the client side, using only JavaScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ekoopmans.github.io/html2pdf.js/"

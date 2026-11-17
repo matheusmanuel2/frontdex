@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Mozaïk
+url: https://github.com/plouc/mozaik
+repo: https://github.com/plouc/mozaik
+area: build
+category: charts
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Monta dashboards com Node.js, React, Redux, nivo e d3.
+  en: Builds dashboards with Node.js, React, Redux, nivo and d3.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/plouc/mozaik"

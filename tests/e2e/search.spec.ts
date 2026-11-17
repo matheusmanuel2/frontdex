@@ -64,7 +64,7 @@ test.describe('⌘K', () => {
     await page.getByRole('combobox', { name: 'Buscar' }).fill('ani');
     const category = page.locator('[role="option"][href="/pt/c/animation"]');
     await expect(category).toContainText('Animação');
-    await expect(category).toContainText('Construir · 2');
+    await expect(category).toContainText(`Construir · ${listResources({ category: 'animation' }).length}`);
     await expect(category).not.toContainText('categoryanimation');
   });
 

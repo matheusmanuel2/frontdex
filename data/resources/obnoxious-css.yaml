@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Obnoxious.css
+url: https://tholman.com/obnoxious/
+area: build
+category: animation
+tags:
+  - css
+  - motion
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Animações CSS exageradas de propósito, para quem tem coragem.
+  en: Deliberately over-the-top CSS animations, for the strong of heart.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://tholman.com/obnoxious/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: nivo
+url: https://nivo.rocks
+repo: https://github.com/plouc/nivo
+area: build
+category: charts
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componentes de visualização de dados sobre d3 e React.
+  en: Data visualization components built on d3 and React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://nivo.rocks"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: ChartGPU
+url: https://chartgpu.io
+repo: https://github.com/ChartGPU/ChartGPU
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de gráficos open source baseada em WebGPU.
+  en: Open source charting library based on WebGPU.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://chartgpu.io"

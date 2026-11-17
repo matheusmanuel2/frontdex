@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Color Name List
+url: https://github.com/meodai/color-names/
+repo: https://github.com/meodai/color-names
+area: build
+category: colors
+tags:
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Lista grande de nomes de cores escolhidos à mão, útil para nomear tokens e paletas.
+  en: Large list of handpicked color names, handy for naming tokens and palettes.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://github.com/meodai/color-names/"

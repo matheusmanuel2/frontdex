@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-anything-sortable
+url: https://github.com/jasonslyvia/react-anything-sortable
+repo: https://github.com/jasonslyvia/react-anything-sortable
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Ordena qualquer filho em React arrastando, com suporte a toque e até IE8.
+  en: Sorts any children in React by dragging, with touch support and IE8 compatibility.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/jasonslyvia/react-anything-sortable"

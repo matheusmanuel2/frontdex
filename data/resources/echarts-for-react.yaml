@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: echarts-for-react
+url: https://git.hust.cc/echarts-for-react
+repo: https://github.com/hustcc/echarts-for-react
+area: build
+category: charts
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Wrapper React para usar componentes do Apache ECharts.
+  en: React wrapper for using Apache ECharts components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components, hal9ai/awesome-dataviz. Lida: https://git.hust.cc/echarts-for-react"

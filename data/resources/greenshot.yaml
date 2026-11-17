@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Greenshot
+url: https://getgreenshot.org/
+area: build
+category: design-tools
+tags:
+  - web
+pricing: free
+open_source: true
+license: GPL-3.0
+description:
+  pt: Ferramenta gratuita de screenshot pensada para produtividade.
+  en: Free screenshot tool built for productivity.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://getgreenshot.org/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: "@use-gesture"
+url: https://use-gesture.netlify.app
+repo: https://github.com/pmndrs/use-gesture
+area: build
+category: ui-components
+tags:
+  - react
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gestos de mouse e toque ligados a componentes, como arrastar, pinça e zoom, em React ou JS puro.
+  en: Component-tied mouse and touch gestures like drag, pinch and zoom, in React or vanilla JS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://use-gesture.netlify.app"

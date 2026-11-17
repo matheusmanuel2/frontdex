@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: TechanJS
+url: https://techanjs.org/
+area: build
+category: charts
+tags:
+  - javascript
+  - market-data
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: "Gráficos financeiros sobre D3: candlestick, OHLC, indicadores e análise técnica."
+  en: "Financial charts on D3: candlestick, OHLC, indicators and technical analysis."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://techanjs.org/"

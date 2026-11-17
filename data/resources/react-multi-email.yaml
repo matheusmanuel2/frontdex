@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-multi-email
+url: https://react-multi-email.vercel.app/
+repo: https://github.com/axisj/react-multi-email
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Campo React que formata vários e-mails enquanto você digita.
+  en: React field that formats multiple emails as you type.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-multi-email.vercel.app/"

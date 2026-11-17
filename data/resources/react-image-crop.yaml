@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-image-crop
+url: https://github.com/DominicTobias/react-image-crop
+repo: https://github.com/dominictobias/react-image-crop
+area: build
+category: ui-components
+tags:
+  - react
+  - photos
+pricing: free
+open_source: true
+license: ISC
+description:
+  pt: Ferramenta responsiva de recorte de imagens para React.
+  en: Responsive image cropping tool for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/DominicTobias/react-image-crop"

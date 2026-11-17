@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: jQWidgets React Grid
+url: https://www.jqwidgets.com/react/react-grid/
+area: build
+category: ui-components
+tags:
+  - react
+pricing: paid
+open_source: false
+description:
+  pt: Grade de dados para React com agrupamento, agregações, exportação e rolagem virtual, em 115 demos.
+  en: React data grid with grouping, aggregates, export and virtual scrolling, shown in 115 demos.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.jqwidgets.com/react/react-grid/"

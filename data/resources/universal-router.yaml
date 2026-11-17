@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Universal Router
+url: https://kriasoft.com/universal-router/
+repo: https://github.com/kriasoft/universal-router
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Roteador no estilo middleware para apps web JavaScript isomórficos.
+  en: Middleware-style router for isomorphic JavaScript web apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://kriasoft.com/universal-router/"

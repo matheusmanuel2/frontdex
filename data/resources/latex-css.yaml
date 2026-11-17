@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: LaTeX.css
+url: https://latex.vercel.app/
+area: build
+category: ui-components
+tags:
+  - css
+  - typography
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: CSS quase sem classes que deixa seu site com cara de documento LaTeX.
+  en: Almost class-less CSS that makes your website look like a LaTeX document.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, swyxio/spark-joy. Lida: https://latex.now.sh/. Redirecionava de https://latex.now.sh/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Apache Superset
+url: https://superset.apache.org/
+repo: https://github.com/apache/superset
+area: build
+category: charts
+tags:
+  - analytics
+  - sql
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Plataforma de exploração e visualização de dados da Apache.
+  en: Apache's platform for data exploration and visualization.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://superset.apache.org/"

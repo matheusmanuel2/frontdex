@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: AniJS
+url: https://anijs.github.io/
+area: build
+category: animation
+tags:
+  - javascript
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca declarativa para disparar animações CSS sem escrever código.
+  en: Declarative library for triggering CSS animations without writing code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://anijs.github.io/"

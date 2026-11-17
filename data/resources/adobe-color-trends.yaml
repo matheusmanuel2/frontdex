@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Adobe Color Trends
+url: https://color.adobe.com/trends
+area: build
+category: colors
+tags:
+  - gradients
+  - branding
+pricing: freemium
+open_source: false
+description:
+  pt: Paletas e gradientes organizados por estilo e clima, com temas em alta e combinações para identidade de marca.
+  en: Palettes and gradients grouped by style and mood, with trending themes and combinations for brand color.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://color.adobe.com/trends"

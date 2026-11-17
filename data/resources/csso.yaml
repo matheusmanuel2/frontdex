@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: CSSO
+url: https://css.github.io/csso/csso.html
+repo: https://github.com/css/csso
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Minificador de CSS que também aplica otimizações estruturais.
+  en: CSS minifier that also applies structural optimizations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://css.github.io/csso/csso.html"

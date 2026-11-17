@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Tailwind CSS
+url: https://tailwindcss.com/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: "Framework CSS utility-first: você estiliza o site com classes direto no HTML."
+  en: "Utility-first CSS framework: you style the site with classes right in your HTML."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks, swyxio/spark-joy. Lida: https://tailwindcss.com/"

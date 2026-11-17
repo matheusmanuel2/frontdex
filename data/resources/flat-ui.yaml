@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Flat UI
+url: https://designmodo.github.io/Flat-UI/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Tema e framework flat sobre o Bootstrap, com versão em PSD e em HTML.
+  en: Flat theme and framework on top of Bootstrap, in both PSD and HTML versions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://designmodo.github.io/Flat-UI/"

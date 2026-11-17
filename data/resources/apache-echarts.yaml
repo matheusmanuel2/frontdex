@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Apache ECharts
+url: https://echarts.apache.org
+repo: https://github.com/apache/echarts
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Biblioteca de gráficos interativos e visualização de dados para o navegador.
+  en: Interactive charting and data visualization library for the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://echarts.apache.org"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-local-toast
+url: https://react-local-toast.netlify.app/
+repo: https://github.com/OlegWock/react-local-toast
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Toasts que aparecem junto ao componente, para feedback ligado a um ponto da página.
+  en: Toasts shown next to a component, for feedback tied to a specific spot on the page.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-local-toast.netlify.app/"

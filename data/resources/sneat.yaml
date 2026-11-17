@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Sneat
+url: https://demos.themeselection.com/sneat-bootstrap-html-admin-template-free/html/
+repo: https://github.com/themeselection/sneat-bootstrap-html-admin-template-free
+area: build
+category: ui-components
+tags:
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Template gratuito de painel administrativo em HTML com Bootstrap 5.
+  en: Free HTML admin dashboard template built with Bootstrap 5.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://demos.themeselection.com/sneat-bootstrap-html-admin-template-free/html/"

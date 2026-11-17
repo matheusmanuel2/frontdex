@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Redux DevTools
+url: https://github.com/gaearon/redux-devtools
+repo: https://github.com/reduxjs/redux-devtools
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Ferramentas para Redux com hot reloading, replay de ações e interface customizável.
+  en: Redux devtools with hot reloading, action replay and a customizable UI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/gaearon/redux-devtools"

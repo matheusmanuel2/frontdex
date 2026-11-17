@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-burger-menu
+url: https://github.com/negomi/react-burger-menu
+repo: https://github.com/negomi/react-burger-menu
+area: build
+category: ui-components
+tags:
+  - react
+  - motion
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Sidebar off-canvas com uma coleção de efeitos em transições CSS e animações de path SVG.
+  en: Off-canvas sidebar with a set of effects using CSS transitions and SVG path animations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/negomi/react-burger-menu"

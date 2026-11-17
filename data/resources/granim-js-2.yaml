@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Granim.js
+url: https://sarcadass.github.io/granim.js/
+repo: https://github.com/sarcadass/granim.js
+area: build
+category: colors
+tags:
+  - gradients
+  - javascript
+  - motion
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Pequena biblioteca JS para animações de gradiente fluidas e interativas.
+  en: Small JS library for fluid, interactive gradient animations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://sarcadass.github.io/granim.js/"

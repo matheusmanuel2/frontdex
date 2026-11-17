@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: unDraw
+url: https://undraw.co/
+area: build
+category: assets
+tags:
+  - illustration
+pricing: free
+open_source: false
+description:
+  pt: Ilustrações de código aberto que você baixa grátis já na cor do seu projeto.
+  en: Open source illustrations you download for free in your own project's color.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://undraw.co/"

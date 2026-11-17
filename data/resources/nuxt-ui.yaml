@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Nuxt UI
+url: https://ui.nuxt.com/docs/getting-started
+area: build
+category: ui-components
+tags:
+  - javascript
+  - css
+  - accessibility
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Mais de 125 componentes Vue acessíveis com Tailwind CSS, funcionando com ou sem Nuxt.
+  en: 125+ accessible Vue components with Tailwind CSS, working with or without Nuxt.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ui.nuxtlabs.com/getting-started. Redirecionava de https://ui.nuxtlabs.com/getting-started"

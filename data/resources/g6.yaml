@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: G6
+url: https://g6.antv.antgroup.com/
+repo: https://github.com/antvis/G6
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Framework JavaScript para visualizar grafos, árvores e redes.
+  en: JavaScript framework for visualizing graphs, trees and networks.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://g6.antv.antgroup.com/"

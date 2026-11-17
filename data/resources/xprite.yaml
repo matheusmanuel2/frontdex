@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Xprite
+url: https://sketchvalley.com/
+area: build
+category: design-tools
+tags:
+  - illustration
+pricing: free
+open_source: false
+description:
+  pt: Editor de pixel art e animação no navegador, que abre arquivos do Aseprite e trabalha com camadas e frames.
+  en: Pixel art and animation editor in the browser that opens Aseprite files and handles layers and frames.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://sketchvalley.com/"

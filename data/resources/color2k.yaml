@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: color2k
+url: https://color2k.com
+repo: https://github.com/ricokahler/color2k
+area: build
+category: colors
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Leitura e manipulação de cores em cerca de 2 kB.
+  en: Color parsing and manipulation in roughly 2 kB.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://color2k.com"

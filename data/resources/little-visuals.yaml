@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Little Visuals
+url: https://littlevisuals.co/
+area: build
+category: assets
+tags:
+  - photos
+pricing: free
+open_source: false
+description:
+  pt: Imagens em alta resolução gratuitas, que você pode usar como quiser, inclusive em projetos comerciais.
+  en: Free high-resolution images you can use any way you like, including commercial projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://littlevisuals.co/"

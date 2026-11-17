@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: grunt-svgmin
+url: https://github.com/sindresorhus/grunt-svgmin
+repo: https://github.com/sindresorhus/grunt-svgmin
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Tarefa do Grunt que minifica arquivos SVG.
+  en: Grunt task that minifies SVG files in your build.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/sindresorhus/grunt-svgmin"

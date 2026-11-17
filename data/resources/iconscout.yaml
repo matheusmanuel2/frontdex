@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: IconScout
+url: https://iconscout.com/
+area: build
+category: icons
+tags:
+  - icons
+  - illustration
+  - figma
+pricing: freemium
+open_source: false
+description:
+  pt: Mais de 15 milhões de ícones, animações Lottie e ilustrações para Figma, Adobe e Canva.
+  en: Over 15M icons, Lottie animations and illustrations for Figma, Adobe and Canva.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://iconscout.com/"

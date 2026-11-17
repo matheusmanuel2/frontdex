@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Tremor
+url: https://tremor.so/
+area: build
+category: charts
+tags:
+  - react
+  - css
+  - accessibility
+pricing: freemium
+open_source: true
+license: Apache-2.0
+description:
+  pt: Componentes React open source e acessíveis com Tailwind para montar gráficos e dashboards copiando o código.
+  en: Open-source, accessible React components with Tailwind for building charts and dashboards by copying code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://tremor.so/"

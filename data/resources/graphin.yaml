@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Graphin
+url: https://github.com/antvis/graphin
+repo: https://github.com/antvis/Graphin
+area: build
+category: charts
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Kit React para visualização de grafos, construído sobre o G6 da AntV.
+  en: React toolkit for graph visualization, built on AntV's G6.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/antvis/graphin"

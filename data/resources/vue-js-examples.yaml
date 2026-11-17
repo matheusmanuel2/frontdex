@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Vue.js Examples
+url: https://vuejsexamples.com
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: free
+open_source: false
+description:
+  pt: Coleção de exemplos e componentes feitos em Vue.js para reaproveitar em projetos.
+  en: Collection of Vue.js examples and components to reuse in your projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://vuejsexamples.com"

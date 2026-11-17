@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Sprite Factory
+url: https://jakesgordon.com/writing/sprite-factory/
+repo: https://github.com/jakesgordon/sprite-factory
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gera sprites CSS automaticamente a partir de um conjunto de imagens.
+  en: Generates CSS sprites automatically from a set of images.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://jakesgordon.com/writing/sprite-factory/"

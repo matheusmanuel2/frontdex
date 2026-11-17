@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Colofilter.css
+url: https://github.com/LukyVj/colofilter.css
+repo: https://github.com/LukyVj/colofilter.css
+area: build
+category: colors
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Filtros duotone feitos só com CSS, aplicados por classe sobre qualquer imagem.
+  en: Duotone filters made with plain CSS, applied by class over any image.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://github.com/LukyVj/colofilter.css"

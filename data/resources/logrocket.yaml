@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: LogRocket
+url: https://www.logrocket.com/
+area: build
+category: dev-tools
+tags:
+  - analytics
+pricing: freemium
+open_source: false
+description:
+  pt: Junta replay de sessão, analytics e rastreamento de erros para entender os problemas que afetam seus usuários.
+  en: Combines session replay, product analytics and error tracking to understand problems affecting your users.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.logrocket.com/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: diagram-js
+url: https://github.com/bpmn-io/diagram-js
+repo: https://github.com/bpmn-io/diagram-js
+area: build
+category: charts
+tags:
+  - javascript
+  - interactive
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Base para exibir e editar diagramas na web.
+  en: Toolbox for displaying and editing diagrams on the web.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/bpmn-io/diagram-js"

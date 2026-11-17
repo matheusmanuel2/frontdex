@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Grommet
+url: https://v2.grommet.io/
+repo: https://github.com/grommet/grommet
+area: build
+category: ui-components
+tags:
+  - react
+  - accessibility
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Framework React com acessibilidade, modularidade, responsividade e temas.
+  en: React framework with accessibility, modularity, responsiveness and theming built in.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://grommet.io. Redirecionava de https://grommet.io"

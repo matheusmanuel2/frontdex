@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: slick
+url: https://kenwheeler.github.io/slick/
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Carrossel em jQuery com breakpoints, transições CSS3 e swipe por toque.
+  en: jQuery carousel with multiple breakpoints, CSS3 transitions and touch swiping.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://kenwheeler.github.io/slick/"

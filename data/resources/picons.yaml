@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Picons
+url: https://picons.me/
+area: build
+category: icons
+tags:
+  - icons
+  - figma
+pricing: freemium
+open_source: false
+description:
+  pt: Sets de ícones vetoriais premium em SVG, PNG, EPS, icon font, Sketch e Figma.
+  en: Premium vector icon sets in SVG, PNG, EPS, icon font, Sketch and Figma.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://picons.me/"

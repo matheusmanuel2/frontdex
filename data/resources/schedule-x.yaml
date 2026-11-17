@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Schedule-X
+url: https://schedule-x.dev
+repo: https://github.com/schedule-x/schedule-x
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Calendário de eventos em JavaScript, alternativa ao FullCalendar e ao react-big-calendar.
+  en: JavaScript event calendar, an alternative to FullCalendar and react-big-calendar.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://schedule-x.dev"

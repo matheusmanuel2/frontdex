@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: LottieFiles
+url: https://lottiefiles.com/
+area: build
+category: assets
+tags:
+  - motion
+  - illustration
+pricing: freemium
+open_source: false
+description:
+  pt: Animações Lottie leves para baixar e ferramentas para criar, editar e testar as suas.
+  en: Lightweight Lottie animations to download, plus tools to create, edit and test your own.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://lottiefiles.com/"

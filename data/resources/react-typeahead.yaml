@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-typeahead
+url: https://github.com/fmoo/react-typeahead
+repo: https://github.com/fmoo/react-typeahead
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: ISC
+description:
+  pt: Typeahead e tokenizador de typeahead feitos em React puro.
+  en: Pure React typeahead and typeahead tokenizer.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/fmoo/react-typeahead"

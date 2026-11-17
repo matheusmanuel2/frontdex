@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Colorpicker
+url: https://visual.app/assets
+area: build
+category: colors
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: App de desktop para gerenciar cores e capturar qualquer cor que esteja na tela.
+  en: Desktop app for managing colors and picking any color on your screen.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://designstripe.com/catalog. Redirecionava de https://designstripe.com/catalog"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Overflow
+url: https://overflow.io/
+area: build
+category: design-tools
+tags:
+  - flows
+pricing: paid
+open_source: false
+description:
+  pt: User flows interativos e apresentações de design para críticas ao vivo ou assíncronas.
+  en: Interactive user flows and design presentations for live or async critique.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://overflow.io/"

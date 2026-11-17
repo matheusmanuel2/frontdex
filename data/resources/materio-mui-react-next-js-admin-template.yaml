@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Materio MUI React Next.js Admin Template
+url: https://themeselection.com/item/materio-free-mui-nextjs-admin-template
+repo: https://github.com/themeselection/materio-mui-nextjs-admin-template-free
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+  - css
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Template de painel admin gratuito com Next.js 14 (App Router), Material UI, Tailwind CSS e TypeScript.
+  en: Free admin dashboard template with Next.js 14 (App Router), Material UI, Tailwind CSS and TypeScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://themeselection.com/item/materio-free-mui-nextjs-admin-template"

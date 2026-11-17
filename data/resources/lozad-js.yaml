@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: lozad.js
+url: https://apoorv.pro/lozad.js/demo/
+repo: https://github.com/ApoorvSaxena/lozad.js
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Lazy loader de cerca de 1 KB em JS puro para imagens responsivas, iframes e mais.
+  en: ~1kb pure JS lazy loader for responsive images, iframes and more, no dependencies.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://apoorv.pro/lozad.js/demo/"

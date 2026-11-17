@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-essence
+url: https://github.com/Evo-Forge/Essence
+repo: https://github.com/Evo-Forge/Essence
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Framework de componentes React seguindo o Material Design.
+  en: Material Design component framework for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/Evo-Forge/Essence"

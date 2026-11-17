@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: ImageKit
+url: https://imagekit.io
+area: build
+category: dev-tools
+tags:
+  - photos
+  - video
+  - api
+pricing: freemium
+open_source: false
+description:
+  pt: API que transforma e entrega imagens e vídeos otimizados em tempo real, com DAM que também conecta via MCP.
+  en: API that transforms and delivers optimized images and video in real time, plus a DAM that connects via MCP.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://imagekit.io"

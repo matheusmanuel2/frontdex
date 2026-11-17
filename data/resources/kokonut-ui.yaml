@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Kokonut UI
+url: https://kokonutui.com
+repo: https://github.com/kokonut-labs/kokonutui
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+  - motion
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Coleção open source de componentes feitos com Tailwind CSS, shadcn/ui e Motion.
+  en: Open-source collection of components built with Tailwind CSS, shadcn/ui and Motion.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://kokonutui.com"

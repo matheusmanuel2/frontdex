@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: GIPHY Capture
+url: https://giphy.com/apps/giphycapture
+area: build
+category: design-tools
+tags:
+  - macos
+  - video
+pricing: free
+open_source: false
+description:
+  pt: Grava um trecho da tela do Mac e transforma em GIF.
+  en: Records part of your Mac screen and turns it into a GIF.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://giphy.com/apps/giphycapture"

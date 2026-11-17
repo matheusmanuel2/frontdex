@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Notiflix
+url: https://notiflix.github.io
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Notificações não bloqueantes, caixas de diálogo e indicadores de carregamento em JavaScript puro, sem dependências.
+  en: Non-blocking notifications, popup boxes and loading indicators in plain JavaScript, with no dependencies.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://notiflix.github.io"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Radix Icons
+url: https://www.radix-ui.com/icons
+area: build
+category: icons
+tags:
+  - icons
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Conjunto de ícones nítidos desenhados em 15×15 pelo time da WorkOS.
+  en: A crisp set of icons drawn at 15×15 by the WorkOS team.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.radix-ui.com/icons"

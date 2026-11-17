@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-mouse-select
+url: https://github.com/andreizanik/react-mouse-select
+repo: https://github.com/andreizanik/react-mouse-select
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Selecione elementos em React arrastando um retângulo com o mouse.
+  en: Select elements in React by dragging a box with the mouse.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/andreizanik/react-mouse-select"

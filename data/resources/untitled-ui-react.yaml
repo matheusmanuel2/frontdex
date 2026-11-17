@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Untitled UI React
+url: https://www.untitledui.com/react/
+repo: https://github.com/untitleduico/react
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+  - accessibility
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Componentes React open source feitos com Tailwind CSS e React Aria, para copiar e colar.
+  en: Open-source React components built with Tailwind CSS and React Aria, ready to copy and paste.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.untitledui.com/react/"

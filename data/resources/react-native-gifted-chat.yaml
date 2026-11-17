@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: React Native Gifted Chat
+url: https://github.com/FaridSafi/react-native-gifted-chat
+repo: https://github.com/FaridSafi/react-native-gifted-chat
+area: build
+category: ui-components
+tags:
+  - react
+  - mobile
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Interface de chat completa para React Native.
+  en: Complete, ready-made chat interface for React Native apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://gifted.chat. Redirecionava de https://gifted.chat"

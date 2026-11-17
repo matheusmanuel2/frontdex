@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Gradient
+url: https://cssgradient.io/
+area: build
+category: colors
+tags:
+  - css
+  - gradients
+pricing: free
+open_source: false
+description:
+  pt: Gerador gratuito de gradientes CSS para fundos de sites, blogs e redes sociais.
+  en: Free CSS gradient generator for website, blog and social media backgrounds.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://cssgradient.io/"

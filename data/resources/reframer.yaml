@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Reframer
+url: https://www.optimalworkshop.com/reframer
+area: build
+category: design-tools
+tags:
+  - analytics
+pricing: paid
+open_source: false
+description:
+  pt: "Análise qualitativa de pesquisas com usuários: transforma notas e dados brutos em achados para melhorar a UX."
+  en: Qualitative analysis for user research that turns raw notes and data into findings to improve UX.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.optimalworkshop.com/reframer"

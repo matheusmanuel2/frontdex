@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Svgbob
+url: https://github.com/ivanceras/svgbob
+repo: https://github.com/ivanceras/svgbob
+area: build
+category: dev-tools
+tags:
+  - text
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Converte diagramas desenhados em ASCII para SVG.
+  en: Converts ASCII diagram sketches into SVG.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/ivanceras/svgbob"

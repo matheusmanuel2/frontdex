@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Pigeon Maps
+url: https://pigeon-maps.js.org/
+repo: https://github.com/mariusandra/pigeon-maps
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Mapas em React sem dependências externas.
+  en: React maps without external dependencies.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://pigeon-maps.js.org/"

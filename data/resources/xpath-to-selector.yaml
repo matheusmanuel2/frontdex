@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: xpath-to-selector
+url: https://github.com/steambap/xpath-to-selector
+repo: https://github.com/steambap/xpath-to-selector
+area: build
+category: dev-tools
+tags:
+  - css
+  - typescript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Converte expressões XPath em seletores CSS equivalentes.
+  en: Converts XPath expressions into equivalent CSS selectors.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/steambap/xpath-to-selector"

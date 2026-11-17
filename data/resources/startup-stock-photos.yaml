@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Startup Stock Photos
+url: https://startupstockphotos.com/
+area: build
+category: assets
+tags:
+  - photos
+pricing: free
+open_source: false
+description:
+  pt: Fotos gratuitas de startups, escritórios e tecnologia para seus projetos.
+  en: Free startup, office and tech stock photos for your projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://startupstockphotos.com/"

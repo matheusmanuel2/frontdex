@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Freebiesjedi
+url: https://freebiesjedi.com
+area: build
+category: assets
+tags:
+  - mockups
+  - icons
+pricing: free
+open_source: false
+description:
+  pt: "Coleção de brindes reunidos da web: ícones, mockups PSD, fontes, temas WordPress e templates HTML."
+  en: "Collection of freebies gathered from around the web: icons, PSD mockups, fonts, WordPress themes and HTML templates."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://freebiesjedi.com"

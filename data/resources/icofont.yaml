@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: IcoFont
+url: https://icofont.com/
+area: build
+category: icons
+tags:
+  - icons
+  - css
+pricing: free
+open_source: false
+description:
+  pt: 2.267 ícones em linha, sólido e duotone, usados como fonte, SVG ou componente, com opção de montar sua própria fonte.
+  en: 2,267 icons in line, solid and duotone, used as a font, SVG or component, with an option to build your own font.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://icofont.com/"

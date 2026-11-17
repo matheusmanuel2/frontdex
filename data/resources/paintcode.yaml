@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: PaintCode
+url: https://www.paintcodeapp.com
+area: build
+category: dev-tools
+tags:
+  - ios
+  - macos
+pricing: paid
+open_source: false
+description:
+  pt: App de desenho vetorial que gera código de desenho em Objective-C ou Swift em tempo real.
+  en: Vector drawing app that generates Objective-C or Swift drawing code in real time.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.paintcodeapp.com"

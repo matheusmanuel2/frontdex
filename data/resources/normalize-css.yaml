@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Normalize.css
+url: https://github.com/necolas/normalize.css
+repo: https://github.com/necolas/normalize.css
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Alternativa aos resets de CSS que mantém padrões úteis dos navegadores.
+  en: Alternative to CSS resets that keeps useful browser defaults.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/necolas/normalize.css"

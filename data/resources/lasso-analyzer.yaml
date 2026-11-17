@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: lasso-analyzer
+url: https://pajaydev.github.io/lasso-analyzer/
+repo: https://github.com/pajaydev/lasso-analyzer
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Analisa os bundles gerados pelo Lasso.js para mostrar o que pesa em cada um.
+  en: Analyzes bundles built by Lasso.js to show what takes up space in each.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://pajaydev.github.io/lasso-analyzer/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-quill
+url: https://zenoamaro.github.io/react-quill
+repo: https://github.com/zenoamaro/react-quill
+area: build
+category: ui-components
+tags:
+  - react
+  - text
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componente React que envolve o editor de rich text Quill.
+  en: React component wrapping the Quill rich text editor.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://zenoamaro.github.io/react-quill"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Lordicon
+url: https://lordicon.com/icons#free
+area: build
+category: icons
+tags:
+  - icons
+  - motion
+pricing: freemium
+open_source: false
+description:
+  pt: Biblioteca com mais de 49 mil ícones animados, entre grátis e premium, para web, mobile e conteúdo.
+  en: Library of 49,000+ animated icons, free and premium, for web, mobile and content.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://lordicon.com/icons#free"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Tooplate
+url: https://www.tooplate.com/
+area: build
+category: ui-components
+tags:
+  - css
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Mais de 90 templates em HTML e CSS para startups, SaaS e pequenos negócios, para uso pessoal ou comercial.
+  en: 90+ HTML and CSS templates for startups, SaaS and small businesses, for personal or commercial use.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.tooplate.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Router
+url: https://reactrouter.com
+repo: https://github.com/remix-run/react-router
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Roteamento declarativo para aplicações React.
+  en: Declarative routing for React applications.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://reactrouter.com"

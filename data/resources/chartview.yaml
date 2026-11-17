@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: ChartView
+url: https://github.com/AppPear/ChartView
+repo: https://github.com/AppPear/ChartView
+area: build
+category: charts
+tags:
+  - ios
+  - mobile
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gráficos feitos em SwiftUI para apps iOS.
+  en: Chart views built in SwiftUI, for use in iOS apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/AppPear/ChartView"

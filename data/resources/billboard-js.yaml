@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: billboard.js
+url: https://naver.github.io/billboard.js/
+repo: https://github.com/naver/billboard.js
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de gráficos em JavaScript baseada em D3, com renderização em SVG e Canvas.
+  en: JavaScript chart library based on D3, with SVG and Canvas rendering.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://naver.github.io/billboard.js/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: ngx-bootstrap
+url: https://valor-software.com/ngx-bootstrap/#/
+area: build
+category: ui-components
+tags:
+  - typescript
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Widgets do Bootstrap 5 e 4 para Angular, como modais, datepicker, sortable e typeahead.
+  en: Bootstrap 5 and 4 widgets for Angular, such as modals, datepicker, sortable and typeahead.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://valor-software.com/ngx-bootstrap/#/"

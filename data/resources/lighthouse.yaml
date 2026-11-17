@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Lighthouse
+url: https://developer.chrome.com/docs/lighthouse/overview/
+repo: https://github.com/GoogleChrome/lighthouse
+area: build
+category: dev-tools
+tags:
+  - web
+  - cli
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Auditoria automática de sites com métricas de performance e boas práticas da web.
+  en: Automated site audits with performance metrics and web best practices.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://developer.chrome.com/docs/lighthouse/overview/"

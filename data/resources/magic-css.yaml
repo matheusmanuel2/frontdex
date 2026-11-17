@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Magic CSS
+url: https://chromewebstore.google.com/detail/live-editor-for-css-less/ifhikkcafabcgolfjegfcgloomalapol
+repo: https://github.com/webextensions/live-css-editor
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Extensão de navegador para editar CSS, Less e Sass ao vivo na página.
+  en: Browser extension for live editing CSS, Less and Sass on the page.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://chromewebstore.google.com/detail/live-editor-for-css-less/ifhikkcafabcgolfjegfcgloomalapol"

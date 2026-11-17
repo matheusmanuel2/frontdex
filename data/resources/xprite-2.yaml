@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Xprite
+url: https://xprite.cc/
+area: build
+category: design-tools
+tags:
+  - illustration
+pricing: free
+open_source: true
+license: GPL-2.0
+description:
+  pt: Editor de pixel art e animação no navegador que abre arquivos do Aseprite, com camadas e quadros.
+  en: In-browser pixel art and animation editor that opens Aseprite files, with layers and frames.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://xprite.cc/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: OmniGraffle
+url: https://www.omnigroup.com/omnigraffle/
+area: build
+category: design-tools
+tags:
+  - macos
+pricing: paid
+open_source: false
+description:
+  pt: App de diagramas para montar fluxos, wireframes e esquemas com acabamento profissional.
+  en: Diagramming app for putting together flows, wireframes and schematics with a professional finish.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.omnigroup.com/omnigraffle/"

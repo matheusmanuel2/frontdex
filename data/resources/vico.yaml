@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Vico
+url: https://guide.vico.patrykandpatrick.com
+repo: https://github.com/patrykandpatrick/vico
+area: build
+category: charts
+tags:
+  - android
+  - mobile
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Biblioteca de gráficos extensível para Compose Multiplatform.
+  en: Extensible chart library for Compose Multiplatform.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://guide.vico.patrykandpatrick.com"

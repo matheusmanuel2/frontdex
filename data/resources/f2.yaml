@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: F2
+url: https://f2.antv.antgroup.com/
+repo: https://github.com/antvis/F2
+area: build
+category: charts
+tags:
+  - mobile
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de gráficos interativos para mobile, baseada numa gramática de visualização.
+  en: Interactive charting library for mobile, based on a visualization grammar.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://f2.antv.antgroup.com/"

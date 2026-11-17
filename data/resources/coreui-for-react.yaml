@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: CoreUI for React
+url: https://coreui.io/react/docs/getting-started/introduction/
+repo: https://github.com/coreui/coreui-react
+area: build
+category: ui-components
+tags:
+  - react
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Componentes React com hooks que substituem o JavaScript do Bootstrap, sem jQuery.
+  en: React hook components that replace Bootstrap's JavaScript, without jQuery.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://coreui.io/react/docs/getting-started/introduction/"

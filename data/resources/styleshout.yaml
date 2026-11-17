@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: StyleShout
+url: https://www.styleshout.com/free-templates/
+area: build
+category: ui-components
+tags:
+  - css
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Templates responsivos de graça para sites de negócio, portfólio, pessoais e blogs.
+  en: Free responsive templates for business, portfolio, personal and blog sites.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.styleshout.com/free-templates/"

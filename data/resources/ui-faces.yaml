@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: UI Faces
+url: https://uifaces.co/
+area: build
+category: assets
+tags:
+  - photos
+  - mockups
+pricing: free
+open_source: false
+description:
+  pt: Avatares gerados por IA, gratuitos, para preencher mockups e protótipos.
+  en: Free AI-generated avatars for filling design mockups and prototypes.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://uifaces.co/"

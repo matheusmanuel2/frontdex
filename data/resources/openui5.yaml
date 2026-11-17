@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: OpenUI5
+url: https://github.com/SAP/openui5
+repo: https://github.com/UI5/openui5
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Framework da SAP para aplicações web empresariais responsivas em quase qualquer navegador.
+  en: SAP framework for enterprise web apps that respond to all devices and most browsers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://github.com/SAP/openui5"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-simple-timefield
+url: https://antonfisher.com/react-simple-timefield/
+repo: https://github.com/antonfisher/react-simple-timefield
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Campo simples de entrada de hora para React.
+  en: Simple time input field component for React apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://antonfisher.com/react-simple-timefield/"

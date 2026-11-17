@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-tabtab
+url: https://ctxhou.github.io/react-tabtab/
+repo: https://github.com/ctxhou/react-tabtab
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Abas para React que você reordena arrastando.
+  en: Tab component for React whose tabs you can reorder by dragging.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://ctxhou.github.io/react-tabtab/"

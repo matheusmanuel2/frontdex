@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-autocomplete-input
+url: https://yury-dymov.github.io/react-autocomplete-input/
+repo: https://github.com/yury-dymov/react-autocomplete-input
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Campo de input com autocompletar para React.
+  en: Autocomplete input field for React, packaged as a widget component.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://yury-dymov.github.io/react-autocomplete-input/"

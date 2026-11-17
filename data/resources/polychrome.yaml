@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Polychrome
+url: https://github.com/cdonohue/polychrome
+repo: https://github.com/cdonohue/polychrome
+area: build
+category: colors
+tags:
+  - javascript
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Manipulação de cor em cerca de 2 KB gzipped, útil para CSS-in-JS.
+  en: Color manipulation in about 2 KB gzipped, handy for CSS-in-JS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://github.com/cdonohue/polychrome"

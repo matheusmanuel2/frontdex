@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Cerebral
+url: https://github.com/cerebral/cerebral
+repo: https://github.com/cerebral/cerebral
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gerenciamento declarativo de estado e efeitos colaterais para frameworks JavaScript.
+  en: Declarative state and side effects management for JavaScript frameworks.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/cerebral/cerebral"

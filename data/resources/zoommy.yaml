@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Zoommy
+url: https://www.zoommyapp.com
+area: build
+category: assets
+tags:
+  - photos
+pricing: paid
+open_source: false
+description:
+  pt: Busca fotos de stock gratuitas num só lugar, num acervo de mais de 200 mil imagens.
+  en: Searches free stock photos in one place, across more than 200,000 images.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.zoommyapp.com"

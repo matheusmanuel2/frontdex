@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Radix Svelte
+url: https://www.radix-svelte.com/
+area: build
+category: ui-components
+tags:
+  - javascript
+  - accessibility
+  - design-systems
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca open source de componentes Svelte para construir design systems e apps acessíveis.
+  en: Open-source Svelte component library for building accessible design systems and web apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.radix-svelte.com/"

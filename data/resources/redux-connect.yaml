@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: redux-connect
+url: https://github.com/makeomatic/redux-connect
+repo: https://github.com/makeomatic/redux-connect
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Decorator que resolve props assíncronas no react-router, útil para renderizar React no servidor.
+  en: Decorator that resolves async props in react-router, handy for server-side rendering React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/makeomatic/redux-connect"

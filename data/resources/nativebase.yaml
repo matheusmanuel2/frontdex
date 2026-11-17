@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: NativeBase
+url: https://nativebase.io/
+area: build
+category: ui-components
+tags:
+  - react
+  - mobile
+  - accessibility
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componentes acessíveis e tematizáveis para criar com o mesmo código em Android, iOS e web.
+  en: Accessible, themeable components for building with one codebase across Android, iOS and web.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://nativebase.io/"

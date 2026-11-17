@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-heat-map
+url: https://uiwjs.github.io/react-heat-map
+repo: https://github.com/uiwjs/react-heat-map
+area: build
+category: charts
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Mapa de calor de calendário em SVG para React, no estilo do gráfico de contribuições do GitHub.
+  en: SVG calendar heatmap for React, in the style of GitHub's contribution graph.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://uiwjs.github.io/react-heat-map"

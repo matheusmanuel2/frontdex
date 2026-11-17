@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Source
+url: https://github.com/sourcejs/Source
+repo: https://github.com/sourcejs/Source
+area: build
+category: design-tools
+tags:
+  - design-systems
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Motor de guias de estilo vivos para componentes front-end; o projeto está em pausa.
+  en: Living style guide engine for front-end components; the project is on hold.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/sourcejs/Source"

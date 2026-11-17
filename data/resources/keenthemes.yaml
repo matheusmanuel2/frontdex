@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Keenthemes
+url: https://keenthemes.com/
+area: build
+category: ui-components
+tags:
+  - css
+  - react
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Toolkits de UI e templates de admin em Tailwind e Bootstrap, com versões para React, Vue, Angular, Laravel e outros.
+  en: Tailwind and Bootstrap UI toolkits and admin templates, with versions for React, Vue, Angular, Laravel and more.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://keenthemes.com/"

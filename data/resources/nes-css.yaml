@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: NES.css
+url: https://nostalgic-css.github.io/NES.css/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Framework CSS com visual de jogos do NES, para interfaces em estilo 8 bits.
+  en: CSS framework styled after NES games, for 8-bit looking interfaces.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://nostalgic-css.github.io/NES.css/"

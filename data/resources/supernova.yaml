@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Supernova
+url: https://supernova.io/
+area: build
+category: design-tools
+tags:
+  - design-systems
+  - ai-agents
+pricing: freemium
+open_source: false
+description:
+  pt: Conecta tokens, componentes, documentação e padrões de código numa só fonte para o time e seus agentes de IA.
+  en: Connects tokens, components, docs and code patterns into one source of truth for your team and its AI agents.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://supernova.io/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Vizzu
+url: https://lib.vizzuhq.com
+repo: https://github.com/vizzuhq/vizzu-lib
+area: build
+category: charts
+tags:
+  - javascript
+  - motion
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Biblioteca de visualizações de dados animadas, pensada para contar histórias com dados.
+  en: Library for animated data visualizations and data stories.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://lib.vizzuhq.com"

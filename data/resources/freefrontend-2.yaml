@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: FreeFrontend
+url: https://freefrontend.com/
+area: build
+category: ui-components
+tags:
+  - css
+  - javascript
+pricing: free
+open_source: false
+description:
+  pt: Snippets de front-end selecionados, sem enrolação, só código prático para reaproveitar.
+  en: Curated front-end snippets with no fluff, just practical code to reuse.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://freefrontend.com/"

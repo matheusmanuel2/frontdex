@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Shotsnapp
+url: https://shotsnapp.com/
+area: build
+category: assets
+tags:
+  - mockups
+pricing: freemium
+open_source: false
+description:
+  pt: Transforma capturas de tela de apps e sites em imagens de mockup com moldura de dispositivo.
+  en: Turns screenshots of apps and websites into device-framed mockup images.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, swyxio/spark-joy. Lida: https://shotsnapp.com/"

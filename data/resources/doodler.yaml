@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Doodler
+url: https://doodler.copymyui.com/
+area: build
+category: design-tools
+tags:
+  - ios
+  - mockups
+  - screens
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: "Screenshots localizadas da App Store: posicione os textos uma vez, veja cada idioma e exporte PNGs agrupados por locale."
+  en: "Localized App Store screenshots: place labels once, preview every language and export PNG packs grouped by locale."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://doodler.copymyui.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Flot
+url: https://github.com/flot/flot
+repo: https://github.com/flot/flot
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de gráficos em JavaScript para jQuery.
+  en: JavaScript charting library built as a jQuery plugin.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/flot/flot"

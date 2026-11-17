@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Treejack
+url: https://www.optimalworkshop.com/treejack
+area: build
+category: design-tools
+tags:
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Tree testing para ver se as pessoas encontram o que procuram na sua navegação e quais rótulos confundem.
+  en: Tree testing that shows whether people find what they need in your navigation and which labels confuse them.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.optimalworkshop.com/treejack"

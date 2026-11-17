@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-keydown
+url: https://github.com/glortho/react-keydown
+repo: https://github.com/glortho/react-keydown
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Wrapper leve para tratar eventos de teclado em componentes React.
+  en: Lightweight wrapper for handling keydown events in React components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/glortho/react-keydown"

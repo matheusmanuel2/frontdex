@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: dagre
+url: https://github.com/dagrejs/dagre
+repo: https://github.com/dagrejs/dagre
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Layout de grafos direcionados em JavaScript.
+  en: Computes directed graph layouts in JavaScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/dagrejs/dagre"

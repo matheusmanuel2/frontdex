@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: BrandColors
+url: https://brandcolors.net/
+area: build
+category: colors
+tags:
+  - branding
+pricing: free
+open_source: false
+description:
+  pt: Códigos hex oficiais das cores de mais de 500 marcas, como Facebook, Twitter e Instagram.
+  en: Official hex color codes for more than 500 brands, such as Facebook, Twitter and Instagram.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design, nicolesaidy/awesome-web-design, Siddharth11/Colorful. Lida: https://brandcolors.net/"

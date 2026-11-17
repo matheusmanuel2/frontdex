@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: particles.js
+url: https://vincentgarreau.com/particles.js/
+area: build
+category: animation
+tags:
+  - javascript
+  - motion
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca JavaScript leve para criar partículas na página.
+  en: Lightweight JavaScript library for creating particles on a page.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://vincentgarreau.com/particles.js/"

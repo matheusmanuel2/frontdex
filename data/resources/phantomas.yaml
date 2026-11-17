@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Phantomas
+url: https://www.npmjs.com/package/phantomas
+repo: https://github.com/macbre/phantomas
+area: build
+category: dev-tools
+tags:
+  - web
+  - cli
+pricing: free
+open_source: true
+license: BSD-2-Clause
+description:
+  pt: Coleta e monitora métricas de performance web usando Chromium headless.
+  en: Headless Chromium-based collector and monitor for web performance metrics.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.npmjs.com/package/phantomas"

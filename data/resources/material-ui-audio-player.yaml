@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: material-ui-audio-player
+url: https://github.com/Werter12/material-ui-audio-player
+repo: https://github.com/Werter12/material-ui-audio-player
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Player de áudio em React no estilo do Material UI.
+  en: Audio player React component in Material UI style.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/Werter12/material-ui-audio-player"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: three.js
+url: https://threejs.org/
+repo: https://github.com/mrdoob/three.js
+area: build
+category: animation
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca JavaScript para 3D no navegador.
+  en: JavaScript library for 3D in the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://threejs.org/"

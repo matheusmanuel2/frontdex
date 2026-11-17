@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Kaboompics
+url: https://kaboompics.com/
+area: build
+category: assets
+tags:
+  - photos
+pricing: free
+open_source: false
+description:
+  pt: Fotos em alta resolução para uso comercial, com sessões completas e uma licença clara.
+  en: High-resolution photos for commercial use, with full photoshoots and one clear license.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://kaboompics.com/"

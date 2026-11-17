@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Playcode
+url: https://playcode.io/
+area: build
+category: ai-tools
+tags:
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Crie e rode sites e apps com ajuda de IA, hospedagem própria e pessoas para ajudar quando travar.
+  en: Build and run websites and apps with AI, its own cloud, and people to help when you get stuck.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://playcode.io/"

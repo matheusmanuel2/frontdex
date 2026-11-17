@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: css-doodle
+url: https://css-doodle.com/
+area: build
+category: animation
+tags:
+  - css
+  - interactive
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: "Web component para arte generativa: desenhe padrões e formas com CSS e compartilhe o resultado."
+  en: "Web component for generative art: draw patterns and shapes with CSS and share what you make."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://css-doodle.com/"

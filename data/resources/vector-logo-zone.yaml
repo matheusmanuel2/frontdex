@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Vector Logo Zone
+url: https://www.vectorlogo.zone/
+area: build
+category: brand-apis
+tags:
+  - logos
+pricing: free
+open_source: true
+license: AGPL-3.0
+description:
+  pt: Logos em SVG pensados para README e páginas de créditos.
+  en: SVG logos made for READMEs and credits pages.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.vectorlogo.zone/"

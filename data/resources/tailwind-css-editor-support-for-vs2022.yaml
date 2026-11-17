@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Tailwind CSS Editor Support for VS2022
+url: https://marketplace.visualstudio.com/items?itemName=TheronWang.TailwindCSSIntellisense
+repo: https://github.com/theron-wang/Tailwind-CSS-for-Visual-Studio
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Extensão não oficial que leva IntelliSense, lint e ordenação de classes Tailwind ao Visual Studio 2022 e 2026.
+  en: Unofficial extension bringing Tailwind IntelliSense, linting and class sorting to Visual Studio 2022 and 2026.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: aniftyco/awesome-tailwindcss. Lida: https://marketplace.visualstudio.com/items?itemName=TheronWang.TailwindCSSIntellisense"

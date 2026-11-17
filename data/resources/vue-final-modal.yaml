@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Vue Final Modal
+url: https://vue-final-modal.org/
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de modais para Vue 3 com pacote leve.
+  en: Modal library for Vue 3 that keeps a light footprint.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://vue-final-modal.org/"

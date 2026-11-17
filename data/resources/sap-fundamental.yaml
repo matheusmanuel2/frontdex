@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: SAP Fundamental
+url: https://fundamental.netlify.app/
+repo: https://github.com/SAP/fundamental
+area: build
+category: ui-components
+tags:
+  - css
+  - design-systems
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Biblioteca de componentes do design system da SAP.
+  en: Component library for SAP's design system.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://fundamental.netlify.app/"

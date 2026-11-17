@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: CodePen
+url: https://codepen.io/
+area: build
+category: dev-tools
+tags:
+  - web
+  - interactive
+pricing: freemium
+open_source: false
+description:
+  pt: Editor de código online para criar, compartilhar e publicar projetos, com colaboração em tempo real.
+  en: Online code editor to build, share and deploy projects, with realtime collaboration.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://codepen.io/"

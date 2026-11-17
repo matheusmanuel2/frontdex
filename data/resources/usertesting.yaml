@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: UserTesting
+url: https://www.usertesting.com/
+area: build
+category: design-tools
+tags:
+  - analytics
+pricing: paid
+open_source: false
+description:
+  pt: Plataforma de testes com pessoas reais para embasar decisões de produto, experiência digital e UX.
+  en: Testing platform with real people to inform product, digital experience and UX decisions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.usertesting.com/"

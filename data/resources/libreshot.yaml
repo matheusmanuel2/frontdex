@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: LibreShot
+url: https://libreshot.com/
+area: build
+category: assets
+tags:
+  - photos
+pricing: free
+open_source: false
+description:
+  pt: "Fotos de um único autor com licença CC0: sem marca d'água, sem atribuição e liberadas para uso comercial."
+  en: "Photos by a single author under CC0: no watermark, no attribution, cleared for commercial use."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://libreshot.com/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: FontsArena
+url: https://fontsarena.com/
+area: build
+category: fonts
+tags:
+  - typography
+pricing: free
+open_source: false
+description:
+  pt: Fontes gratuitas e alternativas livres a fontes pagas, com artigos de pesquisa e sem anúncios.
+  en: Free fonts and free alternatives to premium ones, with research articles and no ads.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://fontsarena.com/"

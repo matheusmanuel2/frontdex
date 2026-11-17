@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Vega
+url: https://vega.github.io/vega/
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: BSD-3-Clause
+description:
+  pt: Gramática declarativa para descrever, salvar e compartilhar visualizações interativas.
+  en: Declarative grammar for describing, saving and sharing interactive visualizations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vega.github.io/vega/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: minireset.css
+url: https://github.com/jgthms/minireset.css
+repo: https://github.com/jgthms/minireset.css
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Reset de CSS minúsculo para começar projetos de uma base limpa.
+  en: Tiny CSS reset to start projects from a clean base.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/jgthms/minireset.css"

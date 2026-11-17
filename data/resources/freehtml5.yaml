@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: FreeHTML5.co
+url: https://freehtml5.co/
+area: build
+category: ui-components
+tags:
+  - css
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Templates de site em HTML5 feitos com Bootstrap, para baixar de graça.
+  en: HTML5 website templates built with Bootstrap, free to download.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://freehtml5.co/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Shields.io
+url: https://shields.io
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Badges concisos, consistentes e legíveis para READMEs e páginas de projeto.
+  en: Concise, consistent and legible badges for READMEs and project pages.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://shields.io"

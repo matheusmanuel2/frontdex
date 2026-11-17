@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Base UI
+url: https://base-ui.com
+repo: https://github.com/mui/base-ui
+area: build
+category: ui-components
+tags:
+  - react
+  - accessibility
+  - design-systems
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componentes sem estilo e acessíveis para design systems, dos criadores do Radix e do Material UI.
+  en: Unstyled, accessible components for design systems, from the creators of Radix and Material UI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://base-ui.com"

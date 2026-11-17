@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-sketch
+url: https://github.com/tbolis/react-sketch
+repo: https://github.com/tbolis/react-sketch
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Ferramenta de desenho para apps React, apoiada no FabricJS.
+  en: Drawing tool for React apps, backed by FabricJS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/tbolis/react-sketch"

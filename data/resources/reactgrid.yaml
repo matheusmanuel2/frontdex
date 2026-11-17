@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: ReactGrid
+url: https://reactgrid.com
+repo: https://github.com/silevis/reactgrid
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Adiciona comportamento de planilha ao seu app React.
+  en: Adds spreadsheet-like behavior to your React app.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://reactgrid.com"

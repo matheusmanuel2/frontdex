@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Speed Racer
+url: https://github.com/speedracer/speedracer
+repo: https://github.com/speedracer/speedracer
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Coleta métricas de desempenho da sua biblioteca ou aplicação.
+  en: Collects performance metrics for your library or application.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/speedracer/speedracer"

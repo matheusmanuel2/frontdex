@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: remove.bg
+url: https://www.remove.bg/
+area: build
+category: design-tools
+tags:
+  - photos
+pricing: freemium
+open_source: false
+description:
+  pt: Remove o fundo de imagens automaticamente em cerca de 5 segundos, com um clique.
+  en: Removes image backgrounds automatically in about 5 seconds with one click.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://www.remove.bg/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: picjumbo
+url: https://picjumbo.com/
+area: build
+category: assets
+tags:
+  - photos
+pricing: freemium
+open_source: false
+description:
+  pt: Imagens, fundos e wallpapers gratuitos para usar em sites, templates e blogs.
+  en: Free images, backgrounds and wallpapers for websites, templates and blogs.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://picjumbo.com/"

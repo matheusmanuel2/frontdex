@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Happy Hues
+url: https://www.happyhues.co/
+area: build
+category: colors
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: "Paletas mostradas num site de exemplo real: ao clicar numa paleta, todas as cores da página mudam para você ver o uso em contexto."
+  en: "Palettes shown on a real example site: click one and every color on the page updates so you see it in context."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.happyhues.co/"

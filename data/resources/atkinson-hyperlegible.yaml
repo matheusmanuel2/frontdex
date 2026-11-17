@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Atkinson Hyperlegible
+url: https://brailleinstitute.org/freefont
+area: build
+category: fonts
+tags:
+  - typography
+  - accessibility
+pricing: free
+open_source: false
+description:
+  pt: Fonte gratuita do Braille Institute desenhada para leitores com baixa visão, com letras e números fáceis de distinguir.
+  en: Free typeface from the Braille Institute designed for low-vision readers, with letters and numbers that are easy to tell apart.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://brailleinstitute.org/freefont"

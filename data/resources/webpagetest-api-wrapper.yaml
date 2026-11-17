@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: WebPageTest API Wrapper
+url: https://github.com/catchpoint/WebPageTest.api-nodejs
+repo: https://github.com/catchpoint/WebPageTest.api-nodejs
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - cli
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Wrapper em Node.js para a API do WebPageTest.
+  en: Node.js wrapper for the WebPageTest API.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/catchpoint/WebPageTest.api-nodejs"

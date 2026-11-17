@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: EasyLogic Studio
+url: https://www.easylogic.studio/
+area: build
+category: design-tools
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Editor web de design focado em CSS3 e SVG, com colaboração e editor personalizável.
+  en: Web design editor focused on CSS3 and SVG, with collaboration and a customizable editor.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.easylogic.studio/"

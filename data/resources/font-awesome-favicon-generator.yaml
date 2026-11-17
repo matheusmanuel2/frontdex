@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Font Awesome Favicon Generator
+url: https://gauger.io/fonticon/
+area: build
+category: dev-tools
+tags:
+  - icons
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Cria favicons com ícones do Font Awesome e mostra a prévia ao vivo no navegador.
+  en: Creates favicons from Font Awesome icons with a live preview in the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, swyxio/spark-joy. Lida: https://gauger.io/fonticon/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Tiny Helpers
+url: https://tiny-helpers.dev/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Lista de ferramentas online gratuitas de propósito único para quem desenvolve para a web.
+  en: A list of free single-purpose online tools for web developers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://tiny-helpers.dev/"

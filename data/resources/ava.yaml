@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: AVA
+url: https://ava.antv.vision
+repo: https://github.com/antvis/AVA
+area: build
+category: charts
+tags:
+  - javascript
+  - ai-agents
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Framework de análise visual feito para agentes de IA, do time do AntV.
+  en: AI-native visual analytics framework built for agents, from the AntV team.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://ava.antv.vision"

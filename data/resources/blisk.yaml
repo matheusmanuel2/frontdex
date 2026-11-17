@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Blisk
+url: https://blisk.io
+area: build
+category: dev-tools
+tags:
+  - mobile
+  - web
+pricing: paid
+open_source: false
+description:
+  pt: Navegador para desenvolvimento com testes em vários dispositivos, hot reload, capturas e scroll sincronizado.
+  en: Browser for web development with cross-device testing, hot reload, screenshots and scroll sync.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://blisk.io"

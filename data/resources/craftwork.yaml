@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Craftwork
+url: https://craftwork.design/
+area: build
+category: assets
+tags:
+  - figma
+  - mockups
+pricing: freemium
+open_source: false
+description:
+  pt: UI kits para Figma, templates de Framer, fontes, componentes React, ícones e mockups feitos por designers.
+  en: Figma UI kits, Framer templates, fonts, React components, icons and mockups made by designers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://craftwork.design/"

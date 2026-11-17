@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-universal-hooks
+url: https://github.com/salvoravida/react-universal-hooks
+repo: https://github.com/salvoravida/react-universal-hooks
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Permite usar hooks tanto em componentes funcionais quanto de classe, com suporte ao React DevTools.
+  en: Lets you use hooks in both functional and class components, with React DevTools support.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/salvoravida/react-universal-hooks"

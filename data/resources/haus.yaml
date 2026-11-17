@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Haus
+url: https://haus.hipuku.dev
+area: build
+category: ui-components
+tags:
+  - react
+  - design-systems
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Tokens no formato W3C DTCG com cores OKLCH, mais componentes React acessíveis publicados no npm.
+  en: W3C DTCG design tokens with OKLCH colors, plus accessible React components published to npm.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://haus.hipuku.dev"

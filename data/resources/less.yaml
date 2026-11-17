@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Less
+url: https://github.com/less/less.js
+repo: https://github.com/less/less.js
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Linguagem de folhas de estilo dinâmica que compila para CSS.
+  en: Dynamic stylesheet language that compiles to CSS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/less/less.js"

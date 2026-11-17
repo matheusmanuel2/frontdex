@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-stripe-checkout
+url: https://github.com/azmenak/react-stripe-checkout
+repo: https://github.com/azmenak/react-stripe-checkout
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Carrega o checkout.js da Stripe como componente React.
+  en: Loads Stripe's checkout.js as a React component.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/azmenak/react-stripe-checkout"

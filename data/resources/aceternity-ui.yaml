@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Aceternity UI
+url: https://ui.aceternity.com/
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+  - motion
+pricing: freemium
+open_source: false
+description:
+  pt: Mais de 200 componentes, blocos e templates de landing page para copiar, feitos com Tailwind e Motion.
+  en: 200+ copy-paste components, blocks and landing page templates built with Tailwind and Motion.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ui.aceternity.com/"

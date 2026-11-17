@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Squoosh
+url: https://squoosh.app/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Comprime imagens no navegador e compara o resultado de codecs diferentes lado a lado.
+  en: Compresses images in the browser and compares results from different codecs side by side.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://squoosh.app/"

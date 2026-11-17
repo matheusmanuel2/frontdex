@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Flaticons.net
+url: https://flaticons.net/
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: false
+description:
+  pt: Mais de 8.000 flat icons royalty-free que você personaliza em segundos antes de baixar.
+  en: 8,000+ royalty-free flat icons you customize in seconds before downloading.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://flaticons.net/"

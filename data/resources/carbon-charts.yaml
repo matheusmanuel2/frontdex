@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Carbon Charts
+url: https://charts.carbondesignsystem.com
+repo: https://github.com/carbon-design-system/carbon-charts
+area: build
+category: charts
+tags:
+  - typescript
+  - design-systems
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Framework de visualização de dados do Carbon Design System da IBM, feito com D3 e TypeScript.
+  en: Data visualization framework from IBM's Carbon Design System, made with D3 and TypeScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://charts.carbondesignsystem.com"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Color Hex
+url: https://www.color-hex.com
+area: build
+category: colors
+tags:
+  - css
+pricing: free
+open_source: false
+description:
+  pt: Consulta de códigos de cor com modelos RGB, HSL, HSV e CMYK e os valores prontos para CSS e HTML.
+  en: Color code lookup with RGB, HSL, HSV and CMYK models and values ready for CSS and HTML.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.color-hex.com"

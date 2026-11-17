@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Specify
+url: https://www.specifyapp.com/
+area: build
+category: design-tools
+tags:
+  - design-systems
+pricing: paid
+open_source: false
+description:
+  pt: Motor de design tokens para montar o processo exato de distribuição de tokens que seu design system pede.
+  en: Design token engine for building the exact token pipeline your design system needs.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.specifyapp.com/"

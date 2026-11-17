@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-spaces
+url: https://allaneagle.com/projects/react-spaces
+repo: https://github.com/aeagle/react-spaces
+area: build
+category: ui-components
+tags:
+  - react
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Divide a página em áreas aninhadas, ancoradas, roláveis e redimensionáveis usando componentes React.
+  en: Splits a page into nested, anchored, scrollable and resizable areas using React components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://allaneagle.com/projects/react-spaces"

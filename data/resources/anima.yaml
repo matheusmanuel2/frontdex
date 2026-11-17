@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Anima
+url: https://www.animaapp.com/
+area: build
+category: ai-tools
+tags:
+  - figma
+  - ai-agents
+pricing: freemium
+open_source: false
+description:
+  pt: Agente de IA que gera apps a partir de arquivos do Figma, URLs ou prompts, fazendo a ponte entre design e código.
+  en: AI agent that generates apps from Figma files, URLs or prompts, bridging design and code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.animaapp.com/"

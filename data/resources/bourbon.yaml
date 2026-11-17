@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Bourbon
+url: https://bourbon.io/
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Conjunto leve de ferramentas para quem escreve Sass.
+  en: Lightweight tool set for writing Sass stylesheets.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css, troxler/awesome-css-frameworks. Lida: https://bourbon.io/"

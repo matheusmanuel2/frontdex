@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Font Squirrel
+url: https://www.fontsquirrel.com/
+area: build
+category: fonts
+tags:
+  - typography
+pricing: free
+open_source: false
+description:
+  pt: Seleção de fontes legalmente gratuitas, garimpadas na internet e prontas para baixar.
+  en: A selection of legitimately free fonts gathered from around the web, ready to download.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida: https://www.fontsquirrel.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: AllTheFreeStock
+url: https://allthefreestock.com/
+area: build
+category: assets
+tags:
+  - photos
+  - video
+  - icons
+pricing: free
+open_source: false
+description:
+  pt: Reúne num só lugar sites gratuitos de fotos, vídeo, áudio, ícones, fontes e mockups.
+  en: Gathers free stock sites for photos, video, audio, icons, fonts and mockups in one place.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida: https://allthefreestock.com/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: useAnimations
+url: https://useanimations.com/
+area: build
+category: icons
+tags:
+  - icons
+  - motion
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: 300 micro animações para UI em React, shadcn/ui e Lottie, com hover, clique e loop já embutidos. Licença MIT.
+  en: 300 UI micro animations for React, shadcn/ui and Lottie, with hover, click and loop built in. MIT licensed.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://useanimations.com/"

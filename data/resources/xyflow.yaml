@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: xyflow
+url: https://xyflow.com
+repo: https://github.com/xyflow/xyflow
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Bibliotecas para interfaces baseadas em nós, com versões para React, Svelte e Vue.
+  en: Libraries for node-based UIs, with versions for React, Svelte and Vue.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://xyflow.com"

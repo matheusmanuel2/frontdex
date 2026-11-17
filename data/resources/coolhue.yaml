@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: CoolHue
+url: https://webkul.github.io/coolhue/
+area: build
+category: colors
+tags:
+  - gradients
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gradientes escolhidos a dedo para copiar como CSS ou baixar como imagem.
+  en: Hand-picked gradients to copy as CSS or download as an image.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://webkul.github.io/coolhue/"

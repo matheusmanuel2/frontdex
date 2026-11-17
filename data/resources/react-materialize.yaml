@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-materialize
+url: https://react-materialize.github.io/
+repo: https://github.com/react-materialize/react-materialize
+area: build
+category: ui-components
+tags:
+  - react
+  - design-systems
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componentes React com Material Design, construídos sobre o framework Materialize CSS.
+  en: Material Design components for React, built on the Materialize CSS framework.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-materialize.github.io/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Relay
+url: https://relay.graphics/
+area: build
+category: design-tools
+tags:
+  - figma
+pricing: freemium
+open_source: false
+description:
+  pt: Envia mudanças do Figma direto para o código, sem fatiar nem exportar assets na mão.
+  en: Pushes changes from Figma straight to your codebase, with no manual slicing or exporting.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://relay.graphics/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Icons8
+url: https://icons8.com/
+area: build
+category: icons
+tags:
+  - icons
+  - illustration
+  - mcp
+pricing: freemium
+open_source: false
+description:
+  pt: Mais de 1,5 milhão de ícones, ilustrações e 3D em estilos consistentes, com servidor MCP para agentes.
+  en: Over 1.5M icons, illustrations and 3D assets in consistent styles, with an MCP server for agents.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida: https://icons8.com/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: CSS Grid Generator
+url: https://cssgridgenerator.net
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: false
+description:
+  pt: Monte um grid responsivo arrastando blocos e copie o CSS com as media queries já escritas.
+  en: Drag out a responsive grid layout and copy the CSS with the media queries already written.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://cssgridgenerator.net"

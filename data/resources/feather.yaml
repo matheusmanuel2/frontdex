@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Feather
+url: https://feathericons.com/
+area: build
+category: icons
+tags:
+  - icons
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Ícones de código aberto desenhados num grid de 24x24, com foco em simplicidade e legibilidade.
+  en: Open source icons drawn on a 24x24 grid, focused on simplicity and readability.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://feathericons.com/"

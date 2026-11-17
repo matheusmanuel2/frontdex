@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: React Image Gallery
+url: https://github.com/xiaolin/react-image-gallery
+repo: https://github.com/xiaolin/react-image-gallery
+area: build
+category: ui-components
+tags:
+  - react
+  - photos
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Galeria de imagens em carrossel para React, com miniaturas.
+  en: React carousel image gallery component with thumbnail support.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/xiaolin/react-image-gallery"

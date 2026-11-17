@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Carrd
+url: https://carrd.com/
+area: build
+category: design-tools
+tags:
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Sites de uma página, responsivos, para praticamente qualquer coisa.
+  en: Responsive one-page sites for pretty much anything.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://carrd.co/. Redirecionava de https://carrd.co/"

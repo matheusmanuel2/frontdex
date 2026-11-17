@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Pictos
+url: https://pictos.cc/
+area: build
+category: icons
+tags:
+  - icons
+pricing: paid
+open_source: false
+description:
+  pt: Ícones de interface desenhados com cuidado, na versão Redux totalmente refeita.
+  en: Carefully drawn interface icons, in the fully redone Redux version.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://pictos.cc/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Britecharts
+url: https://britecharts.github.io/britecharts/
+repo: https://github.com/britecharts/britecharts
+area: build
+category: charts
+tags:
+  - javascript
+  - accessibility
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Gráficos acessíveis adicionados com uma tag script ou um config JSON validado.
+  en: Accessible charts added with one script tag or one validated JSON config.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://britecharts.github.io/britecharts/"

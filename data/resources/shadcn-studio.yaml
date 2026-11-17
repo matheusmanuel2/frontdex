@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Shadcn Studio
+url: https://shadcnstudio.com/
+area: build
+category: ui-components
+tags:
+  - react
+  - figma
+  - mcp
+pricing: freemium
+open_source: false
+description:
+  pt: Mais de 1100 blocos shadcn/ui, templates, kit Figma, gerador de tema e servidor MCP numa assinatura com plano grátis.
+  en: Over 1,100 shadcn/ui blocks, templates, a Figma kit, theme generator and MCP server in one subscription with a free tier.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://shadcnstudio.com/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Sprity
+url: https://github.com/sprity/sprity
+repo: https://github.com/sprity/sprity
+area: build
+category: dev-tools
+tags:
+  - css
+  - cli
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gerador de sprites de imagem para juntar ícones e gráficos em um só arquivo.
+  en: Image sprite generator that packs icons and graphics into one file.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/sprity/sprity"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: styled-jsx
+url: https://github.com/zeit/styled-jsx
+repo: https://github.com/vercel/styled-jsx
+area: build
+category: dev-tools
+tags:
+  - react
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Suporte completo a CSS dentro de JSX, com estilos escopados ao componente.
+  en: Full CSS support inside JSX, with styles scoped to the component.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/zeit/styled-jsx"

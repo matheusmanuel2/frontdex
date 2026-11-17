@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Whirl
+url: https://whirl.netlify.app
+repo: https://github.com/jh3y/whirl
+area: build
+category: animation
+tags:
+  - css
+  - motion
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Animações de carregamento em CSS feitas com pseudo-elementos.
+  en: CSS loading animations built with pseudo-elements.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://whirl.netlify.app"

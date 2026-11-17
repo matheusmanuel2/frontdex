@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: ress
+url: https://ress.page
+repo: https://github.com/filipelinhares/ress
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Reset de CSS para partir de uma base consistente entre navegadores.
+  en: CSS reset for a consistent starting point across browsers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: troxler/awesome-css-frameworks. Lida: https://ress.page"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Fontaine
+url: https://github.com/unjs/fontaine
+repo: https://github.com/unjs/fontaine
+area: build
+category: dev-tools
+tags:
+  - typography
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gera fontes de fallback automaticamente a partir das métricas da fonte, reduzindo o salto de layout.
+  en: Generates automatic font fallbacks from font metrics, reducing layout shift.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/unjs/fontaine"

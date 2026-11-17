@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Grid.js
+url: https://gridjs.io/
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Plugin JavaScript leve e open source para montar tabelas com recursos avançados em qualquer navegador.
+  en: Lightweight open-source JavaScript plugin for building advanced tables in any browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://gridjs.io/"

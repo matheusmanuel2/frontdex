@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: data-driven-motion
+url: https://tkh44.github.io/data-driven-motion/
+repo: https://github.com/tkh44/data-driven-motion
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Anima dados em React a partir de react-motion, entrando e saindo junto com a lista.
+  en: Animates data in React on top of react-motion as items enter and leave.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://tkh44.github.io/data-driven-motion/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: MVP.css
+url: https://andybrewer.github.io/mvp/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: "Folha de estilo sem classes: você escreve HTML semântico e os elementos já saem estilizados."
+  en: "Class-less stylesheet: write semantic HTML and the elements come out styled."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://andybrewer.github.io/mvp/"

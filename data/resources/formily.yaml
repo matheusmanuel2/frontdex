@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Formily
+url: https://formilyjs.org/
+repo: https://github.com/alibaba/formily
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Formulários dinâmicos a partir de JSON Schema e form builder para React, React Native e Vue.
+  en: Dynamic JSON Schema forms and a form builder for React, React Native and Vue.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://formilyjs.org/"

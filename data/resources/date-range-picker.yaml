@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: date-range-picker
+url: https://almogtavor.github.io/date-range-picker/
+repo: https://github.com/almogtavor/date-range-picker
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Calendário de intervalo de datas para React, sem dependências.
+  en: Date range picker calendar for React with no dependencies.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://almogtavor.github.io/date-range-picker/"

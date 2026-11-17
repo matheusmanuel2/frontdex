@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Fancy Components
+url: https://www.fancycomponents.dev/
+area: build
+category: ui-components
+tags:
+  - react
+  - motion
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componentes React divertidos e prontos para usar, para deixar a web menos séria.
+  en: Ready-to-use playful React components to make the web fun again.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: swyxio/spark-joy. Lida: https://www.fancycomponents.dev/"

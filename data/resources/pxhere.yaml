@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: PxHere
+url: https://pxhere.com/
+area: build
+category: assets
+tags:
+  - photos
+pricing: free
+open_source: false
+description:
+  pt: Mais de 1,1 milhão de fotos sob CC0, liberadas para uso comercial sem crédito.
+  en: Over 1.1 million CC0 photos, cleared for commercial use with no attribution.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://pxhere.com/"

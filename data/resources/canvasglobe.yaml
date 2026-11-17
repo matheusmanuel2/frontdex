@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: CanvasGlobe
+url: https://canvasglobe.swiftools.com/
+repo: https://github.com/Shree-hari/canvas-globe
+area: build
+category: charts
+tags:
+  - javascript
+  - react
+pricing: paid
+open_source: false
+description:
+  pt: Globos 3D e mapas-múndi em Canvas 2D sem WebGL, tiles, chave de API nem dependências.
+  en: 3D globes and flat world maps on Canvas 2D with no WebGL, tiles, API key or dependencies.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://canvasglobe.swiftools.com/"

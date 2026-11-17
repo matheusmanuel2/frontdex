@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: redux-batched-actions
+url: https://github.com/tshelburne/redux-batched-actions
+repo: https://github.com/tshelburne/redux-batched-actions
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Reducer do Redux que agrupa várias ações numa única notificação aos assinantes.
+  en: Redux reducer that batches several actions into a single subscriber notification.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/tshelburne/redux-batched-actions"

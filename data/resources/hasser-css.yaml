@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Hasser CSS
+url: https://github.com/HeavenMercy/HasserCSS
+repo: https://github.com/rich1richard/HasserCSS
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: GPL-3.0
+description:
+  pt: Framework CSS leve inspirado no Skeleton CSS, para começar layouts sem muito peso.
+  en: Lightweight CSS framework inspired by Skeleton CSS, for starting layouts with little weight.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/HeavenMercy/HasserCSS"

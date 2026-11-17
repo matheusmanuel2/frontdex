@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Graphberry
+url: https://www.graphberry.com/
+area: build
+category: assets
+tags:
+  - mockups
+  - icons
+pricing: free
+open_source: false
+description:
+  pt: Mockups, templates PSD para web e ícones gratuitos para baixar e usar em projetos.
+  en: Free mockups, PSD web templates and icons to download and use in projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://www.graphberry.com/"

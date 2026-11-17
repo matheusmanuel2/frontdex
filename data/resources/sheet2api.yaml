@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: sheet2api
+url: https://sheet2api.com/
+area: build
+category: dev-tools
+tags:
+  - api
+pricing: paid
+open_source: false
+description:
+  pt: Transforma planilhas do Google Sheets e do Excel Online numa API REST para ler e editar linhas a partir do seu site.
+  en: Turns Google Sheets and Excel Online into a REST API to read and edit rows from your site.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://sheet2api.com/"

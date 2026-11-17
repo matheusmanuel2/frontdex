@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: AI Logo Collection
+url: https://ailogocollection.com/
+area: build
+category: brand-apis
+tags:
+  - logos
+pricing: free
+open_source: false
+description:
+  pt: Mais de 390 logos de empresas de IA, como ChatGPT, Claude e Gemini, para baixar em SVG e PNG.
+  en: 390+ logos of AI companies like ChatGPT, Claude and Gemini, to download as SVG and PNG.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ailogocollection.com/"

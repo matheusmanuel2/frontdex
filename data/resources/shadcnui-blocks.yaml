@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Shadcnui Blocks
+url: https://www.shadcnui-blocks.com/
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Blocos e componentes shadcn/ui para pré-visualizar, copiar o código e adicionar ao projeto.
+  en: shadcn/ui blocks and components to preview, copy the code from, and add to your project.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.shadcnui-blocks.com/"

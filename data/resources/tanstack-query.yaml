@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: TanStack Query
+url: https://tanstack.com/query
+repo: https://github.com/TanStack/query
+area: build
+category: dev-tools
+tags:
+  - typescript
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Estado assíncrono e busca de dados do servidor para React, Solid, Svelte e Vue.
+  en: Async state and server data fetching for React, Solid, Svelte and Vue.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://tanstack.com/query"

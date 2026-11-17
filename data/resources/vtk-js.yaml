@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: vtk.js
+url: https://kitware.github.io/vtk-js/
+repo: https://github.com/Kitware/vtk-js
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: BSD-3-Clause
+description:
+  pt: Versão para a web do Visualization Toolkit (VTK), para visualização científica no navegador.
+  en: Web version of the Visualization Toolkit (VTK), for scientific visualization in the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://kitware.github.io/vtk-js/"

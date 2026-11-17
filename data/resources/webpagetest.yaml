@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: WebPageTest
+url: https://www.logicmonitor.com/webpagetest
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Mede velocidade e performance do site em vários navegadores, dispositivos, locais e condições de rede.
+  en: Tests site speed and performance across browsers, devices, locations and network conditions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.catchpoint.com/webpagetest. Redirecionava de https://www.catchpoint.com/webpagetest"

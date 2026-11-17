@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-medium-editor
+url: https://wangzuo.github.io/react-medium-editor
+repo: https://github.com/wangzuo/react-medium-editor
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Wrapper React para o medium-editor, editor de texto no estilo do Medium.
+  en: React wrapper for medium-editor, the Medium-style text editor.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://wangzuo.github.io/react-medium-editor"

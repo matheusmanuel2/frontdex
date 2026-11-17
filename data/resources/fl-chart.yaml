@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: FL Chart
+url: https://flchart.dev
+repo: https://github.com/imaNNeo/fl_chart
+area: build
+category: charts
+tags:
+  - mobile
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: "Gráficos para Flutter: linha, barra, pizza, dispersão, radar e candlestick."
+  en: "Flutter charts: line, bar, pie, scatter, radar and candlestick."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://flchart.dev"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-autosuggest
+url: https://github.com/moroshko/react-autosuggest
+repo: https://github.com/moroshko/react-autosuggest
+area: build
+category: ui-components
+tags:
+  - react
+  - accessibility
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componente de autosuggest para React que segue o WAI-ARIA.
+  en: WAI-ARIA compliant autosuggest component for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/moroshko/react-autosuggest"

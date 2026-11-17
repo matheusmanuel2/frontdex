@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Chameleon
+url: https://pusher.github.io/chameleon/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Padrões front-end, variáveis e helpers que aplicam a identidade visual da Pusher à interface.
+  en: Front-end patterns, variables and helpers that apply Pusher's visual identity to a UI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: alexpate/awesome-design-systems. Lida: https://pusher.github.io/chameleon/"

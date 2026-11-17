@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Critical Path CSS Generator
+url: https://www.sitelocity.com/critical-path-css-generator
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: false
+description:
+  pt: Cole a URL e receba o CSS crítico do conteúdo acima da dobra para acelerar o carregamento.
+  en: Paste a URL and get the critical CSS for above-the-fold content to speed up loading.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.sitelocity.com/critical-path-css-generator"

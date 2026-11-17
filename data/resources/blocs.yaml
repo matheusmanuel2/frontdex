@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Blocs
+url: https://blocsapp.com/
+area: build
+category: design-tools
+tags:
+  - macos
+  - ios
+pricing: freemium
+open_source: false
+description:
+  pt: Editor visual para Mac e iPad que cria sites responsivos e temas WordPress sem escrever código.
+  en: Visual web design app for Mac and iPad that builds responsive sites and WordPress themes without code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://blocsapp.com/"

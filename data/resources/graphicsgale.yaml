@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: GraphicsGale
+url: https://graphicsgale.com/us/
+area: build
+category: design-tools
+tags:
+  - illustration
+pricing: free
+open_source: false
+description:
+  pt: Editor de gráficos animados feito para sprites e pixel art.
+  en: Animated graphics editor built for sprites and pixel art.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://graphicsgale.com/us/"

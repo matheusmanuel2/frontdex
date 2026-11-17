@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Colorffy
+url: https://www.colorffy.com/
+area: build
+category: colors
+tags:
+  - css
+  - gradients
+pricing: freemium
+open_source: false
+description:
+  pt: Gera paletas, gradientes e temas de UI com saída em CSS, tudo num só conjunto de ferramentas de cor.
+  en: Generates palettes, gradients and UI themes with CSS output, all in one set of color tools.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://www.colorffy.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React-Calendar
+url: https://projects.wojtekmaj.pl/react-calendar
+repo: https://github.com/wojtekmaj/react-calendar
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Calendário para React com seleção de data e de mês.
+  en: Calendar for React with date and month picking.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://projects.wojtekmaj.pl/react-calendar"

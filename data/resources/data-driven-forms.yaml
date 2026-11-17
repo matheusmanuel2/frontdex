@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Data Driven Forms
+url: https://data-driven-forms.org/
+repo: https://github.com/data-driven-forms/react-forms
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Renderiza formulários React a partir de um esquema de dados, com validação.
+  en: Renders React forms from a data schema, with validation.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://data-driven-forms.org/"

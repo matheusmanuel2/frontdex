@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: CDNPerf
+url: https://www.cdnperf.com/
+area: build
+category: dev-tools
+tags:
+  - analytics
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Compara CDNs por performance e uptime com dados de usuários reais, no mundo ou por país.
+  en: Compares CDN providers by performance and uptime using real user data, worldwide or per country.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.cdnperf.com/"

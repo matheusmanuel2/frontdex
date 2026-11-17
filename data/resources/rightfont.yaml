@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: RightFont
+url: https://rightfontapp.com/
+area: build
+category: typography-tools
+tags:
+  - macos
+  - typography
+pricing: paid
+open_source: false
+description:
+  pt: Gerenciador de fontes para Mac que pré-visualiza, instala e sincroniza via iCloud ou Dropbox.
+  en: Mac font manager that previews, installs and syncs fonts over iCloud or Dropbox.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://rightfontapp.com/"

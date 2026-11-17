@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Iconset
+url: https://iconset.io/
+area: build
+category: icons
+tags:
+  - icons
+  - macos
+pricing: paid
+open_source: false
+description:
+  pt: Organiza seus sets de ícones e busca mais de 100 mil ícones open source offline, exportando para SVG, PNG, React, Vue ou Svelte.
+  en: Organizes your icon sets and searches 100,000+ open-source icons offline, exporting to SVG, PNG, React, Vue or Svelte.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://iconset.io/"

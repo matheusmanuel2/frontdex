@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Ant Design Charts
+url: https://ant-design-charts.antgroup.com/
+repo: https://github.com/ant-design/ant-design-charts
+area: build
+category: charts
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de gráficos para React baseada no AntV, com plots, grafos e mapas.
+  en: React chart library based on AntV, with plots, graphs and maps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://ant-design-charts.antgroup.com/"

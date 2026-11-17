@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: redux-devtools-log-monitor
+url: https://github.com/gaearon/redux-devtools-log-monitor
+repo: https://github.com/gaearon/redux-devtools-log-monitor
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Monitor padrão do Redux DevTools, que mostra as ações em árvore.
+  en: Default Redux DevTools monitor, showing actions in a tree view.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/gaearon/redux-devtools-log-monitor"

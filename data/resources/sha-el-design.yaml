@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Sha-el-design
+url: https://sha-el-design.netlify.app/
+repo: https://github.com/sha-el/sha-el-design
+area: build
+category: ui-components
+tags:
+  - react
+  - typescript
+  - design-systems
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Kit de componentes React em TypeScript pensado para customização.
+  en: TypeScript React UI kit built for easy customization.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://sha-el-design.netlify.app/"

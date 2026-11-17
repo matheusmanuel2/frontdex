@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: D3.js
+url: https://d3js.org
+repo: https://github.com/d3/d3
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: ISC
+description:
+  pt: Visualização de dados ligando dados a SVG, Canvas e HTML.
+  en: Data visualization by binding data to SVG, Canvas and HTML.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://d3js.org"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-svg-textures
+url: https://github.com/finnfiddle/react-svg-textures
+repo: https://github.com/finnfiddle/react-svg-textures
+area: build
+category: charts
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Port do Textures.js para React, com texturas SVG isomórficas para gráficos.
+  en: Textures.js ported to React, with isomorphic SVG textures for charts.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/finnfiddle/react-svg-textures"

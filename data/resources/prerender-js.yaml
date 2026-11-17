@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: prerender.js
+url: https://github.com/genderev/prerender.js
+repo: https://github.com/genderev/prerender.js
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Prevê a próxima página e a pré-renderiza para que a navegação pareça instantânea.
+  en: Predicts the next page and prerenders it so navigation feels instant.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/genderev/prerender.js"

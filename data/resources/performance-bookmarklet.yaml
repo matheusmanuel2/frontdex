@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Performance-Bookmarklet
+url: https://github.com/micmro/performance-bookmarklet
+repo: https://github.com/micmro/performance-bookmarklet
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Bookmarklet que analisa a página com as APIs Resource, Navigation e User Timing.
+  en: Bookmarklet that analyzes the page with the Resource, Navigation and User Timing APIs.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/micmro/performance-bookmarklet"

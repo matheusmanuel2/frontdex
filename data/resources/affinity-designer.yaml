@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Affinity Designer
+url: https://www.affinity.studio/graphic-design-software
+area: build
+category: design-tools
+tags:
+  - illustration
+pricing: free
+open_source: false
+description:
+  pt: Software de design vetorial e gráfico para ilustração com precisão.
+  en: Vector and graphic design software for precise illustration work.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://affinity.serif.com/en-gb/designer/. Redirecionava de https://affinity.serif.com/en-gb/designer/"

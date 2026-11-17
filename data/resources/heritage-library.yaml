@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Heritage Library
+url: https://www.heritagetype.com/collections/free-vintage-illustrations
+area: build
+category: assets
+tags:
+  - illustration
+pricing: free
+open_source: false
+description:
+  pt: Coleção de ilustrações vintage da Heritage Type Co para baixar e usar de graça.
+  en: Heritage Type Co's collection of vintage illustrations you can download and use for free.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.heritagetype.com/collections/free-vintage-illustrations"

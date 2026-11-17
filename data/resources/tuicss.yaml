@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: TuiCss
+url: https://github.com/vinibiavatti1/TuiCss
+repo: https://github.com/vinibiavatti1/TuiCss
+area: build
+category: ui-components
+tags:
+  - css
+  - terminal
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca CSS para montar interfaces em modo texto, com cara de terminal antigo.
+  en: CSS library for building text-based user interfaces.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: troxler/awesome-css-frameworks, swyxio/spark-joy. Lida: https://github.com/vinibiavatti1/TuiCss"

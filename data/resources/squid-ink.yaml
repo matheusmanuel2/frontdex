@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Squid Ink
+url: https://thesquid.ink
+area: build
+category: icons
+tags:
+  - icons
+  - ios
+  - android
+pricing: paid
+open_source: false
+description:
+  pt: Mais de 6.000 ícones flat, line e glyph para apps iOS e Android, com arquivos Photoshop, Illustrator e SVG.
+  en: 6,000+ flat, line and glyph icons for iOS and Android apps, with Photoshop, Illustrator and SVG files.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://thesquid.ink"

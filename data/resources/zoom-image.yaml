@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: zoom-image
+url: https://willnguyen1312.github.io/zoom-image/
+repo: https://github.com/willnguyen1312/zoom-image
+area: build
+category: ui-components
+tags:
+  - javascript
+  - photos
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Zoom de imagens headless para a web, sem depender de framework.
+  en: Headless, framework-agnostic library for zooming images on the web.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://willnguyen1312.github.io/zoom-image/"

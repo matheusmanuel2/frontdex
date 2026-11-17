@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Perspective
+url: https://perspective-dev.github.io/
+repo: https://github.com/perspective-dev/perspective
+area: build
+category: charts
+tags:
+  - analytics
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Componente de visualização e análise em WebAssembly para datasets grandes ou em streaming.
+  en: WebAssembly visualization and analytics component for large or streaming datasets.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://perspective-dev.github.io/"

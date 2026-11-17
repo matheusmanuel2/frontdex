@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Colorpicker
+url: https://colorpicker.fr
+area: build
+category: colors
+tags:
+  - web
+pricing: free
+open_source: true
+license: GPL-3.0
+description:
+  pt: App de desktop para gestão de cores que captura qualquer cor visível na tela.
+  en: Desktop color management app that picks any color visible on your screen.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://colorpicker.fr"

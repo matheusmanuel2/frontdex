@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Chart.js
+url: https://www.chartjs.org/
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca JavaScript de gráficos em HTML5, de código aberto e simples de começar.
+  en: Open source JavaScript library for HTML5 charts, simple to get started with.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, hal9ai/awesome-dataviz. Lida: https://www.chartjs.org/"

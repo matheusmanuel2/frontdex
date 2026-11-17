@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: MPAndroidChart
+url: https://philjay.cc/mpandroidchart
+repo: https://github.com/PhilJay/MPAndroidChart
+area: build
+category: charts
+tags:
+  - android
+  - mobile
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: "Gráficos para Android: linha, barra, pizza, radar, bolha e candlestick, com zoom e arrasto."
+  en: "Android charts: line, bar, pie, radar, bubble and candlestick, with scaling and panning."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://philjay.cc/mpandroidchart"

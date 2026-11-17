@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: react-schematic
+url: https://umeshmk.github.io/react-schematic/
+repo: https://github.com/umeshmk/react-schematic
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+  - typescript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Layouts responsivos em React com styled-components, sem precisar configurar tema.
+  en: Responsive React layouts with styled-components, no theme configuration needed.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://umeshmk.github.io/react-schematic/"

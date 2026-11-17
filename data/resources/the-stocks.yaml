@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: The Stocks
+url: https://thestocks.im/
+area: build
+category: assets
+tags:
+  - photos
+  - icons
+  - mockups
+pricing: free
+open_source: false
+description:
+  pt: Reúne mais de 2.100 fontes de fotos, vídeos, mockups, ícones e fontes royalty-free, atualizado diariamente.
+  en: Gathers 2,100+ sources of royalty-free photos, videos, mockups, icons and fonts, updated daily.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://thestocks.im/"

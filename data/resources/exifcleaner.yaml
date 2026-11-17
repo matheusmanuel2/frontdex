@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: ExifCleaner
+url: https://exifcleaner.com
+area: build
+category: dev-tools
+tags:
+  - photos
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Remove os metadados EXIF de fotos, vídeos e PDFs antes de você publicar ou compartilhar.
+  en: Strips EXIF metadata from photos, videos and PDFs before you publish or share them.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://exifcleaner.com"

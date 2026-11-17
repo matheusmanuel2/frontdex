@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: BalmUI
+url: https://material.balmjs.com/#/
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de UI modular para Vue 3 baseada no Material Design.
+  en: Modular UI library for Vue 3 based on Material Design.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://material.balmjs.com/#/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: POP by Marvel
+url: https://marvelapp.com/pop/?popref=1
+area: build
+category: design-tools
+tags:
+  - ios
+  - android
+pricing: freemium
+open_source: false
+description:
+  pt: Transforma esboços em papel em protótipos interativos para iPhone, iPad, Apple Watch, Apple TV e Android.
+  en: Turns paper sketches into interactive prototypes for iPhone, iPad, Apple Watch, Apple TV and Android.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://marvelapp.com/pop/?popref=1"

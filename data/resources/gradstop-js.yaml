@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: GradStop.js
+url: https://github.com/Siddharth11/gradStop.js
+repo: https://github.com/Siddharth11/gradstop
+area: build
+category: colors
+tags:
+  - gradients
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Microbiblioteca JavaScript que gera os color stops de um gradiente a partir de cores hex.
+  en: JavaScript micro library that generates gradient color stops from hex colors.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://github.com/Siddharth11/gradStop.js"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Materio
+url: https://demos.themeselection.com/materio-vuetify-vuejs-admin-template-free/demo/
+repo: https://github.com/themeselection/materio-vuetify-vuejs-admin-template-free
+area: build
+category: ui-components
+tags:
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Template gratuito de painel administrativo em Vue.js com Vuetify.
+  en: Free Vue.js admin dashboard template built with Vuetify.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://themeselection.com/demo/materio-vuetify-vuejs-admin-template-free/demo/. Redirecionava de https://themeselection.com/demo/materio-vuetify-vuejs-admin-template-free/demo/"

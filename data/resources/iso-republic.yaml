@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: ISO Republic
+url: https://isorepublic.com/
+area: build
+category: assets
+tags:
+  - photos
+  - video
+pricing: free
+open_source: false
+description:
+  pt: Mais de 7.000 fotos e vídeos em alta resolução, grátis para uso pessoal e comercial.
+  en: 7,000+ high-resolution photos and videos, free for personal and commercial use.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://isorepublic.com/"

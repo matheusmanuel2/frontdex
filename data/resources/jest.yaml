@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Jest
+url: https://jestjs.io
+repo: https://github.com/jestjs/jest
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Framework de testes para JavaScript, mantido no ecossistema do Facebook.
+  en: JavaScript testing framework from the Facebook ecosystem.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://jestjs.io"

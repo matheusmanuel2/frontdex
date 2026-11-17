@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: GraphicBurger
+url: https://graphicburger.com/
+area: build
+category: assets
+tags:
+  - illustration
+pricing: free
+open_source: false
+description:
+  pt: Recursos de design gratuitos para uso pessoal e comercial, cuidados pixel a pixel.
+  en: Design resources free for personal and commercial use, crafted with care for each pixel.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://graphicburger.com/"

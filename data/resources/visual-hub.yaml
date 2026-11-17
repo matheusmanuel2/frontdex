@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Visual Hub
+url: https://visual-hub.net/
+area: build
+category: assets
+tags:
+  - illustration
+  - icons
+pricing: free
+open_source: false
+description:
+  pt: Ilustrações, imagens de perfil e ícones de UI para uso comercial, sem crédito e sem cadastro.
+  en: Illustrations, profile images and UI icons for commercial use, with no credit and no sign-up.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://visual-hub.net/"

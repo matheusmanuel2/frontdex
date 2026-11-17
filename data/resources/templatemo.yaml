@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: TemplateMo
+url: https://templatemo.com/
+area: build
+category: ui-components
+tags:
+  - css
+  - web
+pricing: free
+open_source: false
+description:
+  pt: Mais de 620 templates em HTML e CSS, em CSS puro ou Bootstrap, livres para uso comercial e sem cadastro.
+  en: Over 620 HTML and CSS website templates in pure CSS or Bootstrap, free for commercial use with no sign-up.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://templatemo.com/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-spring
+url: https://github.com/react-spring/react-spring
+repo: https://github.com/pmndrs/react-spring
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Animações em React baseadas em física de molas em vez de durações fixas.
+  en: React animations driven by spring physics instead of fixed durations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/react-spring/react-spring"

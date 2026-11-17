@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Chinese Color Atlas
+url: https://chinesecoloratlas.com/resources/free
+area: build
+category: colors
+tags:
+  - css
+  - branding
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Cores tradicionais chinesas em variáveis CSS, cores Tailwind, tokens DTCG e variáveis do Figma.
+  en: Traditional Chinese colors as CSS variables, Tailwind colors, DTCG tokens and Figma Variables.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://chinesecoloratlas.com/resources/free"

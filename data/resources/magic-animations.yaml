@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Magic Animations
+url: https://www.minimamente.com/project/magic/
+area: build
+category: animation
+tags:
+  - css
+  - motion
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Conjunto de animações CSS3 simples para incluir no seu site ou app.
+  en: Set of simple CSS3 animations to drop into your site or app.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.minimamente.com/project/magic/"

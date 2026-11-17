@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: PSone.css
+url: https://micah5.github.io/PSone.css/
+repo: https://github.com/micah5/PSone.css
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Framework CSS no estilo do PlayStation 1, inspirado no NES.css.
+  en: PS1-style CSS framework, inspired by NES.css.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, swyxio/spark-joy. Lida: https://micah5.github.io/PSone.css/"

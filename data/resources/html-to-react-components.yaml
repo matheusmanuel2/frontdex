@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: html-to-react-components
+url: https://roman01la.github.io/html-to-react-components/
+repo: https://github.com/roman01la/html-to-react-components
+area: build
+category: dev-tools
+tags:
+  - react
+  - cli
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Converte páginas HTML em componentes React.
+  en: Converts HTML pages into React components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://roman01la.github.io/html-to-react-components/"

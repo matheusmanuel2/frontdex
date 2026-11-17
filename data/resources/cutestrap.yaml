@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Cutestrap
+url: https://www.cutestrap.com/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: GPL-3.0
+description:
+  pt: Framework em CSS puro de 2,7 KB com ritmo vertical, campos de formulário consistentes e um grid simples.
+  en: Pure CSS framework at 2.7KB with vertical rhythm, consistent form fields and a simple grid.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.cutestrap.com/"

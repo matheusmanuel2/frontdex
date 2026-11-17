@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: SVG Logos
+url: https://svglogos.dev/
+area: build
+category: brand-apis
+tags:
+  - logos
+pricing: free
+open_source: true
+license: CC0-1.0
+description:
+  pt: Milhares de logos de marcas em SVG, completos ou só o símbolo, sob licença CC0 e sem cadastro.
+  en: Thousands of brand logos in SVG, full or icon-only, under CC0 and with no sign-up.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, gztchan/awesome-design. Lida: https://svgporn.com. Redirecionava de https://svgporn.com"

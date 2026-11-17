@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-lottie-player
+url: https://github.com/mifi/react-lottie-player
+repo: https://github.com/mifi/react-lottie-player
+area: build
+category: animation
+tags:
+  - react
+  - motion
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Player de animações Lottie para React, totalmente declarativo.
+  en: Fully declarative Lottie animation player for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/mifi/react-lottie-player"

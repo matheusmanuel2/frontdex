@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: source-map-explorer
+url: https://github.com/danvk/source-map-explorer
+repo: https://github.com/danvk/source-map-explorer
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - cli
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Analisa o tamanho do bundle por meio de source maps e mostra num treemap.
+  en: Analyzes bundle size through source maps and shows it as a treemap.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/danvk/source-map-explorer"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Shape
+url: https://uibundle.com
+area: build
+category: icons
+tags:
+  - icons
+  - illustration
+  - react
+pricing: freemium
+open_source: false
+description:
+  pt: Ícones e ilustrações estáticos ou animados com estilo, cores e borda ajustáveis, exportados para React, SVG e Lottie.
+  en: Static and animated icons and illustrations with adjustable style, colors and border, exported to React, SVG and Lottie.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uibundle.com"

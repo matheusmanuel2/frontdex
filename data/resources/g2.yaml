@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: G2
+url: https://g2.antv.antgroup.com
+repo: https://github.com/antvis/G2
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gramática de visualização para gráficos em canvas, da AntV.
+  en: Visualization grammar for canvas charts, from AntV.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://g2.antv.antgroup.com"

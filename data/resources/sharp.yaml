@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Sharp
+url: https://sharp.pixelplumbing.com
+repo: https://github.com/lovell/sharp
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - photos
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Processamento de imagem em Node.js sobre libvips, redimensiona JPEG, PNG, WebP, AVIF e TIFF.
+  en: Node.js image processing on libvips that resizes JPEG, PNG, WebP, AVIF and TIFF.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://sharp.pixelplumbing.com"

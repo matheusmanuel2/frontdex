@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: simpleParallax.js
+url: https://simpleparallax.com
+repo: https://github.com/geosigno/simpleParallax.js
+area: build
+category: animation
+tags:
+  - javascript
+  - react
+  - motion
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Efeito de parallax para React e JavaScript com pouca configuração.
+  en: Parallax effect for React and JavaScript with little setup.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://simpleparallax.com"

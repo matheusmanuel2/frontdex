@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Picnic CSS
+url: https://picnicss.com/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca CSS leve para estilizar elementos HTML sem montar tudo do zero.
+  en: Lightweight CSS library for styling HTML elements without starting from scratch.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://picnicss.com/"

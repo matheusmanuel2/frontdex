@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: TimelineJS
+url: https://timeline.knightlab.com/
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MPL-2.0
+description:
+  pt: Ferramenta gratuita para contar histórias em formato de linha do tempo.
+  en: Free tool for telling stories as a timeline.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://timeline.knightlab.com/"

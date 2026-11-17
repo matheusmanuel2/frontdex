@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-blur
+url: https://javier.xyz/react-blur
+repo: https://github.com/javierbyte/react-blur
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: BSD-3-Clause
+description:
+  pt: Desfoca imagens de fundo com canvas em um componente React.
+  en: Blurs background images with canvas in a React component.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://javier.xyz/react-blur"

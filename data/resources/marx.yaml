@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Marx
+url: https://blode.co/marx
+repo: https://github.com/mblode/marx
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Reset de CSS sem classes que já estiliza o HTML puro.
+  en: Classless CSS reset that styles plain HTML.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://blode.co/marx"

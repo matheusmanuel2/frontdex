@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-color
+url: https://uiwjs.github.io/react-color
+repo: https://github.com/uiwjs/react-color
+area: build
+category: colors
+tags:
+  - react
+  - typescript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Seletor de cor pequeno, em widget, para apps React.
+  en: Small color picker widget for React apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://uiwjs.github.io/react-color"

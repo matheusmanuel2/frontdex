@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Minimize
+url: https://github.com/Swaagie/minimize
+repo: https://github.com/Swaagie/minimize
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Minificador de HTML em JavaScript com parser próprio.
+  en: HTML minifier in JavaScript with its own parser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/Swaagie/minimize"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: redux-test-recorder
+url: https://github.com/conorhastings/redux-test-recorder
+repo: https://github.com/conorhastings/redux-test-recorder
+area: build
+category: dev-tools
+tags:
+  - react
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Middleware Redux que gera testes de reducers enquanto você interage com a interface.
+  en: Redux middleware that generates reducer tests while you interact with the UI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/conorhastings/redux-test-recorder"

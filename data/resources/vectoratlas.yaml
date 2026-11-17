@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: VectorAtlas
+url: https://vectoratlas.menelabs.com/
+area: build
+category: assets
+tags:
+  - illustration
+pricing: freemium
+open_source: true
+license: CC-BY-4.0
+description:
+  pt: Mapa-múndi SVG gratuito do Natural Earth, um path por país com id no código ISO.
+  en: Free SVG world map from Natural Earth, one path per country keyed by ISO code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://vectoratlas.menelabs.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Konsta UI
+url: https://konstaui.com/
+area: build
+category: ui-components
+tags:
+  - css
+  - mobile
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componentes de UI para mobile construídos com Tailwind CSS.
+  en: Mobile UI components built with Tailwind CSS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://konstaui.com/"

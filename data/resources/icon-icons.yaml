@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Icon-Icons
+url: https://icon-icons.com/
+area: build
+category: icons
+tags:
+  - icons
+pricing: freemium
+open_source: false
+description:
+  pt: Ícones em SVG, PNG, ICO e ICNS para sites, apps e favicons, incluindo formatos para Windows e macOS.
+  en: Icons in SVG, PNG, ICO and ICNS for sites, apps and favicons, including Windows and macOS formats.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://icon-icons.com/"

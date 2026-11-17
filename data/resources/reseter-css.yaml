@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Reseter.css
+url: https://ikrishg.github.io/reseter.css
+repo: https://github.com/ikrishg/reseter.css
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Reset de CSS que zera os estilos padrão do navegador, alternativa ao Normalize.css.
+  en: CSS reset that clears browser default styles, an alternative to Normalize.css.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://ikrishg.github.io/reseter.css"

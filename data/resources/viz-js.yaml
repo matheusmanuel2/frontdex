@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Viz.js
+url: https://viz-js.com/
+repo: https://github.com/mdaines/viz-js
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Graphviz rodando no navegador, para renderizar grafos em DOT.
+  en: Graphviz running in the browser, to render DOT graphs.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://viz-js.com/"

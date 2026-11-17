@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Webpack Bundle Analyzer
+url: https://github.com/webpack/webpack-bundle-analyzer
+repo: https://github.com/webpack/webpack-bundle-analyzer
+area: build
+category: dev-tools
+tags:
+  - cli
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Mostra o conteúdo do bundle do webpack num treemap interativo com zoom.
+  en: Shows your webpack bundle contents as an interactive zoomable treemap.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/webpack/webpack-bundle-analyzer"

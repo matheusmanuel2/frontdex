@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Eva Design System
+url: https://eva.design/
+area: build
+category: ui-components
+tags:
+  - design-systems
+  - mobile
+pricing: freemium
+open_source: false
+description:
+  pt: Sistema de design adaptável à sua marca, com bibliotecas de componentes mobile e web para Sketch.
+  en: Design system that adapts to your brand, with mobile and web component libraries for Sketch.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://eva.design/"

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: Lottie
+url: https://lottie.airbnb.tech/
+area: build
+category: animation
+tags:
+  - motion
+  - android
+  - ios
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Renderiza nativamente no mobile e na web animações do After Effects exportadas em JSON pelo Bodymovin.
+  en: Renders After Effects animations exported as JSON with Bodymovin natively on mobile and the web.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://airbnb.io/lottie/. Redirecionava de https://airbnb.io/lottie/"

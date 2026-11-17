@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: StyleDocco
+url: https://github.com/jacobrask/styledocco
+repo: https://github.com/jacobrask/styledocco
+area: build
+category: design-tools
+tags:
+  - css
+  - design-systems
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gera um style guide automaticamente a partir das suas folhas de estilo.
+  en: Automatically generates a style guide from your stylesheets.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/jacobrask/styledocco"

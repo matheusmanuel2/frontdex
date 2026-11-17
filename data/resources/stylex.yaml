@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: StyleX
+url: https://stylexjs.com/
+area: build
+category: dev-tools
+tags:
+  - css
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Sistema de estilos que a Meta usa nos próprios produtos.
+  en: The styling system Meta uses in its own products.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://stylexjs.com/"

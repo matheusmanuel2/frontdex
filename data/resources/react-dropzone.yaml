@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-dropzone
+url: https://react-dropzone.js.org/
+repo: https://github.com/react-dropzone/react-dropzone
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Área de arrastar e soltar arquivos em HTML5 para React.
+  en: HTML5 drag-and-drop file zone for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-dropzone.js.org/"

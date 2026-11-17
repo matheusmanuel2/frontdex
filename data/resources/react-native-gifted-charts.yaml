@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-native-gifted-charts
+url: https://www.npmjs.com/package/react-native-gifted-charts
+repo: https://github.com/Abhinandan-Kushwaha/react-native-gifted-charts
+area: build
+category: charts
+tags:
+  - react
+  - mobile
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gráficos de barra, linha, pizza, radar, bolhas e candlestick para React Native, com 3D, gradientes e dados ao vivo.
+  en: Bar, line, pie, radar, bubble and candlestick charts for React Native, with 3D, gradients and live data.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.npmjs.com/package/react-native-gifted-charts"

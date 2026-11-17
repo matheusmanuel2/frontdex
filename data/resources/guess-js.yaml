@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Guess.js
+url: https://guess-js.github.io/
+repo: https://github.com/guess-js/guess
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Bibliotecas que usam machine learning para prever navegação e fazer prefetch de páginas.
+  en: Libraries that use machine learning to predict navigation and prefetch pages on the web.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://guess-js.github.io/"

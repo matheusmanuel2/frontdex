@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Lookback
+url: https://www.lookback.com/
+area: build
+category: design-tools
+tags:
+  - web
+pricing: paid
+open_source: false
+description:
+  pt: Pesquisa com usuários para entrevistas, testes de usabilidade e análise com IA.
+  en: User research platform for interviews, usability tests and AI-assisted analysis.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://lookback.io/. Redirecionava de https://lookback.io/"

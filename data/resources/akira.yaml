@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Akira
+url: https://github.com/akiraux/Akira
+repo: https://github.com/akiraux/Akira
+area: build
+category: design-tools
+tags:
+  - web
+pricing: free
+open_source: true
+license: GPL-3.0
+description:
+  pt: App nativo de design de UI e UX para Linux, feito em Vala e GTK.
+  en: Native Linux app for UI and UX design, built with Vala and GTK.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://github.com/akiraux/Akira"

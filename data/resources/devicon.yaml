@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Devicon
+url: https://devicon.dev
+area: build
+category: icons
+tags:
+  - icons
+  - logos
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Logos de linguagens e ferramentas de desenvolvimento reunidos numa só fonte de ícones.
+  en: Logos of programming languages and dev tools gathered into a single icon font.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://devicon.dev"

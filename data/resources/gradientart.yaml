@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: GradientArt
+url: https://gra.dient.art/
+area: build
+category: design-tools
+tags:
+  - css
+  - gradients
+pricing: free
+open_source: false
+description:
+  pt: Editor de gradientes CSS com editor de caminhos, máscaras e camadas em pastas, que exporta HTML, CSS e SVG.
+  en: CSS gradient editor with a path editor, clipping masks and layer folders, exporting HTML, CSS and SVG.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://gra.dient.art/"

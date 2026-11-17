@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Mixkit
+url: https://mixkit.co/
+area: build
+category: assets
+tags:
+  - video
+pricing: free
+open_source: false
+description:
+  pt: Vídeos, músicas e templates do Premiere Pro para baixar de graça.
+  en: Stock video, music and Premiere Pro templates to download for free.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://mixkit.co/"

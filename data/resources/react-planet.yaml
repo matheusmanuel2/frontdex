@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-planet
+url: https://innfactory.github.io/react-planet
+repo: https://github.com/innFactory/react-planet
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Menus circulares para React, com submenus que se abrem em órbita.
+  en: Circular menus for React, with submenus that open in orbit.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://innfactory.github.io/react-planet"

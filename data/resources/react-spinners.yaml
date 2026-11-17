@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Spinners
+url: https://www.davidhu.io/react-spinners
+repo: https://github.com/davidhu2000/react-spinners
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Coleção de spinners de carregamento em componentes React.
+  en: Collection of loading spinner components for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.davidhu.io/react-spinners"

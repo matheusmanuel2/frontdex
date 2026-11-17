@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: ManyPixels Gallery
+url: https://www.manypixels.co/gallery
+area: build
+category: assets
+tags:
+  - illustration
+pricing: free
+open_source: false
+description:
+  pt: Galeria de ilustrações e clip art para baixar e usar em projetos pessoais e comerciais.
+  en: Gallery of illustrations and clip art to download and use in personal and commercial projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://gallery.manypixels.co. Redirecionava de https://gallery.manypixels.co"

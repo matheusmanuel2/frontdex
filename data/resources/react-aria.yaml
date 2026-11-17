@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Aria
+url: https://react-aria.adobe.com/
+area: build
+category: accessibility
+tags:
+  - react
+  - accessibility
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Hooks e componentes acessíveis da Adobe que deixam todo o estilo por sua conta.
+  en: Accessible hooks and components from Adobe that leave all styling up to you.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://react-spectrum.adobe.com/react-aria/. Redirecionava de https://react-spectrum.adobe.com/react-aria/"

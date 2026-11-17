@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Material Icons
+url: https://mui.com/material-ui/material-icons/
+area: build
+category: icons
+tags:
+  - react
+  - icons
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Mais de 2.100 ícones Material prontos para usar como componentes React.
+  en: Over 2,100 Material icons ready to use as React components.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://mui.com/material-ui/material-icons/"

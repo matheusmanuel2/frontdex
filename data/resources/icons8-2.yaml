@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Icons8
+url: https://icons8.com/icons
+area: build
+category: icons
+tags:
+  - icons
+pricing: freemium
+open_source: false
+description:
+  pt: Mais de 1,5 milhão de ícones estáticos e animados em PNG, SVG, GIF e AE, com estilos consistentes entre sets.
+  en: Over 1.5 million static and animated icons in PNG, SVG, GIF and AE, with consistent styles across sets.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://icons8.com/icons"

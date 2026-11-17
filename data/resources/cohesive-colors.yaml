@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Cohesive Colors
+url: https://javier.xyz/cohesive-colors/
+area: build
+category: colors
+tags:
+  - web
+pricing: free
+open_source: true
+license: BSD-3-Clause
+description:
+  pt: Ajusta uma paleta para que as cores fiquem mais coesas entre si.
+  en: Tweaks a palette so its colors feel more cohesive together.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: Siddharth11/Colorful. Lida: https://javier.xyz/cohesive-colors/"

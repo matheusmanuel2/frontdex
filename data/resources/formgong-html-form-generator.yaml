@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Formgong HTML form generator
+url: https://formgong.com/en/tools/html-form-generator/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Gera um formulário HTML simples com labels, campos obrigatórios e honeypot, sem classes de framework nem JS.
+  en: Writes a plain HTML form with labels, required fields and a honeypot, no framework classes and no JavaScript.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://formgong.com/en/tools/html-form-generator/"

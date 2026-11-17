@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Penpot
+url: https://penpot.app/
+area: build
+category: design-tools
+tags:
+  - web
+pricing: freemium
+open_source: true
+license: MPL-2.0
+description:
+  pt: Plataforma de design open source para equipes, que aproxima o fluxo de design do código.
+  en: Open-source design platform for teams that brings the design workflow closer to code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://penpot.app/"

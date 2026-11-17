@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: SVG Gobbler
+url: https://www.svggobbler.com
+repo: https://github.com/rossmoody/svg-gobbler
+area: build
+category: icons
+tags:
+  - web
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Extensão de navegador que encontra os SVGs de uma página e permite editar, otimizar e exportar.
+  en: Browser extension that finds the SVGs on a page and lets you edit, optimize and export them.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.svggobbler.com"

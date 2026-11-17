@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Swiper
+url: https://swiperjs.com
+repo: https://github.com/nolimits4web/swiper
+area: build
+category: ui-components
+tags:
+  - javascript
+  - mobile
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Slider de toque para mobile com transições aceleradas por hardware.
+  en: Touch slider for mobile with hardware-accelerated transitions.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://swiperjs.com"

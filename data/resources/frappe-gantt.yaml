@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Frappe Gantt
+url: https://frappe.io/gantt
+repo: https://github.com/frappe/gantt
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gráfico de Gantt open source em JavaScript, para cronogramas.
+  en: Open source Gantt chart in plain JavaScript, for timelines.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://frappe.io/gantt"

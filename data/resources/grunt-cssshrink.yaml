@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: grunt-cssshrink
+url: https://github.com/JohnCashmore/grunt-cssshrink
+repo: https://github.com/JohnCashmore/grunt-cssshrink
+area: build
+category: dev-tools
+tags:
+  - css
+  - cli
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Tarefa do Grunt que passa seus arquivos CSS pelo CSS Shrink durante o build.
+  en: Grunt task that runs your CSS files through CSS Shrink during the build.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/JohnCashmore/grunt-cssshrink"

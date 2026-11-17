@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-aria-menubutton
+url: https://davidtheclark.github.io/react-aria-menubutton/demo
+repo: https://github.com/davidtheclark/react-aria-menubutton
+area: build
+category: accessibility
+tags:
+  - react
+  - accessibility
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Botão de menu acessível para React, fácil de estilizar.
+  en: Accessible, easily themed menu button for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://davidtheclark.github.io/react-aria-menubutton/demo"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Supabase UI
+url: https://supabase.com/library
+area: build
+category: ui-components
+tags:
+  - react
+pricing: freemium
+open_source: true
+license: Apache-2.0
+description:
+  pt: Blocos e apps iniciais para autenticação, storage e realtime com Supabase.
+  en: Blocks and starter apps for authentication, storage and realtime with Supabase.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://ui.supabase.io/. Redirecionava de https://ui.supabase.io/"

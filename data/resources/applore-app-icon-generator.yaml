@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Applore App Icon Generator
+url: https://applore.app/app-icon-generator
+area: build
+category: icons
+tags:
+  - ios
+  - android
+  - mobile
+pricing: freemium
+open_source: false
+description:
+  pt: "Transforma uma imagem de 1024 px em todos os tamanhos: AppIcon do Xcode, ícones adaptativos do Android, favicon e PWA."
+  en: "Turns one 1024 px image into every size: Xcode AppIcon set, Android adaptive icons, favicon and PWA icons."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://applore.app/app-icon-generator"

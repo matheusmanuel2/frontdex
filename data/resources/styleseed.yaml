@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: StyleSeed
+url: https://styleseed-demo.vercel.app
+repo: https://github.com/bitjaru/styleseed
+area: build
+category: ai-tools
+tags:
+  - ai-agents
+  - design-systems
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Skill de design para Claude Code, Codex e Cursor, com 22 fluxos internos para paletas semânticas e decisões fixas.
+  en: Design skill for Claude Code, Codex and Cursor, with 22 internal workflows for semantic palettes and fixed judgment.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://styleseed-demo.vercel.app"

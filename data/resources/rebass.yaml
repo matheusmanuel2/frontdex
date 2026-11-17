@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Rebass
+url: https://github.com/rebassjs/rebass
+repo: https://github.com/rebassjs/rebass
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componentes primitivos de UI para React construídos sobre styled-system.
+  en: Primitive React UI components built on styled-system.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://github.com/rebassjs/rebass"

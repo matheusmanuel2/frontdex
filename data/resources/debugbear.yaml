@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: DebugBear
+url: https://www.debugbear.com/
+area: build
+category: dev-tools
+tags:
+  - analytics
+  - web
+pricing: paid
+open_source: false
+description:
+  pt: Monitora Core Web Vitals com testes sintéticos e dados de usuários reais (RUM), com detalhes de velocidade por página.
+  en: Monitors Core Web Vitals with synthetic tests and real user monitoring (RUM), with detailed page speed data.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.debugbear.com/"

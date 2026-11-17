@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-highcharts
+url: https://github.com/kirjs/react-highcharts
+repo: https://github.com/kirjs/react-highcharts
+area: build
+category: charts
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Wrapper React para a biblioteca Highcharts.
+  en: React wrapper for the Highcharts library.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/kirjs/react-highcharts"

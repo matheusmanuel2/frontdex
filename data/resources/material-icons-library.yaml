@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Material Icons Library
+url: https://www.pixsellz.io/material-icons-library
+area: build
+category: icons
+tags:
+  - icons
+  - figma
+pricing: free
+open_source: false
+description:
+  pt: Mais de 1000 ícones do Material Design reunidos num arquivo do Figma.
+  en: 1000+ Material Design icons gathered in a single Figma file.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://icons.pixsellz.io/. Redirecionava de https://icons.pixsellz.io/"

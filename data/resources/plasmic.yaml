@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Plasmic
+url: https://www.plasmic.app/
+area: build
+category: design-tools
+tags:
+  - react
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Construtor visual de apps web, de ferramentas internas a produtos, que se integra ao seu código.
+  en: Visual builder for web apps, from internal tools to products, that plugs into your codebase.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://www.plasmic.app/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: grunt-svg-sprite
+url: https://www.npmjs.com/package/grunt-svg-sprite
+area: build
+category: dev-tools
+tags:
+  - css
+  - cli
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Plugin Grunt sobre o svg-sprite que otimiza arquivos SVG e gera sprites e o CSS correspondente.
+  en: Grunt plugin wrapping svg-sprite that optimizes SVG files and outputs sprites plus matching CSS.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://www.npmjs.com/package/grunt-svg-sprite"

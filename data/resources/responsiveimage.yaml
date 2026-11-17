@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: ResponsiveImage
+url: https://responsive-image.dev/
+area: build
+category: dev-tools
+tags:
+  - javascript
+  - photos
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca JavaScript para imagens responsivas, com WebP, AVIF, placeholders LQIP e CDNs de imagem em vários frameworks.
+  en: JavaScript library for responsive images across frameworks, with WebP, AVIF, LQIP placeholders and image CDNs.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://responsive-image.dev/"

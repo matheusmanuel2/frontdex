@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Native Paper
+url: https://reactnativepaper.com/
+area: build
+category: ui-components
+tags:
+  - react
+  - mobile
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca Material Design para React Native que segue os padrões da especificação.
+  en: Material Design library for React Native that follows the specification's standards.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://reactnativepaper.com/"

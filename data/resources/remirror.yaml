@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Remirror
+url: https://remirror.io
+repo: https://github.com/remirror/remirror
+area: build
+category: ui-components
+tags:
+  - react
+  - text
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Toolkit sobre o ProseMirror para montar editores de texto rico em React.
+  en: ProseMirror toolkit for building rich text editors in React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://remirror.io"

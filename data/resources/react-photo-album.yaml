@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: React Photo Album
+url: https://react-photo-album.com
+repo: https://github.com/igordanchenko/react-photo-album
+area: build
+category: ui-components
+tags:
+  - react
+  - photos
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Galeria de fotos responsiva para React, que organiza imagens em layout de álbum.
+  en: Responsive photo gallery for React that arranges images in an album layout.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-photo-album.com"

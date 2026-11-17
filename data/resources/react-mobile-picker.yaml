@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-mobile-picker
+url: https://github.com/adcentury/react-mobile-picker
+repo: https://github.com/adcentury/react-mobile-picker
+area: build
+category: ui-components
+tags:
+  - react
+  - mobile
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Seletor no estilo do iOS para a web, feito em React.
+  en: iOS-style picker for the web, built in React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/adcentury/react-mobile-picker"

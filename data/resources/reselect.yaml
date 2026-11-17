@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Reselect
+url: https://redux.js.org/reselect
+repo: https://github.com/reduxjs/reselect
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Seletores memoizados para Redux, que só recalculam quando o estado muda.
+  en: Memoized selectors for Redux that only recompute when state changes.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://redux.js.org/reselect"

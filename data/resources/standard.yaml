@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Standard
+url: https://standardjs.com
+repo: https://github.com/standard/standard
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Guia de estilo de JavaScript com linter e correção automática de código.
+  en: JavaScript style guide with a linter and automatic code fixer.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://standardjs.com"

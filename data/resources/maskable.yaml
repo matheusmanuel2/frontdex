@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Maskable.app
+url: https://maskable.app/editor/
+area: build
+category: dev-tools
+tags:
+  - web
+  - android
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Pré-visualiza ícones maskable de PWA no navegador para ver como ficam em cada recorte.
+  en: Previews maskable PWA icons in the browser so you see how they look under each mask.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://maskable.app/editor/"

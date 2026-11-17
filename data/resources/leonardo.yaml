@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Leonardo
+url: https://leonardocolor.io
+area: build
+category: colors
+tags:
+  - accessibility
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Gera cores a partir da razão de contraste que você quer atingir, em vez de escolher tons no olho.
+  en: Generates colors from the contrast ratio you want to hit instead of picking shades by eye.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://leonardocolor.io"

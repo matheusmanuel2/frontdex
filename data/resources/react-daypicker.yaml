@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React DayPicker
+url: https://daypicker.dev
+repo: https://github.com/gpbl/react-day-picker
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Date picker para React com calendários e campos de data customizáveis.
+  en: Customizable React date picker for calendars and date inputs.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://daypicker.dev"

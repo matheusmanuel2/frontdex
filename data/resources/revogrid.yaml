@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: RevoGrid
+url: https://rv-grid.com
+repo: https://github.com/revolist/revogrid
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Tabela de dados virtual estilo planilha, com recursos do Excel e customização avançada.
+  en: Virtual data table in spreadsheet style, with Excel-like features and deep customization.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://rv-grid.com"

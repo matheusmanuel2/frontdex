@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Font Library
+url: https://fontlibrary.dev/
+area: build
+category: fonts
+tags:
+  - typography
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Projeto open source que organiza as Google Fonts por tags para facilitar a busca.
+  en: Open-source project that tags Google Fonts so they are easier to search.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://katydecorah.com/font-library/. Redirecionava de https://katydecorah.com/font-library/"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: SVGOMG
+url: https://jakearchibald.github.io/svgomg/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Interface gráfica do SVGO para minificar SVGs no navegador.
+  en: SVGO's missing GUI for minifying SVGs in the browser.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, davidsonfellipe/awesome-wpo. Lida: https://jakearchibald.github.io/svgomg/"

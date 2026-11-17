@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Tiptap
+url: https://tiptap.dev
+repo: https://github.com/ueberdosis/tiptap
+area: build
+category: ui-components
+tags:
+  - javascript
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Framework headless de editor de texto rico, você controla toda a interface.
+  en: Headless rich text editor framework where you own the whole interface.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://tiptap.dev"

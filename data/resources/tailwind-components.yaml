@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Tailwind Components
+url: https://www.creative-tim.com/twcomponents/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: freemium
+open_source: false
+description:
+  pt: Mais de 600 componentes e templates open source em Tailwind CSS, de graça.
+  en: 600+ free, open-source Tailwind CSS components and templates.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://tailwindcomponents.com/. Redirecionava de https://tailwindcomponents.com/"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: React Toolbox
+url: https://github.com/react-toolbox/react-toolbox
+repo: https://github.com/react-toolbox/react-toolbox
+area: build
+category: ui-components
+tags:
+  - react
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componentes React que seguem o Material Design do Google, estilizados com CSS Modules.
+  en: React components implementing Google's Material Design, styled with CSS Modules.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/react-toolbox/react-toolbox"

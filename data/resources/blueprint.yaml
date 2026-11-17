@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Blueprint
+url: https://blueprintjs.com/
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Kit de interface baseado em React para aplicações web.
+  en: React-based UI toolkit for web applications.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, alexpate/awesome-design-systems. Lida: https://blueprintjs.com/"

@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: GTmetrix
+url: https://gtmetrix.com/
+area: build
+category: dev-tools
+tags:
+  - web
+pricing: freemium
+open_source: false
+description:
+  pt: Testa a velocidade do seu site com notas do Lighthouse, Core Web Vitals e recomendações.
+  en: Tests your site's speed with Lighthouse scores, Core Web Vitals and recommendations.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, davidsonfellipe/awesome-wpo. Lida: https://gtmetrix.com/"

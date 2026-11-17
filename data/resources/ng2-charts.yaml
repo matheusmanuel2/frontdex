@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: ng2-charts
+url: https://github.com/valor-software/ng2-charts
+repo: https://github.com/valor-software/ng2-charts
+area: build
+category: charts
+tags:
+  - javascript
+  - typescript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gráficos para Angular construídos sobre o Chart.js.
+  en: Angular charts built on top of Chart.js.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/valor-software/ng2-charts"

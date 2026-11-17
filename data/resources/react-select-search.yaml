@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-select-search
+url: https://react-select-search.vercel.app
+repo: https://github.com/tbleckert/react-select-search
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Select leve para React com busca entre as opções.
+  en: Lightweight React select with search across options.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://react-select-search.vercel.app"

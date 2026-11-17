@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: BootstrapVue
+url: https://bootstrap-vue.org/
+area: build
+category: ui-components
+tags:
+  - javascript
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Integra os componentes do Bootstrap v4 em projetos Vue.js.
+  en: Brings Bootstrap v4 components into Vue.js projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://bootstrap-vue.org/"

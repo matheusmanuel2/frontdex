@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Theatre.js
+url: https://www.theatrejs.com/
+area: build
+category: animation
+tags:
+  - javascript
+  - motion
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Editor de animação com interface visual para a web.
+  en: Animation editor with a visual interface for the web.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://www.theatrejs.com/"

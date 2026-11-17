@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-monacoeditor
+url: https://uiwjs.github.io/react-monacoeditor/
+repo: https://github.com/uiwjs/react-monacoeditor
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componente React para o Monaco Editor, o editor do VS Code.
+  en: React component for Monaco Editor, the editor behind VS Code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://uiwjs.github.io/react-monacoeditor/"

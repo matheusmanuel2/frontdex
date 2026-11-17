@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Unstyle.css
+url: https://github.com/Martin-Pitt/css-unstyle
+repo: https://github.com/Martin-Pitt/css-unstyle
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Reset de CSS para começar do zero e eliminar diferenças entre navegadores.
+  en: CSS reset for starting from a blank slate without browser inconsistencies.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: awesome-css-group/awesome-css. Lida: https://github.com/Martin-Pitt/css-unstyle"

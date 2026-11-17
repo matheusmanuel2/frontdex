@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Freestocks
+url: https://freestocks.org/
+area: build
+category: assets
+tags:
+  - photos
+pricing: free
+open_source: false
+description:
+  pt: Fotos de stock para uso pessoal e comercial, sem atribuição exigida.
+  en: Stock photos for personal and commercial use, no attribution required.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools. Lida: https://freestocks.org/"

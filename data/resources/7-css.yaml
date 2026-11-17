@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: 7.css
+url: https://khang-nd.github.io/7.css/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Framework CSS para recriar fielmente a interface do Windows 7.
+  en: CSS framework for faithfully recreating the Windows 7 UI.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: troxler/awesome-css-frameworks, swyxio/spark-joy. Lida: https://khang-nd.github.io/7.css/"

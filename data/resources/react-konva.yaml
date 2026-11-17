@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-konva
+url: https://konvajs.org/docs/react/index.html
+repo: https://github.com/konvajs/react-konva
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: "Componentes React para o Konva: gráficos interativos em canvas, editores e whiteboards em JSX."
+  en: "React components for Konva: interactive canvas graphics, design editors and whiteboards in JSX."
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://konvajs.org/docs/react/index.html"

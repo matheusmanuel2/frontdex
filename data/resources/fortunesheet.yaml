@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: FortuneSheet
+url: https://ruilisi.github.io/fortune-sheet-docs/
+repo: https://github.com/ruilisi/fortune-sheet
+area: build
+category: ui-components
+tags:
+  - javascript
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Planilha em JavaScript para embutir, com recursos no estilo Excel e Google Sheets.
+  en: Drop-in JavaScript spreadsheet with Excel and Google Sheets style features.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://ruilisi.github.io/fortune-sheet-docs/"

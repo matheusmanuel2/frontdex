@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Picography
+url: https://picography.co/
+area: build
+category: assets
+tags:
+  - photos
+pricing: free
+open_source: false
+description:
+  pt: Fotos HD sob CC0 para qualquer projeto, sem precisar dar crédito.
+  en: CC0 HD photos for any project, with no attribution needed.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://picography.co/"

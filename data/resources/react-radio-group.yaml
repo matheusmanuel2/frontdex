@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: react-radio-group
+url: https://github.com/chenglou/react-radio-group
+repo: https://github.com/chenglou/react-radio-group
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Grupo de radio buttons para React que controla o valor selecionado em um só lugar.
+  en: Radio button group for React that manages the selected value in one place.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/chenglou/react-radio-group"

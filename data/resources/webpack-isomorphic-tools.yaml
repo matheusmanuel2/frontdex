@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: webpack-isomorphic-tools
+url: https://github.com/halt-hammerzeit/webpack-isomorphic-tools
+repo: https://github.com/catamphetamine/webpack-isomorphic-tools
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Renderização no servidor para aplicações construídas com Webpack, como as de React.
+  en: Server-side rendering for Webpack-built applications such as React ones.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/halt-hammerzeit/webpack-isomorphic-tools"

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Iconoir
+url: https://iconoir.com/
+area: build
+category: icons
+tags:
+  - icons
+  - react
+  - figma
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: 1.383 ícones SVG sob licença MIT, sem cadastro nem atribuição, para React, Vue, React Native, Flutter, CSS e Figma.
+  en: 1,383 MIT-licensed SVG icons, no sign-up or attribution, for React, Vue, React Native, Flutter, CSS and Figma.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://iconoir.com/"

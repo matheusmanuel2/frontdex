@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: sqliteviz
+url: https://sqliteviz.com
+repo: https://github.com/lana-k/sqliteviz
+area: build
+category: charts
+tags:
+  - sql
+  - analytics
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Visualização de dados com SQL direto no navegador, funcionando offline.
+  en: SQL-powered data visualization that runs in your browser, even offline.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://sqliteviz.com"

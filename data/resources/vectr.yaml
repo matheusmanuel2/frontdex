@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Vectr
+url: https://vectr.com/
+area: build
+category: design-tools
+tags:
+  - illustration
+  - logos
+pricing: freemium
+open_source: false
+description:
+  pt: Editor vetorial com gerador de logos por IA, remoção de fundo e conversor para SVG.
+  en: Vector editor with an AI logo maker, background remover and SVG converter.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, goabstract/Awesome-Design-Tools. Lida: https://vectr.com/"

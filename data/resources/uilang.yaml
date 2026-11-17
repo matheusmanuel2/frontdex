@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: uilang
+url: https://github.com/bendc/uilang
+area: build
+category: dev-tools
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Linguagem de programação mínima voltada a UI, pensada para web designers.
+  en: Minimal, UI-focused programming language made for web designers.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers. Lida: https://uilang.com/. Redirecionava de https://uilang.com/"

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Bootstrap
+url: https://getbootstrap.com/
+area: build
+category: ui-components
+tags:
+  - css
+  - javascript
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Toolkit front-end com grid pronto, componentes, personalização em Sass e plugins em JavaScript.
+  en: Front-end toolkit with a prebuilt grid, components, Sass customization and JavaScript plugins.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css, troxler/awesome-css-frameworks, swyxio/spark-joy. Lida: https://getbootstrap.com/"

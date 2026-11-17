@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: PNChart
+url: https://github.com/kevinzhow/PNChart
+repo: https://github.com/kevinzhow/PNChart
+area: build
+category: charts
+tags:
+  - ios
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Biblioteca de gráficos para iOS usada nos apps Piner e CoinsMan.
+  en: Chart library for iOS used in the Piner and CoinsMan apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://github.com/kevinzhow/PNChart"

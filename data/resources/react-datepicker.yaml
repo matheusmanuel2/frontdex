@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: React Datepicker
+url: https://reactdatepicker.com/
+repo: https://github.com/Hacker0x01/react-datepicker
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componente de seleção de datas simples e reutilizável para React.
+  en: Simple, reusable datepicker component for React.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://reactdatepicker.com/"

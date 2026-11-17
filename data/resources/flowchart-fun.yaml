@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Flowchart Fun
+url: https://flowchart.fun/
+repo: https://github.com/tone-row/flowchart-fun
+area: build
+category: charts
+tags:
+  - text
+  - web
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Gera fluxogramas e diagramas a partir de texto.
+  en: Generates flowcharts and diagrams from text.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://flowchart.fun/"

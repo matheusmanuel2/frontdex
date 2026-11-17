@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Maze
+url: https://maze.co/
+area: build
+category: design-tools
+tags:
+  - ab-testing
+pricing: freemium
+open_source: false
+description:
+  pt: Pesquisa com usuários que junta recrutamento, testes e análise num lugar.
+  en: User research platform that brings recruiting, testing and analysis together.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: goabstract/Awesome-Design-Tools, gztchan/awesome-design. Lida: https://maze.design/. Redirecionava de https://maze.design/"

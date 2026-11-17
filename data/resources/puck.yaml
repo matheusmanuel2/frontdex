@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Puck
+url: https://puckeditor.com
+repo: https://github.com/puckeditor/puck
+area: build
+category: dev-tools
+tags:
+  - react
+pricing: freemium
+open_source: true
+license: MIT
+description:
+  pt: Editor visual de arrastar e soltar para React.
+  en: Drag-and-drop visual page editor you embed in React apps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://puckeditor.com"

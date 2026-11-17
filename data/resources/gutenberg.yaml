@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: Gutenberg
+url: https://bafs.github.io/Gutenberg
+repo: https://github.com/BafS/Gutenberg
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Framework em SCSS para imprimir páginas web corretamente.
+  en: SCSS framework for printing web pages correctly.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, troxler/awesome-css-frameworks. Lida: https://bafs.github.io/Gutenberg"

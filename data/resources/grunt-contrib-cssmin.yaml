@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: grunt-contrib-cssmin
+url: https://github.com/gruntjs/grunt-contrib-cssmin
+repo: https://github.com/gruntjs/grunt-contrib-cssmin
+area: build
+category: dev-tools
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Tarefa do Grunt que comprime arquivos CSS.
+  en: Grunt task that compresses CSS files in your build.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://github.com/gruntjs/grunt-contrib-cssmin"

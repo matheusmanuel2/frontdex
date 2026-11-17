@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: react-icomoon
+url: https://svgps.app
+repo: https://github.com/aykutkardas/react-icomoon
+area: build
+category: icons
+tags:
+  - react
+  - icons
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Usa ícones SVG do IcoMoon em projetos React e React Native.
+  en: Use IcoMoon SVG icons in React and React Native projects.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://svgps.app"

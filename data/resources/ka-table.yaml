@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+name: ka-table
+url: https://github.com/komarovalexander/ka-table
+repo: https://github.com/komarovalexander/ka-table
+area: build
+category: ui-components
+tags:
+  - react
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Tabela React leve com ordenação, filtros, agrupamento, virtualização e edição.
+  en: Lightweight React table with sorting, filtering, grouping, virtualization and editing.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://github.com/komarovalexander/ka-table"

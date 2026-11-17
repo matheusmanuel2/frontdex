@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+name: shadcn/ui
+url: https://ui.shadcn.com
+repo: https://github.com/shadcn-ui/ui
+area: build
+category: ui-components
+tags:
+  - react
+  - registry
+  - accessibility
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Componentes acessíveis que você copia para o projeto e vira dono do código.
+  en: Accessible components you copy into your project, so you own the code.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: brillout/awesome-react-components. Lida: https://ui.shadcn.com"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Leaflet
+url: https://leafletjs.com
+area: build
+category: charts
+tags:
+  - javascript
+pricing: free
+open_source: true
+license: BSD-2-Clause
+description:
+  pt: Biblioteca JavaScript leve e open source para mapas interativos.
+  en: Lightweight open-source JavaScript library for interactive maps.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://leafletjs.com"

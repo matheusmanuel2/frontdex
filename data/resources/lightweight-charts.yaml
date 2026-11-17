@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Lightweight Charts
+url: https://www.tradingview.com/lightweight-charts/
+repo: https://github.com/tradingview/lightweight-charts
+area: build
+category: charts
+tags:
+  - javascript
+  - market-data
+pricing: free
+open_source: true
+license: Apache-2.0
+description:
+  pt: Gráficos financeiros em canvas HTML5, feitos pela TradingView.
+  en: Financial charts drawn on HTML5 canvas, made by TradingView.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: hal9ai/awesome-dataviz. Lida: https://www.tradingview.com/lightweight-charts/"

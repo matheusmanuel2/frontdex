@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+name: Imager
+url: https://imager.io
+repo: https://github.com/imager-io/imager
+area: build
+category: dev-tools
+tags:
+  - cli
+  - web
+pricing: free
+open_source: true
+license: MPL-2.0
+description:
+  pt: Compressão automática de imagens para distribuí-las na web com eficiência.
+  en: Automated image compression for distributing images efficiently on the web.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: davidsonfellipe/awesome-wpo. Lida: https://imager.io"

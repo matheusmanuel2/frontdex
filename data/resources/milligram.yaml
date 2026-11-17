@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schema.json
+name: Milligram
+url: https://milligram.io/
+area: build
+category: ui-components
+tags:
+  - css
+pricing: free
+open_source: true
+license: MIT
+description:
+  pt: Framework CSS minimalista para começar projetos com pouca base de estilo.
+  en: Minimalist CSS framework for starting projects on a small styling base.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: bradtraversy/design-resources-for-developers, awesome-css-group/awesome-css. Lida: https://milligram.io/"

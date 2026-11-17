@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+name: Klim Type Foundry
+url: https://klim.co.nz/
+area: build
+category: fonts
+tags:
+  - typography
+pricing: paid
+open_source: false
+description:
+  pt: Fundição independente de Kris Sowersby em Wellington, com fontes à venda e trabalhos tipográficos sob medida.
+  en: Independent foundry led by Kris Sowersby in Wellington, selling fonts and doing custom type work.
+added: 2026-11-17
+last_checked: 2026-11-17
+status: active
+notes: "Scout, aprovado em lote pelo Matheus (ADR 0014). Fonte: gztchan/awesome-design. Lida: https://klim.co.nz/"
