@@ -1,6 +1,7 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 
+import { settleAnimations } from './animations';
 import { listAreas, listCategories, listResources } from '../../lib/content';
 
 const AREAS = ['discover', 'learn', 'build', 'grow'];
@@ -36,6 +37,7 @@ test('Construir: categorias com recursos, sem categorias vazias, e nav ativa', a
     'aria-current',
     'page',
   );
+  await settleAnimations(page);
   const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa']).analyze();
   expect(results.violations).toEqual([]);
 });

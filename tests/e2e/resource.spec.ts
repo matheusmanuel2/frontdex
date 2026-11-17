@@ -1,6 +1,8 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 
+import { settleAnimations } from './animations';
+
 test('recurso com "por que está aqui", detalhes e links externos com noopener e nova aba', async ({ page }) => {
   await page.goto('/pt/r/kugiri');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('kugiri');
@@ -20,6 +22,7 @@ test('recurso com "por que está aqui", detalhes e links externos com noopener e
     'href',
     /\/edit\/main\/data\/resources\/kugiri\.yaml$/,
   );
+  await settleAnimations(page);
   const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa']).analyze();
   expect(results.violations).toEqual([]);
 });

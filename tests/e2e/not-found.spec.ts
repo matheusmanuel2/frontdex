@@ -1,11 +1,14 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 
+import { settleAnimations } from './animations';
+
 test('/pt/qualquer-coisa mostra a 404 em pt-BR com status 404', async ({ page }) => {
   const response = await page.goto('/pt/qualquer-coisa');
   expect(response?.status()).toBe(404);
   await expect(page.getByRole('heading', { level: 1 })).toContainText('Esta página não está no índice.');
   await expect(page.getByRole('link', { name: 'Voltar ao início' })).toHaveAttribute('href', '/pt');
+  await settleAnimations(page);
   const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa']).analyze();
   expect(results.violations).toEqual([]);
 });
